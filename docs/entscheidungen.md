@@ -33,7 +33,11 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - Dokumentation in diesem GitHub-Repo, inkl. Ideen-Liste und `CLAUDE.md`.
 - World-Building wird separat besprochen.
 
+## Stand 07.10.2026 (Nachtrag)
+
+### Werte und Würfelprobe
+- **Vier Werte:** Kraft, Geschick, Verstand, Ausstrahlung.
+- **Würfelprobe: 2W6 + Wert.** 10 oder mehr = Erfolg, 7–9 = „Ja, aber …“, 6 oder weniger = Misserfolg.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
-- Genaue Anzahl und Namen der Werte (3 oder 4).
-- Schwellenwerte für die drei Würfel-Ausgänge bei 2W6.

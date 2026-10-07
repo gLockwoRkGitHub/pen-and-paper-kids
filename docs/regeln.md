@@ -2,8 +2,7 @@
 
 Entwurf. Festgelegtes ist markiert, der Rest sind Vorschläge.
 
-## Werte (festgelegt: 3 oder 4)
-Vorschlag mit vier Werten:
+## Werte (festgelegt)
 
 | Wert | Wofür |
 |---|---|
@@ -14,8 +13,8 @@ Vorschlag mit vier Werten:
 
 Werte steigen beim Level-Up (festgelegt).
 
-## Würfelprobe (festgelegt: 2W6, drei Ausgänge)
-Vorschlag für die Schwellen: **2W6 + Wert**
+## Würfelprobe (festgelegt)
+**2W6 + Wert**
 
 | Ergebnis | Ausgang |
 |---|---|
