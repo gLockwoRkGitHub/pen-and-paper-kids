@@ -26,4 +26,5 @@ Ob native App (Android/iOS) oder für Tablets und Handys optimierte Webseite, is
 | `docs/regeln.md` | Werte, Würfel, Level-Ups, Völker, Hintergründe |
 | `docs/weltgedaechtnis.md` | Wie sich die Welt an Entscheidungen erinnert |
 | `docs/worldbuilding/` | Welt, Orte, Fraktionen, Figuren |
+| `docs/worldbuild-ideas.md` | World-Building-Ideen für später |
 | `story/` | Die Kapitel des Abenteuers |
