@@ -11,7 +11,11 @@ Entwurf. Festgelegtes ist markiert, der Rest sind Vorschläge.
 | Verstand | Rätsel, Wissen, Spuren lesen |
 | Ausstrahlung | Überreden, Einschüchtern, Lügen erkennen |
 
-Werte steigen beim Level-Up (festgelegt).
+## Startwerte, Höchstwert und Level-Up (festgelegt)
+- **Start:** Alle Werte beginnen bei 0. Der Spieler verteilt **+2, +1, +1** auf drei Werte.
+- **Bonus:** Volk oder Hintergrund können zusätzlich **+1** geben.
+- **Höchstwert: +3** pro Wert. Selbst bei +3 bleibt ein Wurf von 2 (Pasch-Einser) mit 5 ein Misserfolg.
+- **Level-Up an festen Story-Punkten:** am Ende jeder „Perle“ (Hauptkapitel), ohne Erfahrungspunkte.
 
 ## Würfelprobe (festgelegt)
 **2W6 + Wert**

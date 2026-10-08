@@ -39,5 +39,12 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Vier Werte:** Kraft, Geschick, Verstand, Ausstrahlung.
 - **Würfelprobe: 2W6 + Wert.** 10 oder mehr = Erfolg, 7–9 = „Ja, aber …“, 6 oder weniger = Misserfolg.
 
+## Stand 08.10.2026
+
+### Startwerte und Level-Up
+- **Startwerte:** alle Werte bei 0, der Spieler verteilt +2, +1, +1. Volk oder Hintergrund können +1 geben.
+- **Höchstwert:** +3 pro Wert.
+- **Level-Up** am Ende jeder „Perle“ (Hauptkapitel) statt über Erfahrungspunkte.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
