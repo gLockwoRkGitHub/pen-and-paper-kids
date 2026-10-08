@@ -45,6 +45,8 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Startwerte:** alle Werte bei 0, der Spieler verteilt +2, +1, +1. Volk oder Hintergrund können +1 geben.
 - **Höchstwert:** +3 pro Wert.
 - **Level-Up** am Ende jeder „Perle“ (Hauptkapitel) statt über Erfahrungspunkte.
+- **Pro Level-Up +1** auf einen Wert nach Wahl. Ist die Figur ausgereizt, schaltet ein Level-Up etwas aus der Geschichte frei (neue Fähigkeit, Titel).
+- Feinjustierung nach den Erfahrungen mit dem ersten Abenteuer.
 
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.

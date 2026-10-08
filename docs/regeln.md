@@ -16,6 +16,9 @@ Entwurf. Festgelegtes ist markiert, der Rest sind Vorschläge.
 - **Bonus:** Volk oder Hintergrund können zusätzlich **+1** geben.
 - **Höchstwert: +3** pro Wert. Selbst bei +3 bleibt ein Wurf von 2 (Pasch-Einser) mit 5 ein Misserfolg.
 - **Level-Up an festen Story-Punkten:** am Ende jeder „Perle“ (Hauptkapitel), ohne Erfahrungspunkte.
+- **Pro Level-Up: +1** auf einen Wert nach Wahl. Damit ist eine Figur nach etwa 7–8 Perlen ausgebaut.
+- **Ist die Figur ausgereizt,** schaltet ein Level-Up stattdessen etwas aus der Geschichte frei (z. B. neue Hintergrund-Fähigkeit oder ein Titel, auf den die Welt reagiert).
+- Erfahrungen aus dem ersten Abenteuer fließen in die Feinjustierung ein.
 
 ## Würfelprobe (festgelegt)
 **2W6 + Wert**

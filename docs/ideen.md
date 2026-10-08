@@ -17,6 +17,7 @@ Noch nicht entschiedene Ideen. Was angenommen wird, wandert nach `entscheidungen
 - **Echte Dilemmata** ohne erhobenen Zeigefinger.
 
 ## Später / nach der Beta
+- **Addons / Folgeabenteuer:** Die Figur wird wieder stärker (z. B. höhere Obergrenze) oder verbessert sich in anderen Bereichen.
 - **Familienmodus:** ein Gerät reihum, jedes Kind mit eigener Figur.
 - **Spielleiter-Modus für Eltern:** App liefert das Skript, gespielt wird am Tisch.
 - **KI als Erzähler** für Freitext-Antworten – nur mit Blick auf Inhaltssicherheit, Kosten und Datenschutz.
