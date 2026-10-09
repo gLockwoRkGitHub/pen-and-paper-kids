@@ -19,6 +19,6 @@ Referenz: `stil-vorschlaege/1-gemaltes-abenteuerbuch.jpg`
 - Figuren müssen über alle Bilder hinweg wiedererkennbar bleiben (Kleidung, Farben, Merkmale festhalten).
 - Ton: warm und abenteuerlich, finstere Momente erlaubt, nicht gruselig.
 
-## Vorschläge (noch nicht entschieden)
-- **Die Karte als Tagebuchseite:** Der Spieler zeichnet die Karte selbst nach und nach. Neue Orte erscheinen als Skizze, sobald man sie entdeckt. Das verbindet Karte, Nebel des Unbekannten und Tagebuch.
+## Karte und Tagebuch (entschieden 09.10.2026)
+- **Die Karte ist eine Tagebuchseite:** Der Spieler malt die Karte selbst und erweitert sie nach und nach. Neue Orte erscheinen als Skizze, sobald man sie entdeckt. Das verbindet Karte, Nebel des Unbekannten und Tagebuch.
 - **Tagebuch-Skizzen als Belohnung:** Nach wichtigen Entscheidungen oder Begegnungen kommt eine neue Skizze ins Tagebuch – zum Nachblättern.

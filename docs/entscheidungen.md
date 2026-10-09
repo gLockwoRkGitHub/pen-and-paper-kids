@@ -55,6 +55,8 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Szene:** Szenen und Charaktervorstellungen im Grundstil.
 - **Entdeckung:** Städte und Mechaniken beim ersten Anblick – gemalte Mitte, Skizzen am Rand.
 - **Tagebuch:** Skizzen, die der Spieler selbst „gemalt“ und in seinem Tagebuch festgehalten hat.
+- **Karte als Tagebuchseite:** Der Spieler malt die Karte selbst und erweitert sie nach und nach; neue Orte erscheinen als Skizze.
+- **Tagebuch-Skizzen** nach wichtigen Entscheidungen und Begegnungen, zum Nachblättern.
 - Details: `docs/art/art-style.md`.
 
 ## Offen
