@@ -68,6 +68,8 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Gilden:** Bankiers, Alchemisten, Diebe, Kartografen, Stoff- und Erzgilde; auch rivalisierende Gilden derselben Art möglich.
 - **Gildenbeitritt** erst nach einer Aufgabe, bei etwa 30–40 % der Story.
 - **Element unabhängig vom Hintergrund**, Geschichten können aber verwoben werden.
+- **Hintergründe zum Start:** Reisender, Schausteller, Straßenkind, Botenläufer, Kartografenlehrling, Schiffsjunge.
+- **Start-Fragen:** 4–5 kleine Szenen nach der Charaktererstellung; Hintergrund + Antworten ergeben einen von 3–4 Auslösern und die ersten Einträge ins Weltgedächtnis (Details in `docs/regeln.md`).
 - Details: `docs/worldbuilding/voelker.md`, `docs/worldbuilding/gilden.md`.
 
 ## Offen

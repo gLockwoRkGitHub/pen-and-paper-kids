@@ -36,26 +36,28 @@ Spielbar: **Mensch, Zwerg, Gnom, Ork, Troll.** Details in `docs/worldbuilding/vo
 - Die **Elementarrichtung ist unabhängig vom Hintergrund** (festgelegt). Die Geschichten des Hintergrunds können aber mit einem Element verwoben werden.
 - Jeder Hintergrund bringt mit (Vorschlag): eine **passive Fähigkeit**, **exklusive Antwortoptionen** und **Startkontakte**.
 
-### Vorschlag: Liste der Hintergründe
+### Hintergründe zum Start (festgelegt 09.10.2026)
+**Reisender, Schausteller, Straßenkind, Botenläufer, Kartografenlehrling, Schiffsjunge.**
+Die übrigen Vorschläge sind für später vorgemerkt (`docs/ideen.md`).
+
+### Fähigkeiten und Startkontakte (Vorschlag)
 
 | Hintergrund | Passive Fähigkeit | Startkontakt / Story-Haken |
 |---|---|---|
 | Reisender | Kennt Wege, startet mit größerer Karte im Tagebuch | Alte Weggefährten in mehreren Orten |
 | Schausteller | Ablenken, verkleiden, ein Publikum aufwiegeln | Eine fahrende Truppe |
-| Bettelmönch | Vertrauen des einfachen Volks, Zugang zu Klöstern | Ein Orden ohne Götter – Philosophen und Helfer der Armen |
-| Schankwirtskind | Hört Gerüchte, erkennt Lügner | Stammgäste aus allen Gilden |
-| Schmiedelehrling | Erkennt Qualität von Waffen und Werkzeugen, kann reparieren | Bund von Webstuhl und Amboss |
 | Straßenkind | Findet Schleichwege, bemerkt Taschendiebe | Die Leise Hand |
-| Bauernkind | Kennt Tiere, Wetter und Pflanzen | Dörfer und Höfe der Region |
 | Kartografenlehrling | Liest Karten, schätzt Entfernungen, zeichnet besonders genau | Gesellschaft der Weiten Feder |
-| Kräutersammler | Erkennt Heil- und Giftpflanzen | Zirkel der Glühenden Phiole |
 | Schiffsjunge | Kennt Knoten, Takelage und Luftschiffe, schwindelfrei | Eine Luftschiff-Mannschaft |
-| Tüftlerlehrling | Versteht Mechanik, öffnet einfache Schlösser und Maschinen | Eine Gnomen- oder Goblin-Werkstatt |
 | Botenläufer | Schnell, ausdauernd, kennt Wachen und Torwärter | Abenteurer und Händler – passt zur Rolle der Abenteurer als Informationsüberbringer |
-| Minenhelfer | Orientierung unter Tage, versteht Gestein | Kobold-Minen (Achtung: Zugang zu Kobolden auch als Feind möglich) |
 
-## Beginn der Reise
-Vorschlag von Pasco (09.10.2026): Nach der Charaktererstellung beantwortet der Spieler **4–5 Fragen**. Je nach Auswahl und Ausgang gibt es **unterschiedliche Gründe**, warum die Reise beginnt. Ausarbeitung siehe `docs/ideen.md`.
+## Beginn der Reise: Start-Fragen (festgelegt 09.10.2026)
+- Nach der Charaktererstellung beantwortet der Spieler **4–5 Fragen**. Je nach Auswahl und Ausgang gibt es **unterschiedliche Gründe**, warum die Reise beginnt.
+- Die Fragen sind **kleine Szenen aus der letzten Nacht vor dem Aufbruch**, kein Fragebogen.
+- **Hintergrund + Antworten** ergeben einen von **3–4 Auslösern** (z. B. Schulden, ein verschwundener Mensch, ein Brief, eine Flucht).
+- Die Antworten schreiben die **ersten Einträge ins Weltgedächtnis** (erste Freundschaft, erster Gegner, ein geschuldeter Gefallen).
+- Eine Antwort kann **unsichtbar eine Element-Neigung** anlegen, ohne den Spieler festzulegen.
+- Die **erste Tagebuchseite** fasst den Aufbruch zusammen.
 
 ## Niederlagen
 Kein endgültiger Tod (festgelegt). Stattdessen Ohnmacht, Gefangenschaft, Flucht oder Verlust.
