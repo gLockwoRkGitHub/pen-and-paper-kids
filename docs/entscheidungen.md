@@ -48,5 +48,14 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Pro Level-Up +1** auf einen Wert nach Wahl. Ist die Figur ausgereizt, schaltet ein Level-Up etwas aus der Geschichte frei (neue Fähigkeit, Titel).
 - Feinjustierung nach den Erfahrungen mit dem ersten Abenteuer.
 
+## Stand 09.10.2026
+
+### Art-Style
+- **Grundstil: Gemaltes Abenteuerbuch** (Aquarell/Gouache mit Tuschekonturen).
+- **Szene:** Szenen und Charaktervorstellungen im Grundstil.
+- **Entdeckung:** Städte und Mechaniken beim ersten Anblick – gemalte Mitte, Skizzen am Rand.
+- **Tagebuch:** Skizzen, die der Spieler selbst „gemalt“ und in seinem Tagebuch festgehalten hat.
+- Details: `docs/art/art-style.md`.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.

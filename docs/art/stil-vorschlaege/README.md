@@ -11,4 +11,4 @@ Stand 08.10.2026. Alle Bilder zeigen dieselbe Szene: ein junger Reisender mit Ra
 | `mix-1-und-3.jpg` | Mischung 1 + 3 |
 | `mix-2-und-3.jpg` | Mischung 2 + 3 (Pascos Favoriten-Kombination) |
 
-**Entscheidung:** offen – wird mit dem Sohn abgestimmt.
+**Entscheidung (09.10.2026):** Stil 1 als Grundstil, Mischung 1 + 3 für Entdeckungen und Tagebuch-Skizzen. Siehe `../art-style.md`.

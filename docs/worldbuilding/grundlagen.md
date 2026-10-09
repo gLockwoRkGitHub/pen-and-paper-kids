@@ -46,12 +46,11 @@ Stand 08.10.2026 – Antworten aus Runde 1.
 - **Nicht richtig gruselig.** Finstere Momente ja, Horror nein.
 
 ## Art-Style
-- **Offen.** Der Stil soll nicht nur für Karten taugen, sondern auch für Figuren, Begleiter und Freunde. Claude macht visuelle Vorschläge.
+- **Entschieden (09.10.2026):** Gemaltes Abenteuerbuch mit drei Bildebenen – Szene, Entdeckung, Tagebuch. Details in `docs/art/art-style.md`.
 
 ## Noch zu besprechen
 - Hintergründe der Spielfigur
 - Die größere Bedrohung
 - Magiesystem im Detail
-- Art-Style
 - Völker, Fraktionen und Gilden (Runde 2)
 - Startregion, Orte, Begleiter, erste Figuren (Runde 3)
