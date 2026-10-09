@@ -16,6 +16,16 @@ Noch nicht entschiedene Ideen. Was angenommen wird, wandert nach `entscheidungen
 - **Hintergründe bringen je drei Dinge mit:** passive Fähigkeit, exklusive Antwortoptionen, Startkontakte.
 - **Echte Dilemmata** ohne erhobenen Zeigefinger.
 
+## Beginn der Reise: Start-Fragen
+Idee von Pasco (09.10.2026): Nach der Charaktererstellung 4–5 Fragen; je nach Auswahl und Ausgang gibt es unterschiedliche Gründe für den Aufbruch.
+
+Vorschlag zur Ausarbeitung:
+- Die Fragen sind **kleine Szenen aus der letzten Nacht vor dem Aufbruch**, kein Fragebogen – z. B. „Ein Fremder klopft spät an deine Tür …“.
+- **Hintergrund + Antworten** ergeben einen von **3–4 Auslösern** (begrenzt, damit es schreibbar bleibt), z. B. Schulden, ein verschwundener Mensch, ein Brief, eine Flucht.
+- Die Antworten schreiben die **ersten Einträge ins Weltgedächtnis** (erste Freundschaft, erster Gegner, erster Gefallen, den man schuldet).
+- Eine Antwort kann **unsichtbar eine Element-Neigung** anlegen, die später in der Geschichte aufgegriffen wird – ohne den Spieler festzulegen.
+- Die erste Tagebuchseite fasst den Aufbruch zusammen.
+
 ## Später / nach der Beta
 - **Addons / Folgeabenteuer:** Die Figur wird wieder stärker (z. B. höhere Obergrenze) oder verbessert sich in anderen Bereichen.
 - **Familienmodus:** ein Gerät reihum, jedes Kind mit eigener Figur.

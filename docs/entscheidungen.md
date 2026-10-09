@@ -59,5 +59,16 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Tagebuch-Skizzen** nach wichtigen Entscheidungen und Begegnungen, zum Nachblättern.
 - Details: `docs/art/art-style.md`.
 
+### Völker, Gilden, Hintergründe (World-Building Runde 2)
+- **Spielbare Völker:** Mensch, Zwerg, Gnom, Ork, Troll. Weitere später über Addons.
+- **Gnome und Goblins** bilden das Steampunk-Volk: präzise gegen riskant, in dauerhaftem Wettstreit.
+- **Wildnis:** Gnolle (Nomaden) und Kobolde (an ihre Minen gebunden). Orks und Trolle leben gemeinsam in eigenen Städten mit Clan-Strukturen.
+- **Politik:** Menschen mit gewählten Stadträten und heimlichem Gilden-Einfluss (die meiste Intrige), Zwerge unter einem König, Gnome nach Gilden-Prinzip, Orks/Trolle mit Stammesführern.
+- **Abenteurer** werden von allen Völkern akzeptiert und dienen als Vermittler und Informationsüberbringer.
+- **Gilden:** Bankiers, Alchemisten, Diebe, Kartografen, Stoff- und Erzgilde; auch rivalisierende Gilden derselben Art möglich.
+- **Gildenbeitritt** erst nach einer Aufgabe, bei etwa 30–40 % der Story.
+- **Element unabhängig vom Hintergrund**, Geschichten können aber verwoben werden.
+- Details: `docs/worldbuilding/voelker.md`, `docs/worldbuilding/gilden.md`.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.

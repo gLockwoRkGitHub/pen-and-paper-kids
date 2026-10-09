@@ -49,8 +49,7 @@ Stand 08.10.2026 – Antworten aus Runde 1.
 - **Entschieden (09.10.2026):** Gemaltes Abenteuerbuch mit drei Bildebenen – Szene, Entdeckung, Tagebuch. Details in `docs/art/art-style.md`.
 
 ## Noch zu besprechen
-- Hintergründe der Spielfigur
+- Hintergründe der Spielfigur: Liste auswählen (Vorschlag in `docs/regeln.md`)
 - Die größere Bedrohung
 - Magiesystem im Detail
-- Völker, Fraktionen und Gilden (Runde 2)
 - Startregion, Orte, Begleiter, erste Figuren (Runde 3)
