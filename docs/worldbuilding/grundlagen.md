@@ -32,7 +32,7 @@ Stand 08.10.2026 – Antworten aus Runde 1.
 
 - **Nicht alle Lebewesen sind magiebegabt.** Es gibt starke Elementarmagier in den jeweiligen Aspekten.
 - Der Spieler **entscheidet sich subtil, Schritt für Schritt** für ein Element und wird auf der Reise besser – durch Bekanntschaften, die richtigen Ausbildungen oder Bücher.
-- **Offen:** Details des Magiesystems (was und wie oft der Spieler damit umgehen kann) werden separat besprochen.
+- Details des Magiesystems: `docs/magie.md`.
 
 ## Götter und Glaube
 - **Keine eingreifenden Götter.**
@@ -50,4 +50,3 @@ Stand 08.10.2026 – Antworten aus Runde 1.
 
 ## Noch zu besprechen
 - Die größere Bedrohung
-- Magiesystem im Detail

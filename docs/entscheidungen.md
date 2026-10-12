@@ -88,8 +88,18 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Hauptstory „Der Weg hinaus“** mit 7 Perlen ist die Grundlage für das erste Abenteuer: Schließung der Schlucht, Intrige um die Gilden, Finale mit Routenwahl je nach Weltgedächtnis. Details: `story/hauptstory-entwurf.md`.
 - Details: `docs/worldbuilding/startregion.md`, `docs/worldbuilding/figuren.md`.
 
+### Magiesystem
+- **Elementwahl:** unsichtbare Neigungspunkte ab den Start-Fragen, Erwachen in Perle 2, der Spieler darf bestätigen oder ein anderes Element wählen. Ein Element pro Figur.
+- **Elementstufe 1–3** (Funke, Strom, Sturm), steigt durch die Story, nicht durch Level-Ups. **Zauberprobe: 2W6 + Elementstufe.**
+- **Umgebung:** Element stark vorhanden +1, fehlt es, braucht man eine Quelle (Wind braucht keine).
+- **Kraftfunken** = Elementstufe + 1, ein Funke pro Zauber, zurück durch Rasten.
+- **Kein Zauber verletzt direkt.** Misserfolg: Element gerät kurz außer Kontrolle, nie tödlich.
+- **Magie in der Welt:** bekannt, aber man ist vorsichtig mit Magiern. Zaubern in Städten erlaubt, die Gilden wollen es verbieten und Magie für sich bündeln. Magier haben einen eigenen Namen für Unbegabte.
+- **Ein Mentor je Element.**
+- Details: `docs/magie.md`.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
-- Magiesystem im Detail.
+- Name für Unbegabte, Mentoren im Detail.
 - Die größere Bedrohung (im ersten Abenteuer nur Hinweise).
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).
