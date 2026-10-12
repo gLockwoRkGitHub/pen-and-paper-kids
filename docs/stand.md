@@ -29,7 +29,7 @@ Stand: 12.10.2026 (nachts, Sitzungsende)
 
 ## Nächste Schritte
 0. **Lokal: alle Bilder für Perle 1** nach `docs/auftraege.md` (Schritte A–F). Danach prüft Claude im Chat die Übersicht.
-1. **Abnahmen offen:** Der Fremde (dritter Versuch läuft mit), Nerelle (überarbeitet), Tickwort mit dem Sohn ansehen.
+1. **Abnahmen offen:** Der Fremde (dritter Versuch läuft mit), Nerelle (überarbeitet), Tickwort mit dem Sohn ansehen. Stand lokale Sitzung 13.10.2026: Borrik und Vael sind bestätigt. Nur lokal auf Pascos PC (nicht im Repo) liegen `grumak-*-neu.png`, `fremder-*-neu.png` und Nerelles zwei Bilder; die alten Bilder von Grumak und dem Fremden sind unverändert.
 2. **Perle 2 testspielen** und Rückmeldung einarbeiten; danach Szenenbilder für Perle 2 genauso ausarbeiten wie für Perle 1.
 3. **Perle 3 „Die Gildenprobe“** schreiben: Gildentag, Prüfungen mehrerer Gilden, Gildenbeitritt (~35 % der Story), erste Hinweise, dass Liora/Cassians Eltern die Goldene Waage führen, Magiergesetz im Stadtrat.
 4. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.
