@@ -21,6 +21,7 @@ Ob native App (Android/iOS) oder für Tablets und Handys optimierte Webseite, is
 | Pfad | Inhalt |
 |---|---|
 | `CLAUDE.md` | Kontext und Arbeitsregeln für Claude |
+| `docs/setup.md` | Lokale Einrichtung auf Pascos Rechner |
 | `docs/entscheidungen.md` | Festgelegte Grundsatzentscheidungen |
 | `docs/ideen.md` | Ideen-Liste (noch nicht entschieden) |
 | `docs/regeln.md` | Werte, Würfel, Level-Ups, Völker, Hintergründe |

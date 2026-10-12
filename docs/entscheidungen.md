@@ -105,6 +105,12 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 ### Story-Format
 - **Ink** (inkle) für alle Story-Dateien; spielbar im Editor Inky, automatischer Test mit `npm test`. Details: `story/format.md`.
 
+### Vertonung (später)
+- **Alle Figuren außer der Spielfigur werden mit ElevenLabs vertont.** Umsetzung später; Sprecher werden dafür in den Story-Dateien markiert.
+
+### Bilder
+- Bilder und Karten werden **lokal und privat** erzeugt (Krita + Krita AI Diffusion), nicht über Firmenkonten. Details: `docs/art/werkzeuge.md`, Einrichtung: `docs/setup.md`.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
 - Die größere Bedrohung (im ersten Abenteuer nur Hinweise).

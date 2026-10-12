@@ -3,7 +3,8 @@
 Noch nicht entschiedene Ideen. Was angenommen wird, wandert nach `entscheidungen.md`.
 
 ## Vorgemerkt
-- **Vorlesefunktion** – damit Texte vorgelesen werden können (z. B. als Abendabenteuer).
+- **Vorlesefunktion** – damit Texte vorgelesen werden können (z. B. als Abendabenteuer). Könnte mit der ElevenLabs-Vertonung zusammenfallen: eine Erzählerstimme für den Erzähltext.
+- **Vertonung – technischer Vorschlag:** Dialogzeilen in Ink mit `# sprecher: tickwort` markieren; ein Skript sammelt alle Zeilen je Figur, erzeugt die Audiodateien über die ElevenLabs-API und legt sie unter einer festen ID ab. Zeilen mit Varianten (Liora/Cassian, Pronomen) brauchen je Variante eine eigene Aufnahme.
 
 ## Vorschläge aus den ersten Gesprächen
 - **Narben statt Tod:** Niederlagen hinterlassen bleibende Spuren – verlorene Gegenstände, Gefangenschaft, eine Verletzung oder ein Ruf, der einem vorauseilt.
