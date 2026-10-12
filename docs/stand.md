@@ -22,6 +22,7 @@ Stand: 12.10.2026 (abends)
 - Bilder werden lokal erzeugt (Krita AI Diffusion / ComfyUI), nicht über Firmenkonten. Bevorzugtes Modell für eine spätere Veröffentlichung: FLUX.1 [schnell] (Apache-2.0) oder SDXL – siehe `docs/art/werkzeuge.md`.
 
 ## Nächste Schritte
+0. **Offene Aufträge:** `docs/auftraege.md` (Grumak und der Fremde neu, Spiralsiegel).
 1. **Tickwort mit dem Sohn ansehen** (`docs/art/figuren/tickwort-einzel.png`, `tickwort-referenzblatt.png`) und bei Bedarf nachbessern.
 2. **Liora und Cassian sind bestätigt** (12.10.2026): Einzelbilder, Referenzblätter und die Sturz-Variante liegen in `docs/art/figuren/`. Referenzblätter zeigen Figuren immer im Grundaussehen (`docs/worldbuilding/figuren-aussehen.md`).
 3. **Grumak, Fesk und der Fremde sind bestätigt** (12.10.2026): Einzelbilder und Referenzblätter liegen in `docs/art/figuren/`. Der Fremde hat ein völlig schwarzes Gesicht unter der Kapuze.

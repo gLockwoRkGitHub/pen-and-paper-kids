@@ -39,7 +39,8 @@ Siehe `docs/entscheidungen.md`. Diese Punkte nicht stillschweigend ändern; Änd
 
 ## Git-Abgleich (automatisch)
 
-- **Zu Beginn:** Ein SessionStart-Hook (`.claude/settings.json`) führt beim Start jeder Claude-Code-Sitzung `git pull --rebase --autostash` aus. Zur Sicherheit vor dem ersten Ändern trotzdem kurz `git status` prüfen.
+- **Zu Beginn:** Ein SessionStart-Hook (`.claude/settings.json` → `tools/sitzungsstart.js`) führt beim Start jeder Claude-Code-Sitzung `git pull --rebase --autostash` aus und zeigt die offenen Aufträge aus `docs/auftraege.md`. Zur Sicherheit vor dem ersten Ändern trotzdem kurz `git status` prüfen.
+- **Aufträge:** Arbeit für die lokale Sitzung (Bilder, Audio) steht in `docs/auftraege.md`. Erledigtes abhaken, committen, pushen.
 - **Nach jedem abgeschlossenen Arbeitsschritt:** selbstständig committen und pushen, ohne nachzufragen: `git pull --rebase --autostash`, dann `git push`. Vorher `npm test`, falls Story-Dateien geändert wurden.
 - **Nie committen:** `Krita/`, `node_modules/`, `.env`, große Rohdateien. Bilder nur, wenn sie bewusst ausgewählt wurden.
 - **Bei einem Konflikt:** nichts überschreiben, sondern Pasco fragen.

@@ -38,6 +38,7 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 | Die Mentoren | Borrik, Nerelle, Yrsa, Vael – siehe `docs/magie.md` | |
 
 ## Geheimnisvolle Figur (festgelegt)
+- **Ausgestaltung (Charakter, Aussehen, Verhalten, Geheimnis):** `docs/worldbuilding/der-fremde.md` – von Claude gestaltet, freie Hand von Pasco (12.10.2026).
 - Baut eine **parallele Story** auf, möglicherweise für das nächste Addon.
 - Greift **hin und wieder in den aktuellen Storyfaden** ein.
 - Streut Hinweise auf die größere Bedrohung.

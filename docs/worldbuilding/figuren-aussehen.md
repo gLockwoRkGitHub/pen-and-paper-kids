@@ -68,7 +68,7 @@ Diese Details stehen nicht in der Story; sie stammen aus den Entwürfen in `docs
 | **Kettrich** (Gnom) | Hallenmeister, Brille mit drei Gläsern übereinander, Weste mit Abzeichen (Webschiffchen gekreuzt mit Hammer) | Story |
 | **Grumak** (Ork) | groß wie ein Schrank, graue Strähnen im Haar, kleine goldene Ringe in beiden Ohren, Gewürzhändler | Story |
 | **Fesk** (Eintreiber) | dürr, silbergrauer Mantel, dickes Buch unter dem Arm, auffällige Nase, kleine Silbermünze am Kragen | Story |
-| **Der Fremde** | langer grauer Mantel, Kapuze tief im Gesicht, Augen hell wie Mondlicht auf Wasser, Stiefel voller grauem Bergstaub | Story |
+| **Der Fremde** | siehe `der-fremde.md` | Claude |
 | **Fink** (Leise Hand) | Junge, tief ins Gesicht gezogene Mütze mit aufgenähtem Zeichen (Hand, Finger an den Lippen) | Story |
 | **Meister Orwin** (Kartograf) | alt, tintenblaue Finger, eine Brille auf der Nase, eine zweite auf der Stirn | Story |
 | **Hauptfrau Hallward** (Stadtwache) | kräftig, kurz geschorenes Haar | Story |
@@ -79,10 +79,10 @@ Diese Details stehen nicht in der Story; sie stammen aus den Entwürfen in `docs
 
 ### Ergänzungen aus den bestätigten Bildern (festgelegt 12.10.2026)
 Diese Details stehen nicht in der Story; sie stammen aus den Bildern in `docs/art/figuren/`, die Pasco bestätigt hat.
-- **Grumak:** graugrüne Haut, zwei kleine Hauer, spitze Ohren, langes schwarzes Haar zurückgebunden; rostrote Händlertunika mit Goldborte, breiter Ledergürtel mit Gewürzbeuteln, safrangelbe Schärpe, dunkle weite Hose, Sandalen. Freundlich, müde, besorgt – kein Krieger.
+- **Grumak:** **groß und massig wie ein Schrank** (angepasst 12.10.2026): deutlich größer als ein Mensch, sehr breite Schultern, kräftige Arme, großer Brustkorb – aber gutmütig, nicht bedrohlich. Graugrüne Haut, **zwei deutliche untere Hauer**, spitze Ohren, langes schwarzes Haar mit **grauen Strähnen**, zurückgebunden; **kleine goldene Ringe in beiden Ohren**. Rostrote Händlertunika mit Goldborte, breiter Ledergürtel mit Gewürzbeuteln, safrangelbe Schärpe, dunkle weite Hose, Sandalen. Freundliches, müdes, besorgtes Gesicht – kein Krieger.
 - **Fesk:** Mensch um die fünfzig, schütteres graues Haar nach hinten gekämmt, sehr lange spitze Nase; silbergrauer Mantel mit Stehkragen bis zum Hals geknöpft, graue Hose, polierte schwarze Schuhe; Federkiel in der Hand.
-- **Der Fremde:** Gesicht **völlig schwarz** im Schatten der Kapuze, nur die hellen Augen sind zu sehen (ausdrücklich bestätigt – kein angedeutetes Gesicht, auch nicht von der Seite); schlichter grauer Mantel bis zu den Knöcheln, graue Handschuhe.
-  - **Szenenzustand** Perle 1, Nacht: nasser Mantel, Brief mit Spiralsiegel in der Hand.
+- **Der Fremde:** **neu gestaltet von Claude (12.10.2026, freie Hand von Pasco)** – verbindlich ist `docs/worldbuilding/der-fremde.md`. Kurz: groß und schlank; abgetragener grauer Reisemantel mit Kapuze; Gesicht im Schatten, aber Kinn und Mund schwach erkennbar; silbrig schimmernde Augen (spiegeln Licht, leuchten nicht); Bronzeschließe in Form der Spirale aus vier Linien; heller Treibholzstab; graue Handschuhe; Stiefel voller grauem Bergstaub.
+  - **Szenenzustand** Perle 1, Nacht: nasser Mantel, Brief mit **dunkelgrünem** Siegel (Spirale aus vier Linien) in der Hand.
 
 ## Bezugspersonen (je nach Hintergrund)
 
