@@ -15,7 +15,7 @@ Stand 12.10.2026. Ziel: Das Projekt liegt auf Pascos Rechner, Claude kann darauf
 2. **Node.js (LTS)** installieren: https://nodejs.org
 3. **Projektordner anlegen und Repo holen**, z. B.:
    ```
-   cd C:\Projekte
+   cd E:\Projekte
    git clone https://github.com/gLockwoRkGitHub/pen-and-paper-kids.git
    cd pen-and-paper-kids
    npm install
@@ -35,7 +35,7 @@ Stand 12.10.2026. Ziel: Das Projekt liegt auf Pascos Rechner, Claude kann darauf
      - **Install** klicken und warten. Danach den Server mit **Launch** starten.
    - Voraussetzung: NVIDIA ab RTX 2060 und **aktueller Grafikkartentreiber**.
    - Anleitung des Herstellers: https://docs.interstice.cloud/installation/
-6. **Claude-Desktop-App** öffnen, diesen Chat aufrufen und **„Mit diesem Computer verknüpfen“** wählen. Den Projektordner (`C:\Projekte\pen-and-paper-kids`) als Ordner freigeben.
+6. **Claude-Desktop-App** öffnen, diesen Chat aufrufen und **„Mit diesem Computer verknüpfen“** wählen. Den Projektordner (`E:\Projekte\pen-and-paper-kids`) als Ordner freigeben.
 7. Optional **Computer-Steuerung** erlauben, damit Claude Krita/Inky bedienen und Screenshots ansehen kann.
 
 ## Sicherheit
