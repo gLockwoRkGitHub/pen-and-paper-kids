@@ -25,7 +25,7 @@ Stand: 12.10.2026 (abends)
 1. **Tickwort mit dem Sohn ansehen** (`docs/art/figuren/tickwort-einzel.png`, `tickwort-referenzblatt.png`) und bei Bedarf nachbessern.
 2. **Liora und Cassian sind bestätigt** (12.10.2026): Einzelbilder, Referenzblätter und die Sturz-Variante liegen in `docs/art/figuren/`. Referenzblätter zeigen Figuren immer im Grundaussehen (`docs/worldbuilding/figuren-aussehen.md`).
 3. **Grumak, Fesk und der Fremde sind bestätigt** (12.10.2026): Einzelbilder und Referenzblätter liegen in `docs/art/figuren/`. Der Fremde hat ein völlig schwarzes Gesicht unter der Kapuze.
-4. **Weitere Figuren-Referenzblätter** nach demselben Vorgehen: die fünf Völker, die vier Mentoren, Nebenfiguren.
+4. **Die vier Mentoren abnehmen** (Yrsa, Borrik, Nerelle, Vael): Entwürfe liegen lokal in `docs/art/figuren/`, aber noch **nicht im Repo**, bis Pasco sie bestätigt. Danach weitere Referenzblätter: die fünf Völker, Nebenfiguren (Grisk, Mirk, Kettrich, Orwin, Hallward …).
 5. **Grundkarte von Meridel** festlegen (Lage von Lysmara, Orin, Weiden, Kharvan-Kamm, Nyrrspalt, Klippen von Ahrn).
 6. **Perle 1 testspielen** (Pasco + Sohn in Inky) und Rückmeldung einarbeiten; danach ggf. verlängern.
 7. **Perle 3 „Die Gildenprobe“** schreiben: Gildentag, Prüfungen mehrerer Gilden, Gildenbeitritt (~35 % der Story), erste Hinweise, dass Liora/Cassians Eltern die Goldene Waage führen, Magiergesetz im Stadtrat.

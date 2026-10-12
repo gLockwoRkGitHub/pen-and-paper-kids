@@ -56,5 +56,22 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; die ergänzten Deta
 - Der Fremde: Bei vielen Seeds zeichnet das Modell in den Seitenansichten ein Menschengesicht. Beim Erzeugen von Szenen darauf achten, dass das Gesicht im Schatten bleibt. Seine Stiefel sehen recht modern aus.
 - Der Fremde hält den Brief mit dem Spiralsiegel – streng genommen ein Szenenzustand (Perle 1, Nacht).
 
+## Die vier Mentoren (Entwürfe von Claude, 12.10.2026 – noch nicht von Pasco bestätigt)
+Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; ergänzte Details stehen dort als Vorschlag.
+
+| Datei | Entstanden aus |
+|---|---|
+| `yrsa-einzel.png` | `yrsa-einzel.prompt.txt`, Seed 6, 832×1216 |
+| `borrik-einzel.png` | `borrik-einzel.prompt.txt`, Seed 3, 832×1216 |
+| `nerelle-einzel.png` | `nerelle-einzel.prompt.txt`, Seed 6, danach Haarfarbe per Bildreferenz auf Silbergrün geändert (Seed 1) |
+| `vael-einzel.png` | `vael-einzel.prompt.txt`, Seed 1, 832×1216 |
+| `<name>-referenzblatt.png` | `blatt-allgemein.prompt.txt`, 2048×832, Referenz das jeweilige Einzelbild (Seeds: Yrsa 3, Borrik 6, Nerelle 4, Vael 2) |
+
+**Bekannte Schwächen:**
+- Nerelle: Auf dem Referenzblatt ist das Haar wieder silbergrau statt silbergrün. Für die Haarfarbe ist das Einzelbild maßgeblich.
+- Yrsa blickt sehr grimmig; laut Story ist sie streng, aber nicht unfreundlich.
+- Borrik: Sein Stab sieht nach Holz aus, nicht nach Stein. Der Bart steckt nicht sichtbar im Gürtel.
+- Vael: Die Mütze fehlt bewusst (Szenenzustand).
+
 ## Übersichten zum Auswählen
 `tools/bilduebersicht.ps1` setzt mehrere Seeds zu einem nummerierten Übersichtsbild zusammen.
