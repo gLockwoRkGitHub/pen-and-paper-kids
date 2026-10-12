@@ -41,5 +41,20 @@ Beide spielen dieselbe Rolle (je nach Spielfigur) und tragen deshalb dieselbe Kl
 
 **Bekannte Schwächen:** Auf den Referenzblättern wirken beide jünger und gedrungener als auf den Einzelbildern. Für das Alter sind die Einzelbilder maßgeblich.
 
+## Grumak, Fesk, der Fremde (Entwürfe von Claude, 12.10.2026 – noch nicht von Pasco bestätigt)
+Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; was dort nicht steht, ist als Vorschlag ergänzt.
+
+| Datei | Entstanden aus |
+|---|---|
+| `grumak-einzel.png` | `grumak-einzel.prompt.txt`, Seed 6, 832×1216 |
+| `fesk-einzel.png` | `fesk-einzel.prompt.txt`, Seed 7, 832×1216 |
+| `fremder-einzel.png` | `fremder-einzel.prompt.txt`, Seed 8, 832×1216 |
+| `grumak-referenzblatt.png`, `fesk-referenzblatt.png`, `fremder-referenzblatt.png` | `blatt-allgemein.prompt.txt`, 2048×832, Referenz das jeweilige Einzelbild (Seeds 3, 4, 4) |
+
+**Bekannte Schwächen:**
+- Grumak wirkt stämmig, aber nicht „groß wie ein Schrank“ – die Größe zeigt sich erst neben anderen Figuren im Szenenbild.
+- Der Fremde: Bei vielen Seeds zeichnet das Modell in den Seitenansichten ein Menschengesicht. Beim Erzeugen von Szenen darauf achten, dass das Gesicht im Schatten bleibt. Seine Stiefel sehen recht modern aus.
+- Der Fremde hält den Brief mit dem Spiralsiegel – streng genommen ein Szenenzustand (Perle 1, Nacht).
+
 ## Übersichten zum Auswählen
 `tools/bilduebersicht.ps1` setzt mehrere Seeds zu einem nummerierten Übersichtsbild zusammen.

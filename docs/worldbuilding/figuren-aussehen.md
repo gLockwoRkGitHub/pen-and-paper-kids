@@ -69,6 +69,13 @@ Legende: **(Story)** = steht so im Text · **(festgelegt)** = von Pasco bestäti
 | **Brakka** (Goblin) | Werkstatt Knallfunke & Söhne; sonst offen | Story / offen |
 | **Söldner der Goldenen Waage** | schwarze Mäntel, Brustplatte mit goldener Waage | Story |
 
+### Ergänzungen für die ersten Bildentwürfe (Vorschlag, 12.10.2026)
+Diese Details stehen nicht in der Story; sie stammen aus den Entwürfen in `docs/art/figuren/` und gelten erst, wenn Pasco sie bestätigt.
+- **Grumak:** graugrüne Haut, zwei kleine Hauer, spitze Ohren, langes schwarzes Haar zurückgebunden; rostrote Händlertunika mit Goldborte, breiter Ledergürtel mit Gewürzbeuteln, safrangelbe Schärpe, dunkle weite Hose, Sandalen. Freundlich, müde, besorgt – kein Krieger.
+- **Fesk:** Mensch um die fünfzig, schütteres graues Haar nach hinten gekämmt, sehr lange spitze Nase; silbergrauer Mantel mit Stehkragen bis zum Hals geknöpft, graue Hose, polierte schwarze Schuhe; Federkiel in der Hand.
+- **Der Fremde:** Gesicht vollständig im Schatten der Kapuze, nur die hellen Augen sind zu sehen; schlichter grauer Mantel bis zu den Knöcheln, graue Handschuhe.
+  - **Szenenzustand** Perle 1, Nacht: nasser Mantel, Brief mit Spiralsiegel in der Hand.
+
 ## Bezugspersonen (je nach Hintergrund)
 
 | Figur | Hintergrund | Grundaussehen |
