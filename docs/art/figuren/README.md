@@ -27,17 +27,19 @@ Das Skript hängt `-s<seed>` an den Dateinamen; die Dateien hier wurden danach u
 ## Liora und Cassian (Vorschlag von Claude, 12.10.2026 – noch nicht von Pasco bestätigt)
 Beide spielen dieselbe Rolle (je nach Spielfigur) und tragen deshalb dieselbe Kleidung in denselben Farben.
 
+**Grundsatz (Pasco, 12.10.2026):** Das Referenzblatt zeigt die Figur im **Normalzustand** – ein gepflegtes Kind sehr reicher Eltern. Zerrissene Kleidung und Blätter im Haar gibt es nur, wenn in der Szene ein Missgeschick passiert ist (z. B. der Sturz aus dem Apfelbaum).
+
 | Datei | Inhalt | Entstanden aus |
 |---|---|---|
-| `liora-einzel.png` | Einzelbild | `liora-einzel.prompt.txt` (Seed 1, 832×1216), danach der zerrissene Ärmel per Bildreferenz ergänzt |
-| `cassian-einzel.png` | Einzelbild | `cassian-einzel.prompt.txt` (Seed 1, 832×1216) |
-| `liora-referenzblatt.png`, `cassian-referenzblatt.png` | Vier Ansichten | `freund-blatt.prompt.txt`, Seed 3, 2048×832, Referenz das jeweilige Einzelbild |
+| `liora-einzel.png`, `cassian-einzel.png` | Einzelbild, Normalzustand | `liora-einzel.prompt.txt` bzw. `cassian-einzel.prompt.txt`, Seed 2, 832×1216 |
+| `liora-referenzblatt.png`, `cassian-referenzblatt.png` | Vier Ansichten, Normalzustand | `freund-blatt.prompt.txt`, Seed 3, 2048×832, Referenz das jeweilige Einzelbild |
+| `liora-nach-sturz.png`, `cassian-nach-sturz.png` | Variante für die Sturz-Szene: Blätter im Haar, zerrissener Ärmel, Grasflecken | erster Entwurf vom 12.10.2026 (etwas jünger gezeichnet als die Einzelbilder) |
 
-**Aus der Story vorgegeben:** Kind im Alter der Spielfigur, feine Kleidung mit zerrissenem Ärmel, Blätter im Haar, breites Grinsen, Lederschuhe mit silbernen Schnallen.
+**Aus der Story vorgegeben:** Kind im Alter der Spielfigur, feine Kleidung, breites Grinsen, Lederschuhe mit silbernen Schnallen.
 
-**Vorschlag (nicht festgelegt):** kastanienbraune Locken, Sommersprossen, haselnussbraune Augen, dunkelgrüne Samtjacke mit Goldknöpfen, weißes Leinenhemd, braune Kniehose mit Grasflecken, weiße Strümpfe.
+**Vorschlag (nicht festgelegt):** kastanienbraune Locken (Liora schulterlang mit grüner Schleife, Cassian kurz), Sommersprossen, haselnussbraune Augen, dunkelgrüne Samtjacke mit Goldknöpfen und Goldstickerei an den Ärmelaufschlägen, weißes Leinenhemd, braune Kniehose, weiße Strümpfe.
 
-**Bekannte Schwächen:** Beide wirken eher wie 9 als wie 11. Auf Cassians Blatt ist der Riss im Ärmel klein und nicht in jeder Ansicht zu sehen.
+**Bekannte Schwächen:** Auf den Referenzblättern wirken beide jünger und gedrungener als auf den Einzelbildern. Für das Alter sind die Einzelbilder maßgeblich.
 
 ## Übersichten zum Auswählen
 `tools/bilduebersicht.ps1` setzt mehrere Seeds zu einem nummerierten Übersichtsbild zusammen.

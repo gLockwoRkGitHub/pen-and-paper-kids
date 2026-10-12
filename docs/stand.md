@@ -23,7 +23,7 @@ Stand: 12.10.2026 (abends)
 
 ## Nächste Schritte
 1. **Tickwort mit dem Sohn ansehen** (`docs/art/figuren/tickwort-einzel.png`, `tickwort-referenzblatt.png`) und bei Bedarf nachbessern.
-2. **Liora und Cassian abnehmen:** Entwürfe (Einzelbild und Referenzblatt) liegen lokal in `docs/art/figuren/`, sind aber noch **nicht im Repo**, bis Pasco das Aussehen bestätigt (Vorschlag: kastanienbraune Locken, grüne Samtjacke – siehe `docs/art/figuren/README.md`).
+2. **Liora und Cassian abnehmen:** Entwürfe (Einzelbild und Referenzblatt) liegen lokal in `docs/art/figuren/`, sind aber noch **nicht im Repo**, bis Pasco das Aussehen bestätigt (Vorschlag: kastanienbraune Locken, grüne Samtjacke – siehe `docs/art/figuren/README.md`). Referenzblätter zeigen Figuren immer im Normalzustand; Missgeschicke (zerrissener Ärmel, Blätter im Haar) nur in der jeweiligen Szene.
 3. **Weitere Figuren-Referenzblätter** nach demselben Vorgehen: die fünf Völker, Grumak, Fesk, der Fremde, die vier Mentoren.
 4. **Grundkarte von Meridel** festlegen (Lage von Lysmara, Orin, Weiden, Kharvan-Kamm, Nyrrspalt, Klippen von Ahrn).
 5. **Perle 1 testspielen** (Pasco + Sohn in Inky) und Rückmeldung einarbeiten; danach ggf. verlängern.
