@@ -25,7 +25,7 @@ Stand: 12.10.2026 (abends)
 0. **Offene Aufträge:** `docs/auftraege.md` (Grumak und der Fremde neu, Spiralsiegel).
 1. **Tickwort mit dem Sohn ansehen** (`docs/art/figuren/tickwort-einzel.png`, `tickwort-referenzblatt.png`) und bei Bedarf nachbessern.
 2. **Liora und Cassian sind bestätigt** (12.10.2026): Einzelbilder, Referenzblätter und die Sturz-Variante liegen in `docs/art/figuren/`. Referenzblätter zeigen Figuren immer im Grundaussehen (`docs/worldbuilding/figuren-aussehen.md`).
-3. **Grumak, Fesk und der Fremde sind bestätigt** (12.10.2026): Einzelbilder und Referenzblätter liegen in `docs/art/figuren/`. Der Fremde hat ein völlig schwarzes Gesicht unter der Kapuze.
+3. **Fesk ist bestätigt** (12.10.2026). Grumak (größer) und der Fremde (neu gestaltet, `docs/worldbuilding/der-fremde.md`) werden neu erzeugt – siehe Aufträge; die alten Bilder bleiben bis zur Abnahme liegen.
 4. **Die vier Mentoren abnehmen** (Yrsa, Borrik, Nerelle, Vael): Entwürfe liegen lokal in `docs/art/figuren/`, aber noch **nicht im Repo**, bis Pasco sie bestätigt. Danach weitere Referenzblätter: die fünf Völker, Nebenfiguren (Grisk, Mirk, Kettrich, Orwin, Hallward …).
 5. **Grundkarte von Meridel** festlegen (Lage von Lysmara, Orin, Weiden, Kharvan-Kamm, Nyrrspalt, Klippen von Ahrn).
 6. **Perle 1 testspielen** (Pasco + Sohn in Inky) und Rückmeldung einarbeiten; danach ggf. verlängern.
