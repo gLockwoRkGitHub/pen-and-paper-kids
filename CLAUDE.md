@@ -15,6 +15,10 @@ Erster Spieler und Beta-Tester ist Pascos Sohn. Die Geschichte entsteht gemeinsa
 - **Keine grafische Gewalt**, keine Inhalte, die für Kinder ungeeignet sind.
 - **Entscheidungen müssen Folgen haben** – positiv wie negativ. Das Weltgedächtnis ist ein Kernelement.
 
+## Wo wir stehen
+
+Aktueller Stand, nächste Schritte und offene Fragen: `docs/stand.md`. Zu Beginn jeder Sitzung lesen und am Ende aktualisieren.
+
 ## Feste Entscheidungen
 
 Siehe `docs/entscheidungen.md`. Diese Punkte nicht stillschweigend ändern; Änderungen dort mit Datum dokumentieren.
