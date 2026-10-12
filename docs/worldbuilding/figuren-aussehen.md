@@ -21,6 +21,7 @@ Legende: **(Story)** = steht so im Text · **(festgelegt)** = von Pasco bestäti
 - **Alter:** etwa **12 Jahre**, gleich alt wie die Spielfigur. (festgelegt 12.10.2026)
 - **Grundaussehen:** **gepflegt und ordentlich**, wie es sich für eine reiche Familie gehört: saubere, teure Kleidung, gekämmtes Haar, Lederschuhe mit **silbernen Schnallen** (Story). Lebhafter, abenteuerlustiger Blick, breites Grinsen. (Story)
 - **Details:** kastanienbraune Locken, Sommersprossen, haselnussbraune Augen; dunkelgrüne Samtjacke mit kleinen Goldknöpfen, weißes Leinenhemd, braune Kniehose, weiße Strümpfe. Liora und Cassian tragen dieselben Farben, weil es dieselbe Rolle ist. (festgelegt 12.10.2026)
+- **Aus den bestätigten Bildern:** feine Goldstickerei an den Ärmelaufschlägen der Jacke; Liora trägt die Locken schulterlang mit einer dunkelgrünen Schleife zurückgebunden, Cassian kurz und oben etwas widerspenstig. Bildvorlage: `docs/art/figuren/liora-einzel.png`, `cassian-einzel.png`. (festgelegt 12.10.2026)
 - **Szenenzustände:**
   - Perle 1, Sturz aus dem Apfelbaum: Blätter im Haar, zerrissener Ärmel, Grasflecken.
   - Perle 2, Verkleidung: viel zu große Arbeiterjacke und Mütze – aber die feinen Schuhe verraten alles.
