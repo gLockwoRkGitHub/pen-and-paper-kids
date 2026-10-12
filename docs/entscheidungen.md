@@ -94,12 +94,12 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Umgebung:** Element stark vorhanden +1, fehlt es, braucht man eine Quelle (Wind braucht keine).
 - **Kraftfunken** = Elementstufe + 1, ein Funke pro Zauber, zurück durch Rasten.
 - **Kein Zauber verletzt direkt.** Misserfolg: Element gerät kurz außer Kontrolle, nie tödlich.
-- **Magie in der Welt:** bekannt, aber man ist vorsichtig mit Magiern. Zaubern in Städten erlaubt, die Gilden wollen es verbieten und Magie für sich bündeln. Magier haben einen eigenen Namen für Unbegabte.
-- **Ein Mentor je Element.**
+- **Magie in der Welt:** bekannt, aber man ist vorsichtig mit Magiern. Zaubern in Städten erlaubt, die Gilden wollen es verbieten und Magie für sich bündeln. Magier nennen Unbegabte **„die Stillen“**.
+- **Ein Mentor je Element:** Zwergen-Steinmetz (Erde), Schiffsmagierin im Hafen (Wasser), Schmiedin am Fluss (Feuer), Einsiedler im Leuchtturm (Wind). Alle in Perle 2 erreichbar.
+- **Magiergesetz:** Die Goldene Waage treibt im Stadtrat ein Gesetz voran, nach dem sich jeder Zaubernde bei einer Gilde registrieren muss.
 - Details: `docs/magie.md`.
 
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
-- Name für Unbegabte, Mentoren im Detail.
 - Die größere Bedrohung (im ersten Abenteuer nur Hinweise).
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).

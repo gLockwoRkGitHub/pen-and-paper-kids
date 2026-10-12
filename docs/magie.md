@@ -1,6 +1,6 @@
 # Magiesystem
 
-**Festgelegt 12.10.2026.** Die Vorschläge 1–6 wurden so übernommen. Offene Vorschläge sind unten markiert.
+**Festgelegt 12.10.2026.**
 
 ## Bereits festgelegt
 - Vier Elemente: **Erde, Wasser, Feuer, Wind**. Magie braucht das Element in der Umgebung (Wind nur Luft).
@@ -59,18 +59,14 @@ Keine Zauber, die direkt verletzen. Magie löst Probleme, schützt, lenkt ab ode
 ## 7. Magie in der Welt (festgelegt)
 - Magie ist **bekannt**, trotzdem sind die Menschen **vorsichtig im Umgang mit Magiern**.
 - Der Mentor bringt dem Spieler bei, **vorsichtig mit Magie in der Nähe von Unbegabten** umzugehen.
-- Magier haben unter sich einen **eigenen Namen für Unbegabte** (Vorschläge siehe unten).
+- Magier haben unter sich einen **eigenen Namen für Unbegabte**: **die Stillen**.
 - **In Städten darf man zaubern.** Die **Gilden möchten das verbieten**, weil sie Magie verwalten und für ihre Zwecke bündeln wollen.
 - **Verschiedene Mentoren** – einer je Element.
 
-### Vorschlag: Name für Unbegabte
-| Name | Idee |
-|---|---|
-| **die Stillen** | Für sie schweigen die Elemente. Klingt freundlich-herablassend, nicht böse. |
-| **Flachhände** | Spöttischer Ausdruck jüngerer Magier – zeigt, dass nicht alle Magier nett sind. |
-| **Nuul** | Ein fantasy-artiges Wort aus einer alten Magiersprache. |
+### Name für Unbegabte (festgelegt)
+- Magier nennen Unbegabte unter sich **„die Stillen“** – für sie schweigen die Elemente. Klingt leicht herablassend, aber nicht böse.
 
-### Vorschlag: Die Mentoren
+### Die Mentoren (festgelegt)
 Alle vier müssen in Perle 2 erreichbar sein, also in oder nahe der Hauptstadt. Wegen der Gilden halten sie ihre Begabung eher verborgen.
 
 | Element | Wo | Wer (Idee) |
@@ -80,6 +76,6 @@ Alle vier müssen in Perle 2 erreichbar sein, also in oder nahe der Hauptstadt. 
 | Feuer | Schmieden von Webstuhl und Amboss am Fluss | Eine Schmiedin, die ihre Magie vor der eigenen Gilde verbirgt |
 | Wind | Leuchtturm an der Steilküste | Ein Einsiedler, den kaum jemand je zu Gesicht bekommt |
 
-### Vorschlag: Magie und die Intrige
+### Magie und die Intrige (festgelegt)
 - Die **Goldene Waage** treibt im Stadtrat ein **Magiergesetz** voran: Wer zaubert, muss sich bei einer Gilde registrieren.
 - Das verbindet das Magiesystem mit der Hauptstory: Der Spieler ist selbst betroffen, und die Mentoren geraten unter Druck.
