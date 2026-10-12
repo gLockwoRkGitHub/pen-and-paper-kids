@@ -72,5 +72,20 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Start-Fragen:** 4–5 kleine Szenen nach der Charaktererstellung; Hintergrund + Antworten ergeben einen von 3–4 Auslösern und die ersten Einträge ins Weltgedächtnis (Details in `docs/regeln.md`).
 - Details: `docs/worldbuilding/voelker.md`, `docs/worldbuilding/gilden.md`.
 
+## Stand 12.10.2026
+
+### Startregion, Figuren (World-Building Runde 3)
+- **Hauptstadt am Meer** (Handelsstadt), Fluss mit Wasserrädern von Webstuhl und Amboss, Weideflächen, ringsum ein **Gebirgszug**.
+- **Eine Schlucht** ist die einzige echte Verbindung nach draußen: gehalten von der stärksten Gilde, Festung, Wegezoll. Inoffiziell: Schmuggelwege über die Berge, Höhlen durch den Berg, illegale Überfahrt übers Meer.
+- **Gemeinsamer Start** aller Völker in der Hauptstadt. Orks und Trolle sind dort nur Händler und Reisende.
+- **Umfang:** 12–16 Stunden, ca. 2 Stunden pro Level, 10–15 Orte.
+- **Begleiter:** kleiner Gnomen-Automat, verstoßen, weil er alles ausführlich erklärt. Bleibt die erste Perle und geht, als er eine Gruppe findet, die ihn akzeptiert.
+- **Freund/Freundin:** Kind reicher Eltern, will Abenteuer erleben, aber immer geht etwas schief.
+- **Mentor** für die Magie. **Geheimnisvolle Figur** mit paralleler Story, greift gelegentlich ein. **Kein Rivale** vorerst.
+- **Namen:** fantasy-artig.
+- Details: `docs/worldbuilding/startregion.md`, `docs/worldbuilding/figuren.md`.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
+- Welche Gilde ist die stärkste und hält die Schlucht?
+- Hauptstory (Entwurf in `story/hauptstory-entwurf.md`).

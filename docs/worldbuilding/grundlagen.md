@@ -51,4 +51,4 @@ Stand 08.10.2026 – Antworten aus Runde 1.
 ## Noch zu besprechen
 - Die größere Bedrohung
 - Magiesystem im Detail
-- Startregion, Orte, Begleiter, erste Figuren (Runde 3)
+- Hauptstory (Entwurf in `story/hauptstory-entwurf.md`)
