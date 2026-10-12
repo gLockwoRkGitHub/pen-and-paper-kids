@@ -69,12 +69,14 @@ Keine Zauber, die direkt verletzen. Magie löst Probleme, schützt, lenkt ab ode
 ### Die Mentoren (festgelegt)
 Alle vier müssen in Perle 2 erreichbar sein, also in oder nahe der Hauptstadt. Wegen der Gilden halten sie ihre Begabung eher verborgen.
 
-| Element | Wo | Wer (Idee) |
-|---|---|---|
-| Erde | Steinbruch oder Zwergenviertel | Ein alter Zwergen-Steinmetz, der Steine „hört“ |
-| Wasser | Hafen | Eine Schiffsmagierin, die ihr Schiff nie verlassen darf |
-| Feuer | Schmieden von Webstuhl und Amboss am Fluss | Eine Schmiedin, die ihre Magie vor der eigenen Gilde verbirgt |
-| Wind | Leuchtturm an der Steilküste | Ein Einsiedler, den kaum jemand je zu Gesicht bekommt |
+| Element | Name | Wo | Wer | Quelle, die er/sie mitgibt |
+|---|---|---|---|---|
+| Erde | **Borrik** | Steinmetzhof im Zwergenviertel | Uralter, blinder Zwergen-Steinmetz, der Steine „hört“. „Bitten, nicht befehlen.“ | Säckchen Erde |
+| Wasser | **Nerelle** | Schiff „Morgentau“, Liegeplatz sieben im Hafen | Kapitänin, die ihr Schiff nie verlässt (Versprechen an das Meer). „Wasser folgt.“ | Wasserschlauch aus Robbenleder |
+| Feuer | **Yrsa** | Große Schmiede am Fluss | Alte Schmiedin, verbirgt ihre Magie vor der eigenen Gilde. „Genug.“ | Glutlaterne |
+| Wind | **Vael** | Leuchtturm an den Klippen von Ahrn | Einsiedler, spricht kaum. Einziger Windmagier in Meridel. „Nur einladen.“ | keine (Sturmvogelfeder als Zeichen) |
+
+Namen und Ausgestaltung: Vorschlag von Claude in Perle 2 (12.10.2026).
 
 ### Magie und die Intrige (festgelegt)
 - Die **Goldene Waage** treibt im Stadtrat ein **Magiergesetz** voran: Wer zaubert, muss sich bei einer Gilde registrieren.

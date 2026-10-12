@@ -47,3 +47,35 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `karte: hafen`, `markt`, `brunnen`, `marktplatz`, `oberstadt`, `wachhaus`, `weite-feder` | Orte in Lysmara, die beim Besuch auf der Karte erscheinen |
 | `karte: klippen-von-ahrn` | Klippen und Leuchtturm nördlich der Stadt |
 | `karte: kharvan-kamm` | Gebirgskette am Kartenrand mit dem Nyrrspalt |
+
+## Perle 2 – Am Fluss der Räder
+
+### Figuren (Referenzblätter)
+| Tag | Inhalt | Ebene |
+|---|---|---|
+| `figur/yrsa` | Feuer-Mentorin: alte Schmiedin, Lederschürze, rußige Hände, graues Haar unter einem Tuch | Szene |
+| `figur/borrik` | Erde-Mentor: uralter blinder Zwerg, weißer Bart im Gürtel, milchige Augen | Szene |
+| `figur/nerelle` | Wasser-Mentorin: große Frau, silbergrünes Haar, barfuß, Mantel wie aus Seetang | Szene |
+| `figur/vael` | Wind-Mentor: dürrer alter Einsiedler, Haare wie Pusteblumenflaum | Szene |
+| (ohne Tag) | Grisk (Kobold, grauschuppig, Grubenlampe), Mirk (alte Koboldin mit gesprungener Brille), Kettrich (Gnom, Brille mit drei Gläsern) | Szene |
+
+### Szenen
+| Tag | Inhalt | Ebene |
+|---|---|---|
+| `entdeckung/raederviertel` | Wasserräder so hoch wie Häuser, Schmieden, bunter Färberdampf | Entdeckung |
+| `szene/erzlaende` | Erzkähne am Ufer, Kobolde mit Grubenlampen | Szene |
+| `szene/tuchhalle` | Riesige Halle, Webstühle, bunte Stoffbahnen von der Decke | Szene |
+| `szene/grosse-schmiede` | Esse so groß wie ein Zimmer, Funkenregen | Szene |
+| `szene/faerberturm-feuer` | Brennender Färberturm am Mühlgraben, Kind oben auf der Plattform | Szene |
+| `szene/erwachen-wasser` | Eine Welle steigt aus dem Mühlgraben und löscht den Turm | Szene |
+| `szene/erwachen-feuer` | Die Flammen fließen den Turm hinab in die Hand der Spielfigur | Szene |
+| `szene/erwachen-wind` | Der Wind fängt das fallende Kind auf | Szene |
+| `szene/erwachen-erde` | Eine Felsentreppe wächst neben dem Turm empor | Szene |
+| `szene/schmiedekeller` | Dunkler Keller, eine Lampe, Yrsa auf einer Kiste | Szene |
+| `szene/bruecke-abend` | Steinbrücke über den Orin bei Sonnenuntergang, zwei Kinder | Szene |
+
+### Tagebuch und Karte
+| Tag | Inhalt |
+|---|---|
+| `tagebuch/perle-2` | Tagebuchseite: Fluss, Wasserräder, verkohlter Färberturm |
+| `karte: raederviertel`, `erzlaende`, `tuchhalle`, `grosse-schmiede`, `orinbruecke`, `orin`, `steinmetzhof` | Neue Orte am Fluss |

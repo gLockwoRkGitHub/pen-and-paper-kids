@@ -98,3 +98,25 @@ VAR freund_will_mit = false
 VAR obstkarren_gestoppt = false
 VAR schmiedin_gesehen = false     // die alte Frau mit den rußigen Händen
 VAR tickwort_bei_goblins = false
+
+// Perle 2 – Am Fluss der Räder
+VAR spuren = 0                    // erledigte Erkundungen am Fluss
+VAR bp_spur = false               // Hinweis, wohin die Bezugsperson gegangen ist
+VAR grisk_wiedergesehen = false
+VAR tiefe_stiege_bekannt = false  // alter Stollen unter dem Kharvan-Kamm
+VAR berg_brummt = false           // Hinweis auf die Bedrohung: der Berg brummt
+VAR fesk_wiedergesehen = false
+VAR gilde_bietet_minen = false    // Webstuhl und Amboss: Mitglieder kommen in die Minen
+VAR yrsa_getroffen = false        // Feuer-Mentorin
+VAR spirale_erkannt = false       // ein Magier hat das Spiralsiegel erkannt
+VAR element_erkannt = ""          // Element, das beim Erwachen geantwortet hat
+VAR element_gewechselt = false    // Spieler hat bewusst ein anderes Element gewählt
+VAR freund_gerettet = false
+VAR magie_oeffentlich = false     // Leute haben die Magie gesehen
+VAR kugeln_verstanden = false     // weiß: die Glaskugeln der Waage fangen Magie ein
+VAR seeweg_bekannt = false        // Hinweis auf heimliche Überfahrt
+VAR vardholm_hinweis = false      // Hinweis auf die Festung und ihre Lieferungen
+VAR ziegenstiege_bewacht = false
+VAR freund_kennt_magie = false
+VAR freund_vertraut = false       // dem Freund / der Freundin die ganze Wahrheit erzählt
+VAR fink_hat_gestohlen = false

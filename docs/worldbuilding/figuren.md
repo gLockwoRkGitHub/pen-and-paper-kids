@@ -22,6 +22,21 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 - Für die **Magie**: hilft dem Spieler mit neuen Fähigkeiten und Zaubern.
 - Vorschlag: Je nach gewähltem Element wechselt der Mentor oder es gibt einen Hauptmentor, der Kontakte zu anderen Elementarmagiern vermittelt.
 
+## Weitere Figuren aus Perle 1 und 2 (Vorschlag von Claude)
+| Figur | Wer | Wo |
+|---|---|---|
+| Grisk | Kobold, grauschuppig, Grubenlampe; „Grisk vergisst nicht.“ | Hafen, Erzlände |
+| Mirk | Alte Koboldin mit gesprungener Brille, Vorarbeiterin | Erzlände |
+| Kettrich | Gnom, Hallenmeister der Tuchhalle (Webstuhl und Amboss), Brille mit drei Gläsern, „hat für alles eine Regel“ | Tuchhalle |
+| Fesk | Eintreiber des Silbermark-Kontors | überall, wo es Schulden gibt |
+| Fink | Junge der Leisen Hand | Markt |
+| Grumak | Ork-Gewürzhändler, warnt vor leeren Dörfern | Brunnen am Markt |
+| Hauptfrau Hallward | Stadtwache | Wachstube |
+| Meister Orwin | Kartograf, zwei Brillen | Weite Feder |
+| Magister Pell | Hauslehrer von Liora/Cassian | Oberstadt |
+| Brakka & Knallfunke | Goblins der Werkstatt Knallfunke & Söhne (Tickworts neues Zuhause) | Hafenviertel |
+| Die Mentoren | Borrik, Nerelle, Yrsa, Vael – siehe `docs/magie.md` | |
+
 ## Geheimnisvolle Figur (festgelegt)
 - Baut eine **parallele Story** auf, möglicherweise für das nächste Addon.
 - Greift **hin und wieder in den aktuellen Storyfaden** ein.

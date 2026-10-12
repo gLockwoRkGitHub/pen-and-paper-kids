@@ -73,22 +73,42 @@ CONST HOECHSTWERT = 3
 }
 
 // --- Stärkste Element-Neigung ---
-// Bei Gleichstand gewinnt die Reihenfolge Erde, Wasser, Feuer, Wind.
+// Bei Gleichstand entscheidet der Zufall zwischen den gleich starken Elementen.
 === function staerkste_neigung()
-~ temp beste = neigung_erde
-~ temp sieger = "erde"
-{ neigung_wasser > beste:
-    ~ beste = neigung_wasser
-    ~ sieger = "wasser"
+~ temp beste = MAX(MAX(neigung_erde, neigung_wasser), MAX(neigung_feuer, neigung_wind))
+~ temp anzahl = 0
+{ neigung_erde == beste:
+    ~ anzahl += 1
 }
-{ neigung_feuer > beste:
-    ~ beste = neigung_feuer
-    ~ sieger = "feuer"
+{ neigung_wasser == beste:
+    ~ anzahl += 1
 }
-{ neigung_wind > beste:
-    ~ sieger = "wind"
+{ neigung_feuer == beste:
+    ~ anzahl += 1
 }
-~ return sieger
+{ neigung_wind == beste:
+    ~ anzahl += 1
+}
+~ temp los = RANDOM(1, anzahl)
+{ neigung_erde == beste:
+    ~ los -= 1
+    { los == 0:
+        ~ return "erde"
+    }
+}
+{ neigung_wasser == beste:
+    ~ los -= 1
+    { los == 0:
+        ~ return "wasser"
+    }
+}
+{ neigung_feuer == beste:
+    ~ los -= 1
+    { los == 0:
+        ~ return "feuer"
+    }
+}
+~ return "wind"
 
 // --- Wert um 1 erhöhen, höchstens bis HOECHSTWERT ---
 === function steigern(ref wert)
@@ -344,3 +364,39 @@ Worin bist du besser geworden?
     ~ return "Fünfzehn"
 }
 ~ return n
+
+// --- Element als Wort ---
+=== function element_wort(el)
+{ el:
+- "erde":
+    ~ return "Erde"
+- "wasser":
+    ~ return "Wasser"
+- "feuer":
+    ~ return "Feuer"
+- "wind":
+    ~ return "Wind"
+}
+~ return "?"
+
+// --- Element festlegen: Stufe 1, Kraftfunken voll ---
+=== function element_waehlen(el)
+~ element = el
+{ elementstufe < 1:
+    ~ elementstufe = 1
+}
+~ rasten()
+
+// --- Element mit Artikel: „die Erde“, „das Wasser“, „das Feuer“, „der Wind“ ---
+=== function element_artikel(el)
+{ el:
+- "erde":
+    ~ return "die Erde"
+- "wasser":
+    ~ return "das Wasser"
+- "feuer":
+    ~ return "das Feuer"
+- "wind":
+    ~ return "der Wind"
+}
+~ return "?"
