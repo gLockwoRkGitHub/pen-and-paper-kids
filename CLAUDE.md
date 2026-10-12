@@ -25,5 +25,8 @@ Siehe `docs/entscheidungen.md`. Diese Punkte nicht stillschweigend ändern; Änd
 - Neue Ideen landen zuerst in `docs/ideen.md`, erst nach Zustimmung in `docs/entscheidungen.md`.
 - Vorschläge von Claude klar als Vorschlag kennzeichnen, nicht als Entscheidung.
 - World-Building wird separat besprochen und in `docs/worldbuilding/` abgelegt.
-- Story-Kapitel liegen in `story/`.
+- Story-Kapitel liegen in `story/` und werden in **Ink** geschrieben (siehe `story/format.md`).
+- Neue Variablen fürs Weltgedächtnis immer in `story/variablen.ink` eintragen.
+- Würfel und Magie nur über die Funktionen in `story/funktionen.ink` (`probe`, `zauber`, `kann_zaubern`, `rasten`).
+- Nach jeder Änderung an Story-Dateien `npm test` ausführen; nur fehlerfrei committen.
 - Kurze, aussagekräftige Commit-Nachrichten auf Deutsch.

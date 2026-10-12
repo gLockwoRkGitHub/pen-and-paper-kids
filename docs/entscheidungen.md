@@ -99,6 +99,9 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Magiergesetz:** Die Goldene Waage treibt im Stadtrat ein Gesetz voran, nach dem sich jeder Zaubernde bei einer Gilde registrieren muss.
 - Details: `docs/magie.md`.
 
+### Story-Format
+- **Ink** (inkle) für alle Story-Dateien; spielbar im Editor Inky, automatischer Test mit `npm test`. Details: `story/format.md`.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
 - Die größere Bedrohung (im ersten Abenteuer nur Hinweise).

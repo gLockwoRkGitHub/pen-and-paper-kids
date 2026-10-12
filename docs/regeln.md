@@ -32,6 +32,15 @@ Entwurf. Festgelegtes ist markiert, der Rest sind Vorschläge.
 ## Völker (festgelegt)
 Spielbar: **Mensch, Zwerg, Gnom, Ork, Troll.** Details in `docs/worldbuilding/voelker.md`.
 
+### Volksbonus +1 (Vorschlag, so in `story/charakter.ink` umgesetzt)
+| Volk | Bonus |
+|---|---|
+| Mensch | +1 auf einen Wert nach Wahl (anpassungsfähig) |
+| Zwerg | +1 Kraft |
+| Gnom | +1 Verstand |
+| Ork | +1 Ausstrahlung (Stammesführer, die sich gut ausdrücken können) |
+| Troll | +1 Geschick |
+
 ## Hintergründe (festgelegt: statt Klassen)
 - Die **Elementarrichtung ist unabhängig vom Hintergrund** (festgelegt). Die Geschichten des Hintergrunds können aber mit einem Element verwoben werden.
 - Jeder Hintergrund bringt mit (Vorschlag): eine **passive Fähigkeit**, **exklusive Antwortoptionen** und **Startkontakte**.
