@@ -45,5 +45,5 @@ Stand 12.10.2026 – Antworten aus Runde 3. Namen sind Vorschläge (Stil: fantas
 | Schlucht | **Nyrrspalt** |
 | Festung an der Schlucht | **Vardholm** |
 
-## Offen
-- Welche Gilde ist die **stärkste** und hält die Schlucht? (Vorschlag: Bund der Goldenen Waage – sie bezahlt die Söldner der Festung.)
+## Die Schlucht und die Goldene Waage (festgelegt 12.10.2026)
+- Der **Bund der Goldenen Waage** ist die stärkste Gilde und hält die Schlucht. Sie bezahlt die Söldner der Festung.

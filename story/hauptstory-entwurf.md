@@ -1,6 +1,6 @@
 # Hauptstory – erster Entwurf
 
-**Vorschlag von Claude, 12.10.2026 – noch nicht entschieden.**
+**Festgelegt 12.10.2026** als Grundlage für das erste Abenteuer. Einzelheiten werden beim Schreiben der Perlen ausgearbeitet.
 
 ## Kernidee: „Der Weg hinaus“
 Die Region ist vom Gebirge umschlossen. Das Ziel des ersten Abenteuers ist es, **die Region zu verlassen** und das Grenzgebiet zu erreichen.
@@ -36,4 +36,4 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 
 ## Was bewusst offen bleibt
 - **Die größere Bedrohung** selbst – im ersten Abenteuer nur Hinweise.
-- Wer genau hinter der Schließung steckt (abhängig von der Antwort, welche Gilde die stärkste ist).
+- Die Schlucht hält der **Bund der Goldenen Waage** (festgelegt). Wer dort genau hinter der Schließung steckt und warum, wird beim Schreiben ausgearbeitet.

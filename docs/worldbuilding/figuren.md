@@ -12,7 +12,9 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 
 ## Freund / Freundin (festgelegt)
 - **Kind reicher Eltern**, das ebenfalls Abenteuer erleben möchte – **aber immer geht etwas schief**.
-- Vorschlag: Die Eltern führen eine der beiden Bankiersgilden. So gerät die Freundschaft später in die Intrigen um die Schlucht – ein echtes Dilemma.
+- **Geschlecht richtet sich nach der Spielfigur** (festgelegt 12.10.2026): Spielt man eine männliche Figur, ist es eine **Freundin**; spielt man eine weibliche Figur, ist es ein **Freund**. Beide Varianten brauchen einen eigenen Namen.
+- **Die Eltern führen eine Bankiersgilde** (festgelegt 12.10.2026). So gerät die Freundschaft in die Intrigen um die Schlucht – ein echtes Dilemma.
+- Vorschlag: Es ist die **Goldene Waage** – also genau die Gilde, die die Schlucht hält. Das macht das Dilemma in Perle 6 am stärksten.
 
 ## Mentor (festgelegt)
 - Für die **Magie**: hilft dem Spieler mit neuen Fähigkeiten und Zaubern.
