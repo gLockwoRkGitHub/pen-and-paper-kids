@@ -23,11 +23,12 @@ Stand: 12.10.2026 (abends)
 
 ## Nächste Schritte
 1. **Tickwort mit dem Sohn ansehen** (`docs/art/figuren/tickwort-einzel.png`, `tickwort-referenzblatt.png`) und bei Bedarf nachbessern.
-2. **Weitere Figuren-Referenzblätter** nach demselben Vorgehen (`docs/art/figuren/README.md`): Liora, Cassian, die fünf Völker, Grumak, Fesk, der Fremde, die vier Mentoren.
-3. **Grundkarte von Meridel** festlegen (Lage von Lysmara, Orin, Weiden, Kharvan-Kamm, Nyrrspalt, Klippen von Ahrn).
-4. **Perle 1 testspielen** (Pasco + Sohn in Inky) und Rückmeldung einarbeiten; danach ggf. verlängern.
-5. **Perle 3 „Die Gildenprobe“** schreiben: Gildentag, Prüfungen mehrerer Gilden, Gildenbeitritt (~35 % der Story), erste Hinweise, dass Liora/Cassians Eltern die Goldene Waage führen, Magiergesetz im Stadtrat.
-6. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.
+2. **Liora und Cassian abnehmen:** Entwürfe (Einzelbild und Referenzblatt) liegen lokal in `docs/art/figuren/`, sind aber noch **nicht im Repo**, bis Pasco das Aussehen bestätigt (Vorschlag: kastanienbraune Locken, grüne Samtjacke – siehe `docs/art/figuren/README.md`).
+3. **Weitere Figuren-Referenzblätter** nach demselben Vorgehen: die fünf Völker, Grumak, Fesk, der Fremde, die vier Mentoren.
+4. **Grundkarte von Meridel** festlegen (Lage von Lysmara, Orin, Weiden, Kharvan-Kamm, Nyrrspalt, Klippen von Ahrn).
+5. **Perle 1 testspielen** (Pasco + Sohn in Inky) und Rückmeldung einarbeiten; danach ggf. verlängern.
+6. **Perle 3 „Die Gildenprobe“** schreiben: Gildentag, Prüfungen mehrerer Gilden, Gildenbeitritt (~35 % der Story), erste Hinweise, dass Liora/Cassians Eltern die Goldene Waage führen, Magiergesetz im Stadtrat.
+7. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.
 
 ## Offene Fragen an Pasco
 - Soll es bei der ElevenLabs-Vertonung zusätzlich eine **Erzählerstimme** geben (deckt die Vorlesefunktion ab)?

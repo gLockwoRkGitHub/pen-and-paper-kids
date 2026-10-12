@@ -23,3 +23,21 @@ Das Skript hängt `-s<seed>` an den Dateinamen; die Dateien hier wurden danach u
 **Merkmale:** Messing mit Kupfernieten, Kugelbauch mit Klappe vorn, kleiner Kuppelkopf, ein großes bernsteinfarbenes Glasauge, Schornstein mit Dampfwölkchen, zwei dünne Gliederarme mit zweizinkigen Zangen (keine Menschenhände – entschieden 12.10.2026), drei kurze Beine (eins vorn, zwei hinten).
 
 **Bekannte Schwächen des Blatts:** Der Bauch ist etwas eiförmiger als im Einzelbild.
+
+## Liora und Cassian (Vorschlag von Claude, 12.10.2026 – noch nicht von Pasco bestätigt)
+Beide spielen dieselbe Rolle (je nach Spielfigur) und tragen deshalb dieselbe Kleidung in denselben Farben.
+
+| Datei | Inhalt | Entstanden aus |
+|---|---|---|
+| `liora-einzel.png` | Einzelbild | `liora-einzel.prompt.txt` (Seed 1, 832×1216), danach der zerrissene Ärmel per Bildreferenz ergänzt |
+| `cassian-einzel.png` | Einzelbild | `cassian-einzel.prompt.txt` (Seed 1, 832×1216) |
+| `liora-referenzblatt.png`, `cassian-referenzblatt.png` | Vier Ansichten | `freund-blatt.prompt.txt`, Seed 3, 2048×832, Referenz das jeweilige Einzelbild |
+
+**Aus der Story vorgegeben:** Kind im Alter der Spielfigur, feine Kleidung mit zerrissenem Ärmel, Blätter im Haar, breites Grinsen, Lederschuhe mit silbernen Schnallen.
+
+**Vorschlag (nicht festgelegt):** kastanienbraune Locken, Sommersprossen, haselnussbraune Augen, dunkelgrüne Samtjacke mit Goldknöpfen, weißes Leinenhemd, braune Kniehose mit Grasflecken, weiße Strümpfe.
+
+**Bekannte Schwächen:** Beide wirken eher wie 9 als wie 11. Auf Cassians Blatt ist der Riss im Ärmel klein und nicht in jeder Ansicht zu sehen.
+
+## Übersichten zum Auswählen
+`tools/bilduebersicht.ps1` setzt mehrere Seeds zu einem nummerierten Übersichtsbild zusammen.
