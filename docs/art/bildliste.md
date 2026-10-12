@@ -10,13 +10,15 @@ Die App zeigt an diesen Stellen später das passende Bild. Bis dahin sind es nur
 
 Werkzeuge: siehe `werkzeuge.md`.
 
+**Aussehen der Figuren:** verbindlich ist `docs/worldbuilding/figuren-aussehen.md`. Referenzblätter zeigen immer das Grundaussehen, nie einen Szenenzustand.
+
 ## Perle 1 – Die Hafenstadt
 
 ### Figuren (Referenzblätter)
 | Tag | Inhalt | Ebene |
 |---|---|---|
 | `figur/tickwort` | Kleiner Messing-Automat, katzengroß, Kugelbauch, drei Beine, ein Glasauge, kleiner Schornstein | Szene |
-| `figur/freund` | Liora bzw. Cassian: reiches Kind, feine Kleidung mit zerrissenem Ärmel, Blätter im Haar | Szene |
+| `figur/freund` | Liora bzw. Cassian: gepflegtes Kind reicher Eltern, saubere teure Kleidung, Lederschuhe mit Silberschnallen. **Referenzblatt ohne Sturzspuren** – Blätter und Riss nur im Szenenbild `szene/freund-faellt` | Szene |
 | `figur/grumak` | Großer Ork-Gewürzhändler, graue Strähnen, goldene Ohrringe | Szene |
 
 ### Szenen
@@ -35,7 +37,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/klippen-leuchtturm` | Klippen von Ahrn, schiefer weißer Leuchtturm | Szene |
 | `szene/markt` | Bunter Markt von Lysmara | Szene |
 | `szene/stadtwache` | Stadtwachen versperren eine Gasse | Szene |
-| `szene/freund-faellt` | Kind fällt aus dem Apfelbaum in einen Obstkarren | Szene |
+| `szene/freund-faellt` | Kind fällt aus dem Apfelbaum in einen Obstkarren – **hier** Blätter im Haar, zerrissener Ärmel | Szene |
 | `szene/goblin-werkstatt` | Knallfunke & Söhne, qualmende Teekannen-Spinnen-Maschine | Entdeckung |
 | `entdeckung/ausrufer-ratshalle` | Herold auf den Stufen der Ratshalle, Söldner der Waage | Entdeckung |
 

@@ -29,6 +29,7 @@ Siehe `docs/entscheidungen.md`. Diese Punkte nicht stillschweigend ändern; Änd
 - Neue Ideen landen zuerst in `docs/ideen.md`, erst nach Zustimmung in `docs/entscheidungen.md`.
 - Vorschläge von Claude klar als Vorschlag kennzeichnen, nicht als Entscheidung.
 - World-Building wird separat besprochen und in `docs/worldbuilding/` abgelegt.
+- **Aussehen von Figuren:** Jede neue Figur bekommt einen Eintrag in `docs/worldbuilding/figuren-aussehen.md` – getrennt nach **Grundaussehen** und **Szenenzuständen** (Sturz, Verkleidung, nass …). Referenzblätter und Bild-Prompts für Figuren beschreiben **nur das Grundaussehen**; Szenenzustände gehören nur in das jeweilige Szenenbild.
 - Story-Kapitel liegen in `story/` und werden in **Ink** geschrieben (siehe `story/format.md`).
 - Neue Variablen fürs Weltgedächtnis immer in `story/variablen.ink` eintragen.
 - Würfel und Magie nur über die Funktionen in `story/funktionen.ink` (`probe`, `zauber`, `kann_zaubern`, `rasten`).
