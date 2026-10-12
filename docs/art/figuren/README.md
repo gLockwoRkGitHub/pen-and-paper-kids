@@ -24,7 +24,7 @@ Das Skript hängt `-s<seed>` an den Dateinamen; die Dateien hier wurden danach u
 
 **Bekannte Schwächen des Blatts:** Der Bauch ist etwas eiförmiger als im Einzelbild.
 
-## Liora und Cassian (Vorschlag von Claude, 12.10.2026 – noch nicht von Pasco bestätigt)
+## Liora und Cassian (Aussehen festgelegt 12.10.2026, Alter etwa 12 Jahre)
 Beide spielen dieselbe Rolle (je nach Spielfigur) und tragen deshalb dieselbe Kleidung in denselben Farben.
 
 **Grundsatz (Pasco, 12.10.2026):** Das Referenzblatt zeigt die Figur im **Normalzustand** – ein gepflegtes Kind sehr reicher Eltern. Zerrissene Kleidung und Blätter im Haar gibt es nur, wenn in der Szene ein Missgeschick passiert ist (z. B. der Sturz aus dem Apfelbaum).

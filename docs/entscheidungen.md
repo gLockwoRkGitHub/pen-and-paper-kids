@@ -111,6 +111,13 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 ### Bilder
 - Bilder und Karten werden **lokal und privat** erzeugt (Krita + Krita AI Diffusion), nicht über Firmenkonten. Details: `docs/art/werkzeuge.md`, Einrichtung: `docs/setup.md`.
 
+## Stand 12.10.2026 (spät)
+
+### Figuren
+- **Alter:** Spielfigur und Liora/Cassian sind etwa **12 Jahre** alt.
+- **Aussehen Liora/Cassian:** kastanienbraune Locken, Sommersprossen, haselnussbraune Augen, dunkelgrüne Samtjacke mit Goldknöpfen, weißes Leinenhemd, braune Kniehose, weiße Strümpfe, Lederschuhe mit Silberschnallen – gepflegt. Details: `docs/worldbuilding/figuren-aussehen.md`.
+- **Tickwort** hat zweizinkige Zangen statt Hände.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
 - Die größere Bedrohung (im ersten Abenteuer nur Hinweise).
