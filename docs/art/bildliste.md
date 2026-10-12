@@ -10,6 +10,8 @@ Die App zeigt an diesen Stellen später das passende Bild. Bis dahin sind es nur
 
 Werkzeuge: siehe `werkzeuge.md`.
 
+**Perspektive:** Alle Szenenbilder aus der Sicht der Spielfigur, von ihr ist nichts zu sehen (siehe `art-style.md`).
+
 **Aussehen der Figuren:** verbindlich ist `docs/worldbuilding/figuren-aussehen.md`. Referenzblätter zeigen immer das Grundaussehen, nie einen Szenenzustand.
 
 ## Perle 1 – Die Hafenstadt
@@ -70,11 +72,11 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/grosse-schmiede` | Esse so groß wie ein Zimmer, Funkenregen | Szene |
 | `szene/faerberturm-feuer` | Brennender Färberturm am Mühlgraben, Kind oben auf der Plattform | Szene |
 | `szene/erwachen-wasser` | Eine Welle steigt aus dem Mühlgraben und löscht den Turm | Szene |
-| `szene/erwachen-feuer` | Die Flammen fließen den Turm hinab in die Hand der Spielfigur | Szene |
-| `szene/erwachen-wind` | Der Wind fängt das fallende Kind auf | Szene |
-| `szene/erwachen-erde` | Eine Felsentreppe wächst neben dem Turm empor | Szene |
+| `szene/erwachen-feuer` | Die Flammen fließen den Turm hinab auf den Betrachter zu und ballen sich vor ihm zu einer glühenden Kugel | Szene |
+| `szene/erwachen-wind` | Der Wind fängt das fallende Kind auf und trägt es auf den Betrachter zu | Szene |
+| `szene/erwachen-erde` | Eine Felsentreppe wächst vor dem Betrachter aus dem Pflaster neben dem Turm empor | Szene |
 | `szene/schmiedekeller` | Dunkler Keller, eine Lampe, Yrsa auf einer Kiste | Szene |
-| `szene/bruecke-abend` | Steinbrücke über den Orin bei Sonnenuntergang, zwei Kinder | Szene |
+| `szene/bruecke-abend` | Steinbrücke über den Orin bei Sonnenuntergang; Liora/Cassian sitzt neben dem Betrachter auf der Brüstung und schaut ihn an | Szene |
 
 ### Tagebuch und Karte
 | Tag | Inhalt |

@@ -32,6 +32,5 @@ Stand: 12.10.2026 (abends)
 8. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.
 
 ## Offene Fragen an Pasco
-- Spielfigur in Bildern: Ich-Perspektive ohne Gesicht? (Vorschlag in `docs/art/art-style.md`)
 - Soll es bei der ElevenLabs-Vertonung zusätzlich eine **Erzählerstimme** geben (deckt die Vorlesefunktion ab)?
 - Native App oder für Tablets/Handys optimierte Webseite?

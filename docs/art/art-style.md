@@ -29,7 +29,9 @@ Referenz: `stil-vorschlaege/1-gemaltes-abenteuerbuch.jpg`
 3. **Szenenbild** = Szenen-Prompt + Figuren-Referenz(en) + Ortsbild als Bildreferenz (FLUX.2 klein, `--referenz`).
 4. Szenenzustände (Sturz, nass, rußig …) stehen **nur** im Szenen-Prompt, nie im Referenzblatt.
 
-## Die Spielfigur in Bildern (Vorschlag, noch nicht entschieden)
-- Die Spielfigur sieht bei jedem Spieler anders aus (5 Völker × 2 Geschlechter × Hintergrund). Eigene Bilder für jede Kombination wären zu viele.
-- Deshalb: **Szenen aus der Sicht der Spielfigur** (Ich-Perspektive). Höchstens Hände, Ärmel oder Stiefel sind zu sehen, **nie das Gesicht**.
-- Passt zum Tagebuch: Der Spieler malt, was er selbst sieht.
+## Die Spielfigur in Bildern (festgelegt 12.10.2026)
+- **Alle Szenenbilder zeigen die Sicht der Spielfigur** (Ich-Perspektive).
+- **Von der Spielfigur ist nichts zu sehen** – kein Gesicht, keine Hände, keine Arme, keine Füße, kein Schatten.
+- Grund: Die Spielfigur sieht bei jedem Spieler anders aus (5 Völker × 2 Geschlechter × Hintergrund).
+- Figuren schauen den Betrachter an oder reden mit ihm; Magie der Spielfigur wird über ihre **Wirkung** gezeigt (z. B. Flammen, die auf den Betrachter zufließen), nicht über eine Hand.
+- Für Bild-Prompts: „first-person point of view, the viewer is not visible, no hands, no arms, no body parts of the viewer“.
