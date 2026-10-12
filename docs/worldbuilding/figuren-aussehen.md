@@ -84,13 +84,35 @@ Diese Details stehen nicht in der Story; sie stammen aus den Bildern in `docs/ar
 - **Der Fremde:** **neu gestaltet von Claude (12.10.2026, freie Hand von Pasco)** – verbindlich ist `docs/worldbuilding/der-fremde.md`. Kurz: groß und schlank; abgetragener grauer Reisemantel mit Kapuze; Gesicht im Schatten, aber Kinn und Mund schwach erkennbar; silbrig schimmernde Augen (spiegeln Licht, leuchten nicht); Bronzeschließe in Form der Spirale aus vier Linien; heller Treibholzstab; graue Handschuhe; Stiefel voller grauem Bergstaub.
   - **Szenenzustand** Perle 1, Nacht: nasser Mantel, Brief mit **dunkelgrünem** Siegel (Spirale aus vier Linien) in der Hand.
 
+### Ergänzungen für die Szenenbilder von Perle 1 (Vorschlag von Claude, 12.10.2026)
+Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasco etwas anderes sagt.
+
+- **Grisk (Kobold):** reicht einem Menschen knapp bis zur Hüfte; schiefergraue Schuppen, schmales Echsengesicht, **große gelbe Augen** mit schmalen Pupillen, **spitze kleine Zähne**, kurzer Schwanz; zerbeulter Grubenhelm mit **Grubenlampe**; Lederschürze mit Werkzeugschlaufen, Gürtelbeutel; barfuß mit kleinen Krallen; **flinke, lange Finger**. Misstrauisch, aber nicht böse. Nicht niedlich, nicht gruselig.
+- **Kobolde allgemein:** wie Grisk, Schuppenfarbe von Schiefergrau bis Rostbraun, alle mit Grubenlampe.
+- **Hafenmeister Brann:** Mensch um die fünfzig, **so breit wie eine Tür**; sonnenverbrannte Halbglatze, rotblonder Vollbart; offene dunkelblaue Hafenmeisterjacke mit Messingknöpfen über einem gestreiften Hemd, Ärmel hochgekrempelt; Messingpfeife an einer Kette um den Hals.
+- **Meister Orwin (Weite Feder):** alter Mann; **tintenblaue Finger**, **eine Brille auf der Nase, eine zweite auf der Stirn** (Story); zerzaustes weißes Haar, schmales Gesicht, dünner weißer Bart; dunkelbrauner Gelehrtenrock mit schwarzen Ärmelschonern, silberne Federnadel der Weiten Feder am Kragen.
+- **Gesellschaft der Weiten Feder (Zeichen):** eine **silberne Schreibfeder**, die über eine Linie fliegt.
+- **Fink (Leise Hand):** Junge um die dreizehn, mager, flink; graue **Schiebermütze tief ins Gesicht gezogen** mit aufgenähtem Zeichen (**Hand, Finger an den Lippen**, Story); dunkle wache Augen, schiefes Grinsen; zu große braune Flickenjacke, dunkler Schal, Fingerlinge.
+- **Söldner der Goldenen Waage:** **lange schwarze Mäntel**, darüber eine dunkle Brustplatte mit **goldener Waage** (Story); schwarze Handschuhe und Stiefel, schwarze Kappe; Kurzschwert in der Scheide (nie gezogen). Ernst, kühl, nicht monströs.
+- **Wappen von Lysmara:** eine **weiße Perle in einer goldenen Muschel** auf meergrünem Grund (passend zum ersten Satz von Perle 1).
+- **Stadtwache von Lysmara:** **meergrüner Waffenrock** mit dem Stadtwappen über einem Lederwams, offener Stahlhelm, langer Stab mit Messingspitze, Notizbuch am Gürtel.
+- **Hauptfrau Hallward:** kräftig, **kurz geschorenes Haar** (Story), Uniform der Wache mit goldener Schärpe.
+- **Der Herold:** Mensch, hager, **roter Mantel** (Story) mit dem Stadtwappen, schwarzes Barett mit weißer Feder, Pergamentrolle mit rotem Band.
+- **Gnomen-Obsthändler:** Gnom, rundlich, rosige Nase, weißer Backenbart, Schutzbrille auf der Stirn, grüne Schürze. Sein **Dampfkarren**: kleiner Holzkarren mit Messingkessel, Schornsteinchen und rotem Ventilgriff, voller roter Äpfel.
+- **Gnome allgemein:** etwa halb so groß wie ein Mensch, große Nasen, flinke Hände, Schutzbrillen und Werkzeug; ordentliche, saubere Kleidung.
+- **Goblins allgemein:** etwa so groß wie Gnome, **olivgrüne Haut**, große spitze Ohren, große gelbe Augen, spitze Nase, kleine spitze Zähne; rußig, mit Flicken und selbstgebastelten Werkzeugen. Wild, fröhlich, laut – nicht böse.
+- **Brakka (Goblin, Knallfunke & Söhne):** rußverschmiert, Lederschürze mit Brandlöchern, **Schutzbrille mit einem roten und einem grünen Glas**, angesengtes Haarbüschel auf dem Kopf.
+- **Fitzel (Goblinfrau, Knallfunke & Söhne; Name neu):** Brakkas Schwester; zwei abstehende Zöpfe mit Kupferdraht, geflickter Arbeitsanzug, Werkzeuggürtel, ein Schraubenschlüssel hinter dem Ohr.
+
 ## Bezugspersonen (je nach Hintergrund)
 
-| Figur | Hintergrund | Grundaussehen |
-|---|---|---|
-| **Maren** | Reisender | Händlerin der Wege; sonst offen |
-| **Bonifaz** | Schausteller | Bauch wie ein Fass, Stimme wie eine Trompete (Story) |
-| **Mutter Kessel** | Straßenkind | alte Frau, Garküche am Fischmarkt (Story) |
-| **Meister Holm** | Botenläufer | Botenmeister; sonst offen |
-| **Meisterin Ysolde** | Kartografenlehrling | Kartografin; sonst offen |
-| **Kapitänin Rhea** | Schiffsjunge | leise Stimme, eiserner Blick (Story) |
+Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.
+
+| Figur | Hintergrund | Zuhause | Grundaussehen |
+|---|---|---|---|
+| **Maren** | Reisender | Kammer im Gasthaus Zum Rostigen Anker | Händlerin der Wege (Story). Mensch um die vierzig, wettergegerbt, Lachfältchen, grüne Augen; kurzes dunkelblondes Haar unter einem abgewetzten breitkrempigen Lederhut; olivgrüner Reisemantel mit vielen aufgenähten Taschen, ockerfarbener Schal, fingerlose Lederhandschuhe, hohe Wanderstiefel. |
+| **Bonifaz** | Schausteller | Wagen der Funkelnden Narren | **Bauch wie ein Fass, Stimme wie eine Trompete** (Story). Mensch um die sechzig, rotwangig, gezwirbelter grauer Schnurrbart, Glatze mit grauem Haarkranz; purpurroter Gehrock mit goldenen, etwas abgewetzten Tressen, gestreifte Weste, gelbes Halstuch, Zylinder mit Pfauenfeder. |
+| **Mutter Kessel** | Straßenkind | Garküche am Fischmarkt | **alte Frau, Garküche am Fischmarkt** (Story). Klein und rund, runzlig, rote Apfelbäckchen, weißes Haar zum Knoten unter einem blauen Kopftuch; hochgekrempelte Ärmel, fleckige Schürze, Holzlöffel im Schürzenband. |
+| **Meister Holm** | Botenläufer | Schlafkammer über dem Botenhaus | Botenmeister (Story). Mensch um die fünfzig, drahtig wie ein alter Läufer, Halbglatze, kurzer grauer Bart; dunkelblaue Botenjacke mit Messingabzeichen (geflügelter Stiefel), Taschenuhr an einer Kette. |
+| **Meisterin Ysolde** | Kartografenlehrling | Werkstatt der Weiten Feder | Kartografin (Story). Mensch um die fünfundvierzig, groß, schwarzes Haar mit einer grauen Strähne zum Knoten gesteckt, darin zwei Federkiele; Brille an einer Kette, tintenfleckige Finger; dunkelblauer Mantel mit der silbernen Federnadel der Weiten Feder; Köcher mit Kartenrollen. |
+| **Kapitänin Rhea** | Schiffsjunge | an Bord der Seemöwe | **leise Stimme, eiserner Blick** (Story). Schlanke Frau um die fünfzig, kurzes eisgraues Haar, wettergegerbt, ruhige graue Augen; dunkelblauer Kapitänsrock mit Messingknöpfen, rotes Halstuch, hohe Stiefel, Fernrohr am Gürtel. |

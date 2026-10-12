@@ -3,6 +3,8 @@
 Stand 12.10.2026 – Antworten aus Runde 3. Namen sind Vorschläge (Stil: fantasy-artig).
 
 ## Geografie (festgelegt)
+Genaue Lage aller Orte: `karte-meridel.md`.
+
 - **Hauptstadt am Meer** – Haupt- und Handelsstadt, immer vom Seehandel geprägt.
 - **Ein Fluss** verläuft am Rand der Stadt und mündet ebenfalls ins Meer. Dort sitzt vor allem die Gilde **Webstuhl und Amboss**, die die Strömung für Wasserräder nutzt.
 - **Große Weideflächen** rund um die Hauptstadt.

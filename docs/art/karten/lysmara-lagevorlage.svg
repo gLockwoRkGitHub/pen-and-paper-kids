@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#f4ecd8"/>
+<path d="M 0,0 L 250,0 C 230,150 260,240 300,300 C 330,350 420,360 430,450 C 440,540 340,560 300,610 C 260,680 250,780 280,900 L 0,900 Z" fill="#bcd3d6" stroke="#4a6a70" stroke-width="3"/>
+<path d="M 300,300 C 330,350 420,360 430,450 C 440,540 340,560 300,610" fill="none" stroke="#5a4a3a" stroke-width="10"/>
+<path d="M 1200,120 C 1080,200 1020,300 1000,420 C 985,520 960,640 820,700 C 680,760 480,740 300,760" fill="none" stroke="#4a6a70" stroke-width="30" stroke-linecap="round"/>
+<path d="M 1200,120 C 1080,200 1020,300 1000,420 C 985,520 960,640 820,700 C 680,760 480,740 300,760" fill="none" stroke="#bcd3d6" stroke-width="22" stroke-linecap="round"/>
+<ellipse cx="760" cy="200" rx="230" ry="140" fill="#e8dcc0" stroke="#9a8a6a" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M 260,120 C 500,60 900,60 1010,260 C 1060,420 1020,560 900,640 C 760,700 500,700 300,640" fill="none" stroke="#6b5b4b" stroke-width="6" stroke-dasharray="20 6"/>
+<text x="120" y="450" font-family="Georgia, serif" font-size="34" font-weight="bold" font-style="normal" fill="#355057" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">HAFEN</text>
+<circle cx="330" cy="300" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="344" y="294" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Nordkai</text>
+<text x="344" y="316" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Lagerhäuser</text>
+<circle cx="450" cy="420" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="464" y="414" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Altes Zollhaus</text>
+<text x="464" y="436" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Torbogen</text>
+<circle cx="330" cy="600" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="344" y="594" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Fischmarkt</text>
+<text x="344" y="616" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Garküche Mutter Kessel</text>
+<circle cx="270" cy="360" r="7" fill="#4a6a70" stroke="#f4ecd8" stroke-width="2"/>
+<text x="284" y="354" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Dampfkran</text>
+<circle cx="500" cy="520" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="514" y="514" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Hafenviertel</text>
+<text x="514" y="536" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Rostiger Anker, Seilerei, Knallfunke &amp; Söhne</text>
+<path d="M 515,505 C 550,480 580,462 610,450" fill="none" stroke="#7a5a3a" stroke-width="5"/>
+<text x="425" y="478" font-family="Georgia, serif" font-size="18" font-weight="normal" font-style="italic" fill="#7a5a3a" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Zwirbelgasse</text>
+<rect x="610" y="360" width="130" height="110" fill="#e1c98f" stroke="#2b241e" stroke-width="2"/>
+<circle cx="672" cy="415" r="12" fill="#bcd3d6" stroke="#2b241e" stroke-width="2"/>
+<rect x="742" y="372" width="34" height="86" fill="#a65a3a" stroke="#2b241e" stroke-width="2"/>
+<text x="620" y="495" font-family="Georgia, serif" font-size="20" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Marktplatz · Brunnen</text>
+<text x="785" y="420" font-family="Georgia, serif" font-size="20" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Ratshalle</text>
+<text x="620" y="518" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Markt, Wachhaus, Botenhaus, Gewölbe darunter</text>
+<text x="700" y="150" font-family="Georgia, serif" font-size="28" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">OBERSTADT</text>
+<circle cx="900" cy="210" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="914" y="204" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Haus der Weiten Feder</text>
+<text x="914" y="226" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Fernrohre auf dem Dach</text>
+<path d="M 720,260 C 700,300 690,330 680,360" fill="none" stroke="#7a5a3a" stroke-width="5"/>
+<text x="560" y="300" font-family="Georgia, serif" font-size="18" font-weight="normal" font-style="italic" fill="#7a5a3a" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Apfelgasse</text>
+<circle cx="420" cy="110" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="434" y="104" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Nordtor</text>
+<text x="434" y="126" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">→ Klippen von Ahrn (5 km)</text>
+<circle cx="1000" cy="290" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="986" y="284" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="end" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Räderviertel</text>
+<text x="986" y="306" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="end" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Große Schmiede, Tuchhalle, Färberturm</text>
+<circle cx="850" cy="600" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="836" y="594" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="end" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Zwergenviertel</text>
+<text x="836" y="616" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="end" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Steinmetzhof, am Hang über dem Fluss</text>
+<circle cx="930" cy="450" r="9" fill="#2b241e" stroke="#f4ecd8" stroke-width="2"/>
+<text x="916" y="444" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="end" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Landtor</text>
+<text x="916" y="466" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="end" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">→ Spaltstraße, Nyrrspalt</text>
+<circle cx="978" cy="545" r="7" fill="#4a6a70" stroke="#f4ecd8" stroke-width="2"/>
+<text x="992" y="539" font-family="Georgia, serif" font-size="21" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Erzlände</text>
+<text x="992" y="561" font-family="Georgia, serif" font-size="15" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Erzkähne</text>
+<rect x="875" y="634" width="70" height="22" fill="#9a8a6a" stroke="#2b241e" stroke-width="2" transform="rotate(55 910 645)"/>
+<text x="950" y="680" font-family="Georgia, serif" font-size="19" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Orinbrücke</text>
+<text x="640" y="790" font-family="Georgia, serif" font-size="26" font-weight="normal" font-style="italic" fill="#355057" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Orin</text>
+<text x="300" y="800" font-family="Georgia, serif" font-size="16" font-weight="normal" font-style="italic" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Mündung des Orin</text>
+<path d="M 1140,776 L 1152,820 L 1140,812 L 1128,820 Z" fill="#2b241e"/>
+<text x="1140" y="768" font-family="Georgia, serif" font-size="24" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="middle" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">N</text>
+<text x="30" y="40" font-family="Georgia, serif" font-size="22" font-weight="bold" font-style="normal" fill="#2b241e" text-anchor="start" paint-order="stroke" stroke="#f4ecd8" stroke-width="5">Lysmara – Lagevorlage (schematisch, keine fertige Karte)</text>
+</svg>

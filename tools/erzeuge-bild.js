@@ -1,6 +1,7 @@
 // Erzeugt Bilder über den lokalen ComfyUI-Server von Krita AI Diffusion (FLUX.2 klein 4B oder SDXL).
 // Aufruf: node tools/erzeuge-bild.js <prompt.txt> <zielordner/name> [--seed 1] [--anzahl 4]
-//           [--breite 1536] [--hoehe 1024] [--schritte n] [--modell flux2|sdxl] [--referenz bild.jpg]
+//           [--breite 1536] [--hoehe 1024] [--schritte n] [--modell flux2|sdxl] [--referenz bild.jpg[,bild2.png,…]]
+// Mehrere Referenzen (nur FLUX.2) mit Komma trennen, z. B. Figur + Ortsbild. Reihenfolge = Wichtigkeit.
 // Beispiel: node tools/erzeuge-bild.js docs/art/figuren/tickwort.prompt.txt docs/art/figuren/tickwort --anzahl 4
 // Ergebnis: <zielordner/name>-s<seed>.png je Seed. Server-Adresse über COMFYUI_URL änderbar.
 const fs = require('fs');
@@ -77,13 +78,16 @@ function workflow(seed, referenzName, ckpt) {
     bild: { class_type: 'VAEDecode', inputs: { samples: ['sample', 0], vae: ['vae', 0] } },
     speichern: { class_type: 'SaveImage', inputs: { images: ['bild', 0], filename_prefix: 'pen-and-paper-kids/' + path.basename(ziel) } },
   };
-  if (referenzName) {
-    w.refBild = { class_type: 'LoadImage', inputs: { image: referenzName } };
-    w.refKlein = { class_type: 'ImageScaleToTotalPixels', inputs: { image: ['refBild', 0], upscale_method: 'lanczos', megapixels: 1, resolution_steps: 16 } };
-    w.refLatent = { class_type: 'VAEEncode', inputs: { pixels: ['refKlein', 0], vae: ['vae', 0] } };
-    w.refText = { class_type: 'ReferenceLatent', inputs: { conditioning: ['text', 0], latent: ['refLatent', 0] } };
-    w.guider.inputs.conditioning = ['refText', 0];
-  }
+  // Jede Referenz wird verkleinert, kodiert und als ReferenceLatent an die Bedingung gehängt (Kette).
+  let bedingung = ['text', 0];
+  (referenzName || []).forEach((name, i) => {
+    w['refBild' + i] = { class_type: 'LoadImage', inputs: { image: name } };
+    w['refKlein' + i] = { class_type: 'ImageScaleToTotalPixels', inputs: { image: ['refBild' + i, 0], upscale_method: 'lanczos', megapixels: 1, resolution_steps: 16 } };
+    w['refLatent' + i] = { class_type: 'VAEEncode', inputs: { pixels: ['refKlein' + i, 0], vae: ['vae', 0] } };
+    w['refText' + i] = { class_type: 'ReferenceLatent', inputs: { conditioning: bedingung, latent: ['refLatent' + i, 0] } };
+    bedingung = ['refText' + i, 0];
+  });
+  w.guider.inputs.conditioning = bedingung;
   return w;
 }
 
@@ -110,7 +114,10 @@ async function erzeuge(seed, referenzName, ckpt) {
 }
 
 (async () => {
-  const referenzName = opt.referenz ? await ladeReferenzHoch(opt.referenz) : null;
+  const referenzName = [];
+  for (const datei of opt.referenz ? opt.referenz.split(',').map((d) => d.trim()).filter(Boolean) : []) {
+    referenzName.push(await ladeReferenzHoch(datei));
+  }
   const ckpt = opt.modell === 'sdxl' ? await sdxlModell() : null;
   if (ckpt) console.log('SDXL-Modell: ' + ckpt);
   for (let s = opt.seed; s < opt.seed + opt.anzahl; s++) {

@@ -121,6 +121,14 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 ### Bilder
 - **Alle Szenenbilder aus der Sicht der Spielfigur.** Von der Spielfigur ist nichts zu sehen – kein Gesicht, keine Hände. Details: `docs/art/art-style.md`.
 
+## Stand 12.10.2026 (nachts)
+
+### Karte
+- **Grundkarte von Meridel festgelegt** (Claude im Auftrag von Pasco): Meer im Westen, Kharvan-Kamm als Hufeisen um das Land, Nyrrspalt genau östlich von Lysmara (ein langer Tagesmarsch), Klippen von Ahrn 5 km nördlich, Orin aus dem Nordosten mit den Kobold-Minen an seiner Quelle, Ziegenstiege im Südosten. Stadtplan von Lysmara inklusive. Details: `docs/worldbuilding/karte-meridel.md`, Lagevorlagen in `docs/art/karten/`.
+
+### Rückmeldung
+- **Perle 1 ist durchgespielt** (Pasco und Sohn) und „sehr gut“.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
 - Die größere Bedrohung (im ersten Abenteuer nur Hinweise).

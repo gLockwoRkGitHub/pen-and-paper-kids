@@ -6,7 +6,7 @@ Die App zeigt an diesen Stellen später das passende Bild. Bis dahin sind es nur
 ## Vorgehen (Vorschlag, 12.10.2026)
 1. **Zuerst die Figuren-Referenzblätter**, bevor Szenenbilder entstehen: Tickwort, Liora, Cassian, die fünf Völker, Grumak, Fesk, der Fremde. Nur so sehen die Figuren in allen Bildern gleich aus.
 2. **Danach je Perle**, sobald sie getestet ist und sich der Text nicht mehr stark ändert. Bilder zu Szenen, die noch umgeschrieben werden, wären verschwendet.
-3. **Die Gesamtkarte von Meridel früh festlegen** (Lage von Stadt, Fluss, Weiden, Gebirge, Schlucht), auch wenn die gezeichneten Kartenteile erst später entstehen – sonst passen die Tagebuch-Skizzen nicht zusammen.
+3. **Die Gesamtkarte von Meridel** ist festgelegt (12.10.2026): `docs/worldbuilding/karte-meridel.md`, Lagevorlagen in `docs/art/karten/`.
 
 Werkzeuge: siehe `werkzeuge.md`.
 
@@ -16,12 +16,14 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 ## Perle 1 – Die Hafenstadt
 
-### Figuren (Referenzblätter)
+**Ausführliche Beschreibung jedes Bildes, Varianten, Referenzen und fertige Prompts: `docs/art/szenen/perle-1/README.md`** (12.10.2026). Die Tabellen hier sind nur die Kurzfassung.
+
+### Figuren-Auftritte (Szenenbilder, die eine Figur vorstellen)
 | Tag | Inhalt | Ebene |
 |---|---|---|
-| `figur/tickwort` | Kleiner Messing-Automat, katzengroß, Kugelbauch, drei Beine, ein Glasauge, kleiner Schornstein | Szene |
-| `figur/freund` | Liora bzw. Cassian: gepflegtes Kind reicher Eltern, saubere teure Kleidung, Lederschuhe mit Silberschnallen. **Referenzblatt ohne Sturzspuren** – Blätter und Riss nur im Szenenbild `szene/freund-faellt` | Szene |
-| `figur/grumak` | Großer Ork-Gewürzhändler, graue Strähnen, goldene Ohrringe | Szene |
+| `figur/tickwort` | Tickwort fliegt aus der Werkstatt und liegt vor dem Betrachter auf dem Pflaster | Szene |
+| `figur/freund` | Liora bzw. Cassian taucht aus dem Apfelhaufen auf (Blätter im Haar, Ärmel eingerissen – Szenenzustand) | Szene |
+| `figur/grumak` | Grumak an seinem Gewürzstand am Brunnen, der Betrachter schaut weit zu ihm hoch | Szene |
 
 ### Szenen
 | Tag | Inhalt | Ebene |
