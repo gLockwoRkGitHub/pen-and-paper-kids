@@ -1,0 +1,14 @@
+# Referenzblatt Tickwort – Prompt für tools/erzeuge-bild.js (Zeilen mit # werden ignoriert)
+# Wird zusammen mit --referenz docs/art/figuren/tickwort-einzel.png benutzt.
+Character turnaround sheet of exactly the same brass automaton as in the reference image,
+shown four times side by side in one row on plain cream watercolor paper, all the same size:
+front view, three-quarter view, side view facing right, back view.
+Keep the design identical in every view: big round brass ball body with the small hinged hatch door
+on the belly, small dome-shaped head with one single large round amber glass eye, tiny chimney on the head
+puffing a little white steam cloud, two thin spindly jointed arms ending in simple two-pronged
+brass pincer claws like small pliers (no fingers, no human hands),
+and a tripod of exactly three very short stubby peg legs (one in front, two behind), no feet, not humanoid.
+In the back view the eye and the hatch are not visible.
+Same art style as the reference: hand-painted storybook illustration, warm watercolor and gouache
+with confident black ink outlines, visible paper texture, warm golden light, soft ground shadows.
+No text, no letters, no labels, no numbers.

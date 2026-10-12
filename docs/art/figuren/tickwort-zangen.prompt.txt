@@ -1,0 +1,5 @@
+# Tickwort: Hände durch Zangen ersetzen – mit --referenz docs/art/figuren/tickwort-einzel.png benutzen
+Keep the image exactly the same: same brass automaton, same pose, same colors, same paper background,
+same watercolor and ink storybook style. Change only the hands: replace both hands with simple
+mechanical brass pincer claws, each made of two short curved prongs like a small pair of pliers
+or a crab claw. No fingers, no thumbs, no human hands. No text, no letters.
