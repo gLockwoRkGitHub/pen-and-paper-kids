@@ -2,7 +2,9 @@
 
 Diese Datei ist die Übergabe zwischen Arbeitssitzungen. Wer neu einsteigt (auch eine neue Claude-Sitzung): zuerst `CLAUDE.md`, dann diese Datei lesen.
 
-Stand: 12.10.2026 (nachts)
+Stand: 12.10.2026 (nachts, Sitzungsende)
+
+**Morgen weiter im Chat:** Pasco startet vorher lokal die Bilder für Perle 1 (`docs/auftraege.md`). Danach Bilder prüfen, dann Perle 2 testspielen bzw. Perle 3.
 
 ## Fertig
 - Konzept, Regeln, Magiesystem, World-Building (Runden 1–3), Hauptstory „Der Weg hinaus“ – siehe `docs/entscheidungen.md`.
@@ -27,7 +29,7 @@ Stand: 12.10.2026 (nachts)
 
 ## Nächste Schritte
 0. **Lokal: alle Bilder für Perle 1** nach `docs/auftraege.md` (Schritte A–F). Danach prüft Claude im Chat die Übersicht.
-1. **Abnahmen offen:** Grumak neu (Claude empfiehlt: annehmen), Der Fremde (dritter Versuch läuft mit), Nerelle (überarbeitet), Tickwort mit dem Sohn ansehen.
+1. **Abnahmen offen:** Der Fremde (dritter Versuch läuft mit), Nerelle (überarbeitet), Tickwort mit dem Sohn ansehen.
 2. **Perle 2 testspielen** und Rückmeldung einarbeiten; danach Szenenbilder für Perle 2 genauso ausarbeiten wie für Perle 1.
 3. **Perle 3 „Die Gildenprobe“** schreiben: Gildentag, Prüfungen mehrerer Gilden, Gildenbeitritt (~35 % der Story), erste Hinweise, dass Liora/Cassians Eltern die Goldene Waage führen, Magiergesetz im Stadtrat.
 4. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.

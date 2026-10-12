@@ -39,7 +39,7 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 ```
 
 ### Schritt A – Grumak und der Fremde
-- [ ] **Grumak** (erst, wenn Pasco zugestimmt hat; Claude empfiehlt es): `grumak-einzel-neu.png` und `grumak-referenzblatt-neu.png` ersetzen die alten Dateien als `grumak-einzel.png` und `grumak-referenzblatt.png`. Danach `docs/art/figuren/README.md` anpassen.
+- [ ] **Grumak** (von Pasco angenommen, 12.10.2026): `grumak-einzel-neu.png` und `grumak-referenzblatt-neu.png` ersetzen die alten Dateien als `grumak-einzel.png` und `grumak-referenzblatt.png`. Danach `docs/art/figuren/README.md` anpassen.
 - [ ] **Der Fremde, dritter Versuch:** `docs/art/figuren/fremder-einzel-v3.prompt.txt`, 6 Seeds, 832×1216, nur aus Text. Das Ziel steht in den Kommentarzeilen: größer und schlanker, unteres Gesicht sanft beleuchtet, Augen nur kleine matte Silberfunken. Ist ein Seed besser als `fremder-einzel-neu.png`, wird er zum neuen `fremder-einzel.png`, und dazu kommt ein neues Referenzblatt (`fremder-blatt.prompt.txt`). Sonst wird `fremder-einzel-neu.png` zu `fremder-einzel.png`. Beide Kandidaten in einer Übersicht für Pasco ablegen.
 
 ### Schritt B – Neue Figuren (Einzelbild 832×1216 + Referenzblatt 2048×832 mit `blatt-allgemein.prompt.txt`)
