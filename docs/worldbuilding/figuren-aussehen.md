@@ -51,11 +51,11 @@ Legende: **(Story)** = steht so im Text · **(festgelegt)** = von Pasco bestäti
 
 ---
 
-### Ergänzungen für die Mentoren-Entwürfe (Vorschlag, 12.10.2026)
+### Ergänzungen aus den Mentoren-Bildern (Yrsa, Borrik, Vael festgelegt 12.10.2026; Nerelle noch Vorschlag)
 Diese Details stehen nicht in der Story; sie stammen aus den Entwürfen in `docs/art/figuren/` und gelten erst, wenn Pasco sie bestätigt.
 - **Yrsa:** Mensch um die siebzig, klein und kräftig; rostrotes Kopftuch, dunkles Wollkleid mit hochgekrempelten Ärmeln, braune Lederschürze mit Brandflecken, feste Stiefel, Schmiedehammer.
 - **Borrik:** kahler Kopf, sanftes Lächeln; graue staubige Steinmetzschürze über erdbrauner Tunika, schwere Stiefel, Gehstock.
-- **Nerelle:** Mensch um die fünfzig, sehr groß und schlank, sonnengebräunt; langes offenes Haar, schlichtes blaugraues Kleid unter dem Seetang-Mantel, Muschel am Kragen.
+- **Nerelle:** Mensch um die fünfzig, sehr groß und schlank, sonnengebräunt; langes offenes silbergrünes Haar, schlichtes blaugraues Kleid unter dem Seetang-Mantel, Muschel am Kragen.
 - **Vael:** um die achtzig, sehr dünn, große hellblaue Augen, scheues Lächeln; geflickter himmelgrauer Mantel, langer wehender Schal, Sandalen.
 
 ---

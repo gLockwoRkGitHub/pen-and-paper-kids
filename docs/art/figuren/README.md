@@ -56,7 +56,7 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; die ergänzten Deta
 - Der Fremde: Bei vielen Seeds zeichnet das Modell in den Seitenansichten ein Menschengesicht. Beim Erzeugen von Szenen darauf achten, dass das Gesicht im Schatten bleibt. Seine Stiefel sehen recht modern aus.
 - Der Fremde hält den Brief mit dem Spiralsiegel – streng genommen ein Szenenzustand (Perle 1, Nacht).
 
-## Die vier Mentoren (Entwürfe von Claude, 12.10.2026 – noch nicht von Pasco bestätigt)
+## Die vier Mentoren (Yrsa, Borrik und Vael bestätigt 12.10.2026; Nerelle überarbeitet, Abnahme offen)
 Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; ergänzte Details stehen dort als Vorschlag.
 
 | Datei | Entstanden aus |
@@ -68,10 +68,28 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; ergänzte Details s
 | `<name>-referenzblatt.png` | `blatt-allgemein.prompt.txt`, 2048×832, Referenz das jeweilige Einzelbild (Seeds: Yrsa 3, Borrik 6, Nerelle 4, Vael 2) |
 
 **Bekannte Schwächen:**
-- Nerelle: Auf dem Referenzblatt ist das Haar wieder silbergrau statt silbergrün. Für die Haarfarbe ist das Einzelbild maßgeblich.
+- Nerelle: Das Referenzblatt wurde nachträglich umgefärbt (`nerelle-blatt-haar.prompt.txt` mit dem Blatt selbst als Referenz, Seed 1), weil das Modell das Haar auf Blättern immer silbergrau malt. Das Grün ist jetzt sichtbar, aber blass.
 - Yrsa blickt sehr grimmig; laut Story ist sie streng, aber nicht unfreundlich.
 - Borrik: Sein Stab sieht nach Holz aus, nicht nach Stein. Der Bart steckt nicht sichtbar im Gürtel.
 - Vael: Die Mütze fehlt bewusst (Szenenzustand).
+
+## Neue Fassungen zur Abnahme (13.10.2026, Aufträge aus `docs/auftraege.md`)
+Die bisherigen Bilder von Grumak und dem Fremden bleiben liegen, bis Pasco den neuen zugestimmt hat. Die neuen Dateien enden auf `-neu` und sind noch **nicht im Repo**.
+
+| Datei | Entstanden aus |
+|---|---|
+| `grumak-einzel-neu.png` | `grumak-einzel-neu.prompt.txt`, Seed 2, 1024×1216, nur aus Text. Die blasse Bleistiftfigur daneben ist ein Größenvergleich mit einem Menschen. |
+| `grumak-referenzblatt-neu.png` | `grumak-blatt.prompt.txt`, Seed 1, 2048×832, Referenz `grumak-einzel-neu.png` |
+| `fremder-einzel-neu.png` | `fremder-einzel-neu.prompt.txt`, Seed 4, 832×1216; danach beide Augen als Schimmer ergänzt (`fremder-augen.prompt.txt`, Seed 4) |
+| `fremder-referenzblatt-neu.png` | `fremder-blatt.prompt.txt`, Seed 8, 2048×832, Referenz `fremder-einzel-neu.png` |
+
+**Erfahrungen:**
+- Grumak ließ sich mit dem alten Bild als Referenz nicht vergrößern (die Referenz hält den Körperbau fest). Geholfen hat ein neues Bild aus Text mit einer Vergleichsfigur im Prompt.
+- Grumaks graue Strähnen sind kaum zu sehen.
+- Der Fremde: Auf dem Referenzblatt ist das Gesicht fast ganz schwarz, und er wirkt weniger groß und schlank. Für Gesicht und Gestalt ist das Einzelbild maßgeblich.
+
+## Requisiten
+`docs/art/requisiten/spiralsiegel.png`: dunkelgrünes Wachssiegel mit der Spirale aus vier Linien. Die Linien sind in `spiralsiegel-vorlage.png` exakt vorgezeichnet (nur aus Text zählt das Modell sie nicht zuverlässig); daraus mit `spiralsiegel.prompt.txt` und der Vorlage als Referenz erzeugt, Seed 6, 1024×1024.
 
 ## Übersichten zum Auswählen
 `tools/bilduebersicht.ps1` setzt mehrere Seeds zu einem nummerierten Übersichtsbild zusammen.
