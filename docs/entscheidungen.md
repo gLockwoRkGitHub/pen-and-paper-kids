@@ -84,7 +84,7 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Mentor** für die Magie. **Geheimnisvolle Figur** mit paralleler Story, greift gelegentlich ein. **Kein Rivale** vorerst.
 - **Namen:** fantasy-artig.
 - **Die Goldene Waage** ist die stärkste Gilde und hält die Schlucht.
-- **Freund/Freundin** ist jeweils das andere Geschlecht als die Spielfigur. Die Eltern führen eine Bankiersgilde.
+- **Freund/Freundin** ist jeweils das andere Geschlecht als die Spielfigur. **Die Eltern stehen an der Spitze der Goldenen Waage** – der Spieler erfährt das aber nicht sofort.
 - **Hauptstory „Der Weg hinaus“** mit 7 Perlen ist die Grundlage für das erste Abenteuer: Schließung der Schlucht, Intrige um die Gilden, Finale mit Routenwahl je nach Weltgedächtnis. Details: `story/hauptstory-entwurf.md`.
 - Details: `docs/worldbuilding/startregion.md`, `docs/worldbuilding/figuren.md`.
 
