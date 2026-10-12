@@ -41,8 +41,8 @@ Beide spielen dieselbe Rolle (je nach Spielfigur) und tragen deshalb dieselbe Kl
 
 **Bekannte Schwächen:** Auf den Referenzblättern wirken beide jünger und gedrungener als auf den Einzelbildern. Für das Alter sind die Einzelbilder maßgeblich.
 
-## Grumak, Fesk, der Fremde (Entwürfe von Claude, 12.10.2026 – noch nicht von Pasco bestätigt)
-Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; was dort nicht steht, ist als Vorschlag ergänzt.
+## Grumak, Fesk, der Fremde (von Pasco bestätigt 12.10.2026)
+Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; die ergänzten Details sind dort als festgelegt eingetragen.
 
 | Datei | Entstanden aus |
 |---|---|
