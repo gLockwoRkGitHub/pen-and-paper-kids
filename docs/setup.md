@@ -38,6 +38,10 @@ Stand 12.10.2026. Ziel: Das Projekt liegt auf Pascos Rechner, Claude kann darauf
 6. **Claude-Desktop-App** öffnen, diesen Chat aufrufen und **„Mit diesem Computer verknüpfen“** wählen. Den Projektordner (`E:\Projekte\pen-and-paper-kids`) als Ordner freigeben.
 7. Optional **Computer-Steuerung** erlauben, damit Claude Krita/Inky bedienen und Screenshots ansehen kann.
 
+## Git-Abgleich
+- **Claude-Sitzungen** holen beim Start automatisch den neuesten Stand (Hook in `.claude/settings.json`) und pushen nach jedem Arbeitsschritt selbst (Regel in `CLAUDE.md`).
+- **Zum Spielen in Inky:** vorher einfach **`aktualisieren.cmd`** im Projektordner doppelklicken.
+
 ## Sicherheit
 - API-Schlüssel (z. B. ElevenLabs) **nie ins Repo**. Sie kommen in eine lokale Datei `.env`, die in `.gitignore` steht.
 - Erzeugte Bilder und Audio bleiben lokal, bis sie bewusst ins Repo übernommen werden.
