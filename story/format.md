@@ -44,6 +44,8 @@ tools/
 ## Testen
 - **Spielen:** `story/main.ink` im kostenlosen Editor [Inky](https://github.com/inkle/inky/releases) öffnen.
 - **Automatisch prüfen:** `npm install`, dann `npm test`. Spielt die Geschichte 500-mal zufällig durch und meldet Fehler, Sackgassen und Werte außerhalb des erlaubten Bereichs.
+- **Einen Durchlauf lesen:** `node tools/zeige-durchlauf.js 3` gibt einen kompletten zufälligen Durchlauf (Zahl = Startwert) als Text aus – gut zum Korrekturlesen.
+- **Hilfsfunktionen prüfen:** `node tools/pruefe-funktionen.js`
 
 ## Konventionen
 - **Weltgedächtnis** als Variablen mit sprechenden Namen: `kobold_gerettet`, `ruf_goldene_waage`.

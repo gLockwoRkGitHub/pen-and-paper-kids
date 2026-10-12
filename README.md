@@ -28,6 +28,6 @@ Ob native App (Android/iOS) oder für Tablets und Handys optimierte Webseite, is
 | `docs/weltgedaechtnis.md` | Wie sich die Welt an Entscheidungen erinnert |
 | `docs/worldbuilding/` | Welt, Orte, Fraktionen, Figuren |
 | `docs/worldbuild-ideas.md` | World-Building-Ideen für später |
-| `docs/art/` | Stilvorschläge und Bildmaterial |
+| `docs/art/` | Art-Style, Stilvorschläge, Bildliste, Werkzeuge |
 | `story/` | Die Kapitel des Abenteuers (Ink) |
 | `tools/` | Test-Skript für die Story (`npm test`) |

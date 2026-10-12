@@ -52,6 +52,49 @@ VAR beziehung_freund = 0     // Freund bzw. Freundin
 VAR beziehung_tickwort = 0   // der Gnomen-Automat
 VAR beziehung_mentor = 0
 
+// --- Besitz ---
+VAR silber = 0           // Silberlinge
+VAR erzmarke = false     // Geschenk von Grisk – öffnet Türen in den Kobold-Minen
+VAR kompass = false      // Geschenk von Tickwort – zeigt „nach Hause“
+
+// --- Anzeige der letzten Würfelprobe ---
+VAR letzter_augen = 0    // Augen der zwei Würfel
+VAR letzter_gesamt = 0   // Augen + Wert
+
+// --- Start-Fragen (Perle 1): Punkte für die Auslöser ---
+VAR pkt_verschwunden = 0
+VAR pkt_brief = 0
+VAR pkt_schulden = 0
+VAR pkt_flucht = 0
+
 // --- Weltgedächtnis: Taten ---
-// Einzelne Ereignisse werden hier ergänzt, sobald sie in einer Perle vorkommen.
 // Namensschema: sprechend und in der Vergangenheit, z. B. kobold_gerettet.
+
+// Perle 1 – Die Nacht
+VAR bp_nachgefragt = false        // Bezugsperson nach dem Ziel gefragt
+VAR fremder_getroffen = false     // die geheimnisvolle Figur getroffen
+VAR brief_erhalten = false        // Brief mit dem Spiralsiegel angenommen
+VAR fremder_ausgefragt = false
+VAR schulden_versprochen = false  // dem Eintreiber Fesk Zahlung versprochen
+VAR fesk_getaeuscht = false
+VAR vor_fesk_geflohen = false
+VAR kisten_gesehen = false        // die Glaskugeln der Goldenen Waage gesehen
+VAR gesehen_worden = false        // von Söldnern der Waage bemerkt
+
+// Perle 1 – Die Hafenstadt
+VAR auftraege = 0
+VAR kobold_gerettet = false       // Grisk am Hafen geholfen
+VAR kobold_ignoriert = false
+VAR kuestenmauer_gesehen = false  // neue Mauern der Waage an der Küste entdeckt
+VAR skizze = 0                    // Qualität der Klippen-Skizze: 1 schlecht, 2 brauchbar, 3 gut
+VAR leuchtturm_geklopft = false
+VAR paeckchen_geliefert = false
+VAR paeckchen_geoeffnet = false
+VAR schmugglerpfad_gesehen = false
+VAR paeckchen_zur_wache = false
+VAR grumak_gewarnt = false        // von den leeren Dörfern hinter den Bergen gehört
+VAR freund_getroffen = false
+VAR freund_will_mit = false
+VAR obstkarren_gestoppt = false
+VAR schmiedin_gesehen = false     // die alte Frau mit den rußigen Händen
+VAR tickwort_bei_goblins = false

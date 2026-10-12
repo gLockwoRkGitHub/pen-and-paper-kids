@@ -26,7 +26,7 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 
 | # | Perle | Inhalt | Ende |
 |---|---|---|---|
-| 1 | **Die Hafenstadt** | Intro, Start-Fragen, Begegnung mit dem Gnomen-Automaten, die Freundin/der Freund stolpert in die Geschichte, erste kleine Aufträge (z. B. Kartografen) | Die Schlucht wird geschlossen. Der Automat findet seine Gruppe und verabschiedet sich. Level-Up. |
+| 1 | **Die Hafenstadt** ✍️ Entwurf fertig | Intro, Start-Fragen, Begegnung mit dem Gnomen-Automaten, die Freundin/der Freund stolpert in die Geschichte, erste kleine Aufträge (z. B. Kartografen) | Die Schlucht wird geschlossen. Der Automat findet seine Gruppe und verabschiedet sich. Level-Up. |
 | 2 | **Am Fluss der Räder** | Viertel von Webstuhl und Amboss, Schmieden und Wasserräder, erste Begegnung mit dem Mentor, das Element zeigt sich zum ersten Mal | Erste Zauber. Level-Up. |
 | 3 | **Die Gildenprobe** | Aufgaben für mehrere Gilden, Intrige zwischen den Bankiersgilden um die Schlucht – die Familie der Freundin/des Freundes steckt mit drin | **Gildenbeitritt (~35 %).** Level-Up. |
 | 4 | **Die Weiden** | Reise ins Umland, Hirtendörfer, Gnolle, erste deutliche Hinweise auf die Bedrohung, die geheimnisvolle Figur greift ein | Level-Up. |

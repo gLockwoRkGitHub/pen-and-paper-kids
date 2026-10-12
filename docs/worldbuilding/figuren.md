@@ -12,6 +12,7 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 
 ## Freund / Freundin (festgelegt)
 - **Kind reicher Eltern**, das ebenfalls Abenteuer erleben möchte – **aber immer geht etwas schief**.
+- **Namen (festgelegt 12.10.2026): Liora** (Freundin) und **Cassian** (Freund).
 - **Geschlecht richtet sich nach der Spielfigur** (festgelegt 12.10.2026): Spielt man eine männliche Figur, ist es eine **Freundin**; spielt man eine weibliche Figur, ist es ein **Freund**. Beide Varianten brauchen einen eigenen Namen.
 - **Die Eltern führen eine Bankiersgilde** (festgelegt 12.10.2026). So gerät die Freundschaft in die Intrigen um die Schlucht – ein echtes Dilemma.
 - **Die Eltern stehen an der Spitze der Goldenen Waage** (festgelegt 12.10.2026) – also genau der Gilde, die die Schlucht hält.

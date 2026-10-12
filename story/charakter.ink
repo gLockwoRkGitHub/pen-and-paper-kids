@@ -32,13 +32,13 @@ Zu welchem Volk gehörst du?
 
 = hintergrund_waehlen
 Was hast du bisher getan?
-+ [Reisender – du kennst Wege, die auf keiner Karte stehen]
++ [{geschlecht == "w":Reisende|Reisender} – du kennst Wege, die auf keiner Karte stehen]
     ~ hintergrund = "reisender"
-+ [Schausteller – du weißt, wie man ein Publikum fesselt]
++ [{geschlecht == "w":Schaustellerin|Schausteller} – du weißt, wie man ein Publikum fesselt]
     ~ hintergrund = "schausteller"
 + [Straßenkind – du kennst jede Gasse und jeden Trick]
     ~ hintergrund = "strassenkind"
-+ [Botenläufer – du bist schnell und kennst jeden Torwärter]
++ [{geschlecht == "w":Botenläuferin|Botenläufer} – du bist schnell und kennst jeden Torwärter]
     ~ hintergrund = "botenlaeufer"
 + [Kartografenlehrling – du zeichnest, was andere übersehen]
     ~ hintergrund = "kartografenlehrling"

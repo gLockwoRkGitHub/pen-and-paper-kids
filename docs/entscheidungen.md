@@ -84,7 +84,7 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Mentor** für die Magie. **Geheimnisvolle Figur** mit paralleler Story, greift gelegentlich ein. **Kein Rivale** vorerst.
 - **Namen:** fantasy-artig.
 - **Die Goldene Waage** ist die stärkste Gilde und hält die Schlucht.
-- **Freund/Freundin** ist jeweils das andere Geschlecht als die Spielfigur. **Die Eltern stehen an der Spitze der Goldenen Waage** – der Spieler erfährt das aber nicht sofort.
+- **Freund/Freundin** ist jeweils das andere Geschlecht als die Spielfigur: **Liora** bzw. **Cassian**. **Die Eltern stehen an der Spitze der Goldenen Waage** – der Spieler erfährt das aber nicht sofort.
 - **Hauptstory „Der Weg hinaus“** mit 7 Perlen ist die Grundlage für das erste Abenteuer: Schließung der Schlucht, Intrige um die Gilden, Finale mit Routenwahl je nach Weltgedächtnis. Details: `story/hauptstory-entwurf.md`.
 - Details: `docs/worldbuilding/startregion.md`, `docs/worldbuilding/figuren.md`.
 
@@ -98,6 +98,9 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Ein Mentor je Element:** Zwergen-Steinmetz (Erde), Schiffsmagierin im Hafen (Wasser), Schmiedin am Fluss (Feuer), Einsiedler im Leuchtturm (Wind). Alle in Perle 2 erreichbar.
 - **Magiergesetz:** Die Goldene Waage treibt im Stadtrat ein Gesetz voran, nach dem sich jeder Zaubernde bei einer Gilde registrieren muss.
 - Details: `docs/magie.md`.
+
+### Zusammenarbeit
+- Ab Perle 1 schreibt Claude die Perlen vollständig aus; Pasco und Sohn spielen und geben Rückmeldung.
 
 ### Story-Format
 - **Ink** (inkle) für alle Story-Dateien; spielbar im Editor Inky, automatischer Test mit `npm test`. Details: `story/format.md`.
