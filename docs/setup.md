@@ -33,6 +33,7 @@ Stand 12.10.2026. Ziel: Das Projekt liegt auf Pascos Rechner, Claude kann darauf
      - **Backend:** **CUDA** (für NVIDIA).
      - **Workloads:** auswählen, welche Modellfamilien installiert werden – eine mit **FLUX** und/oder **SDXL**. Mehr Workloads = mehr Download.
      - **Install** klicken und warten. Danach den Server mit **Launch** starten.
+     - **Server Path auf Pascos PC:** `E:\Projekte\pen-and-paper-kids\Krita\ComfyUI`. Meldet das Plugin „kein Server installiert“, ist meist nur dieser Pfad zurückgesprungen: unter Configure ▸ Connection ▸ Local Managed Server wieder eintragen, dann **Launch**. **Nicht** auf Install klicken, sonst wird alles neu heruntergeladen. (13.10.2026)
    - Voraussetzung: NVIDIA ab RTX 2060 und **aktueller Grafikkartentreiber**.
    - Anleitung des Herstellers: https://docs.interstice.cloud/installation/
 6. **Claude-Desktop-App** öffnen, diesen Chat aufrufen und **„Mit diesem Computer verknüpfen“** wählen. Den Projektordner (`E:\Projekte\pen-and-paper-kids`) als Ordner freigeben.
