@@ -25,6 +25,7 @@ Stand: 13.10.2026
 - **Zusammenarbeit:** Die Chat-Sitzung in der Cloud und die lokale Sitzung schreiben ins selbe Repo. Vor jedem Push erst `git pull`.
 
 - **Browser-Player – Planung begonnen** (13.10.2026, eigener Chat): Story-Konventionen in `docs/story-konventionen.md` (erster Entwurf, Vorschläge zur Zustimmung offen). Reihenfolge: Konventionen → Charakterbogen und Level-Up → Karte und Logbuch → Bilder → Audio. Kein Vorab-Prototyp; der Sohn bekommt das Spiel, wenn es fertig ist.
+- **Charakterbogen – Entwurf abgenommen** (13.10.2026, Pasco): Design-Entwurf auf claude.ai (Tablet nach dem Erwachen, Spielbeginn, Level-Up, Handy). Stil: ledergebundenes Tagebuch mit Messingecken, abgegriffenes Pergament (Flecken, Eselsohr), Register-Laschen am Seitenrand (Tablet rechts, Handy unten; die aktive Lasche liegt hinter der Seite und ragt weiter heraus), Level als Wachssiegel, Werte als rote Edelsteine (0–3) mit Symbol je Wert, Magie im Siegelkreis. Schriften: Cinzel (Überschriften), Alegreya / Alegreya Sans (Text), Kalam (Name, Handschrift). Bereiche wie Gilde und Magie erscheinen erst, wenn die Geschichte sie freischaltet. Offen: kurzer Text je Hintergrund und Volk für „Was ich gut kann“.
 
 ## Arbeitsumgebung
 - Projektordner auf Pascos PC: `E:\Projekte\pen-and-paper-kids` (Windows, NVIDIA RTX 40er-Serie).
