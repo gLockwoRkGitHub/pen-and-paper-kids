@@ -186,3 +186,24 @@ VAR singlampe = false            // Geschenk von Mirk: Grubenlampe mit Stimmerz,
 VAR runen_gelernt = false        // mit Mirk die alten Zwergenzeichen der Tiefen Stiege gelernt
 VAR talin_getroffen = false      // Talin, junger Erd-Rufer, bei der Waage eingeschrieben, gräbt für sie
 VAR talin_hilft = false          // Talin hat aufgehört zu graben und geht mit hinab
+
+// Perle 6 – Die Festung am Pass
+VAR vardholm_zugang = ""          // "gerufen", "yrsa", "strell", "talin", "mauer"
+VAR yrsa_in_vardholm = false      // Yrsa fährt ihren Lieferkarren selbst nach Vardholm
+VAR kugelhalle_gesehen = false    // die Halle mit den tausenden Kugeln gesehen
+VAR werk_gesehen = false          // den Spiegel auf dem Turm gesehen („das Werk“, der gläserne Wall)
+VAR wahrheit_freund = false       // weiß jetzt: Liora/Cassian ist das Kind der Waagmeisterin
+VAR p6_weg = ""                   // "enthuellt", "freund", "funken"
+VAR freund_steht_zu_dir = false   // Liora/Cassian stellt sich gegen die Mutter und zur Spielfigur
+VAR seraphine_einsicht = false    // Seraphine sieht ihren Fehler ein und öffnet den Wall für alle
+VAR waage_gestuerzt = false       // Seraphine vor dem Rat bloßgestellt, die Waage verliert ihre Macht
+VAR funken_frei = false           // die gesammelten Funken sind zu ihren Rufern zurückgekehrt
+VAR gesucht = false               // die Waage sucht die Spielfigur
+VAR spalt_offen = false           // der Nyrrspalt ist für die Spielfigur offen (offizieller Weg im Finale)
+VAR freund_kommt_mit = false      // Liora/Cassian will mit hinaus über die Berge
+VAR gefangen_p6 = false           // in Vardholm eingesperrt (Kammer oder Keller), in der Nacht befreit
+VAR freund_eingesperrt = false    // Liora/Cassian wurde von der Mutter eingesperrt (Weg „freund“ misslungen)
+VAR seraphine_gerettet = false    // Spielfigur hat Seraphine auf dem Turm aus dem Grau gezogen
+VAR strell_gerettet = false       // Spielfigur hat Strell am Osttor aus dem Grau gezogen
+VAR p6_frueh_gerufen = false      // in der Nacht sofort gerufen statt jemanden zu retten
+VAR ruf_vardholm = 0              // großer Ruf: 2 Schweigen weit zurück, 1 zurück + Ohnmacht, 0 nur bis zum Pass + Ohnmacht

@@ -154,3 +154,26 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/glimmhalde-fest` | Alle Lampen leuchten, singende Kobolde, Mirk mit der singenden Lampe | Szene |
 | `tagebuch/perle-5` | Glimmhalde, Tiefe Stiege, Kristall mit Riss | Tagebuch |
 
+## Perle 6 – Die Festung am Pass
+
+**Kurzfassung (13.10.2026). Ausführliche Beschreibungen und Prompts folgen in `docs/art/szenen/perle-6/README.md`.**
+
+| Tag | Inhalt | Ebene |
+|---|---|---|
+| `entdeckung/spaltstrasse-vardholm` | Festung quer in der Schlucht, Spiegel auf dem Turm, lange Reihe Eingeschriebener mit Söldnern | Entdeckung |
+| `szene/yrsas-karren` | Yrsa auf dem Bock, Kisten voller eiserner Körbe, Plane angehoben | Szene |
+| `szene/mauer-vardholm` | Nachts an der Mauer, wo sie an den Fels stößt | Szene |
+| `entdeckung/vardholm-hof` | Hof mit Bronzeplatten und Röhren, Eingeschriebene auf Decken | Entdeckung |
+| `szene/kugelhalle` | Felsenhalle, Regale mit tausenden leuchtenden Glaskugeln in Körben | Szene |
+| `szene/modell-des-walls` | Modell von Lysmara, Glasglocke nur über Oberstadt und Vardholm, Zettel „S. A.“ | Szene |
+| `entdeckung/vorfuehrung` | Tribüne, Seraphine mit Liora/Cassian, Kuppel aus Licht über der Festung (Variante `-liora`/`-cassian`) | Entdeckung |
+| `szene/hinter-dem-stall` | Liora/Cassian im weißen Hemd, rote Augen (Variante `-liora`/`-cassian`) | Szene |
+| `szene/festmahl-vardholm` | Große Halle, lange Tafel, Seraphine am Kopf, Ratsherren und Gildenmeister | Szene |
+| `szene/funken-frei` | Kugeln steigen auf und zerplatzen, Funken in vier Farben fliegen durch die Fenster | Szene |
+| `szene/schweigen-im-spalt` | Graues Nebelband kriecht durch die Schlucht auf die Festung zu, Fackeln erlöschen | Szene |
+| `szene/ruf-gross-erde` | Schluchtwände dröhnen, Steine schweben, braunes Licht | Szene |
+| `szene/ruf-gross-wasser` | Bach wird zur Welle, rauscht die Schlucht hinauf | Szene |
+| `szene/ruf-gross-feuer` | Flammensäule so hoch wie der Turm, alle Fackeln brennen | Szene |
+| `szene/ruf-gross-wind` | Sturm heult durch die Schlucht, Fahnen und Läden schlagen | Szene |
+| `entdeckung/vardholm-morgen` | Festung im Morgenlicht, gesprungener Spiegel, Suppenfeuer im Hof | Entdeckung |
+| `tagebuch/perle-6` | Vardholm in der Schlucht, Spiegel mit Riss, fliegende Funken | Tagebuch |

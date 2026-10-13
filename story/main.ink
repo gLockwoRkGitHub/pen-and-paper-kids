@@ -36,6 +36,10 @@ INCLUDE perle-5/reise.ink
 INCLUDE perle-5/minen.ink
 INCLUDE perle-5/tiefe.ink
 INCLUDE perle-5/herz.ink
+INCLUDE perle-6/perle-6.ink
+INCLUDE perle-6/anreise.ink
+INCLUDE perle-6/festung.ink
+INCLUDE perle-6/entscheidung.ink
 
 # titel: Der Weg hinaus
 

@@ -74,6 +74,21 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Geschenk:** Mirks **singende Lampe** brennt eine Weile auch im Grauen.
 - **Übergang zu Perle 6:** nach Vardholm, wo die Mutter „das Werk“ zeigen will.
 
+## Perle 6 im Entwurf (13.10.2026)
+- **Anreise:** Auf der Spaltstraße zieht eine lange Reihe Eingeschriebener nach Vardholm. Wer bei der Waage eingeschrieben ist, wird direkt in die Reihe geholt.
+- **Hinein:** je nach Weltgedächtnis über Strell (`strell_schuldet`), Talin (`talin_hilft`), Yrsas Lieferkarren (`vardholm_hinweis`/`yrsa_getroffen`) oder über die Mauer (Geschick, bei Misserfolg `gesucht`).
+- **In der Festung:** die **Kugelhalle** (tausende Funken, der eigene Neumond-Funke leuchtet auf) und das **Modell des Walls** (Glasglocke nur über Oberstadt und Vardholm). Magister Pell drückt beide Augen zu.
+- **Die Vorführung:** Seraphine stellt ihr Kind vor: **Liora/Cassian Arvelle**. Eingeschriebene Rufer werden leer gesaugt, die Kuppel hält vier Atemzüge.
+- **Hinter dem Stall:** Aussprache mit Liora/Cassian. Die Spielfigur erzählt vom Herz des Berges. „Sie weiß es nicht.“
+- **Die Entscheidung** (`p6_weg`):
+  - **Vor dem Rat enthüllen** (Ausstrahlung, Bonus durch Herzsplitter, Talin, Kettrich): Erfolg stürzt die Waage (`waage_gestuerzt`), sonst Gewahrsam/Keller (`gefangen_p6`).
+  - **Liora/Cassian redet mit der Mutter:** gelingt bei guter Freundschaft (Herzsplitter hilft), sonst wird das Kind eingesperrt (`freund_eingesperrt`).
+  - **Die Funken befreien:** mit Yrsa, Magie oder Verstand; alle Funken fliegen nach Hause (`funken_frei`), der Neumond-Funke kehrt zurück.
+- **Die Nacht:** Das Schweigen kommt durch den Nyrrspalt, angezogen von der lautesten Stimme im Land (den Kugeln). Der Wall hält nicht, der Spiegel springt. Die Spielfigur rettet Seraphine oder Strell oder ruft sofort. Dann der **große Ruf** aller Rufer gemeinsam: **Elementstufe 3**. Das Schweigen weicht bis an den Pass zurück.
+- **Der Morgen:** Seraphine sieht ihren Fehler ein (`seraphine_einsicht`, wenn Liora/Cassian zur Spielfigur stand oder die Spielfigur sie gerettet hat) und öffnet das Tor, oder der Rat übernimmt (`waage_gestuerzt`), oder sie bleibt hart (dann bleibt das Tor zu, nach befreiten Funken `gesucht`).
+- **Liora/Cassian** will mit hinaus über die Berge (`freund_kommt_mit`), um jemanden zu finden, der das Herz heilen kann, oder bleibt bei der Mutter.
+- **Übergang zu Perle 7:** Die bekannten Wege hinaus werden aufgezählt (Nyrrspalt offen/zu, Wolfspfad, Tiefe Stiege, Seeweg).
+
 ## Was bewusst offen bleibt
 - **Die größere Bedrohung** selbst – im ersten Abenteuer nur Hinweise. Vorschlag „das Schweigen“: `docs/ideen.md`.
 - Die Schlucht hält der **Bund der Goldenen Waage** (festgelegt). Wer dort genau hinter der Schließung steckt und warum, wird beim Schreiben ausgearbeitet.

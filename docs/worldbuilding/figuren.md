@@ -33,14 +33,14 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 | Grumak | Ork-Gewürzhändler, warnt vor leeren Dörfern | Brunnen am Markt |
 | Hauptfrau Hallward | Stadtwache | Wachstube |
 | Meister Orwin | Kartograf, zwei Brillen | Weite Feder |
-| Magister Pell | Hauslehrer von Liora/Cassian | Oberstadt |
+| Magister Pell | Hauslehrer von Liora/Cassian; „Ich habe nichts gesehen“ – drückt in Vardholm beide Augen zu (Perle 6) | Oberstadt, Vardholm |
 | Brakka & Knallfunke | Goblins der Werkstatt Knallfunke & Söhne (Tickworts neues Zuhause) | Hafenviertel |
 | Die Mentoren | Borrik, Nerelle, Yrsa, Vael – siehe `docs/magie.md` | |
 
 ## Neue Figuren aus Perle 3 (Vorschlag von Claude, 13.10.2026)
 | Figur | Wer | Wo |
 |---|---|---|
-| Seraphine Arvelle | **Waagmeisterin** des Bundes der Goldenen Waage; Liora/Cassians Mutter (der Spieler weiß das noch nicht). Sanfte Stimme, „Ordnung ist Sicherheit“. Familienname **Arvelle** ist ein Vorschlag. | Tribüne, Zelt der Waage |
+| Seraphine Arvelle | **Waagmeisterin** des Bundes der Goldenen Waage; Liora/Cassians Mutter (der Spieler erfährt es in Perle 6). Sanfte Stimme, „Ordnung ist Sicherheit“. Familienname **Arvelle** ist ein Vorschlag. | Tribüne, Zelt der Waage |
 | Der Vater | Mann mit grauen Schläfen, blättert ständig in einem Buch (Zahlen). Name noch offen. | Tribüne |
 | Meisterin Ambra | Meisterin des Zirkels der Glühenden Phiole, keine Augenbrauen („abgebrannt“), mag keine Register | Haus der Phiole am Hafen |
 | Hulda | Junge Zwergin mit dicken Zöpfen, Mitbewerberin bei Webstuhl und Amboss, fair und kräftig | Tuchhalle |
