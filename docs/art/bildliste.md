@@ -177,3 +177,34 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/ruf-gross-wind` | Sturm heult durch die Schlucht, Fahnen und Läden schlagen | Szene |
 | `entdeckung/vardholm-morgen` | Festung im Morgenlicht, gesprungener Spiegel, Suppenfeuer im Hof | Entdeckung |
 | `tagebuch/perle-6` | Vardholm in der Schlucht, Spiegel mit Riss, fliegende Funken | Tagebuch |
+
+## Perle 7 – Der Weg hinaus
+
+**Kurzfassung (13.10.2026). Ausführliche Beschreibungen und Prompts folgen in `docs/art/szenen/perle-7/README.md`.** Wiederverwendet: `entdeckung/minentor` und `szene/der-schlund` aus Perle 5.
+
+| Tag | Inhalt | Ebene |
+|---|---|---|
+| `szene/abschied-vardholm` | Am Tor von Vardholm am Morgen, Liora/Cassian mit Ranzen bzw. zum Abschied (Varianten) | Szene |
+| `szene/heimkehr-lysmara` | Abends durch das Landtor, die Stadt wirkt kleiner | Szene |
+| `szene/abschied-borrik` / `-nerelle` / `-yrsa` / `-vael` | Abschied vom Mentor, mit Geschenk | Szene |
+| `szene/abschied-tickwort` | Werkstatt Knallfunke & Söhne, Tickwort mit Messingpfeife | Szene |
+| `szene/abschied-grumak` | Grumak am Brunnen, eiserner Ring | Szene |
+| `szene/vier-wege` | Tagebuchkarte auf den Knien, vier Wege eingezeichnet | Szene |
+| `szene/tor-offen` | Das schwarze Tor von Vardholm steht offen | Szene |
+| `entdeckung/aufstieg-suedarm` | Ginsterhof vor dem Südarm des Kamms | Entdeckung |
+| `szene/wolfspfad` | Pfad zwischen Felsen, unten die Fackeln der Ziegenstiege | Szene |
+| `szene/ziegenstiege-fackeln` | Kehren mit Fackelpfählen, Wachhütte | Szene |
+| `szene/am-grat` | Schnee, Eis, Wind am höchsten Punkt | Szene |
+| `szene/herz-wiedersehen` | Das Herz von der Schwelle aus, Splitter in der Hand | Szene |
+| `szene/zwergentor-ost` | Kleines Zwergentor, dahinter Himmel | Szene |
+| `szene/schwarzwasserbucht` | Nachts in der Bucht, Boot ohne Laterne | Szene |
+| `szene/sturm-am-kap` | Riesige Wellen am Kap, das Tau | Szene |
+| `entdeckung/jenseits-der-berge` | Braune Hügel, Fluss im Osten, der Kamm von hinten | Entdeckung |
+| `szene/leeres-dorf` | Offene Türen, Brot auf dem Tisch, graue Ziege am Brunnen | Szene |
+| `entdeckung/dornfurt` | Stadt hinter Pfählen an der Furt, Glocken, Trommel | Entdeckung |
+| `szene/zum-halben-hauer` | Gasthaus mit abgebrochenem Orkzahn, Durgash | Szene |
+| `szene/silbermark-stube` | Schreiber mit Kiesel und Zettel | Szene |
+| `szene/faehrfrau` | Fährfrau mit Spirale in der Stange | Szene |
+| `szene/fremder-am-steg` | Ithren am Ende des Stegs, Fackeln im Fluss | Szene |
+| `tagebuch/perle-7` | Ganze Karte von Meridel, Pfeil nach Osten | Tagebuch |
+

@@ -47,6 +47,8 @@ Meridel ist ein Kessel: Im **Westen das Meer**, an allen anderen Seiten der **Kh
 - **Kar Duun:** Stadt der Orks und Trolle im Osten, drei Wochen Weg hinter dem Nyrrspalt (Grumak, Perle 1). Die Dörfer an dieser Straße stehen leer.
 - **Zwergenstädte des Königs:** jenseits der Berge, Abnehmer für Tuch und Erz (Perle 2). Genaue Lage offen.
 - **Gnolle** ziehen draußen in Scharen nach Süden.
+- **Dornfurt** (neu, Perle 7): Stadt an einer Furt am ersten großen Fluss östlich des Kamms, etwa einen Tagesmarsch hinter dem Nyrrspalt; Palisade, Fähre, Gasthaus „Zum Halben Hauer“. Alle vier Wege hinaus enden hier. Die Stadt ist absichtlich nie still.
+- Hinter dem Kamm: braune Hügel, Birkenwälder, **leere Dörfer** mit grauen Flecken auf den Feldern.
 - Alles andere hinter den Bergen bleibt im ersten Abenteuer Nebel. Auf der Tagebuch-Karte endet die Welt am Kamm.
 
 ## Wo die Elemente stark sind

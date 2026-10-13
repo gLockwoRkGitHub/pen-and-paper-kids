@@ -420,3 +420,21 @@ Worin bist du besser geworden?
     ~ return "der Wind"
 }
 ~ return "?"
+
+// --- Mentor (je nach Element) ---
+=== function mentorname()
+{ element:
+- "erde":
+    ~ return "Borrik"
+- "wasser":
+    ~ return "Nerelle"
+- "feuer":
+    ~ return "Yrsa"
+- "wind":
+    ~ return "Vael"
+}
+~ return "Borrik"
+
+=== function mentorname_ist_m()
+~ return element == "erde" || element == "wind"
+

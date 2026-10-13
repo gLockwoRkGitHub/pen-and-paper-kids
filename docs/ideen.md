@@ -29,6 +29,10 @@ Noch nicht entschiedene Ideen. Was angenommen wird, wandert nach `entscheidungen
 - Passt zum Wort **„die Stillen“** (Magier über Unbegabte). Später ist eine Wendung möglich: Ist Stille immer schlecht?
 - **In Perle 5 verwendet (Vorschlag):** Das Schweigen sickert aus einem Riss im **Herz des Berges**, einem Kristall, in dem die vier Elemente kreisen. Den Riss hat ein Stollen geschlagen, den Webstuhl und Amboss im Auftrag der Waage nach Stimmerz gegraben hat. Die Waage hat das Schweigen also selbst geweckt, ohne es zu wissen.
 - Offen bleibt bewusst: was es ist, wer oder was es geweckt hat, und ob es aufzuhalten ist (Folgeabenteuer).
+- **In Perle 7 verwendet (Vorschlag, 13.10.2026):**
+  - Es gibt **mehrere Herzen** unter verschiedenen Bergen und Meeren. Eines ist „schon still“. Das ist der Haken für das Folgeabenteuer.
+  - Städte jenseits der Berge halten das Schweigen fern, indem sie **nie still sind** (Dornfurt mit Glocken und Trommeln, Kar Duun mit Trommeln und singenden Trollen).
+  - Ithren nennt am Ende seinen Namen, verrät aber nichts über den Kreis der Vier.
 
 ## Später / nach der Beta
 - **Weitere Hintergründe:** Bettelmönch (Orden ohne Götter), Schankwirtskind, Schmiedelehrling, Bauernkind, Kräutersammler, Tüftlerlehrling, Minenhelfer.

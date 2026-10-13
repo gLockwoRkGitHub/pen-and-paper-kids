@@ -207,3 +207,15 @@ VAR seraphine_gerettet = false    // Spielfigur hat Seraphine auf dem Turm aus d
 VAR strell_gerettet = false       // Spielfigur hat Strell am Osttor aus dem Grau gezogen
 VAR p6_frueh_gerufen = false      // in der Nacht sofort gerufen statt jemanden zu retten
 VAR ruf_vardholm = 0              // großer Ruf: 2 Schweigen weit zurück, 1 zurück + Ohnmacht, 0 nur bis zum Pass + Ohnmacht
+
+// Perle 7 – Der Weg hinaus
+VAR p7_route = ""                 // "spalt", "gipfel", "tiefe", "meer"
+VAR p7_besuche = 0                // Abschiedsbesuche am letzten Abend in Lysmara
+VAR fesk_auftrag = false          // Fesks Päckchen für das Silbermark-Kontor jenseits der Berge angenommen
+VAR herz_beruhigt = false         // den Herzsplitter zurück an das Herz gegeben
+VAR brief_uebergeben = false      // den Brief mit dem Spiralsiegel jenseits der Berge übergeben
+VAR ithren_name = false           // der Fremde hat seinen Namen gesagt
+VAR tickwort_pfeife = false       // Tickworts Pfeife, „so laut wie zehn Ziegen“ – hilft gegen das Schweigen
+VAR grumak_ring = false           // Grumaks eiserner Ring für seinen Bruder Durgash in Dornfurt
+VAR p7_erschoepft = false         // unterwegs gestürzt oder ohnmächtig, kommt erschöpft an
+

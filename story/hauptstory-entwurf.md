@@ -31,8 +31,8 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 | 3 | **Die Gildenprobe** ✍️ Entwurf fertig | Aufgaben für mehrere Gilden, Intrige zwischen den Bankiersgilden um die Schlucht – die Familie der Freundin/des Freundes steckt mit drin | **Gildenbeitritt (~35 %).** Level-Up. |
 | 4 | **Die Weiden** ✍️ Entwurf fertig | Reise ins Umland, Hirtendörfer, Gnolle, erste deutliche Hinweise auf die Bedrohung, die geheimnisvolle Figur greift ein | Level-Up. |
 | 5 | **Unter dem Berg** ✍️ Entwurf fertig | Kobold-Minen und Höhlensysteme, alte Taten zahlen sich aus (oder rächen sich) | Level-Up. |
-| 6 | **Die Festung am Pass** | Die Intrige wird aufgedeckt: Wer profitiert von der Schließung? Großes Dilemma um die Freundschaft | Level-Up. |
-| 7 | **Der Weg hinaus** | Wahl der Route je nach Weltgedächtnis, Abschied von der Region | Ankunft im Grenzgebiet. Cliffhanger durch die geheimnisvolle Figur. |
+| 6 | **Die Festung am Pass** ✍️ Entwurf fertig | Die Intrige wird aufgedeckt: Wer profitiert von der Schließung? Großes Dilemma um die Freundschaft | Level-Up. |
+| 7 | **Der Weg hinaus** ✍️ Entwurf fertig | Wahl der Route je nach Weltgedächtnis, Abschied von der Region | Ankunft im Grenzgebiet. Cliffhanger durch die geheimnisvolle Figur. |
 
 ## Perle 3 im Entwurf (13.10.2026)
 - **Magiergesetz:** Ab Neumond muss jeder Rufer in einer Gilde sein; wer keiner angehört, schreibt sich bei der Goldenen Waage ein, sonst gilt er als „ungeprüft“ und wird in Gewahrsam genommen.
@@ -88,6 +88,24 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Der Morgen:** Seraphine sieht ihren Fehler ein (`seraphine_einsicht`, wenn Liora/Cassian zur Spielfigur stand oder die Spielfigur sie gerettet hat) und öffnet das Tor, oder der Rat übernimmt (`waage_gestuerzt`), oder sie bleibt hart (dann bleibt das Tor zu, nach befreiten Funken `gesucht`).
 - **Liora/Cassian** will mit hinaus über die Berge (`freund_kommt_mit`), um jemanden zu finden, der das Herz heilen kann, oder bleibt bei der Mutter.
 - **Übergang zu Perle 7:** Die bekannten Wege hinaus werden aufgezählt (Nyrrspalt offen/zu, Wolfspfad, Tiefe Stiege, Seeweg).
+
+## Perle 7 im Entwurf (13.10.2026)
+- **Aufbruch aus Vardholm:** Liora/Cassian packt (mit Seraphines Segen, wenn sie einsichtig ist, sonst mit einem Brief) oder bleibt und schenkt den **Goldknopf** („Damit du zurückkommen musst“). Heimweg mit Yrsas Karren oder mit den Eingeschriebenen.
+- **Letzter Abend in Lysmara:** Die Bezugsperson schenkt ein **Seil** („Ein Seil braucht man immer“), das später einen Sturz auffängt. Auslöser werden aufgegriffen:
+  - **Schulden:** Fesk bietet an, die Schuld gegen eine Lieferung nach Dornfurt zu erlassen (`fesk_auftrag`).
+  - **Flucht:** Steckbrief, wenn `gesucht`, sonst sucht niemand mehr.
+  - **Brief:** frische Kreidespirale an der Tür.
+- **Zwei Abschiedsbesuche** aus drei: der Mentor (gibt eine neue Quelle), **Tickwort** (Pfeife „so laut wie zehn Ziegen“, `tickwort_pfeife`) oder **Grumak** (Ring für seinen Bruder Durgash, `grumak_ring`).
+- **Die Wahl des Weges** (`p7_route`):
+  - **Nyrrspalt**, nur wenn `spalt_offen`: durch das Grau im Pass, mit Lärm oder Magie. Strell geleitet, wenn gerettet.
+  - **Über die Gipfel**, immer möglich: Wolfspfad mit Jorrit und den Gnollen (freundlich oder zornig, je nach Perle 4) oder Ziegenstiege an den Wachen vorbei; am Grat Kraft-Probe.
+  - **Unter dem Berg**, wenn `tiefe_stiege_weg`: mit Mirk (und Grisk) bis zum Herz. Wer den **Herzsplitter** hat, kann ihn zurückgeben (`herz_beruhigt`). Dann der lange Gang nach Osten.
+  - **Übers Meer**, wenn `seeweg_bekannt`, Schiffsjunge (Kapitänin Rhea segelt selbst) oder Leise Hand: mit dem Schmuggler **Haldor** und der „Nachtfalter“ an den Leuchttürmen der Waage vorbei und durch den Sturm am Kap.
+- **Jenseits der Berge:** ein leeres Dorf (wie Grumak erzählt hat), eine graue Ziege, die man wecken kann. Dann **Dornfurt**, eine Stadt am Fluss, die **absichtlich nie still ist** (Glocken, Trommeln, Rasseln).
+  - **Durgash**, Grumaks Bruder, Wirt im Gasthaus „Zum Halben Hauer“: Die Dörfer sind leer bis Kar Duun, Kar Duun hält sich mit Trommeln.
+  - **Fesks Päckchen** enthält nur einen Kiesel und den Zettel „Schuld erlassen“.
+  - **Der Brief** geht an die **Fährfrau**, die die Spirale in ihre Stange geschnitzt hat.
+- **Cliffhanger:** Der Fremde wartet am Steg und nennt seinen Namen: **Ithren**. „Das Herz in eurem Berg ist nicht das einzige. Es gibt noch andere. Und eines davon ist schon still.“ Er geht nach Osten, man darf mitkommen oder heimkehren. **Ende des ersten Abenteuers.**
 
 ## Was bewusst offen bleibt
 - **Die größere Bedrohung** selbst – im ersten Abenteuer nur Hinweise. Vorschlag „das Schweigen“: `docs/ideen.md`.

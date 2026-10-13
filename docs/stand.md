@@ -16,6 +16,7 @@ Stand: 13.10.2026
 - `tools/erzeuge-bild.js` kann mehrere Referenzbilder (Komma-getrennt) – noch ungetestet.
 - **Perle 3 „Die Gildenprobe“** – erster vollständiger Entwurf in `story/perle-3/` (13.10.2026, Cloud-Sitzung). Ein Durchlauf hat ca. 3.000–4.100 Wörter. Inhalt: drei Tage Übung (neuer kleiner Zauber je Element), Besuch bei Tickwort/Grumak/Mentor, Gildentag mit zwei von vier Prüfungen (Webstuhl und Amboss, Weite Feder, Glühende Phiole, Leise Hand), Magiergesetz, Hinweise auf die Familie Arvelle, Gildenbeitritt (oder Waage oder keine Gilde), Heimweg-Kontrolle. Zusammenfassung in `story/hauptstory-entwurf.md`.
 - **Perle 5 „Unter dem Berg“** – erster vollständiger Entwurf in `story/perle-5/` (13.10.2026), ca. 3.000–3.600 Wörter pro Durchlauf.
+- **Perle 7 „Der Weg hinaus“** (Finale) – erster vollständiger Entwurf in `story/perle-7/` (13.10.2026), ca. 2.000–2.900 Wörter pro Durchlauf. Abschiede, vier Wege hinaus, Dornfurt, Ithren. **Damit ist das erste Abenteuer einmal komplett durchspielbar.**
 - **Perle 6 „Die Festung am Pass“** – erster vollständiger Entwurf in `story/perle-6/` (13.10.2026), ca. 2.800–3.300 Wörter pro Durchlauf. Inhalt: Vardholm, Kugelhalle, Modell des Walls, Wahrheit über die Familie Arvelle, Entscheidung (enthüllen / Freund redet / Funken befreien), Nacht des Schweigens, großer Ruf (Elementstufe 3), Morgen mit Weichen für das Finale. Zusammenfassung in `story/hauptstory-entwurf.md`.
 - **Perle 4 „Die Weiden“** – erster vollständiger Entwurf in `story/perle-4/` (13.10.2026). Ein Durchlauf hat ca. 4.100–4.600 Wörter. Inhalt: Aufbruch, Wollmark, Liora/Cassian wird heimgeholt, Ginsterhof, das Graue, der Fremde, Gnolle (helfen/vermitteln/verraten), die Nacht des Schweigens, Elementstufe 2. Zusammenfassung in `story/hauptstory-entwurf.md`.
 - Lokale Einrichtung beschrieben (`docs/setup.md`). Krita + Krita AI Diffusion sind installiert, der lokale Server (ComfyUI) wurde eingerichtet.
@@ -39,7 +40,7 @@ Stand: 13.10.2026
 3a. **Perle 4 testspielen.** Figuren bestätigt, Zweck der Kugeln festgelegt (Schutzwall, vor allem für die Oberstadt).
 3b. **Perle 5 testspielen.** Herkunft des Schweigens, Neumond-Regel und Figuren sind bestätigt.
 3c. **Perle 6 testspielen.** Entscheidungswege, Seraphines Einsicht, Elementstufe 3 und Strells Verstummen sind bestätigt. Bilder ausgearbeitet (`docs/art/szenen/perle-6/README.md`).
-3d. **Perle 7 „Der Weg hinaus“** (Finale) schreiben: Routenwahl nach Weltgedächtnis (`spalt_offen`, `wolfspfad_bekannt`, `tiefe_stiege_weg`, `seeweg_bekannt`), `freund_kommt_mit`, `gesucht`, Abschied von Bezugsperson und Mentor.
+3d. **Perle 7 testspielen** und Bilder ausarbeiten (Kurzliste in `bildliste.md`). Zur Bestätigung offen: Dornfurt, Durgash, Haldor, die Fährfrau, Fesks Kiesel, der Cliffhanger „mehrere Herzen“.
 4. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.
 5. Weitere Referenzblätter: die fünf Völker (Mensch, Zwerg, Gnom, Ork, Troll) als Beispielfiguren, Kettrich, Mirk.
 
