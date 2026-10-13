@@ -73,20 +73,44 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; ergänzte Details s
 - Borrik: Sein Stab sieht nach Holz aus, nicht nach Stein. Der Bart steckt nicht sichtbar im Gürtel.
 - Vael: Die Mütze fehlt bewusst (Szenenzustand).
 
-## Neue Fassungen zur Abnahme (13.10.2026, Aufträge aus `docs/auftraege.md`)
-Die bisherigen Bilder von Grumak und dem Fremden bleiben liegen, bis Pasco den neuen zugestimmt hat. Die neuen Dateien enden auf `-neu` und sind noch **nicht im Repo**.
+## Grumak und der Fremde – aktuelle Fassung (13.10.2026)
+Die Fassungen vom 13.10.2026 haben die ersten Bilder ersetzt (Grumak von Pasco angenommen; beim Fremden nach Auftrag entschieden).
 
 | Datei | Entstanden aus |
 |---|---|
-| `grumak-einzel-neu.png` | `grumak-einzel-neu.prompt.txt`, Seed 2, 1024×1216, nur aus Text. Die blasse Bleistiftfigur daneben ist ein Größenvergleich mit einem Menschen. |
-| `grumak-referenzblatt-neu.png` | `grumak-blatt.prompt.txt`, Seed 1, 2048×832, Referenz `grumak-einzel-neu.png` |
-| `fremder-einzel-neu.png` | `fremder-einzel-neu.prompt.txt`, Seed 4, 832×1216; danach beide Augen als Schimmer ergänzt (`fremder-augen.prompt.txt`, Seed 4) |
-| `fremder-referenzblatt-neu.png` | `fremder-blatt.prompt.txt`, Seed 8, 2048×832, Referenz `fremder-einzel-neu.png` |
+| `grumak-einzel.png` | `grumak-einzel-neu.prompt.txt`, Seed 2, 1024×1216, nur aus Text. Die blasse Bleistiftfigur daneben ist ein Größenvergleich mit einem Menschen. |
+| `grumak-referenzblatt.png` | `grumak-blatt.prompt.txt`, Seed 1, 2048×832, Referenz `grumak-einzel.png` |
+| `fremder-einzel.png` | `fremder-einzel-neu.prompt.txt`, Seed 4, 832×1216; danach beide Augen als Schimmer ergänzt (`fremder-augen.prompt.txt`, Seed 4) |
+| `fremder-referenzblatt.png` | `fremder-blatt.prompt.txt`, Seed 8, 2048×832, Referenz `fremder-einzel.png` |
+| `fremder-vergleich.png` | Übersicht für Pasco: links die gewählte Fassung, daneben die sechs Seeds des dritten Versuchs (`fremder-einzel-v3.prompt.txt`) |
 
-**Erfahrungen:**
-- Grumak ließ sich mit dem alten Bild als Referenz nicht vergrößern (die Referenz hält den Körperbau fest). Geholfen hat ein neues Bild aus Text mit einer Vergleichsfigur im Prompt.
-- Grumaks graue Strähnen sind kaum zu sehen.
-- Der Fremde: Auf dem Referenzblatt ist das Gesicht fast ganz schwarz, und er wirkt weniger groß und schlank. Für Gesicht und Gestalt ist das Einzelbild maßgeblich.
+**Der Fremde, dritter Versuch – nicht übernommen:** Alle sechs Seeds zeigen ein vollständiges, gut ausgeleuchtetes Männergesicht mit Augen und Nase; das verstößt gegen die Prüfliste („nie ein ganzes Gesicht“). Gestalt und geflickter Saum sind dort besser (größer, schlanker). Ein Versuch, das obere Gesicht per Bildreferenz abzudunkeln, machte das Gesicht ganz schwarz. Deshalb bleibt die Fassung „neu“.
+
+**Bekannte Schwächen:**
+- Grumaks graue Strähnen sind kaum zu sehen; mit dem alten Bild als Referenz ließ er sich nicht vergrößern, deshalb neu aus Text.
+- Der Fremde: Auf dem Einzelbild sind die Augen eher helle Punkte als ein matter Schimmer. Auf dem Referenzblatt ist das Gesicht fast ganz schwarz, und er wirkt weniger groß und schlank. Der Saum ist zerrissen statt geflickt.
+
+## Figuren aus Perle 1, Schritt B (13.10.2026, Aussehen ist Vorschlag)
+Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, nur aus Text. Referenzblatt: `blatt-allgemein.prompt.txt`, 2048×832, Referenz das Einzelbild.
+
+| Figur | Seed Einzelbild | Seed Blatt | Bekannte Schwächen |
+|---|---|---|---|
+| `grisk` | 2 | 2 | – |
+| `brann` | 1 | 1 | Glatze; Statur eher stämmig als „breit wie eine Tür“ |
+| `orwin` | 4 | 2 | Auf dem Blatt fehlt die zweite Brille auf der Stirn |
+| `fink` | 4 | 3 | Jacke und Hose wirken recht modern; auf der Mütze ein kleines Zeichen, das nicht als Hand zu erkennen ist |
+| `soeldner-waage` | 2 | 1 | Schwert in der Scheide; Waage gut erkennbar |
+| `stadtwache` | 1 | 4 | Speer nur in der Vorderansicht des Blatts |
+| `herold` | 2 | 1 | – |
+| `gnom-obsthaendler` | 3 | 1 | Sehr gartenzwergig; hält einen Apfel (Requisit) |
+| `brakka` | 3 | 3 | Schraubenschlüssel nur im Einzelbild |
+| `fitzel` | 3 | 2 | – |
+| `maren` | 3 | 2 | – |
+| `bonifaz` | 4 | 1 | Bauch kleiner als „wie ein Fass“ |
+| `mutter-kessel` | 1 | 2 | – |
+| `holm` | 2 (zweite Runde) | 2 | Erste Runde sah nach Bomberjacke und Turnschuhen aus; Prompt nachgeschärft |
+| `ysolde` | 3 | 2 | Federn im Haar sehen auf dem Blatt wie Ohren aus |
+| `rhea` | 2 | 1 | – |
 
 ## Requisiten
 `docs/art/requisiten/spiralsiegel.png`: dunkelgrünes Wachssiegel mit der Spirale aus vier Linien. Die Linien sind in `spiralsiegel-vorlage.png` exakt vorgezeichnet (nur aus Text zählt das Modell sie nicht zuverlässig); daraus mit `spiralsiegel.prompt.txt` und der Vorlage als Referenz erzeugt, Seed 6, 1024×1024.

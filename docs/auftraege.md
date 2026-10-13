@@ -52,24 +52,24 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 ```
 
 ### Schritt A – Grumak und der Fremde
-- [ ] **Grumak** (von Pasco angenommen, 12.10.2026): `grumak-einzel-neu.png` und `grumak-referenzblatt-neu.png` ersetzen die alten Dateien als `grumak-einzel.png` und `grumak-referenzblatt.png`. Danach `docs/art/figuren/README.md` anpassen.
-- [ ] **Der Fremde, dritter Versuch:** `docs/art/figuren/fremder-einzel-v3.prompt.txt`, 6 Seeds, 832×1216, nur aus Text. Das Ziel steht in den Kommentarzeilen: größer und schlanker, unteres Gesicht sanft beleuchtet, Augen nur kleine matte Silberfunken. Ist ein Seed besser als `fremder-einzel-neu.png`, wird er zum neuen `fremder-einzel.png`, und dazu kommt ein neues Referenzblatt (`fremder-blatt.prompt.txt`). Sonst wird `fremder-einzel-neu.png` zu `fremder-einzel.png`. Beide Kandidaten in einer Übersicht für Pasco ablegen.
+- [x] **Grumak** (von Pasco angenommen, 12.10.2026): `grumak-einzel-neu.png` und `grumak-referenzblatt-neu.png` ersetzen die alten Dateien als `grumak-einzel.png` und `grumak-referenzblatt.png`. Danach `docs/art/figuren/README.md` anpassen. → 13.10.2026 erledigt.
+- [x] **Der Fremde, dritter Versuch:** `docs/art/figuren/fremder-einzel-v3.prompt.txt`, 6 Seeds, 832×1216, nur aus Text. Das Ziel steht in den Kommentarzeilen: größer und schlanker, unteres Gesicht sanft beleuchtet, Augen nur kleine matte Silberfunken. Ist ein Seed besser als `fremder-einzel-neu.png`, wird er zum neuen `fremder-einzel.png`, und dazu kommt ein neues Referenzblatt (`fremder-blatt.prompt.txt`). Sonst wird `fremder-einzel-neu.png` zu `fremder-einzel.png`. Beide Kandidaten in einer Übersicht für Pasco ablegen. → 13.10.2026 erledigt: v3 nicht übernommen (ganzes Gesicht sichtbar), `fremder-einzel-neu.png` ist jetzt `fremder-einzel.png`; Übersicht `docs/art/figuren/fremder-vergleich.png`.
 
 ### Schritt B – Neue Figuren (Einzelbild 832×1216 + Referenzblatt 2048×832 mit `blatt-allgemein.prompt.txt`)
-- [ ] **Grisk** (`grisk-einzel.prompt.txt`)
-- [ ] **Hafenmeister Brann** (`brann-einzel.prompt.txt`)
-- [ ] **Meister Orwin** (`orwin-einzel.prompt.txt`)
-- [ ] **Fink** (`fink-einzel.prompt.txt`)
-- [ ] **Söldner der Goldenen Waage** (`soeldner-waage-einzel.prompt.txt`)
-- [ ] **Stadtwache** (`stadtwache-einzel.prompt.txt`)
-- [ ] **Herold** (`herold-einzel.prompt.txt`)
-- [ ] **Gnomen-Obsthändler** (`gnom-obsthaendler-einzel.prompt.txt`)
-- [ ] **Brakka** und **Fitzel** (`brakka-einzel.prompt.txt`, `fitzel-einzel.prompt.txt`)
-- [ ] **Die sechs Bezugspersonen:** Maren, Bonifaz, Mutter Kessel, Meister Holm, Meisterin Ysolde, Kapitänin Rhea (`<name>-einzel.prompt.txt`)
+- [x] **Grisk** (`grisk-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Hafenmeister Brann** (`brann-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Meister Orwin** (`orwin-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Fink** (`fink-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Söldner der Goldenen Waage** (`soeldner-waage-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Stadtwache** (`stadtwache-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Herold** (`herold-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Gnomen-Obsthändler** (`gnom-obsthaendler-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Brakka** und **Fitzel** (`brakka-einzel.prompt.txt`, `fitzel-einzel.prompt.txt`) → 13.10.2026 erledigt.
+- [x] **Die sechs Bezugspersonen:** Maren, Bonifaz, Mutter Kessel, Meister Holm, Meisterin Ysolde, Kapitänin Rhea (`<name>-einzel.prompt.txt`) → 13.10.2026 erledigt.
 
 ### Schritt C – Requisiten (`docs/art/requisiten/`) und Ortsbilder (`docs/art/orte/`)
-- [ ] **Requisiten:** `glaskugel-blitz`, `erzmarke`, `kompass` (je 1024×1024), `dampfkarren` (1216×832)
-- [ ] **Ortsbilder** (1536×1024): `hafen`, `marktplatz`, `klippen-von-ahrn`
+- [x] **Requisiten:** `glaskugel-blitz`, `erzmarke`, `kompass` (je 1024×1024), `dampfkarren` (1216×832) → 13.10.2026 erledigt (Dampfkarren hat vier Räder, siehe `docs/art/requisiten/README.md`).
+- [x] **Ortsbilder** (1536×1024): `hafen`, `marktplatz`, `klippen-von-ahrn` → 13.10.2026 erledigt.
 
 ### Schritt D – Szenenbilder (`docs/art/szenen/perle-1/`, 1536×1024, Referenzen stehen in der ersten Zeile jeder Prompt-Datei)
 - [ ] 1 `szene-lysmara-abend` · 2 `szene-sonnenuntergang-hafen`
