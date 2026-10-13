@@ -88,7 +88,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 ## Perle 3 – Die Gildenprobe
 
-Kurzfassung der Tags (Entwurf 13.10.2026). Die ausführlichen Beschreibungen wie für Perle 1 folgen, wenn die Perle getestet ist.
+**Ausführliche Beschreibungen, Varianten, Referenzen und fertige Prompts: `docs/art/szenen/perle-3/README.md`** (13.10.2026). Die Tabelle hier ist nur die Kurzfassung.
 
 | Tag | Inhalt | Ebene |
 |---|---|---|
@@ -99,7 +99,8 @@ Kurzfassung der Tags (Entwurf 13.10.2026). Die ausführlichen Beschreibungen wie
 | `szene/gewoelbe-pruefung` | Gewölbe unter dem Markt, Orwin mit Sanduhr, Laternen | Szene |
 | `szene/raum-der-vier` | Runder Raum, Mosaik: vier Gestalten (Stein, Welle, Flamme, Feder) um die Spirale | Szene |
 | `szene/phiole-pruefung` | Hof der Phiole, acht Kupferkessel, Zuschauer, Meisterin Ambra; Tickwort über dem Zaun | Szene |
-| `szene/zelt-der-waage` | Schwarzes Zelt mit goldenen Fransen, Schreibtisch, goldene Waage, schwarzer Vorhang | Szene |
+| `szene/zelt-der-waage` | Schwarzes Zelt mit goldenen Fransen, Schreibtisch, goldene Waage, schwarzer Vorhang, Goldknopf am Boden | Szene |
+| `szene/zelt-register` | Lächelnder Schreiber schiebt den Vertrag hin, dahinter leere Glaskugeln | Szene |
 | `entdeckung/magiergesetz` | Tribüne: Waagmeisterin mit goldener Kette, Mann mit grauen Schläfen, dahinter Liora/Cassian; Herold | Entdeckung |
 | `szene/brunnen-abend` | Brunnen in der Dämmerung, Gildenlaternen, Liora/Cassian im weißen Hemd | Szene |
 | `szene/gildenlaternen` | Marktplatz bei Nacht: blaue, silberne, rote und goldene Laternen | Szene |

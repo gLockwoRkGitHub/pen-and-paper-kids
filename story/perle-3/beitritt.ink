@@ -178,7 +178,7 @@ Fink grinst. „Die Hand hat Freunde in jeder Gilde. Morgen stehst du im Buch de
 ->->
 
 = waage
-# bild: szene/zelt-der-waage
+# bild: szene/zelt-register
 Im goldenen Zelt sitzt ein freundlicher Schreiber hinter einem Stapel Verträge. Er lächelt, als hätte er auf dich gewartet. „Ah. Das Kind vom Färberturm. Schön, dass du von selbst kommst. Die meisten müssen wir holen.“
 
 Er schiebt dir einen Vertrag hin und eine Feder.

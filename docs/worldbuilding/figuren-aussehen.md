@@ -109,7 +109,11 @@ Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasc
 - **Der Vater:** Mann um die fünfzig, **graue Schläfen** (Story), sorgfältig gestutzter Bart, Brille an einer Kette; dunkelgrüner Gehrock (Familienfarbe wie die Samtjacke des Kindes); hat immer ein dickes Buch mit Zahlen in der Hand (Story).
 - **Meisterin Ambra (Phiole):** Frau um die sechzig, **kurzes weißes Haar, keine Augenbrauen** (Story), Lachfalten; Lederschürze mit Brandflecken über einem violetten Kleid; **Gürtel voller Fläschchen** (Story).
 - **Zeichen der Phiole:** eine rote Phiole mit goldenem Rauch.
-- **Hulda:** junge Zwergin, etwa so alt wie die Spielfigur, **zwei dicke blonde Zöpfe** (Story), Sommersprossen, kräftige Arme; braune Arbeitskleidung.
+- **Hulda:** junge Zwergin, etwa so alt wie die Spielfigur, reicht einem Menschen bis zur Brust; **zwei dicke Zöpfe** (Story), flachsblond; rote Wangen, breites, entschlossenes Gesicht, kräftige Arme; braune Arbeitsweste über einem grünen Hemd, Lederhandschuhe im Gürtel, feste Stiefel.
+- **Der Gnomenjunge (Mitbewerber):** Gnom, etwa zwölf, dünn, abstehende Ohren, eine viel zu große **Schutzbrille, die er ständig putzt** (Story); Weste voller Taschen mit Werkzeug.
+- **Schreiber der Waage:** Menschen in schlichten schwarzen Röcken mit weißem Kragen, Tintenfinger, eine kleine goldene Waage als Anstecknadel; höflich, glatt, lächelnd.
+- **Meister Kettrich (Ergänzung zu Story):** Gnom, etwa halb so groß wie ein Mensch, rundlicher Bauch, grauer Haarkranz und buschige graue Augenbrauen, **Brille mit drei Gläsern übereinander** (Story); ordentliche dunkelblaue Weste mit dem Abzeichen **Webschiffchen gekreuzt mit Hammer** (Story), weißes Hemd mit Ärmelhaltern, Maßband um den Hals, kleine Messing-Taschenuhr. Streng, aber gerecht.
+- **Mirk (Ergänzung zu Story):** alte Koboldin, rostbraune Schuppen mit grauen Flecken, **gesprungene Brille** (Story), zerbeulter Grubenhelm mit Lampe und **ihrem Namen in Kreide** (nur als unleserliches Gekritzel malen), Lederschürze, eine Schaufel. Laut, flink, gutmütig.
 - **Szenenzustände Perle 3:** Liora/Cassian am Gildentag morgens im Grundaussehen (blank geputzte Schuhe, gekämmte Locken); im Zelt der Waage **fehlt ein Goldknopf** am Ärmel; abends ohne Jacke, nur im weißen Hemd mit hochgekrempelten Ärmeln, Locken zerzaust.
 
 ## Bezugspersonen (je nach Hintergrund)

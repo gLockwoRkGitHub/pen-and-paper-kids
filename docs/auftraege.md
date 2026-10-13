@@ -74,6 +74,32 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 ### Schritt F – Zum Schluss
 - [ ] **Übersicht für Pasco:** alle gewählten Bilder von Perle 1 in einem oder zwei Übersichtsbildern (`docs/art/szenen/perle-1/uebersicht-*.png`) und in der README die Liste mit Schwächen. Dann Pasco Bescheid geben, dass Claude im Chat die Bilder prüfen kann.
 
+## Perle 3 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
+
+Erst **nach** den Bildern von Perle 1 (Schritte A–F) beginnen, denn viele Figuren und Ortsbilder von dort werden hier als Referenz gebraucht.
+Beschreibung jedes Bildes: `docs/art/szenen/perle-3/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
+
+### Schritt G – Neue Figuren (Einzelbild 832×1216 + Referenzblatt 2048×832 mit `blatt-allgemein.prompt.txt`)
+- [ ] **Meister Kettrich** und **Mirk** (`kettrich-einzel.prompt.txt`, `mirk-einzel.prompt.txt`) – stammen aus Perle 2, hatten noch kein Bild
+- [ ] **Seraphine Arvelle** und **der Vater** (`seraphine-arvelle-einzel.prompt.txt`, `vater-arvelle-einzel.prompt.txt`) – Prüfen: Seraphine wirkt elegant und freundlich-kühl, keine Märchenhexe
+- [ ] **Meisterin Ambra** (`ambra-einzel.prompt.txt`) – Prüfen: wirklich **keine Augenbrauen**
+- [ ] **Hulda**, **der Gnomenjunge**, **Schreiber der Waage** (`hulda-`, `gnomenjunge-`, `schreiber-waage-einzel.prompt.txt`) – Prüfen: Hulda ist ein Mädchen ohne Bart
+
+### Schritt H – Requisiten und Ortsbilder
+- [ ] **Gildenzeichen** (`requisiten/gildenzeichen.prompt.txt`, 1536×1024): fünf Gegenstände nebeneinander
+- [ ] **Ortsbilder** (1536×1024): `orte/tuchhalle`, `orte/gewoelbe`, `orte/phiole-hof`
+
+### Schritt I – Szenenbilder (`docs/art/szenen/perle-3/`, 1536×1024)
+- [ ] 1 `szene-morgen-mentor-<element>` (vier Varianten: erde, wasser, feuer, wind)
+- [ ] 2 `szene-tickwort-werkstatt` · 3 `entdeckung-gildentag`
+- [ ] 4 `szene-tuchhalle-pruefung` · 5 `szene-gewoelbe-pruefung` · 6 `szene-raum-der-vier` (Spirale mit genau vier Linien, Vorlage `requisiten/spiralsiegel-vorlage.png`)
+- [ ] 7 `szene-phiole-pruefung` · 8 `szene-zelt-der-waage` (Goldknopf gut sichtbar) · 9 `szene-zelt-register`
+- [ ] 10 `entdeckung-magiergesetz-liora` / `-cassian` (das Kind steht **hinter** den Eltern, Blick gesenkt)
+- [ ] 11 `szene-brunnen-abend-liora` / `-cassian` · 12 `szene-gildenlaternen`
+- [ ] 13 `szene-beitritt-webstuhl`, `-feder`, `-phiole`, `-hand`
+- [ ] 14 `szene-brunnen-nacht-liora` / `-cassian` · 15 `szene-heimweg-nacht` · 16 `tagebuch-perle-3`
+- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-3/uebersicht-*.png`) und Liste der Schwächen im README.
+
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).
 - [x] **Der Fremde neu erzeugen** (Einzelbild + Referenzblatt) nach `docs/worldbuilding/der-fremde.md`: groß und schlank, Reisemantel statt Mönchsgewand, Kinn und Mund im Schatten schwach sichtbar, silbrig **schimmernde** (nicht leuchtende) Augen, Bronzeschließe als Spirale aus vier Linien, Treibholzstab, Bergstaub an den Stiefeln. **Ohne Brief** im Referenzblatt (Brief = Szenenzustand). → 13.10.2026: `docs/art/figuren/fremder-einzel-neu.png`, `fremder-referenzblatt-neu.png` (lokal, warten auf Abnahme).
