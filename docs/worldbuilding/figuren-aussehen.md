@@ -131,6 +131,18 @@ Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasc
 - **Koboldkinder:** kleine Kobolde mit zu großen Helmen, Schuppen in Schiefergrau bis Rostbraun.
 - **Requisiten:** **Stimmerz** (dunkle, schwach summende Erzbrocken mit winzigen glitzernden Adern), **Herzsplitter** (handlanger Kristallsplitter, in dem vier winzige Lichter kreisen: braun, blau, rot, weiß), **singende Lampe** (alte Grubenlampe mit einem kleinen Stimmerz-Splitter im Glas).
 
+### Neue Figuren aus Perle 6 (Vorschlag von Claude, 13.10.2026)
+- **Magister Pell (Grundaussehen, ergänzt):** dünner, leicht gebeugter Mann um die fünfundsechzig, schütteres graues Haar sorgfältig über den Kopf gekämmt, **kleine runde Drahtbrille** (Story: Brille) auf langer Nase, Tintenflecken an den Fingern; abgetragener dunkelbrauner Gelehrtenrock mit Flicken an den Ellbogen, graue Weste, ein dickes Buch unter dem Arm, Bleistift hinter dem Ohr.
+  - **Szenenzustand Perle 6:** nachts im Schlafrock mit Kerze.
+- **Der älteste Ratsherr von Lysmara:** sehr alter, kleiner Mann um die achtzig, Glatze, langer weißer Bart, buschige weiße Augenbrauen, wache Augen; lange **dunkelrote Ratsrobe mit braunem Pelzkragen**, schwere silberne Amtskette mit dem **Wappen von Lysmara** (weiße Perle in goldener Muschel), einfacher Holzstock.
+- **Die Eingeschriebenen:** gewöhnliche Menschen (auch Zwerge, Gnome) jeden Alters in Reisekleidung, blass und müde, mit **kleiner quadratischer Messingplakette** (eingravierte Waage) an einer Schnur.
+- **Szenenzustände Perle 6:**
+  - **Liora/Cassian:** bei der Vorführung im Grundaussehen, aber mit **fehlendem Goldknopf** am Ärmel; hinter dem Stall nur im weißen Hemd, Locken zerzaust, Augen rot; nachts barfuß im Nachthemd.
+  - **Seraphine:** nachts Mantel über dem Nachthemd, Haar offen; am Morgen ohne goldene Kette (nur, wenn sie einsichtig ist).
+  - **Talin:** grau im Gesicht nach der Vorführung.
+  - **Hauptmann Strell** (wenn nicht gerettet): stumm, Decke um die Schultern, Augen leer und grau.
+- **Requisiten:** **Messingplakette der Waage**, **Glaskugel im eisernen Korb** (Funke in einer der vier Farben), **der Spiegel** auf dem Turm (rund, Bronze und Glas, Eisengestell; ab der Nacht mit Riss).
+
 ## Bezugspersonen (je nach Hintergrund)
 
 Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.

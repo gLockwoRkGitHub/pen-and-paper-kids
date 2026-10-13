@@ -156,7 +156,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 ## Perle 6 – Die Festung am Pass
 
-**Kurzfassung (13.10.2026). Ausführliche Beschreibungen und Prompts folgen in `docs/art/szenen/perle-6/README.md`.**
+**Ausführliche Beschreibungen, Varianten, Referenzen und fertige Prompts: `docs/art/szenen/perle-6/README.md`** (13.10.2026). Die Tabelle hier ist nur die Kurzfassung.
 
 | Tag | Inhalt | Ebene |
 |---|---|---|

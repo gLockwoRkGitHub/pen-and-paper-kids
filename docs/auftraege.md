@@ -141,6 +141,25 @@ Neu in der Prüfliste: **Unter der Erde trotzdem warm und lesbar**, keine schwar
 - [ ] 11 `szene-herz-des-berges` · 12 `szene-flucht-tiefe-stiege` · 13 `szene-glimmhalde-fest` · 14 `tagebuch-perle-5`
 - [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-5/uebersicht-*.png`) und Liste der Schwächen im README.
 
+## Perle 6 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
+
+Erst **nach** Perle 1, 3, 4 und 5 beginnen. Beschreibung jedes Bildes: `docs/art/szenen/perle-6/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
+Neu in der Prüfliste: **genau vier Farben** (braun, blau, rot, weiß) bei Kugeln, Funken, Kuppel und Ruf. **Das Schweigen ohne Nebel**, nur fehlende Farbe. **Spiegel mit Riss** ab Bild 11. Bei der Vorführung **fehlt ein Goldknopf** am Ärmel von Liora/Cassian.
+
+### Schritt P – Neue Figuren und Requisiten
+- [ ] **Magister Pell**, **ältester Ratsherr** (`pell-`, `ratsherr-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt)
+- [ ] **Requisiten** (1024×1024): `plakette-waage`, `kugel-im-korb`
+
+### Schritt Q – Ortsbilder (1536×1024)
+- [ ] `orte/vardholm`, `orte/vardholm-hof`, `orte/kugelhalle`
+
+### Schritt R – Szenenbilder (`docs/art/szenen/perle-6/`, 1536×1024)
+- [ ] 1 `entdeckung-spaltstrasse-vardholm` · 2 `szene-yrsas-karren` · 3 `szene-mauer-vardholm` · 4 `entdeckung-vardholm-hof`
+- [ ] 5 `szene-kugelhalle` · 6 `szene-modell-des-walls` · 7 `entdeckung-vorfuehrung-<liora|cassian>` · 8 `szene-hinter-dem-stall-<liora|cassian>`
+- [ ] 9 `szene-festmahl-vardholm` · 10 `szene-funken-frei` · 11 `szene-schweigen-im-spalt`
+- [ ] 12 `szene-ruf-gross-<erde|wasser|feuer|wind>` · 13 `entdeckung-vardholm-morgen` · 14 `tagebuch-perle-6`
+- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-6/uebersicht-*.png`) und Liste der Schwächen im README.
+
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).
 - [x] **Der Fremde neu erzeugen** (Einzelbild + Referenzblatt) nach `docs/worldbuilding/der-fremde.md`: groß und schlank, Reisemantel statt Mönchsgewand, Kinn und Mund im Schatten schwach sichtbar, silbrig **schimmernde** (nicht leuchtende) Augen, Bronzeschließe als Spirale aus vier Linien, Treibholzstab, Bergstaub an den Stiefeln. **Ohne Brief** im Referenzblatt (Brief = Szenenzustand). → 13.10.2026: `docs/art/figuren/fremder-einzel-neu.png`, `fremder-referenzblatt-neu.png` (lokal, warten auf Abnahme).

@@ -213,7 +213,7 @@ Nicht leise. Still. Das Rauschen des Bachs in der Schlucht ist fort. Die Fackeln
 
 Das Schweigen.
 
-Es kommt von Osten, durch den Nyrrspalt, wie Nebel, der den Boden entlangkriecht. Grau wie Asche. Wo es das Gras berührt, wird das Gras grau. Wo es eine Fackel berührt, geht die Fackel aus.
+Es kommt von Osten, durch den Nyrrspalt, wie ein Schatten, der über den Boden kriecht. Kein Nebel, kein Rauch. Nur Farbe, die verschwindet. Wo es das Gras berührt, wird das Gras grau. Wo es eine Fackel berührt, geht die Fackel aus.
 { p6_weg == "funken":
     Und plötzlich verstehst du. Tausend Kugeln haben wochenlang in dieser Halle gesummt. Die lauteste Stimme im ganzen Land. Und eben habt ihr sie alle auf einmal in den Himmel geworfen.
 - else:

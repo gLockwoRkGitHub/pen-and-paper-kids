@@ -30,13 +30,13 @@ Stand: 13.10.2026
 - Bilder werden lokal erzeugt (Krita AI Diffusion / ComfyUI), nicht über Firmenkonten. Bevorzugtes Modell für eine spätere Veröffentlichung: FLUX.1 [schnell] (Apache-2.0) oder SDXL – siehe `docs/art/werkzeuge.md`.
 
 ## Nächste Schritte
-0. **Lokal: alle Bilder für Perle 1** nach `docs/auftraege.md` (Schritte A–F), danach **Perle 3** (Schritte G–I) **Perle 4** (Schritte J–L) und **Perle 5** (Schritte M–O); Beschreibungen in `docs/art/szenen/perle-<n>/README.md`. Danach prüft Claude im Chat die Übersichten.
+0. **Lokal: alle Bilder für Perle 1** nach `docs/auftraege.md` (Schritte A–F), danach **Perle 3** (Schritte G–I) **Perle 4** (Schritte J–L) **Perle 5** (Schritte M–O) und **Perle 6** (Schritte P–R); Beschreibungen in `docs/art/szenen/perle-<n>/README.md`. Danach prüft Claude im Chat die Übersichten.
 1. **Abnahmen offen:** Der Fremde (dritter Versuch läuft mit), Nerelle (überarbeitet), Tickwort mit dem Sohn ansehen. Stand lokale Sitzung 13.10.2026: Borrik und Vael sind bestätigt. Nur lokal auf Pascos PC (nicht im Repo) liegen `grumak-*-neu.png`, `fremder-*-neu.png` und Nerelles zwei Bilder; die alten Bilder von Grumak und dem Fremden sind unverändert.
 2. **Perle 2 testspielen** und Rückmeldung einarbeiten; danach Szenenbilder für Perle 2 genauso ausarbeiten wie für Perle 1.
 3. **Perle 3 testspielen** (Pasco + Sohn). Offen zur Bestätigung: Familienname **Arvelle**, Waagmeisterin Seraphine, Meisterin Ambra, Fitzel. Danach Szenenbilder für Perle 2 und 3 ausarbeiten.
 3a. **Perle 4 testspielen.** Figuren bestätigt, Zweck der Kugeln festgelegt (Schutzwall, vor allem für die Oberstadt).
 3b. **Perle 5 testspielen.** Herkunft des Schweigens, Neumond-Regel und Figuren sind bestätigt.
-3c. **Perle 6 testspielen** und Bilder ausarbeiten (`docs/art/szenen/perle-6/README.md`, Kurzliste schon in `bildliste.md`). Zur Bestätigung offen: die drei Wege der Entscheidung, Seraphines Einsicht, Elementstufe 3 durch den großen Ruf.
+3c. **Perle 6 testspielen.** Entscheidungswege, Seraphines Einsicht, Elementstufe 3 und Strells Verstummen sind bestätigt. Bilder ausgearbeitet (`docs/art/szenen/perle-6/README.md`).
 3d. **Perle 7 „Der Weg hinaus“** (Finale) schreiben: Routenwahl nach Weltgedächtnis (`spalt_offen`, `wolfspfad_bekannt`, `tiefe_stiege_weg`, `seeweg_bekannt`), `freund_kommt_mit`, `gesucht`, Abschied von Bezugsperson und Mentor.
 4. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.
 5. Weitere Referenzblätter: die fünf Völker (Mensch, Zwerg, Gnom, Ork, Troll) als Beispielfiguren, Kettrich, Mirk.
