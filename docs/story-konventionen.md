@@ -71,7 +71,7 @@ Der Player lädt `bilder/<art>/<name>.webp`. Fehlt das Bild, zeigt er nichts (ke
 # bild: szene/morgen-mentor-{element}
 ```
 
-`freund_kurz()` steht in `funktionen.ink` und gibt `liora` oder `cassian` zurück. Perle 1–6 sind umgestellt. Der Dateiname der Prompts endet entsprechend: `szene-freund-faellt-liora.prompt.txt`.
+`freund_kurz()` steht in `funktionen.ink` und gibt `liora` oder `cassian` zurück. Perle 1–7 sind umgestellt. Der Dateiname der Prompts endet entsprechend: `szene-freund-faellt-liora.prompt.txt`.
 
 Voraussetzung: eine aktuelle Inky-Version (Variablen in Tags gibt es seit Ink 1.1).
 

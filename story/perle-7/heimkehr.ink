@@ -10,7 +10,7 @@ Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein B�
 -> freund_bleibt
 
 = freund_packt
-# bild: szene/abschied-vardholm-kommt
+# bild: szene/abschied-vardholm-kommt-{freund_kurz()}
 {freund()} wartet am Tor, einen Lederranzen auf dem Rücken, der viel zu neu aussieht. Keine Samtjacke. Ein einfacher grauer Mantel, feste Stiefel. Nur die Schuhe mit den Silberschnallen hat {fr_er()} an den Ranzen gebunden. „Für besondere Anlässe“, sagt {fr_er()}.
 { seraphine_einsicht:
     Neben {fr_ihm()} steht Seraphine. Ohne Kette. Sie sieht ihr Kind an, als wollte sie sich jedes Haar merken.
@@ -24,7 +24,7 @@ Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein B�
 -> heimweg
 
 = freund_bleibt
-# bild: szene/abschied-vardholm-bleibt
+# bild: szene/abschied-vardholm-bleibt-{freund_kurz()}
 {freund()} bringt dich bis an das Tor. Eine Weile steht ihr nur da und wisst nicht, was man in so einem Moment sagt.
 { waage_gestuerzt && not seraphine_einsicht:
     „Ich fahr heute mit der Kutsche nach Lysmara“, sagt {freund()}. „Zu ihr. Sie hat jetzt niemanden mehr. Nur noch mich.“

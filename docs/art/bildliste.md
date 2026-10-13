@@ -184,7 +184,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 | Tag | Inhalt | Ebene |
 |---|---|---|
-| `szene/abschied-vardholm-kommt` / `-bleibt` | Am Tor von Vardholm: Liora/Cassian mit Ranzen bzw. mit dem Goldknopf (je Varianten Liora/Cassian) | Szene |
+| `szene/abschied-vardholm-kommt-<liora\|cassian>` / `-bleibt-<liora\|cassian>` | Am Tor von Vardholm: Liora/Cassian mit Ranzen bzw. mit dem Goldknopf (je Varianten Liora/Cassian) | Szene |
 | `szene/heimkehr-lysmara` | Abends durch das Landtor, die Stadt wirkt kleiner | Szene |
 | `szene/abschied-borrik` / `-nerelle` / `-yrsa` / `-vael` | Abschied vom Mentor, mit Geschenk | Szene |
 | `szene/abschied-tickwort` | Werkstatt Knallfunke & Söhne, Tickwort mit Messingpfeife | Szene |
