@@ -26,6 +26,7 @@ Ob native App (Android/iOS) oder für Tablets und Handys optimierte Webseite, is
 | `docs/ideen.md` | Ideen-Liste (noch nicht entschieden) |
 | `docs/regeln.md` | Werte, Würfel, Level-Ups, Völker, Hintergründe |
 | `docs/magie.md` | Magiesystem |
+| `docs/story-konventionen.md` | Absprache Story ↔ Browser-Player (Tags, Variablen, Bilder, Karte) |
 | `docs/weltgedaechtnis.md` | Wie sich die Welt an Entscheidungen erinnert |
 | `docs/worldbuilding/` | Welt, Orte, Fraktionen, Figuren |
 | `docs/worldbuild-ideas.md` | World-Building-Ideen für später |

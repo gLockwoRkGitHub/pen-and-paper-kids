@@ -23,6 +23,8 @@ Stand: 13.10.2026
 - **Referenzblatt Tickwort** in `docs/art/figuren/` (mit Zangenhänden, auf Pascos Wunsch).
 - **Zusammenarbeit:** Die Chat-Sitzung in der Cloud und die lokale Sitzung schreiben ins selbe Repo. Vor jedem Push erst `git pull`.
 
+- **Browser-Player – Planung begonnen** (13.10.2026, eigener Chat): Story-Konventionen in `docs/story-konventionen.md` (erster Entwurf, Vorschläge zur Zustimmung offen). Reihenfolge: Konventionen → Charakterbogen und Level-Up → Karte und Logbuch → Bilder → Audio. Kein Vorab-Prototyp; der Sohn bekommt das Spiel, wenn es fertig ist.
+
 ## Arbeitsumgebung
 - Projektordner auf Pascos PC: `E:\Projekte\pen-and-paper-kids` (Windows, NVIDIA RTX 40er-Serie).
 - Der lokale Bild-Server (ComfyUI) von Krita AI Diffusion ist in `E:\Projekte\pen-and-paper-kids\Krita\ComfyUI` installiert. Der Ordner `Krita/` steht in `.gitignore` und darf **nie** ins Repo (viele GB Modelle).
@@ -42,5 +44,6 @@ Stand: 13.10.2026
 5. Weitere Referenzblätter: die fünf Völker (Mensch, Zwerg, Gnom, Ork, Troll) als Beispielfiguren, Kettrich, Mirk.
 
 ## Offene Fragen an Pasco
-- Soll es bei der ElevenLabs-Vertonung zusätzlich eine **Erzählerstimme** geben (deckt die Vorlesefunktion ab)?
+- ~~Erzählerstimme?~~ Entschieden 13.10.2026: Vertonung zurückgestellt, zunächst liest der Sohn selbst. Erzähler- und Figurenstimmen bleiben offen, bis Story und Player fertig sind.
+- Offene Punkte aus `docs/story-konventionen.md` (Würfel-Tag, Bildvarianten, `markt`/`marktplatz`, Anzeige von Ruf und Beziehungen).
 - Native App oder für Tablets/Handys optimierte Webseite?

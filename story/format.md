@@ -51,7 +51,7 @@ tools/
 - **Weltgedächtnis** als Variablen mit sprechenden Namen: `kobold_gerettet`, `ruf_goldene_waage`.
 - **Neigungspunkte:** `neigung_erde`, `neigung_wasser`, `neigung_feuer`, `neigung_wind`.
 - **Würfelprobe:** `probe(wert)` = 2W6 + Wert. Ab 10 Erfolg, 7–9 „Ja, aber …“, darunter Misserfolg.
-- **Tagebuch-Einträge und Bilder** werden mit Tags markiert, z. B. `# tagebuch: Der Kobold im Hafen` oder `# bild: szene/hafen-nacht`. Die App liest die Tags später aus.
+- **Tagebuch-Einträge und Bilder** werden mit Tags markiert, z. B. `# tagebuch: Der Kobold im Hafen` oder `# bild: szene/hafen-nacht`. Die App liest die Tags später aus. Welche Tags es gibt und was der Browser-Player damit macht: `docs/story-konventionen.md`.
 
 ## Beispiel
 Siehe `beispiel/kai-im-regen.ink` – eine kurze, eigenständige Szene mit Entscheidung, Würfelprobe, Weltgedächtnis und Element-Neigung.
