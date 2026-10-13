@@ -111,7 +111,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 ## Perle 4 – Die Weiden
 
-Kurzfassung der Tags (Entwurf 13.10.2026). Ausführliche Beschreibungen wie für Perle 1 und 3 folgen auf Wunsch.
+**Ausführliche Beschreibungen, Varianten, Referenzen und fertige Prompts: `docs/art/szenen/perle-4/README.md`** (13.10.2026). Die Tabelle hier ist nur die Kurzfassung. Varianten `-liora`/`-cassian` auch bei `szene/lamm-auf-der-strasse` und `szene/gasthaus-krummer-stab`.
 
 | Tag | Inhalt | Ebene |
 |---|---|---|

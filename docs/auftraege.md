@@ -100,6 +100,28 @@ Beschreibung jedes Bildes: `docs/art/szenen/perle-3/README.md`. Fertige Prompts 
 - [ ] 14 `szene-brunnen-nacht-liora` / `-cassian` · 15 `szene-heimweg-nacht` · 16 `tagebuch-perle-3`
 - [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-3/uebersicht-*.png`) und Liste der Schwächen im README.
 
+## Perle 4 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
+
+Erst **nach** Perle 1 und 3 beginnen. Beschreibung jedes Bildes: `docs/art/szenen/perle-4/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
+Neu in der Prüfliste: **Das Graue** ist farblos und still, ohne Nebel, ohne Gesichter, ohne Monster. **Gnolle** sind mager und müde, keine gefletschten Zähne.
+
+### Schritt J – Neue Figuren (Einzelbild 832×1216 + Referenzblatt 2048×832 mit `blatt-allgemein.prompt.txt`)
+- [ ] **Merla**, **Hauptmann Strell**, **Jorrit** (`merla-`, `strell-`, `jorrit-einzel.prompt.txt`)
+- [ ] **Ashka**, **Wuk**, **Gnoll allgemein** (`ashka-`, `wuk-`, `gnoll-einzel.prompt.txt`) – Prüfen: hyänenartig, gefleckt, nicht bedrohlich; Wuk ist erkennbar ein Gnoll, kein Hundewelpe
+
+### Schritt K – Ortsbilder (1536×1024)
+- [ ] `orte/wollmark`, `orte/ginsterhof`, `orte/das-graue`, `orte/gnollenschlucht`
+
+### Schritt L – Szenenbilder (`docs/art/szenen/perle-4/`, 1536×1024)
+- [ ] 1 `szene-landtor-morgen` · 2 `figur-freund-verkleidet-liora` / `-cassian` · 3 `entdeckung-weiden`
+- [ ] 4 `szene-lamm-auf-der-strasse-liora` / `-cassian` · 5 `entdeckung-wollmark` · 6 `figur-strell`
+- [ ] 7 `szene-gasthaus-krummer-stab-liora` / `-cassian` · 8 `szene-freund-abgeholt-liora` / `-cassian` (Strell verbeugt sich)
+- [ ] 9 `szene-ginsterhof` · 10 `szene-das-graue` · 11 `szene-fremder-am-grauen`
+- [ ] 12 `szene-gnollenlager` · 13 `figur-ashka` · 14 `szene-nacht-das-schweigen`
+- [ ] 15 `szene-ruf-erde`, `-wasser`, `-feuer`, `-wind` · 16 `szene-morgen-danach`
+- [ ] 17 `tagebuch-perle-4` · 18 `karte-meridel-perle-4`
+- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-4/uebersicht-*.png`) und Liste der Schwächen im README.
+
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).
 - [x] **Der Fremde neu erzeugen** (Einzelbild + Referenzblatt) nach `docs/worldbuilding/der-fremde.md`: groß und schlank, Reisemantel statt Mönchsgewand, Kinn und Mund im Schatten schwach sichtbar, silbrig **schimmernde** (nicht leuchtende) Augen, Bronzeschließe als Spirale aus vier Linien, Treibholzstab, Bergstaub an den Stiefeln. **Ohne Brief** im Referenzblatt (Brief = Szenenzustand). → 13.10.2026: `docs/art/figuren/fremder-einzel-neu.png`, `fremder-referenzblatt-neu.png` (lokal, warten auf Abnahme).
