@@ -17,6 +17,14 @@ INCLUDE perle-2/ufer.ink
 INCLUDE perle-2/erwachen.ink
 INCLUDE perle-2/mentoren.ink
 INCLUDE perle-2/abend.ink
+INCLUDE perle-3/perle-3.ink
+INCLUDE perle-3/vorabend.ink
+INCLUDE perle-3/gildentag.ink
+INCLUDE perle-3/webstuhl.ink
+INCLUDE perle-3/feder.ink
+INCLUDE perle-3/phiole.ink
+INCLUDE perle-3/hand.ink
+INCLUDE perle-3/beitritt.ink
 
 # titel: Der Weg hinaus
 

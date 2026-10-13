@@ -104,6 +104,14 @@ Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasc
 - **Brakka (Goblin, Knallfunke & Söhne):** rußverschmiert, Lederschürze mit Brandlöchern, **Schutzbrille mit einem roten und einem grünen Glas**, angesengtes Haarbüschel auf dem Kopf.
 - **Fitzel (Goblinfrau, Knallfunke & Söhne; Name neu):** Brakkas Schwester; zwei abstehende Zöpfe mit Kupferdraht, geflickter Arbeitsanzug, Werkzeuggürtel, ein Schraubenschlüssel hinter dem Ohr.
 
+### Neue Figuren aus Perle 3 (Vorschlag von Claude, 13.10.2026)
+- **Seraphine Arvelle (Waagmeisterin):** große, schlanke Frau um die vierzig, aufrechte Haltung; **kastanienbraunes Haar** (wie ihr Kind), streng hochgesteckt; ruhiges, schönes Gesicht, freundliches Lächeln, das nicht bis zu den Augen reicht; **schwarzes Kleid** mit hohem Kragen, darüber eine **schwere goldene Kette mit einer kleinen Waage** (Story).
+- **Der Vater:** Mann um die fünfzig, **graue Schläfen** (Story), sorgfältig gestutzter Bart, Brille an einer Kette; dunkelgrüner Gehrock (Familienfarbe wie die Samtjacke des Kindes); hat immer ein dickes Buch mit Zahlen in der Hand (Story).
+- **Meisterin Ambra (Phiole):** Frau um die sechzig, **kurzes weißes Haar, keine Augenbrauen** (Story), Lachfalten; Lederschürze mit Brandflecken über einem violetten Kleid; **Gürtel voller Fläschchen** (Story).
+- **Zeichen der Phiole:** eine rote Phiole mit goldenem Rauch.
+- **Hulda:** junge Zwergin, etwa so alt wie die Spielfigur, **zwei dicke blonde Zöpfe** (Story), Sommersprossen, kräftige Arme; braune Arbeitskleidung.
+- **Szenenzustände Perle 3:** Liora/Cassian am Gildentag morgens im Grundaussehen (blank geputzte Schuhe, gekämmte Locken); im Zelt der Waage **fehlt ein Goldknopf** am Ärmel; abends ohne Jacke, nur im weißen Hemd mit hochgekrempelten Ärmeln, Locken zerzaust.
+
 ## Bezugspersonen (je nach Hintergrund)
 
 Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.

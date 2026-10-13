@@ -37,6 +37,15 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 | Brakka & Knallfunke | Goblins der Werkstatt Knallfunke & Söhne (Tickworts neues Zuhause) | Hafenviertel |
 | Die Mentoren | Borrik, Nerelle, Yrsa, Vael – siehe `docs/magie.md` | |
 
+## Neue Figuren aus Perle 3 (Vorschlag von Claude, 13.10.2026)
+| Figur | Wer | Wo |
+|---|---|---|
+| Seraphine Arvelle | **Waagmeisterin** des Bundes der Goldenen Waage; Liora/Cassians Mutter (der Spieler weiß das noch nicht). Sanfte Stimme, „Ordnung ist Sicherheit“. Familienname **Arvelle** ist ein Vorschlag. | Tribüne, Zelt der Waage |
+| Der Vater | Mann mit grauen Schläfen, blättert ständig in einem Buch (Zahlen). Name noch offen. | Tribüne |
+| Meisterin Ambra | Meisterin des Zirkels der Glühenden Phiole, keine Augenbrauen („abgebrannt“), mag keine Register | Haus der Phiole am Hafen |
+| Hulda | Junge Zwergin mit dicken Zöpfen, Mitbewerberin bei Webstuhl und Amboss, fair und kräftig | Tuchhalle |
+| Der Gnomenjunge | Mitbewerber, putzt ständig seine Schutzbrille | Tuchhalle |
+
 ## Geheimnisvolle Figur (festgelegt)
 - **Ausgestaltung (Charakter, Aussehen, Verhalten, Geheimnis):** `docs/worldbuilding/der-fremde.md` – von Claude gestaltet, freie Hand von Pasco (12.10.2026).
 - Baut eine **parallele Story** auf, möglicherweise für das nächste Addon.

@@ -85,3 +85,26 @@ Werkzeuge: siehe `werkzeuge.md`.
 |---|---|
 | `tagebuch/perle-2` | Tagebuchseite: Fluss, Wasserräder, verkohlter Färberturm |
 | `karte: raederviertel`, `erzlaende`, `tuchhalle`, `grosse-schmiede`, `orinbruecke`, `orin`, `steinmetzhof` | Neue Orte am Fluss |
+
+## Perle 3 – Die Gildenprobe
+
+Kurzfassung der Tags (Entwurf 13.10.2026). Die ausführlichen Beschreibungen wie für Perle 1 folgen, wenn die Perle getestet ist.
+
+| Tag | Inhalt | Ebene |
+|---|---|---|
+| `szene/morgen-mentor` | Morgenübung beim eigenen Mentor (4 Varianten je Element) | Szene |
+| `szene/tickwort-werkstatt` | Knallfunke & Söhne aufgeräumt, überall Anleitungszettel, Tickwort stolz | Szene |
+| `entdeckung/gildentag` | Lysmara geschmückt: Gildenbanner, Trommler, schwarz-goldene Tribüne vor der Ratshalle | Entdeckung |
+| `szene/tuchhalle-pruefung` | Stillstehende Webstühle, Bewerber, Kettrich auf dem Podest | Szene |
+| `szene/gewoelbe-pruefung` | Gewölbe unter dem Markt, Orwin mit Sanduhr, Laternen | Szene |
+| `szene/raum-der-vier` | Runder Raum, Mosaik: vier Gestalten (Stein, Welle, Flamme, Feder) um die Spirale | Szene |
+| `szene/phiole-pruefung` | Hof der Phiole, acht Kupferkessel, Zuschauer, Meisterin Ambra; Tickwort über dem Zaun | Szene |
+| `szene/zelt-der-waage` | Schwarzes Zelt mit goldenen Fransen, Schreibtisch, goldene Waage, schwarzer Vorhang | Szene |
+| `entdeckung/magiergesetz` | Tribüne: Waagmeisterin mit goldener Kette, Mann mit grauen Schläfen, dahinter Liora/Cassian; Herold | Entdeckung |
+| `szene/brunnen-abend` | Brunnen in der Dämmerung, Gildenlaternen, Liora/Cassian im weißen Hemd | Szene |
+| `szene/gildenlaternen` | Marktplatz bei Nacht: blaue, silberne, rote und goldene Laternen | Szene |
+| `szene/beitritt-webstuhl`, `-feder`, `-phiole`, `-hand` | Aufnahme in die jeweilige Gilde | Szene |
+| `szene/brunnen-nacht` | Keine Gilde: Liora/Cassian am Brunnen, leerer Platz | Szene |
+| `szene/heimweg-nacht` | Zwei Söldner mit Buch und Laterne an einer Straßenecke | Szene |
+| `tagebuch/perle-3` | Tribüne, Gildenlaternen, je nach Prüfung Wasserrad, Gewölbe, Kessel, Zelt | Tagebuch |
+

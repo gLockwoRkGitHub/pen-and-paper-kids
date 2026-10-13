@@ -66,6 +66,15 @@ CONST HOECHSTWERT = 3
 }
 ~ return true
 
+// --- Einmaliger Bonus aus der Extra-Übung beim Mentor (Perle 3) ---
+// Nur bei Zaubern mit Umgebung 0 oder 1 verwenden: zauber(1 + tipp_bonus())
+=== function tipp_bonus()
+{ mentor_tipp:
+    ~ mentor_tipp = false
+    ~ return 1
+}
+~ return 0
+
 // --- Rasten: Kraftfunken auffüllen ---
 === function rasten()
 { elementstufe > 0:
