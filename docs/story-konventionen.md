@@ -81,8 +81,9 @@ Voraussetzung: eine aktuelle Inky-Version (Variablen in Tags gibt es seit Ink 1.
 
 **Festgeschrieben:** `# karte: <ort>` mit Ortsschlüsseln in Kleinbuchstaben und Bindestrichen (`hafen`, `klippen-von-ahrn`, `tiefe-stiege`).
 
-**Im Player (Vorschlag):** Eine Datei `karten.json` ordnet jeden Ortsschlüssel einer Karte (Stadtplan Lysmara oder Meridel) und einer Position zu. Das ist Player-Sache, die Story muss davon nichts wissen.
-- Besuchte Orte werden markiert, der aktuelle Ort hervorgehoben.
+**Im Player – festgeschrieben 13.10.2026:** `docs/art/karten/karten.json` legt für jeden Schlüssel fest, was er aufdeckt (Ort, Bereich der Grundkarte, Weg) und welcher Ort danach der aktuelle ist. Einige Schlüssel sind Gebiete statt Orte: `kharvan-kamm`, `orin`, `orin-oberlauf`, `weiden`, `spaltstrasse`, `meridel-ganz` (deckt im Finale alles auf). Wege können auch über Variablen des Weltgedächtnisses erscheinen (`wolfspfad_bekannt`, `tiefe_stiege_weg`, `seeweg_bekannt`). Wie die Karte gemalt und zusammengesetzt wird: `docs/art/karten/README.md`.
+- Ein **neuer** `# karte:`-Schlüssel braucht einen Eintrag in `karten.json` (und meist eine Skizze). `npm test` meldet fehlende Schlüssel als Hinweis.
+- Entdeckte Orte erscheinen als Skizze, der aktuelle Ort ist mit „hier bin ich“ markiert.
 - Antippen eines Ortes zeigt die Tagebucheinträge, die dort entstanden sind (Abschnitt 7).
 - Die Reisewahl bleibt eine normale Ink-Entscheidung. Die Karte zeigt sie nur zusätzlich an (spätere Ausbaustufe).
 

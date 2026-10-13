@@ -174,6 +174,6 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 | `karte-lysmara-erste-skizze` | `# tagebuch: Die erste Seite` / `# karte: lysmara` | Die allererste Seite: eine ungeübte Kohleskizze, eine Küstenlinie, ein Hafen, ein paar Dächer. „Es ist keine schöne Karte. Aber es ist deine.“ |
 | `tagebuch-erzmarke` | `# tagebuch: Grisk und die Erzmarke` | Bleistiftskizze der kleinen dunklen Erzmarke mit eingeritztem Zeichen, daneben ein kleiner Grisk-Kopf mit Grubenlampe |
 | `tagebuch-kompass` | `# tagebuch: Tickworts Kompass` | Skizze des aufgeklappten Messingkompasses, die Nadel zeigt zur Seite, ein Dampfring daneben |
-| `karte-meridel-perle-1` | `# karte: kharvan-kamm` | Die Tagebuch-Karte nach Perle 1: Küste, Lysmara, Klippen von Ahrn, Weiden als Strichel, am rechten Rand die Zacken des Kamms mit dem Nyrrspalt. Alles andere bleibt leeres Papier (Nebel des Unbekannten). Anordnung nach `meridel-lagevorlage.png`. |
+| ~~`karte-meridel-perle-1`~~ **entfällt (13.10.2026)** – die Karte setzt der Player aus Grundkarte und Ortsskizzen zusammen, siehe `docs/art/karten/README.md`. | `# karte: kharvan-kamm` | Die Tagebuch-Karte nach Perle 1: Küste, Lysmara, Klippen von Ahrn, Weiden als Strichel, am rechten Rand die Zacken des Kamms mit dem Nyrrspalt. Alles andere bleibt leeres Papier (Nebel des Unbekannten). Anordnung nach `meridel-lagevorlage.png`. |
 
 Die Karten-Tags für einzelne Orte (`# karte: hafen`, `markt`, `brunnen` …) brauchen keine eigenen Bilder: Die App blendet die Orte später auf der Tagebuch-Karte ein.

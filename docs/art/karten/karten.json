@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "hinweis": "Kartendaten für den Browser-Player. Koordinaten im Rahmen der Lagevorlage (Meridel 1280x1040, Lysmara 1200x900). Nach dem Malen jeder Grundkarte einmessen, siehe docs/art/karten/README.md. Jeder '# karte: <schluessel>' aus der Story muss unter 'tags' stehen (npm test prüft das).",
+
+  "karten": {
+    "meridel": {
+      "name": "Meridel",
+      "breite": 1280, "hoehe": 1040,
+      "grundkarte": "karten/meridel-grund.png",
+      "grundvorlage": "karten/meridel-grundvorlage.png"
+    },
+    "lysmara": {
+      "name": "Lysmara",
+      "breite": 1200, "hoehe": 900,
+      "grundkarte": "karten/lysmara-grund.png",
+      "grundvorlage": "karten/lysmara-grundvorlage.png"
+    }
+  },
+
+  "bereiche": {
+    "kueste":          { "karte": "meridel", "flaeche": [[0,0],[270,0],[270,1040],[0,1040]] },
+    "kamm-ost":        { "karte": "meridel", "flaeche": [[1060,80],[1215,80],[1215,1010],[1060,1010]], "name": "Kharvan-Kamm", "beschriftung": [640, 215] },
+    "kamm-nord":       { "karte": "meridel", "flaeche": [[60,20],[1140,20],[1140,210],[60,420]] },
+    "kamm-sued":       { "karte": "meridel", "flaeche": [[100,860],[1140,860],[1140,1040],[100,1040]] },
+    "orin-unterlauf":  { "karte": "meridel", "flaeche": [[90,500],[300,385],[560,290],[730,225],[770,300],[580,375],[320,470],[150,590]], "name": "Orin", "beschriftung": [470, 342] },
+    "orin-oberlauf":   { "karte": "meridel", "flaeche": [[700,200],[1010,90],[1060,170],[760,320]] },
+    "weiden":          { "karte": "meridel", "flaeche": [[250,200],[1080,200],[1080,920],[250,920]], "name": "Weiden", "beschriftung": [420, 690] },
+    "jenseits":        { "karte": "meridel", "flaeche": [[1200,0],[1280,0],[1280,1040],[1200,1040]] },
+
+    "stadt-west":      { "karte": "lysmara", "flaeche": [[0,0],[570,0],[590,900],[0,900]] },
+    "stadt-mitte":     { "karte": "lysmara", "flaeche": [[560,300],[880,300],[880,700],[560,700]] },
+    "oberstadt":       { "karte": "lysmara", "flaeche": [[500,30],[1010,30],[1010,340],[500,340]] },
+    "stadt-ost":       { "karte": "lysmara", "flaeche": [[860,120],[1200,0],[1200,900],[760,900],[760,640]] },
+    "fluss-sued":      { "karte": "lysmara", "flaeche": [[250,640],[900,640],[900,900],[250,900]] }
+  },
+
+  "orte": {
+    "lysmara":          { "karte": "meridel", "name": "Lysmara",          "x": 140,  "y": 505, "breite": 120, "skizze": "skizzen/lysmara.png" },
+    "klippen-von-ahrn": { "karte": "meridel", "name": "Klippen von Ahrn", "x": 92,   "y": 380, "breite": 100, "skizze": "skizzen/klippen-von-ahrn.png" },
+    "weiden":           { "karte": "meridel", "name": "Weiden",           "x": 480,  "y": 640, "breite": 170, "skizze": "skizzen/weiden.png" },
+    "wollmark":         { "karte": "meridel", "name": "Wollmark",         "x": 600,  "y": 520, "breite": 80,  "skizze": "skizzen/wollmark.png" },
+    "ginsterhof":       { "karte": "meridel", "name": "Ginsterhof",       "x": 760,  "y": 760, "breite": 70,  "skizze": "skizzen/ginsterhof.png" },
+    "das-graue":        { "karte": "meridel", "name": "das Graue",        "x": 790,  "y": 895, "breite": 260, "skizze": "skizzen/das-graue.png" },
+    "gnollenlager":     { "karte": "meridel", "name": "Gnollenschlucht",  "x": 820,  "y": 850, "breite": 70,  "skizze": "skizzen/gnollenlager.png" },
+    "kobold-minen":     { "karte": "meridel", "name": "Kobold-Minen",     "x": 970,  "y": 175, "breite": 80,  "skizze": "skizzen/kobold-minen.png" },
+    "tiefe-stiege":     { "karte": "meridel", "name": "Tiefe Stiege",     "x": 1010, "y": 150, "breite": 55,  "skizze": "skizzen/tiefe-stiege.png" },
+    "glimmhalde":       { "karte": "meridel", "name": "Glimmhalde",       "x": 1030, "y": 205, "breite": 60,  "skizze": "skizzen/glimmhalde.png" },
+    "herz-des-berges":  { "karte": "meridel", "name": "Herz des Berges",  "x": 1110, "y": 260, "breite": 55,  "skizze": "skizzen/herz-des-berges.png" },
+    "vardholm":         { "karte": "meridel", "name": "Vardholm",         "x": 1150, "y": 500, "breite": 80,  "skizze": "skizzen/vardholm.png" },
+    "schwarzwasserbucht": { "karte": "meridel", "name": "Schwarzwasserbucht", "x": 120, "y": 826, "breite": 70, "skizze": "skizzen/schwarzwasserbucht.png" },
+    "dornfurt":         { "karte": "meridel", "name": "Dornfurt",         "x": 1238, "y": 560, "breite": 60,  "skizze": "skizzen/dornfurt.png" },
+
+    "hafen":            { "karte": "lysmara", "name": "Hafen",            "x": 285,  "y": 380, "breite": 130, "skizze": "skizzen/stadt-hafen.png" },
+    "phiole":           { "karte": "lysmara", "name": "Glühende Phiole",  "x": 535,  "y": 470, "breite": 55,  "skizze": "skizzen/stadt-phiole.png" },
+    "markt":            { "karte": "lysmara", "name": "Markt",            "x": 590,  "y": 540, "breite": 85,  "skizze": "skizzen/stadt-markt.png" },
+    "marktplatz":       { "karte": "lysmara", "name": "Marktplatz",       "x": 680,  "y": 415, "breite": 150, "skizze": "skizzen/stadt-marktplatz.png" },
+    "brunnen":          { "karte": "lysmara", "name": "Marktbrunnen",     "x": 672,  "y": 415, "breite": 0,   "skizze": null },
+    "gewoelbe":         { "karte": "lysmara", "name": "Gewölbe",          "x": 640,  "y": 480, "breite": 45,  "skizze": "skizzen/stadt-gewoelbe.png" },
+    "wachhaus":         { "karte": "lysmara", "name": "Wachhaus",         "x": 790,  "y": 485, "breite": 55,  "skizze": "skizzen/stadt-wachhaus.png" },
+    "oberstadt":        { "karte": "lysmara", "name": "Oberstadt",        "x": 760,  "y": 195, "breite": 210, "skizze": "skizzen/stadt-oberstadt.png" },
+    "weite-feder":      { "karte": "lysmara", "name": "Weite Feder",      "x": 900,  "y": 205, "breite": 55,  "skizze": "skizzen/stadt-weite-feder.png" },
+    "raederviertel":    { "karte": "lysmara", "name": "Räderviertel",     "x": 1005, "y": 340, "breite": 110, "skizze": "skizzen/stadt-raederviertel.png" },
+    "grosse-schmiede":  { "karte": "lysmara", "name": "Große Schmiede",   "x": 1045, "y": 270, "breite": 65,  "skizze": "skizzen/stadt-grosse-schmiede.png" },
+    "tuchhalle":        { "karte": "lysmara", "name": "Tuchhalle",        "x": 955,  "y": 400, "breite": 70,  "skizze": "skizzen/stadt-tuchhalle.png" },
+    "erzlaende":        { "karte": "lysmara", "name": "Erzlände",         "x": 985,  "y": 545, "breite": 65,  "skizze": "skizzen/stadt-erzlaende.png" },
+    "steinmetzhof":     { "karte": "lysmara", "name": "Steinmetzhof",     "x": 845,  "y": 610, "breite": 60,  "skizze": "skizzen/stadt-steinmetzhof.png" },
+    "orinbruecke":      { "karte": "lysmara", "name": "Orinbrücke",       "x": 910,  "y": 645, "breite": 85,  "skizze": "skizzen/stadt-orinbruecke.png" }
+  },
+
+  "wege": {
+    "spaltstrasse":  { "karte": "meridel", "stil": "strasse", "name": "Spaltstraße", "punkte": [[150,500],[300,512],[460,504],[600,520],[760,508],[920,504],[1080,500],[1140,500]] },
+    "weg-ginsterhof": { "karte": "meridel", "stil": "pfad", "punkte": [[605,530],[650,610],[700,680],[755,750]] },
+    "ziegenstiege":  { "karte": "meridel", "stil": "pfad", "name": "Ziegenstiege", "punkte": [[760,760],[790,790],[772,812],[806,832],[788,854],[824,872],[860,910]] },
+    "treidelpfad":   { "karte": "meridel", "stil": "pfad", "name": "Treidelpfad", "punkte": [[720,262],[840,212],[940,172],[985,140]] },
+    "wolfspfad":     { "karte": "meridel", "stil": "unsicher", "name": "Wolfspfad", "punkte": [[790,770],[830,800],[818,840],[858,880],[880,930]] },
+    "stollen-ost":   { "karte": "meridel", "stil": "unsicher", "punkte": [[1010,150],[1080,200],[1150,250],[1230,300]] },
+    "seeweg":        { "karte": "meridel", "stil": "unsicher", "punkte": [[120,826],[70,900],[40,1000],[30,1040]] },
+    "nach-dornfurt": { "karte": "meridel", "stil": "pfad", "punkte": [[1190,500],[1215,530],[1235,555]] }
+  },
+
+  "start": ["bereich:kueste", "bereich:stadt-west"],
+
+  "tags": {
+    "lysmara":          { "zeigt": ["ort:lysmara", "bereich:stadt-west"], "aktuell": "ort:lysmara" },
+    "klippen-von-ahrn": { "zeigt": ["ort:klippen-von-ahrn"], "aktuell": "ort:klippen-von-ahrn" },
+    "kharvan-kamm":     { "zeigt": ["bereich:kamm-ost"] },
+    "orin":             { "zeigt": ["bereich:orin-unterlauf", "bereich:fluss-sued"] },
+    "spaltstrasse":     { "zeigt": ["weg:spaltstrasse"] },
+    "weiden":           { "zeigt": ["bereich:weiden", "bereich:kamm-nord", "bereich:kamm-sued", "ort:weiden"] },
+    "wollmark":         { "zeigt": ["ort:wollmark"], "aktuell": "ort:wollmark" },
+    "ginsterhof":       { "zeigt": ["ort:ginsterhof", "weg:weg-ginsterhof", "weg:ziegenstiege", "bereich:kamm-sued"], "aktuell": "ort:ginsterhof" },
+    "das-graue":        { "zeigt": ["ort:das-graue"], "aktuell": "ort:das-graue" },
+    "gnollenlager":     { "zeigt": ["ort:gnollenlager"], "aktuell": "ort:gnollenlager" },
+    "orin-oberlauf":    { "zeigt": ["bereich:orin-oberlauf", "weg:treidelpfad", "bereich:kamm-nord"] },
+    "kobold-minen":     { "zeigt": ["ort:kobold-minen", "bereich:orin-oberlauf"], "aktuell": "ort:kobold-minen" },
+    "tiefe-stiege":     { "zeigt": ["ort:tiefe-stiege"], "aktuell": "ort:tiefe-stiege" },
+    "glimmhalde":       { "zeigt": ["ort:glimmhalde"], "aktuell": "ort:glimmhalde" },
+    "herz-des-berges":  { "zeigt": ["ort:herz-des-berges"], "aktuell": "ort:herz-des-berges" },
+    "vardholm":         { "zeigt": ["ort:vardholm", "bereich:kamm-ost"], "aktuell": "ort:vardholm" },
+    "meridel-ganz":     { "zeigt": ["alles:meridel", "bereich:jenseits", "ort:dornfurt", "weg:nach-dornfurt"], "aktuell": "ort:dornfurt" },
+
+    "hafen":            { "zeigt": ["ort:hafen", "bereich:stadt-west"], "aktuell": "ort:hafen" },
+    "phiole":           { "zeigt": ["ort:phiole", "bereich:stadt-west"], "aktuell": "ort:phiole" },
+    "markt":            { "zeigt": ["ort:markt", "bereich:stadt-mitte"], "aktuell": "ort:markt" },
+    "marktplatz":       { "zeigt": ["ort:marktplatz", "bereich:stadt-mitte"], "aktuell": "ort:marktplatz" },
+    "brunnen":          { "zeigt": ["ort:marktplatz", "bereich:stadt-mitte"], "aktuell": "ort:brunnen" },
+    "gewoelbe":         { "zeigt": ["ort:gewoelbe", "bereich:stadt-mitte"], "aktuell": "ort:gewoelbe" },
+    "wachhaus":         { "zeigt": ["ort:wachhaus", "bereich:stadt-mitte"], "aktuell": "ort:wachhaus" },
+    "oberstadt":        { "zeigt": ["ort:oberstadt", "bereich:oberstadt"], "aktuell": "ort:oberstadt" },
+    "weite-feder":      { "zeigt": ["ort:weite-feder", "bereich:oberstadt"], "aktuell": "ort:weite-feder" },
+    "raederviertel":    { "zeigt": ["ort:raederviertel", "bereich:stadt-ost"], "aktuell": "ort:raederviertel" },
+    "grosse-schmiede":  { "zeigt": ["ort:grosse-schmiede", "bereich:stadt-ost"], "aktuell": "ort:grosse-schmiede" },
+    "tuchhalle":        { "zeigt": ["ort:tuchhalle", "bereich:stadt-ost"], "aktuell": "ort:tuchhalle" },
+    "erzlaende":        { "zeigt": ["ort:erzlaende", "bereich:stadt-ost"], "aktuell": "ort:erzlaende" },
+    "steinmetzhof":     { "zeigt": ["ort:steinmetzhof", "bereich:stadt-ost"], "aktuell": "ort:steinmetzhof" },
+    "orinbruecke":      { "zeigt": ["ort:orinbruecke", "bereich:stadt-ost", "bereich:fluss-sued"], "aktuell": "ort:orinbruecke" }
+  },
+
+  "variablen": {
+    "wolfspfad_bekannt": { "zeigt": ["weg:wolfspfad"] },
+    "tiefe_stiege_weg":  { "zeigt": ["weg:stollen-ost"] },
+    "seeweg_bekannt":    { "zeigt": ["ort:schwarzwasserbucht", "weg:seeweg"] }
+  }
+}

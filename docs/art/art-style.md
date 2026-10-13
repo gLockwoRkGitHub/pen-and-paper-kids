@@ -21,6 +21,7 @@ Referenz: `stil-vorschlaege/1-gemaltes-abenteuerbuch.jpg`
 
 ## Karte und Tagebuch (entschieden 09.10.2026)
 - **Die Karte ist eine Tagebuchseite:** Der Spieler malt die Karte selbst und erweitert sie nach und nach. Neue Orte erscheinen als Skizze, sobald man sie entdeckt. Das verbindet Karte, Nebel des Unbekannten und Tagebuch.
+- **So entsteht die Karte (entschieden 13.10.2026):** Grundkarte (nur Natur) und einzelne Ortsskizzen werden getrennt gemalt, auf reinweißem Hintergrund im Stil einer Tagebuchskizze. Der Player setzt sie zusammen. Siehe `docs/art/karten/README.md`.
 - **Tagebuch-Skizzen als Belohnung:** Nach wichtigen Entscheidungen oder Begegnungen kommt eine neue Skizze ins Tagebuch – zum Nachblättern.
 
 ## Szenenbilder bauen (Vorschlag, 12.10.2026)

@@ -1,9 +1,13 @@
 # Erzeugt die Lagevorlagen für Meridel und Lysmara (SVG + PNG).
 # Aufruf: python3 tools/karten-vorlage.py   (PNG braucht Playwright mit Chromium)
 # Maßstab Meridel: 1 km = 20 px. Die Vorlagen sind schematisch, keine fertigen Karten.
+# Zusätzlich entstehen die Grundvorlagen (*-grundvorlage): gleiche Lage, aber nur Küste, Fluss,
+# Gebirge und Stadtmauer als schwarze Linien auf Weiß – ohne Orte, Straßen und Schrift.
+# Sie dienen als Linienvorlage für die gemalten Grundkarten (siehe docs/art/karten/README.md).
 import math, os, random
 random.seed(7)
 ZIEL = os.path.join(os.path.dirname(__file__), '..', 'docs', 'art', 'karten')
+GRUND = False  # True: Grundvorlage ohne Orte, Straßen und Schrift
 K = 20
 
 def P(x, y): return (x * K, y * K)
@@ -47,40 +51,58 @@ def punkt(x, y, r=7, farbe='#2b241e'):
     return f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{farbe}" stroke="#f4ecd8" stroke-width="2"/>'
 
 def meridel():
+    random.seed(7)  # gleiche Berge in Lage- und Grundvorlage
     W, H = 64 * K, 52 * K
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
-         f'<rect width="{W}" height="{H}" fill="#f4ecd8"/>']
+         f'<rect width="{W}" height="{H}" fill="{"#ffffff" if GRUND else "#f4ecd8"}"/>']
     # Meer im Westen
     kueste = [P(0,0), P(7,0), P(6,6), P(4.5,12), P(3.2,17), P(3.8,19.5), P(5.5,23), P(4.4,25), P(5.2,27),
               P(4.6,31), P(5.6,36), P(4.4,40), P(6.2,41.5), P(5,44), P(6.5,48), P(7,52), P(0,52)]
-    s.append(f'<path d="{glatt(kueste[1:-1])} L 0,{52*K} L 0,0 Z" fill="#bcd3d6" stroke="#4a6a70" stroke-width="3"/>')
+    if GRUND:
+        s.append(f'<path d="{glatt(kueste[1:-1])}" fill="none" stroke="#000" stroke-width="3"/>')
+    else:
+        s.append(f'<path d="{glatt(kueste[1:-1])} L 0,{52*K} L 0,0 Z" fill="#bcd3d6" stroke="#4a6a70" stroke-width="3"/>')
     for i in range(10):
         y = 40 + i * 100
-        s.append(f'<path d="M 20,{y} q 15,-8 30,0 t 30,0" fill="none" stroke="#6f8f95" stroke-width="2"/>')
-    # Weiden-Schraffur
+        s.append(f'<path d="M 20,{y} q 15,-8 30,0 t 30,0" fill="none" stroke="{"#000" if GRUND else "#6f8f95"}" stroke-width="2"/>')
+    # Weiden-Schraffur (in der Grundvorlage nicht gezeichnet, Zufallszahlen trotzdem verbrauchen)
     for _ in range(170):
         x, y = random.uniform(10, 52), random.uniform(12, 42)
-        s.append(f'<path d="M {x*K:.0f},{y*K:.0f} l 6,-6 l 6,6" fill="none" stroke="#9fb07a" stroke-width="2"/>')
+        if not GRUND:
+            s.append(f'<path d="M {x*K:.0f},{y*K:.0f} l 6,-6 l 6,6" fill="none" stroke="#9fb07a" stroke-width="2"/>')
     # Orin
     orin = [P(50,6.5), P(47,9), P(42,11), P(36,13.5), P(29,16), P(22,18.5), P(15,21), P(10,23.5), P(8.2,25.3), P(7.4,26.6), P(5.1,27.3)]
-    s.append(f'<path d="{glatt(orin)}" fill="none" stroke="#4a6a70" stroke-width="9" stroke-linecap="round"/>')
-    s.append(f'<path d="{glatt(orin)}" fill="none" stroke="#bcd3d6" stroke-width="5" stroke-linecap="round"/>')
+    s.append(f'<path d="{glatt(orin)}" fill="none" stroke="{"#000" if GRUND else "#4a6a70"}" stroke-width="9" stroke-linecap="round"/>')
+    s.append(f'<path d="{glatt(orin)}" fill="none" stroke="{"#fff" if GRUND else "#bcd3d6"}" stroke-width="5" stroke-linecap="round"/>')
+    if GRUND:
+        # jenseits des Kamms (erst im Finale sichtbar): ein Fluss am Ostrand
+        jenseits = [P(62.6,0), P(62,10), P(63,20), P(62.2,30), P(63.2,40), P(62.4,52)]
+        s.append(f'<path d="{glatt(jenseits)}" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>')
     # Spaltstraße
     strasse = [P(7.5,25), P(15,25.6), P(23,25.2), P(30,26), P(38,25.4), P(46,25.2), P(54,25)]
-    s.append(f'<path d="{glatt(strasse)}" fill="none" stroke="#7a5a3a" stroke-width="4" stroke-dasharray="14 8"/>')
+    if not GRUND:
+        s.append(f'<path d="{glatt(strasse)}" fill="none" stroke="#7a5a3a" stroke-width="4" stroke-dasharray="14 8"/>')
     # Ziegenstiege
     zieg = [P(38,38), P(39.5,39.5), P(38.6,40.6), P(40.3,41.6), P(39.4,42.7), P(41.2,43.6), P(43,45.5)]
-    s.append(f'<path d="{pfad(zieg)}" fill="none" stroke="#a03c2c" stroke-width="3" stroke-dasharray="6 6"/>')
+    if not GRUND:
+        s.append(f'<path d="{pfad(zieg)}" fill="none" stroke="#a03c2c" stroke-width="3" stroke-dasharray="6 6"/>')
     # Kharvan-Kamm als Hufeisen
     kamm = [P(4.2,18.5), P(7,13), P(10,8), P(17,5), P(26,4), P(36,4), P(46,4.5), P(54,6), P(58,10), P(59.5,17),
             P(59.5,22.5)]
     kamm2 = [P(59.5,27.5), P(59.5,34), P(57.5,41), P(52,46), P(43,48), P(32,48.5), P(22,48), P(14,46.5), P(8,44), P(5.6,42.5)]
     for teil in (kamm, kamm2):
         for (x, y) in sorted(entlang(teil, 38), key=lambda p: p[1]):
-            s.append(berg(x + random.uniform(-8, 8), y + random.uniform(-6, 10), random.uniform(34, 50)))
+            b = berg(x + random.uniform(-8, 8), y + random.uniform(-6, 10), random.uniform(34, 50))
+            if GRUND:
+                b = b.split('/>')[0] + '/>'  # nur der Umriss
+                b = b.replace('fill="#b9b2a6"', 'fill="#fff"').replace('stroke="#4a4038"', 'stroke="#000"')
+            s.append(b)
     # Nyrrspalt mit Vardholm
     sx, sy = P(59.5, 25)
-    s.append(f'<path d="M {sx-40},{sy-30} L {sx+60},{sy-12} M {sx-40},{sy+30} L {sx+60},{sy+12}" stroke="#4a4038" stroke-width="3"/>')
+    s.append(f'<path d="M {sx-40},{sy-30} L {sx+60},{sy-12} M {sx-40},{sy+30} L {sx+60},{sy+12}" stroke="{"#000" if GRUND else "#4a4038"}" stroke-width="3"/>')
+    if GRUND:
+        s.append('</svg>')
+        return '\n'.join(s)
     s.append(f'<rect x="{sx-58}" y="{sy-16}" width="30" height="32" fill="#6b5b4b" stroke="#2b241e" stroke-width="2"/>')
     s.append(f'<path d="M {sx-58},{sy-16} l 0,-8 l 7,0 l 0,8 m 8,0 l 0,-8 l 7,0 l 0,8 m 8,0 l 0,-8 l 7,0 l 0,8" fill="#6b5b4b" stroke="#2b241e" stroke-width="2"/>')
     s.append(f'<path d="M {sx+60},{sy} l 40,0" stroke="#7a5a3a" stroke-width="4" stroke-dasharray="14 8"/>')
@@ -122,7 +144,19 @@ def meridel():
 def lysmara():
     W, H = 1200, 900
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
-         f'<rect width="{W}" height="{H}" fill="#f4ecd8"/>']
+         f'<rect width="{W}" height="{H}" fill="{"#ffffff" if GRUND else "#f4ecd8"}"/>']
+    if GRUND:
+        orin = 'M 1200,120 C 1080,200 1020,300 1000,420 C 985,520 960,640 820,700 C 680,760 480,740 300,760'
+        s += ['<path d="M 250,0 C 230,150 260,240 300,300 C 330,350 420,360 430,450 C 440,540 340,560 300,610 C 260,680 250,780 280,900" fill="none" stroke="#000" stroke-width="3"/>',
+              '<path d="M 300,300 C 330,350 420,360 430,450 C 440,540 340,560 300,610" fill="none" stroke="#000" stroke-width="10"/>',
+              f'<path d="{orin}" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round"/>',
+              f'<path d="{orin}" fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round"/>',
+              '<ellipse cx="760" cy="200" rx="230" ry="140" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="8 6"/>',
+              '<path d="M 260,120 C 500,60 900,60 1010,260 C 1060,420 1020,560 900,640 C 760,700 500,700 300,640" fill="none" stroke="#000" stroke-width="6"/>',
+              '<path d="M 515,505 C 550,480 580,462 610,450 M 720,260 C 700,300 690,330 680,360 M 740,415 C 820,430 880,445 930,450 M 420,110 C 460,200 560,300 620,365" fill="none" stroke="#000" stroke-width="4"/>',
+              '<rect x="610" y="360" width="130" height="110" fill="none" stroke="#000" stroke-width="2"/>',
+              '</svg>']
+        return '\n'.join(s)
     # Meer und Hafenbucht im Westen
     s.append('<path d="M 0,0 L 250,0 C 230,150 260,240 300,300 C 330,350 420,360 430,450 C 440,540 340,560 300,610 C 260,680 250,780 280,900 L 0,900 Z" fill="#bcd3d6" stroke="#4a6a70" stroke-width="3"/>')
     # Kaimauern
@@ -176,7 +210,10 @@ def lysmara():
 
 if __name__ == '__main__':
     os.makedirs(ZIEL, exist_ok=True)
-    for name, svg in (('meridel-lagevorlage', meridel()), ('lysmara-lagevorlage', lysmara())):
+    dateien = [('meridel-lagevorlage', meridel()), ('lysmara-lagevorlage', lysmara())]
+    GRUND = True
+    dateien += [('meridel-grundvorlage', meridel()), ('lysmara-grundvorlage', lysmara())]
+    for name, svg in dateien:
         pfad_svg = os.path.join(ZIEL, name + '.svg')
         open(pfad_svg, 'w').write(svg)
         try:

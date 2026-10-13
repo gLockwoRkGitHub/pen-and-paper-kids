@@ -86,6 +86,36 @@ const ohnePrompt = Object.keys(tags)
 if (ohnePrompt.length) {
   console.log(`Hinweis: ${ohnePrompt.length} Bild-Tags ohne Prompt-Datei (noch nicht ausgearbeitet oder Tippfehler):\n  ` + ohnePrompt.join('\n  '));
 }
+
+// Karten: Jeder '# karte:'-Schlüssel braucht einen Eintrag in docs/art/karten/karten.json,
+// und alles, was dort aufgedeckt wird, muss es geben. Siehe docs/art/karten/README.md.
+const kartenDatei = path.join(__dirname, '..', 'docs', 'art', 'karten', 'karten.json');
+if (fs.existsSync(kartenDatei)) {
+  let karten = null;
+  try { karten = JSON.parse(fs.readFileSync(kartenDatei, 'utf8')); } catch (e) { probleme.push('karten.json ist kein gültiges JSON: ' + e.message); }
+  if (karten) {
+    const kartenHinweise = [];
+    const storyText = fs.readdirSync(storyDir, { recursive: true })
+      .filter((f) => String(f).endsWith('.ink'))
+      .map((f) => fs.readFileSync(path.join(storyDir, String(f)), 'utf8')).join('\n');
+    const schluessel = new Set([...storyText.matchAll(/#\s*karte:\s*([^\s#]+)/g)].map((m) => m[1]));
+    for (const k of [...schluessel].sort()) {
+      if (!karten.tags[k]) kartenHinweise.push(`'# karte: ${k}' fehlt in karten.json (tags)`);
+    }
+    const gibt = (ziel) => {
+      const [art, name] = ziel.split(':');
+      if (art === 'alles') return !!karten.karten[name];
+      const sammlung = { ort: karten.orte, bereich: karten.bereiche, weg: karten.wege }[art];
+      return !!(sammlung && sammlung[name]);
+    };
+    const pruefe = (wo, ziele) => ziele.forEach((z) => { if (!gibt(z)) kartenHinweise.push(`${wo}: '${z}' gibt es nicht`); });
+    pruefe('start', karten.start || []);
+    for (const [k, v] of Object.entries(karten.tags)) { pruefe(`tags.${k}`, v.zeigt || []); if (v.aktuell) pruefe(`tags.${k}.aktuell`, [v.aktuell]); }
+    for (const [k, v] of Object.entries(karten.variablen || {})) pruefe(`variablen.${k}`, v.zeigt || []);
+    for (const [k, o] of Object.entries(karten.orte)) if (!karten.karten[o.karte]) kartenHinweise.push(`orte.${k}: Karte '${o.karte}' gibt es nicht`);
+    if (kartenHinweise.length) console.log(`Hinweis: ${kartenHinweise.length} Punkte in karten.json:\n  ` + kartenHinweise.join('\n  '));
+  }
+}
 if (probleme.length) {
   console.error(`${probleme.length} Probleme:\n` + [...new Set(probleme)].slice(0, 30).join('\n'));
   process.exit(1);

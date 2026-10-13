@@ -19,6 +19,8 @@ Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
 6. **Perle 6:** Schritte P–R
 7. **Perle 7:** Schritte S–U
 
+**Karten** (Abschnitt „Karten“, Schritte K1–K3) laufen getrennt davon: die Grundkarten möglichst früh, die Ortsskizzen gern nach der jeweiligen Perle, weil sie die Ortsbilder als Referenz nutzen können.
+
 Je Perle erst Figuren, Requisiten und Ortsbilder, dann die Szenen (sie brauchen die anderen als Referenz). Nach jeder Perle committen, pushen und die Übersicht bauen. `npm test` meldet Bild-Tags ohne Prompt-Datei; dort steht derzeit nichts mehr.
 
 ## Perle 1 – alle Bilder (Auftrag vom 12.10.2026)
@@ -82,7 +84,7 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 - [ ] 18 `entdeckung-ausrufer-ratshalle` · 19 `szene-goblin-werkstatt`
 
 ### Schritt E – Tagebuch und Karten (`docs/art/szenen/perle-1/`)
-- [ ] 20 `tagebuch-perle-1` (Referenz `docs/art/karten/lysmara-lagevorlage.png`) · 21 `karte-lysmara-erste-skizze`, `tagebuch-erzmarke`, `tagebuch-kompass`, `karte-meridel-perle-1` (Referenz `docs/art/karten/meridel-lagevorlage.png`). Wenn die Anordnung mit FLUX nicht stimmt, SDXL mit Linienvorlage (ControlNet in Krita) versuchen und das Ergebnis im README festhalten.
+- [ ] 20 `tagebuch-perle-1` (Referenz `docs/art/karten/lysmara-lagevorlage.png`) · 21 `karte-lysmara-erste-skizze`, `tagebuch-erzmarke`, `tagebuch-kompass`. (`karte-meridel-perle-1` **entfällt** seit 13.10.2026, die Karte entsteht jetzt nach Abschnitt „Karten“ unten.) Wenn die Anordnung mit FLUX nicht stimmt, SDXL mit Linienvorlage (ControlNet in Krita) versuchen und das Ergebnis im README festhalten.
 
 ### Schritt F – Zum Schluss
 - [ ] **Übersicht für Pasco:** alle gewählten Bilder von Perle 1 in einem oder zwei Übersichtsbildern (`docs/art/szenen/perle-1/uebersicht-*.png`) und in der README die Liste mit Schwächen. Dann Pasco Bescheid geben, dass Claude im Chat die Bilder prüfen kann.
@@ -146,7 +148,7 @@ Neu in der Prüfliste: **Das Graue** ist farblos und still, ohne Nebel, ohne Ges
 - [ ] 9 `szene-ginsterhof` · 10 `szene-das-graue` · 11 `szene-fremder-am-grauen`
 - [ ] 12 `szene-gnollenlager` · 13 `figur-ashka` · 14 `szene-nacht-das-schweigen`
 - [ ] 15 `szene-ruf-erde`, `-wasser`, `-feuer`, `-wind` · 16 `szene-morgen-danach`
-- [ ] 17 `tagebuch-perle-4` · 18 `karte-meridel-perle-4`
+- [ ] 17 `tagebuch-perle-4` · ~~18 `karte-meridel-perle-4`~~ **entfällt** (Karte jetzt nach Abschnitt „Karten“)
 - [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-4/uebersicht-*.png`) und Liste der Schwächen im README.
 
 ## Perle 5 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
@@ -207,6 +209,25 @@ Neu in der Prüfliste: **Geschenke** sehen aus wie in `requisiten/abschiedsgesch
 - [ ] 18 `entdeckung-dornfurt` · 19 `szene-zum-halben-hauer` · 20 `szene-silbermark-stube` · 21 `szene-faehrfrau`
 - [ ] 22 `szene-fremder-am-steg` (erst, wenn das neue Einzelbild des Fremden abgenommen ist) · 23 `tagebuch-perle-7`
 - [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-7/uebersicht-*.png`) und Liste der Schwächen im README.
+
+## Karten – Grundkarten und Ortsskizzen (Auftrag vom 13.10.2026)
+
+Neues Verfahren, von Pasco entschieden: **Grundkarte und Orte getrennt**. Alles Nötige steht in `docs/art/karten/README.md`, die Lage der Orte in `docs/art/karten/karten.json`.
+Alle Kartenbilder auf **reinweißem Hintergrund**, ohne Papierstruktur und ohne Schrift.
+
+### Schritt K1 – Grundkarten
+- [ ] `docs/art/karten/meridel-grund` (1536×1248, Referenz `meridel-grundvorlage.png`) – nur Küste, Meer, Fluss, Gebirge
+- [ ] `docs/art/karten/lysmara-grund` (1536×1152, Referenz `lysmara-grundvorlage.png`) – Stadtgrundriss ohne Wahrzeichen
+
+### Schritt K2 – Einmessen
+- [ ] Prüfbilder `pruefung-meridel.png` und `pruefung-lysmara.png` (Grundkarte + Lagevorlage mit 50 % Deckkraft), danach `x`/`y`, Wege und Bereiche in `karten.json` an die gemalte Karte anpassen und `"eingemessen"` eintragen. Pasco Bescheid geben, Claude prüft im Chat.
+
+### Schritt K3 – Ortsskizzen (`docs/art/karten/skizzen/`, je 4 Seeds)
+- [ ] Meridel: `lysmara`, `klippen-von-ahrn`, `weiden`, `wollmark`, `ginsterhof`, `das-graue`, `gnollenlager`
+- [ ] Meridel: `kobold-minen`, `tiefe-stiege`, `glimmhalde`, `herz-des-berges`, `vardholm`, `schwarzwasserbucht`, `dornfurt`
+- [ ] Lysmara: `stadt-hafen`, `stadt-phiole`, `stadt-markt`, `stadt-marktplatz`, `stadt-gewoelbe`, `stadt-wachhaus`, `stadt-oberstadt`
+- [ ] Lysmara: `stadt-weite-feder`, `stadt-raederviertel`, `stadt-grosse-schmiede`, `stadt-tuchhalle`, `stadt-erzlaende`, `stadt-steinmetzhof`, `stadt-orinbruecke`
+- [ ] Zusammenbau-Bilder `pruefung-meridel-komplett.png` und `pruefung-lysmara-komplett.png`, dann Pasco Bescheid geben.
 
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).

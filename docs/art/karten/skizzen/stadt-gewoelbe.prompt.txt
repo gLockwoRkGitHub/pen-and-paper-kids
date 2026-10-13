@@ -1,0 +1,4 @@
+# Kartenskizze stadt-gewoelbe · Karte: lysmara · 1024x1024 · Referenz: orte/gewoelbe.png (optional) – nur für Wiedererkennung, nicht für den Bildaufbau
+# Muss auf reinweißem Hintergrund stehen (der Player legt sie mit „Multiplizieren“ auf das Papier).
+A single small hand-drawn map symbol of a small old stone archway with steps leading down into darkness, like a cellar entrance in the ground.
+Art style: hand-drawn travel-diary map symbol, charcoal pencil and black ink lines with a little soft watercolor, lively but slightly clumsy lines, as drawn by a twelve-year-old who draws well, matching a hand-painted storybook. Seen slightly from above, like a little drawing on a map. Isolated in the center on a plain pure white background with lots of empty white around it: no paper texture, no stains, no shadow on the background, no ground plane except a few short strokes, no border. No text, no letters, no labels, no numbers, no signature.

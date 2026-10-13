@@ -125,6 +125,7 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 
 ### Karte
 - **Grundkarte von Meridel festgelegt** (Claude im Auftrag von Pasco): Meer im Westen, Kharvan-Kamm als Hufeisen um das Land, Nyrrspalt genau östlich von Lysmara (ein langer Tagesmarsch), Klippen von Ahrn 5 km nördlich, Orin aus dem Nordosten mit den Kobold-Minen an seiner Quelle, Ziegenstiege im Südosten. Stadtplan von Lysmara inklusive. Details: `docs/worldbuilding/karte-meridel.md`, Lagevorlagen in `docs/art/karten/`.
+- **Karte im Player aus Teilen (13.10.2026, Pasco):** Eine gemalte Grundkarte je Karte (nur Natur bzw. Stadtgrundriss, ohne Orte und Schrift) plus eine eigene kleine Skizze je Ort. Der Player deckt Bereiche der Grundkarte auf und legt die Skizzen an ihre Stelle, sobald die Figur einen Ort entdeckt; Wege und Beschriftungen zeichnet er selbst. Alle Kartenbilder auf reinweißem Hintergrund. Die ganzen Kartenbilder je Perle entfallen. Details: `docs/art/karten/README.md`, Daten: `docs/art/karten/karten.json`.
 
 ### Figuren
 - **Grumak neu** (`grumak-einzel-neu.png`, groß wie ein Schrank) von Pasco angenommen.
