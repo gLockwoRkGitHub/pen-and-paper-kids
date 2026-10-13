@@ -145,6 +145,10 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Neumond-Regel:** Wer bei der Waage eingeschrieben ist, hat ab dem ersten Neumond **dauerhaft einen Kraftfunken weniger** (in `rasten()` umgesetzt).
 - **Neue Figuren aus Perle 5 bestätigt:** Gildenaufseher Dorn, Talin.
 
+### Tagebuch (13.10.2026, aus Pascos Handy-Chat)
+- **Tickwort bringt das Tagebuch** (schon so in Perle 1). Er kommt **vor** der ersten Aufgabe, nicht danach – so bleibt es.
+- **Tickwort soll die Bereiche des Tagebuchs erklären** (Werte, Erlebtes und Entscheidungen, Karte). Wird erst umgesetzt, **wenn das ganze Tagebuch ausgearbeitet ist** (Aufgabe in `docs/stand.md`, Punkt 4b).
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).
