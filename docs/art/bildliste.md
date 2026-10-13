@@ -56,6 +56,8 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 ## Perle 2 – Am Fluss der Räder
 
+**Ausführliche Beschreibungen, Varianten, Referenzen und fertige Prompts: `docs/art/szenen/perle-2/README.md`** (13.10.2026). Neu: `szene/bruecke-abend-<liora\|cassian>`, `tagebuch/perle-2`, Ortsbild `orte/raederviertel`.
+
 ### Figuren (Referenzblätter)
 | Tag | Inhalt | Ebene |
 |---|---|---|
@@ -72,11 +74,11 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/erzlaende` | Erzkähne am Ufer, Kobolde mit Grubenlampen | Szene |
 | `szene/tuchhalle` | Riesige Halle, Webstühle, bunte Stoffbahnen von der Decke | Szene |
 | `szene/grosse-schmiede` | Esse so groß wie ein Zimmer, Funkenregen | Szene |
-| `szene/faerberturm-feuer` | Brennender Färberturm am Mühlgraben, Kind oben auf der Plattform | Szene |
-| `szene/erwachen-wasser` | Eine Welle steigt aus dem Mühlgraben und löscht den Turm | Szene |
-| `szene/erwachen-feuer` | Die Flammen fließen den Turm hinab auf den Betrachter zu und ballen sich vor ihm zu einer glühenden Kugel | Szene |
-| `szene/erwachen-wind` | Der Wind fängt das fallende Kind auf und trägt es auf den Betrachter zu | Szene |
-| `szene/erwachen-erde` | Eine Felsentreppe wächst vor dem Betrachter aus dem Pflaster neben dem Turm empor | Szene |
+| `szene/faerberturm-feuer` | Brennender Färberturm am Mühlgraben, Kind oben auf der Plattform (klein, keine Varianten) | Szene |
+| `szene/erwachen-wasser-<liora\|cassian>` | Eine Welle steigt aus dem Mühlgraben und löscht den Turm | Szene |
+| `szene/erwachen-feuer-<liora\|cassian>` | Die Flammen fließen den Turm hinab auf den Betrachter zu und ballen sich vor ihm zu einer glühenden Kugel | Szene |
+| `szene/erwachen-wind-<liora\|cassian>` | Der Wind fängt das fallende Kind auf und trägt es auf den Betrachter zu | Szene |
+| `szene/erwachen-erde-<liora\|cassian>` | Eine Felsentreppe wächst vor dem Betrachter aus dem Pflaster neben dem Turm empor | Szene |
 | `szene/schmiedekeller` | Dunkler Keller, eine Lampe, Yrsa auf einer Kiste | Szene |
 | `szene/bruecke-abend` | Steinbrücke über den Orin bei Sonnenuntergang; Liora/Cassian sitzt neben dem Betrachter auf der Brüstung und schaut ihn an | Szene |
 

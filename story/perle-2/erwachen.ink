@@ -66,23 +66,23 @@ Es fühlt sich an, als würde sich eine Tür öffnen, von der du nicht wusstest,
 # erwachen
 { element_erkannt:
 - "wasser":
-    # bild: szene/erwachen-wasser
+    # bild: szene/erwachen-wasser-{freund_kurz()}
     Du streckst die Hand nach dem Mühlgraben aus. Das Wasser hört auf zu fließen.
     Dann bäumt es sich auf. Eine Welle, so hoch wie ein Haus, steigt aus dem Graben, wölbt sich über den Färberturm und stürzt herab. Zischend und brüllend erlischt das Feuer, und eine riesige Dampfwolke hüllt alles ein.
     Als sie sich lichtet, steht der Turm noch. Schwarz, tropfend, aber er steht. Und oben auf der Plattform sitzt {freund()}, klatschnass und hustend. Und am Leben.
 - "feuer":
-    # bild: szene/erwachen-feuer
+    # bild: szene/erwachen-feuer-{freund_kurz()}
     Du streckst die Hand nach den Flammen aus. Und die Flammen sehen dich.
     Es gibt kein anderes Wort dafür. Sie halten inne, als hätte jemand ihren Namen gerufen. Dann ziehen sie sich zurück, von der Plattform, von der Treppe, von den Stoffbahnen. Sie fließen den Turm hinunter wie glühender Honig, über das Pflaster, bis zu dir. Und in deine Hand.
     Einen Moment lang hältst du das ganze Feuer zwischen deinen Fingern, eine kleine, warme, zitternde Kugel aus Licht. Dann schließt du die Hand, und es ist fort.
     Der Turm qualmt. Aber er brennt nicht mehr. Oben auf der Plattform sitzt {freund()} und starrt dich an.
 - "wind":
-    # bild: szene/erwachen-wind
+    # bild: szene/erwachen-wind-{freund_kurz()}
     Die Plattform kracht. Das Geländer gibt nach. Und {freund()} fällt.
     Du streckst beide Arme aus, ohne nachzudenken, und der Wind gehorcht dir. Er reißt die Flammen vom Turm weg, hinaus über den Fluss, wo sie über dem Wasser verlöschen. Und er fängt {freund()} auf, mitten im Fall, und trägt {fr_ihn()} wie ein Blatt im Herbst, langsam, schaukelnd, bis {fr_er()} sanft vor deinen Füßen auf dem Pflaster landet.
     Dann ist es plötzlich ganz still. Kein Lüftchen regt sich mehr.
 - else:
-    # bild: szene/erwachen-erde
+    # bild: szene/erwachen-erde-{freund_kurz()}
     Du presst die Hände auf den Boden. Und der Boden antwortet.
     Das Pflaster bricht auf. Aus der Erde schieben sich Steine, einer über dem anderen, eine Treppe aus Fels, die neben dem brennenden Turm in die Höhe wächst, Stufe um Stufe, bis hinauf zur Plattform. Gleichzeitig hebt sich der Boden am Fuß des Turms wie eine Welle und begräbt die brennenden Kohlen und das Stroh unter sich.
     {freund()} klettert die Felsentreppe herunter, zitternd, rußig. Und am Leben.

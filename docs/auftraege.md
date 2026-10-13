@@ -8,6 +8,19 @@ Regeln:
 - Wer einen Auftrag erledigt, hakt ihn ab, committet und pusht. Lieber oft kleine Commits (z. B. je Abschnitt) als einen riesigen.
 - Rückfragen nicht raten, sondern Pasco fragen. Bei reinen Auswahlfragen (welcher Seed?) selbst nach der Prüfliste entscheiden und weiterarbeiten.
 
+## Gesamtauftrag: alle Bilder des ersten Abenteuers (Stand 13.10.2026)
+
+Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
+1. **Perle 1:** Schritte A–F
+2. **Perle 2:** Schritte V–W
+3. **Perle 3:** Schritte G–I
+4. **Perle 4:** Schritte J–L
+5. **Perle 5:** Schritte M–O
+6. **Perle 6:** Schritte P–R
+7. **Perle 7:** Schritte S–U
+
+Je Perle erst Figuren, Requisiten und Ortsbilder, dann die Szenen (sie brauchen die anderen als Referenz). Nach jeder Perle committen, pushen und die Übersicht bauen. `npm test` meldet Bild-Tags ohne Prompt-Datei; dort steht derzeit nichts mehr.
+
 ## Perle 1 – alle Bilder (Auftrag vom 12.10.2026)
 
 Beschreibung jedes Bildes: `docs/art/szenen/perle-1/README.md`. Die Prompts liegen fertig als `.prompt.txt` bereit, sie müssen nicht neu geschrieben werden.
@@ -73,6 +86,20 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 
 ### Schritt F – Zum Schluss
 - [ ] **Übersicht für Pasco:** alle gewählten Bilder von Perle 1 in einem oder zwei Übersichtsbildern (`docs/art/szenen/perle-1/uebersicht-*.png`) und in der README die Liste mit Schwächen. Dann Pasco Bescheid geben, dass Claude im Chat die Bilder prüfen kann.
+
+## Perle 2 – Szenenbilder (Auftrag vom 13.10.2026, nachgeholt)
+
+Direkt **nach Perle 1** beginnen. Beschreibung jedes Bildes: `docs/art/szenen/perle-2/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
+Neu in der Prüfliste: Liora/Cassian ist **verkleidet** (zu große Arbeiterjacke, Mütze, Samtjacke blitzt hervor, Schnallenschuhe). Beim Erwachen geht die Magie **vom Betrachter aus, ohne Hände**.
+
+### Schritt V – Ortsbild und erste Szenen
+- [ ] `orte/raederviertel` (1536×1024), zuerst, es ist die Referenz für fast alle Bilder
+- [ ] 1 `entdeckung-raederviertel` · 2 `szene-erzlaende` · 3 `szene-tuchhalle` · 4 `szene-grosse-schmiede` · 5 `szene-faerberturm-feuer`
+
+### Schritt W – Erwachen und Abend
+- [ ] 6 `szene-erwachen-<wasser|feuer|wind|erde>-<liora|cassian>` (acht Bilder)
+- [ ] 7 `szene-schmiedekeller` · 8 `szene-bruecke-abend-<liora|cassian>` · 9 `tagebuch-perle-2`
+- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-2/uebersicht-*.png`) und Liste der Schwächen im README.
 
 ## Perle 3 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
 

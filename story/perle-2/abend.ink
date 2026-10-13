@@ -3,7 +3,7 @@
 // =====================================================================
 
 === p2_abend
-# bild: szene/bruecke-abend
+# bild: szene/bruecke-abend-{freund_kurz()}
 # karte: orinbruecke
 Als du zurückkommst, sitzt {freund()} auf der alten Steinbrücke über den Orin und lässt die Beine baumeln. Die Wasserräder stehen still, nur das Wasser rauscht. Die Sonne geht hinter der Stadt unter.
 
