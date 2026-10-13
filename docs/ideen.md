@@ -27,6 +27,7 @@ Noch nicht entschiedene Ideen. Was angenommen wird, wandert nach `entscheidungen
 - **Die Waage** sammelt Kraft in Glaskugeln, weil Seraphine Arvelle Angst vor dem Schweigen hat („Wenn es über die Berge kommt, brauchen wir jede Kugel“). Das macht sie nicht gut, aber verständlich. **Festgelegt 13.10.2026:** Die Kraft soll einen Schutzwall speisen, der vor allem die Oberstadt schützt (siehe `entscheidungen.md`).
 - **Der Kreis der Vier / Ithren** wacht über das Gleichgewicht der Elemente. Das Schweigen ist das Gegenteil: keine Elemente.
 - Passt zum Wort **„die Stillen“** (Magier über Unbegabte). Später ist eine Wendung möglich: Ist Stille immer schlecht?
+- **In Perle 5 verwendet (Vorschlag):** Das Schweigen sickert aus einem Riss im **Herz des Berges**, einem Kristall, in dem die vier Elemente kreisen. Den Riss hat ein Stollen geschlagen, den Webstuhl und Amboss im Auftrag der Waage nach Stimmerz gegraben hat. Die Waage hat das Schweigen also selbst geweckt, ohne es zu wissen.
 - Offen bleibt bewusst: was es ist, wer oder was es geweckt hat, und ob es aufzuhalten ist (Folgeabenteuer).
 
 ## Später / nach der Beta

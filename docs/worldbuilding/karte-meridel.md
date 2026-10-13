@@ -32,6 +32,9 @@ Meridel ist ein Kessel: Im **Westen das Meer**, an allen anderen Seiten der **Kh
 | **Vardholm** | Festung im Nyrrspalt | Perle 1 | gehört der Goldenen Waage; Zoll, jetzt geschlossen |
 | **Spaltstraße** (neu) | Lysmara → Wollmark → Vardholm, quer durch die Weiden | Perle 1 | die Karren der Waage fahren hier |
 | **Kobold-Minen / Tiefe Stiege** | im Nordosten, wo der Orin aus dem Gebirge kommt (etwa 35 km flussaufwärts) | Perle 2 | gehören der Gilde Webstuhl und Amboss; Eingang ist die Tiefe Stiege; dahinter alte Stollen tief in den Berg (Perle 5) |
+| **Treidelpfad am Orin** (Perle 5) | am Ufer des Orin von den Weiden bis zum Minentor | Perle 5 | Maultiere ziehen leere Erzkähne flussaufwärts |
+| **Glimmhalde** (Perle 5) | Höhlenstadt der Kobolde im Berg hinter dem Minentor | Perle 5 | Häuser wie Schwalbennester, unterirdischer See mit Pilzgärten |
+| **Herz des Berges** (Perle 5) | tief unter dem Ostteil des Kamms, am Ende der Tiefen Stiege | Perle 5 | Kristall mit den vier Elementen, Riss durch den Stollen der Waage |
 | **Ziegenstiege** | im Südosten: vom Rand der Weiden in Kehren hinauf in den Südarm | Perle 1 | Schmugglerpfad der Leisen Hand, am Zoll vorbei |
 | **Wollmark** (neu, Vorschlag) | Hirtendorf an der Spaltstraße, auf halbem Weg | Perle 4 | Markt der Hirten, letzte Rast vor Vardholm |
 | **Ginsterhof** (neu, Vorschlag) | einsames Hirtendorf im Süden der Weiden, am Fuß der Ziegenstiege | Perle 4 | |

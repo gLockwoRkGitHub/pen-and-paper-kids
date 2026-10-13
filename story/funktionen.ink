@@ -79,6 +79,10 @@ CONST HOECHSTWERT = 3
 === function rasten()
 { elementstufe > 0:
     ~ kraftfunken = elementstufe + 1
+    // Wer bei der Waage eingeschrieben ist, gibt seit dem ersten Neumond dauerhaft einen Funken ab.
+    { neumond_funke && magie_registriert == "waage":
+        ~ kraftfunken = kraftfunken - 1
+    }
 }
 
 // --- Stärkste Element-Neigung ---

@@ -125,6 +125,12 @@ Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasc
 - **Jorrit:** alter Ziegenhirte, dürr, **weiße Bartstoppeln, Pfeife, Gesicht wie ein verschrumpelter Apfel**; geflickte Weste, Filzmütze, Holzschuhe; immer ein paar Ziegen um sich.
 - **Szenenzustand Liora/Cassian, Perle 4:** wieder **verkleidet** (zu große Arbeiterjacke, Mütze, darunter die grüne Samtjacke, feine Schuhe mit Silberschnallen). Beim Abholen: Mütze heruntergerutscht, Locken sichtbar.
 
+### Neue Figuren aus Perle 5 (Vorschlag von Claude, 13.10.2026)
+- **Gildenaufseher Dorn:** dicker Gnom mit Glatze und Backenbart, Lederschürze mit dem Zeichen von Webstuhl und Amboss, **Klemmbrett** und Bleistift hinter dem Ohr, Grubenhelm unter dem Arm.
+- **Talin:** Junge um die fünfzehn, dünn, schwarze strubbelige Haare, Gesicht grau vor Staub und Müdigkeit; zerrissenes Arbeitshemd, Lederhose, **Messingplakette der Waage** an einer Schnur um den Hals, Hände rau vom Stein.
+- **Koboldkinder:** kleine Kobolde mit zu großen Helmen, Schuppen in Schiefergrau bis Rostbraun.
+- **Requisiten:** **Stimmerz** (dunkle, schwach summende Erzbrocken mit winzigen glitzernden Adern), **Herzsplitter** (handlanger Kristallsplitter, in dem vier winzige Lichter kreisen: braun, blau, rot, weiß), **singende Lampe** (alte Grubenlampe mit einem kleinen Stimmerz-Splitter im Glas).
+
 ## Bezugspersonen (je nach Hintergrund)
 
 Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.

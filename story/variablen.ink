@@ -169,3 +169,20 @@ VAR freund_mutter_angst = false   // Liora/Cassian: „Meine Mutter hat Angst. W
 VAR strell_belohnung = false      // Strell hat Belohnung für das Gnollenlager versprochen
 VAR strell_schuldet = false        // die Spielfigur hat Strell in der Nacht aus dem Grauen geholt
 VAR gnollstein = false            // Geschenk von Ashka: Stein aus dem Land der Gnolle – zeigt jedem Gnoll: Freund
+
+// Perle 5 – Unter dem Berg
+VAR mutter_nach_vardholm = false  // Brief von Liora/Cassian: die Mutter reist in vier Tagen nach Vardholm
+VAR minen_zugang = ""             // wie die Figur in die Minen kam: "gilde", "grisk", "mirk", "geschlichen", "strell"
+VAR grisk_begleitet = false       // Grisk geht mit in die Tiefe
+VAR neumond_funke = false         // in der Neumondnacht hat die Waage einen Funken genommen (eingeschrieben)
+VAR vermisste_gerettet = false    // die verschwundenen Kobolde aus der Tiefe geholt
+VAR bp_gefunden = false           // die verschwundene Bezugsperson in der Tiefen Stiege gefunden
+VAR herz_gesehen = false          // das Herz des Berges gesehen
+VAR waage_stollen_gesehen = false // den frischen Stollen mit dem Zeichen der Waage gesehen
+VAR stollen_versiegelt = false    // den Stollen zum Herz versiegelt – vorerst kein Grau mehr in Meridel
+VAR herzsplitter = false          // Splitter vom Herz als Beweis mitgenommen
+VAR tiefe_stiege_weg = false      // weiß: Die Tiefe Stiege führt bis auf die andere Seite (Licht am Ende gesehen)
+VAR singlampe = false            // Geschenk von Mirk: Grubenlampe mit Stimmerz, brennt eine Weile auch im Grauen
+VAR runen_gelernt = false        // mit Mirk die alten Zwergenzeichen der Tiefen Stiege gelernt
+VAR talin_getroffen = false      // Talin, junger Erd-Rufer, bei der Waage eingeschrieben, gräbt für sie
+VAR talin_hilft = false          // Talin hat aufgehört zu graben und geht mit hinab

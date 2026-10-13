@@ -55,6 +55,13 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 | Ashka | Alte Gnollen-Matriarchin, Anführerin der Flüchtlinge, klug und stolz | Gnollenschlucht |
 | Wuk | Gnollenjunges, läuft ins Graue | Gnollenschlucht |
 
+## Neue Figuren aus Perle 5 (Vorschlag von Claude, 13.10.2026)
+| Figur | Wer | Wo |
+|---|---|---|
+| Gildenaufseher Dorn | Gnom von Webstuhl und Amboss am Minentor, Klemmbrett, hat sieben Kobolde verloren | Minentor |
+| Talin | Junger Erd-Rufer (etwa 15), bei der Waage eingeschrieben, gräbt für sie nach Stimmerz | Tiefe Stiege, später Vardholm |
+| Mirk | Jetzt Älteste von Glimmhalde (Vorarbeiterin der Kobolde) | Glimmhalde |
+
 ## Geheimnisvolle Figur (festgelegt)
 - **Ausgestaltung (Charakter, Aussehen, Verhalten, Geheimnis):** `docs/worldbuilding/der-fremde.md` – von Claude gestaltet, freie Hand von Pasco (12.10.2026).
 - Baut eine **parallele Story** auf, möglicherweise für das nächste Addon.

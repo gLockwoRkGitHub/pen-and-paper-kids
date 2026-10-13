@@ -31,6 +31,11 @@ INCLUDE perle-4/wollmark.ink
 INCLUDE perle-4/suedhang.ink
 INCLUDE perle-4/gnolle.ink
 INCLUDE perle-4/nacht.ink
+INCLUDE perle-5/perle-5.ink
+INCLUDE perle-5/reise.ink
+INCLUDE perle-5/minen.ink
+INCLUDE perle-5/tiefe.ink
+INCLUDE perle-5/herz.ink
 
 # titel: Der Weg hinaus
 

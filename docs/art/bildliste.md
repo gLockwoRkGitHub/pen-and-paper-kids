@@ -133,3 +133,24 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/morgen-danach` | Grauer Streifen am Bergfuß, Morgenlicht über grünen Hängen | Szene |
 | `tagebuch/perle-4` | Weiden, Ziegenhaus, Fellzelte, leer gelassener grauer Streifen | Tagebuch |
 
+## Perle 5 – Unter dem Berg
+
+Kurzfassung der Tags (Entwurf 13.10.2026). Ausführliche Beschreibungen folgen wie bei Perle 3 und 4.
+
+| Tag | Inhalt | Ebene |
+|---|---|---|
+| `szene/brief-in-wollmark` | Brunnen in Wollmark, Fink bzw. ein Botenjunge reicht einen Brief | Szene |
+| `entdeckung/orin-treidelpfad` | Grüner Orin, Maultiere ziehen Erzkähne mit Kobolden flussaufwärts zu den Bergen | Entdeckung |
+| `entdeckung/minentor` | Riesiges Zwergentor im Berg, Loren, Holzhaus der Gilde, Gnom Dorn, zwei Söldner | Entdeckung |
+| `entdeckung/glimmhalde` | Höhlenstadt: Häuser wie Schwalbennester, bunte Grubenlampen, schwarzer See mit Pilzflößen | Entdeckung |
+| `szene/neumond-glimmhalde` | Luftschacht mit Sternenhimmel, Funken wandern nach Osten | Szene |
+| `szene/tiefe-stiege` | Breite Zwergentreppe in die Dunkelheit, Zeichen an den Wänden | Szene |
+| `szene/talin` | Junge mit Messingplakette, der den Fels mit bloßen Händen weichen lässt | Szene |
+| `szene/der-schlund` | Abgrund, Reste einer Kettenbrücke, Rauschen in der Tiefe | Szene |
+| `szene/vermisste-kobolde` | Graue Halle, sieben Kobolde schlafen im Stehen (ggf. mit Bezugsperson) | Szene |
+| `szene/wiedersehen` | Bezugsperson wacht auf (6 Varianten) | Szene |
+| `szene/herz-des-berges` | Kristallkugel mit vier Lichtern über riesiger Spirale, Riss, Stollen mit Waage-Kisten | Szene |
+| `szene/flucht-tiefe-stiege` | Treppe hinauf, das Graue folgt; Seitengang mit Licht am Ende | Szene |
+| `szene/glimmhalde-fest` | Alle Lampen leuchten, singende Kobolde, Mirk mit der singenden Lampe | Szene |
+| `tagebuch/perle-5` | Glimmhalde, Tiefe Stiege, Kristall mit Riss | Tagebuch |
+

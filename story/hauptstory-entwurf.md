@@ -30,7 +30,7 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 | 2 | **Am Fluss der Räder** ✍️ Entwurf fertig | Viertel von Webstuhl und Amboss, Schmieden und Wasserräder, erste Begegnung mit dem Mentor, das Element zeigt sich zum ersten Mal | Erste Zauber. Level-Up. |
 | 3 | **Die Gildenprobe** ✍️ Entwurf fertig | Aufgaben für mehrere Gilden, Intrige zwischen den Bankiersgilden um die Schlucht – die Familie der Freundin/des Freundes steckt mit drin | **Gildenbeitritt (~35 %).** Level-Up. |
 | 4 | **Die Weiden** ✍️ Entwurf fertig | Reise ins Umland, Hirtendörfer, Gnolle, erste deutliche Hinweise auf die Bedrohung, die geheimnisvolle Figur greift ein | Level-Up. |
-| 5 | **Unter dem Berg** | Kobold-Minen und Höhlensysteme, alte Taten zahlen sich aus (oder rächen sich) | Level-Up. |
+| 5 | **Unter dem Berg** ✍️ Entwurf fertig | Kobold-Minen und Höhlensysteme, alte Taten zahlen sich aus (oder rächen sich) | Level-Up. |
 | 6 | **Die Festung am Pass** | Die Intrige wird aufgedeckt: Wer profitiert von der Schließung? Großes Dilemma um die Freundschaft | Level-Up. |
 | 7 | **Der Weg hinaus** | Wahl der Route je nach Weltgedächtnis, Abschied von der Region | Ankunft im Grenzgebiet. Cliffhanger durch die geheimnisvolle Figur. |
 
@@ -57,6 +57,22 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Die Nacht:** Das Schweigen kommt. Mit Hilfe der Gnolle (und Hirten) ruft die Spielfigur ihr Element so laut sie kann. Die **Elementstufe steigt auf 2**. Das Graue weicht bis an den Fuß der Berge zurück.
 - **Belohnung:** Ashkas grüner Gnollstein („Zweimal Freund“) öffnet später die Gnolle jenseits der Berge.
 - **Übergang zu Perle 5:** Das Graue kommt aus dem Berg, und der Berg brummt. Also zu den Minen und zur Tiefen Stiege (dort ist auch die verschwundene Bezugsperson).
+
+## Perle 5 im Entwurf (13.10.2026)
+- **Brief von Liora/Cassian:** Hausarrest. „Meine Mutter reist in vier Tagen nach Vardholm, es geht um ‚das Werk‘. Ich soll mit.“
+- **Den Orin hinauf:** mit den Treidelkähnen der Kobolde. Bei einer Stromschnelle kann man helfen.
+- **Eingang der Minen:** Hier zählen alte Taten. Wer Webstuhl und Amboss angehört, kommt hinein, ebenso wer Grisks Erzmarke hat, bei Mirk einen guten Ruf hat oder die Plakette der Waage trägt (die Waage braucht Rufer zum Graben). Wer Grisk damals hängen ließ, wird von ihm nicht begleitet.
+- **Glimmhalde:** die Höhlenstadt der Kobolde. Sieben Kobolde sind im dritten Schacht verschwunden. Die Waage will **Stimmerz**: Ohne dieses summende Erz hält das Glas der Kugeln die Kraft nicht fest.
+- **Neumond:** Das Gesetz gilt. Wer bei der Waage eingeschrieben ist, verliert dauerhaft einen Kraftfunken (umgesetzt in `rasten()`). Alle anderen sehen hunderte Funken wie wandernde Sternschnuppen nach Osten fliegen, nach Vardholm.
+- **Talin:** ein junger Erd-Rufer, eingeschrieben bei der Waage, muss zwölf Stunden am Tag für sie graben. Er kann aufhören und mitkommen. Alle Eingeschriebenen werden nach Vardholm geschickt („für das Werk“).
+- **Die Tiefe Stiege:** ein Abgrund (Zwergenzeichen, Magie Stufe 2, Talin), dann wird alles grau. Die sieben Kobolde schlafen im Stehen am Rand des Grauen. Beim Auslöser „verschwunden“ steht auch die **Bezugsperson** dort und wird gerettet.
+- **Das Herz des Berges:** eine Kristallkugel, so groß wie ein Haus, auf einer riesigen Spirale aus vier Linien, darin kreisen vier Lichter. Die Spielfigur hört einen Herzschlag lang alle vier Elemente.
+  - Ein frischer **Stollen der Waage** hat einen Riss in den Kristall geschlagen. Durch den Riss sickert das Schweigen.
+  - **Die Waage hat das Schweigen also selbst geweckt, ohne es zu wissen.**
+- **Dilemma:** entweder den **Stollen zum Einsturz bringen** (kein neues Stimmerz, also keine neuen Kugeln, das Herz kommt zur Ruhe) oder einen **Splitter und eine Kiste der Waage als Beweis** mitnehmen (für Perle 6).
+- **Flucht:** Unterwegs sieht man einen alten Gang nach Osten mit Licht am Ende. Die Tiefe Stiege führt ganz durch den Berg, das ist der Weg für das Finale „unter dem Berg“.
+- **Geschenk:** Mirks **singende Lampe** brennt eine Weile auch im Grauen.
+- **Übergang zu Perle 6:** nach Vardholm, wo die Mutter „das Werk“ zeigen will.
 
 ## Was bewusst offen bleibt
 - **Die größere Bedrohung** selbst – im ersten Abenteuer nur Hinweise. Vorschlag „das Schweigen“: `docs/ideen.md`.
