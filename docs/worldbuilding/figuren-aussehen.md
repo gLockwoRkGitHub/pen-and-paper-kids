@@ -143,6 +143,16 @@ Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasc
   - **Hauptmann Strell** (wenn nicht gerettet): stumm, Decke um die Schultern, Augen leer und grau.
 - **Requisiten:** **Messingplakette der Waage**, **Glaskugel im eisernen Korb** (Funke in einer der vier Farben), **der Spiegel** auf dem Turm (rund, Bronze und Glas, Eisengestell; ab der Nacht mit Riss).
 
+### Neue Figuren aus Perle 7 (Vorschlag von Claude, 13.10.2026)
+- **Durgash (Ork, Grumaks Bruder):** groß und breit, etwas kleiner und runder als Grumak; graugrüne Haut, spitze Ohren, langes schwarzes Haar mit grauen Strähnen zum Knoten gebunden; **linker unterer Hauer abgebrochen** (daher „Zum Halben Hauer“); dieselben warmen, müden Augen wie Grumak; senfgelbes Hemd mit hochgekrempelten Ärmeln, lange fleckige braune Schürze, Geschirrtuch über der Schulter. Laut und herzlich.
+- **Haldor (Schmuggler der Leisen Hand):** stämmiger Mann um die fünfundvierzig, **riesiger buschiger dunkelbrauner Bart**, wettergegerbt, ein **goldener Ohrring**; rot-weiß gestreiftes Hemd, dunkelblaue Strickmütze, kurze schwarze Öljacke, barfuß; Taurolle über der Schulter.
+- **Die Fährfrau von Dornfurt:** große, sehnige Frau um die siebzig, sehr aufrecht, **langer weißer Zopf**, scharfe dunkle Augen; moosgrüne Wolltunika, braune Lederweste, hochgekrempelte Hosen, barfuß; lange **Stakstange mit eingeschnitzter Spirale aus vier Linien**.
+- **Szenenzustände Perle 7:**
+  - **Liora/Cassian,** wenn mitgehend: **grauer Reisemantel** statt Samtjacke, feste Stiefel, neuer Lederranzen, die Schnallenschuhe am Ranzen; in Dornfurt ein viel zu großer Hut.
+  - **Seraphine** (einsichtig): schwarzes Kleid **ohne Kette**, Haar locker gesteckt.
+  - **Der Fremde** am Steg: Kapuze ein wenig zurückgeschoben, unteres Gesicht im Fackellicht.
+- **Requisiten:** Seil der Bezugsperson, Tickworts **Messingpfeife**, Grumaks **eiserner Ring**, der **Goldknopf** von Liora/Cassian (`requisiten/abschiedsgeschenke.png`).
+
 ## Bezugspersonen (je nach Hintergrund)
 
 Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.

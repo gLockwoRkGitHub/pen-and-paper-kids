@@ -3,7 +3,6 @@
 // =====================================================================
 
 === p7_aufbruch
-# bild: szene/abschied-vardholm
 Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein Bündel, dein Buch, {kompass:Tickworts Kompass,} {singlampe:Mirks Lampe,} {herzsplitter:der Splitter in seinem Tuch,} und alles, was du in den letzten Wochen gelernt hast. Das wiegt am meisten und trägt sich am leichtesten.
 { freund_kommt_mit:
     -> freund_packt
@@ -11,6 +10,7 @@ Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein B�
 -> freund_bleibt
 
 = freund_packt
+# bild: szene/abschied-vardholm-kommt
 {freund()} wartet am Tor, einen Lederranzen auf dem Rücken, der viel zu neu aussieht. Keine Samtjacke. Ein einfacher grauer Mantel, feste Stiefel. Nur die Schuhe mit den Silberschnallen hat {fr_er()} an den Ranzen gebunden. „Für besondere Anlässe“, sagt {fr_er()}.
 { seraphine_einsicht:
     Neben {fr_ihm()} steht Seraphine. Ohne Kette. Sie sieht ihr Kind an, als wollte sie sich jedes Haar merken.
@@ -24,6 +24,7 @@ Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein B�
 -> heimweg
 
 = freund_bleibt
+# bild: szene/abschied-vardholm-bleibt
 {freund()} bringt dich bis an das Tor. Eine Weile steht ihr nur da und wisst nicht, was man in so einem Moment sagt.
 { waage_gestuerzt && not seraphine_einsicht:
     „Ich fahr heute mit der Kutsche nach Lysmara“, sagt {freund()}. „Zu ihr. Sie hat jetzt niemanden mehr. Nur noch mich.“

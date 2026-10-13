@@ -160,6 +160,27 @@ Neu in der Prüfliste: **genau vier Farben** (braun, blau, rot, weiß) bei Kugel
 - [ ] 12 `szene-ruf-gross-<erde|wasser|feuer|wind>` · 13 `entdeckung-vardholm-morgen` · 14 `tagebuch-perle-6`
 - [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-6/uebersicht-*.png`) und Liste der Schwächen im README.
 
+## Perle 7 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
+
+Erst **nach** Perle 1 und 3–6 beginnen. Beschreibung jedes Bildes: `docs/art/szenen/perle-7/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
+Neu in der Prüfliste: **Geschenke** sehen aus wie in `requisiten/abschiedsgeschenke.png`. **Jenseits der Berge braun-golden**, graue Flecken ohne Nebel. In der Bucht ist der Kapitän **nur Silhouette**. Durgash hat **einen abgebrochenen Hauer**.
+
+### Schritt S – Neue Figuren, Ortsbild, Requisiten
+- [ ] **Durgash**, **Haldor**, **Fährfrau** (`durgash-`, `haldor-`, `faehrfrau-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt)
+- [ ] `orte/dornfurt` (1536×1024) · `requisiten/abschiedsgeschenke` (1536×1024)
+
+### Schritt T – Szenenbilder Teil 1 (`docs/art/szenen/perle-7/`, 1536×1024)
+- [ ] 1 `szene-abschied-vardholm-kommt-<liora|cassian>` · `szene-abschied-vardholm-bleibt-<liora|cassian>` · 2 `szene-heimkehr-lysmara`
+- [ ] 3 `szene-abschied-borrik`, `-nerelle`, `-yrsa`, `-vael` · 4 `szene-abschied-tickwort` · 5 `szene-abschied-grumak`
+- [ ] 6 `szene-vier-wege` · 7 `szene-tor-offen` · 8 `entdeckung-aufstieg-suedarm` · 9 `szene-wolfspfad`
+- [ ] 10 `szene-ziegenstiege-fackeln` · 11 `szene-am-grat` · 12 `szene-herz-wiedersehen` · 13 `szene-zwergentor-ost`
+
+### Schritt U – Szenenbilder Teil 2
+- [ ] 14 `szene-schwarzwasserbucht` · 15 `szene-sturm-am-kap` · 16 `entdeckung-jenseits-der-berge` · 17 `szene-leeres-dorf`
+- [ ] 18 `entdeckung-dornfurt` · 19 `szene-zum-halben-hauer` · 20 `szene-silbermark-stube` · 21 `szene-faehrfrau`
+- [ ] 22 `szene-fremder-am-steg` (erst, wenn das neue Einzelbild des Fremden abgenommen ist) · 23 `tagebuch-perle-7`
+- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-7/uebersicht-*.png`) und Liste der Schwächen im README.
+
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).
 - [x] **Der Fremde neu erzeugen** (Einzelbild + Referenzblatt) nach `docs/worldbuilding/der-fremde.md`: groß und schlank, Reisemantel statt Mönchsgewand, Kinn und Mund im Schatten schwach sichtbar, silbrig **schimmernde** (nicht leuchtende) Augen, Bronzeschließe als Spirale aus vier Linien, Treibholzstab, Bergstaub an den Stiefeln. **Ohne Brief** im Referenzblatt (Brief = Szenenzustand). → 13.10.2026: `docs/art/figuren/fremder-einzel-neu.png`, `fremder-referenzblatt-neu.png` (lokal, warten auf Abnahme).

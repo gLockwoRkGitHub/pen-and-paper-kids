@@ -180,11 +180,11 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 ## Perle 7 – Der Weg hinaus
 
-**Kurzfassung (13.10.2026). Ausführliche Beschreibungen und Prompts folgen in `docs/art/szenen/perle-7/README.md`.** Wiederverwendet: `entdeckung/minentor` und `szene/der-schlund` aus Perle 5.
+**Ausführliche Beschreibungen, Varianten, Referenzen und fertige Prompts: `docs/art/szenen/perle-7/README.md`** (13.10.2026). Die Tabelle hier ist nur die Kurzfassung. Wiederverwendet: `entdeckung/minentor` und `szene/der-schlund` aus Perle 5.
 
 | Tag | Inhalt | Ebene |
 |---|---|---|
-| `szene/abschied-vardholm` | Am Tor von Vardholm am Morgen, Liora/Cassian mit Ranzen bzw. zum Abschied (Varianten) | Szene |
+| `szene/abschied-vardholm-kommt` / `-bleibt` | Am Tor von Vardholm: Liora/Cassian mit Ranzen bzw. mit dem Goldknopf (je Varianten Liora/Cassian) | Szene |
 | `szene/heimkehr-lysmara` | Abends durch das Landtor, die Stadt wirkt kleiner | Szene |
 | `szene/abschied-borrik` / `-nerelle` / `-yrsa` / `-vael` | Abschied vom Mentor, mit Geschenk | Szene |
 | `szene/abschied-tickwort` | Werkstatt Knallfunke & Söhne, Tickwort mit Messingpfeife | Szene |
