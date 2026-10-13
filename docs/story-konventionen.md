@@ -43,6 +43,7 @@ Format immer `# name` oder `# name: wert`. Kleinschreibung, keine Umlaute im Nam
 | `erwachen` | | Magie-Bereich im Charakterbogen freischalten | festgeschrieben |
 | `ausloeser` | `# ausloeser: brief` | Nur Information; der Wert steht auch in der Variable `ausloeser` | festgeschrieben |
 | `probe` | `# probe` | Würfelanimation zur folgenden Probenzeile (Abschnitt 4) | **Vorschlag** |
+| `ende` | `# ende: erstes-abenteuer` | Abenteuer ist zu Ende: Abschlussbildschirm, Spielstand als „abgeschlossen“ markieren (steht am Schluss von Perle 7) | **Vorschlag** |
 
 Unbekannte Tags ignoriert der Player still. So kann die Story neue Tags einführen, bevor der Player sie kennt.
 
