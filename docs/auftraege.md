@@ -39,7 +39,7 @@ Aussehen der Figuren: `docs/worldbuilding/figuren-aussehen.md`. Lage der Orte: `
 - Keine lesbaren Buchstaben, Zahlen oder Pseudo-Schrift (Schilder bleiben leer).
 - Tickwort: **ein** Auge, **drei** Beine, **Zangen** statt Hände, Schornstein.
 - Liora/Cassian: etwa zwölf Jahre, also nicht zu jung; gepflegte grüne Samtjacke, nur der Szenenzustand darf abweichen.
-- Der Fremde: Gesicht im Schatten, Augen **schimmern** und leuchten nicht, nie ein ganzes Gesicht.
+- Der Fremde: wie `docs/art/figuren/fremder-einzel.png` (von Pasco am 13.10.2026 gewählt: Gesicht unter der Kapuze sichtbar). In Nachtszenen darf es im Schatten liegen; Augen leuchten nicht wie Lampen.
 - Grumak überragt alle deutlich.
 - Söldner: schwarze Mäntel, goldene Waage auf der Brust. Waffen bleiben in der Scheide.
 - Kein Blut, nichts Gruseliges. Finster ist erlaubt, Horror nicht.
@@ -55,7 +55,7 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 
 ### Schritt A – Grumak und der Fremde
 - [x] **Grumak** (von Pasco angenommen, 12.10.2026): `grumak-einzel-neu.png` und `grumak-referenzblatt-neu.png` ersetzen die alten Dateien als `grumak-einzel.png` und `grumak-referenzblatt.png`. Danach `docs/art/figuren/README.md` anpassen. → 13.10.2026 erledigt.
-- [x] **Der Fremde, dritter Versuch:** `docs/art/figuren/fremder-einzel-v3.prompt.txt`, 6 Seeds, 832×1216, nur aus Text. Das Ziel steht in den Kommentarzeilen: größer und schlanker, unteres Gesicht sanft beleuchtet, Augen nur kleine matte Silberfunken. Ist ein Seed besser als `fremder-einzel-neu.png`, wird er zum neuen `fremder-einzel.png`, und dazu kommt ein neues Referenzblatt (`fremder-blatt.prompt.txt`). Sonst wird `fremder-einzel-neu.png` zu `fremder-einzel.png`. Beide Kandidaten in einer Übersicht für Pasco ablegen. → 13.10.2026 erledigt: v3 nicht übernommen (ganzes Gesicht sichtbar), `fremder-einzel-neu.png` ist jetzt `fremder-einzel.png`; Übersicht `docs/art/figuren/fremder-vergleich.png`.
+- [x] **Der Fremde, dritter Versuch:** `docs/art/figuren/fremder-einzel-v3.prompt.txt`, 6 Seeds, 832×1216, nur aus Text. Das Ziel steht in den Kommentarzeilen: größer und schlanker, unteres Gesicht sanft beleuchtet, Augen nur kleine matte Silberfunken. Ist ein Seed besser als `fremder-einzel-neu.png`, wird er zum neuen `fremder-einzel.png`, und dazu kommt ein neues Referenzblatt (`fremder-blatt.prompt.txt`). Sonst wird `fremder-einzel-neu.png` zu `fremder-einzel.png`. Beide Kandidaten in einer Übersicht für Pasco ablegen. → 13.10.2026 erledigt: Pasco hat anhand der Übersicht `docs/art/figuren/fremder-vergleich.png` **v3, Seed 2** gewählt (Gesicht sichtbar); das ist jetzt `fremder-einzel.png`, dazu ein neues Referenzblatt.
 
 ### Schritt B – Neue Figuren (Einzelbild 832×1216 + Referenzblatt 2048×832 mit `blatt-allgemein.prompt.txt`)
 - [x] **Grisk** (`grisk-einzel.prompt.txt`) → 13.10.2026 erledigt.

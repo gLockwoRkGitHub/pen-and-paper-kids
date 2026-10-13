@@ -51,7 +51,7 @@ Legende: **(Story)** = steht so im Text · **(festgelegt)** = von Pasco bestäti
 
 ---
 
-### Ergänzungen aus den Mentoren-Bildern (Yrsa, Borrik, Vael festgelegt 12.10.2026; Nerelle noch Vorschlag)
+### Ergänzungen aus den Mentoren-Bildern (alle vier festgelegt; Nerelle am 13.10.2026)
 Diese Details stehen nicht in der Story; sie stammen aus den Entwürfen in `docs/art/figuren/` und gelten erst, wenn Pasco sie bestätigt.
 - **Yrsa:** Mensch um die siebzig, klein und kräftig; rostrotes Kopftuch, dunkles Wollkleid mit hochgekrempelten Ärmeln, braune Lederschürze mit Brandflecken, feste Stiefel, Schmiedehammer.
 - **Borrik:** kahler Kopf, sanftes Lächeln; graue staubige Steinmetzschürze über erdbrauner Tunika, schwere Stiefel, Gehstock.
@@ -81,7 +81,7 @@ Diese Details stehen nicht in der Story; sie stammen aus den Entwürfen in `docs
 Diese Details stehen nicht in der Story; sie stammen aus den Bildern in `docs/art/figuren/`, die Pasco bestätigt hat.
 - **Grumak:** **groß und massig wie ein Schrank** (angepasst 12.10.2026): deutlich größer als ein Mensch, sehr breite Schultern, kräftige Arme, großer Brustkorb – aber gutmütig, nicht bedrohlich. Graugrüne Haut, **zwei deutliche untere Hauer**, spitze Ohren, langes schwarzes Haar mit **grauen Strähnen**, zurückgebunden; **kleine goldene Ringe in beiden Ohren**. Rostrote Händlertunika mit Goldborte, breiter Ledergürtel mit Gewürzbeuteln, safrangelbe Schärpe, dunkle weite Hose, Sandalen. Freundliches, müdes, besorgtes Gesicht – kein Krieger.
 - **Fesk:** Mensch um die fünfzig, schütteres graues Haar nach hinten gekämmt, sehr lange spitze Nase; silbergrauer Mantel mit Stehkragen bis zum Hals geknöpft, graue Hose, polierte schwarze Schuhe; Federkiel in der Hand.
-- **Der Fremde:** **neu gestaltet von Claude (12.10.2026, freie Hand von Pasco)** – verbindlich ist `docs/worldbuilding/der-fremde.md`. Kurz: groß und schlank; abgetragener grauer Reisemantel mit Kapuze; Gesicht im Schatten, aber Kinn und Mund schwach erkennbar; silbrig schimmernde Augen (spiegeln Licht, leuchten nicht); Bronzeschließe in Form der Spirale aus vier Linien; heller Treibholzstab; graue Handschuhe; Stiefel voller grauem Bergstaub.
+- **Der Fremde:** **neu gestaltet von Claude (12.10.2026, freie Hand von Pasco)** – verbindlich ist `docs/worldbuilding/der-fremde.md`. Kurz: groß und schlank; abgetragener grauer Reisemantel mit Kapuze; Gesicht unter der Kapuze sichtbar (Entscheidung Pasco 13.10.2026, Bild `fremder-einzel.png`); silbrig schimmernde Augen (spiegeln Licht, leuchten nicht); Bronzeschließe in Form der Spirale aus vier Linien; heller Treibholzstab; graue Handschuhe; Stiefel voller grauem Bergstaub.
   - **Szenenzustand** Perle 1, Nacht: nasser Mantel, Brief mit **dunkelgrünem** Siegel (Spirale aus vier Linien) in der Hand.
 
 ### Ergänzungen für die Szenenbilder von Perle 1 (Vorschlag von Claude, 12.10.2026)

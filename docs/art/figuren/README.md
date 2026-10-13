@@ -56,7 +56,7 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; die ergänzten Deta
 - Der Fremde: Bei vielen Seeds zeichnet das Modell in den Seitenansichten ein Menschengesicht. Beim Erzeugen von Szenen darauf achten, dass das Gesicht im Schatten bleibt. Seine Stiefel sehen recht modern aus.
 - Der Fremde hält den Brief mit dem Spiralsiegel – streng genommen ein Szenenzustand (Perle 1, Nacht).
 
-## Die vier Mentoren (Yrsa, Borrik und Vael bestätigt 12.10.2026; Nerelle überarbeitet, Abnahme offen)
+## Die vier Mentoren (alle vier von Pasco bestätigt; Nerelle am 13.10.2026)
 Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; ergänzte Details stehen dort als Vorschlag.
 
 | Datei | Entstanden aus |
@@ -74,22 +74,21 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; ergänzte Details s
 - Vael: Die Mütze fehlt bewusst (Szenenzustand).
 
 ## Grumak und der Fremde – aktuelle Fassung (13.10.2026)
-Die Fassungen vom 13.10.2026 haben die ersten Bilder ersetzt (Grumak von Pasco angenommen; beim Fremden nach Auftrag entschieden).
+Die Fassungen vom 13.10.2026 haben die ersten Bilder ersetzt (beide von Pasco angenommen).
 
 | Datei | Entstanden aus |
 |---|---|
 | `grumak-einzel.png` | `grumak-einzel-neu.prompt.txt`, Seed 2, 1024×1216, nur aus Text. Die blasse Bleistiftfigur daneben ist ein Größenvergleich mit einem Menschen. |
 | `grumak-referenzblatt.png` | `grumak-blatt.prompt.txt`, Seed 1, 2048×832, Referenz `grumak-einzel.png` |
-| `fremder-einzel.png` | `fremder-einzel-neu.prompt.txt`, Seed 4, 832×1216; danach beide Augen als Schimmer ergänzt (`fremder-augen.prompt.txt`, Seed 4) |
-| `fremder-referenzblatt.png` | `fremder-blatt.prompt.txt`, Seed 8, 2048×832, Referenz `fremder-einzel.png` |
-| `fremder-vergleich.png` | Übersicht für Pasco: links die gewählte Fassung, daneben die sechs Seeds des dritten Versuchs (`fremder-einzel-v3.prompt.txt`) |
+| `fremder-einzel.png` | `fremder-einzel-v3.prompt.txt`, Seed 2, 832×1216, nur aus Text. **Von Pasco gewählt (13.10.2026).** Die blasse Bleistiftfigur daneben ist ein Größenvergleich. |
+| `fremder-referenzblatt.png` | `fremder-blatt.prompt.txt`, Seed 2, 2048×832, Referenz `fremder-einzel.png` |
+| `fremder-vergleich.png` | Übersicht: links die Fassung vom 12.10. (schwarzes Gesicht), daneben die sechs Seeds des dritten Versuchs |
 
-**Der Fremde, dritter Versuch – nicht übernommen:** Alle sechs Seeds zeigen ein vollständiges, gut ausgeleuchtetes Männergesicht mit Augen und Nase; das verstößt gegen die Prüfliste („nie ein ganzes Gesicht“). Gestalt und geflickter Saum sind dort besser (größer, schlanker). Ein Versuch, das obere Gesicht per Bildreferenz abzudunkeln, machte das Gesicht ganz schwarz. Deshalb bleibt die Fassung „neu“.
+**Der Fremde – Entscheidung von Pasco (13.10.2026):** Seed 2 des dritten Versuchs. Das Gesicht ist unter der Kapuze **sichtbar** (schmales, freundliches Gesicht, dunkles Haar, leises Lächeln). Das weicht von der bisherigen Vorgabe „Gesicht im Schatten, nie ein ganzes Gesicht“ ab; `docs/worldbuilding/der-fremde.md` ist entsprechend ergänzt. Die Szenen-Prompts beschreiben noch das Gesicht im Schatten.
 
 **Bekannte Schwächen:**
 - Grumaks graue Strähnen sind kaum zu sehen; mit dem alten Bild als Referenz ließ er sich nicht vergrößern, deshalb neu aus Text.
-- Der Fremde: Auf dem Einzelbild sind die Augen eher helle Punkte als ein matter Schimmer. Auf dem Referenzblatt ist das Gesicht fast ganz schwarz, und er wirkt weniger groß und schlank. Der Saum ist zerrissen statt geflickt.
-
+- Der Fremde: Die Augen sind normale helle Augen, kein silbriger Schimmer. Der Stab reicht nur bis zur Hüfte statt bis zur Schulter. Auf dem Referenzblatt wirkt er jünger und weniger groß als auf dem Einzelbild.
 ## Figuren aus Perle 1, Schritt B (13.10.2026, Aussehen ist Vorschlag)
 Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, nur aus Text. Referenzblatt: `blatt-allgemein.prompt.txt`, 2048×832, Referenz das Einzelbild.
 

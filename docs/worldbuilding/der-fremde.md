@@ -13,7 +13,8 @@ Im Spiel heißt er nur **„der Fremde“**. Seinen Namen erfährt der Spieler f
 ## Aussehen (Grundaussehen – verbindlich für Bilder)
 - **Gestalt:** groß und schlank, etwas größer als ein erwachsener Mensch, aufrechte, ruhige Haltung. Alter schwer zu schätzen.
 - **Mantel:** langer, abgetragener grauer **Reisemantel** (kein Mönchsgewand) mit weiter Kapuze; der Saum ist an einigen Stellen geflickt.
-- **Gesicht:** liegt **im Schatten der Kapuze**, aber nicht völlig schwarz: Kinn und Mund sind schwach zu erkennen, blass und schmal; manchmal ein leises Lächeln.
+- **Gesicht (geändert 13.10.2026, Entscheidung von Pasco anhand des Bildes `docs/art/figuren/fremder-einzel.png`):** unter der Kapuze **sichtbar** – schmal, blass, freundlich, dunkles Haar, leises Lächeln. Die frühere Vorgabe (Gesicht im Schatten, nur Kinn und Mund) gilt nicht mehr für das Grundaussehen; in dunklen Szenen (Nacht, Torbogen) darf es weiterhin im Schatten liegen.
+- **Gesicht, frühere Fassung:** liegt **im Schatten der Kapuze**, aber nicht völlig schwarz: Kinn und Mund sind schwach zu erkennen, blass und schmal; manchmal ein leises Lächeln.
 - **Augen:** **silbrig und schimmernd wie Mondlicht auf Wasser** – sie spiegeln das Licht, sie leuchten nicht wie Lampen. Im Dunkeln sieht man nur ihren Schimmer.
 - **Hände:** schlanke Hände in grauen, abgenutzten Lederhandschuhen.
 - **Schließe:** Der Mantel wird von einer kleinen **Bronzeschließe** in Form der **Spirale aus vier Linien** gehalten – sein Erkennungszeichen.
