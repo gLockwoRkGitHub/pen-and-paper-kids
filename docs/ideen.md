@@ -24,7 +24,7 @@ Noch nicht entschiedene Ideen. Was angenommen wird, wandert nach `entscheidungen
 - Die Gnolle nennen es **Hrrsh**. Es kam im Frühling über ihr Land jenseits der Berge.
 - Es **folgt allem, was eine Stimme hat**, also auch Magie. Laute Rufe (Elemente, Heulen, Singen, Ziegen!) drängen es zurück.
 - Ashkas Verdacht: Es kommt **nicht über die Berge, sondern aus ihnen**. Dazu passt das Brummen tief im Berg (Perle 2) und führt zu Perle 5.
-- **Die Waage** sammelt Kraft in Glaskugeln, weil Seraphine Arvelle Angst vor dem Schweigen hat („Wenn es über die Berge kommt, brauchen wir jede Kugel“). Das macht sie nicht gut, aber verständlich.
+- **Die Waage** sammelt Kraft in Glaskugeln, weil Seraphine Arvelle Angst vor dem Schweigen hat („Wenn es über die Berge kommt, brauchen wir jede Kugel“). Das macht sie nicht gut, aber verständlich. **Festgelegt 13.10.2026:** Die Kraft soll einen Schutzwall speisen, der vor allem die Oberstadt schützt (siehe `entscheidungen.md`).
 - **Der Kreis der Vier / Ithren** wacht über das Gleichgewicht der Elemente. Das Schweigen ist das Gegenteil: keine Elemente.
 - Passt zum Wort **„die Stillen“** (Magier über Unbegabte). Später ist eine Wendung möglich: Ist Stille immer schlecht?
 - Offen bleibt bewusst: was es ist, wer oder was es geweckt hat, und ob es aufzuhalten ist (Folgeabenteuer).
