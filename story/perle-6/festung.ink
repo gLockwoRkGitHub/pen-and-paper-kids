@@ -91,7 +91,7 @@ Du stehst lange vor dem Modell. Dann schleichst du zurück in den Hof und liegst
 
 
 === p6_wahrheit
-# bild: entdeckung/vorfuehrung
+# bild: entdeckung/vorfuehrung-{freund_kurz()}
 Am Abend des nächsten Tages ist der Hof von Vardholm voller Fackeln.
 
 Auf einer Tribüne vor dem Turm sitzen die Mächtigen von Lysmara. Ratsherren mit Pelzkragen. Kettrich mit seiner Dreifachbrille. Meister Orwin, der wie immer etwas zeichnet. Meisterin Ambra, die aussieht, als hätte sie den Zirkel nur widerwillig verlassen. Hauptmann Strell steht an der Treppe, die Hände hinter dem Rücken.
@@ -140,7 +140,7 @@ Wieder Applaus. Lauter diesmal.
 -> gespraech
 
 = gespraech
-# bild: szene/hinter-dem-stall
+# bild: szene/hinter-dem-stall-{freund_kurz()}
 Später, als die Mächtigen zum Festmahl in die große Halle gehen, zieht dich jemand hinter den Stall.
 
 {freund()}. Ohne die Samtjacke, nur im weißen Hemd. Die Augen rot.

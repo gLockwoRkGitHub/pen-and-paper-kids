@@ -391,7 +391,7 @@ Auf dem Rückweg kommst du am Brunnen vorbei. Dort streitet ein riesiger Ork mit
 // ---------------------------------------------------------------------
 === p1_freund
 # karte: oberstadt
-# bild: szene/freund-faellt
+# bild: szene/freund-faellt-{freund_kurz()}
 Der Weg führt am Rand der Oberstadt entlang, wo die Häuser aus hellem Stein sind und die Gärten hinter hohen Mauern liegen. Hier riecht es nach Rosen statt nach Fisch.
 
 Gerade gehst du an einer besonders hohen Mauer vorbei, als über dir ein Ast knackt.
@@ -400,7 +400,7 @@ Dann fällt jemand vom Himmel.
 
 Genauer gesagt: aus einem Apfelbaum, über die Mauer und mitten in den Obstkarren eines Gnomen-Händlers, der gerade vorbeituckert. Äpfel spritzen in alle Richtungen.
 
-# bild: figur/freund
+# bild: figur/freund-{freund_kurz()}
 Aus dem Apfelhaufen taucht ein Kopf auf. {fr_ist_m():Ein Junge|Ein Mädchen} in deinem Alter, mit Blättern im Haar, einem zerrissenen Ärmel aus feinstem Stoff und einem breiten Grinsen.
 
 „Hallo“, sagt {fr_er()}. „Schöner Tag, oder?“

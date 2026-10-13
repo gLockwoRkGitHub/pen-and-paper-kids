@@ -5,7 +5,7 @@
 // =====================================================================
 
 === p3_tage
-# bild: szene/morgen-mentor
+# bild: szene/morgen-mentor-{element}
 Drei Tage bis zum Gildentag. Drei Tage, in denen die Stadt summt wie ein Bienenkorb, in den jemand mit einem Stock gestochert hat.
 
 Jeden Morgen gehst du zu {element == "erde":Borrik}{element == "wasser":Nerelle}{element == "feuer":Yrsa}{element == "wind":Vael}. Und jeden Morgen bist du ein bisschen weniger müde, wenn du nach dem Üben nach Hause gehst.

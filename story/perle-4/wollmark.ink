@@ -74,7 +74,7 @@ Aus dem größten Zelt tritt ein Mann. Er ist hager und aufrecht, mit kurz gesch
 -> gasthaus
 
 = gasthaus
-# bild: szene/gasthaus-krummer-stab
+# bild: szene/gasthaus-krummer-stab-{freund_kurz()}
 Ihr übernachtet im Gasthaus Zum Krummen Stab. Die Wirtin gibt euch eine Kammer unter dem Dach und zwei Schüsseln Hammeleintopf, die so dick ist, dass der Löffel darin stehen bleibt.
 ~ rasten()
 
@@ -111,7 +111,7 @@ Und noch etwas fällt dir auf. Es ist still. Nicht die gute Stille einer Sommern
 
 
 === p4_abschied_freund
-# bild: szene/freund-abgeholt
+# bild: szene/freund-abgeholt-{freund_kurz()}
 Am Morgen weckt dich Hufgetrappel.
 
 Als du in den Hof hinunterkommst, steht {freund()} schon dort, zwischen zwei Söldnern. Die Mütze ist {fr_ihm()} vom Kopf gerutscht, die Locken fallen heraus, und es gibt keinen Zweifel mehr, wer {fr_er()} ist.

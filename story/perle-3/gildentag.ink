@@ -112,7 +112,7 @@ Dann ist er weg.
 // Mittags: Der Rat beschließt das Magiergesetz
 // ---------------------------------------------------------------------
 === p3_gesetz
-# bild: entdeckung/magiergesetz
+# bild: entdeckung/magiergesetz-{freund_kurz()}
 # karte: marktplatz
 Um zwölf läuten alle Glocken der Stadt. Genau wie vor vier Tagen, als der Nyrrspalt geschlossen wurde.
 

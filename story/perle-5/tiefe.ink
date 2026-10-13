@@ -236,7 +236,7 @@ Du kennst das. Von den Weiden. Sie schlafen im Stehen. Und gleich gehen sie weit
 ->->
 
 = bp_wach
-# bild: szene/wiedersehen
+# bild: szene/wiedersehen-{hintergrund}
 {bp()} blinzelt. Sieht dich. Erkennt dich.
 
 „Du?“ Die Stimme klingt rau, als hätte {bp_er()} tagelang nicht gesprochen. „Ich hab doch gesagt … folge mir nicht.“

@@ -63,6 +63,29 @@ for (let lauf = 0; lauf < durchlaeufe; lauf++) {
 
 console.log(`${durchlaeufe} Durchläufe, längster Text ${laengsterText} Zeichen.`);
 console.log('Tags:', tags);
+
+// Hinweis (kein Fehler): Bild-Tags ohne passende Prompt-Datei in docs/art/.
+// szene/hafen-kran -> szene-hafen-kran.prompt.txt, figur/borrik -> borrik-einzel.prompt.txt
+// Siehe docs/story-konventionen.md, Abschnitt 5.
+const promptDateien = new Set();
+(function sammle(dir) {
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) sammle(p);
+    else if (e.name.endsWith('.prompt.txt')) promptDateien.add(e.name.replace('.prompt.txt', ''));
+  }
+})(path.join(__dirname, '..', 'docs', 'art'));
+const ohnePrompt = Object.keys(tags)
+  .filter((t) => t.startsWith('bild:'))
+  .map((t) => t.slice(5).trim())
+  .filter((b) => {
+    const [art, name] = b.split('/');
+    return !promptDateien.has(`${art}-${name}`) && !(art === 'figur' && promptDateien.has(`${name}-einzel`));
+  })
+  .sort();
+if (ohnePrompt.length) {
+  console.log(`Hinweis: ${ohnePrompt.length} Bild-Tags ohne Prompt-Datei (noch nicht ausgearbeitet oder Tippfehler):\n  ` + ohnePrompt.join('\n  '));
+}
 if (probleme.length) {
   console.error(`${probleme.length} Probleme:\n` + [...new Set(probleme)].slice(0, 30).join('\n'));
   process.exit(1);

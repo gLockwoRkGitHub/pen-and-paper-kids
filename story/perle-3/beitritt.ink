@@ -4,7 +4,7 @@
 // =====================================================================
 
 === p3_beitritt
-# bild: szene/brunnen-abend
+# bild: szene/brunnen-abend-{freund_kurz()}
 # karte: marktplatz
 Als die Sonne untergeht, zünden die Gilden Laternen an. Rote an der Phiole, blaue an der Tuchhalle, silberne vor dem Haus der Weiten Feder. Vor dem Zelt der Waage brennen goldene. Bis Mitternacht kann jeder, der ein Angebot hat, beitreten.
 { not (angebot_webstuhl || angebot_feder || angebot_phiole || angebot_hand):
@@ -215,7 +215,7 @@ Als du hinausgehst, steht {freund()} auf der anderen Seite des Platzes am Brunne
 = niemand
 ~ magie_registriert = ""
 ~ erster_auftrag = "eigener_weg"
-# bild: szene/brunnen-nacht
+# bild: szene/brunnen-nacht-{freund_kurz()}
 # tagebuch: Niemandes Mantel
 Du gehst an allen Laternen vorbei. An der blauen, der silbernen, der roten. Am goldenen Zelt. Bis du wieder am Brunnen stehst.
 

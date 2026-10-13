@@ -28,7 +28,7 @@ Wo verbringst du diesen Abend?
 - -> sorge
 
 = sorge
-# bild: szene/bezugsperson-packt
+# bild: szene/bezugsperson-packt-{hintergrund}
 Als du {zuhause()} zurückkehrst, ist {bp()} dort und stopft hastig Sachen in eine Tasche: einen Mantel, einen Kanten Brot, ein zusammengerolltes Seil.
 
 {Bp_er()} zuckt zusammen, als {bp_er()} dich sieht.

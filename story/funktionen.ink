@@ -54,6 +54,7 @@ CONST HOECHSTWERT = 3
 // --- Zeigt die letzte Probe an, z. B. „(Geschick: Würfel 8 + 1 = 9 – Ja, aber …)“ ---
 // Aufruf direkt nach probe(): ~ probe_zeile("Geschick", e)
 === function probe_zeile(wertname, e)
+# probe
 ({wertname}: Würfel {letzter_augen} + {letzter_gesamt - letzter_augen} = {letzter_gesamt} – {ergebnis(e)})
 
 // --- Kann gerade gezaubert werden? (für Bedingungen bei Entscheidungen) ---
@@ -188,6 +189,14 @@ Worin bist du besser geworden?
     ~ return "Cassian"
 }
 ~ return "Liora"
+
+// --- Kurzname des Freundes in Kleinbuchstaben, für Bildvarianten ---
+// z. B. # bild: szene/freund-faellt-{freund_kurz()}
+=== function freund_kurz()
+{ geschlecht == "w":
+    ~ return "cassian"
+}
+~ return "liora"
 
 === function fr_ist_m()
 ~ return geschlecht == "w"

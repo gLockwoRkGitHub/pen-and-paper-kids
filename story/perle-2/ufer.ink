@@ -18,7 +18,7 @@ Am Ufer drehen sich Wasserräder, so hoch wie Häuser, eines neben dem anderen. 
 
 Und auf einem Poller am Ufer sitzt jemand, der hier ganz und gar nicht hingehört.
 
-# bild: figur/freund
+# bild: figur/freund-{freund_kurz()}
 {freund()} trägt eine viel zu große Arbeiterjacke, eine Mütze, unter der {fr_sein()}e Haare hervorquellen, und Schuhe aus feinstem Leder mit silbernen Schnallen. Als {fr_er()} dich sieht, springt {fr_er()} auf.
 
 „Da bist du ja! Ich warte schon seit Sonnenaufgang. Na ja, seit kurz nach Sonnenaufgang. Magister Pell schläft lange.“ {Fr_er()} zupft an der Jacke. „Ich bin verkleidet. Merkt man gar nicht, oder?“

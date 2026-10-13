@@ -46,5 +46,4 @@ Stand: 13.10.2026
 
 ## Offene Fragen an Pasco
 - ~~Erzählerstimme?~~ Entschieden 13.10.2026: Vertonung zurückgestellt, zunächst liest der Sohn selbst. Erzähler- und Figurenstimmen bleiben offen, bis Story und Player fertig sind.
-- Offene Punkte aus `docs/story-konventionen.md` (Würfel-Tag, Bildvarianten, `markt`/`marktplatz`, Anzeige von Ruf und Beziehungen).
 - Native App oder für Tablets/Handys optimierte Webseite?

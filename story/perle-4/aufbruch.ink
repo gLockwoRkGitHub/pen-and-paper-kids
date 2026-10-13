@@ -39,7 +39,7 @@ Am Tor wartet ein schwerer Planwagen mit vier Pferden. Auf der Plane prangt die 
     Gerade als du losgehen willst, ruft jemand hinter dir deinen Namen.
     Jemand in einer viel zu großen Arbeiterjacke, eine Mütze tief im Gesicht. Und Schuhe aus feinstem Leder mit silbernen Schnallen.
 }
-# bild: figur/freund-verkleidet
+# bild: figur/freund-verkleidet-{freund_kurz()}
 „Glaubst du wirklich, ich lasse dich allein auf die Weiden?“, sagt {freund()} und schiebt die Mütze aus der Stirn.
 { magie_registriert == "waage":
     Dann wird {fr_sein()} Blick ernst. „Ich war wütend auf dich. Gestern, am Zelt.“ {Fr_er()} zögert. „Bin ich immer noch ein bisschen. Aber allein lass ich dich trotzdem nicht.“
@@ -146,7 +146,7 @@ Mittags kommt ihr an eine Steinbrücke über einen Bach. Mitten auf der Brücke 
 - -> lamm
 
 = lamm
-# bild: szene/lamm-auf-der-strasse
+# bild: szene/lamm-auf-der-strasse-{freund_kurz()}
 Am Nachmittag steht ein Lamm mitten auf der Straße.
 
 Es blökt nicht. Es frisst nicht. Es steht nur da und starrt nach Süden, zu den Hügeln am Fuß der Berge, als würde dort jemand nach ihm rufen. Seine Wolle ist an einer Seite merkwürdig grau, wie mit Asche bestäubt.

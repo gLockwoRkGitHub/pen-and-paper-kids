@@ -42,7 +42,7 @@ Format immer `# name` oder `# name: wert`. Kleinschreibung, keine Umlaute im Nam
 | `level_up` | | Level-Up-Darstellung, danach Charakterbogen aktualisieren | festgeschrieben |
 | `erwachen` | | Magie-Bereich im Charakterbogen freischalten | festgeschrieben |
 | `ausloeser` | `# ausloeser: brief` | Nur Information; der Wert steht auch in der Variable `ausloeser` | festgeschrieben |
-| `probe` | `# probe` | Würfelanimation zur folgenden Probenzeile (Abschnitt 4) | **Vorschlag** |
+| `probe` | `# probe` | Würfelanimation zur folgenden Probenzeile (Abschnitt 4) | festgeschrieben 13.10.2026 |
 | `ende` | `# ende: erstes-abenteuer` | Abenteuer ist zu Ende: Abschlussbildschirm, Spielstand als „abgeschlossen“ markieren (steht am Schluss von Perle 7) | **Vorschlag** |
 
 Unbekannte Tags ignoriert der Player still. So kann die Story neue Tags einführen, bevor der Player sie kennt.
@@ -52,7 +52,7 @@ Unbekannte Tags ignoriert der Player still. So kann die Story neue Tags einführ
 **Festgeschrieben:** Nach jeder Probe ruft die Story `probe_zeile(...)` auf. Das erzeugt eine Textzeile wie
 `(Geschick: Würfel 8 + 1 = 9 – Ja, aber …)`. Die Augen stehen zusätzlich in `letzter_augen`, die Summe in `letzter_gesamt`.
 
-**Vorschlag:** In `probe_zeile` ein `# probe` ergänzen (eine Zeile in `story/funktionen.ink`, an der Story ändert sich sonst nichts). Dann erkennt der Player die Zeile sicher und
+**Festgeschrieben 13.10.2026:** `probe_zeile` setzt den Tag `# probe` (in `story/funktionen.ink`). Neue Proben brauchen nichts weiter, solange sie wie bisher `probe_zeile` aufrufen. Der Player erkennt die Zeile daran und
 - zeigt zwei animierte Würfel, die auf die gewürfelten Augen auslaufen,
 - blendet danach Wert, Summe und Ergebnis ein (Erfolg / Ja, aber … / Misserfolg, jeweils mit eigener Farbe).
 
@@ -63,9 +63,7 @@ In Inky erscheint weiter die normale Textzeile. Getestet: Tags aus einer Funktio
 **Festgeschrieben:** `# bild: <art>/<name>` mit den Arten `szene`, `entdeckung`, `figur`, `tagebuch`.
 Der Player lädt `bilder/<art>/<name>.webp`. Fehlt das Bild, zeigt er nichts (kein Fehler, kein Platzhalter).
 
-**Problem:** Einige Tags sind allgemein, die Bilder gibt es aber in Varianten. Beispiel: `# bild: szene/freund-faellt`, die Prompts heißen `szene-freund-faellt-liora` und `szene-freund-faellt-cassian`. Der Player weiß nicht, welches Bild gemeint ist.
-
-**Vorschlag:** Die Story schreibt die Variante direkt in den Tag. Ink kann Variablen in Tags einsetzen (getestet):
+**Bildvarianten – festgeschrieben 13.10.2026:** Gibt es ein Bild in mehreren Varianten (je Freund, Hintergrund oder Element), schreibt die Story die Variante **direkt in den Tag**. Ink setzt Variablen in Tags ein:
 
 ```ink
 # bild: szene/freund-faellt-{freund_kurz()}
@@ -73,12 +71,11 @@ Der Player lädt `bilder/<art>/<name>.webp`. Fehlt das Bild, zeigt er nichts (ke
 # bild: szene/morgen-mentor-{element}
 ```
 
-Dafür eine kleine Hilfsfunktion `freund_kurz()` in `funktionen.ink`, die `liora` oder `cassian` zurückgibt.
-Betroffen sind derzeit (allgemeiner Tag, Bilder in Varianten): `freund-faellt`, `freund-abgeholt`, `bezugsperson-packt`, `wiedersehen`, `brunnen-abend`, `brunnen-nacht`, `hinter-dem-stall`, `gasthaus-krummer-stab`, `lamm-auf-der-strasse`, `morgen-mentor`, `erwachen-*`, `entdeckung/magiergesetz`, `entdeckung/vorfuehrung`, `figur/freund`, `figur/freund-verkleidet`.
+`freund_kurz()` steht in `funktionen.ink` und gibt `liora` oder `cassian` zurück. Perle 1–6 sind umgestellt. Der Dateiname der Prompts endet entsprechend: `szene-freund-faellt-liora.prompt.txt`.
 
 Voraussetzung: eine aktuelle Inky-Version (Variablen in Tags gibt es seit Ink 1.1).
 
-**Zuordnung Tag ↔ Prompt-Datei:** `szene/hafen-kran` ↔ `docs/art/szenen/perle-<n>/szene-hafen-kran.prompt.txt`; `figur/borrik` ↔ `docs/art/figuren/borrik-einzel.*`. Ein Prüfskript dafür kann später in `npm test` (Vorschlag).
+**Zuordnung Tag ↔ Prompt-Datei:** `szene/hafen-kran` ↔ `docs/art/szenen/perle-<n>/szene-hafen-kran.prompt.txt`; `figur/borrik` ↔ `docs/art/figuren/borrik-einzel.*`. `npm test` listet am Ende alle Bild-Tags ohne passende Prompt-Datei als **Hinweis** auf (kein Fehler, weil noch nicht alle Bilder ausgearbeitet sind). So fallen Tippfehler und vergessene Varianten auf.
 
 ## 6. Karte
 
@@ -89,7 +86,7 @@ Voraussetzung: eine aktuelle Inky-Version (Variablen in Tags gibt es seit Ink 1.
 - Antippen eines Ortes zeigt die Tagebucheinträge, die dort entstanden sind (Abschnitt 7).
 - Die Reisewahl bleibt eine normale Ink-Entscheidung. Die Karte zeigt sie nur zusätzlich an (spätere Ausbaustufe).
 
-**Zu klären:** `markt` (einmal, Perle 1) und `marktplatz` (viermal) – derselbe Ort? Ebenso `orin` / `orinbruecke` / `orin-oberlauf`.
+Die Ortsschlüssel folgen den Orten in `docs/worldbuilding/karte-meridel.md`. Ähnliche Namen sind dort bewusst verschiedene Orte: `markt` (Straßen mit Ständen) und `marktplatz` (Ratshalle, Brunnen); `orin` (Fluss), `orinbruecke` und `orin-oberlauf` (Treidelpfad). Neue Orte zuerst dort eintragen.
 
 ## 7. Tagebuch
 
@@ -103,8 +100,7 @@ Voraussetzung: eine aktuelle Inky-Version (Variablen in Tags gibt es seit Ink 1.
 
 **Charakterbogen** liest diese Variablen: `name`, `volk`, `hintergrund`, `level`, `kraft`, `geschick`, `verstand`, `ausstrahlung`, `element`, `elementstufe`, `kraftfunken`, `quelle`, `gilde`, `silber`, `erzmarke`, `kompass`.
 
-**Nie anzeigen:** `neigung_*` (unsichtbare Neigung), `pkt_*`, `letzter_*` und alle Weltgedächtnis-Fakten.
-**Zu klären:** Ruf und Beziehungen (`ruf_*`, `beziehung_*`) gar nicht, als Symbol (z. B. Gesichter) oder als Zahl zeigen?
+**Nie anzeigen:** `neigung_*` (unsichtbare Neigung), `pkt_*`, `letzter_*`, alle Weltgedächtnis-Fakten und – **entschieden 13.10.2026** – auch Ruf und Beziehungen (`ruf_*`, `beziehung_*`). Die Welt zeigt sie nur durch ihr Verhalten in der Geschichte.
 
 ## 9. Speichern
 
