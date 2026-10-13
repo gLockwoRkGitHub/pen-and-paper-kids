@@ -34,6 +34,13 @@ Noch nicht entschiedene Ideen. Was angenommen wird, wandert nach `entscheidungen
   - Städte jenseits der Berge halten das Schweigen fern, indem sie **nie still sind** (Dornfurt mit Glocken und Trommeln, Kar Duun mit Trommeln und singenden Trollen).
   - Ithren nennt am Ende seinen Namen, verrät aber nichts über den Kreis der Vier.
 
+## Tagebuch – Einführung durch den Erklärroboter (Pasco, Handy-Chat 13.10.2026)
+Das Tagebuch steht dem Spieler nicht von Beginn an zur Verfügung. Es wird in der Einstiegsszene durch den Erklärroboter eingeführt: Wenn der Roboter sich dem Spieler anschließt, übergibt beziehungsweise erklärt er das Tagebuch und beschreibt dabei, wozu die einzelnen Bereiche dienen – die Werte wie Kraft, Geschick, Verstand und Ausstrahlung, der Story-Verlauf sowie die festgehaltenen Entscheidungen und Erinnerungen. Diese Erklärung ist zugleich das Onboarding für das Würfel- und Weltensystem. Da der Roboter den Spieler kurz darauf wieder verlässt, bleibt das Tagebuch als sein Vermächtnis das zentrale Werkzeug des Spielers.
+
+**Abgleich mit der Story (Claude, 13.10.2026):** Zum größten Teil schon so umgesetzt. In Perle 1 (`story/perle-1/tickwort.ink`) wird Tickwort aus der Werkstatt geworfen, erklärt Werte und Würfelprobe und zieht dann ein leeres Buch aus seinem Bauch und schenkt es der Spielfigur (`# tutorial: tagebuch`). Am Ende von Perle 1 bleibt er bei den Goblins („Du hast jetzt ein Buch“). Unterschiede:
+- Tickwort kommt **vor** der ersten Aufgabe (auf dem Weg zum Markt), nicht danach. So kann er die Würfelprobe erklären, bevor die erste echte Probe kommt.
+- Er erklärt das Buch bisher nur kurz („Schreib auf, was du erlebst. Und zeichne, wo du warst.“), **nicht die einzelnen Bereiche**. **Vorschlag:** Tickwort erklärt die Bereiche, passend zum Player (Werte/Charakterbogen, Einträge, Karte), in seinem eigenen Stil mit Unterpunkten.
+
 ## Später / nach der Beta
 - **Weitere Hintergründe:** Bettelmönch (Orden ohne Götter), Schankwirtskind, Schmiedelehrling, Bauernkind, Kräutersammler, Tüftlerlehrling, Minenhelfer.
 - **Addons / Folgeabenteuer:** Die Figur wird wieder stärker (z. B. höhere Obergrenze) oder verbessert sich in anderen Bereichen.
