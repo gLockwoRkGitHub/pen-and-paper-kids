@@ -177,3 +177,43 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 | ~~`karte-meridel-perle-1`~~ **entfällt (13.10.2026)** – die Karte setzt der Player aus Grundkarte und Ortsskizzen zusammen, siehe `docs/art/karten/README.md`. | `# karte: kharvan-kamm` | Die Tagebuch-Karte nach Perle 1: Küste, Lysmara, Klippen von Ahrn, Weiden als Strichel, am rechten Rand die Zacken des Kamms mit dem Nyrrspalt. Alles andere bleibt leeres Papier (Nebel des Unbekannten). Anordnung nach `meridel-lagevorlage.png`. |
 
 Die Karten-Tags für einzelne Orte (`# karte: hafen`, `markt`, `brunnen` …) brauchen keine eigenen Bilder: Die App blendet die Orte später auf der Tagebuch-Karte ein.
+
+---
+
+## Erzeugte Bilder (lokale Sitzung, 13.10.2026)
+
+Alle mit `tools/erzeuge-szene.ps1` (liest Größe und Referenzen aus der Kopfzeile der Prompt-Datei), FLUX.2 klein 4B, je 6 Seeds. Dateiname = Name der Prompt-Datei mit `.png`. Übersichten: `uebersicht-1.png`, `uebersicht-2.png`.
+Mehrere Referenzbilder funktionieren (getestet mit drei); Szenen mit drei Referenzen brauchen deutlich länger pro Bild.
+
+| Bild | Seed | Bekannte Schwächen |
+|---|---|---|
+| `szene-lysmara-abend` | 5 | – |
+| `szene-sonnenuntergang-hafen` | 6 | Blick leicht von oben; kein Entdeckungs-Rand nötig |
+| `szene-bezugsperson-packt-reisender` | 2 | – |
+| `szene-bezugsperson-packt-schausteller` | 4 | In drei Seeds stand Bonifaz doppelt im Bild (verworfen) |
+| `szene-bezugsperson-packt-strassenkind` | 4 | In mehreren Seeds war Mutter Kessel doppelt (verworfen) |
+| `szene-bezugsperson-packt-botenlaeufer` | 6 | – |
+| `szene-bezugsperson-packt-kartografenlehrling` | 5 | – |
+| `szene-bezugsperson-packt-schiffsjunge` | 5 | – |
+| `szene-fremder-im-regen` | 3 | Gesicht sichtbar (entspricht Pascos Wahl vom 13.10.); das Siegel ist sehr groß; er wirkt jung |
+| `szene-eintreiber-fesk` | 4 | Fesk wirkt gedrungener als auf dem Referenzbild |
+| `szene-nordkai-kisten` | 5 | Fünf statt weniger Söldner; alle Gesichter ähneln sich |
+| `szene-morgen` | 6 | – |
+| `szene-zwirbelgasse` | 2 | Auf dem Schild ein Knotenzeichen (keine Schrift) |
+| `figur-tickwort` | 1 | **Vier Beine statt drei** sichtbar; ein Auge, Zangen und Schornstein stimmen. In den anderen Seeds: Katzenohren, zweites Auge am Bauch |
+| `szene-hafen-kran` | 5 | Brann hat Glatze (wie Referenz) |
+| `szene-weite-feder` | 2 | Zweite Brille auf der Stirn nur angedeutet; Hände sehr blau |
+| `szene-klippen-leuchtturm` | 2 | Im Sand ist eine kleine Spirale zu sehen (passt zum Suchspiel, war aber nicht bestellt) |
+| `szene-markt` | 1 (zweite Runde) | Erste Runde: Zeichen auf Finks Mütze sah wie ein ausgestreckter Finger aus, ein Seed zeigte Hände der Spielfigur. Prompt nachgeschärft. Finks Jacke wirkt modern |
+| `szene-stadtwache` | 3 | Tickworts Beine nicht im Bild |
+| `figur-grumak` | 2 | Hauer zeigen nach oben und sind sehr groß; Größe ohne Vergleichsfigur schwer zu sehen |
+| `szene-freund-faellt-liora` / `-cassian` | 5 / 5 | Jacke fast schwarz statt dunkelgrün; Karren mit vier Rädern |
+| `figur-freund-liora` / `-cassian` | 1 / 4 | Jacke sehr dunkel; Riss im Ärmel klein; beide wirken eher wie 10 als 12 |
+| `entdeckung-ausrufer-ratshalle` | 5 | Kreuz auf dem Turm der Ratshalle; im Vordergrund Hinterköpfe der Menge (keine Spielfigur) |
+| `szene-goblin-werkstatt` | 3 | Tickwort und die Teekannen-Maschine sind zu einer Figur verschmolzen (kupferfarben, auf einer Kiste, grüner Qualm) – **sollte neu gemacht werden**, am besten mit getrennter Beschreibung von Maschine und Tickwort |
+| `tagebuch-perle-1` | 5 (zweite Runde) | Zweite Runde mit Tickwort als zusätzlicher Referenz, weil er sonst als Menschen-Roboter gezeichnet wurde. Unten rechts ein seltsames Apfel-Vogel-Wesen. Die Anordnung folgt der Lagevorlage nur grob |
+| `karte-lysmara-erste-skizze` | 2 | – |
+| `tagebuch-erzmarke` | 3 (zweite Runde) | Erste Runde zeigte einen Elfenkopf statt Grisk; mit `grisk-einzel.png` als zweiter Referenz stimmt er |
+| `tagebuch-kompass` | 6 (zweite Runde) | Erste Runde zeigte einen Menschen-Roboter; mit `tickwort-einzel.png` als zweiter Referenz stimmt er. Loser Messingring im Bild |
+
+Die Zusätze der zweiten Runde für die drei Tagebuchbilder (zweite Referenz und ein Satz dazu) stehen noch nicht in den Prompt-Dateien.

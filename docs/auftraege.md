@@ -74,20 +74,20 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 - [x] **Ortsbilder** (1536×1024): `hafen`, `marktplatz`, `klippen-von-ahrn` → 13.10.2026 erledigt.
 
 ### Schritt D – Szenenbilder (`docs/art/szenen/perle-1/`, 1536×1024, Referenzen stehen in der ersten Zeile jeder Prompt-Datei)
-- [ ] 1 `szene-lysmara-abend` · 2 `szene-sonnenuntergang-hafen`
-- [ ] 3 `szene-bezugsperson-packt-<hintergrund>` (sechs Varianten)
-- [ ] 4 `szene-fremder-im-regen` · 5 `szene-eintreiber-fesk` · 6 `szene-nordkai-kisten` · 7 `szene-morgen`
-- [ ] 8 `szene-zwirbelgasse` (zuerst, sie ist die Ortsreferenz für 9) · 9 `figur-tickwort`
-- [ ] 10 `szene-hafen-kran` · 11 `szene-weite-feder` · 12 `szene-klippen-leuchtturm`
-- [ ] 13 `szene-markt` · 14 `szene-stadtwache` · 15 `figur-grumak`
-- [ ] 16 `szene-freund-faellt-liora` / `-cassian` · 17 `figur-freund-liora` / `-cassian`
-- [ ] 18 `entdeckung-ausrufer-ratshalle` · 19 `szene-goblin-werkstatt`
+- [x] 1 `szene-lysmara-abend` · 2 `szene-sonnenuntergang-hafen` → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
+- [x] 3 `szene-bezugsperson-packt-<hintergrund>` (sechs Varianten) → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
+- [x] 4 `szene-fremder-im-regen` · 5 `szene-eintreiber-fesk` · 6 `szene-nordkai-kisten` · 7 `szene-morgen` → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
+- [x] 8 `szene-zwirbelgasse` (zuerst, sie ist die Ortsreferenz für 9) · 9 `figur-tickwort` → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
+- [x] 10 `szene-hafen-kran` · 11 `szene-weite-feder` · 12 `szene-klippen-leuchtturm` → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
+- [x] 13 `szene-markt` · 14 `szene-stadtwache` · 15 `figur-grumak` → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
+- [x] 16 `szene-freund-faellt-liora` / `-cassian` · 17 `figur-freund-liora` / `-cassian` → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
+- [x] 18 `entdeckung-ausrufer-ratshalle` · 19 `szene-goblin-werkstatt` → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
 
 ### Schritt E – Tagebuch und Karten (`docs/art/szenen/perle-1/`)
-- [ ] 20 `tagebuch-perle-1` (Referenz `docs/art/karten/lysmara-lagevorlage.png`) · 21 `karte-lysmara-erste-skizze`, `tagebuch-erzmarke`, `tagebuch-kompass`. (`karte-meridel-perle-1` **entfällt** seit 13.10.2026, die Karte entsteht jetzt nach Abschnitt „Karten“ unten.) Wenn die Anordnung mit FLUX nicht stimmt, SDXL mit Linienvorlage (ControlNet in Krita) versuchen und das Ergebnis im README festhalten.
+- [x] 20 `tagebuch-perle-1` (Referenz `docs/art/karten/lysmara-lagevorlage.png`) · 21 `karte-lysmara-erste-skizze`, `tagebuch-erzmarke`, `tagebuch-kompass`. (`karte-meridel-perle-1` **entfällt** seit 13.10.2026, die Karte entsteht jetzt nach Abschnitt „Karten“ unten.) Wenn die Anordnung mit FLUX nicht stimmt, SDXL mit Linienvorlage (ControlNet in Krita) versuchen und das Ergebnis im README festhalten. → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
 
 ### Schritt F – Zum Schluss
-- [ ] **Übersicht für Pasco:** alle gewählten Bilder von Perle 1 in einem oder zwei Übersichtsbildern (`docs/art/szenen/perle-1/uebersicht-*.png`) und in der README die Liste mit Schwächen. Dann Pasco Bescheid geben, dass Claude im Chat die Bilder prüfen kann.
+- [x] **Übersicht für Pasco:** alle gewählten Bilder von Perle 1 in einem oder zwei Übersichtsbildern (`docs/art/szenen/perle-1/uebersicht-*.png`) und in der README die Liste mit Schwächen. Dann Pasco Bescheid geben, dass Claude im Chat die Bilder prüfen kann. → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
 
 ## Perle 2 – Szenenbilder (Auftrag vom 13.10.2026, nachgeholt)
 
