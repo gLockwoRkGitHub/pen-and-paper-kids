@@ -25,6 +25,12 @@ INCLUDE perle-3/feder.ink
 INCLUDE perle-3/phiole.ink
 INCLUDE perle-3/hand.ink
 INCLUDE perle-3/beitritt.ink
+INCLUDE perle-4/perle-4.ink
+INCLUDE perle-4/aufbruch.ink
+INCLUDE perle-4/wollmark.ink
+INCLUDE perle-4/suedhang.ink
+INCLUDE perle-4/gnolle.ink
+INCLUDE perle-4/nacht.ink
 
 # titel: Der Weg hinaus
 

@@ -116,6 +116,15 @@ Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasc
 - **Mirk (Ergänzung zu Story):** alte Koboldin, rostbraune Schuppen mit grauen Flecken, **gesprungene Brille** (Story), zerbeulter Grubenhelm mit Lampe und **ihrem Namen in Kreide** (nur als unleserliches Gekritzel malen), Lederschürze, eine Schaufel. Laut, flink, gutmütig.
 - **Szenenzustände Perle 3:** Liora/Cassian am Gildentag morgens im Grundaussehen (blank geputzte Schuhe, gekämmte Locken); im Zelt der Waage **fehlt ein Goldknopf** am Ärmel; abends ohne Jacke, nur im weißen Hemd mit hochgekrempelten Ärmeln, Locken zerzaust.
 
+### Neue Figuren aus Perle 4 (Vorschlag von Claude, 13.10.2026)
+- **Gnolle allgemein:** groß (größer als ein Mensch, wenn sie aufrecht stehen), schlank, **hyänenartig**, struppiges Fell in Sandgelb bis Grau mit **dunklen Flecken**, runde Ohren, gelbe Augen, lange Schnauze. Kleidung aus Fell und Leder, Ketten aus Knochenperlen und Steinen. **Nicht monströs**: müde, mager, Flüchtlinge. Speere halten sie wie Wanderstöcke.
+- **Ashka:** alte Gnollin, Fell grau mit dunklen Flecken, **ein eingerissenes Ohr**, Kette aus Knochenperlen und glatten Steinen (darunter ein **grüner Stein mit Loch**), stützt sich auf einen Stab; gelbe, kluge Augen; rauer Lederumhang.
+- **Wuk:** Gnollenjunges, kaum größer als ein Hund, **runder Bauch, große Ohren**, struppiges Fell voller Flecken, neugierig.
+- **Merla:** Hirtenmeisterin, Frau um die sechzig, **groß und knochig**, Hände wie Schaufeln, wettergegerbtes Gesicht, graue Zöpfe unter einem Filzhut; brauner Wollumhang, **Hirtenstab**.
+- **Hauptmann Strell:** Mann um die fünfzig, **hager und aufrecht, kurz geschorener grauer Bart**, schmales ernstes Gesicht; schwarzer Mantel der Waage, Brustplatte mit **größerer goldener Waage** als bei den Söldnern; Säbel in der Scheide.
+- **Jorrit:** alter Ziegenhirte, dürr, **weiße Bartstoppeln, Pfeife, Gesicht wie ein verschrumpelter Apfel**; geflickte Weste, Filzmütze, Holzschuhe; immer ein paar Ziegen um sich.
+- **Szenenzustand Liora/Cassian, Perle 4:** wieder **verkleidet** (zu große Arbeiterjacke, Mütze, darunter die grüne Samtjacke, feine Schuhe mit Silberschnallen). Beim Abholen: Mütze heruntergerutscht, Locken sichtbar.
+
 ## Bezugspersonen (je nach Hintergrund)
 
 Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.

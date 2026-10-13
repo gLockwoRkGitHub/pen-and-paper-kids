@@ -15,6 +15,7 @@ Stand: 13.10.2026
 - **Alle Szenenbilder von Perle 1 ausgearbeitet:** Beschreibungen in `docs/art/szenen/perle-1/README.md`, fertige Prompts für Szenen, neue Figuren, Requisiten und Ortsbilder. Aussehen der neuen Nebenfiguren und Bezugspersonen in `figuren-aussehen.md` (Vorschlag).
 - `tools/erzeuge-bild.js` kann mehrere Referenzbilder (Komma-getrennt) – noch ungetestet.
 - **Perle 3 „Die Gildenprobe“** – erster vollständiger Entwurf in `story/perle-3/` (13.10.2026, Cloud-Sitzung). Ein Durchlauf hat ca. 3.000–4.100 Wörter. Inhalt: drei Tage Übung (neuer kleiner Zauber je Element), Besuch bei Tickwort/Grumak/Mentor, Gildentag mit zwei von vier Prüfungen (Webstuhl und Amboss, Weite Feder, Glühende Phiole, Leise Hand), Magiergesetz, Hinweise auf die Familie Arvelle, Gildenbeitritt (oder Waage oder keine Gilde), Heimweg-Kontrolle. Zusammenfassung in `story/hauptstory-entwurf.md`.
+- **Perle 4 „Die Weiden“** – erster vollständiger Entwurf in `story/perle-4/` (13.10.2026). Ein Durchlauf hat ca. 4.100–4.600 Wörter. Inhalt: Aufbruch, Wollmark, Liora/Cassian wird heimgeholt, Ginsterhof, das Graue, der Fremde, Gnolle (helfen/vermitteln/verraten), die Nacht des Schweigens, Elementstufe 2. Zusammenfassung in `story/hauptstory-entwurf.md`.
 - Lokale Einrichtung beschrieben (`docs/setup.md`). Krita + Krita AI Diffusion sind installiert, der lokale Server (ComfyUI) wurde eingerichtet.
 - **Bild-Pipeline läuft:** ComfyUI ist unter `http://127.0.0.1:8188` erreichbar (muss in Krita gestartet sein). `tools/erzeuge-bild.js` erzeugt Bilder aus Prompt-Dateien, optional mit Bildreferenz; ca. 3 Sekunden pro Bild. Installiert sind **FLUX.2 klein 4B** (erste Wahl für Figuren) und **SDXL mit ZavyChroma XL** – Vergleich in `docs/art/werkzeuge.md`.
 - **Referenzblatt Tickwort** in `docs/art/figuren/` (mit Zangenhänden, auf Pascos Wunsch).
@@ -31,7 +32,8 @@ Stand: 13.10.2026
 1. **Abnahmen offen:** Der Fremde (dritter Versuch läuft mit), Nerelle (überarbeitet), Tickwort mit dem Sohn ansehen. Stand lokale Sitzung 13.10.2026: Borrik und Vael sind bestätigt. Nur lokal auf Pascos PC (nicht im Repo) liegen `grumak-*-neu.png`, `fremder-*-neu.png` und Nerelles zwei Bilder; die alten Bilder von Grumak und dem Fremden sind unverändert.
 2. **Perle 2 testspielen** und Rückmeldung einarbeiten; danach Szenenbilder für Perle 2 genauso ausarbeiten wie für Perle 1.
 3. **Perle 3 testspielen** (Pasco + Sohn). Offen zur Bestätigung: Familienname **Arvelle**, Waagmeisterin Seraphine, Meisterin Ambra, Fitzel. Danach Szenenbilder für Perle 2 und 3 ausarbeiten.
-3a. **Perle 4 „Die Weiden“** schreiben: Wollmark, Ginsterhof, Gnolle innerhalb des Kamms, erste deutliche Hinweise auf die Bedrohung, der Fremde greift ein. Anknüpfen an `erster_auftrag`, `magie_registriert`, `von_waage_notiert`.
+3a. **Perle 4 testspielen.** Bestätigen: Bedrohung „das Schweigen“ (`docs/ideen.md`), neue Figuren Merla, Strell, Jorrit, Ashka, Wuk. Bei Bedarf Szenenbilder für Perle 4 ausarbeiten.
+3b. **Perle 5 „Unter dem Berg“** schreiben: Minen, Kobolde (Grisk/Mirk, `ruf_kobolde`, `erzmarke`), Tiefe Stiege, das Brummen, Bezugsperson (verschwunden), Herkunft des Grauen andeuten. Anknüpfen an `gilde` (Webstuhl: Zugang zu den Minen), `gnollstein`, `strell_schuldet`.
 4. Perle 1 und 2 sind kürzer als geplant – nach dem Testspiel gezielt verlängern.
 5. Weitere Referenzblätter: die fünf Völker (Mensch, Zwerg, Gnom, Ork, Troll) als Beispielfiguren, Kettrich, Mirk.
 

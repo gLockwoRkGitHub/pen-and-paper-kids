@@ -46,6 +46,15 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 | Hulda | Junge Zwergin mit dicken Zöpfen, Mitbewerberin bei Webstuhl und Amboss, fair und kräftig | Tuchhalle |
 | Der Gnomenjunge | Mitbewerber, putzt ständig seine Schutzbrille | Tuchhalle |
 
+## Neue Figuren aus Perle 4 (Vorschlag von Claude, 13.10.2026)
+| Figur | Wer | Wo |
+|---|---|---|
+| Merla | Hirtenmeisterin von Wollmark, ruppig, ehrlich, mag die Waage nicht | Wollmark |
+| Hauptmann Strell | Hauptmann der Waage, kühl, pflichtbewusst, nicht grausam; verbeugt sich vor Liora/Cassian; kann der Spielfigur etwas schulden | Wollmark, Südhang |
+| Jorrit | Alter Ziegenhirte in Ginsterhof, Schmuggler der Leisen Hand, kennt den Wolfspfad | Ginsterhof |
+| Ashka | Alte Gnollen-Matriarchin, Anführerin der Flüchtlinge, klug und stolz | Gnollenschlucht |
+| Wuk | Gnollenjunges, läuft ins Graue | Gnollenschlucht |
+
 ## Geheimnisvolle Figur (festgelegt)
 - **Ausgestaltung (Charakter, Aussehen, Verhalten, Geheimnis):** `docs/worldbuilding/der-fremde.md` – von Claude gestaltet, freie Hand von Pasco (12.10.2026).
 - Baut eine **parallele Story** auf, möglicherweise für das nächste Addon.

@@ -147,3 +147,25 @@ VAR magie_registriert = ""        // "gilde", "waage" oder "" (nicht eingeschrie
 VAR von_waage_notiert = false     // die Waage hat den Namen der Spielfigur notiert
 VAR spirale_an_tuer = false       // jemand hat eine Kreide-Spirale an die Tür gemalt
 VAR erster_auftrag = ""           // erster Gildenauftrag (führt zu Perle 4)
+
+// Perle 4 – Die Weiden
+VAR ruf_hirten = 0                // Ruf bei den Hirten von Wollmark und Ginsterhof (-3 bis +3)
+VAR freund_heimgeholt = false     // Hauptmann Strell lässt Liora/Cassian zurückbringen („Befehl von ganz oben“)
+VAR strell_getroffen = false      // Hauptmann Strell, Patrouille der Waage in Wollmark
+VAR waagen_wagen = false          // mit dem Wagen der Waage nach Wollmark gefahren
+VAR kugeln_auf_wagen = false      // auf dem Wagen leere Glaskugeln für Vardholm gesehen
+VAR schafe_gefunden = false       // die verschwundenen Schafe am Rand des Grauen gefunden
+VAR jorrit_getroffen = false      // Jorrit, alter Ziegenhirte bei Ginsterhof
+VAR wolfspfad_bekannt = false     // Pfad neben der Ziegenstiege, an den Fackeln der Waage vorbei
+VAR schweigen_gesehen = false     // das Graue (das Schweigen) mit eigenen Augen gesehen
+VAR fremder_p4 = false            // dem Fremden auf den Weiden begegnet
+VAR gnolle_geholfen = false       // den Gnollen geholfen
+VAR gnolle_verraten = false       // die Gnolle an Strell verraten
+VAR gnolle_vermittelt = false     // zwischen Hirten und Gnollen vermittelt
+VAR wuk_gerettet = false          // das Gnollenjunge Wuk aus dem Grauen geholt
+VAR schweigen_zurueck = false     // das Graue in der Nacht zurückgedrängt
+VAR auftrag_p4 = 0                // Ergebnis des Gildenauftrags: 0 nicht erfüllt, 1 halb, 2 erfüllt
+VAR freund_mutter_angst = false   // Liora/Cassian: „Meine Mutter hat Angst. Wenn es über die Berge kommt, brauchen wir jede Kugel.“
+VAR strell_belohnung = false      // Strell hat Belohnung für das Gnollenlager versprochen
+VAR strell_schuldet = false        // die Spielfigur hat Strell in der Nacht aus dem Grauen geholt
+VAR gnollstein = false            // Geschenk von Ashka: Stein aus dem Land der Gnolle – zeigt jedem Gnoll: Freund

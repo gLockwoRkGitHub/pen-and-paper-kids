@@ -396,6 +396,13 @@ Worin bist du besser geworden?
 }
 ~ rasten()
 
+// --- Element im Dativ mit Artikel: „der Erde“, „dem Wasser“, „dem Feuer“, „dem Wind“ ---
+=== function element_dativ(el)
+{ el == "erde":
+    ~ return "der Erde"
+}
+~ return "dem {element_wort(el)}"
+
 // --- Element mit Artikel: „die Erde“, „das Wasser“, „das Feuer“, „der Wind“ ---
 === function element_artikel(el)
 { el:

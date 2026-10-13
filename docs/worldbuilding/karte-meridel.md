@@ -35,6 +35,9 @@ Meridel ist ein Kessel: Im **Westen das Meer**, an allen anderen Seiten der **Kh
 | **Ziegenstiege** | im Südosten: vom Rand der Weiden in Kehren hinauf in den Südarm | Perle 1 | Schmugglerpfad der Leisen Hand, am Zoll vorbei |
 | **Wollmark** (neu, Vorschlag) | Hirtendorf an der Spaltstraße, auf halbem Weg | Perle 4 | Markt der Hirten, letzte Rast vor Vardholm |
 | **Ginsterhof** (neu, Vorschlag) | einsames Hirtendorf im Süden der Weiden, am Fuß der Ziegenstiege | Perle 4 | |
+| **Das Graue** (Perle 4) | Senke südlich von Ginsterhof am Fuß des Südarms; nach Perle 4 nur noch ein schmaler Streifen am Bergfuß | Perle 4 | Hier verstummen die Elemente |
+| **Gnollenschlucht** (Perle 4) | enge Schlucht am Hang über Ginsterhof | Perle 4 | Lager der Gnolle; Jorrits Versteck in einer alten Schäferhütte unter dem Wolfspfad |
+| **Wolfspfad** (Perle 4) | neben der Ziegenstiege, ohne Fackeln der Waage | Perle 4 | Weg der Gnolle herein, möglicher Weg hinaus |
 | **Schwarzwasserbucht** (neu, Vorschlag) | versteckte Bucht an der Südküste, wo der Südarm ins Meer fällt | Perle 7 | für die heimliche Überfahrt übers Meer |
 
 ## Außerhalb von Meridel (nur Richtung, noch nicht gezeichnet)

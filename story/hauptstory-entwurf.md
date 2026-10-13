@@ -29,7 +29,7 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 | 1 | **Die Hafenstadt** ✍️ Entwurf fertig | Intro, Start-Fragen, Begegnung mit dem Gnomen-Automaten, die Freundin/der Freund stolpert in die Geschichte, erste kleine Aufträge (z. B. Kartografen) | Die Schlucht wird geschlossen. Der Automat findet seine Gruppe und verabschiedet sich. Level-Up. |
 | 2 | **Am Fluss der Räder** ✍️ Entwurf fertig | Viertel von Webstuhl und Amboss, Schmieden und Wasserräder, erste Begegnung mit dem Mentor, das Element zeigt sich zum ersten Mal | Erste Zauber. Level-Up. |
 | 3 | **Die Gildenprobe** ✍️ Entwurf fertig | Aufgaben für mehrere Gilden, Intrige zwischen den Bankiersgilden um die Schlucht – die Familie der Freundin/des Freundes steckt mit drin | **Gildenbeitritt (~35 %).** Level-Up. |
-| 4 | **Die Weiden** | Reise ins Umland, Hirtendörfer, Gnolle, erste deutliche Hinweise auf die Bedrohung, die geheimnisvolle Figur greift ein | Level-Up. |
+| 4 | **Die Weiden** ✍️ Entwurf fertig | Reise ins Umland, Hirtendörfer, Gnolle, erste deutliche Hinweise auf die Bedrohung, die geheimnisvolle Figur greift ein | Level-Up. |
 | 5 | **Unter dem Berg** | Kobold-Minen und Höhlensysteme, alte Taten zahlen sich aus (oder rächen sich) | Level-Up. |
 | 6 | **Die Festung am Pass** | Die Intrige wird aufgedeckt: Wer profitiert von der Schließung? Großes Dilemma um die Freundschaft | Level-Up. |
 | 7 | **Der Weg hinaus** | Wahl der Route je nach Weltgedächtnis, Abschied von der Region | Ankunft im Grenzgebiet. Cliffhanger durch die geheimnisvolle Figur. |
@@ -43,6 +43,21 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Gildenwahl:** Webstuhl und Amboss (Minen), Weite Feder (Archive, Karten), Glühende Phiole (keine Register), Leise Hand (geheim, offiziell als Kartenträger der Weiten Feder geführt), die Waage (Register, Lockmittel „Reisen durch den Spalt“) oder keine (ab Neumond ungeprüft).
 - **Übergang zu Perle 4:** Jede Wahl führt hinaus auf die Weiden (Wollmark, Ginsterhof, Kartierung, Mondklee). Gnolle wurden innerhalb des Kamms gesehen – es muss einen Weg herein geben.
 
+## Perle 4 im Entwurf (13.10.2026)
+- **Aufbruch:** Liora/Cassian schleicht sich mit. Wer bei der Waage eingeschrieben ist, fährt auf deren Wagen und kann dort leere Glaskugeln für Vardholm entdecken.
+- **Wollmark:** Hirtenmeisterin **Merla**. Schafe laufen nachts nach Süden und bleiben schlafend am Rand eines grauen Flecks stehen. **Hauptmann Strell** (Waage) jagt Gnolle und zahlt fünf Silberlinge für ihr Lager.
+- **Hinweise auf die Familie:**
+  - Liora/Cassian: „Meine Mutter hat Angst. Wenn es über die Berge kommt, brauchen wir jede Kugel.“
+  - Strell verbeugt sich und lässt das Kind heimholen: „Befehl von ganz oben.“
+  - Liora/Cassian schenkt der Spielfigur einen Goldknopf.
+- **Ginsterhof:** **Jorrit**, alter Ziegenhirte und Schmuggler der Leisen Hand, kennt den **Wolfspfad** neben der Ziegenstiege, auf dem keine Fackeln der Waage brennen. Das ist der Weg für das Finale „über die Gipfel“.
+- **Das Graue:** Im Grauen antworten die Elemente nicht. Die Spielfigur holt die Schafe heraus und kann das Gnollenjunge **Wuk** aus dem Grauen holen.
+- **Der Fremde** erscheint, nennt es „das Schweigen“ und sagt: „Rufen. So laut du kannst.“
+- **Die Gnolle:** Matriarchin **Ashka** erzählt vom Schweigen jenseits der Berge und hat einen Verdacht: Es kommt aus den Bergen. Die Spielfigur kann den Gnollen **helfen**, zwischen Hirten und Gnollen **vermitteln** oder sie an Strell **verraten**. Beim Verrat bekommt sie Silber, die Gnolle werden gefangen. Rettet sie in der Nacht Strell, lässt er die Gnolle heimlich frei.
+- **Die Nacht:** Das Schweigen kommt. Mit Hilfe der Gnolle (und Hirten) ruft die Spielfigur ihr Element so laut sie kann. Die **Elementstufe steigt auf 2**. Das Graue weicht bis an den Fuß der Berge zurück.
+- **Belohnung:** Ashkas grüner Gnollstein („Zweimal Freund“) öffnet später die Gnolle jenseits der Berge.
+- **Übergang zu Perle 5:** Das Graue kommt aus dem Berg, und der Berg brummt. Also zu den Minen und zur Tiefen Stiege (dort ist auch die verschwundene Bezugsperson).
+
 ## Was bewusst offen bleibt
-- **Die größere Bedrohung** selbst – im ersten Abenteuer nur Hinweise.
+- **Die größere Bedrohung** selbst – im ersten Abenteuer nur Hinweise. Vorschlag „das Schweigen“: `docs/ideen.md`.
 - Die Schlucht hält der **Bund der Goldenen Waage** (festgelegt). Wer dort genau hinter der Schließung steckt und warum, wird beim Schreiben ausgearbeitet.

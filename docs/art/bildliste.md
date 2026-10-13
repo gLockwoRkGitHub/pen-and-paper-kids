@@ -109,3 +109,27 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/heimweg-nacht` | Zwei Söldner mit Buch und Laterne an einer Straßenecke | Szene |
 | `tagebuch/perle-3` | Tribüne, Gildenlaternen, je nach Prüfung Wasserrad, Gewölbe, Kessel, Zelt | Tagebuch |
 
+## Perle 4 – Die Weiden
+
+Kurzfassung der Tags (Entwurf 13.10.2026). Ausführliche Beschreibungen wie für Perle 1 und 3 folgen auf Wunsch.
+
+| Tag | Inhalt | Ebene |
+|---|---|---|
+| `szene/landtor-morgen` | Landtor von Lysmara, Spaltstraße zieht sich nach Osten zu den Bergen | Szene |
+| `figur/freund-verkleidet` | Liora/Cassian in Arbeiterjacke und Mütze, feine Schuhe (2 Varianten) | Szene |
+| `entdeckung/weiden` | Grüne Hügel, Steinmauern, Schafe wie Wolken, der Kamm wächst in den Himmel | Entdeckung |
+| `szene/lamm-auf-der-strasse` | Lamm mit grauer Stelle im Fell starrt nach Süden | Szene |
+| `entdeckung/wollmark` | Steinhäuser mit Grasdächern, Wollscheunen, Zelte der Waage, Pfahl mit Aushang | Entdeckung |
+| `figur/strell` | Hauptmann Strell vor seinem Zelt | Szene |
+| `szene/gasthaus-krummer-stab` | Dachkammer, offenes Fenster, drei Feuer an den Südhängen | Szene |
+| `szene/freund-abgeholt` | Hof des Gasthauses, Liora/Cassian zwischen Söldnern, Strell verbeugt sich (2 Varianten) | Szene |
+| `szene/ginsterhof` | Krummes Haus, Stall, fünfzig Ziegen, Jorrit auf der Bank | Szene |
+| `szene/das-graue` | Graue Senke, schlafende Schafe am Rand, absolute Stille | Szene |
+| `szene/fremder-am-grauen` | Der Fremde am Rand des Grauen, das Gnollenjunge im Arm | Szene |
+| `szene/gnollenlager` | Schlucht mit Fellzelten, magere Gnolle am Feuer | Szene |
+| `figur/ashka` | Ashka mit Stab und Steinkette | Szene |
+| `szene/nacht-das-schweigen` | Das Graue kriecht den Hang hinab, Feuer erlöschen, Schlafwandler | Szene |
+| `szene/ruf-erde`, `-wasser`, `-feuer`, `-wind` | Der große Ruf je Element | Szene |
+| `szene/morgen-danach` | Grauer Streifen am Bergfuß, Morgenlicht über grünen Hängen | Szene |
+| `tagebuch/perle-4` | Weiden, Ziegenhaus, Fellzelte, leer gelassener grauer Streifen | Tagebuch |
+

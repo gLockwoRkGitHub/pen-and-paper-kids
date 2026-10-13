@@ -134,5 +134,5 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
-- Die größere Bedrohung (im ersten Abenteuer nur Hinweise).
+- Die größere Bedrohung (im ersten Abenteuer nur Hinweise). **Vorschlag „das Schweigen“** siehe `docs/ideen.md`, in Perle 4 schon verwendet.
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).
