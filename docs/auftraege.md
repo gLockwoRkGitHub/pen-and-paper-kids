@@ -122,6 +122,25 @@ Neu in der Prüfliste: **Das Graue** ist farblos und still, ohne Nebel, ohne Ges
 - [ ] 17 `tagebuch-perle-4` · 18 `karte-meridel-perle-4`
 - [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-4/uebersicht-*.png`) und Liste der Schwächen im README.
 
+## Perle 5 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
+
+Erst **nach** Perle 1, 3 und 4 beginnen. Beschreibung jedes Bildes: `docs/art/szenen/perle-5/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
+Neu in der Prüfliste: **Unter der Erde trotzdem warm und lesbar**, keine schwarzen Flächen. **Zwergenzeichen** nur als Ornamente, keine Buchstaben. Im Herz des Berges: **genau vier** Linien in der Spirale und **vier** Lichter im Kristall.
+
+### Schritt M – Neue Figuren und Requisiten
+- [ ] **Gildenaufseher Dorn**, **Talin**, **Koboldkind** (`dorn-`, `talin-`, `koboldkind-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt)
+- [ ] **Requisiten** (1024×1024): `stimmerz`, `herzsplitter`, `singlampe`
+
+### Schritt N – Ortsbilder (1536×1024)
+- [ ] `orte/minentor`, `orte/glimmhalde`, `orte/tiefe-stiege`, `orte/herz-des-berges`
+
+### Schritt O – Szenenbilder (`docs/art/szenen/perle-5/`, 1536×1024)
+- [ ] 1 `szene-brief-in-wollmark` · 2 `entdeckung-orin-treidelpfad` · 3 `entdeckung-minentor` · 4 `entdeckung-glimmhalde`
+- [ ] 5 `szene-neumond-glimmhalde` · 6 `szene-tiefe-stiege` · 7 `szene-talin` · 8 `szene-der-schlund`
+- [ ] 9 `szene-vermisste-kobolde` · 10 `szene-wiedersehen-<hintergrund>` (sechs Varianten)
+- [ ] 11 `szene-herz-des-berges` · 12 `szene-flucht-tiefe-stiege` · 13 `szene-glimmhalde-fest` · 14 `tagebuch-perle-5`
+- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-5/uebersicht-*.png`) und Liste der Schwächen im README.
+
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).
 - [x] **Der Fremde neu erzeugen** (Einzelbild + Referenzblatt) nach `docs/worldbuilding/der-fremde.md`: groß und schlank, Reisemantel statt Mönchsgewand, Kinn und Mund im Schatten schwach sichtbar, silbrig **schimmernde** (nicht leuchtende) Augen, Bronzeschließe als Spirale aus vier Linien, Treibholzstab, Bergstaub an den Stiefeln. **Ohne Brief** im Referenzblatt (Brief = Szenenzustand). → 13.10.2026: `docs/art/figuren/fremder-einzel-neu.png`, `fremder-referenzblatt-neu.png` (lokal, warten auf Abnahme).

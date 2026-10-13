@@ -135,7 +135,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 
 ## Perle 5 – Unter dem Berg
 
-Kurzfassung der Tags (Entwurf 13.10.2026). Ausführliche Beschreibungen folgen wie bei Perle 3 und 4.
+**Ausführliche Beschreibungen, Varianten, Referenzen und fertige Prompts: `docs/art/szenen/perle-5/README.md`** (13.10.2026). Die Tabelle hier ist nur die Kurzfassung.
 
 | Tag | Inhalt | Ebene |
 |---|---|---|

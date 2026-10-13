@@ -138,7 +138,13 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Die Glaskugeln der Waage:** Seraphine Arvelle sammelt Elementkraft in Glaskugeln in Vardholm, um mit der gespeicherten Kraft einen **Schutzwall gegen das Schweigen** zu errichten, aber vor allem für die Oberstadt und die Familien der Waage (**„Arche für die Reichen“**), auf Kosten der eingeschriebenen Magier. Aus Angst das Falsche tun, keine reine Bösewichtin. Ob der Wall überhaupt funktioniert, bleibt offen. Wird in Perle 6 aufgedeckt.
 - **Neue Figuren aus Perle 4 bestätigt:** Merla, Hauptmann Strell, Jorrit, Ashka, Wuk.
 
+## Stand 13.10.2026 (abends)
+
+### Story
+- **Die größere Bedrohung ist „das Schweigen“** (bestätigt). Es sickert aus einem Riss im **Herz des Berges**, den der Stollen der Waage geschlagen hat. Details: `docs/ideen.md`, `story/hauptstory-entwurf.md`.
+- **Neumond-Regel:** Wer bei der Waage eingeschrieben ist, hat ab dem ersten Neumond **dauerhaft einen Kraftfunken weniger** (in `rasten()` umgesetzt).
+- **Neue Figuren aus Perle 5 bestätigt:** Gildenaufseher Dorn, Talin.
+
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
-- Die größere Bedrohung (im ersten Abenteuer nur Hinweise). **Vorschlag „das Schweigen“** siehe `docs/ideen.md`, in Perle 4 schon verwendet.
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).
