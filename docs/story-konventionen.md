@@ -116,10 +116,11 @@ Die Daten für die Laschen **Taschen** und **Menschen** stehen als Ink-Funktione
 |---|---|
 | `taschen_liste()` / `menschen_liste()` | alle IDs, kommagetrennt, in Buchreihenfolge |
 | `tasche_status(id)` | 0 nicht da, 1 dabei, 2 abgegeben (durchgestrichen zeigen) |
+| `tasche_bild(id)`, `mensch_bild(id)` | Dateiname der Skizze ohne Endung (Rückgabewert), z. B. `quelle-feuer`, `maren`, `liora` |
 | `mensch_bekannt(id)` | true / false |
 | `tasche_name(id)`, `tasche_text(id)`, `mensch_name(id)`, `mensch_text(id)` | **Textausgabe** (nicht Rückgabewert): `story.EvaluateFunction(name, [id], true).output` |
 
-Der Player ruft die Funktionen auf, wenn die Lasche geöffnet wird. Sie verändern den Spielstand nicht. Skizzen dazu (später): `bilder/taschen/<id>.webp`, `bilder/menschen/<id>.webp`; bis dahin kann das Einzelbild der Figur bzw. das Requisit dienen. `npm test` prüft mit `tools/teste-tagebuch.js`, dass jeder vorhandene Gegenstand und jeder bekannte Mensch Name und Text hat.
+Der Player ruft die Funktionen auf, wenn die Lasche geöffnet wird. Sie verändern den Spielstand nicht. Skizzen: Den Dateinamen liefern `tasche_bild(id)` und `mensch_bild(id)` (Varianten je Element, Gilde, Hintergrund, Liora/Cassian); der Player lädt `bilder/taschen/<name>.webp` bzw. `bilder/menschen/<name>.webp`. Prompts in `docs/art/tagebuch/` (14.10.2026); bis die Bilder da sind, kann das Einzelbild der Figur bzw. das Requisit dienen. `npm test` prüft mit `tools/teste-tagebuch.js`, dass jeder vorhandene Gegenstand und jeder bekannte Mensch Name und Text hat.
 
 **Bestätigt (Technologie-Chat, 14.10.2026):** `EvaluateFunction` ist der richtige Weg – die Texte bleiben in der Story, ändern sich mit dem Weltgedächtnis und laufen durch denselben Test. Geprüft: In 25 kompletten Durchläufen mit Aufrufen an jeder Entscheidung und mitten im Text bleiben Text, Variablen und Besuchszähler genau gleich wie ohne Aufrufe. Dafür gelten zwei Regeln:
 - **Die Funktionen sind rein:** keine Zuweisungen an Variablen (außer `temp`), kein `RANDOM`, keine Umleitungen (`->`) und keine Entscheidungen. `npm test` (`tools/teste-tagebuch.js`) prüft das; ein Aufruf darf keine Variable verändern.

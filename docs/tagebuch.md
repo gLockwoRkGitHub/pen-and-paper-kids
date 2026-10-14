@@ -94,11 +94,15 @@ Eine Doppelseite mit kleinen Kohleskizzen der Gegenstände, je mit einem Satz in
 
 Das Seil der Bezugsperson hat jetzt die Variable `seil` (Perle 7).
 
+**Skizzen:** Prompts für alle Gegenstände in `docs/art/tagebuch/taschen/` (14.10.2026), Auftrag T1.
+
 ## 7. Menschen (entschieden 14.10.2026)
 
 **Umgesetzt in `story/tagebuch.ink`:** `menschen_liste()`, `mensch_bekannt(id)`, `mensch_name(id)`, `mensch_text(id)` – 22 Figuren, die Texte ändern sich mit der Geschichte (z. B. Seraphine, Strell, der Fremde → Ithren). Ob man jemanden kennt, ergibt sich aus vorhandenen Variablen und daraus, ob eine Szene gespielt wurde; neue Variablen waren nicht nötig. Tickwort trägt sich in Perle 1 selbst als Ersten ein.
 
 Skizze und ein Satz in Handschrift, z. B. Grisk: „Kobold. Vergisst nicht.“ Die Seite zeigt nur, **wen** man kennt, nie, wie gut man sich versteht (Ruf und Beziehungen bleiben unsichtbar, Entscheidung 13.10.2026). Der Satz kann sich aber mit der Geschichte ändern (Seraphine: erst „Die Frau in Schwarz auf der Tribüne.“, nach Perle 6 „{freund()}s Mutter.“). Das braucht pro Figur eine „getroffen“-Variable; viele gibt es schon (`freund_getroffen`, `yrsa_getroffen`, `strell_getroffen`, `jorrit_getroffen`, `talin_getroffen` …), einige fehlen.
+
+**Skizzen:** Prompts für alle Figuren in `docs/art/tagebuch/menschen/` (14.10.2026), Auftrag T2.
 
 ## 8. ~~Fragen~~ (entfällt, Pasco 14.10.2026)
 

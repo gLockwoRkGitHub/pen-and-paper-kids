@@ -18,6 +18,7 @@ Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
 5. **Perle 5:** Schritte M–O
 6. **Perle 6:** Schritte P–R
 7. **Perle 7:** Schritte S–U
+8. **Tagebuch-Skizzen** (Taschen und Menschen): Schritte T1–T2, ganz am Ende, weil sie die Einzelbilder aller Figuren als Referenz brauchen
 
 **Karten** (Abschnitt „Karten“, Schritte K1–K3) laufen getrennt davon: die Grundkarten möglichst früh, die Ortsskizzen gern nach der jeweiligen Perle, weil sie die Ortsbilder als Referenz nutzen können.
 
@@ -233,6 +234,23 @@ Alle Kartenbilder auf **reinweißem Hintergrund**, ohne Papierstruktur und ohne 
 - [ ] Lysmara: `stadt-hafen`, `stadt-phiole`, `stadt-markt`, `stadt-marktplatz`, `stadt-gewoelbe`, `stadt-wachhaus`, `stadt-oberstadt`
 - [ ] Lysmara: `stadt-weite-feder`, `stadt-raederviertel`, `stadt-grosse-schmiede`, `stadt-tuchhalle`, `stadt-erzlaende`, `stadt-steinmetzhof`, `stadt-orinbruecke`
 - [ ] Zusammenbau-Bilder `pruefung-meridel-komplett.png` und `pruefung-lysmara-komplett.png`, dann Pasco Bescheid geben.
+
+## Tagebuch-Skizzen – Taschen und Menschen (Auftrag vom 14.10.2026)
+
+Erst **nach Perle 7**, weil die Skizzen die Einzelbilder und Requisiten aller Perlen als Referenz nutzen. Beschreibung und Prüfliste: `docs/art/tagebuch/README.md`. Prompts liegen fertig in `docs/art/tagebuch/taschen/` und `docs/art/tagebuch/menschen/`, Größe und Referenz in der ersten Zeile (`tools/erzeuge-szene.ps1` geht). Je **4 Seeds**, Ergebnis als `<name>.png` neben den Prompt.
+Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf cremefarbenem Papier mit viel Platz drumherum. Menschen als Brustbild, gut wiedererkennbar.
+
+### Schritt T1 – Taschen (20 Skizzen)
+- [ ] `silber`, `kompass`, `erzmarke`, `quelle-erde`, `quelle-wasser`, `quelle-feuer`, `brief`
+- [ ] `gildenzeichen-webstuhl_amboss`, `gildenzeichen-weite_feder`, `gildenzeichen-phiole`, `gildenzeichen-leise_hand`, `plakette`, `gnollstein`
+- [ ] `herzsplitter`, `singlampe`, `goldknopf`, `seil`, `pfeife`, `ring`, `paeckchen`
+
+### Schritt T2 – Menschen (30 Skizzen)
+- [ ] Bezugspersonen: `maren`, `bonifaz`, `mutter-kessel`, `holm`, `ysolde`, `rhea`
+- [ ] `tickwort`, `liora`, `cassian`, `fremder`, `grisk`, `fesk`, `fink`, `grumak`
+- [ ] Mentoren: `borrik`, `nerelle`, `yrsa`, `vael`
+- [ ] `kettrich`, `mirk`, `seraphine`, `pell`, `strell`, `jorrit`, `ashka`, `wuk`, `talin`, `durgash`, `faehrfrau`, `haldor`
+- [ ] **Übersicht für Pasco** (`docs/art/tagebuch/uebersicht-*.png`) und Liste der Schwächen im README.
 
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).

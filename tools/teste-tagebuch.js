@@ -1,6 +1,7 @@
 // Prüft die Tagebuch-Funktionen in story/tagebuch.ink (Taschen und Menschen).
 // Spielt 200 zufällige Durchläufe und ruft am Ende jede Funktion für jede ID auf:
-// Jeder vorhandene Gegenstand und jeder bekannte Mensch braucht Name und Text, ohne {}-Reste.
+// Jeder vorhandene Gegenstand und jeder bekannte Mensch braucht Name und Text, ohne {}-Reste,
+// und eine Prompt-Datei für seine Skizze.
 // Aufruf: node tools/teste-tagebuch.js [lauf]   – mit Laufnummer werden die Seiten dieses Laufs ausgegeben.
 const fs=require('fs'),path=require('path');
 const {Compiler,CompilerOptions}=require('inkjs/full');
@@ -22,7 +23,7 @@ for(let lauf=0;lauf<200;lauf++){
   story.ResetState(); story.state.storySeed=lauf; story.variablesState['name']='Mika';
   let n=0;
   while(true){ while(story.canContinue) story.Continue(); if(!story.currentChoices.length) break; zufall=(zufall*16807+lauf)%2147483647; story.ChooseChoiceIndex(zufall%story.currentChoices.length); if(++n>5000)break;}
-  for(const [liste,stat,name,text] of [['taschen_liste','tasche_status','tasche_name','tasche_text'],['menschen_liste','mensch_bekannt','mensch_name','mensch_text']]){
+  for(const [liste,stat,name,text,bild,ordner] of [['taschen_liste','tasche_status','tasche_name','tasche_text','tasche_bild','taschen'],['menschen_liste','mensch_bekannt','mensch_name','mensch_text','mensch_bild','menschen']]){
     for(const id of story.EvaluateFunction(liste).split(',')){
       const st=story.EvaluateFunction(stat,[id]);
       if(!st) continue;
@@ -30,6 +31,9 @@ for(let lauf=0;lauf<200;lauf++){
       const nm=story.EvaluateFunction(name,[id],true).output.trim();
       const tx=story.EvaluateFunction(text,[id],true).output.trim();
       if(!nm||!tx||/[{}]/.test(tx)) fehler.add(`${id}: leer oder Klammer (${nm}|${tx})`);
+      // Zu jeder Skizze muss eine Prompt-Datei existieren (docs/art/tagebuch/<ordner>/<bild>.prompt.txt)
+      const b=story.EvaluateFunction(bild,[id]);
+      if(!b || !fs.existsSync(path.join(__dirname,'..','docs','art','tagebuch',ordner,b+'.prompt.txt'))) fehler.add(`${id}: keine Skizze '${ordner}/${b}' (Prompt-Datei fehlt)`);
       const nachher=JSON.stringify(JSON.parse(story.state.ToJson()).variablesState);
       if(vorher!==nachher) fehler.add(`${id}: Aufruf verändert Variablen`);
       if(zeig==lauf) console.log(`[${st}] ${nm}: ${tx}`);

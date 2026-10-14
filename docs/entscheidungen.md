@@ -153,6 +153,16 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Tags `# handschrift` und `# tagebuch_ende`** für Tagebuchseiten und Erinnerungen (14.10.2026), siehe `story-konventionen.md`.
 - **Texte „Was ich gut kann“** je Volk und Hintergrund bestätigt (14.10.2026), siehe `docs/tagebuch.md`.
 
+## Stand 14.10.2026
+
+### Plattform und Vorgehen
+- **Webseite statt nativer App** (vorerst): ein Browser-Player, optimiert für Tablet und Handy.
+- **Testspiel erst, wenn alles steht** (Story, Bilder, Player).
+- **Länge:** Jede Perle soll **30–45 Minuten** dauern (etwa 4.500 Wörter pro Durchlauf). Das reicht; die ursprünglich geplanten 2 Stunden pro Perle entfallen.
+
+### Story
+- **Perle 3 bestätigt:** Familienname Arvelle, Waagmeisterin Seraphine, Meisterin Ambra, Fitzel.
+- **Perle 7 bestätigt:** Dornfurt, Durgash, Haldor, die Fährfrau, Fesks Kiesel, Cliffhanger „mehrere Herzen“ (Haken für ein Folgeabenteuer).
+
 ## Offen
-- Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).

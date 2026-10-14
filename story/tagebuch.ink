@@ -94,6 +94,17 @@
 }
 ~ return 0
 
+// Dateiname der Skizze (ohne Endung) für bilder/taschen/<name>.webp
+// und docs/art/tagebuch/taschen/<name>.prompt.txt
+=== function tasche_bild(id)
+{ id:
+- "quelle":
+    ~ return "quelle-" + element
+- "gildenzeichen":
+    ~ return "gildenzeichen-" + gilde
+}
+~ return id
+
 // Name des Gegenstands (Überschrift unter der Skizze)
 === function tasche_name(id)
 { id:
@@ -273,6 +284,41 @@
     ~ return p7_meer.mit_haldor > 0
 }
 ~ return false
+
+// Dateiname der Skizze (ohne Endung) für bilder/menschen/<name>.webp
+// und docs/art/tagebuch/menschen/<name>.prompt.txt
+=== function mensch_bild(id)
+{ id:
+- "bezugsperson":
+    { hintergrund:
+    - "reisender":
+        ~ return "maren"
+    - "schausteller":
+        ~ return "bonifaz"
+    - "strassenkind":
+        ~ return "mutter-kessel"
+    - "botenlaeufer":
+        ~ return "holm"
+    - "kartografenlehrling":
+        ~ return "ysolde"
+    - "schiffsjunge":
+        ~ return "rhea"
+    }
+- "freund":
+    ~ return freund_kurz()
+- "mentor":
+    { element:
+    - "erde":
+        ~ return "borrik"
+    - "wasser":
+        ~ return "nerelle"
+    - "feuer":
+        ~ return "yrsa"
+    - "wind":
+        ~ return "vael"
+    }
+}
+~ return id
 
 // Name, wie die Spielfigur ihn ins Buch schreibt
 === function mensch_name(id)
