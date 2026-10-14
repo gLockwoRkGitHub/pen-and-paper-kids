@@ -258,17 +258,17 @@ Erst **nach Perle 7**, weil die Skizzen die Einzelbilder und Requisiten aller Pe
 Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf cremefarbenem Papier mit viel Platz drumherum. Menschen als Brustbild, gut wiedererkennbar.
 
 ### Schritt T1 – Taschen (20 Skizzen)
-- [ ] `silber`, `kompass`, `erzmarke`, `quelle-erde`, `quelle-wasser`, `quelle-feuer`, `brief`
-- [ ] `gildenzeichen-webstuhl_amboss`, `gildenzeichen-weite_feder`, `gildenzeichen-phiole`, `gildenzeichen-leise_hand`, `plakette`, `gnollstein`
-- [ ] `herzsplitter`, `singlampe`, `goldknopf`, `seil`, `pfeife`, `ring`, `paeckchen`
+- [x] `silber`, `kompass`, `erzmarke`, `quelle-erde`, `quelle-wasser`, `quelle-feuer`, `brief` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
+- [x] `gildenzeichen-webstuhl_amboss`, `gildenzeichen-weite_feder`, `gildenzeichen-phiole`, `gildenzeichen-leise_hand`, `plakette`, `gnollstein` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
+- [x] `herzsplitter`, `singlampe`, `goldknopf`, `seil`, `pfeife`, `ring`, `paeckchen` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
 
 ### Schritt T2 – Menschen (34 Skizzen)
-- [ ] Bezugspersonen: `maren`, `bonifaz`, `mutter-kessel`, `holm`, `ysolde`, `rhea`
-- [ ] `tickwort`, `liora`, `cassian`, `fremder`, `grisk`, `fesk`, `fink`, `grumak`
-- [ ] Mentoren: `borrik`, `nerelle`, `yrsa`, `vael`
-- [ ] `kettrich`, `mirk`, `seraphine`, `pell`, `strell`, `jorrit`, `ashka`, `wuk`, `talin`, `durgash`, `faehrfrau`, `haldor`
-- [ ] Nebenfiguren ohne Einzelbild (nur aus Text): `ole`, `pip`, `jaro`, `brina`
-- [ ] **Übersicht für Pasco** (`docs/art/tagebuch/uebersicht-*.png`) und Liste der Schwächen im README.
+- [x] Bezugspersonen: `maren`, `bonifaz`, `mutter-kessel`, `holm`, `ysolde`, `rhea` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
+- [x] `tickwort`, `liora`, `cassian`, `fremder`, `grisk`, `fesk`, `fink`, `grumak` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
+- [x] Mentoren: `borrik`, `nerelle`, `yrsa`, `vael` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
+- [x] `kettrich`, `mirk`, `seraphine`, `pell`, `strell`, `jorrit`, `ashka`, `wuk`, `talin`, `durgash`, `faehrfrau`, `haldor` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
+- [x] Nebenfiguren ohne Einzelbild (nur aus Text): `ole`, `pip`, `jaro`, `brina` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
+- [x] **Übersicht für Pasco** (`docs/art/tagebuch/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
 
 ## Auf Abruf (kein fester Auftrag)
 Diese Prompts liegen bereit und werden nur erzeugt, wenn Pasco danach fragt.

@@ -14,3 +14,9 @@ Ausgearbeitet von Claude am 14.10.2026. Kleine Skizzen für die Laschen **Tasche
 |---|---|
 | `taschen/` | 20 (15 Gegenstände, davon Quelle in 3 und Gildenzeichen in 4 Varianten) |
 | `menschen/` | 34 (26 Figuren, davon Bezugsperson in 6, Mentor in 4, Liora/Cassian in 2 Varianten; Yrsa nur einmal; Ole, Pip, Jaro, Brina ohne Einzelbild) |
+
+## Erzeugte Skizzen (lokale Sitzung, 14.10.2026)
+Alle 54 Skizzen mit `tools/erzeuge-szene.ps1`, je 4 Seeds, Referenzen aus der Kopfzeile. Übersichten: `uebersicht-taschen.png`, `uebersicht-menschen.png`.
+Gewählt ist Seed 1, außer: `herzsplitter` 3 (einziger mit vier Farben), `quelle-wasser` 1, `silber` 2, `paeckchen` 3, `gildenzeichen-leise_hand` 1, Menschen `tickwort` 3, `vael` 4 (Flaumhaar), `fesk` 2, `fink` 2, `grisk` 1, `ysolde` 2, `jaro` 2, `kettrich` 2.
+
+**Bekannte Schwächen:** `brief` – Ringsiegel sauber, vier Ringe. `faehrfrau` – Ringe auf dem Ruder. `fremder` – Gesicht sichtbar (wie gewählt). `kettrich` – normale Brille statt drei Gläser. `yrsa` – Rußflecken im Gesicht. `gildenzeichen-leise_hand` zeigt eine Hand mit erhobenem Finger vor einer Jacke. Einige Skizzen haben einen leicht gelblichen Papierrand statt nur Creme.
