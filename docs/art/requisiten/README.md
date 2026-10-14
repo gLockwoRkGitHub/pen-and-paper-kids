@@ -10,3 +10,10 @@ Erzeugt mit `tools/erzeuge-bild.js` (FLUX.2 klein 4B), je 6 Seeds, das beste gew
 | `erzmarke.png` | `erzmarke.prompt.txt` | 3 | 1024×1024 | – | – |
 | `kompass.png` | `kompass.prompt.txt` | 5 | 1024×1024 | – | Nadel ist eine normale Kompassnadel, keine Zange; Windrose statt reiner Zahnradmarken |
 | `dampfkarren.png` | `dampfkarren.prompt.txt` | 2 (zweite Runde) | 1216×832 | – | **Vier Räder statt drei** – auch nach dem Nachschärfen in allen 12 Versuchen |
+| `stimmerz.png` | `stimmerz.prompt.txt` | 1 | 1024×1024 | – | – |
+| `herzsplitter.png` | `herzsplitter.prompt.txt` | 3 | 1024×1024 | – | Nur in diesem Seed sind alle vier Farben (braun, blau, rot, weiß) zu sehen |
+| `singlampe.png` | `singlampe.prompt.txt` | 1 | 1024×1024 | – | – |
+| `plakette-waage.png` | `plakette-waage.prompt.txt` | 1 | 1024×1024 | – | Kleine Punkte unter der Waage (keine Zahlen) |
+| `kugel-im-korb.png` | `kugel-im-korb.prompt.txt` | 10 (Runde 2) | 1536×1024 | – | Runde 1 meist nur drei Kugeln; Prompt nachgeschärft, jetzt vier (braun, blau, rot, weiß) |
+| `gildenzeichen.png` | `gildenzeichen.prompt.txt` | 3 | 1536×1024 | – | – |
+| `abschiedsgeschenke.png` | `abschiedsgeschenke.prompt.txt` | 4 | 1536×1024 | – | Pfeife eher ein Fernrohr-artiges Röhrchen |

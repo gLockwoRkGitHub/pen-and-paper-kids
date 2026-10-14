@@ -122,3 +122,31 @@ Die alte Schließe war eine Spirale (abgeschafft, siehe `docs/art/art-style.md`,
 1. Bearbeitungsfassung mit FLUX.2 klein und dem Original plus `requisiten/ringzeichen.png` als Referenz („alles gleich, nur die Schließe aus vier verschlungenen Ringen“), 6 Seeds (Blatt: 4 Seeds).
 2. Aus der besten Fassung (Einzelbild Seed 5, Blatt Seed 2) nur den runden Bereich der Schließe ausgeschnitten und weich überblendet ins **Original** eingesetzt (Python/PIL statt Krita). Gesicht, Haltung und alles andere sind pixelgleich mit der abgenommenen Fassung.
 3. Auf dem Blatt in der Dreiviertelansicht die kleine Spiralscheibe mit Mantelgrau übermalt und eine verkleinerte Ringschließe eingesetzt. Seiten- und Rückansicht zeigen keine Schließe.
+
+## Figuren aus Perle 2–7 (lokale Sitzung, 14.10.2026; Aussehen laut `figuren-aussehen.md`)
+Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, 6 Seeds, nur aus Text. Referenzblatt: `blatt-allgemein.prompt.txt`, 2048×832, 4 Seeds, Referenz das Einzelbild (Seed des Blatts steht in der Spalte).
+
+| Figur | Seed Einzelbild | Seed Blatt | Entscheidung / bekannte Schwächen |
+|---|---|---|---|
+| `kettrich` | Runde 3 | – | Runde 1 und 2 (12 Seeds): immer eine normale Brille. Runde 3: Seed 1 mit `kettrich-brille.prompt.txt` als Bildbearbeitung („drei Gläser übereinander“), Seed 4 gewählt: pro Auge drei kleine Linsen senkrecht übereinander |
+| `mirk` | 2 | – | Gesprungene Brille kaum zu sehen |
+| `seraphine-arvelle` | 5 | – | Elegant, freundlich-kühl, keine Märchenhexe |
+| `vater-arvelle` | 1 | – | – |
+| `ambra` | Runde 3 | – | Runde 1 und 2: immer Augenbrauen. Runde 3: Seed 3 mit `ambra-augenbrauen.prompt.txt` als Bildbearbeitung, Seed 3 gewählt (lacht mit geschlossenen Augen, keine Augenbrauen). Die anderen Seeds der Runde 3 hatten kein Gesicht mehr |
+| `hulda` | 3 | – | Mädchen ohne Bart |
+| `gnomenjunge` | 4 | – | – |
+| `schreiber-waage` | 3 | – | – |
+| `merla` | 4 | – | Hält einen Spaten (Requisit) |
+| `strell` | 2 | – | Schwert in der Scheide |
+| `jorrit` | 1 | – | Ziege daneben |
+| `ashka` | 1 | – | Wirkt eher wolfs- als hyänenartig, aber gefleckt und ruhig. Eingerissenes Ohr kaum zu sehen |
+| `wuk` | 11 (Runde 2) | – | Runde 1 sah aus wie ein Tierjunges; Prompt nachgeschärft (aufrecht, Hände mit Fingern, Kiesel). Wirkt weiter sehr tierhaft (Hyänenjunges auf zwei Beinen) |
+| `gnoll` | 1 | – | Speer in der Hand |
+| `dorn` | 3 | – | – |
+| `talin` | 3 | – | – |
+| `koboldkind` | 4 | – | – |
+| `pell` | 3 | – | – |
+| `ratsherr` | 3 | – | – |
+| `durgash` | 3 | – | Nur in diesem Seed ist ein Hauer sichtbar abgebrochen |
+| `haldor` | 3 | – | – |
+| `faehrfrau` | 4 | – | Auf dem Ruderblatt vier Ringe im Kreis, nicht ganz sauber verschlungen (Mitte nicht ganz frei) |
