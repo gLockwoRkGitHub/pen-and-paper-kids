@@ -5,7 +5,7 @@
 === p6_entscheidung
 Aus der großen Halle kommen Lachen und das Klirren von Gläsern. Oben auf dem Turm steht der Spiegel, dunkel und still. Und tief unter euren Füßen summen tausend Kugeln.
 
-Du denkst an das Herz im Berg. An den Riss. An die alte Frau, die vorhin auf dem Pflaster zusammengesunken ist.
+Du denkst an das Herz im Berg. An den Riss. An Brina, die vorhin auf dem Pflaster zusammengesunken ist.
 * [„Wir sagen es allen. Heute Abend, vor dem ganzen Rat.“]
     -> vor_dem_rat
 * [„Rede du mit ihr. Dir hört sie vielleicht zu.“]
@@ -253,6 +253,9 @@ Pell sieht dich an. Dann gibt er dir den Schlüssel. „Rechenstunde“, murmelt
 
 = im_hof
 Im Hof herrscht ein seltsames Durcheinander, ganz ohne Lärm. Söldner rennen mit offenem Mund, aber ihre Rufe sind nur noch ein Hauch. Einige von ihnen gehen langsam auf das Osttor zu, mit offenen Augen, als würde sie jemand rufen. Ins Graue hinein.
+{ jaro_gesprochen:
+    Einer der jungen Söldner geht nicht ins Grau. Jaro. Er hat seinen Speer weggeworfen und zerrt einen Kameraden nach dem anderen am Mantel zurück, und dabei schreit er ein Seemannslied aus dem Hafenviertel, so laut er kann.
+}
 { strell_getroffen:
     Am Osttor steht Hauptmann Strell. Er hält als Einziger noch eine Fackel, die brennt, und stellt sich seinen eigenen Leuten in den Weg, einem nach dem anderen. Das Grau reicht ihm schon bis an die Knie.
 }
@@ -318,6 +321,10 @@ Du stellst dich in die Mitte des Hofs. „Rufer!“, schreist du, und deine Stim
         {freund()} stellt sich auf deine andere Seite.
     }
     {Fr_er()} hat keine Magie. Also singt {fr_er()}. Laut und falsch und aus voller Kehle, ein Kinderlied aus der Oberstadt.
+}
+{ brina_freundin:
+    ~ helfer += 1
+    Neben dir steht Brina, auf einen Stock gestützt. {funken_frei:Ihre Funken sind wieder da. Sie hebt die Hände, und der Brunnen im Hof rauscht auf wie ein Bach nach dem Regen.|Sie hat keinen Funken mehr. Sie singt trotzdem, mit dünner, fester Stimme, ein altes Lied aus Wollmark.}
 }
 { singlampe:
     ~ helfer += 1
@@ -452,6 +459,12 @@ Seraphine Arvelle steht auf der Treppe des Hauptturms, die goldene Kette um den 
 
 = weiter
 ~ spalt_offen = seraphine_einsicht || waage_gestuerzt
+{ jaro_gesprochen:
+    Am Tor begegnet dir Jaro, ohne Brustplatte, ein Bündel über der Schulter. „Ich geh nach Hause“, sagt er. „Ins Hafenviertel. Ich werd Fischer, glaube ich. Fische sind leise, aber wenigstens ehrlich.“ Er streckt dir die Hand hin. „Danke. Für das Reden. Am Feuer.“
+}
+{ brina_freundin:
+    Brina sitzt an der Mauer in der Sonne, eine Decke über den Knien. {funken_frei:Als sie dich sieht, hebt sie einen Finger, und ein Wassertropfen steigt aus ihrem Becher, dreht sich einmal in der Luft und landet auf deiner Nase. Sie lacht wie ein junges Mädchen.|Sie sieht müde aus. Aber sie lächelt, als sie dich sieht.} „Ich gehe nach Hause“, sagt sie. „Zu meinem Enkel. Er wird nicht glauben, was ich erzähle.“
+}
 { talin_hilft:
     Talin kommt mit zwei Schalen Suppe über den Hof. {funken_frei:„Ich hab meinen Funken wieder“, sagt er und strahlt. „Und ich geh nach Hause. Zu Fuß. Ohne Plakette.“|„Ich bleib noch“, sagt er. „Einer muss auf die anderen aufpassen.“}
 }

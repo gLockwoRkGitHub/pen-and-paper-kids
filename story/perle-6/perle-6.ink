@@ -13,6 +13,7 @@
 # perle: 6
 # kapitel: Die Festung am Pass
 -> p6_anreise ->
+-> p6_strassenlager ->
 -> p6_hinein ->
 -> p6_festung ->
 -> p6_wahrheit ->

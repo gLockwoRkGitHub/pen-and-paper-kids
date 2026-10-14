@@ -188,6 +188,8 @@ VAR talin_getroffen = false      // Talin, junger Erd-Rufer, bei der Waage einge
 VAR talin_hilft = false          // Talin hat aufgehört zu graben und geht mit hinab
 
 // Perle 6 – Die Festung am Pass
+VAR jaro_gesprochen = false      // mit Jaro, dem jungen Söldner, am Straßenlager vor Vardholm geredet
+VAR brina_freundin = false       // mit Brina, der alten Wasser-Ruferin, im Hof von Vardholm gesprochen
 VAR vardholm_zugang = ""          // "gerufen", "yrsa", "strell", "talin", "mauer"
 VAR yrsa_in_vardholm = false      // Yrsa fährt ihren Lieferkarren selbst nach Vardholm
 VAR kugelhalle_gesehen = false    // die Halle mit den tausenden Kugeln gesehen

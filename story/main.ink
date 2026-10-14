@@ -38,6 +38,7 @@ INCLUDE perle-5/tiefe.ink
 INCLUDE perle-5/herz.ink
 INCLUDE perle-6/perle-6.ink
 INCLUDE perle-6/anreise.ink
+INCLUDE perle-6/hof.ink
 INCLUDE perle-6/festung.ink
 INCLUDE perle-6/entscheidung.ink
 INCLUDE perle-7/perle-7.ink

@@ -12,6 +12,7 @@ Der Hof von Vardholm ist voller Menschen, und keiner von ihnen redet. Eingeschri
 { yrsa_in_vardholm:
     Yrsa lädt ihre Körbe ab, langsam, Stück für Stück. Dabei sieht sie sich alles genau an. Als sie an dir vorbeigeht, flüstert sie: „Die Körbe gehen in eine Halle unter dem Nordturm. Heute Nacht schläft dort nur ein Wächter. Und der schnarcht.“
 }
+-> p6_brina ->
 
 Über dem Hof ragt der höchste Turm in den Nachthimmel. Ganz oben glänzt das riesige Auge, das du von der Straße aus gesehen hast. Von nahem ist es ein Spiegel. Rund, aus Glas und Bronze, so groß wie ein Mühlrad. Von ihm aus laufen dicke Bronzeröhren an der Turmwand hinunter und verschwinden im Boden.
 
@@ -130,7 +131,7 @@ Der Spiegel auf dem Turm beginnt zu leuchten. Er dreht sich, langsam, und dann b
 
 Die Ratsherren springen auf und klatschen. Kettrich nimmt die Brille ab. Ambra murmelt etwas, das wie ein Fluch klingt.
 
-Und in den Reihen der Eingeschriebenen sinken Menschen auf die Knie. Eine alte Frau kippt zur Seite. {talin_hilft:Talin fängt sie auf, bevor sie auf das Pflaster schlägt. Er selbst ist grau im Gesicht.}
+Und in den Reihen der Eingeschriebenen sinken Menschen auf die Knie. Brina kippt zur Seite. {talin_hilft:Talin fängt sie auf, bevor sie auf das Pflaster schlägt. Er selbst ist grau im Gesicht.|Du springst hin und fängst sie auf, bevor sie auf das Pflaster schlägt. Sie ist so leicht. Ein Söldner sieht zu dir herüber, dann wieder weg.}
 
 Die Kuppel hält vier Atemzüge lang. Dann verblasst sie.
 
