@@ -168,5 +168,17 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Vier ineinander verschlungene Ringe statt der Spirale aus vier Linien.** Die Spirale erinnerte an ein Hakenkreuz und ist abgeschafft. Die Ringe bilden einen geschlossenen Kreis, jeder ist mit seinen beiden Nachbarn verschlungen, die Mitte bleibt frei – bewusst nicht wie Audi (Reihe) oder Olympia (3 + 2). Siegel heißt jetzt **Ringsiegel**. Vorlagen: `docs/art/requisiten/ringzeichen.png`, `ringsiegel-vorlage.png` (`tools/siegel-vorlage.py`).
 - **Verbotene Formen** in Bildern, Player und Story: nichts, was an Hakenkreuz, Sig- oder Odal-Runen erinnert (siehe `docs/art/art-style.md`).
 
+### Browser-Player: Aufgaben und Tech-Stack (14.10.2026, Pasco; Vorschlag aus dem Technologie-Chat)
+- **Wer baut ihn:** Claude im Technologie-Chat (Cloud), im Repo unter `player/`. Der Story-Chat schreibt nur Ink; die Absprache ist `docs/story-konventionen.md`. Der Heim-PC erzeugt Bilder und stellt den Player im Heim-WLAN bereit. Pasco und Sohn testen.
+- **Tech-Stack:**
+  - **Vite** als Bauwerkzeug – Ergebnis ist ein Ordner mit fertigen, statischen Dateien, kein Server-Programm nötig.
+  - **Svelte + TypeScript** für die Oberfläche (Seiten: Start, Erstellung, Geschichte, Ich, Erlebtes, Karte, Taschen, Menschen).
+  - **inkjs** für die Story (Tags, Würfelproben, `EvaluateFunction` für Taschen und Menschen).
+  - **Eigenes CSS** im Buch-Stil der Design-Entwürfe (Schriften Cinzel, Alegreya, Alegreya Sans, Kalam).
+  - **Spielstand im Browser des Geräts** (kein Konto, kein Server).
+  - **Installierbare Web-App (PWA)**: auf den Startbildschirm legen, nach dem ersten Laden offline spielbar.
+  - **Playwright** für automatische Tests mit Bildschirmfotos in Tablet- und Handygröße.
+- **Wo er läuft:** in der Testphase **nur im Heim-WLAN** auf Pascos PC, **kein öffentliches Hosting** (die Bilder sollen privat bleiben). Später ggf. Hosting mit Passwortschutz.
+
 ## Offen
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).
