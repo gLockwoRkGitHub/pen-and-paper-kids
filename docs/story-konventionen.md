@@ -91,7 +91,17 @@ Die Ortsschlüssel folgen den Orten in `docs/worldbuilding/karte-meridel.md`. Ä
 
 ## 7. Tagebuch
 
-**Vorschlag:** `# tagebuch: <Titel>` beginnt einen Eintrag. Zum Eintrag gehört der Text ab dieser Zeile **bis zur nächsten Entscheidung**. Der Player speichert dazu Perle und aktuellen Kartenort. Ein `# bild: tagebuch/...` direkt davor wird das Bild des Eintrags.
+**Festgeschrieben:** `# tagebuch: <Titel>` beginnt einen Eintrag. Der Player speichert dazu Perle und aktuellen Kartenort (für die Siegel auf der Karte).
+
+**Vorschlag (14.10.2026, Design-Entwurf „Tagebuch“ auf claude.ai):** Es gibt zwei Arten von Einträgen, der Player erkennt sie automatisch:
+- **Tagebuchseite** – einmal am Ende jeder Perle, erkennbar am `# bild: tagebuch/...` direkt davor. Sie zeigt die Skizze, darunter als Bildunterschrift den Satz „Du zeichnest …“ und dann die **Handschrift** der Spielfigur. Hier stehen auch die Entscheidungen („Ich habe den Gnollen geholfen …“), deshalb braucht es keine eigene Entscheidungsliste.
+- **Erinnerung** – ein besonderer Moment mitten in einer Perle (Grisk, Kompass, Erwachen, Gildenbeitritt). Sie zeigt die Stelle aus der Geschichte zum Nachlesen.
+
+Dafür zwei neue Tags:
+- `# handschrift` auf der Zeile „Darunter schreibst du:“ – ab der nächsten Zeile ist alles Handschrift (die äußeren Anführungszeichen lässt der Player weg).
+- `# tagebuch_ende` dort, wo der Eintrag endet. Ohne diesen Tag endet er bei der nächsten Entscheidung; das ist meist zu viel (es kämen z. B. „Kraftfunken: 2“ und das Level-Up mit hinein, bei Erinnerungen ganze Szenen).
+
+Außerdem sollte `# tagebuch: Die erste Seite` (Perle 1, `tickwort.ink`) schon bei „Du schlägst die erste Seite auf.“ stehen, sonst besteht die Erinnerung nur aus einem Satz. Und `# tagebuch: Grisk und die Erzmarke` steht nur im Erfolgs-Zweig; bei „Ja, aber“ und Misserfolg gibt es den Eintrag nicht (Absicht?).
 
 ## 8. Entscheidungen und Charakterbogen
 
