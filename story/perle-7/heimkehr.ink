@@ -65,6 +65,7 @@ Am Abend des zweiten Tages siehst du die Lichter von Lysmara. Und dahinter, rot 
 === p7_lysmara
 # bild: szene/heimkehr-lysmara
 Durch das Landtor, über die Orinbrücke, durch die Gassen. Alles ist, wie es war. Die Wasserräder drehen sich. Am Markt rufen die Händler. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
+-> p7_marktplatz ->
 { freund_kommt_mit:
     An der Apfelgasse bleibt {freund()} stehen. „Ich schlaf heute oben“, sagt {fr_er()} und nickt zur Oberstadt hinauf. „Ein letztes Mal im eigenen Bett. Morgen früh steh ich vor deiner Tür. Wehe, du bist schon weg.“
 }
@@ -212,6 +213,22 @@ Zum letzten Mal legst du dich zu Hause schlafen. Draußen rauscht das Meer. Du l
 Am Morgen sitzt du auf der Treppe vor dem Haus, das Buch auf den Knien, und schlägst die Karte auf, die du über Wochen gezeichnet hast.
 { freund_kommt_mit:
     {freund()} kommt die Gasse herunter, den Ranzen auf dem Rücken, und setzt sich neben dich. „Ich bin nicht zu spät“, sagt {fr_er()} atemlos. „Ich bin genau richtig.“
+}
+
+{bp()} bringt dir einen Becher Tee hinaus und setzt sich auf die Stufe über dir.
+{ hintergrund:
+- "reisender":
+    „Weißt du, was ich in dreißig Jahren auf der Straße gelernt habe?“, sagt Maren. „Der kürzeste Weg ist selten der beste. Und der beste ist selten der, den alle nehmen. Nimm den, bei dem du nachts schlafen kannst.“
+- "schausteller":
+    „Ein guter Abgang“, sagt Bonifaz und wischt sich die Augen, „ist die halbe Vorstellung. Geh so, dass sie dir nachwinken. Nicht so, dass sie dir nachrennen.“
+- "strassenkind":
+    „Ich kenne nur die Gassen hier“, sagt Mutter Kessel. „Aber eins weiß ich: Wer Freunde unterwegs hat, kommt immer irgendwo an. Wer keine hat, kommt nur an.“
+- "botenlaeufer":
+    „Ein Bote“, sagt Meister Holm, „nimmt den Weg, auf dem die Nachricht ankommt. Nicht den, auf dem er am schnellsten ist. Denk daran, was du trägst.“
+- "kartografenlehrling":
+    Meisterin Ysolde beugt sich über deine Karte und tippt mit dem Federkiel darauf. „Gute Arbeit“, sagt sie, und das hat sie noch nie gesagt. „Jetzt fehlt nur noch, was hinter dem Rand liegt.“
+- "schiffsjunge":
+    „Das Meer ist ehrlich“, sagt Kapitänin Rhea. „Es sagt dir, wenn es dich nicht will. Die Berge sagen es dir erst, wenn du oben bist.“ Sie zuckt mit den Schultern. „Aber es ist deine Reise.“
 }
 
 Meridel ist ein Kessel. Im Westen das Meer, an allen anderen Seiten der Kamm. Und es gibt nur eine Handvoll Wege hinaus.

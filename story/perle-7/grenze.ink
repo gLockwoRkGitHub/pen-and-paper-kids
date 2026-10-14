@@ -6,6 +6,19 @@
 # bild: entdeckung/jenseits-der-berge
 Vor dir liegt ein anderes Land.
 
+Neben dem Weg steht ein alter Grenzstein, halb im Gras versunken, mit Moos auf der Kante. Auf der Seite, die nach Westen zeigt, ist eine Muschel mit einer Perle eingemeißelt, das Wappen von Lysmara. Auf der anderen Seite ist nichts. Nur Stein.
+
+Du drehst dich ein letztes Mal um. Der Kamm. Dahinter die Weiden, die Stadt, das Meer. Alles, was du kennst.
+* [Laut „Auf Wiedersehen“ sagen]
+    „Auf Wiedersehen“, sagst du. Es klingt lächerlich, so allein auf einem Hügel. Aber es tut gut. {freund_kommt_mit:{freund()} sagt es auch, leiser, und dann nehmt ihr euch kurz an der Hand.}
+* [Den Grenzstein in dein Buch zeichnen]
+    Du setzt dich ins Gras und zeichnest den Stein, die Muschel, die Perle. Und auf die leere Seite malst du einen kleinen Pfeil. Nach Osten.
+* [Einen Kiesel aufheben und mitnehmen]
+    Du hebst einen Kiesel vom Weg auf, einen von der Westseite des Steins, und steckst ihn in die Tasche. Ein Stück Meridel. Für unterwegs.
+-
+Dann gehst du weiter. Der Stein bleibt hinter dir zurück, und mit ihm die Muschel und die Perle.
+
+
 Braune Hügel statt grüner Weiden, lang gezogene Täler, Birkenwälder, und weit im Osten ein Fluss, der in der Sonne glitzert. Hinter dir der Kharvan-Kamm, von dieser Seite aus noch höher, noch steiler. Du hast ihn noch nie von hinten gesehen. Niemand, den du kennst, hat das.
 { p7_erschoepft:
     Du bist so müde, dass jeder Schritt wehtut. Aber du gehst.
@@ -24,12 +37,13 @@ Auf den Feldern hinter dem Dorf liegen graue Flecken im Gras, wie verschüttete 
 
 Am Brunnen steht eine Ziege. Sie ist an einer Seite grau und starrt nach Osten, ohne zu blinzeln.
 * [Die Ziege wecken]
+    ~ ziege_folgt = true
     Du klatschst in die Hände, pfeifst, rufst. {element == "erde":Du lässt den Boden unter ihren Hufen summen.}{element == "wasser":Du spritzt ihr eine Handvoll Brunnenwasser ins Gesicht.}{element == "feuer":Du lässt einen Funken vor ihrer Nase tanzen.}{element == "wind":Du bläst ihr einen Windstoß ins Ohr.} Die Ziege zuckt zusammen, blökt empört und sieht dich an, als wärst du schuld an allem. Dann trottet sie dir hinterher. Den ganzen Weg.
     ~ aendern(ruf_hirten, 1)
 * [Weitergehen. Du kannst nicht jede Ziege retten.]
     Du gehst weiter. Als du dich nach einer Weile umdrehst, steht die Ziege immer noch da. Grau. Still.
 -
-Gegen Abend siehst du die Stadt am Fluss. Und du hörst sie, lange bevor du sie erreichst.
+Der Fluss ist weiter weg, als er aussah. Als die Sonne hinter dem Kamm versinkt, bist du noch lange nicht da.
 ->->
 
 
@@ -42,6 +56,7 @@ Glocken läuten, nicht nur zur vollen Stunde, sondern ständig, mal hier, mal do
 „Hier ist es nie still“, sagt eine Frau am Tor, als sie dein Gesicht sieht. „Nie. Nicht bei Tag und nicht bei Nacht. Das ist Absicht.“
 
 In den Gassen drängen sich Menschen, die nicht von hier sind. Leute aus den leeren Dörfern, mit Karren und Bündeln. Orks aus dem Osten. Ein paar Zwerge. Und am Fluss, in einem eigenen Lager, eine Gruppe Gnolle, die niemand verjagt.
+-> p7_markt ->
 { grumak_ring:
     -> halber_hauer
 }
@@ -70,6 +85,7 @@ Beim Essen erzählt Durgash. Die Dörfer sind leer, den ganzen Weg nach Osten, b
     Der Schreiber stempelt ein Papier und gibt es dir. „Quittiert“, sagt er. „Das hab ich auch noch nie gesehen.“
     Du stehst lange vor dem Haus und weißt nicht, ob du lachen oder dich ärgern sollst. Am Ende lachst du.
 }
+-> p7_gnolllager ->
 { brief_erhalten:
     -> brief
 }
@@ -132,7 +148,7 @@ Der Fremde.
 }
 Du setzt dich neben ihn. Die Bretter sind kalt.
 - (fragen)
-{ fragen > 3:
+{ fragen > 4:
     -> schluss
 }
 * [„Wer bist du?“]
@@ -145,6 +161,9 @@ Du setzt dich neben ihn. Die Bretter sind kalt.
     -> fragen
 * [„Warum ausgerechnet ich?“]
     „In der ersten Nacht am Zollhaus“, sagt er, „da hast du gesummt. Ganz leise. Wie ein Kessel, kurz bevor das Wasser kocht. Du hast es nicht gehört. Ich schon.“ Er klopft mit dem Stab auf die Bretter. „Ich höre so etwas. Das ist meine Gabe. Nicht laut, nicht stark. Aber ich höre es.“
+    -> fragen
+* [„Kommst du jemals zurück nach Meridel?“]
+    Ithren lächelt. „Ich war oft in Meridel. Öfter, als irgendwer dort weiß. Am Hafen, auf den Weiden, einmal sogar in der Ratshalle, bei einer sehr langweiligen Sitzung.“ Er sieht nach Westen, zu den Bergen, die man im Dunkeln nicht sieht. „Ich komme wieder, wenn das Herz mich ruft. Das ist kein Versprechen. Aber es ist wahr.“
     -> fragen
 * [Nichts mehr fragen. Einfach dasitzen.]
     -> schluss

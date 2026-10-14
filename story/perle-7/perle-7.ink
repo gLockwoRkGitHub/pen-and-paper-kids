@@ -19,6 +19,8 @@
     -> p7_meer ->
 }
 -> p7_draussen ->
+-> p7_lager ->
+-> p7_strasse ->
 -> p7_dornfurt ->
 -> p7_ithren ->
 -> p7_tagebuch ->

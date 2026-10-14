@@ -44,6 +44,7 @@ INCLUDE perle-7/perle-7.ink
 INCLUDE perle-7/heimkehr.ink
 INCLUDE perle-7/wege.ink
 INCLUDE perle-7/grenze.ink
+INCLUDE perle-7/unterwegs.ink
 INCLUDE tagebuch.ink
 
 # titel: Der Weg hinaus
