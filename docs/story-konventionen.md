@@ -22,6 +22,7 @@ Kennzeichnung: **Festgeschrieben** = so steht es schon in der Story und gilt. **
 1. Spiel starten: Name als Freitext abfragen, dann `name` setzen, **bevor** die Story losläuft (`charakter.ink` erwartet das).
 2. Text mit `Continue()` holen, bis eine Entscheidung kommt. Nach jeder Zeile die Tags (`currentTags`) auswerten.
 3. Entscheidungen als Knöpfe anzeigen. Nach der Wahl weiter mit Schritt 2.
+   **Lesefluss (Pasco, 14.10.2026):** Nach jeder Entscheidung springt die Ansicht **nicht ans Ende**, sondern so, dass die gewählte Zeile oben im Lesebereich steht – darunter folgen Würfelprobe und neuer Text. Man liest also immer von oben nach unten weiter und muss nie zurückscrollen. Unter dem letzten Text bleibt genug Platz, damit die gewählte Zeile ganz nach oben rücken kann.
 4. Spielstand nach jeder Entscheidung automatisch speichern (`story.state.toJson()`), siehe Abschnitt 9.
 
 ## 3. Tags
