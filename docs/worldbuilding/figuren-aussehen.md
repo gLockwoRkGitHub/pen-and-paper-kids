@@ -153,6 +153,15 @@ Was die Story vorgibt, ist übernommen; der Rest ist ergänzt und gilt, bis Pasc
   - **Der Fremde** am Steg: Kapuze ein wenig zurückgeschoben, unteres Gesicht im Fackellicht.
 - **Requisiten:** Seil der Bezugsperson, Tickworts **Messingpfeife**, Grumaks **eiserner Ring**, der **Goldknopf** von Liora/Cassian (`requisiten/abschiedsgeschenke.png`).
 
+### Die spielbaren Völker – Beispielfiguren (Vorschlag von Claude, 14.10.2026)
+Für Kinder um die zwölf, als Vorlage für Bilder der Spielfigur-Auswahl. Die Spielfigur selbst ist in Szenenbildern nie zu sehen.
+- **Mensch:** normale Größe; Reisekleidung, Umhängetasche. Anpassungsfähig, neugierig.
+- **Zwerg:** klein und sehr kräftig (reicht einem erwachsenen Menschen bis zur Brust), breite Schultern; **Kinder haben noch keinen Bart**; Wolltunika, Lederweste mit Werkzeug, schwere Stiefel. Stur, stolz.
+- **Gnom:** etwa halb so groß wie ein Mensch, große Ohren, runde Nase, wache Augen; Messing-Schutzbrille auf der Stirn, Weste voller Taschen. Klug, erfinderisch.
+- **Ork:** größer und breiter als ein Menschenkind, **graugrüne Haut**, spitze Ohren, **zwei kleine untere Hauer**; ärmellose Tunika mit gewebten Clanmustern. Stolz, laut, herzlich, nie bedrohlich.
+- **Troll:** groß und **schlaksig**, lange Arme und Beine, schlank und **gelenkig** (nicht massig), **blaugraue Haut**, lange spitze Ohren, große Augen, lange Nase, moosgrünes Haar; geflickte Tunika mit Seilgürtel, barfuß. Flink, schwer zu fassen, verschmitzt, nicht monströs.
+- Prompts: `docs/art/figuren/volk-<volk>-<m|w>-einzel.prompt.txt` (10 Stück) und `voelker-vergleich.prompt.txt` (Größenvergleich).
+
 ## Bezugspersonen (je nach Hintergrund)
 
 Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.

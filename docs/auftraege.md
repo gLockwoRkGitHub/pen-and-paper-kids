@@ -252,6 +252,10 @@ Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf 
 - [ ] `kettrich`, `mirk`, `seraphine`, `pell`, `strell`, `jorrit`, `ashka`, `wuk`, `talin`, `durgash`, `faehrfrau`, `haldor`
 - [ ] **Übersicht für Pasco** (`docs/art/tagebuch/uebersicht-*.png`) und Liste der Schwächen im README.
 
+## Auf Abruf (kein fester Auftrag)
+Diese Prompts liegen bereit und werden nur erzeugt, wenn Pasco danach fragt.
+- [ ] **Beispielfiguren der fünf Völker** (Kinder um die zwölf, je Junge und Mädchen): `docs/art/figuren/volk-<mensch|zwerg|gnom|ork|troll>-<m|w>-einzel.prompt.txt`, 832×1216, nur aus Text; danach `voelker-vergleich.prompt.txt` (1536×1024) mit drei Einzelbildern als Referenz. Prüfen: Zwergenkinder ohne Bart, Trolle schlaksig und nicht massig, Orks freundlich.
+
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).
 - [x] **Der Fremde neu erzeugen** (Einzelbild + Referenzblatt) nach `docs/worldbuilding/der-fremde.md`: groß und schlank, Reisemantel statt Mönchsgewand, Kinn und Mund im Schatten schwach sichtbar, silbrig **schimmernde** (nicht leuchtende) Augen, Bronzeschließe als Spirale aus vier Linien, Treibholzstab, Bergstaub an den Stiefeln. **Ohne Brief** im Referenzblatt (Brief = Szenenzustand). → 13.10.2026: `docs/art/figuren/fremder-einzel-neu.png`, `fremder-referenzblatt-neu.png` (lokal, warten auf Abnahme).
