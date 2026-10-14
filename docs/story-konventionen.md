@@ -108,6 +108,21 @@ Dafür zwei Tags, beide **am Ende einer Textzeile** (inline), damit eindeutig is
 
 Eingebaut am 14.10.2026 in alle 17 Einträge. Dabei verschoben: „Die erste Seite“ beginnt jetzt bei „Du schlägst die erste Seite auf.“, „Grisk und die Erzmarke“ am Anfang des Erfolgs-Zweigs (vorher hing der Tag an der nächsten Szene), „Das Erwachen“ beim Erwachen der Magie selbst (vorher erst bei Yrsas Hinweis auf den Mentor). „Grisk und die Erzmarke“ gibt es weiterhin nur bei vollem Erfolg, weil nur dann die Erzmarke verschenkt wird.
 
+## 7a. Taschen und Menschen (Vorschlag Story-Chat, 14.10.2026)
+
+Die Daten für die Laschen **Taschen** und **Menschen** stehen als Ink-Funktionen in `story/tagebuch.ink`. Damit bleiben alle Texte in der Story (Deutsch, mit `{freund()}`, `{bp()}` usw.) und ändern sich mit dem Weltgedächtnis.
+
+| Funktion | Rückgabe |
+|---|---|
+| `taschen_liste()` / `menschen_liste()` | alle IDs, kommagetrennt, in Buchreihenfolge |
+| `tasche_status(id)` | 0 nicht da, 1 dabei, 2 abgegeben (durchgestrichen zeigen) |
+| `mensch_bekannt(id)` | true / false |
+| `tasche_name(id)`, `tasche_text(id)`, `mensch_name(id)`, `mensch_text(id)` | **Textausgabe** (nicht Rückgabewert): `story.EvaluateFunction(name, [id], true).output` |
+
+Der Player ruft die Funktionen auf, wenn die Lasche geöffnet wird. Sie verändern den Spielstand nicht. Skizzen dazu (später): `bilder/taschen/<id>.webp`, `bilder/menschen/<id>.webp`; bis dahin kann das Einzelbild der Figur bzw. das Requisit dienen. `npm test` prüft mit `tools/teste-tagebuch.js`, dass jeder vorhandene Gegenstand und jeder bekannte Mensch Name und Text hat.
+
+**Abweichung von Abschnitt 1:** Bisher liest der Player nur Text, Entscheidungen, Tags und Variablen. `EvaluateFunction` ist neu – bitte im Technologie-Chat bestätigen oder eine andere Form vorschlagen.
+
 ## 8. Entscheidungen und Charakterbogen
 
 **Festgeschrieben** (so steht es bereits in den Perlen):

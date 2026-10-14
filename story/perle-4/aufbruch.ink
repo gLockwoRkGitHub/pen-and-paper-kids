@@ -141,6 +141,10 @@ Mittags kommt ihr an eine Steinbrücke über einen Bach. Mitten auf der Brücke 
     - else:
         Eine Böe fegt über die Brücke und reißt beiden Söldnern die Kappen vom Kopf. Während sie fluchend hinterherrennen, seid ihr längst über die Brücke.
     }
+* {hintergrund == "reisender"} [(Reisender) „Hier gibt es einen alten Viehpfad durch die Senke. Maren und ich sind ihn schon gegangen.“]
+    Du führst {freund()} hinter den Mauern entlang, durch eine Senke voller Brombeeren und über einen umgestürzten Baumstamm, der quer über dem Bach liegt. Kein Söldner, kein nasser Fuß. Hinter der Brücke kommt ihr wieder auf die Straße, als wärt ihr nie weg gewesen.
+    {freund()} sieht dich mit großen Augen an. „Woher weißt du so was?“
+    „Maren sagt: Jede Straße hat eine kleine Schwester, die keiner kennt.“
 * [Warten, bis die Söldner Wachwechsel haben]
     Ihr wartet hinter der Mauer. Eine Stunde. Zwei. Endlich kommt die Ablösung, und im Durcheinander schlüpft ihr vorbei. Aber die Sonne steht schon tief, als ihr weitergeht.
 - -> lamm

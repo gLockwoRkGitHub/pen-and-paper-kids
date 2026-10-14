@@ -180,6 +180,9 @@ Die Ziegenstiege windet sich in engen Kehren den Berg hinauf. Alle hundert Schri
     -> grat(0)
 }
 Und an der dritten Kehre steht eine Wachhütte, aus deren Schornstein Rauch steigt. Zwei Söldner sitzen davor und würfeln.
+* {hintergrund == "reisender"} [(Reisender) Einen Ziegenpfad um die Wachhütte herum suchen]
+    Wo Fackeln an einem Weg stehen, gibt es immer einen zweiten Weg ohne Fackeln. Das hat Maren dir beigebracht. Du suchst nicht lange: Ein schmaler Ziegenpfad zweigt zwei Kehren tiefer ab, zieht sich hinter einem Felsrücken entlang und kommt oberhalb der Hütte wieder heraus.
+    -> stiege_ergebnis(ERFOLG)
 * [Im Dunkeln vorbeischleichen (Geschick)]
     ~ temp e_stiege = probe(geschick)
     ~ probe_zeile("Geschick", e_stiege)

@@ -3,7 +3,7 @@
   "private": true,
   "description": "Der Weg hinaus – storybasiertes Pen-&-Paper-Abenteuer für Kinder",
   "scripts": {
-    "test": "node tools/teste-story.js"
+    "test": "node tools/teste-story.js && node tools/teste-tagebuch.js"
   },
   "devDependencies": {
     "inkjs": "^2.3.2"

@@ -217,5 +217,6 @@ VAR brief_uebergeben = false      // den Brief mit dem Spiralsiegel jenseits der
 VAR ithren_name = false           // der Fremde hat seinen Namen gesagt
 VAR tickwort_pfeife = false       // Tickworts Pfeife, „so laut wie zehn Ziegen“ – hilft gegen das Schweigen
 VAR grumak_ring = false           // Grumaks eiserner Ring für seinen Bruder Durgash in Dornfurt
+VAR seil = false                  // Seil der Bezugsperson (Perle 7) – für die Taschen-Seite des Tagebuchs
 VAR p7_erschoepft = false         // unterwegs gestürzt oder ohnmächtig, kommt erschöpft an
 

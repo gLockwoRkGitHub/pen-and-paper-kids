@@ -106,7 +106,21 @@ Tatsächlich. Zwischen den Gitterstäben eines Abflusses glänzt etwas.
 # tutorial: tagebuch
 „Drittens.“ Tickwort öffnet eine Klappe in seinem Bauch und zieht ein kleines, in Leder gebundenes Buch hervor, dazu einen Kohlestift. „Ich trage immer ein leeres Buch bei mir. Für den Fall, dass jemand etwas aufschreiben möchte.“ Er seufzt. „Niemand möchte je.“
 
-Er drückt dir beides in die Hand.
+Er drückt dir beides in die Hand. Am Rand des Buches stecken fünf kleine Lederlaschen, wie Lesezeichen.
+
+„Das Buch hat Unterpunkte“, sagt Tickwort, und sein Glasauge leuchtet auf. „Ich liebe Unterpunkte.“ Er tippt mit der Zange auf die erste Lasche. „Unterpunkt drei a: Ich. Wer du bist und was du kannst. Die vier Stärken von eben stehen da drin.“
+
+Zweite Lasche. „Drei b: Erlebtes. Was dir passiert. Und was du entschieden hast. Entscheidungen vergisst man schneller, als man denkt. Ich habe es ausgerechnet.“
+
+Dritte Lasche. „Drei c: die Karte. Wo du warst.“
+
+Vierte Lasche. „Drei d: Taschen. Was du bei dir trägst. Im Moment: fast nichts. Das ändert sich.“
+
+Fünfte Lasche. „Drei e: Menschen. Wen du kennst.“ Er räuspert sich, was bei ihm wie ein kleiner Kessel klingt. „Ich habe mir erlaubt, mich schon einmal einzutragen. Als Ersten. Das ist eine Ehre, die ich mir selbst verliehen habe.“
+
+Du blätterst nach hinten. Tatsächlich. Auf der Seite der Menschen steht in winziger, sehr ordentlicher Schrift: Tickwort. Erklärautomat. Hilfsbereit. Darunter, noch kleiner: Redet manchmal zu viel.
+
+„Den letzten Satz habe ich nach langem Abwägen hinzugefügt“, sagt Tickwort. „Ehrlichkeit ist wichtig.“
 
 „Schreib auf, was du erlebst. Und zeichne, wo du warst. Eine Karte, die man selbst gezeichnet hat, vergisst man nie.“
 

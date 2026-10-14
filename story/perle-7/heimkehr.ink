@@ -81,6 +81,7 @@ Dann gehst du nach Hause, {zuhause()}.
 Du nickst. Über die Berge. Herausfinden, was das Schweigen ist. Und ob das Herz im Berg geheilt werden kann.
 
 {bp()} sagt eine Weile nichts. Dann steht {bp_er()} auf und holt etwas aus der Truhe. Ein Seil, sauber aufgerollt. „Nimm das mit“, sagt {bp_er()}. „Ein Seil braucht man immer. Das ist das Einzige, was ich übers Reisen weiß, das stimmt.“
+~ seil = true
 -> ausloeser_heute
 
 = ausloeser_heute

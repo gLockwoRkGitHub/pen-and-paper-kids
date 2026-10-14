@@ -70,6 +70,10 @@ Auf dem Pfad ziehen Maultiere flache Kähne gegen die Strömung. Leere Erzkähne
 
 = stromschnelle
 Am Nachmittag, kurz vor den Bergen, wird der Fluss eng und schnell. Weißes Wasser schäumt über Felsen. Das vorderste Maultier rutscht auf dem nassen Pfad aus, das Seil reißt ihm aus dem Geschirr, und der Kahn dreht sich quer in die Strömung. Zwei Kobolde klammern sich an den Rand.
+* {hintergrund == "reisender"} [(Reisender) Das Maultier beruhigen und wieder ins Geschirr bringen, wie Maren es dir gezeigt hat]
+    ~ aendern(ruf_kobolde, 1)
+    Du läufst nicht zum Seil, sondern zum Maultier. Es zittert und rollt mit den Augen. Du legst ihm die Hand auf die Nase, redest leise, so wie Maren mit ihrem Packpferd redet, wenn es donnert. Das Maultier hört auf zu zappeln. Du hakst das Seil wieder ins Geschirr, und das Tier stemmt sich mit dir gegen die Strömung, Schritt für Schritt, bis der Kahn am Ufer liegt.
+    „Großer Mensch spricht Maultier“, sagt ein Kobold ehrfürchtig.
 * [Das Seil packen und den Kahn festhalten (Kraft)]
     ~ temp e = probe(kraft)
     ~ probe_zeile("Kraft", e)

@@ -148,7 +148,10 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 
 ### Tagebuch (13.10.2026, aus Pascos Handy-Chat)
 - **Tickwort bringt das Tagebuch** (schon so in Perle 1). Er kommt **vor** der ersten Aufgabe, nicht danach – so bleibt es.
-- **Tickwort soll die Bereiche des Tagebuchs erklären** (Werte, Erlebtes und Entscheidungen, Karte). Wird erst umgesetzt, **wenn das ganze Tagebuch ausgearbeitet ist** (Aufgabe in `docs/stand.md`, Punkt 4b).
+- **Tickwort soll die Bereiche des Tagebuchs erklären** – umgesetzt 14.10.2026.
+- **Bereiche des Tagebuchs (14.10.2026):** fünf Register-Laschen – **Ich** (Charakterbogen), **Erlebtes** (Einträge), **Karte**, **Taschen** (Gegenstände), **Menschen** (bekannte Figuren, ohne Beziehungswerte). „Fragen“ entfällt. Details: `docs/tagebuch.md`.
+- **Tags `# handschrift` und `# tagebuch_ende`** für Tagebuchseiten und Erinnerungen (14.10.2026), siehe `story-konventionen.md`.
+- **Texte „Was ich gut kann“** je Volk und Hintergrund bestätigt (14.10.2026), siehe `docs/tagebuch.md`.
 
 ## Offen
 - Native App (Android/iOS) oder für Tablets/Handys optimierte Webseite.
