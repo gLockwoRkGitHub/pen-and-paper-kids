@@ -2,15 +2,17 @@
 # (z. B. "# 10 · szene/hafen-kran · Referenzen: figuren/grisk-einzel.png, orte/hafen.png · 1536x1024").
 # Aufruf: powershell -File tools/erzeuge-szene.ps1 <prompt.txt> <zielordner> [-Anzahl 6] [-Seed 1] [-MaxRef 3]
 # Ergebnis: <zielordner>\<name>-s<seed>.png und <name>-uebersicht.png
-param([string]$Prompt, [string]$Ziel, [int]$Anzahl = 6, [int]$Seed = 1, [int]$MaxRef = 3)
+param([string]$Prompt, [string]$Ziel, [int]$Anzahl = 6, [int]$Seed = 1, [int]$MaxRef = 3, [int]$Breite = 0, [int]$Hoehe = 0, [string]$Extra = '')
 $kopf = Get-Content $Prompt -Encoding utf8 -TotalCount 1
 $name = [IO.Path]::GetFileName($Prompt) -replace '\.prompt\.txt$', ''
 $b = 1536; $h = 1024
-if ($kopf -match '(\d{3,4})x(\d{3,4})') { $b = [int]$Matches[1]; $h = [int]$Matches[2] }
-$refs = @([regex]::Matches($kopf, '[a-z0-9/\-]+\.png') | ForEach-Object { 'docs/art/' + $_.Value } | Where-Object { $_ -notmatch 'nach-sturz' } | Select-Object -First $MaxRef)
+if ($kopf -match '(\d{3,4})\s*[x×]\s*(\d{3,4})') { $b = [int]$Matches[1]; $h = [int]$Matches[2] }
+if ($Breite) { $b = $Breite; $h = $Hoehe }
+$refs = @([regex]::Matches($kopf, '[a-z0-9/\-]+\.png') | ForEach-Object { 'docs/art/' + ($_.Value -replace '^docs/art/', '') } | Select-Object -Unique | Where-Object { $_ -notmatch 'nach-sturz' } | Select-Object -First $MaxRef)
 $fehlt = @($refs | Where-Object { -not (Test-Path $_) })
 if ($fehlt.Count) { Write-Output "FEHLT ($name): $($fehlt -join ', ')"; exit 1 }
 $arg = @('tools/erzeuge-bild.js', $Prompt, "$Ziel\$name", '--anzahl', $Anzahl, '--seed', $Seed, '--breite', $b, '--hoehe', $h)
+if ($Extra) { $refs = @($refs) + @($Extra -split ',') }
 if ($refs.Count) { $arg += @('--referenz', ($refs -join ',')) }
 node @arg | Out-Null
 if ($LASTEXITCODE -ne 0) { Write-Output "FEHLER ($name)"; exit 1 }

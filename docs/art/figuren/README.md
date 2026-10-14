@@ -116,3 +116,9 @@ Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, nur aus Text. Referenzblatt: 
 
 ## Übersichten zum Auswählen
 `tools/bilduebersicht.ps1` setzt mehrere Seeds zu einem nummerierten Übersichtsbild zusammen.
+
+## Der Fremde – Schließe als Ringzeichen (R2, 14.10.2026)
+Die alte Schließe war eine Spirale (abgeschafft, siehe `docs/art/art-style.md`, „Verbotene Formen“). Gesicht und Bild sind abgenommen, deshalb wurde **nur die Schließe ersetzt**, nicht das Bild neu erzeugt:
+1. Bearbeitungsfassung mit FLUX.2 klein und dem Original plus `requisiten/ringzeichen.png` als Referenz („alles gleich, nur die Schließe aus vier verschlungenen Ringen“), 6 Seeds (Blatt: 4 Seeds).
+2. Aus der besten Fassung (Einzelbild Seed 5, Blatt Seed 2) nur den runden Bereich der Schließe ausgeschnitten und weich überblendet ins **Original** eingesetzt (Python/PIL statt Krita). Gesicht, Haltung und alles andere sind pixelgleich mit der abgenommenen Fassung.
+3. Auf dem Blatt in der Dreiviertelansicht die kleine Spiralscheibe mit Mantelgrau übermalt und eine verkleinerte Ringschließe eingesetzt. Seiten- und Rückansicht zeigen keine Schließe.
