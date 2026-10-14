@@ -165,14 +165,14 @@ Neu in der Prüfliste: **Das Graue** ist farblos und still, ohne Nebel, ohne Ges
 - [x] `orte/wollmark`, `orte/ginsterhof`, `orte/das-graue`, `orte/gnollenschlucht` → **14.10.2026:** alle vier. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt L – Szenenbilder (`docs/art/szenen/perle-4/`, 1536×1024)
-- [ ] 1 `szene-landtor-morgen` · 2 `figur-freund-verkleidet-liora` / `-cassian` · 3 `entdeckung-weiden`
-- [ ] 4 `szene-lamm-auf-der-strasse-liora` / `-cassian` · 5 `entdeckung-wollmark` · 6 `figur-strell`
-- [ ] 7 `szene-gasthaus-krummer-stab-liora` / `-cassian` · 8 `szene-freund-abgeholt-liora` / `-cassian` (Strell verbeugt sich)
-- [ ] 9 `szene-ginsterhof` · 10 `szene-das-graue` · 11 `szene-fremder-am-grauen`
-- [ ] 12 `szene-gnollenlager` · 13 `figur-ashka` · 14 `szene-nacht-das-schweigen`
-- [ ] 15 `szene-ruf-erde`, `-wasser`, `-feuer`, `-wind` · 16 `szene-morgen-danach`
-- [ ] 17 `tagebuch-perle-4` · ~~18 `karte-meridel-perle-4`~~ **entfällt** (Karte jetzt nach Abschnitt „Karten“)
-- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-4/uebersicht-*.png`) und Liste der Schwächen im README.
+- [x] 1 `szene-landtor-morgen` · 2 `figur-freund-verkleidet-liora` / `-cassian` · 3 `entdeckung-weiden` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
+- [x] 4 `szene-lamm-auf-der-strasse-liora` / `-cassian` · 5 `entdeckung-wollmark` · 6 `figur-strell` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
+- [x] 7 `szene-gasthaus-krummer-stab-liora` / `-cassian` · 8 `szene-freund-abgeholt-liora` / `-cassian` (Strell verbeugt sich) → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
+- [x] 9 `szene-ginsterhof` · 10 `szene-das-graue` · 11 `szene-fremder-am-grauen` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
+- [x] 12 `szene-gnollenlager` · 13 `figur-ashka` · 14 `szene-nacht-das-schweigen` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
+- [x] 15 `szene-ruf-erde`, `-wasser`, `-feuer`, `-wind` · 16 `szene-morgen-danach` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
+- [x] 17 `tagebuch-perle-4` · ~~18 `karte-meridel-perle-4`~~ **entfällt** (Karte jetzt nach Abschnitt „Karten“) → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
+- [x] **Übersicht für Pasco** (`docs/art/szenen/perle-4/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-4/README.md`.
 
 ## Perle 5 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
 

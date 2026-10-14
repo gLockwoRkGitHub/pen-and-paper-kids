@@ -152,3 +152,26 @@ Im Hintergrund Gnolle mit in den Nacken geworfenen Köpfen (heulend) und die Ges
 ## Hinweise
 - `karte: weiden`, `wollmark`, `ginsterhof`, `das-graue`, `gnollenlager` brauchen keine eigenen Bilder. Die Orte erscheinen später auf der Tagebuch-Karte.
 - Später braucht es eine **Tagebuch-Karte Meridel nach Perle 4** (mit Weiden, Wollmark, Ginsterhof, Ziegenstiege, grauem Streifen). Sie ist als Auftrag mit eingetragen.
+
+## Erzeugte Bilder (lokale Sitzung, 14.10.2026)
+Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `uebersicht-1.png`, `uebersicht-2.png`.
+
+| Bild | Seed | Bekannte Schwächen / Entscheidung |
+|---|---|---|
+| `szene-landtor-morgen` | 3 | – |
+| `figur-freund-verkleidet-liora` / `-cassian` | 3 / 3 | Samtjacke blitzt nur am Kragen hervor |
+| `entdeckung-weiden` | 2 | – |
+| `szene-lamm-auf-der-strasse-liora` / `-cassian` | 1 / 1 | – |
+| `entdeckung-wollmark` | 2 | – |
+| `figur-strell` | 1 | Andere Seeds hatten ein Schild mit Pseudo-Schrift |
+| `szene-gasthaus-krummer-stab-liora` / `-cassian` | 2 / 2 | Recht dunkel |
+| `szene-freund-abgeholt-liora` / `-cassian` | 5 / 5 | **Strell verbeugt sich nicht** (in keinem Seed), er beugt sich nur leicht vor |
+| `szene-ginsterhof` | 2 | – |
+| `szene-das-graue` | 2 | – |
+| `szene-fremder-am-grauen` | 1 | Gesicht sichtbar wie gewählt; Ringzeichen auf einem Pfosten, vier Ringe im Kreis |
+| `szene-gnollenlager` | 3 | – |
+| `figur-ashka` | 8 (Runde 2) | Runde 1: Ashka in allen Seeds doppelt. Runde 2 mit nur einer Referenz und „nur eine“ im Prompt |
+| `szene-nacht-das-schweigen` | 5 | Graue Schwaden am Himmel, die wie Nebel wirken (alle Seeds) |
+| `szene-ruf-erde` / `-wasser` / `-feuer` / `-wind` | 3 / 3 / 2 / 4 | Ashka nicht deutlich erkennbar |
+| `szene-morgen-danach` | 2 | – |
+| `tagebuch-perle-4` | 4 | Buch auf Tisch |
