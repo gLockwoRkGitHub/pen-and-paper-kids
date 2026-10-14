@@ -118,7 +118,7 @@ Direkt **nach Perle 1** beginnen. Beschreibung jedes Bildes: `docs/art/szenen/pe
 Neu in der Prüfliste: Liora/Cassian ist **verkleidet** (zu große Arbeiterjacke, Mütze, Samtjacke blitzt hervor, Schnallenschuhe). Beim Erwachen geht die Magie **vom Betrachter aus, ohne Hände**.
 
 ### Schritt V – Ortsbild und erste Szenen
-- [ ] `orte/raederviertel` (1536×1024), zuerst, es ist die Referenz für fast alle Bilder
+- [x] `orte/raederviertel` (1536×1024), zuerst, es ist die Referenz für fast alle Bilder → **14.10.2026:** `orte/raederviertel.png` (Seed 2). Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 - [ ] 1 `entdeckung-raederviertel` · 2 `szene-erzlaende` · 3 `szene-tuchhalle` · 4 `szene-grosse-schmiede` · 5 `szene-faerberturm-feuer`
 
 ### Schritt W – Erwachen und Abend
@@ -132,14 +132,14 @@ Erst **nach** den Bildern von Perle 1 (Schritte A–F) beginnen, denn viele Figu
 Beschreibung jedes Bildes: `docs/art/szenen/perle-3/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
 
 ### Schritt G – Neue Figuren (Einzelbild 832×1216 + Referenzblatt 2048×832 mit `blatt-allgemein.prompt.txt`)
-- [ ] **Meister Kettrich** und **Mirk** (`kettrich-einzel.prompt.txt`, `mirk-einzel.prompt.txt`) – stammen aus Perle 2, hatten noch kein Bild
-- [ ] **Seraphine Arvelle** und **der Vater** (`seraphine-arvelle-einzel.prompt.txt`, `vater-arvelle-einzel.prompt.txt`) – Prüfen: Seraphine wirkt elegant und freundlich-kühl, keine Märchenhexe
-- [ ] **Meisterin Ambra** (`ambra-einzel.prompt.txt`) – Prüfen: wirklich **keine Augenbrauen**
-- [ ] **Hulda**, **der Gnomenjunge**, **Schreiber der Waage** (`hulda-`, `gnomenjunge-`, `schreiber-waage-einzel.prompt.txt`) – Prüfen: Hulda ist ein Mädchen ohne Bart
+- [x] **Meister Kettrich** und **Mirk** (`kettrich-einzel.prompt.txt`, `mirk-einzel.prompt.txt`) – stammen aus Perle 2, hatten noch kein Bild → **14.10.2026:** Kettrich (Runde 3, Bildbearbeitung) und Mirk. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] **Seraphine Arvelle** und **der Vater** (`seraphine-arvelle-einzel.prompt.txt`, `vater-arvelle-einzel.prompt.txt`) – Prüfen: Seraphine wirkt elegant und freundlich-kühl, keine Märchenhexe → **14.10.2026:** beide. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] **Meisterin Ambra** (`ambra-einzel.prompt.txt`) – Prüfen: wirklich **keine Augenbrauen** → **14.10.2026:** keine Augenbrauen erst in Runde 3 (Bildbearbeitung). Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] **Hulda**, **der Gnomenjunge**, **Schreiber der Waage** (`hulda-`, `gnomenjunge-`, `schreiber-waage-einzel.prompt.txt`) – Prüfen: Hulda ist ein Mädchen ohne Bart → **14.10.2026:** alle drei, Hulda ohne Bart. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt H – Requisiten und Ortsbilder
-- [ ] **Gildenzeichen** (`requisiten/gildenzeichen.prompt.txt`, 1536×1024): fünf Gegenstände nebeneinander
-- [ ] **Ortsbilder** (1536×1024): `orte/tuchhalle`, `orte/gewoelbe`, `orte/phiole-hof`
+- [x] **Gildenzeichen** (`requisiten/gildenzeichen.prompt.txt`, 1536×1024): fünf Gegenstände nebeneinander → **14.10.2026:** `requisiten/gildenzeichen.png`. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] **Ortsbilder** (1536×1024): `orte/tuchhalle`, `orte/gewoelbe`, `orte/phiole-hof` → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt I – Szenenbilder (`docs/art/szenen/perle-3/`, 1536×1024)
 - [ ] 1 `szene-morgen-mentor-<element>` (vier Varianten: erde, wasser, feuer, wind)
@@ -158,11 +158,11 @@ Erst **nach** Perle 1 und 3 beginnen. Beschreibung jedes Bildes: `docs/art/szene
 Neu in der Prüfliste: **Das Graue** ist farblos und still, ohne Nebel, ohne Gesichter, ohne Monster. **Gnolle** sind mager und müde, keine gefletschten Zähne.
 
 ### Schritt J – Neue Figuren (Einzelbild 832×1216 + Referenzblatt 2048×832 mit `blatt-allgemein.prompt.txt`)
-- [ ] **Merla**, **Hauptmann Strell**, **Jorrit** (`merla-`, `strell-`, `jorrit-einzel.prompt.txt`)
-- [ ] **Ashka**, **Wuk**, **Gnoll allgemein** (`ashka-`, `wuk-`, `gnoll-einzel.prompt.txt`) – Prüfen: hyänenartig, gefleckt, nicht bedrohlich; Wuk ist erkennbar ein Gnoll, kein Hundewelpe
+- [x] **Merla**, **Hauptmann Strell**, **Jorrit** (`merla-`, `strell-`, `jorrit-einzel.prompt.txt`) → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] **Ashka**, **Wuk**, **Gnoll allgemein** (`ashka-`, `wuk-`, `gnoll-einzel.prompt.txt`) – Prüfen: hyänenartig, gefleckt, nicht bedrohlich; Wuk ist erkennbar ein Gnoll, kein Hundewelpe → **14.10.2026:** alle drei; Wuk in Runde 2, wirkt weiter tierhaft (siehe README). Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt K – Ortsbilder (1536×1024)
-- [ ] `orte/wollmark`, `orte/ginsterhof`, `orte/das-graue`, `orte/gnollenschlucht`
+- [x] `orte/wollmark`, `orte/ginsterhof`, `orte/das-graue`, `orte/gnollenschlucht` → **14.10.2026:** alle vier. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt L – Szenenbilder (`docs/art/szenen/perle-4/`, 1536×1024)
 - [ ] 1 `szene-landtor-morgen` · 2 `figur-freund-verkleidet-liora` / `-cassian` · 3 `entdeckung-weiden`
@@ -180,11 +180,11 @@ Erst **nach** Perle 1, 3 und 4 beginnen. Beschreibung jedes Bildes: `docs/art/sz
 Neu in der Prüfliste: **Unter der Erde trotzdem warm und lesbar**, keine schwarzen Flächen. **Zwergenzeichen** nur als Ornamente, keine Buchstaben. Im Herz des Berges: **genau vier** verschlungene Ringe im Boden und **vier** Lichter im Kristall.
 
 ### Schritt M – Neue Figuren und Requisiten
-- [ ] **Gildenaufseher Dorn**, **Talin**, **Koboldkind** (`dorn-`, `talin-`, `koboldkind-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt)
-- [ ] **Requisiten** (1024×1024): `stimmerz`, `herzsplitter`, `singlampe`
+- [x] **Gildenaufseher Dorn**, **Talin**, **Koboldkind** (`dorn-`, `talin-`, `koboldkind-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt) → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] **Requisiten** (1024×1024): `stimmerz`, `herzsplitter`, `singlampe` → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt N – Ortsbilder (1536×1024)
-- [ ] `orte/minentor`, `orte/glimmhalde`, `orte/tiefe-stiege`, `orte/herz-des-berges`
+- [x] `orte/minentor`, `orte/glimmhalde`, `orte/tiefe-stiege`, `orte/herz-des-berges` → **14.10.2026:** alle vier (Minentor Runde 3, Glimmhalde und Herz Runde 2). Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt O – Szenenbilder (`docs/art/szenen/perle-5/`, 1536×1024)
 - [ ] 1 `szene-brief-in-wollmark` · 2 `entdeckung-orin-treidelpfad` · 3 `entdeckung-minentor` · 4 `entdeckung-glimmhalde`
@@ -199,11 +199,11 @@ Erst **nach** Perle 1, 3, 4 und 5 beginnen. Beschreibung jedes Bildes: `docs/art
 Neu in der Prüfliste: **genau vier Farben** (braun, blau, rot, weiß) bei Kugeln, Funken, Kuppel und Ruf. **Das Schweigen ohne Nebel**, nur fehlende Farbe. **Spiegel mit Riss** ab Bild 11. Bei der Vorführung **fehlt ein Goldknopf** am Ärmel von Liora/Cassian.
 
 ### Schritt P – Neue Figuren und Requisiten
-- [ ] **Magister Pell**, **ältester Ratsherr** (`pell-`, `ratsherr-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt)
-- [ ] **Requisiten** (1024×1024): `plakette-waage`, `kugel-im-korb`
+- [x] **Magister Pell**, **ältester Ratsherr** (`pell-`, `ratsherr-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt) → **14.10.2026:** beide. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] **Requisiten** (1024×1024): `plakette-waage`, `kugel-im-korb` → **14.10.2026:** beide (Kugel-im-Korb Runde 2). Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt Q – Ortsbilder (1536×1024)
-- [ ] `orte/vardholm`, `orte/vardholm-hof`, `orte/kugelhalle`
+- [x] `orte/vardholm`, `orte/vardholm-hof`, `orte/kugelhalle` → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt R – Szenenbilder (`docs/art/szenen/perle-6/`, 1536×1024)
 - [ ] 1 `entdeckung-spaltstrasse-vardholm` · 2 `szene-yrsas-karren` · 3 `szene-mauer-vardholm` · 4 `entdeckung-vardholm-hof`
@@ -218,8 +218,8 @@ Erst **nach** Perle 1 und 3–6 beginnen. Beschreibung jedes Bildes: `docs/art/s
 Neu in der Prüfliste: **Geschenke** sehen aus wie in `requisiten/abschiedsgeschenke.png`. **Jenseits der Berge braun-golden**, graue Flecken ohne Nebel. In der Bucht ist der Kapitän **nur Silhouette**. Durgash hat **einen abgebrochenen Hauer**.
 
 ### Schritt S – Neue Figuren, Ortsbild, Requisiten
-- [ ] **Durgash**, **Haldor**, **Fährfrau** (`durgash-`, `haldor-`, `faehrfrau-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt)
-- [ ] `orte/dornfurt` (1536×1024) · `requisiten/abschiedsgeschenke` (1536×1024)
+- [x] **Durgash**, **Haldor**, **Fährfrau** (`durgash-`, `haldor-`, `faehrfrau-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt) → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
+- [x] `orte/dornfurt` (1536×1024) · `requisiten/abschiedsgeschenke` (1536×1024) → **14.10.2026:** beide. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt T – Szenenbilder Teil 1 (`docs/art/szenen/perle-7/`, 1536×1024)
 - [ ] 1 `szene-abschied-vardholm-kommt-<liora|cassian>` · `szene-abschied-vardholm-bleibt-<liora|cassian>` · 2 `szene-heimkehr-lysmara`

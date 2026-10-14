@@ -128,25 +128,25 @@ Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, 6 Seeds, nur aus Text. Refere
 
 | Figur | Seed Einzelbild | Seed Blatt | Entscheidung / bekannte Schwächen |
 |---|---|---|---|
-| `kettrich` | Runde 3 | – | Runde 1 und 2 (12 Seeds): immer eine normale Brille. Runde 3: Seed 1 mit `kettrich-brille.prompt.txt` als Bildbearbeitung („drei Gläser übereinander“), Seed 4 gewählt: pro Auge drei kleine Linsen senkrecht übereinander |
-| `mirk` | 2 | – | Gesprungene Brille kaum zu sehen |
-| `seraphine-arvelle` | 5 | – | Elegant, freundlich-kühl, keine Märchenhexe |
-| `vater-arvelle` | 1 | – | – |
-| `ambra` | Runde 3 | – | Runde 1 und 2: immer Augenbrauen. Runde 3: Seed 3 mit `ambra-augenbrauen.prompt.txt` als Bildbearbeitung, Seed 3 gewählt (lacht mit geschlossenen Augen, keine Augenbrauen). Die anderen Seeds der Runde 3 hatten kein Gesicht mehr |
-| `hulda` | 3 | – | Mädchen ohne Bart |
-| `gnomenjunge` | 4 | – | – |
-| `schreiber-waage` | 3 | – | – |
-| `merla` | 4 | – | Hält einen Spaten (Requisit) |
-| `strell` | 2 | – | Schwert in der Scheide |
-| `jorrit` | 1 | – | Ziege daneben |
-| `ashka` | 1 | – | Wirkt eher wolfs- als hyänenartig, aber gefleckt und ruhig. Eingerissenes Ohr kaum zu sehen |
-| `wuk` | 11 (Runde 2) | – | Runde 1 sah aus wie ein Tierjunges; Prompt nachgeschärft (aufrecht, Hände mit Fingern, Kiesel). Wirkt weiter sehr tierhaft (Hyänenjunges auf zwei Beinen) |
-| `gnoll` | 1 | – | Speer in der Hand |
-| `dorn` | 3 | – | – |
-| `talin` | 3 | – | – |
-| `koboldkind` | 4 | – | – |
-| `pell` | 3 | – | – |
-| `ratsherr` | 3 | – | – |
-| `durgash` | 3 | – | Nur in diesem Seed ist ein Hauer sichtbar abgebrochen |
-| `haldor` | 3 | – | – |
-| `faehrfrau` | 4 | – | Auf dem Ruderblatt vier Ringe im Kreis, nicht ganz sauber verschlungen (Mitte nicht ganz frei) |
+| `kettrich` | Runde 3 | 2 | Runde 1 und 2 (12 Seeds): immer eine normale Brille. Runde 3: Seed 1 mit `kettrich-brille.prompt.txt` als Bildbearbeitung („drei Gläser übereinander“), Seed 4 gewählt: pro Auge drei kleine Linsen senkrecht übereinander. **Auf dem Blatt nur eine normale runde Brille** – in Szenen das Einzelbild als Referenz nehmen |
+| `mirk` | 2 | 2 | Gesprungene Brille kaum zu sehen |
+| `seraphine-arvelle` | 5 | 3 | Elegant, freundlich-kühl, keine Märchenhexe |
+| `vater-arvelle` | 1 | 3 | Auf dem Blatt ist der Mantel dunkelgrün statt schwarz |
+| `ambra` | Runde 3 | 1 | Runde 1 und 2: immer Augenbrauen. Runde 3: Seed 3 mit `ambra-augenbrauen.prompt.txt` als Bildbearbeitung, Seed 3 gewählt (lacht mit geschlossenen Augen, keine Augenbrauen). Die anderen Seeds der Runde 3 hatten kein Gesicht mehr |
+| `hulda` | 3 | 2 | Mädchen ohne Bart |
+| `gnomenjunge` | 4 | 3 | – |
+| `schreiber-waage` | 3 | 3 | – |
+| `merla` | 4 | 4 | Hält einen Spaten (Requisit) |
+| `strell` | 2 | 1 | Schwert in der Scheide |
+| `jorrit` | 1 | 4 | Ziege daneben |
+| `ashka` | 1 | 2 | Wirkt eher wolfs- als hyänenartig, aber gefleckt und ruhig. Eingerissenes Ohr kaum zu sehen |
+| `wuk` | 11 (Runde 2) | 2 | Runde 1 sah aus wie ein Tierjunges; Prompt nachgeschärft (aufrecht, Hände mit Fingern, Kiesel). Wirkt weiter sehr tierhaft (Hyänenjunges auf zwei Beinen) |
+| `gnoll` | 1 | 3 | Speer in der Hand |
+| `dorn` | 3 | 1 | – |
+| `talin` | 3 | 2 | – |
+| `koboldkind` | 4 | 1 | – |
+| `pell` | 3 | 3 | – |
+| `ratsherr` | 3 | 3 | – |
+| `durgash` | 3 | 1 | Nur in diesem Seed ist ein Hauer sichtbar abgebrochen |
+| `haldor` | 3 | 3 | – |
+| `faehrfrau` | 4 | 3 | Auf dem Ruderblatt vier Ringe im Kreis, nicht ganz sauber verschlungen (Mitte nicht ganz frei) |
