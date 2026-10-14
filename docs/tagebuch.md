@@ -29,24 +29,28 @@ Für die Beta reichen **Ich, Erlebtes, Karte**. Taschen, Menschen und Fragen mac
 
 Wie im abgenommenen Entwurf. Neu ist nur der Text für **„Was ich gut kann“**: ein Satz zum Volk und ein bis zwei Sätze zum Hintergrund, in der Ich-Form, als Handschrift.
 
+**Überarbeitet vom Technologie-Chat (14.10.2026)** und mit Perle 1–7 abgeglichen: Die Sätze verwenden die Formulierungen der Story (Intro in `perle-1/intro.ink`, Zitate der Bezugspersonen) und versprechen nur, was die Geschichte auch einlöst. Wo ein Hintergrund bei Proben hilft, deutet der Text an, **wobei** – so merkt das Kind, wann es sich lohnt.
+
 ### Volk
-| Volk | Text | Bonus |
-|---|---|---|
-| Mensch | „Ich lerne schnell und finde mich überall zurecht. In jeder Stadt finde ich jemanden, der mir weiterhilft.“ | +1 nach Wahl |
-| Zwerg | „Ich bin stark und stur wie der Fels. Was ich einmal festhalte, lasse ich nicht mehr los.“ | +1 Kraft |
-| Gnom | „In meinem Kopf drehen sich immer Zahnräder. Für jedes Problem fällt mir eine Idee ein, meistens sogar zwei.“ | +1 Verstand |
-| Ork | „Ich bin laut, und das ist gut so. Wenn ich rede, hören die Leute zu.“ | +1 Ausstrahlung |
-| Troll | „Ich bin größer als die meisten und trotzdem schneller. Niemand rechnet damit, wie flink ich bin.“ | +1 Geschick |
+| Volk | Text | Bonus | Wo die Story es aufgreift |
+|---|---|---|---|
+| Mensch | „Ich lerne schnell und passe mich an. In jeder Stadt finde ich mich zurecht.“ | +1 nach Wahl | Intro (Lysmara ist eine Menschenstadt) |
+| Zwerg | „Ich bin stark und stur wie der Fels. Was ich einmal festhalte, lasse ich nicht mehr los.“ | +1 Kraft | Intro; Borrik begrüßt dich als „Kind des Berges“ |
+| Gnom | „In meinem Kopf drehen sich immer Zahnräder. Für jedes Problem fällt mir eine Idee ein, meistens sogar zwei.“ | +1 Verstand | Intro |
+| Ork | „Ich bin laut und stolz, und mein Herz sitzt am rechten Fleck. Wenn ich rede, hören die Leute zu.“ | +1 Ausstrahlung | Intro; Grumak grüßt dich als einen aus den Clans |
+| Troll | „Ich bin größer als die meisten und trotzdem schneller als fast alle. Niemand rechnet damit, wie flink ich bin.“ | +1 Geschick | Intro; Grumak grüßt dich als einen aus den Clans |
 
 ### Hintergrund
-| Hintergrund | Text | Besondere Möglichkeiten in der Geschichte |
+| Hintergrund | Text | Was die Story einlöst |
 |---|---|---|
-| Reisende/r | „Ich bin mit Maren über viele Straßen gezogen. Ich kenne Wege, die auf keiner Karte stehen, und kann überall schlafen.“ | – |
-| Schausteller/in | „Ich bin bei den Funkelnden Narren aufgewachsen. Ich kann jonglieren, Grimassen schneiden und ein ganzes Publikum zum Lachen bringen.“ | eine Vorstellung geben |
-| Straßenkind | „Ich kenne jede Gasse in Lysmara, jedes Dach und jeden Keller. Mutter Kessel sagt, ich finde überall einen Weg hinein. Und wieder hinaus.“ | über die Dächer, die Gewölbe, Abkürzungen |
-| Botenläufer/in | „Ich bin schnell, und ich kenne jeden Torwärter beim Namen. Meister Holm sagt, im ganzen Botenhaus läuft keiner schneller als ich.“ | Abkürzungen, Kontakte, „Eilzustellung kostet extra“ |
-| Kartografenlehrling | „Ich zeichne, was andere übersehen. Meisterin Ysolde sagt, jede Karte erzählt eine Geschichte, wenn man genau hinsieht.“ | Kontakte |
-| Schiffsjunge | „Ich kenne jedes Tau und jeden Knoten an Bord der Seemöwe. Kapitänin Rhea sagt, ich habe Seebeine.“ | Seemannsknoten; Kapitänin Rhea segelt im Finale selbst |
+| Reisende/r | „Seit drei Sommern ziehe ich mit Maren über die Wege des Landes. Ich finde Pfade, die auf keiner Karte stehen.“ | **nichts** – siehe Lücke unten |
+| Schausteller/in | „Ich gehöre zu den Funkelnden Narren. Ich kann jonglieren und weiß, wie man ein Publikum fesselt. Man muss nur wissen, wo es kitzelt.“ | Perle 1: Vorstellung geben (Ausstrahlung +1) |
+| Straßenkind | „Ich kenne jede Abkürzung zwischen Hafen und Markt, jedes Dach und jeden Keller. Wo andere nicht durchkommen, schlüpfe ich hindurch.“ | Perle 1: über die Dächer, durch die Hinterhöfe; Perle 3: die Gewölbe, unter der Zeltwand durch (Geschick +1) |
+| Botenläufer/in | „Ich laufe für das Botenhaus am Markt und kenne jeden Torwächter mit Namen. Meister Holm sagt, ich hätte Wind in den Beinen. Und niemand hält einen Boten auf.“ | Perle 1: „Eilzustellung kostet extra“, Abkürzung, Botengang über die Berge; Perle 2: Kontakte; Perle 3: als Bote ins Zelt (Ausstrahlung +1) |
+| Kartografenlehrling | „Zwei Jahre habe ich bei Meisterin Ysolde gelernt. Wenn ich etwas zeichnen oder vermessen soll, weiß meine Hand, was zu tun ist.“ | Perle 1 und 3: Zeichnen und Vermessen (Verstand +1); Orwin kennt dich; Perle 2: Kontakte |
+| Schiffsjunge | „Ich fahre auf der Seemöwe von Kapitänin Rhea. Ich kenne jedes Tau und jeden Knoten, und in der Takelage klettere ich wie andere auf einer Treppe.“ | Perle 1: Seemannsknoten; Perle 2: Nerelle kennt dich; Perle 7: Rhea segelt selbst, Seeweg immer offen |
+
+**Lücke (für den Story-Chat):** Der **Reisende** hat in allen sieben Perlen keine einzige eigene Möglichkeit, obwohl der Text (und `docs/regeln.md`) Pfade abseits der Karten verspricht. Passende Stellen wären z. B. Perle 4 (Weg über die Weiden, Gnollenschlucht finden), Perle 5 (Treidelpfad) oder Perle 7 (Wolfspfad, Ziegenstiege). Zwei bis drei Optionen „(Reisender) …“ würden reichen. Auch das **Volk** spielt nach dem Intro kaum noch eine Rolle (nur Borrik und Grumak) – das ist in Ordnung, die Texte versprechen dort nichts weiter.
 
 Die „besonderen Möglichkeiten“ stehen nicht im Buch. Sie sind nur zur Kontrolle hier, damit der Text zu dem passt, was die Geschichte anbietet.
 
@@ -112,4 +116,4 @@ Wird erst eingebaut, wenn die Bereiche entschieden sind (Beschluss 13.10.2026). 
 
 1. Welche Bereiche kommen ins Buch? Mindestens Ich, Erlebtes, Karte; dazu Taschen, Menschen, Fragen?
 2. ~~Die Tags `# handschrift` und `# tagebuch_ende`~~ – **entschieden und eingebaut 14.10.2026** (Pasco; vom Technologie-Chat in alle 17 Einträge gesetzt, siehe `story-konventionen.md` Abschnitt 7).
-3. Passen die Texte für „Was ich gut kann“?
+3. Passen die Texte für „Was ich gut kann“? (vom Technologie-Chat überarbeitet, 14.10.2026)
