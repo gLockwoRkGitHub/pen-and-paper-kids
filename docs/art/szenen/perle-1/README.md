@@ -10,7 +10,7 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 - **Keine lesbare Schrift** im Bild. Schilder, Aushänge und Bücher bleiben leer oder unleserlich verwischt. Echte Texte kommen später aus der App.
 - **Format:** 1536 × 1024 (quer), FLUX.2 klein, je Bild 4–6 Seeds, das beste auswählen.
 - **Ebenen:** *Szene* = vollflächig gemalt. *Entdeckung* = gemalte Mitte, die Ränder lösen sich in Bleistiftskizze und Farbspritzer auf. *Tagebuch* = Kohle-/Bleistiftskizze auf Papier, wie vom Kind selbst gezeichnet.
-- **Die Spirale** (Zeichen des Fremden, `docs/art/requisiten/spiralsiegel.png`) ist in drei Bildern als kleines Suchspiel versteckt (unten mit 🔍 markiert). Wenn das Modell sie nicht sauber hinbekommt, lieber weglassen und später in Krita von Hand einsetzen.
+- **Die vier verschlungenen Ringe** (Zeichen des Fremden, `docs/art/requisiten/ringzeichen.png`, bis 14.10.2026 eine Spirale) sind in drei Bildern als kleines Suchspiel versteckt (unten mit 🔍 markiert). Wenn das Modell sie nicht sauber hinbekommt (keine Drehform, keine Ringe in einer Reihe!), lieber weglassen und später in Krita von Hand einsetzen.
 - **Varianten** hängen am Tag mit Bindestrich: `szene/bezugsperson-packt` → `szene-bezugsperson-packt-<hintergrund>.png`, `figur/freund` → `figur-freund-liora.png` / `-cassian.png`. Die App wählt später die passende Variante.
 - **Dateinamen:** Tag mit `-` statt `/`, z. B. `szene/hafen-kran` → `docs/art/szenen/perle-1/szene-hafen-kran.png`. Die Prompts liegen daneben als `.prompt.txt`.
 
@@ -46,10 +46,10 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 ## 4. `szene/fremder-im-regen` – Der Fremde unter dem Torbogen
 **Ebene:** Szene · **Moment:** Die Spielfigur sucht unter dem Torbogen des Alten Zollhauses Schutz vor dem Regen. Im Schatten steht der Fremde und hält ihr einen Brief hin. „Du siehst aus wie jemand, der Wege kennt.“
 **Aussage:** Geheimnis, nicht Bedrohung. Er ist ruhig und beinahe freundlich, und trotzdem stellen sich einem die Nackenhaare auf.
-**Blick:** unter einem großen, alten Steinbogen. Der Fremde steht zwei Schritte entfernt, halb im Schatten (Gesicht sichtbar wie im gewählten Einzelbild) und streckt die Hand im grauen Handschuh mit dem Brief zum Betrachter aus. **Das dunkelgrüne Spiralsiegel** ist deutlich zu sehen und fängt das Licht. Hinter ihm dunkle nasse Gasse, Regenschnüre im Laternenlicht.
+**Blick:** unter einem großen, alten Steinbogen. Der Fremde steht zwei Schritte entfernt, halb im Schatten (Gesicht sichtbar wie im gewählten Einzelbild) und streckt die Hand im grauen Handschuh mit dem Brief zum Betrachter aus. **Das dunkelgrüne Ringsiegel** ist deutlich zu sehen und fängt das Licht. Hinter ihm dunkle nasse Gasse, Regenschnüre im Laternenlicht.
 **Figur:** wie im Grundaussehen, dazu als Szenenzustand: **Mantel nass vom Regen**, der Brief in der Hand. Gesicht unter der Kapuze sichtbar wie im gewählten Einzelbild (geändert 13.10.2026), halb im Schatten, die Augen **schimmern** silbrig wie Mondlicht auf Wasser und leuchten nicht.
 **Licht:** eine einzelne Laterne am Torbogen, kaltes Blaugrau, Regen glänzt.
-**Referenzen:** `fremder-einzel` (die abgenommene Fassung), `requisiten/spiralsiegel.png`.
+**Referenzen:** `fremder-einzel` (die abgenommene Fassung), `requisiten/ringsiegel.png`.
 
 ## 5. `szene/eintreiber-fesk` – Fesk vor der Tür
 **Ebene:** Szene · **Moment:** Die Spielfigur kommt durchnässt zurück, vor der Tür wartet Fesk. Er schlägt sein dickes Buch auf: „Vierzig Silbermark.“
@@ -77,7 +77,7 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 **Ebene:** Entdeckung · **Moment:** der kürzeste Weg zum Markt. „Hier riecht es nach Öl und heißem Metall, und aus jedem Fenster tickt, rattert oder pfeift es.“
 **Aussage:** Willkommen bei den Gnomen. Alles ist präzise, ordentlich und voller Maschinen.
 **Blick:** die enge, leicht ansteigende Gasse hinauf. Zu beiden Seiten schmale Werkstätten mit Schaufenstern voller Zahnräder, Uhren und kleiner Automaten, aus Rohren pufft Dampf, über der Gasse hängen Leitungen und kleine Seilbahnen für Werkzeuge. Ein, zwei Gnome bei der Arbeit. Rechts vorn die Werkstatt **Pimpelgrund & Zahnrad** mit runder grüner Tür und leerem Schild.
-**🔍 Spirale:** klein in einen Holzbalken über einer Tür eingeritzt.
+**🔍 Ringzeichen:** klein in einen Holzbalken über einer Tür eingeritzt.
 **Licht:** Vormittag, Sonnenstreifen fallen schräg in die Gasse, Dampf leuchtet darin.
 **Referenzen:** keine. Das Bild dient danach als Ortsbild für Bild 9.
 
@@ -105,7 +105,7 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 **Ebene:** Szene · **Moment:** Oben auf den Klippen pfeift der Wind so heftig, dass Tickwort sich festklammert. „Ich wiege elf Pfund! Bei dieser Windstärke ist das eine sehr ernste Angelegenheit!“ Unten donnert das Meer, auf der äußersten Klippe steht der alte Leuchtturm, weiß und schief wie ein abgebrochener Zahn.
 **Aussage:** Weite, Wind, Freiheit, und ein Turm, in dem jemand wohnt, der keinen Besuch will.
 **Blick:** vom Klippenpfad nach Norden die Küste entlang. Rechts das grasige Hochland mit Ginster, links der Abgrund und die weiße Brandung. Hinten auf der äußersten Klippe der **schiefe weiße Leuchtturm**, im höchsten Fenster eine winzige, kaum erkennbare Gestalt. Vorn rechts klammert sich **Tickwort** mit beiden Zangen an einen Grasbüschel, das Glasauge weit aufgerissen, sein Dampfwölkchen wird waagerecht weggeweht.
-**🔍 Spirale:** klein in einen moosigen Felsen am Wegrand geritzt.
+**🔍 Ringzeichen:** klein in einen moosigen Felsen am Wegrand geritzt.
 **Licht:** heller, windiger Tag, schnelle Wolken, Gischt in der Luft.
 **Referenzen:** `tickwort-einzel`, Ortsbild `klippen-von-ahrn`.
 **Hinweis:** Die neue Mauer und der halbe Wachturm der Waage gehören **nicht** in dieses Bild. Sie sieht man nur bei einer guten Skizze, und das kommt im Text.
@@ -151,7 +151,7 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 **Ebene:** Entdeckung · **Moment:** Alle Glocken läuten. Auf den Stufen der Ratshalle steht ein Herold im roten Mantel, um ihn im Halbkreis Söldner der Goldenen Waage. „Auf Beschluss des Rates ist der Nyrrspalt ab sofort geschlossen.“
 **Aussage:** der Wendepunkt der Perle. Die Tür nach draußen fällt zu.
 **Blick:** aus der Menge auf dem Marktplatz zu den breiten Stufen der Ratshalle hinauf. Oben der **Herold**, der ein Pergament entrollt, um ihn ein Halbkreis von sechs bis acht **Söldnern** in schwarzen Mänteln mit goldener Waage. Vorn die Rücken und Köpfe der Menge (Menschen, Zwerge, Gnome, ein großer Ork), erhobene Fäuste, besorgte Gesichter im Profil. Über der Ratshalle der Glockenturm, Tauben fliegen auf. Am rechten Bildrand, klein, unter einem Torbogen im Schatten eine graue Kapuzengestalt.
-**🔍 Spirale:** mit Kreide auf den Pfeiler dieses Torbogens gemalt.
+**🔍 Ringzeichen:** mit Kreide auf den Pfeiler dieses Torbogens gemalt.
 **Licht:** später Nachmittag, schräges goldenes Licht, die Söldner wie dunkle Scherenschnitte.
 **Referenzen:** Ortsbild `marktplatz`, `herold-einzel`, `soeldner-waage-einzel`.
 
@@ -203,7 +203,7 @@ Mehrere Referenzbilder funktionieren (getestet mit drei); Szenen mit drei Refere
 | `figur-tickwort` | 1 | **Vier Beine statt drei** sichtbar; ein Auge, Zangen und Schornstein stimmen. In den anderen Seeds: Katzenohren, zweites Auge am Bauch |
 | `szene-hafen-kran` | 5 | Brann hat Glatze (wie Referenz) |
 | `szene-weite-feder` | 2 | Zweite Brille auf der Stirn nur angedeutet; Hände sehr blau |
-| `szene-klippen-leuchtturm` | 2 | Im Sand ist eine kleine Spirale zu sehen (passt zum Suchspiel, war aber nicht bestellt) |
+| `szene-klippen-leuchtturm` | 2 | Im Sand ist eine kleine Spirale zu sehen – **muss weg** (Spirale abgeschafft 14.10.2026, siehe `docs/auftraege.md`) |
 | `szene-markt` | 1 (zweite Runde) | Erste Runde: Zeichen auf Finks Mütze sah wie ein ausgestreckter Finger aus, ein Seed zeigte Hände der Spielfigur. Prompt nachgeschärft. Finks Jacke wirkt modern |
 | `szene-stadtwache` | 3 | Tickworts Beine nicht im Bild |
 | `figur-grumak` | 2 | Hauer zeigen nach oben und sind sehr groß; Größe ohne Vergleichsfigur schwer zu sehen |

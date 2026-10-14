@@ -295,7 +295,7 @@ In deiner Tasche summt der Splitter. Lauter als sonst. Als würde er nach Hause 
 * [Den Splitter zurückgeben]
     ~ herzsplitter = false
     ~ herz_beruhigt = true
-    Du gehst über die Spirale aus vier Linien, bis du direkt unter dem Kristall stehst. Du wickelst den Splitter aus und hältst ihn hoch.
+    Du gehst über die vier Ringe im Boden, bis du direkt unter dem Kristall stehst. Du wickelst den Splitter aus und hältst ihn hoch.
     Er fliegt dir aus der Hand. Einfach so. Er schwebt hinauf, dreht sich, und setzt sich in den Riss, genau dorthin, wo er hingehört. Die vier Lichter flackern. Dann leuchten sie heller.
     Der Riss ist nicht geheilt. Aber er ist ein kleines Stück kürzer. Und für einen Herzschlag hörst du alle vier Elemente gleichzeitig, und sie klingen wie ein Seufzer.
 * [Ihn behalten. Da draußen braucht vielleicht jemand den Beweis.]

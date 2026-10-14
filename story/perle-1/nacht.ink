@@ -65,7 +65,7 @@ Im Schatten steht jemand in einem langen grauen Mantel, die Kapuze tief ins Gesi
 
 „Du siehst aus wie jemand, der Wege kennt“, sagt der Fremde. Seine Stimme klingt wie trockenes Laub.
 
-Er hält dir einen Brief hin. Das Siegel ist aus dunkelgrünem Wachs, und darin ist ein Zeichen eingedrückt: eine Spirale aus vier Linien, die sich ineinander winden.
+Er hält dir einen Brief hin. Das Siegel ist aus dunkelgrünem Wachs, und darin ist ein Zeichen eingedrückt: vier Ringe, ineinander verschlungen.
 
 „Dieser Brief muss auf die andere Seite der Berge. Gib ihn dem Ersten, der dir dasselbe Zeichen zeigt. Und öffne ihn nicht.“
 * [Den Brief annehmen]
@@ -286,7 +286,7 @@ Du wachst auf, weil draußen eine Möwe kreischt, als ginge es um ihr Leben.
     Folge mir nicht. Als ob du das könntest.
 - "brief":
     # ausloeser: brief
-    Der Brief liegt neben dir, als hätte er die ganze Nacht über dich gewacht. Das Spiralsiegel glänzt im Morgenlicht.
+    Der Brief liegt neben dir, als hätte er die ganze Nacht über dich gewacht. Das Ringsiegel glänzt im Morgenlicht.
     Gib ihn dem Ersten, der dir dasselbe Zeichen zeigt. Auf der anderen Seite der Berge.
     Du hättest Nein sagen können. Du hast es nicht getan. Und je länger du den Brief ansiehst, desto sicherer bist du: Er ist wichtig. Wichtiger als alles, was du je in den Händen gehalten hast.
 - "schulden":

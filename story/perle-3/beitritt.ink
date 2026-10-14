@@ -297,7 +297,7 @@ An der nächsten Ecke stehen zwei schwarze Mäntel. Einer hat ein großes Buch u
 = zuhause_an
 { brief_erhalten:
     ~ spirale_an_tuer = true
-    Als du die Tür erreichst, bleibst du stehen. Auf dem Türrahmen, in Augenhöhe, hat jemand mit Kreide ein kleines Zeichen gemalt. Eine Spirale aus vier Linien.
+    Als du die Tür erreichst, bleibst du stehen. Auf dem Türrahmen, in Augenhöhe, hat jemand mit Kreide ein kleines Zeichen gemalt. Vier verschlungene Ringe.
     Die Kreide ist noch frisch. Jemand weiß, wo du wohnst. Und will, dass du es weißt.
     Du wischst das Zeichen weg, bevor es jemand anderes sieht.
 }
@@ -367,7 +367,7 @@ Wer zaubert, muss sich einschreiben. Das ist jetzt Gesetz.
     {bp()} ist in die Tiefe Stiege gegangen. Allein.
 }
 { spirale_an_tuer:
-    Jemand hat die Spirale an meine Tür gemalt.
+    Jemand hat die vier Ringe an meine Tür gemalt.
 }
 Morgen gehe ich hinaus auf die Weiden.“ # tagebuch_ende
 

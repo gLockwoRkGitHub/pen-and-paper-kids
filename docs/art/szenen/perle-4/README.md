@@ -12,7 +12,7 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
   - Im Bild bewegt sich nichts: keine Halme im Wind, keine fliegenden Vögel.
 - **Gnolle** sind Flüchtlinge, keine Monster: mager, müde, Junge auf dem Rücken. Hyänenartig, gefleckt, aber nicht zähnefletschend.
 - **Liora/Cassian** erscheint in Perle 4 **verkleidet**: viel zu große braune Arbeiterjacke, Mütze, darunter blitzt die grüne Samtjacke hervor, dazu die feinen Schuhe mit Silberschnallen.
-- **Der Fremde** erscheint zum zweiten Mal. Verbindlich ist das abgenommene Einzelbild (gewählt 13.10.2026): **Gesicht unter der Kapuze sichtbar**, schmal, blass, freundlich, dunkles Haar; die Augen schimmern nur, die Spiralschließe ist sichtbar.
+- **Der Fremde** erscheint zum zweiten Mal. Verbindlich ist das abgenommene Einzelbild (gewählt 13.10.2026): **Gesicht unter der Kapuze sichtbar**, schmal, blass, freundlich, dunkles Haar; die Augen schimmern nur, die Schließe aus vier kleinen Ringen ist sichtbar (früher Spirale).
 
 ---
 
@@ -94,9 +94,9 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 
 ## 11. `szene/fremder-am-grauen` – Der Fremde am Rand
 **Ebene:** Szene · **Moment:** Der Fremde steht am Rand des Grauen, das Gnollenjunge im Arm. Er legt es dem Betrachter in die Arme (hier zeigen wir den Moment **davor**, also keine Arme des Betrachters).
-**Blick:** im grünen Gras sitzend, nach oben. Der **Fremde** steht groß und schlank vor dem Betrachter, halb vor dem grauen Feld, sodass die Grenze zwischen Grün und Grau genau hinter ihm verläuft. Im Arm hält er **Wuk**, der blinzelt. Gesicht unter der Kapuze sichtbar wie im Einzelbild, leises Lächeln, **schimmernde** Augen. Die Bronzeschließe mit der Spirale glänzt. Neben seinen Stiefeln im Gras eine **kleine Spirale aus vier Linien, mit dem Stab in die Erde gezeichnet**.
+**Blick:** im grünen Gras sitzend, nach oben. Der **Fremde** steht groß und schlank vor dem Betrachter, halb vor dem grauen Feld, sodass die Grenze zwischen Grün und Grau genau hinter ihm verläuft. Im Arm hält er **Wuk**, der blinzelt. Gesicht unter der Kapuze sichtbar wie im Einzelbild, leises Lächeln, **schimmernde** Augen. Die Bronzeschließe mit den vier Ringen glänzt. Neben seinen Stiefeln im Gras eine **kleines Zeichen aus vier verschlungenen Ringen, mit dem Stab in die Erde gezeichnet**.
 **Licht:** Nachmittagssonne von hinten. Er wirft keinen Schatten ins Graue.
-**Referenzen:** `fremder-einzel` (abgenommene Fassung), `wuk-einzel`, `requisiten/spiralsiegel-vorlage.png`.
+**Referenzen:** `fremder-einzel` (abgenommene Fassung), `wuk-einzel`, `requisiten/ringzeichen.png`.
 
 ## 12. `szene/gnollenlager` – Die Schlucht der Gnolle
 **Ebene:** Szene · **Moment:** Zelte aus Fellen und Ästen in einer engen Schlucht. Magere Gnolle springen auf. Eine Gnollin stürzt heran und drückt Wuk an sich.

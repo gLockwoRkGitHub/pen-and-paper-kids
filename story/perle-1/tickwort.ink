@@ -46,7 +46,7 @@ Sein Glasauge surrt, während er dich mustert.
     - "verschwunden":
         Von {bp()}, dem Zettel auf dem Tisch und dem Nyrrspalt.
     - "brief":
-        Von dem Fremden mit den Mondlicht-Augen, dem Brief und dem Spiralsiegel.
+        Von dem Fremden mit den Mondlicht-Augen, dem Brief und dem Ringsiegel.
     - "schulden":
         Von Fesk, den vierzig Silbermark und davon, dass das Kontor {pfand()} nehmen will.
     - "flucht":

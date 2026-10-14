@@ -15,7 +15,7 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 
 ## 1. `szene/brief-in-wollmark` – Post aus der Oberstadt
 **Moment:** Am Brunnen in Wollmark sitzt Fink (oder ein Botenjunge) und reicht einen Brief.
-**Blick:** Fink sitzt auf dem Brunnenrand, Mütze tief im Gesicht, einen angebissenen Apfel in der einen Hand. Mit der anderen streckt er dem Betrachter einen **gefalteten Brief aus teurem Papier** entgegen, der mit grünem Wachs gesiegelt ist (**ohne** Spirale!). Hinten Steinhäuser mit Grasdächern, Morgensonne.
+**Blick:** Fink sitzt auf dem Brunnenrand, Mütze tief im Gesicht, einen angebissenen Apfel in der einen Hand. Mit der anderen streckt er dem Betrachter einen **gefalteten Brief aus teurem Papier** entgegen, der mit grünem Wachs gesiegelt ist (**ohne** Ringzeichen!). Hinten Steinhäuser mit Grasdächern, Morgensonne.
 **Referenzen:** `fink-einzel`, `orte/wollmark.png`.
 
 ## 2. `entdeckung/orin-treidelpfad` – Den Orin hinauf
@@ -77,17 +77,17 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 **Referenzen:** das Einzelbild der jeweiligen Bezugsperson.
 
 ## 11. `szene/herz-des-berges` – Das Herz des Berges
-**Moment:** Eine Höhle, deren Wände man nicht sieht. Im Boden eine riesige Spirale aus vier Linien aus hellem Stein. Darüber schwebt eine **Kristallkugel, so groß wie ein Haus**, in der vier Lichter kreisen: braun, blau, rot, weiß. Ein Riss zieht sich hindurch, aus dem farbloses Grau sickert. An der Wand ein roher Stollen mit Kisten, auf denen mit Kreide eine Waage gemalt ist.
+**Moment:** Eine Höhle, deren Wände man nicht sieht. Im Boden ein riesiges Zeichen aus vier verschlungenen Ringen aus hellem Stein. Darüber schwebt eine **Kristallkugel, so groß wie ein Haus**, in der vier Lichter kreisen: braun, blau, rot, weiß. Ein Riss zieht sich hindurch, aus dem farbloses Grau sickert. An der Wand ein roher Stollen mit Kisten, auf denen mit Kreide eine Waage gemalt ist.
 **Aussage:** das Geheimnis des ganzen Abenteuers. Staunen und Schrecken zugleich.
 **Blick:** vom Eingang der Höhle, leicht nach oben zum Kristall.
-- Im Vordergrund der Boden mit dem Ende einer **riesigen Spirale aus hellen Steinlinien** (vier Linien).
+- Im Vordergrund der Boden mit einem Teil des **riesigen Zeichens aus hellen Steinringen** (vier verschlungene Ringe, Mitte frei).
 - In der Mitte der **schwebende Kristall** mit den vier kreisenden Lichtern, die alles in Farben tauchen.
 - Durch den Kristall zieht sich ein **dunkler, gezackter Riss**. Wo er ist, sind die Lichter blass, und aus ihm sinkt **farbloses Grau** zu Boden, wo die Steinlinien grau werden.
 - Rechts in der Wand ein **frisch gehauener Stollen** mit Spitzhackenspuren, darin Holzkisten mit einer **mit Kreide gemalten Waage**.
 - Links vorn, klein, **Mirk** mit Lampe, die ehrfürchtig hinaufschaut.
 
 **Licht:** Der Kristall ist die Lichtquelle, vier Farben, die sich mischen. Das Grau schluckt sie.
-**Referenzen:** `mirk-einzel`, `requisiten/herzsplitter.png`, `requisiten/spiralsiegel-vorlage.png`, `orte/herz-des-berges.png`.
+**Referenzen:** `mirk-einzel`, `requisiten/herzsplitter.png`, `requisiten/ringzeichen.png`, `orte/herz-des-berges.png`.
 
 ## 12. `szene/flucht-tiefe-stiege` – Licht am Ende
 **Moment:** Auf der Flucht die Treppe hinauf. Eine Abzweigung, ein schnurgerader alter Gang nach Osten, kalter Luftzug, und ganz hinten ein **winziger Punkt aus Tageslicht**.

@@ -54,7 +54,7 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; die ergänzten Deta
 **Bekannte Schwächen:**
 - Grumak wirkt stämmig, aber nicht „groß wie ein Schrank“ – die Größe zeigt sich erst neben anderen Figuren im Szenenbild.
 - Der Fremde: Bei vielen Seeds zeichnet das Modell in den Seitenansichten ein Menschengesicht. (Überholt: Seit 13.10.2026 ist das Gesicht sichtbar, siehe unten.) Seine Stiefel sehen recht modern aus.
-- Der Fremde hält den Brief mit dem Spiralsiegel – streng genommen ein Szenenzustand (Perle 1, Nacht).
+- Der Fremde hält den Brief mit dem (früheren) Spiralsiegel – streng genommen ein Szenenzustand (Perle 1, Nacht).
 
 ## Die vier Mentoren (alle vier von Pasco bestätigt; Nerelle am 13.10.2026)
 Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; ergänzte Details stehen dort als Vorschlag.
@@ -112,7 +112,7 @@ Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, nur aus Text. Referenzblatt: 
 | `rhea` | 2 | 1 | – |
 
 ## Requisiten
-`docs/art/requisiten/spiralsiegel.png`: dunkelgrünes Wachssiegel mit der Spirale aus vier Linien. Die Linien sind in `spiralsiegel-vorlage.png` exakt vorgezeichnet (nur aus Text zählt das Modell sie nicht zuverlässig); daraus mit `spiralsiegel.prompt.txt` und der Vorlage als Referenz erzeugt, Seed 6, 1024×1024.
+`docs/art/requisiten/ringsiegel.png` (**noch zu erzeugen**): dunkelgrünes Wachssiegel mit vier verschlungenen Ringen. Das Zeichen ist in `ringsiegel-vorlage.png` exakt vorgezeichnet (`tools/siegel-vorlage.py`); daraus mit `ringsiegel.prompt.txt` und der Vorlage als Referenz erzeugen. Das frühere `spiralsiegel.png` ist abgeschafft (14.10.2026, zu nah am Hakenkreuz).
 
 ## Übersichten zum Auswählen
 `tools/bilduebersicht.ps1` setzt mehrere Seeds zu einem nummerierten Übersichtsbild zusammen.

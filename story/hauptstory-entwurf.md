@@ -39,7 +39,7 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Das Geheimnis des Registers:** Wer sich bei der Waage einschreibt, gibt laut Kleingedrucktem jeden Neumond einen Funken seiner Kraft ab – für die Glaskugeln. Die Waage will bis zum Winter tausend Kugeln in Vardholm. Wofür, bleibt offen.
 - **Intrige der Bankiersgilden:** Das Silbermark-Kontor sabotiert das Wasserrad von Webstuhl und Amboss, um der Gilde Kredite aufzudrängen, während die Waage den Spalt schließt.
 - **Hinweise auf Liora/Cassians Familie** (der Spieler erfährt es noch nicht sicher): Pell verspricht sich („Arv…“), Liora/Cassian steht auf der Tribüne hinter der Waagmeisterin **Seraphine Arvelle** (Name Vorschlag), Goldknopf im Zelt der Waage, die Söldner gehorchen ihr/ihm. Liora/Cassian behauptet: „Meine Eltern sind wichtig in der Waage. Nicht die Wichtigsten.“
-- **Der Raum der Vier:** Unter der Ratshalle liegt ein alter Raum mit einem Mosaik – vier Gestalten (Stein, Welle, Flamme, Feder) um die Spirale aus vier Linien. Erster sichtbarer Hinweis auf den Kreis der Vier.
+- **Der Raum der Vier:** Unter der Ratshalle liegt ein alter Raum mit einem Mosaik – vier Gestalten (Stein, Welle, Flamme, Feder) um vier ineinander verschlungene Ringe. Erster sichtbarer Hinweis auf den Kreis der Vier.
 - **Gildenwahl:** Webstuhl und Amboss (Minen), Weite Feder (Archive, Karten), Glühende Phiole (keine Register), Leise Hand (geheim, offiziell als Kartenträger der Weiten Feder geführt), die Waage (Register, Lockmittel „Reisen durch den Spalt“) oder keine (ab Neumond ungeprüft).
 - **Übergang zu Perle 4:** Jede Wahl führt hinaus auf die Weiden (Wollmark, Ginsterhof, Kartierung, Mondklee). Gnolle wurden innerhalb des Kamms gesehen – es muss einen Weg herein geben.
 
@@ -66,7 +66,7 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Neumond:** Das Gesetz gilt. Wer bei der Waage eingeschrieben ist, verliert dauerhaft einen Kraftfunken (umgesetzt in `rasten()`). Alle anderen sehen hunderte Funken wie wandernde Sternschnuppen nach Osten fliegen, nach Vardholm.
 - **Talin:** ein junger Erd-Rufer, eingeschrieben bei der Waage, muss zwölf Stunden am Tag für sie graben. Er kann aufhören und mitkommen. Alle Eingeschriebenen werden nach Vardholm geschickt („für das Werk“).
 - **Die Tiefe Stiege:** ein Abgrund (Zwergenzeichen, Magie Stufe 2, Talin), dann wird alles grau. Die sieben Kobolde schlafen im Stehen am Rand des Grauen. Beim Auslöser „verschwunden“ steht auch die **Bezugsperson** dort und wird gerettet.
-- **Das Herz des Berges:** eine Kristallkugel, so groß wie ein Haus, auf einer riesigen Spirale aus vier Linien, darin kreisen vier Lichter. Die Spielfigur hört einen Herzschlag lang alle vier Elemente.
+- **Das Herz des Berges:** eine Kristallkugel, so groß wie ein Haus, auf einem riesigen Zeichen aus vier verschlungenen Ringen, darin kreisen vier Lichter. Die Spielfigur hört einen Herzschlag lang alle vier Elemente.
   - Ein frischer **Stollen der Waage** hat einen Riss in den Kristall geschlagen. Durch den Riss sickert das Schweigen.
   - **Die Waage hat das Schweigen also selbst geweckt, ohne es zu wissen.**
 - **Dilemma:** entweder den **Stollen zum Einsturz bringen** (kein neues Stimmerz, also keine neuen Kugeln, das Herz kommt zur Ruhe) oder einen **Splitter und eine Kiste der Waage als Beweis** mitnehmen (für Perle 6).
@@ -94,7 +94,7 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Letzter Abend in Lysmara:** Die Bezugsperson schenkt ein **Seil** („Ein Seil braucht man immer“), das später einen Sturz auffängt. Auslöser werden aufgegriffen:
   - **Schulden:** Fesk bietet an, die Schuld gegen eine Lieferung nach Dornfurt zu erlassen (`fesk_auftrag`).
   - **Flucht:** Steckbrief, wenn `gesucht`, sonst sucht niemand mehr.
-  - **Brief:** frische Kreidespirale an der Tür.
+  - **Brief:** frisch mit Kreide gemalte vier Ringe an der Tür.
 - **Zwei Abschiedsbesuche** aus drei: der Mentor (gibt eine neue Quelle), **Tickwort** (Pfeife „so laut wie zehn Ziegen“, `tickwort_pfeife`) oder **Grumak** (Ring für seinen Bruder Durgash, `grumak_ring`).
 - **Die Wahl des Weges** (`p7_route`):
   - **Nyrrspalt**, nur wenn `spalt_offen`: durch das Grau im Pass, mit Lärm oder Magie. Strell geleitet, wenn gerettet.
@@ -104,7 +104,7 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
 - **Jenseits der Berge:** ein leeres Dorf (wie Grumak erzählt hat), eine graue Ziege, die man wecken kann. Dann **Dornfurt**, eine Stadt am Fluss, die **absichtlich nie still ist** (Glocken, Trommeln, Rasseln).
   - **Durgash**, Grumaks Bruder, Wirt im Gasthaus „Zum Halben Hauer“: Die Dörfer sind leer bis Kar Duun, Kar Duun hält sich mit Trommeln.
   - **Fesks Päckchen** enthält nur einen Kiesel und den Zettel „Schuld erlassen“.
-  - **Der Brief** geht an die **Fährfrau**, die die Spirale in ihre Stange geschnitzt hat.
+  - **Der Brief** geht an die **Fährfrau**, die die vier Ringe in ihre Stange geschnitzt hat.
 - **Cliffhanger:** Der Fremde wartet am Steg und nennt seinen Namen: **Ithren**. „Das Herz in eurem Berg ist nicht das einzige. Es gibt noch andere. Und eines davon ist schon still.“ Er geht nach Osten, man darf mitkommen oder heimkehren. **Ende des ersten Abenteuers.**
 
 ## Verlängerung (14.10.2026, Ziel 30–45 Minuten pro Perle)

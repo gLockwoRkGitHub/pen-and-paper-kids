@@ -298,7 +298,7 @@ Sie mustert {freund()}, die feine Haut, die feinen Schuhe. „Und vor wem.“
 
 = siegel
 ~ spirale_erkannt = true
-Da rutscht dir der Brief halb aus der Jacke. Yrsas Augen bleiben am grünen Siegel hängen. An der Spirale aus vier Linien.
+Da rutscht dir der Brief halb aus der Jacke. Yrsas Augen bleiben am grünen Siegel hängen. An den vier verschlungenen Ringen.
 
 Sie wird blass unter dem Ruß. Mit einer schnellen Bewegung schiebt sie den Brief zurück in deine Jacke.
 

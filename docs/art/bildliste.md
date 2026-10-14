@@ -31,7 +31,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/lysmara-abend` | Lysmara zwischen Meer und Bergen am Abend | Entdeckung |
 | `szene/sonnenuntergang-hafen` | Sonnenuntergang über dem Hafen | Szene |
 | `szene/bezugsperson-packt` | Die Bezugsperson packt hastig eine Tasche (6 Varianten je Hintergrund oder neutral) | Szene |
-| `szene/fremder-im-regen` | Gestalt im grauen Mantel unter einem Torbogen, Mondlicht-Augen, Brief mit Spiralsiegel | Szene |
+| `szene/fremder-im-regen` | Gestalt im grauen Mantel unter einem Torbogen, Mondlicht-Augen, Brief mit Ringsiegel | Szene |
 | `szene/eintreiber-fesk` | Dürrer Eintreiber im silbergrauen Mantel mit Buch | Szene |
 | `szene/nordkai-kisten` | Söldner der Goldenen Waage laden Kisten, Glaskugel mit gefangenem Blitz | Szene |
 | `szene/morgen` | Morgenlicht, Möwe am Fenster | Szene |
@@ -99,7 +99,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `entdeckung/gildentag` | Lysmara geschmückt: Gildenbanner, Trommler, schwarz-goldene Tribüne vor der Ratshalle | Entdeckung |
 | `szene/tuchhalle-pruefung` | Stillstehende Webstühle, Bewerber, Kettrich auf dem Podest | Szene |
 | `szene/gewoelbe-pruefung` | Gewölbe unter dem Markt, Orwin mit Sanduhr, Laternen | Szene |
-| `szene/raum-der-vier` | Runder Raum, Mosaik: vier Gestalten (Stein, Welle, Flamme, Feder) um die Spirale | Szene |
+| `szene/raum-der-vier` | Runder Raum, Mosaik: vier Gestalten (Stein, Welle, Flamme, Feder) um die vier verschlungenen Ringe | Szene |
 | `szene/phiole-pruefung` | Hof der Phiole, acht Kupferkessel, Zuschauer, Meisterin Ambra; Tickwort über dem Zaun | Szene |
 | `szene/zelt-der-waage` | Schwarzes Zelt mit goldenen Fransen, Schreibtisch, goldene Waage, schwarzer Vorhang, Goldknopf am Boden | Szene |
 | `szene/zelt-register` | Lächelnder Schreiber schiebt den Vertrag hin, dahinter leere Glaskugeln | Szene |
@@ -151,7 +151,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `szene/der-schlund` | Abgrund, Reste einer Kettenbrücke, Rauschen in der Tiefe | Szene |
 | `szene/vermisste-kobolde` | Graue Halle, sieben Kobolde schlafen im Stehen (ggf. mit Bezugsperson) | Szene |
 | `szene/wiedersehen` | Bezugsperson wacht auf (6 Varianten) | Szene |
-| `szene/herz-des-berges` | Kristallkugel mit vier Lichtern über riesiger Spirale, Riss, Stollen mit Waage-Kisten | Szene |
+| `szene/herz-des-berges` | Kristallkugel mit vier Lichtern über riesigem Zeichen aus vier verschlungenen Ringen, Riss, Stollen mit Waage-Kisten | Szene |
 | `szene/flucht-tiefe-stiege` | Treppe hinauf, das Graue folgt; Seitengang mit Licht am Ende | Szene |
 | `szene/glimmhalde-fest` | Alle Lampen leuchten, singende Kobolde, Mirk mit der singenden Lampe | Szene |
 | `tagebuch/perle-5` | Glimmhalde, Tiefe Stiege, Kristall mit Riss | Tagebuch |
@@ -206,7 +206,7 @@ Werkzeuge: siehe `werkzeuge.md`.
 | `entdeckung/dornfurt` | Stadt hinter Pfählen an der Furt, Glocken, Trommel | Entdeckung |
 | `szene/zum-halben-hauer` | Gasthaus mit abgebrochenem Orkzahn, Durgash | Szene |
 | `szene/silbermark-stube` | Schreiber mit Kiesel und Zettel | Szene |
-| `szene/faehrfrau` | Fährfrau mit Spirale in der Stange | Szene |
+| `szene/faehrfrau` | Fährfrau mit den vier Ringen in der Stange | Szene |
 | `szene/fremder-am-steg` | Ithren am Ende des Stegs, Fackeln im Fluss | Szene |
 | `tagebuch/perle-7` | Ganze Karte von Meridel, Pfeil nach Osten | Tagebuch |
 

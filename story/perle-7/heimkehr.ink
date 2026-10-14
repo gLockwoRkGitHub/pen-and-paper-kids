@@ -98,8 +98,8 @@ Du nickst. Über die Berge. Herausfinden, was das Schweigen ist. Und ob das Herz
         Und trotzdem willst du hinaus. Nicht mehr, um wegzulaufen. Sondern um anzukommen.
     }
 - "brief":
-    Der Brief liegt in deinem Bündel, ganz unten, das Spiralsiegel unversehrt. Wochen hast du ihn getragen, durch Höhlen, über Weiden, in eine Festung. Er muss immer noch auf die andere Seite.
-    Und als du die Tür schließt, siehst du es wieder: ein frisches Kreidezeichen am Türrahmen. Eine Spirale aus vier Linien. Diesmal wischst du es nicht weg.
+    Der Brief liegt in deinem Bündel, ganz unten, das Ringsiegel unversehrt. Wochen hast du ihn getragen, durch Höhlen, über Weiden, in eine Festung. Er muss immer noch auf die andere Seite.
+    Und als du die Tür schließt, siehst du es wieder: ein frisches Kreidezeichen am Türrahmen. Vier verschlungene Ringe. Diesmal wischst du es nicht weg.
 }
 -> besuche
 

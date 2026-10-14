@@ -164,5 +164,9 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Perle 3 bestätigt:** Familienname Arvelle, Waagmeisterin Seraphine, Meisterin Ambra, Fitzel.
 - **Perle 7 bestätigt:** Dornfurt, Durgash, Haldor, die Fährfrau, Fesks Kiesel, Cliffhanger „mehrere Herzen“ (Haken für ein Folgeabenteuer).
 
+### Zeichen des Kreises der Vier (14.10.2026, Pasco)
+- **Vier ineinander verschlungene Ringe statt der Spirale aus vier Linien.** Die Spirale erinnerte an ein Hakenkreuz und ist abgeschafft. Die Ringe bilden einen geschlossenen Kreis, jeder ist mit seinen beiden Nachbarn verschlungen, die Mitte bleibt frei – bewusst nicht wie Audi (Reihe) oder Olympia (3 + 2). Siegel heißt jetzt **Ringsiegel**. Vorlagen: `docs/art/requisiten/ringzeichen.png`, `ringsiegel-vorlage.png` (`tools/siegel-vorlage.py`).
+- **Verbotene Formen** in Bildern, Player und Story: nichts, was an Hakenkreuz, Sig- oder Odal-Runen erinnert (siehe `docs/art/art-style.md`).
+
 ## Offen
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).

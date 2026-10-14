@@ -124,7 +124,7 @@
         Die Glutlaterne
     }
 - "brief":
-    Der Brief mit dem Spiralsiegel
+    Der Brief mit dem Ringsiegel
 - "gildenzeichen":
     { gilde:
     - "webstuhl_amboss":
@@ -496,7 +496,7 @@
 - "durgash":
     Grumaks Bruder, Wirt im Halben Hauer. Das Essen ist schlecht, das Bett ist gut.
 - "faehrfrau":
-    Stakt die Fähre in Dornfurt. In ihre Stange ist eine Spirale geschnitzt. Sie hat meinen Brief.
+    Stakt die Fähre in Dornfurt. In ihre Stange sind vier Ringe geschnitzt. Sie hat meinen Brief.
 - "haldor":
     Schmuggler mit sehr viel Bart. Fährt nachts ohne Laterne. Das Meer hat mich gemocht, sagt er.
 }

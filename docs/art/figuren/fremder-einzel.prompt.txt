@@ -1,11 +1,12 @@
 # Der Fremde, Einzelbild – Grundaussehen nach docs/worldbuilding/figuren-aussehen.md
 # Das Gesicht bleibt im Schatten der Kapuze: Wer oder was der Fremde ist, bleibt offen.
+# Zeichen des Kreises der Vier = vier verschlungene Ringe (docs/art/requisiten/ringzeichen.png). Prüfen: keine Drehform/kein Windrad, keine Audi-Reihe, keine olympische Anordnung.
 One tall mysterious stranger standing alone on plain cream watercolor paper, full body,
 three-quarter front view, centered, soft ground shadow. The figure wears a long plain grey travelling cloak
 that reaches the ankles, with a deep hood pulled low so the face is completely hidden in shadow.
 Inside the dark hood only two eyes are visible, glowing softly pale silver-white like moonlight on water.
 Worn leather boots covered in pale grey mountain dust. One gloved hand holds a folded letter closed with
-a dark wax seal stamped with a spiral. Calm, still and quiet posture; mysterious and a little eerie,
+a dark wax seal stamped with four small interlinked rings. Calm, still and quiet posture; mysterious and a little eerie,
 but not threatening, no weapons.
 Fantasy setting, no modern clothing.
 Art style: hand-painted storybook illustration, watercolor and gouache with confident black ink outlines,

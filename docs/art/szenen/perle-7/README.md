@@ -104,12 +104,12 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 **Wichtig:** keine lesbare Schrift.
 
 ## 21. `szene/faehrfrau` – Der Brief kommt an
-**Moment:** Die Fährfrau auf dem Floß, die Spirale in der Stange, den Brief mit grünem Spiralsiegel in beiden Händen, erschüttert und ernst.
-**Referenzen:** `faehrfrau-einzel`, `requisiten/spiralsiegel.png`.
+**Moment:** Die Fährfrau auf dem Floß, die vier Ringe in der Stange, den Brief mit grünem Ringsiegel in beiden Händen, erschüttert und ernst.
+**Referenzen:** `faehrfrau-einzel`, `requisiten/ringsiegel.png`.
 
 ## 22. `szene/fremder-am-steg` – Ithren
-**Moment:** Das letzte Bild des ersten Abenteuers. Nachts am Ende des Stegs, Fackeln im Fluss, hinten die laute Stadt. Der Fremde dreht den Kopf zum Betrachter, die Kapuze ein wenig zurückgeschoben, das Gesicht im Fackellicht, leises Lächeln, silbriger Augenschimmer. Neben ihm, ins nasse Holz gedrückt: **Spirale und Pfeil nach Osten**.
-**Referenzen:** das abgenommene Einzelbild des Fremden, `requisiten/spiralsiegel.png`.
+**Moment:** Das letzte Bild des ersten Abenteuers. Nachts am Ende des Stegs, Fackeln im Fluss, hinten die laute Stadt. Der Fremde dreht den Kopf zum Betrachter, die Kapuze ein wenig zurückgeschoben, das Gesicht im Fackellicht, leises Lächeln, silbriger Augenschimmer. Neben ihm, ins nasse Holz gedrückt: **vier Ringe und Pfeil nach Osten**.
+**Referenzen:** das abgenommene Einzelbild des Fremden, `requisiten/ringsiegel.png`.
 
 ## 23. `tagebuch/perle-7` – Die ganze Karte
 **Ebene:** Tagebuch · Über beide Seiten die vollständige Karte von Meridel, und zum ersten Mal **über den Rand des Kamms hinaus**: Fluss, Stadt mit Palisade, dicker Pfeil nach Osten. Daneben Kompass, Goldknopf, Seil. Keine Schrift.
@@ -119,7 +119,7 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 |---|---|
 | `figuren/durgash-einzel.prompt.txt` | Durgash, Ork-Wirt, Grumaks Bruder (abgebrochener Hauer) |
 | `figuren/haldor-einzel.prompt.txt` | Haldor, Schmuggler, Kapitän der „Nachtfalter“ |
-| `figuren/faehrfrau-einzel.prompt.txt` | Die Fährfrau von Dornfurt (Spirale in der Stange) |
+| `figuren/faehrfrau-einzel.prompt.txt` | Die Fährfrau von Dornfurt (vier Ringe in der Stange) |
 
 ## Ortsbild und Requisiten
 | Datei | Inhalt |

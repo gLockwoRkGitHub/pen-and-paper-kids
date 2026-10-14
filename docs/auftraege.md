@@ -11,6 +11,7 @@ Regeln:
 ## Gesamtauftrag: alle Bilder des ersten Abenteuers (Stand 13.10.2026)
 
 Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
+0. **Zuerst:** Abschnitt „Zeichen des Kreises der Vier“ (R1–R6), weil spätere Bilder `ringsiegel.png` als Referenz brauchen
 1. **Perle 1:** Schritte A–F
 2. **Perle 2:** Schritte V–W
 3. **Perle 3:** Schritte G–I
@@ -23,6 +24,22 @@ Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
 **Karten** (Abschnitt „Karten“, Schritte K1–K3) laufen getrennt davon: die Grundkarten möglichst früh, die Ortsskizzen gern nach der jeweiligen Perle, weil sie die Ortsbilder als Referenz nutzen können.
 
 Je Perle erst Figuren, Requisiten und Ortsbilder, dann die Szenen (sie brauchen die anderen als Referenz). Nach jeder Perle committen, pushen und die Übersicht bauen. `npm test` meldet Bild-Tags ohne Prompt-Datei; dort steht derzeit nichts mehr.
+
+## Zeichen des Kreises der Vier: Ringe statt Spirale (Auftrag vom 14.10.2026) – ZUERST
+
+**Warum:** Die alte „Spirale aus vier Linien“ erinnert an ein Hakenkreuz. Pasco hat sie abgeschafft. Das Zeichen sind jetzt **vier ineinander verschlungene Ringe**: geschlossener Kreis wie ein Kleeblatt, jeder Ring nur mit seinen beiden Nachbarn verschlungen, Mitte frei. Details: `docs/worldbuilding/der-fremde.md` („Das Ringsiegel“), Regel: `docs/art/art-style.md` („Verbotene Formen“).
+Die Story-Texte und alle Prompts sind schon umgestellt. Die alten Dateien `spiralsiegel*.png` sind aus dem Repo gelöscht.
+
+**Prüfliste für jedes Bild mit dem Zeichen:** genau vier Ringe · im Kreis, nicht in einer Reihe (Audi) und nicht 3 + 2 versetzt (Olympia) · keine Drehform, kein Windrad, keine Haken · Mitte frei. Wenn das Modell es nicht sauber schafft: Zeichen weglassen und in Krita von Hand aus `requisiten/ringzeichen.png` einsetzen.
+
+- [ ] **R1 Ringsiegel:** `docs/art/requisiten/ringsiegel.png` mit `requisiten/ringsiegel.prompt.txt` und `--referenz docs/art/requisiten/ringsiegel-vorlage.png`, 1024×1024, 6 Seeds, bestes wählen. Eintrag in `requisiten/README.md` ergänzen (Seed).
+- [ ] **R2 Der Fremde – Schließe:** In `figuren/fremder-einzel.png` und `figuren/fremder-referenzblatt.png` ist die Schließe eine Spirale. **Das Gesicht ist abgenommen und soll bleiben.** Deshalb bevorzugt nur die Schließe in Krita ersetzen (Inpainting oder von Hand übermalen: kleine runde Bronzeschließe aus vier verschlungenen Ringen, Vorlage `requisiten/ringzeichen.png`). Nur wenn das nicht gut aussieht: neu erzeugen mit `fremder-einzel-neu.prompt.txt` bzw. `fremder-blatt.prompt.txt` und das Ergebnis Pasco zur Abnahme zeigen.
+- [ ] **R3 `szene-fremder-im-regen.png` (Perle 1):** Siegel auf dem Brief und Schließe zeigen die Spirale. Neu erzeugen mit dem aktualisierten Prompt (Referenzen: neues `fremder-einzel.png` aus R2, `requisiten/ringsiegel.png` aus R1) – oder Siegel und Schließe in Krita ersetzen, wenn das Bild sonst gut ist.
+- [ ] **R4 Suchspiel Perle 1 prüfen:** `szene-zwirbelgasse.png` (Türbalken), `entdeckung-ausrufer-ratshalle.png` (Kreide am Pfeiler), `szene-klippen-leuchtturm.png` (Felsen; **im Sand ist eine Spirale, die muss auf jeden Fall weg**). Jede Spirale entfernen oder durch das Ringzeichen ersetzen (Krita reicht). Zur Sicherheit auch `figur-tickwort.png` und `uebersicht-*.png` ansehen und die Übersicht neu bauen.
+- [ ] **R5 Alle übrigen fertigen Bilder durchsehen:** in `docs/art/` nach sichtbaren Spiralen suchen, die als Zeichen gemeint sein könnten (z. B. Tagebuch-Seiten, Ortsbilder). Fundstellen wie in R4 behandeln.
+- [ ] **R6 Abschluss:** committen, pushen, in diesem Abschnitt abhaken (mit Datum und Datei).
+
+Noch nicht erzeugte Bilder (Perle 3 `szene-raum-der-vier`, Perle 4 `szene-fremder-am-grauen`, Perle 5/7 Herz des Berges, Perle 7 Fährfrau und Steg, Tagebuch-Skizzen) brauchen nichts Extra: Ihre Prompts nennen schon die Ringe und `ringzeichen.png`/`ringsiegel.png` als Referenz. Nur die Prüfliste oben gilt dort auch.
 
 ## Perle 1 – alle Bilder (Auftrag vom 12.10.2026)
 
@@ -127,7 +144,7 @@ Beschreibung jedes Bildes: `docs/art/szenen/perle-3/README.md`. Fertige Prompts 
 ### Schritt I – Szenenbilder (`docs/art/szenen/perle-3/`, 1536×1024)
 - [ ] 1 `szene-morgen-mentor-<element>` (vier Varianten: erde, wasser, feuer, wind)
 - [ ] 2 `szene-tickwort-werkstatt` · 3 `entdeckung-gildentag`
-- [ ] 4 `szene-tuchhalle-pruefung` · 5 `szene-gewoelbe-pruefung` · 6 `szene-raum-der-vier` (Spirale mit genau vier Linien, Vorlage `requisiten/spiralsiegel-vorlage.png`)
+- [ ] 4 `szene-tuchhalle-pruefung` · 5 `szene-gewoelbe-pruefung` · 6 `szene-raum-der-vier` (genau vier verschlungene Ringe, Vorlage `requisiten/ringzeichen.png`)
 - [ ] 7 `szene-phiole-pruefung` · 8 `szene-zelt-der-waage` (Goldknopf gut sichtbar) · 9 `szene-zelt-register`
 - [ ] 10 `entdeckung-magiergesetz-liora` / `-cassian` (das Kind steht **hinter** den Eltern, Blick gesenkt)
 - [ ] 11 `szene-brunnen-abend-liora` / `-cassian` · 12 `szene-gildenlaternen`
@@ -160,7 +177,7 @@ Neu in der Prüfliste: **Das Graue** ist farblos und still, ohne Nebel, ohne Ges
 ## Perle 5 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
 
 Erst **nach** Perle 1, 3 und 4 beginnen. Beschreibung jedes Bildes: `docs/art/szenen/perle-5/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
-Neu in der Prüfliste: **Unter der Erde trotzdem warm und lesbar**, keine schwarzen Flächen. **Zwergenzeichen** nur als Ornamente, keine Buchstaben. Im Herz des Berges: **genau vier** Linien in der Spirale und **vier** Lichter im Kristall.
+Neu in der Prüfliste: **Unter der Erde trotzdem warm und lesbar**, keine schwarzen Flächen. **Zwergenzeichen** nur als Ornamente, keine Buchstaben. Im Herz des Berges: **genau vier** verschlungene Ringe im Boden und **vier** Lichter im Kristall.
 
 ### Schritt M – Neue Figuren und Requisiten
 - [ ] **Gildenaufseher Dorn**, **Talin**, **Koboldkind** (`dorn-`, `talin-`, `koboldkind-einzel.prompt.txt`; Einzelbild 832×1216 + Referenzblatt)

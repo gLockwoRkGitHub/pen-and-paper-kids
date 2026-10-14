@@ -1,6 +1,6 @@
 // =====================================================================
 // Perle 3 – Prüfung bei der Gesellschaft der Weiten Feder:
-// Die Karte unter dem Markt. Ein verborgener Raum mit der Spirale,
+// Die Karte unter dem Markt. Ein verborgener Raum mit den vier Ringen,
 // und durch die Wand hört man, wozu das Register der Waage dient.
 // =====================================================================
 
@@ -130,14 +130,14 @@ Du stehst vor der Wand. Alter, grauer Stein, mit Moos in den Fugen. Und doch: Ir
 # bild: szene/raum-der-vier
 Du zwängst dich durch den Spalt. Dahinter ist ein runder Raum mit einer niedrigen Kuppel. Der Boden ist mit kleinen Steinen ausgelegt, ein Mosaik, verblasst und staubig.
 
-Du wischt den Staub mit dem Ärmel weg. Darunter kommen vier Gestalten zum Vorschein, im Kreis, einander zugewandt. Die erste hält einen Stein. Die zweite eine Welle. Die dritte eine Flamme. Die vierte eine Feder. Und in ihrer Mitte, aus vier Linien, die sich ineinander winden: eine Spirale.
+Du wischt den Staub mit dem Ärmel weg. Darunter kommen vier Gestalten zum Vorschein, im Kreis, einander zugewandt. Die erste hält einen Stein. Die zweite eine Welle. Die dritte eine Flamme. Die vierte eine Feder. Und in ihrer Mitte vier Ringe, einer für jede Gestalt, ineinander verschlungen.
 { brief_erhalten:
     Du kennst dieses Zeichen. Es ist dasselbe wie auf dem Siegel deines Briefes. Unter deiner Jacke wird der Brief plötzlich warm, so warm, als hätte er in der Sonne gelegen.
     { spirale_erkannt:
         Und du erinnerst dich an Yrsas Gesicht, als sie das Siegel gesehen hat. Wie sie blass geworden ist. Zeig es niemandem.
     }
 - else:
-    Vier Elemente, denkst du. Und einer, der sie alle zusammenhält.
+    Vier Elemente, denkst du. Und keines kommt ohne die anderen aus.
 }
 
 Dann hörst du Stimmen.
@@ -198,7 +198,7 @@ Meister Orwin sammelt die Karten ein und legt sie nebeneinander auf ein Fass. Er
 
 = abgabe_raum(guete)
 Als er zu deiner Karte kommt, siehst du ihn zögern. Du hast den Raum noch nicht eingezeichnet. Der Kohlestift liegt in deiner Hand.
-* [Den Raum mit der Spirale einzeichnen. Wir zeichnen, was ist.]
+* [Den Raum mit den vier Ringen einzeichnen. Wir zeichnen, was ist.]
     ~ aendern(ruf_weite_feder, 1)
     ~ angebot_feder = true
     Du zeichnest einen kleinen Kreis an die Stelle unter der Ratshalle. Und darin, ganz klein, vier ineinander gewundene Linien.

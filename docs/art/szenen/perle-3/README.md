@@ -17,7 +17,7 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
   - abends: **ohne Jacke, nur im weißen Hemd** mit hochgekrempelten Ärmeln, Locken zerzaust.
 - **Die Familie Arvelle** (Seraphine und der Vater) ist nur aus der Ferne und von der Seite zu sehen. Das Bild darf den Verdacht wecken, aber nichts beweisen: Liora/Cassian steht **hinter** ihnen, nicht wie ein Kind auf dem Familienporträt.
 - **Gildenfarben** der Laternen und Zeichen: Webstuhl und Amboss **blau**, Weite Feder **silber**, Glühende Phiole **rot** (mit goldenem Rauch), Goldene Waage **schwarz-gold**, Leise Hand **ohne Farbe** (dunkel).
-- **Die Spirale** ist diesmal kein Suchspiel, sondern Hauptmotiv in Bild 6 (Raum der Vier).
+- **Die vier verschlungenen Ringe** sind diesmal kein Suchspiel, sondern Hauptmotiv in Bild 6 (Raum der Vier).
 
 ---
 
@@ -68,12 +68,12 @@ Trommler, Stände mit gebrannten Mandeln, Menschen aller Völker. Vor der Ratsha
 **Licht:** Laternenschein in warmem Orange, sonst Dunkelheit, ein Streifen Tageslicht von oben.
 **Referenzen:** `orwin-einzel`, Ortsbild `orte/gewoelbe.png`.
 
-## 6. `szene/raum-der-vier` – Das Mosaik der Spirale
-**Ebene:** Szene · **Moment:** Hinter der Wand liegt ein runder Raum mit niedriger Kuppel. Unter dem Staub kommt ein Mosaik zum Vorschein: vier Gestalten im Kreis, die eine einen Stein, eine eine Welle, eine eine Flamme, eine eine Feder. In ihrer Mitte die Spirale aus vier Linien.
+## 6. `szene/raum-der-vier` – Das Mosaik der vier Ringe
+**Ebene:** Szene · **Moment:** Hinter der Wand liegt ein runder Raum mit niedriger Kuppel. Unter dem Staub kommt ein Mosaik zum Vorschein: vier Gestalten im Kreis, die eine einen Stein, eine eine Welle, eine eine Flamme, eine eine Feder. In ihrer Mitte vier ineinander verschlungene Ringe.
 **Aussage:** Ein uraltes Geheimnis, das eindeutig mit dem Fremden zu tun hat. Ehrfürchtig, ein wenig unheimlich, aber schön.
-**Blick:** schräg von oben auf den Boden. Eine Laterne steht am Rand des Mosaiks. Ein Teil ist schon freigewischt (eine Wischspur im Staub, keine Hand). Die vier Gestalten sind schlicht und alt, ohne Gesichtsdetails, in Ocker, Blau, Rot und Weißgrau, und die **Spirale in der Mitte ist genau die aus vier Linien** wie auf `spiralsiegel-vorlage.png`. Im Hintergrund eine zugemauerte Tür, durch deren Ritzen ein schmaler Lichtstreifen fällt (dahinter der Keller der Ratshalle).
+**Blick:** schräg von oben auf den Boden. Eine Laterne steht am Rand des Mosaiks. Ein Teil ist schon freigewischt (eine Wischspur im Staub, keine Hand). Die vier Gestalten sind schlicht und alt, ohne Gesichtsdetails, in Ocker, Blau, Rot und Weißgrau, und das **Zeichen in der Mitte sind genau die vier verschlungenen Ringe** wie auf `ringzeichen.png`. Im Hintergrund eine zugemauerte Tür, durch deren Ritzen ein schmaler Lichtstreifen fällt (dahinter der Keller der Ratshalle).
 **Licht:** nur die Laterne, goldener Schein auf staubigen Steinchen.
-**Referenzen:** `requisiten/spiralsiegel-vorlage.png` (für die vier Linien).
+**Referenzen:** `requisiten/ringzeichen.png` (für die vier Ringe).
 
 ## 7. `szene/phiole-pruefung` – Acht Kessel und ein Leuchttrank
 **Ebene:** Szene · **Moment:** Im Hof der Phiole blubbern acht Kupferkessel. Meisterin Ambra erklärt die Prüfung. Über den Zaun schaut Tickwort: „Ich bin rein zufällig hier!“ Vorn in der Menge steht ein Mann im schwarzen Mantel mit Notizbuch und beobachtet die Bewerber.
@@ -147,7 +147,7 @@ Dazwischen eine dunkle Hofeinfahrt ohne Licht (die Leise Hand). Der Brunnen in d
 **Referenzen:** `soeldner-waage-einzel`.
 
 ## 16. `tagebuch/perle-3` – Die Tagebuchseite „Die Gildenprobe“
-**Ebene:** Tagebuch · **Inhalt:** Kohleskizze der Tribüne mit drei kleinen Figuren darauf (die mittlere mit einer Kette), darunter vier Laternen mit Wasserfarbe in Blau, Silber, Rot und Gold. Am Rand kleine Skizzen: ein Wasserrad, ein Kessel mit Leuchten, ein Zelt mit Fransen, ein runder Knopf. In einer Ecke, ganz klein, vier Figuren im Kreis um eine Spirale. **Keine Schrift.**
+**Ebene:** Tagebuch · **Inhalt:** Kohleskizze der Tribüne mit drei kleinen Figuren darauf (die mittlere mit einer Kette), darunter vier Laternen mit Wasserfarbe in Blau, Silber, Rot und Gold. Am Rand kleine Skizzen: ein Wasserrad, ein Kessel mit Leuchten, ein Zelt mit Fransen, ein runder Knopf. In einer Ecke, ganz klein, vier Figuren im Kreis um vier verschlungene Ringe. **Keine Schrift.**
 **Referenzen:** keine.
 
 ## Hinweise

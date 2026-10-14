@@ -13,9 +13,9 @@
 }
 Du gehst weiter. {grisk_begleitet:Grisk|Mirk} geht neben dir, ganz dicht.
 
-Der Gang öffnet sich zu einer Höhle, die so groß ist, dass deine Lampe ihre Wände nicht erreicht. Der Boden ist glatt wie poliert. In ihn eingelassen, aus Linien aus hellem Stein, so groß wie der ganze Marktplatz von Lysmara: eine Spirale aus vier Linien, die sich ineinander winden.
+Der Gang öffnet sich zu einer Höhle, die so groß ist, dass deine Lampe ihre Wände nicht erreicht. Der Boden ist glatt wie poliert. In ihn eingelassen, aus Linien aus hellem Stein, so groß wie der ganze Marktplatz von Lysmara: vier Ringe, ineinander verschlungen.
 
-Und in der Mitte der Spirale schwebt etwas.
+Und in der Mitte, dort, wo die vier Ringe einander berühren, schwebt etwas.
 
 Eine Kugel aus Kristall, so groß wie ein Haus. In ihr kreisen vier Lichter, langsam, umeinander, wie Fische in einem Teich. Ein braunes, ein blaues, ein rotes, ein weißes. Erde, Wasser, Feuer, Wind. Das Brummen kommt aus ihr. Es ist ein Lied, merkst du plötzlich. Ein uraltes Lied mit vier Stimmen.
 ~ herz_gesehen = true
@@ -30,7 +30,7 @@ Und für einen Augenblick, einen einzigen Herzschlag lang, hörst du nicht nur {
 
 Dann siehst du den Riss.
 
-Er zieht sich von der Seite durch den Kristall, eine dunkle, gezackte Linie. Und wo er ist, sind die Lichter blass. Aus dem Riss sickert etwas heraus, langsam wie Rauch, aber ohne Farbe. Es sinkt zu Boden, und wo es den Boden berührt, wird der helle Stein der Spirale grau.
+Er zieht sich von der Seite durch den Kristall, eine dunkle, gezackte Linie. Und wo er ist, sind die Lichter blass. Aus dem Riss sickert etwas heraus, langsam wie Rauch, aber ohne Farbe. Es sinkt zu Boden, und wo es den Boden berührt, wird der helle Stein der Ringe grau.
 
 Das Schweigen. Es kommt von hier.
 -> stollen

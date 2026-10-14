@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#F9F6EE"/>
+<circle cx="512.0" cy="512.0" r="350" fill="#1F4F33"/><circle cx="512.0" cy="512.0" r="322" fill="none" stroke="#0B2416" stroke-width="5"/>
+<path d="M 626.4,407.4 A 128.0,128.0 0 0 1 397.6,407.4" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+<path d="M 386.1,373.1 A 128.0,128.0 0 1 1 637.9,373.1" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+<path d="M 548.1,535.1 A 128.0,128.0 0 0 1 548.1,488.9" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+<path d="M 559.6,454.6 A 128.0,128.0 0 1 1 559.6,569.4" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+<path d="M 397.6,616.6 A 128.0,128.0 0 0 1 626.4,616.6" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+<path d="M 637.9,650.9 A 128.0,128.0 0 1 1 386.1,650.9" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+<path d="M 464.4,569.4 A 128.0,128.0 0 1 1 464.4,454.6" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+<path d="M 475.9,488.9 A 128.0,128.0 0 0 1 475.9,535.1" fill="none" stroke="#0B2416" stroke-width="20" stroke-linecap="butt"/>
+</svg>

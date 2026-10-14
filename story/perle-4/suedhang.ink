@@ -199,7 +199,7 @@ Mit jedem Schritt wird es leiser. Dann wird es leer. Nicht nur um dich herum, au
 }
 Der Fremde.
 
-Er steht am Rand des Grauen, groß und schlank, im grauen Reisemantel, die Kapuze tief im Gesicht. Unter der Kapuze schimmern die Augen wie Mondlicht auf Wasser. Am Hals glänzt die Bronzeschließe: eine Spirale aus vier Linien.
+Er steht am Rand des Grauen, groß und schlank, im grauen Reisemantel, die Kapuze tief im Gesicht. Unter der Kapuze schimmern die Augen wie Mondlicht auf Wasser. Am Hals glänzt die Bronzeschließe: vier verschlungene Ringe.
 {
 - fall == 2:
     Er führt dich mit dem Jungen im Arm die letzten Schritte hinaus ins Grüne, eine Hand auf deiner Schulter. Seine Hand ist ganz leicht. Und mit jedem Schritt kommen die Farben zurück.
@@ -248,7 +248,7 @@ Jorrit hat die Pfeife fallen lassen.
 
 „Rufen“, sagt er. „So laut du kannst. Diesmal darfst du schreien.“
 
-Jorrit bückt sich nach seiner Pfeife. Als er sich wieder aufrichtet, ist der Fremde fort. Nur am Rand des Grauen, im grünen Gras, sind noch zwei Fußspuren zu sehen. Und daneben, mit dem Stab in die Erde gezeichnet, eine kleine Spirale aus vier Linien.
+Jorrit bückt sich nach seiner Pfeife. Als er sich wieder aufrichtet, ist der Fremde fort. Nur am Rand des Grauen, im grünen Gras, sind noch zwei Fußspuren zu sehen. Und daneben, mit dem Stab in die Erde gezeichnet, vier kleine Ringe, ineinander verschlungen.
 { erster_auftrag == "weiden_karte":
     ~ auftrag_p4 = 2
     Mit zitternden Fingern zeichnest du den Rand des Grauen in deine Karte. Ein Loch in der Weide. Und du schreibst daneben, was Orwin dir beigebracht hat: Wir zeichnen, was ist.

@@ -190,7 +190,7 @@ Auf dem Marktplatz bleibst du stehen. Etwas ist anders.
     { seraphine_einsicht:
         An der Ratshalle hängt ein neuer Aushang mit dem Zeichen der Waage. Ein Ausrufer liest ihn vor: Die Waage hebt das Register auf. Wer eingeschrieben war, ist frei. Die Leute sehen einander an, als hätten sie sich verhört.
     - else:
-        An der Ratshalle hängt immer noch der alte Aushang: Das Magiergesetz. Jemand hat mit Kreide eine kleine Spirale aus vier Linien daneben gemalt. Niemand hat sie weggewischt.
+        An der Ratshalle hängt immer noch der alte Aushang: Das Magiergesetz. Jemand hat mit Kreide vier kleine verschlungene Ringe daneben gemalt. Niemand hat sie weggewischt.
     }
 }
 { von_waage_notiert && not (waage_gestuerzt || seraphine_einsicht):

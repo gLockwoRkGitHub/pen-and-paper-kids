@@ -76,6 +76,6 @@ Stand 12.10.2026 – Antworten aus Runde 3.
 |---|---|---|
 | Durgash | Ork, Grumaks Bruder, Wirt im Gasthaus „Zum Halben Hauer“; ein unterer Hauer abgebrochen; laut und herzlich | Dornfurt |
 | Haldor | Schmuggler der Leisen Hand, fährt nachts ohne Laterne mit dem schwarzsegligen Boot „Nachtfalter“ | Schwarzwasserbucht |
-| Die Fährfrau | Alte Frau auf der Fähre von Dornfurt, Spirale in der Stange; Empfängerin des Briefs (gehört zum Kreis, wird nicht gesagt) | Dornfurt |
+| Die Fährfrau | Alte Frau auf der Fähre von Dornfurt, die vier Ringe in der Stange; Empfängerin des Briefs (gehört zum Kreis, wird nicht gesagt) | Dornfurt |
 | Der Fremde | nennt am Ende von Perle 7 seinen Namen: **Ithren** | Dornfurt |
 

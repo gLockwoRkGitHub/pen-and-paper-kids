@@ -95,7 +95,7 @@ Beim Essen erzählt Durgash. Die Dörfer sind leer, den ganzen Weg nach Osten, b
 # bild: szene/faehrfrau
 Am Fluss liegt eine Fähre, ein breites Floß an einem Seil, und darauf steht eine alte Frau mit einer langen Stange. Sie stakt Leute hinüber und herüber, den ganzen Tag.
 
-Du willst schon weitergehen, als du es siehst. In das Holz der Stange, ganz oben, ist ein Zeichen geschnitzt. Eine Spirale aus vier Linien.
+Du willst schon weitergehen, als du es siehst. In das Holz der Stange, ganz oben, ist ein Zeichen geschnitzt. Vier verschlungene Ringe.
 
 Gib ihn dem Ersten, der dir dasselbe Zeichen zeigt. Auf der anderen Seite der Berge.
 
@@ -193,7 +193,7 @@ Ithren steht auf. „Ich gehe morgen nach Osten“, sagt er. „Du kannst mitkom
 
 Er geht den Steg entlang, an dir vorbei, in die Fackeln, in die Dunkelheit, in den Lärm der Stadt. Als du dich umdrehst, ist er fort.
 
-Nur auf den nassen Brettern, wo er gesessen hat, ist ein Zeichen. Mit dem Stab ins Holz gedrückt. Eine Spirale aus vier Linien.
+Nur auf den nassen Brettern, wo er gesessen hat, ist ein Zeichen. Mit dem Stab ins Holz gedrückt. Vier verschlungene Ringe.
 
 Und daneben, ganz frisch: ein Pfeil. Nach Osten.
 ->->
