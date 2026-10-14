@@ -15,6 +15,7 @@
 -> p5_orin ->
 -> p5_eingang ->
 -> p5_grubenstadt ->
+-> p5_lampenlied ->
 -> p5_neumond ->
 -> p5_abstieg ->
 -> p5_vermisste ->

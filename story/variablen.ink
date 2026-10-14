@@ -184,6 +184,7 @@ VAR herzsplitter = false          // Splitter vom Herz als Beweis mitgenommen
 VAR tiefe_stiege_weg = false      // weiß: Die Tiefe Stiege führt bis auf die andere Seite (Licht am Ende gesehen)
 VAR singlampe = false            // Geschenk von Mirk: Grubenlampe mit Stimmerz, brennt eine Weile auch im Grauen
 VAR runen_gelernt = false        // mit Mirk die alten Zwergenzeichen der Tiefen Stiege gelernt
+VAR pip_himmel = false            // dem Koboldkind Pip vom Himmel oder vom Meer erzählt
 VAR talin_getroffen = false      // Talin, junger Erd-Rufer, bei der Waage eingeschrieben, gräbt für sie
 VAR talin_hilft = false          // Talin hat aufgehört zu graben und geht mit hinab
 

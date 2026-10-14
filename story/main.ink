@@ -34,6 +34,7 @@ INCLUDE perle-4/nacht.ink
 INCLUDE perle-5/perle-5.ink
 INCLUDE perle-5/reise.ink
 INCLUDE perle-5/minen.ink
+INCLUDE perle-5/lampen.ink
 INCLUDE perle-5/tiefe.ink
 INCLUDE perle-5/herz.ink
 INCLUDE perle-6/perle-6.ink

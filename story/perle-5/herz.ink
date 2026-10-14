@@ -207,6 +207,15 @@ Dann zieht dich jemand weiter.
 In Glimmhalde leuchten in dieser Nacht alle Lampen. Alle. Die Kobolde haben die sieben Vermissten wieder, und sie singen, und ihr Gesang klingt wie Steine, die einen Hang hinunterkollern. Fröhlich und laut.
 ~ rasten()
 
+{ vermisste_gerettet:
+    Ein kleiner Kobold rennt über die Brücke auf dich zu, den viel zu großen Helm in der Hand. Pip. Hinter Pip kommt ein Kobold mit grauen Flecken auf den Schuppen, noch etwas wacklig auf den Beinen: der Onkel.
+    { pip_himmel:
+        „Er hat gesagt, es gibt da oben wirklich keine Decke!“, ruft Pip. „Ich hab's ihm erzählt, und er hat gesagt, das stimmt! Wenn ich groß bin, geh ich nach oben und guck mir die tausend Lampen an.“
+    - else:
+        „Du hast ihn zurückgebracht“, sagt Pip und hält dir eine winzige, krumme Grubenlampe hin. „Die achte Lampe. Die hab ich für dich angezündet. Sie ist ein bisschen schief.“
+    }
+}
+
 Mirk setzt sich neben dich. Sie hält eine alte Grubenlampe in den Händen. In ihrem Glas steckt ein kleiner dunkler Splitter, der leise summt.
 
 „Singende Lampe“, sagt sie. „Mit Stimmerz drin. Gutem, altem, nicht aus dem Herz. Die brennt auch im Grauen. Eine Weile. Nicht lange.“ Sie drückt sie dir in die Hand. „Für Freund von Glimmhalde.“
