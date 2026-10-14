@@ -216,7 +216,7 @@ Du zeichnest die Weiden, die Steinmauern, die Schafe. Ein krummes Haus mit fünf
 # karte: ginsterhof
 # karte: das-graue
 
-Darunter schreibst du:
+Darunter schreibst du: # handschrift
 
 „Heute habe ich das Schweigen gesehen.
 Es nimmt den Elementen die Stimme. Wer darin schläft, geht fort.
@@ -246,7 +246,7 @@ Ich habe gerufen, und {element_artikel(element)} hat geantwortet, lauter als je 
 }
 Ashka sagt: Das Graue kommt nicht über die Berge. Es kommt aus ihnen.
 Der Berg brummt.
-Ich gehe zu den Minen.“
+Ich gehe zu den Minen.“ # tagebuch_ende
 
 Kraftfunken: {kraftfunken}
 ->->

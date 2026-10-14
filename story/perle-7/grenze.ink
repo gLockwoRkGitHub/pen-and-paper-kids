@@ -191,7 +191,7 @@ Im Gasthaus, beim Licht einer einzelnen Kerze, schlägst du dein Buch ein letzte
 
 Du zeichnest die ganze Karte von Meridel. Lysmara am Meer, die Weiden, den Orin, die Minen, Vardholm in seiner Schlucht. Und dann, zum ersten Mal, malst du über den Rand des Kamms hinaus. Einen Fluss. Eine Stadt mit Pfählen. Einen Pfeil nach Osten.
 
-Darunter schreibst du:
+Darunter schreibst du: # handschrift
 
 „Ich bin draußen.
 { p7_route:
@@ -226,7 +226,7 @@ Der Fremde heißt Ithren.
 Morgen geht er nach Osten.
 Der Kompass zeigt nach Westen. Nach Hause.
 Ich weiß noch nicht, wohin ich gehe.
-Aber ich weiß jetzt, dass ich es kann.“
+Aber ich weiß jetzt, dass ich es kann.“ # tagebuch_ende
 
 Kraftfunken: {kraftfunken}
 ->->

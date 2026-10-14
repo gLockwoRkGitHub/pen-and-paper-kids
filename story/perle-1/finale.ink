@@ -127,10 +127,10 @@ Er macht eine Pause. „Das ist ein Geschenk. Und ein Beweis, dass ich mich kurz
 Du klappst den Kompass auf. Die Nadel zittert, dreht sich einmal im Kreis und bleibt stehen.
 { beziehung_tickwort >= 3:
     Sie zeigt genau auf Tickwort.
-    Tickwort sieht es auch. Er sagt nichts. Aber sein Schornstein stößt einen einzigen, sehr kleinen Dampfring aus.
+    Tickwort sieht es auch. Er sagt nichts. Aber sein Schornstein stößt einen einzigen, sehr kleinen Dampfring aus. # tagebuch_ende
 - else:
     Sie zeigt nach Osten. Zu den Bergen.
-    „Interessant“, sagt Tickwort. „Sehr interessant. Das würde ich gern erklären. Aber ich glaube, das musst du selbst herausfinden.“
+    „Interessant“, sagt Tickwort. „Sehr interessant. Das würde ich gern erklären. Aber ich glaube, das musst du selbst herausfinden.“ # tagebuch_ende
 }
 
 Die Goblins bieten dir einen Schlafplatz an. „Neben der Esse ist es warm!“, ruft Brakka. „Meistens explodiert da nachts nichts!“
@@ -150,7 +150,7 @@ Spät in der Nacht schlägst du dein Buch auf. Du zeichnest Lysmara noch einmal,
 Und ganz am Rand, wo die Weiden enden, eine Reihe spitzer Zacken: den Kharvan-Kamm. Mittendrin einen schmalen Strich. Den Nyrrspalt.
 # karte: kharvan-kamm
 
-Darunter schreibst du:
+Darunter schreibst du: # handschrift
 
 „Heute ist der Nyrrspalt geschlossen worden.
 { ausloeser:
@@ -174,5 +174,5 @@ Darunter schreibst du:
 }
 Tickwort ist jetzt bei den Goblins. Endlich hört ihm jemand zu.
 Wer sind die Stillen?
-Morgen gehe ich zum Fluss.“
+Morgen gehe ich zum Fluss.“ # tagebuch_ende
 ->->

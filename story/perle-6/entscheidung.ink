@@ -507,7 +507,7 @@ Abends schlägst du dein Buch auf.
 
 Du zeichnest Vardholm, quer in seiner Schlucht. Den Turm mit dem Spiegel und einen Riss quer hindurch. Und kleine Punkte, die in den Himmel fliegen, braun, blau, rot, weiß.
 
-Darunter schreibst du:
+Darunter schreibst du: # handschrift
 
 „{freund()} heißt Arvelle. {Fr_sein()}e Mutter ist die Waagmeisterin.
 { goldknopf_gefunden:
@@ -540,7 +540,7 @@ Mein Ruf ist jetzt ein Sturm.
 - else:
     {freund()} bleibt hier. Ich vermisse {fr_ihn()} jetzt schon.
 }
-Das Herz im Berg hat einen Riss. Irgendwo da draußen weiß jemand, wie man ihn heilt.“
+Das Herz im Berg hat einen Riss. Irgendwo da draußen weiß jemand, wie man ihn heilt.“ # tagebuch_ende
 
 Kraftfunken: {kraftfunken}
 ->->

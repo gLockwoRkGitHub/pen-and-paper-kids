@@ -272,7 +272,7 @@ Du zeichnest Glimmhalde mit den Häusern wie Schwalbennester. Die Tiefe Stiege, 
 # karte: kobold-minen
 # karte: tiefe-stiege
 
-Darunter schreibst du:
+Darunter schreibst du: # handschrift
 
 „Heute habe ich das Herz des Berges gesehen.
 Darin wohnen alle vier Elemente. Einen Herzschlag lang habe ich alle vier gehört.
@@ -299,7 +299,7 @@ Der Riss kommt von einem Stollen. Die Kobolde haben ihn gegraben. Für die Waage
 { tiefe_stiege_weg:
     Die Tiefe Stiege führt ganz durch den Berg. Ich habe das Licht am anderen Ende gesehen.
 }
-{freund()}s Mutter reist nach Vardholm. Ich auch.“
+{freund()}s Mutter reist nach Vardholm. Ich auch.“ # tagebuch_ende
 
 Kraftfunken: {kraftfunken}
 ->->

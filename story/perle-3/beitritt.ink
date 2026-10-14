@@ -118,7 +118,7 @@ In der Tuchhalle stehen die Webstühle still, aber die Lampen brennen. Kettrich 
 
 „Und jetzt gehörst du.“ Er steckt dir ein Abzeichen an die Jacke: ein Webschiffchen, gekreuzt mit einem Hammer. „Damit kommst du in die Minen. Und in die Kantine.“ Er räuspert sich. „Und dein Ruf steht in unserem Buch. Unser Buch, nicht das der Waage. Die Waage bekommt einen Namen und ein Siegel. Sonst nichts. Regel einunddreißig.“
 
-Dann reicht er dir einen Brief. „Dein erster Auftrag. Die Wollhändler in Wollmark, draußen an der Spaltstraße, haben seit zwei Wochen nicht geliefert. Sie sagen, Gnolle schleichen um ihre Weiden. Geh hin. Finde heraus, was los ist.“
+Dann reicht er dir einen Brief. „Dein erster Auftrag. Die Wollhändler in Wollmark, draußen an der Spaltstraße, haben seit zwei Wochen nicht geliefert. Sie sagen, Gnolle schleichen um ihre Weiden. Geh hin. Finde heraus, was los ist.“ # tagebuch_ende
 ->->
 
 = feder
@@ -136,7 +136,7 @@ Ganz oben im Haus der Weiten Feder, unter den Fernrohren, wartet Meister Orwin. 
 
 Er steckt dir eine kleine silberne Feder an den Kragen. „Damit darfst du jedes Archiv der Gesellschaft betreten. Auch das, in dem die alten Karten liegen.“ Er zwinkert über beide Brillen hinweg. „Auch die ganz alten. Und dein Name steht in unserem Buch. Wer zaubert, steht darin wie jeder andere. Mit Tinte, die nicht verrät, wofür.“
 
-Dann rollt er eine Karte auf dem Tisch aus. Die Weiden, bis an den Fuß des Kharvan-Kamms. Sie ist voller Lücken. „Dein erster Auftrag. Unsere Karte der Weiden ist zwanzig Jahre alt. Die Hirten erzählen von Feuern in den Hügeln, wo keine sein sollten. Geh hinaus. Zeichne, was ist.“
+Dann rollt er eine Karte auf dem Tisch aus. Die Weiden, bis an den Fuß des Kharvan-Kamms. Sie ist voller Lücken. „Dein erster Auftrag. Unsere Karte der Weiden ist zwanzig Jahre alt. Die Hirten erzählen von Feuern in den Hügeln, wo keine sein sollten. Geh hinaus. Zeichne, was ist.“ # tagebuch_ende
 ->->
 
 = phiole
@@ -154,7 +154,7 @@ Du trinkst. Es schmeckt nach Honig. Und dann nach Pfeffer. Und dann, für einen 
 
 „Willkommen“, sagt Meisterin Ambra und hängt dir ein winziges Fläschchen an einem Lederband um den Hals. „Das Zeichen der Phiole. Und dein Name steht in unserem Buch.“ Sie klopft auf einen dicken Band. „Das wir übrigens gleich wieder vergessen haben.“
 
-„Dein erster Auftrag: Mondklee. Er wächst nur an den Hängen über Ginsterhof, ganz am Rand der Weiden. Wir brauchen einen Korb voll. Die Nächte dort draußen sind dunkel. Nimm Leuchttrank mit.“
+„Dein erster Auftrag: Mondklee. Er wächst nur an den Hängen über Ginsterhof, ganz am Rand der Weiden. Wir brauchen einen Korb voll. Die Nächte dort draußen sind dunkel. Nimm Leuchttrank mit.“ # tagebuch_ende
 ->->
 
 = hand
@@ -174,7 +174,7 @@ Dann nimmt er deine Jacke, dreht sie um und näht mit drei schnellen Stichen ein
 
 Fink grinst. „Die Hand hat Freunde in jeder Gilde. Morgen stehst du im Buch der Kartografen. Als Kartenträger. Auf dem Papier.“ Er zuckt die Schultern. „Papier ist geduldig.“
 
-„Dein erster Auftrag: ein Päckchen. Nach Ginsterhof, am Fuß der Ziegenstiege. Jemand dort wartet darauf.“ Er hält inne. „Diesmal darfst du reinschauen. Es ist eine Landkarte. Und ein Name.“
+„Dein erster Auftrag: ein Päckchen. Nach Ginsterhof, am Fuß der Ziegenstiege. Jemand dort wartet darauf.“ Er hält inne. „Diesmal darfst du reinschauen. Es ist eine Landkarte. Und ein Name.“ # tagebuch_ende
 ->->
 
 = waage
@@ -209,7 +209,7 @@ Er schiebt dir einen Vertrag hin und eine Feder.
 
 „Dein erster Dienst: Morgen fährt ein Wagen der Waage nach Wollmark, an der Spaltstraße. Du begleitest ihn. Die Hirten dort sind unruhig. Gnolle. Ein Rufer im Wagen beruhigt die Leute.“
 
-Als du hinausgehst, steht {freund()} auf der anderen Seite des Platzes am Brunnen. {Fr_er()} sieht das goldene Zelt. Dann dich. Dann dreht {fr_er()} sich um und geht.
+Als du hinausgehst, steht {freund()} auf der anderen Seite des Platzes am Brunnen. {Fr_er()} sieht das goldene Zelt. Dann dich. Dann dreht {fr_er()} sich um und geht. # tagebuch_ende
 ->->
 
 = niemand
@@ -230,10 +230,10 @@ Du gehst an allen Laternen vorbei. An der blauen, der silbernen, der roten. Am g
 {freund()} nickt langsam. Dann grinst {fr_er()} schief. „Weißt du was? Das ist das Mutigste, was ich je gesehen hab. Oder das Dümmste.“ {Fr_er()} stößt dich mit der Schulter an. „Wahrscheinlich beides.“
 { gnolle_gesichtet:
     „Und jetzt?“
-    „Jetzt gehe ich nach Wollmark“, sagst du. „Grumak sagt, auf den Weiden sind Gnolle. Innerhalb des Kamms. Wenn sie hereingekommen sind, gibt es einen Weg hinaus.“
+    „Jetzt gehe ich nach Wollmark“, sagst du. „Grumak sagt, auf den Weiden sind Gnolle. Innerhalb des Kamms. Wenn sie hereingekommen sind, gibt es einen Weg hinaus.“ # tagebuch_ende
 - else:
     „Und jetzt?“
-    „Jetzt gehe ich hinaus auf die Weiden“, sagst du. „Bis zum Neumond bleibt mir eine Woche. In der Stadt finde ich keinen Weg hinaus. Vielleicht da draußen.“
+    „Jetzt gehe ich hinaus auf die Weiden“, sagst du. „Bis zum Neumond bleibt mir eine Woche. In der Stadt finde ich keinen Weg hinaus. Vielleicht da draußen.“ # tagebuch_ende
 }
 ->->
 
@@ -327,7 +327,7 @@ Du schlägst dein Buch auf. Du zeichnest den Marktplatz mit der schwarz-goldenen
 }
 # karte: gewoelbe
 
-Darunter schreibst du:
+Darunter schreibst du: # handschrift
 
 „Heute war Gildentag.
 {
@@ -369,7 +369,7 @@ Wer zaubert, muss sich einschreiben. Das ist jetzt Gesetz.
 { spirale_an_tuer:
     Jemand hat die Spirale an meine Tür gemalt.
 }
-Morgen gehe ich hinaus auf die Weiden.“
+Morgen gehe ich hinaus auf die Weiden.“ # tagebuch_ende
 
 Kraftfunken: {kraftfunken}
 ->->

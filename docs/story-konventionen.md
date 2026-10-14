@@ -95,15 +95,18 @@ Gesamtentwurf des Tagebuchs (Bereiche, Taschen, Menschen, Fragen): `docs/tagebuc
 
 **Festgeschrieben:** `# tagebuch: <Titel>` beginnt einen Eintrag. Der Player speichert dazu Perle und aktuellen Kartenort (für die Siegel auf der Karte).
 
-**Vorschlag (14.10.2026, Design-Entwurf „Tagebuch“ auf claude.ai):** Es gibt zwei Arten von Einträgen, der Player erkennt sie automatisch:
+**Festgeschrieben 14.10.2026 (Pasco, Design-Entwurf „Tagebuch“ auf claude.ai):** Es gibt zwei Arten von Einträgen, der Player erkennt sie automatisch:
 - **Tagebuchseite** – einmal am Ende jeder Perle, erkennbar am `# bild: tagebuch/...` direkt davor. Sie zeigt die Skizze, darunter als Bildunterschrift den Satz „Du zeichnest …“ und dann die **Handschrift** der Spielfigur. Hier stehen auch die Entscheidungen („Ich habe den Gnollen geholfen …“), deshalb braucht es keine eigene Entscheidungsliste.
 - **Erinnerung** – ein besonderer Moment mitten in einer Perle (Grisk, Kompass, Erwachen, Gildenbeitritt). Sie zeigt die Stelle aus der Geschichte zum Nachlesen.
 
-Dafür zwei neue Tags:
-- `# handschrift` auf der Zeile „Darunter schreibst du:“ – ab der nächsten Zeile ist alles Handschrift (die äußeren Anführungszeichen lässt der Player weg).
-- `# tagebuch_ende` dort, wo der Eintrag endet. Ohne diesen Tag endet er bei der nächsten Entscheidung; das ist meist zu viel (es kämen z. B. „Kraftfunken: 2“ und das Level-Up mit hinein, bei Erinnerungen ganze Szenen).
+Dafür zwei Tags, beide **am Ende einer Textzeile** (inline), damit eindeutig ist, zu welcher Zeile sie gehören:
+- `# handschrift` hinter „Darunter schreibst du:“ – diese Zeile gehört noch zur Erzählung, ab der nächsten ist alles Handschrift (die äußeren Anführungszeichen lässt der Player weg).
+- `# tagebuch_ende` hinter der **letzten Zeile** des Eintrags – diese Zeile gehört noch dazu. Steht das Ende in einer Verzweigung, braucht **jeder Zweig** sein eigenes `# tagebuch_ende`.
+- `# tagebuch: <Titel>` steht auf einer eigenen Zeile **vor** der ersten Zeile des Eintrags. Achtung: Ein Tag allein auf einer Zeile hängt sich an die **nächste** Textzeile – am Ende eines Zweigs wäre das schon die nächste Szene.
 
-Außerdem sollte `# tagebuch: Die erste Seite` (Perle 1, `tickwort.ink`) schon bei „Du schlägst die erste Seite auf.“ stehen, sonst besteht die Erinnerung nur aus einem Satz. Und `# tagebuch: Grisk und die Erzmarke` steht nur im Erfolgs-Zweig; bei „Ja, aber“ und Misserfolg gibt es den Eintrag nicht (Absicht?).
+`npm test` prüft in allen Durchläufen: Jeder Eintrag endet vor der nächsten Entscheidung, jede Tagebuchseite hat ihre Handschrift.
+
+Eingebaut am 14.10.2026 in alle 17 Einträge. Dabei verschoben: „Die erste Seite“ beginnt jetzt bei „Du schlägst die erste Seite auf.“, „Grisk und die Erzmarke“ am Anfang des Erfolgs-Zweigs (vorher hing der Tag an der nächsten Szene), „Das Erwachen“ beim Erwachen der Magie selbst (vorher erst bei Yrsas Hinweis auf den Mentor). „Grisk und die Erzmarke“ gibt es weiterhin nur bei vollem Erfolg, weil nur dann die Erzmarke verschenkt wird.
 
 ## 8. Entscheidungen und Charakterbogen
 

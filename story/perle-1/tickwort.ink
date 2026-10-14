@@ -110,13 +110,13 @@ Er drückt dir beides in die Hand.
 
 „Schreib auf, was du erlebst. Und zeichne, wo du warst. Eine Karte, die man selbst gezeichnet hat, vergisst man nie.“
 
+# tagebuch: Die erste Seite
 Du schlägst die erste Seite auf. Sie ist leer. Du denkst einen Moment nach. Dann zeichnest du eine Küstenlinie, einen Hafen, ein paar Dächer.
 
 Lysmara.
-# tagebuch: Die erste Seite
 # karte: lysmara
 
-Es ist keine schöne Karte. Aber es ist deine.
+Es ist keine schöne Karte. Aber es ist deine. # tagebuch_ende
 -> plan
 
 = plan

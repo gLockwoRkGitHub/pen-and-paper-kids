@@ -111,5 +111,5 @@ Wird erst eingebaut, wenn die Bereiche entschieden sind (Beschluss 13.10.2026). 
 ## 10. Offen zur Entscheidung (Pasco)
 
 1. Welche Bereiche kommen ins Buch? Mindestens Ich, Erlebtes, Karte; dazu Taschen, Menschen, Fragen?
-2. Die Tags `# handschrift` und `# tagebuch_ende` (Vorschlag Technologie-Chat): einverstanden? Dann baut der Story-Chat sie in alle 17 Einträge ein.
+2. ~~Die Tags `# handschrift` und `# tagebuch_ende`~~ – **entschieden und eingebaut 14.10.2026** (Pasco; vom Technologie-Chat in alle 17 Einträge gesetzt, siehe `story-konventionen.md` Abschnitt 7).
 3. Passen die Texte für „Was ich gut kann“?

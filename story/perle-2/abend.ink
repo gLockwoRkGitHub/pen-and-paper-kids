@@ -118,7 +118,7 @@ Du schlägst dein Buch auf. Du zeichnest den Orin, die Wasserräder, die Große 
 }
 # karte: orin
 
-Darunter schreibst du:
+Darunter schreibst du: # handschrift
 
 „Heute hat mir {element_artikel(element)} geantwortet.
 { element_gewechselt:
@@ -145,7 +145,7 @@ Die Waage will, dass sich alle Magier bei einer Gilde einschreiben.
 { berg_brummt:
     Der Berg brummt. Was ist da unten?
 }
-In drei Tagen ist Gildentag.“
+In drei Tagen ist Gildentag.“ # tagebuch_ende
 
 Kraftfunken: {kraftfunken}
 ->->

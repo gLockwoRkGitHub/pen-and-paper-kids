@@ -73,11 +73,11 @@ Am Kai lachen ein paar Hafenarbeiter. „Lass den Wurm doch baden!“
     ~ erzmarke = true
     ~ aendern(ruf_kobolde, 1)
     ~ neigung_erde += 1
+    # tagebuch: Grisk und die Erzmarke
     Mit einem letzten Ruck landet das Netz sicher auf dem Kai. Der Kobold krabbelt heraus, schüttelt sich und starrt dich mit großen gelben Augen an.
     „Du hast Grisk geholfen“, sagt er langsam. „Keiner hilft Grisk. Aber du.“
     Er kramt in seinem Beutel und drückt dir etwas in die Hand: eine kleine Marke aus dunklem Erz, in die ein Zeichen geritzt ist. Sie ist erstaunlich schwer und fühlt sich an, als würde sie ganz leise summen.
-    „Erzmarke. Zeig sie in den Minen. Dann wissen alle: Freund von Grisk. Grisk vergisst nicht.“
-    # tagebuch: Grisk und die Erzmarke
+    „Erzmarke. Zeig sie in den Minen. Dann wissen alle: Freund von Grisk. Grisk vergisst nicht.“ # tagebuch_ende
 - JA_ABER:
     ~ kobold_gerettet = true
     ~ aendern(ruf_kobolde, 1)

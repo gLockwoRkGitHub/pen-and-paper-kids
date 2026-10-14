@@ -44,11 +44,35 @@ for (let lauf = 0; lauf < durchlaeufe; lauf++) {
   story.onError = (msg) => probleme.push(`Lauf ${lauf}: ${msg}`);
   let schritte = 0;
   let text = '';
+  // Tagebuch: offener Eintrag muss vor der nächsten Entscheidung enden (docs/story-konventionen.md, Abschnitt 7)
+  let eintrag = null;
+  let tagebuchBild = false;
+  const eintragZu = () => {
+    if (eintrag && eintrag.seite && !eintrag.handschrift) probleme.push(`Tagebuchseite '${eintrag.titel}' ohne # handschrift`);
+    eintrag = null;
+  };
   while (true) {
     while (story.canContinue) {
       text += story.Continue();
-      story.currentTags.forEach((t) => { tags[t] = (tags[t] || 0) + 1; });
+      for (const t of story.currentTags) {
+        tags[t] = (tags[t] || 0) + 1;
+        if (t.startsWith('bild: tagebuch/')) tagebuchBild = true;
+        if (t.startsWith('tagebuch:')) {
+          if (eintrag) probleme.push(`Tagebuch '${eintrag.titel}' hat kein # tagebuch_ende vor '${t.slice(9).trim()}'`);
+          eintrag = { titel: t.slice(9).trim(), seite: tagebuchBild, handschrift: false };
+          tagebuchBild = false;
+        }
+        if (t === 'handschrift') {
+          if (!eintrag) probleme.push('# handschrift außerhalb eines Tagebucheintrags');
+          else eintrag.handschrift = true;
+        }
+        if (t === 'tagebuch_ende') {
+          if (!eintrag) probleme.push('# tagebuch_ende ohne offenen Tagebucheintrag');
+          eintragZu();
+        }
+      }
     }
+    if (eintrag) { probleme.push(`Tagebuch '${eintrag.titel}' endet nicht vor der nächsten Entscheidung`); eintrag = null; }
     if (!story.currentChoices.length) break;
     if (++schritte > 2000) { probleme.push(`Lauf ${lauf}: Endlosschleife?`); break; }
     const i = Math.floor(Math.random() * story.currentChoices.length);
