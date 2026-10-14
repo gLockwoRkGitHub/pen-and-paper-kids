@@ -153,3 +153,29 @@ Dazwischen eine dunkle Hofeinfahrt ohne Licht (die Leise Hand). Der Brunnen in d
 ## Hinweise
 - `figur/grumak` erscheint in Perle 3 erneut (Besuch am Vorabend). Dafür wird das Bild aus Perle 1 wiederverwendet.
 - Kein Bild für das Gespräch mit Yrsa auf dem Platz. Wer will, kann es später ergänzen (`szene/yrsa-platz`).
+
+## Erzeugte Bilder (lokale Sitzung, 14.10.2026)
+Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `uebersicht-1.png`, `uebersicht-2.png`.
+
+| Bild | Seed | Bekannte Schwächen / Entscheidung |
+|---|---|---|
+| `szene-morgen-mentor-erde` | 2 | – |
+| `szene-morgen-mentor-wasser` | 2 | Nerelles Haar silbergrau statt silbergrün |
+| `szene-morgen-mentor-feuer` | 6 | Sehr dunkel (alle Seeds) |
+| `szene-morgen-mentor-wind` | 2 | Vael nicht zu sehen, nur der Leuchtturm |
+| `szene-tickwort-werkstatt` | 2 | – |
+| `entdeckung-gildentag` | 5 | – |
+| `szene-tuchhalle-pruefung` | 2 | Kettrich mit normaler Brille |
+| `szene-gewoelbe-pruefung` | 2 | – |
+| `szene-raum-der-vier` | 1 | Vier Ringe als Kreis/Kleeblatt mit einem kleinen Steg in der Mitte (wie im Ringsiegel). Seeds 2–4 zeigten die Ringe in einer Reihe (verboten) |
+| `szene-phiole-pruefung` | 1 | – |
+| `szene-zelt-der-waage` | 2 | Goldknopf klein, aber im Lampenlicht erkennbar |
+| `szene-zelt-register` | 3 | In anderen Seeds saß der Schreiber doppelt |
+| `entdeckung-magiergesetz-liora` / `-cassian` | 3 / 3 | Kind steht hinter den Eltern, Blick gesenkt; Ränder kaum skizzenhaft |
+| `szene-brunnen-abend-liora` | Runde 3 | Runde 1 und 2 (12 Seeds): das Kind saß fast immer doppelt am Brunnen. Runde 3: Seed 3 der Runde 1 mit `szene-brunnen-abend-entfernen.prompt.txt` (zweite Figur entfernt), Seed 1 |
+| `szene-brunnen-abend-cassian` | 3 | Einziger Seed mit nur einem Kind |
+| `szene-gildenlaternen` | 2 | – |
+| `szene-beitritt-webstuhl` / `-feder` / `-phiole` / `-hand` | 2 / 2 / 1 / 2 | Hand: sehr dunkler Hintergrund |
+| `szene-brunnen-nacht-liora` / `-cassian` | 2 / 2 | – |
+| `szene-heimweg-nacht` | 2 | – |
+| `tagebuch-perle-3` | 6 | Buch auf Tisch; Ringzeichen in der Ecke nur angedeutet (zwei Ringe) |

@@ -142,15 +142,15 @@ Beschreibung jedes Bildes: `docs/art/szenen/perle-3/README.md`. Fertige Prompts 
 - [x] **Ortsbilder** (1536×1024): `orte/tuchhalle`, `orte/gewoelbe`, `orte/phiole-hof` → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt I – Szenenbilder (`docs/art/szenen/perle-3/`, 1536×1024)
-- [ ] 1 `szene-morgen-mentor-<element>` (vier Varianten: erde, wasser, feuer, wind)
-- [ ] 2 `szene-tickwort-werkstatt` · 3 `entdeckung-gildentag`
-- [ ] 4 `szene-tuchhalle-pruefung` · 5 `szene-gewoelbe-pruefung` · 6 `szene-raum-der-vier` (genau vier verschlungene Ringe, Vorlage `requisiten/ringzeichen.png`)
-- [ ] 7 `szene-phiole-pruefung` · 8 `szene-zelt-der-waage` (Goldknopf gut sichtbar) · 9 `szene-zelt-register`
-- [ ] 10 `entdeckung-magiergesetz-liora` / `-cassian` (das Kind steht **hinter** den Eltern, Blick gesenkt)
-- [ ] 11 `szene-brunnen-abend-liora` / `-cassian` · 12 `szene-gildenlaternen`
-- [ ] 13 `szene-beitritt-webstuhl`, `-feder`, `-phiole`, `-hand`
-- [ ] 14 `szene-brunnen-nacht-liora` / `-cassian` · 15 `szene-heimweg-nacht` · 16 `tagebuch-perle-3`
-- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-3/uebersicht-*.png`) und Liste der Schwächen im README.
+- [x] 1 `szene-morgen-mentor-<element>` (vier Varianten: erde, wasser, feuer, wind) → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] 2 `szene-tickwort-werkstatt` · 3 `entdeckung-gildentag` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] 4 `szene-tuchhalle-pruefung` · 5 `szene-gewoelbe-pruefung` · 6 `szene-raum-der-vier` (genau vier verschlungene Ringe, Vorlage `requisiten/ringzeichen.png`) → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] 7 `szene-phiole-pruefung` · 8 `szene-zelt-der-waage` (Goldknopf gut sichtbar) · 9 `szene-zelt-register` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] 10 `entdeckung-magiergesetz-liora` / `-cassian` (das Kind steht **hinter** den Eltern, Blick gesenkt) → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] 11 `szene-brunnen-abend-liora` / `-cassian` · 12 `szene-gildenlaternen` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] 13 `szene-beitritt-webstuhl`, `-feder`, `-phiole`, `-hand` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] 14 `szene-brunnen-nacht-liora` / `-cassian` · 15 `szene-heimweg-nacht` · 16 `tagebuch-perle-3` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
+- [x] **Übersicht für Pasco** (`docs/art/szenen/perle-3/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-3/README.md`.
 
 ## Perle 4 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
 
