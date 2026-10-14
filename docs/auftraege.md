@@ -119,12 +119,12 @@ Neu in der Prüfliste: Liora/Cassian ist **verkleidet** (zu große Arbeiterjacke
 
 ### Schritt V – Ortsbild und erste Szenen
 - [x] `orte/raederviertel` (1536×1024), zuerst, es ist die Referenz für fast alle Bilder → **14.10.2026:** `orte/raederviertel.png` (Seed 2). Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
-- [ ] 1 `entdeckung-raederviertel` · 2 `szene-erzlaende` · 3 `szene-tuchhalle` · 4 `szene-grosse-schmiede` · 5 `szene-faerberturm-feuer`
+- [x] 1 `entdeckung-raederviertel` · 2 `szene-erzlaende` · 3 `szene-tuchhalle` · 4 `szene-grosse-schmiede` · 5 `szene-faerberturm-feuer` → **14.10.2026:** erledigt, Seeds und Schwächen in `docs/art/szenen/perle-2/README.md`, Übersicht `uebersicht-1.png`.
 
 ### Schritt W – Erwachen und Abend
-- [ ] 6 `szene-erwachen-<wasser|feuer|wind|erde>-<liora|cassian>` (acht Bilder)
-- [ ] 7 `szene-schmiedekeller` · 8 `szene-bruecke-abend-<liora|cassian>` · 9 `tagebuch-perle-2`
-- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-2/uebersicht-*.png`) und Liste der Schwächen im README.
+- [x] 6 `szene-erwachen-<wasser|feuer|wind|erde>-<liora|cassian>` (acht Bilder) → **14.10.2026:** erledigt, Seeds und Schwächen in `docs/art/szenen/perle-2/README.md`, Übersicht `uebersicht-1.png`.
+- [x] 7 `szene-schmiedekeller` · 8 `szene-bruecke-abend-<liora|cassian>` · 9 `tagebuch-perle-2` → **14.10.2026:** erledigt, Seeds und Schwächen in `docs/art/szenen/perle-2/README.md`, Übersicht `uebersicht-1.png`.
+- [x] **Übersicht für Pasco** (`docs/art/szenen/perle-2/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, Seeds und Schwächen in `docs/art/szenen/perle-2/README.md`, Übersicht `uebersicht-1.png`.
 
 ## Perle 3 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
 

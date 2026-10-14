@@ -61,3 +61,21 @@ Jede Variante zweimal: mit **Liora** und mit **Cassian** (verkleidet). Weber, Sc
 | Datei | Inhalt |
 |---|---|
 | `orte/raederviertel.png` | Uferstraße mit Wasserrädern, Schmieden, Färberei, Große Schmiede, Färberturm am Mühlgraben, Orinbrücke, Erzlände |
+
+## Erzeugte Bilder (lokale Sitzung, 14.10.2026)
+Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds, Referenzen aus der Kopfzeile. Übersicht: `uebersicht-1.png`.
+
+| Bild | Seed | Bekannte Schwächen |
+|---|---|---|
+| `entdeckung-raederviertel` | 2 | Kein Entdeckungs-Rand (Skizzenränder), eher vollflächig |
+| `szene-erzlaende` | 3 | Mirk wirkt grimmig; Brille nicht gesprungen |
+| `szene-tuchhalle` | 3 | Kettrich mit normaler Brille (nicht drei Gläser); Halle kirchenartig |
+| `szene-grosse-schmiede` | 2 | – |
+| `szene-faerberturm-feuer` | 6 | Kind oben klein, aber erkennbar |
+| `szene-erwachen-wasser-liora` / `-cassian` | 3 / 3 | Grüne Samtjacke kaum zu sehen |
+| `szene-erwachen-feuer-liora` / `-cassian` | 1 / 1 | Das Kind ist kaum zu sehen (Liora winzig im Fenster, Cassian nicht erkennbar). Alle anderen Seeds zeigen das Kind groß **unten** neben dem Feuer statt oben auf dem Turm |
+| `szene-erwachen-wind-liora` / `-cassian` | 4 / 4 | Grüne Samtjacke nicht sichtbar (schwarze Jacke) |
+| `szene-erwachen-erde-liora` / `-cassian` | 4 / 4 | Felsentreppe eher als Steinhaufen |
+| `szene-schmiedekeller` | 1 | – |
+| `szene-bruecke-abend-liora` / `-cassian` | 3 / 3 | Kein grüner Samt sichtbar (Verkleidung) |
+| `tagebuch-perle-2` | 4 | Buch liegt auf einem Tisch; Handschrift als unleserliche Kringel (wie im Prompt) |
