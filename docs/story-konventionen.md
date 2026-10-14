@@ -91,6 +91,8 @@ Die Ortsschlüssel folgen den Orten in `docs/worldbuilding/karte-meridel.md`. Ä
 
 ## 7. Tagebuch
 
+Gesamtentwurf des Tagebuchs (Bereiche, Taschen, Menschen, Fragen): `docs/tagebuch.md` (Vorschlag 14.10.2026, Story-Chat). Die Einteilung in Tagebuchseiten und Erinnerungen hier unten gilt dort mit.
+
 **Festgeschrieben:** `# tagebuch: <Titel>` beginnt einen Eintrag. Der Player speichert dazu Perle und aktuellen Kartenort (für die Siegel auf der Karte).
 
 **Vorschlag (14.10.2026, Design-Entwurf „Tagebuch“ auf claude.ai):** Es gibt zwei Arten von Einträgen, der Player erkennt sie automatisch:

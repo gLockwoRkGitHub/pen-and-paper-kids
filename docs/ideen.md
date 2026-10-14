@@ -40,6 +40,7 @@ Das Tagebuch steht dem Spieler nicht von Beginn an zur Verfügung. Es wird in de
 **Abgleich mit der Story (Claude, 13.10.2026):** Zum größten Teil schon so umgesetzt. In Perle 1 (`story/perle-1/tickwort.ink`) wird Tickwort aus der Werkstatt geworfen, erklärt Werte und Würfelprobe und zieht dann ein leeres Buch aus seinem Bauch und schenkt es der Spielfigur (`# tutorial: tagebuch`). Am Ende von Perle 1 bleibt er bei den Goblins („Du hast jetzt ein Buch“). Unterschiede:
 - Tickwort kommt **vor** der ersten Aufgabe (auf dem Weg zum Markt), nicht danach. So kann er die Würfelprobe erklären, bevor die erste echte Probe kommt.
 - Er erklärt das Buch bisher nur kurz („Schreib auf, was du erlebst. Und zeichne, wo du warst.“), **nicht die einzelnen Bereiche**. **Vorschlag:** Tickwort erklärt die Bereiche, passend zum Player (Werte/Charakterbogen, Einträge, Karte), in seinem eigenen Stil mit Unterpunkten.
+- **Entwurf des ganzen Tagebuchs:** `docs/tagebuch.md` (14.10.2026).
 - **Entschieden 13.10.2026:** Zeitpunkt bleibt wie er ist. Die Erklärung der Bereiche wird umgesetzt, aber erst nach der Ausarbeitung des Tagebuchs (siehe `entscheidungen.md`, `stand.md` Punkt 4b).
 
 ## Später / nach der Beta
