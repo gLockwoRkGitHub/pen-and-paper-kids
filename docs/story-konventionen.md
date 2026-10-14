@@ -26,6 +26,18 @@ Kennzeichnung: **Festgeschrieben** = so steht es schon in der Story und gilt. **
    **Neues im Tagebuch (Pasco, 14.10.2026):** Kommt etwas ins Buch (neuer Kartenort, Eintrag, Gegenstand, Mensch), zeigt der Player kurz einen Zettel „Neu im Tagebuch“ mit genau dem, was gerade neu ist. Nach etwa vier Sekunden blendet er aus und fängt keine Berührungen ab. Dauerhaft bleibt nur das rote Siegel am zugeklappten Buch mit der Zahl der ungesehenen Neuigkeiten; es verschwindet, wenn man das Buch öffnet.
 4. Spielstand nach jeder Entscheidung automatisch speichern (`story.state.toJson()`), siehe Abschnitt 9.
 
+## 2a. Startbildschirm und Charaktererstellung (Design-Entwurf 14.10.2026)
+
+**Startbildschirm:** der Einband des Abenteuerbuchs mit dem Titel aus `# titel:`. Ein Spielstand pro Gerät. Knöpfe: **Weiterlesen** (mit Name, Perle und Perlen-Titel des Spielstands), **Neues Abenteuer** (fragt nach, wenn schon ein Spielstand da ist – er geht dabei verloren) und **Diese Perle von vorn beginnen** (Speicherpunkt bei `# perle`, Abschnitt 9). Nach `# ende:` zeigt der Einband zusätzlich „Abenteuer bestanden“.
+
+**Charaktererstellung** (zwischen `# charaktererstellung` und `# werte_fertig`):
+- Der **Name** wird vorher im Player abgefragt (Freitext, höchstens 16 Zeichen) und in `name` geschrieben.
+- Entscheidungen der Form `Titel – Beschreibung` zeigt der Player als Karte mit Überschrift und Unterzeile (Trennzeichen: Leerzeichen, Halbgeviertstrich, Leerzeichen).
+- Entscheidungen der Form `Kraft (1)` erkennt er als Werte-Wahl und zeigt sie mit dem Plus aus der Frage.
+- Links wächst ein **Steckbrief** mit, der neue Edelstein leuchtet golden.
+- **Zurück ist erlaubt**, aber nur hier: Der Player speichert vor jeder Wahl den Ink-Zustand und stellt ihn bei „Zurück“ wieder her. Ab `# werte_fertig` gibt es kein Zurück mehr.
+- **Vorschlag an den Story-Chat:** Beim Volksbonus für Zwerg, Gnom, Ork und Troll gibt Ink bisher keinen Text aus; der Player kann den Bonus dann nicht erklären. Je eine Zeile in `charakter.ink` würde reichen, z. B. „Zwerge sind stark wie der Fels: +1 Kraft.“ Außerdem: In `charakter.ink` steht „Torwärter“, in der Story „Torwächter“; und für Mädchen heißt der Hintergrund weiterhin „Schiffsjunge“ – Absicht?
+
 ## 3. Tags
 
 Format immer `# name` oder `# name: wert`. Kleinschreibung, keine Umlaute im Namen.
