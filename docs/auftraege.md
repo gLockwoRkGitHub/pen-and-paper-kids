@@ -206,11 +206,11 @@ Neu in der Prüfliste: **genau vier Farben** (braun, blau, rot, weiß) bei Kugel
 - [x] `orte/vardholm`, `orte/vardholm-hof`, `orte/kugelhalle` → **14.10.2026:** alle drei. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt R – Szenenbilder (`docs/art/szenen/perle-6/`, 1536×1024)
-- [ ] 1 `entdeckung-spaltstrasse-vardholm` · 2 `szene-yrsas-karren` · 3 `szene-mauer-vardholm` · 4 `entdeckung-vardholm-hof`
-- [ ] 5 `szene-kugelhalle` · 6 `szene-modell-des-walls` · 7 `entdeckung-vorfuehrung-<liora|cassian>` · 8 `szene-hinter-dem-stall-<liora|cassian>`
-- [ ] 9 `szene-festmahl-vardholm` · 10 `szene-funken-frei` · 11 `szene-schweigen-im-spalt`
-- [ ] 12 `szene-ruf-gross-<erde|wasser|feuer|wind>` · 13 `entdeckung-vardholm-morgen` · 14 `tagebuch-perle-6`
-- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-6/uebersicht-*.png`) und Liste der Schwächen im README.
+- [x] 1 `entdeckung-spaltstrasse-vardholm` · 2 `szene-yrsas-karren` · 3 `szene-mauer-vardholm` · 4 `entdeckung-vardholm-hof` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-6/README.md`.
+- [x] 5 `szene-kugelhalle` · 6 `szene-modell-des-walls` · 7 `entdeckung-vorfuehrung-<liora|cassian>` · 8 `szene-hinter-dem-stall-<liora|cassian>` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-6/README.md`.
+- [x] 9 `szene-festmahl-vardholm` · 10 `szene-funken-frei` · 11 `szene-schweigen-im-spalt` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-6/README.md`.
+- [x] 12 `szene-ruf-gross-<erde|wasser|feuer|wind>` · 13 `entdeckung-vardholm-morgen` · 14 `tagebuch-perle-6` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-6/README.md`.
+- [x] **Übersicht für Pasco** (`docs/art/szenen/perle-6/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-6/README.md`.
 
 ## Perle 7 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
 

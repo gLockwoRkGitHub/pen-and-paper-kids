@@ -126,3 +126,23 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 ## Ohne eigenes Bild
 - `karte: vardholm` braucht kein eigenes Bild. Die Festung erscheint später auf der Tagebuch-Karte.
 - `szene/wiedersehen`-ähnliche Momente mit Pell, Strell oder Seraphine in der Nacht bleiben bewusst ohne Bild, weil sie vom Durchlauf abhängen.
+
+## Erzeugte Bilder (lokale Sitzung, 14.10.2026)
+Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `uebersicht-1.png`.
+
+| Bild | Seed | Bekannte Schwächen |
+|---|---|---|
+| `entdeckung-spaltstrasse-vardholm` | 2 | – |
+| `szene-yrsas-karren` | 2 | – |
+| `szene-mauer-vardholm` | 3 | – |
+| `entdeckung-vardholm-hof` | 2 | – |
+| `szene-kugelhalle` | 2 | Viele Kugeln in mehr als vier Farbtönen (Orange, Gold) |
+| `szene-modell-des-walls` | 6 | Zettel mit unleserlicher Handschrift (in allen Seeds) |
+| `entdeckung-vorfuehrung-liora` / `-cassian` | 2 / 2 | Der **fehlende Goldknopf** ist nicht zu erkennen; Kuppel nur als blasse Glasglocke |
+| `szene-hinter-dem-stall-liora` / `-cassian` | 3 / 3 | Kind ohne Jacke im weißen Hemd |
+| `szene-festmahl-vardholm` | 3 | – |
+| `szene-funken-frei` | 3 | Die freigelassenen Funken sind kaum zu sehen |
+| `szene-schweigen-im-spalt` | 4 | Graue Schwaden wirken wie Nebel (alle Seeds); kein Spiegel mit Riss erkennbar |
+| `szene-ruf-gross-erde` / `-feuer` / `-wasser` / `-wind` | 3 / 2 / 3 / 3 | – |
+| `entdeckung-vardholm-morgen` | 2 | – |
+| `tagebuch-perle-6` | 5 | Buch auf Tisch; unleserliche Notizen |
