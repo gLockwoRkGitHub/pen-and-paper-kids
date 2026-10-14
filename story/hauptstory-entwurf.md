@@ -107,6 +107,12 @@ Die 3–4 Auslöser aus den Start-Fragen zeigen alle über die Berge, zum Beispi
   - **Der Brief** geht an die **Fährfrau**, die die Spirale in ihre Stange geschnitzt hat.
 - **Cliffhanger:** Der Fremde wartet am Steg und nennt seinen Namen: **Ithren**. „Das Herz in eurem Berg ist nicht das einzige. Es gibt noch andere. Und eines davon ist schon still.“ Er geht nach Osten, man darf mitkommen oder heimkehren. **Ende des ersten Abenteuers.**
 
+## Verlängerung (14.10.2026, Ziel 30–45 Minuten pro Perle)
+- **Perle 2:** Alle drei Spuren am Ufer (statt zwei). Neu: **Ole**, der Schmiedelehrling mit dem Kohlenkarren, schweigt gegenüber der Waage oder verrät dich (`lehrling_schweigt`, sonst `von_waage_notiert`).
+- **Perle 5:** **Das Lampenlied** am ersten Abend in Glimmhalde: sieben Lampen für die Vermissten; das Koboldkind **Pip** fragt nach dem Himmel (`pip_himmel`) und empfängt nach der Rettung seinen Onkel.
+- **Perle 6:** **Lager an der Straße** mit **Jaro**, einem jungen Söldner (`jaro_gesprochen` – er hilft in der Nacht und wird Fischer). **Brina**, eine alte Wasser-Ruferin, im Hof (`brina_freundin`); sie bricht bei der Vorführung zusammen und ruft in der Nacht mit.
+- **Perle 7:** Lysmara zeigt die Folgen von Vardholm (`p7_marktplatz`), die Bezugsperson gibt einen Rat für den Weg, der **Grenzstein**, ein **Nachtlager** (die geweckte Ziege warnt, `ziege_folgt`), die **Gnomenfamilie** mit dem stillen Dampfkarren (`gnomfamilie_geholfen`), in Dornfurt die Karawane aus Kar Duun („Leute mit silbernen Augen“) und die **Lärmwache** der Kinder (Magie ist hier ein Geschenk), am zweiten Tag das **Gnolllager** (Ashkas Bruder, wenn man den Gnollstein trägt).
+
 ## Was bewusst offen bleibt
 - **Die größere Bedrohung** selbst – im ersten Abenteuer nur Hinweise. Vorschlag „das Schweigen“: `docs/ideen.md`.
 - Die Schlucht hält der **Bund der Goldenen Waage** (festgelegt). Wer dort genau hinter der Schließung steckt und warum, wird beim Schreiben ausgearbeitet.

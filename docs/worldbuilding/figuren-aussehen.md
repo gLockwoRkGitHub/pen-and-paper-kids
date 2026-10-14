@@ -162,6 +162,13 @@ Für Kinder um die zwölf, als Vorlage für Bilder der Spielfigur-Auswahl. Die S
 - **Troll:** groß und **schlaksig**, lange Arme und Beine, schlank und **gelenkig** (nicht massig), **blaugraue Haut**, lange spitze Ohren, große Augen, lange Nase, moosgrünes Haar; geflickte Tunika mit Seilgürtel, barfuß. Flink, schwer zu fassen, verschmitzt, nicht monströs.
 - Prompts: `docs/art/figuren/volk-<volk>-<m|w>-einzel.prompt.txt` (10 Stück) und `voelker-vergleich.prompt.txt` (Größenvergleich).
 
+### Neue Nebenfiguren aus der Verlängerung (Vorschlag von Claude, 14.10.2026)
+- **Ole (Perle 2):** Schmiedelehrling um die fünfzehn, kurze braune Haare, Ruß im Gesicht, Lederschürze, verbundene Hand.
+- **Pip (Perle 5):** Koboldkind, graugrüne Schuppen, riesige gelbe Augen, viel zu großer verbeulter Grubenhelm.
+- **Jaro (Perle 6):** junger Söldner der Waage, etwa siebzehn, rote Haare, Sommersprossen, Brustplatte eine Nummer zu groß.
+- **Brina (Perle 6):** sehr alte Wasser-Ruferin aus einem Dorf bei Wollmark, Gesicht wie ein runzliger Apfel, sehr helle wache Augen, graues Haar im lockeren Knoten, Schultertuch, Messingplakette.
+- **Die Gnomenfamilie (Perle 7):** Vater mit verrußter Schutzbrille, Mutter mit Säugling im Tuch, Tochter um die sieben; Dampfkarren mit Kessel (kein eigenes Bild).
+
 ## Bezugspersonen (je nach Hintergrund)
 
 Grundaussehen von Claude ergänzt (Vorschlag, 12.10.2026); was aus der Story kommt, ist markiert.

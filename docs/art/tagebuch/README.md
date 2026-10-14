@@ -13,4 +13,4 @@ Ausgearbeitet von Claude am 14.10.2026. Kleine Skizzen für die Laschen **Tasche
 | Ordner | Anzahl |
 |---|---|
 | `taschen/` | 20 (15 Gegenstände, davon Quelle in 3 und Gildenzeichen in 4 Varianten) |
-| `menschen/` | 30 (22 Figuren, davon Bezugsperson in 6, Mentor in 4, Liora/Cassian in 2 Varianten; Yrsa nur einmal) |
+| `menschen/` | 34 (26 Figuren, davon Bezugsperson in 6, Mentor in 4, Liora/Cassian in 2 Varianten; Yrsa nur einmal; Ole, Pip, Jaro, Brina ohne Einzelbild) |

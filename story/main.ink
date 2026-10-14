@@ -16,6 +16,7 @@ INCLUDE perle-2/perle-2.ink
 INCLUDE perle-2/ufer.ink
 INCLUDE perle-2/erwachen.ink
 INCLUDE perle-2/mentoren.ink
+INCLUDE perle-2/lehrling.ink
 INCLUDE perle-2/abend.ink
 INCLUDE perle-3/perle-3.ink
 INCLUDE perle-3/vorabend.ink

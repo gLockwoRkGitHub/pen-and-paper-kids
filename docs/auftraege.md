@@ -245,11 +245,12 @@ Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf 
 - [ ] `gildenzeichen-webstuhl_amboss`, `gildenzeichen-weite_feder`, `gildenzeichen-phiole`, `gildenzeichen-leise_hand`, `plakette`, `gnollstein`
 - [ ] `herzsplitter`, `singlampe`, `goldknopf`, `seil`, `pfeife`, `ring`, `paeckchen`
 
-### Schritt T2 – Menschen (30 Skizzen)
+### Schritt T2 – Menschen (34 Skizzen)
 - [ ] Bezugspersonen: `maren`, `bonifaz`, `mutter-kessel`, `holm`, `ysolde`, `rhea`
 - [ ] `tickwort`, `liora`, `cassian`, `fremder`, `grisk`, `fesk`, `fink`, `grumak`
 - [ ] Mentoren: `borrik`, `nerelle`, `yrsa`, `vael`
 - [ ] `kettrich`, `mirk`, `seraphine`, `pell`, `strell`, `jorrit`, `ashka`, `wuk`, `talin`, `durgash`, `faehrfrau`, `haldor`
+- [ ] Nebenfiguren ohne Einzelbild (nur aus Text): `ole`, `pip`, `jaro`, `brina`
 - [ ] **Übersicht für Pasco** (`docs/art/tagebuch/uebersicht-*.png`) und Liste der Schwächen im README.
 
 ## Auf Abruf (kein fester Auftrag)

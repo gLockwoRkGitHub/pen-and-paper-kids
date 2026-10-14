@@ -1,7 +1,7 @@
 // =====================================================================
 // Perle 2 – Am Fluss der Räder
 // Ablauf: Morgen im Räderviertel (Liora/Cassian kommt mit)
-//         → Ufer: zwei von drei Spuren (Erzlände, Tuchhalle, Große Schmiede)
+//         → Ufer: alle drei Spuren in frei wählbarer Reihenfolge (Erzlände, Tuchhalle, Große Schmiede)
 //         → Feuer am Färberturm: Die Magie erwacht
 //         → Im Keller der Schmiede: Yrsa erklärt, Element bestätigen oder wählen
 //         → Beim Mentor des Elements: erster Zauber, Quelle, ein Hinweis auf den Weg hinaus
@@ -17,6 +17,7 @@
 -> p2_turm ->
 -> p2_keller ->
 -> p2_mentor ->
+-> p2_lehrling ->
 -> p2_abend ->
 -> p2_tagebuch ->
 -> level_up ->

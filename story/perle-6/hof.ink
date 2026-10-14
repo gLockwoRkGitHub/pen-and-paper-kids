@@ -64,4 +64,6 @@ Er heißt Jaro und kommt aus dem Hafenviertel von Lysmara. „Bei der Waage gibt
     Ihr esst schweigend nebeneinander. Als er geht, sagt Jaro: „Gute Nacht.“ Er klingt, als hätte er das lange zu niemandem mehr gesagt.
 -
 In der Nacht liegst du lange wach. Über der Schlucht steht ein schmaler Mond. Und ganz leise, so leise, dass du nicht sicher bist, ob du es wirklich hörst, summt etwas aus der Richtung der Festung. Wie Bienen in einem Glas.
+
+Am nächsten Morgen zieht die Reihe weiter. Die letzte Stunde bis zum Tor.
 ->->

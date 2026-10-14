@@ -117,6 +117,7 @@ VAR kugeln_verstanden = false     // weiß: die Glaskugeln der Waage fangen Magi
 VAR seeweg_bekannt = false        // Hinweis auf heimliche Überfahrt
 VAR vardholm_hinweis = false      // Hinweis auf die Festung und ihre Lieferungen
 VAR ziegenstiege_bewacht = false
+VAR lehrling_schweigt = false     // Ole, der Schmiedelehrling, verrät der Waage nicht, wer am Färberturm gezaubert hat
 VAR freund_kennt_magie = false
 VAR freund_vertraut = false       // dem Freund / der Freundin die ganze Wahrheit erzählt
 VAR fink_hat_gestohlen = false

@@ -41,13 +41,16 @@ Und auf einem Poller am Ufer sitzt jemand, der hier ganz und gar nicht hingehör
 
 
 === p2_ufer
-{ spuren >= 2:
+{ spuren >= 3:
     ->->
 }
-{ spuren == 0:
+{ spuren:
+- 0:
     Wo wollt ihr anfangen?
-- else:
+- 1:
     Die Sonne steht schon hoch über den Rädern. Wohin als Nächstes?
+- else:
+    Es ist Mittag. {freund()} kauft an einem Stand zwei heiße Brezeln und reicht dir eine. „Einer fehlt noch“, sagt {fr_er()} mit vollem Mund. „Dann haben wir alle gefragt.“
 }
 + {not p2_erzlaende} [Zur Erzlände, wo die Kobolde die Kähne entladen]
     -> p2_erzlaende

@@ -234,7 +234,7 @@
 // ---------------------------------------------------------------------
 
 === function menschen_liste()
-~ return "bezugsperson,tickwort,freund,fremder,grisk,fesk,fink,grumak,mentor,yrsa,kettrich,mirk,seraphine,pell,strell,jorrit,ashka,wuk,talin,durgash,faehrfrau,haldor"
+~ return "bezugsperson,tickwort,freund,fremder,grisk,fesk,fink,grumak,mentor,yrsa,ole,kettrich,mirk,seraphine,pell,strell,jorrit,ashka,wuk,pip,talin,jaro,brina,durgash,faehrfrau,haldor"
 
 === function mensch_bekannt(id)
 { id:
@@ -258,6 +258,14 @@
     ~ return element != ""
 - "yrsa":
     ~ return yrsa_getroffen && element != "feuer"
+- "ole":
+    ~ return lehrling_schweigt
+- "pip":
+    ~ return p5_lampenlied > 0
+- "jaro":
+    ~ return jaro_gesprochen
+- "brina":
+    ~ return p6_brina > 0
 - "kettrich":
     ~ return p2_tuchhalle > 0 || p3_gesetz > 0
 - "mirk":
@@ -351,6 +359,14 @@
     {mentorname()}
 - "yrsa":
     Yrsa
+- "ole":
+    Ole
+- "pip":
+    Pip
+- "jaro":
+    Jaro
+- "brina":
+    Brina
 - "kettrich":
     Meister Kettrich
 - "mirk":
@@ -433,6 +449,14 @@
     }
 - "yrsa":
     Alte Schmiedin am Fluss. Hat mich nach dem Feuer am Färberturm versteckt. {yrsa_in_vardholm:Ist mit mir nach Vardholm gefahren.}
+- "ole":
+    Schmiedelehrling am Fluss. Sein Kohlenkarren hat den Färberturm angezündet. Er hat mich nie gesehen. Sagt er.
+- "pip":
+    Koboldkind in Glimmhalde, Helm viel zu groß. {vermisste_gerettet:Hat seinen Onkel wieder.|Wartet auf seinen Onkel.} {pip_himmel:Will eines Tages den Himmel sehen.}
+- "jaro":
+    Junger Söldner aus dem Hafenviertel. Brustplatte eine Nummer zu groß. {p6_morgen > 0:Will jetzt Fischer werden.}
+- "brina":
+    Alte Wasser-Ruferin aus einem Dorf bei Wollmark. Hat Regen gerochen, zwei Tage bevor er kam. {funken_frei:Ihre Funken sind wieder da.}
 - "kettrich":
     Gnom mit drei Brillengläsern. Hallenmeister von Webstuhl und Amboss. Hat für alles eine Regel.
 - "mirk":
