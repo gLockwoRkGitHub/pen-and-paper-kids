@@ -53,7 +53,7 @@ Grundaussehen nach `docs/worldbuilding/figuren-aussehen.md`; die ergänzten Deta
 
 **Bekannte Schwächen:**
 - Grumak wirkt stämmig, aber nicht „groß wie ein Schrank“ – die Größe zeigt sich erst neben anderen Figuren im Szenenbild.
-- Der Fremde: Bei vielen Seeds zeichnet das Modell in den Seitenansichten ein Menschengesicht. Beim Erzeugen von Szenen darauf achten, dass das Gesicht im Schatten bleibt. Seine Stiefel sehen recht modern aus.
+- Der Fremde: Bei vielen Seeds zeichnet das Modell in den Seitenansichten ein Menschengesicht. (Überholt: Seit 13.10.2026 ist das Gesicht sichtbar, siehe unten.) Seine Stiefel sehen recht modern aus.
 - Der Fremde hält den Brief mit dem Spiralsiegel – streng genommen ein Szenenzustand (Perle 1, Nacht).
 
 ## Die vier Mentoren (alle vier von Pasco bestätigt; Nerelle am 13.10.2026)
@@ -84,7 +84,7 @@ Die Fassungen vom 13.10.2026 haben die ersten Bilder ersetzt (beide von Pasco an
 | `fremder-referenzblatt.png` | `fremder-blatt.prompt.txt`, Seed 2, 2048×832, Referenz `fremder-einzel.png` |
 | `fremder-vergleich.png` | Übersicht: links die Fassung vom 12.10. (schwarzes Gesicht), daneben die sechs Seeds des dritten Versuchs |
 
-**Der Fremde – Entscheidung von Pasco (13.10.2026):** Seed 2 des dritten Versuchs. Das Gesicht ist unter der Kapuze **sichtbar** (schmales, freundliches Gesicht, dunkles Haar, leises Lächeln). Das weicht von der bisherigen Vorgabe „Gesicht im Schatten, nie ein ganzes Gesicht“ ab; `docs/worldbuilding/der-fremde.md` ist entsprechend ergänzt. Die Szenen-Prompts beschreiben noch das Gesicht im Schatten.
+**Der Fremde – Entscheidung von Pasco (13.10.2026):** Seed 2 des dritten Versuchs. Das Gesicht ist unter der Kapuze **sichtbar** (schmales, freundliches Gesicht, dunkles Haar, leises Lächeln). Das weicht von der bisherigen Vorgabe „Gesicht im Schatten, nie ein ganzes Gesicht“ ab; `docs/worldbuilding/der-fremde.md` ist entsprechend ergänzt. Die Szenen-Prompts sind angepasst (14.10.2026).
 
 **Bekannte Schwächen:**
 - Grumaks graue Strähnen sind kaum zu sehen; mit dem alten Bild als Referenz ließ er sich nicht vergrößern, deshalb neu aus Text.

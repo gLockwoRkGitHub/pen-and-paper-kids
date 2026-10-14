@@ -89,6 +89,11 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 ### Schritt F – Zum Schluss
 - [x] **Übersicht für Pasco:** alle gewählten Bilder von Perle 1 in einem oder zwei Übersichtsbildern (`docs/art/szenen/perle-1/uebersicht-*.png`) und in der README die Liste mit Schwächen. Dann Pasco Bescheid geben, dass Claude im Chat die Bilder prüfen kann. → 13.10.2026 erledigt (Seeds und Schwächen: `docs/art/szenen/perle-1/README.md`).
 
+### Nachbesserung Perle 1 (Prüfung Claude, 14.10.2026)
+Gründe und Änderungen: `docs/art/szenen/perle-1/README.md`, Abschnitt „Prüfung durch Claude“. Prompts sind schon angepasst.
+- [ ] Neu: `figur-tickwort` (drei Beine!) · `szene-goblin-werkstatt` (Tickwort und Maschine getrennt) · `entdeckung-ausrufer-ratshalle` (kein Kreuz, Waage-Zeichen)
+- [ ] Optional: `szene-nordkai-kisten` · `requisiten/dampfkarren`
+
 ## Perle 2 – Szenenbilder (Auftrag vom 13.10.2026, nachgeholt)
 
 Direkt **nach Perle 1** beginnen. Beschreibung jedes Bildes: `docs/art/szenen/perle-2/README.md`. Fertige Prompts liegen daneben. Ablauf und Prüfliste wie bei Perle 1.
@@ -207,7 +212,7 @@ Neu in der Prüfliste: **Geschenke** sehen aus wie in `requisiten/abschiedsgesch
 ### Schritt U – Szenenbilder Teil 2
 - [ ] 14 `szene-schwarzwasserbucht` · 15 `szene-sturm-am-kap` · 16 `entdeckung-jenseits-der-berge` · 17 `szene-leeres-dorf`
 - [ ] 18 `entdeckung-dornfurt` · 19 `szene-zum-halben-hauer` · 20 `szene-silbermark-stube` · 21 `szene-faehrfrau`
-- [ ] 22 `szene-fremder-am-steg` (erst, wenn das neue Einzelbild des Fremden abgenommen ist) · 23 `tagebuch-perle-7`
+- [ ] 22 `szene-fremder-am-steg` · 23 `tagebuch-perle-7`
 - [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-7/uebersicht-*.png`) und Liste der Schwächen im README.
 
 ## Karten – Grundkarten und Ortsskizzen (Auftrag vom 13.10.2026)

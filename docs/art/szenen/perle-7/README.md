@@ -9,7 +9,7 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 - **Vier Wege, vier Stimmungen:** Pass (klar, offen), Gipfel (kalt, Schnee, Wind), unter dem Berg (dunkel, dann Licht), Meer (Nacht, Sturm, Morgengrauen).
 - **Jenseits der Berge** ist das Land **braun und golden** (Herbst, Birken), nicht grün wie Meridel. Kleine **aschgraue Flecken** auf den Feldern zeigen, dass das Schweigen hier war (kein Nebel).
 - **Dornfurt** ist bunt, voll und **absichtlich laut**: Glocken, Trommel, Rasseln. Gegensatz zum stillen Grau.
-- **Der Fremde (Ithren)** im letzten Bild: Grundaussehen wie im abgenommenen Einzelbild. Die Kapuze ist ein wenig zurückgeschoben, das untere Gesicht im Fackellicht, die Augen nur ein silbriger Schimmer.
+- **Der Fremde (Ithren)** im letzten Bild: Grundaussehen wie im abgenommenen Einzelbild (Gesicht sichtbar). Die Kapuze ist ein wenig zurückgeschoben, das Gesicht im Fackellicht, die Augen nur ein silbriger Schimmer.
 - Wiederverwendet aus Perle 5: `entdeckung/minentor` und `szene/der-schlund` (keine neuen Bilder nötig).
 
 ---
@@ -108,7 +108,7 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 **Referenzen:** `faehrfrau-einzel`, `requisiten/spiralsiegel.png`.
 
 ## 22. `szene/fremder-am-steg` – Ithren
-**Moment:** Das letzte Bild des ersten Abenteuers. Nachts am Ende des Stegs, Fackeln im Fluss, hinten die laute Stadt. Der Fremde dreht den Kopf zum Betrachter, die Kapuze ein wenig zurückgeschoben, leises Lächeln, silbriger Augenschimmer. Neben ihm, ins nasse Holz gedrückt: **Spirale und Pfeil nach Osten**.
+**Moment:** Das letzte Bild des ersten Abenteuers. Nachts am Ende des Stegs, Fackeln im Fluss, hinten die laute Stadt. Der Fremde dreht den Kopf zum Betrachter, die Kapuze ein wenig zurückgeschoben, das Gesicht im Fackellicht, leises Lächeln, silbriger Augenschimmer. Neben ihm, ins nasse Holz gedrückt: **Spirale und Pfeil nach Osten**.
 **Referenzen:** das abgenommene Einzelbild des Fremden, `requisiten/spiralsiegel.png`.
 
 ## 23. `tagebuch/perle-7` – Die ganze Karte

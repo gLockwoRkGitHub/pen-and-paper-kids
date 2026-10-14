@@ -46,8 +46,8 @@ Die lokale Sitzung arbeitet die Bilder in der Reihenfolge aus `docs/auftraege.md
 ## 4. `szene/fremder-im-regen` – Der Fremde unter dem Torbogen
 **Ebene:** Szene · **Moment:** Die Spielfigur sucht unter dem Torbogen des Alten Zollhauses Schutz vor dem Regen. Im Schatten steht der Fremde und hält ihr einen Brief hin. „Du siehst aus wie jemand, der Wege kennt.“
 **Aussage:** Geheimnis, nicht Bedrohung. Er ist ruhig und beinahe freundlich, und trotzdem stellen sich einem die Nackenhaare auf.
-**Blick:** unter einem großen, alten Steinbogen. Der Fremde steht zwei Schritte entfernt im Schatten und streckt die Hand im grauen Handschuh mit dem Brief zum Betrachter aus. **Das dunkelgrüne Spiralsiegel** ist deutlich zu sehen und fängt das Licht. Hinter ihm dunkle nasse Gasse, Regenschnüre im Laternenlicht.
-**Figur:** wie im Grundaussehen, dazu als Szenenzustand: **Mantel nass vom Regen**, der Brief in der Hand. Gesicht im Schatten der Kapuze, nur Kinn und Mund schwach zu sehen, die Augen **schimmern** silbrig wie Mondlicht auf Wasser und leuchten nicht.
+**Blick:** unter einem großen, alten Steinbogen. Der Fremde steht zwei Schritte entfernt, halb im Schatten (Gesicht sichtbar wie im gewählten Einzelbild) und streckt die Hand im grauen Handschuh mit dem Brief zum Betrachter aus. **Das dunkelgrüne Spiralsiegel** ist deutlich zu sehen und fängt das Licht. Hinter ihm dunkle nasse Gasse, Regenschnüre im Laternenlicht.
+**Figur:** wie im Grundaussehen, dazu als Szenenzustand: **Mantel nass vom Regen**, der Brief in der Hand. Gesicht unter der Kapuze sichtbar wie im gewählten Einzelbild (geändert 13.10.2026), halb im Schatten, die Augen **schimmern** silbrig wie Mondlicht auf Wasser und leuchten nicht.
 **Licht:** eine einzelne Laterne am Torbogen, kaltes Blaugrau, Regen glänzt.
 **Referenzen:** `fremder-einzel` (die abgenommene Fassung), `requisiten/spiralsiegel.png`.
 
@@ -217,3 +217,23 @@ Mehrere Referenzbilder funktionieren (getestet mit drei); Szenen mit drei Refere
 | `tagebuch-kompass` | 6 (zweite Runde) | Erste Runde zeigte einen Menschen-Roboter; mit `tickwort-einzel.png` als zweiter Referenz stimmt er. Loser Messingring im Bild |
 
 Die Zusätze der zweiten Runde für die drei Tagebuchbilder (zweite Referenz und ein Satz dazu) stehen noch nicht in den Prompt-Dateien.
+
+## Prüfung durch Claude (14.10.2026)
+
+Beide Übersichten angesehen. **Insgesamt sehr gelungen:** Stil einheitlich, Ich-Perspektive hält überall, keine Schrift, Lage stimmt (Meer im Westen, Berge im Osten). Besonders stark: die sechs Bezugspersonen, Sonnenuntergang am Hafen, Zwirbelgasse, Markt mit Fink, Freund fällt, die Tagebuchseiten.
+
+**Neu machen** (Prompts sind nachgeschärft, siehe Kommentarzeilen):
+| Bild | Problem | Änderung im Prompt |
+|---|---|---|
+| `figur-tickwort` | vier Beine | sitzt aufrecht, „exactly THREE legs like a camera tripod“ |
+| `szene-goblin-werkstatt` | Tickwort und Maschine verschmolzen | Maschine groß hinten links, Tickwort klein vorne rechts, ausdrücklich getrennt |
+| `entdeckung-ausrufer-ratshalle` | **Kreuz auf dem Turm** (gibt es in Meridel nicht), Söldner ohne Waage-Zeichen | Wetterfahne in Fischform, „no cross“; Waage-Zeichen deutlich |
+
+**Optional neu machen:**
+| Bild | Problem |
+|---|---|
+| `szene-nordkai-kisten` | Söldner ohne sichtbares Waage-Zeichen, wirken wie Polizisten. Prompt: drei Söldner, Zeichen deutlich |
+| `requisiten/dampfkarren` | vier statt drei Räder (Prompt war schon nachgeschärft) |
+
+**Kann so bleiben** (kleine Schwächen, nicht störend): Möwe in `szene-morgen` mit Krönchen-artigem Fleck; `figur-freund-*` wirken etwas jünger als 12; Grumaks Hauer sehr groß; Ringbindung bei `tagebuch-erzmarke`/`-kompass` (für künftige Tagebuchbilder steht jetzt „genähter Lederrücken“ im Prompt).
+
