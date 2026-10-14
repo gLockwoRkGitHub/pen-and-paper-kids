@@ -14,6 +14,11 @@ Referenz: `stil-vorschlaege/1-gemaltes-abenteuerbuch.jpg`
 | **Entdeckung** | Städte und Mechaniken, vor allem beim ersten Anblick (erstes Luftschiff, Tram usw.) | Gemaltes Bild in der Mitte, Ränder lösen sich in Skizzen, Bleistiftlinien und Farbspritzer auf | `mix-1-und-3.jpg` |
 | **Tagebuch** | Skizzen, die der Spieler story-technisch **selbst gemalt** und in seinem Tagebuch festgehalten hat | Bleistift-/Tuscheskizzen auf Papier, mit Notizen | Randskizzen in `mix-1-und-3.jpg` |
 
+## Verbotene Formen (festgelegt 14.10.2026, Pasco)
+- **Nichts, was an ein Hakenkreuz oder andere belastete Zeichen erinnert.** Keine Zeichen mit vier (oder drei) gleichen, abgeknickten oder gebogenen Armen, die sich um einen Mittelpunkt drehen – auch nicht als Wappen, Siegel, Ornament, Kritzelei oder Muster. Ebenso keine Runen, die als Sig- oder Odalrune gelesen werden können.
+- Gilt für Bilder, Prompts, Player-Gestaltung und Symbole in der Story. Im Zweifel ein anderes Motiv wählen.
+- Anlass: Ein Wappen-Entwurf für den Startbildschirm (vier gebogene Arme) erinnerte daran; er wurde sofort ersetzt.
+
 ## Hinweise für die Bilderzeugung
 - In den Skizzen keine unleserliche Pseudo-Schrift. Notizen entweder weglassen oder später als echter Text ergänzen.
 - Figuren müssen über alle Bilder hinweg wiedererkennbar bleiben (Kleidung, Farben, Merkmale festhalten).
