@@ -237,3 +237,19 @@ Beide Übersichten angesehen. **Insgesamt sehr gelungen:** Stil einheitlich, Ich
 
 **Kann so bleiben** (kleine Schwächen, nicht störend): Möwe in `szene-morgen` mit Krönchen-artigem Fleck; `figur-freund-*` wirken etwas jünger als 12; Grumaks Hauer sehr groß; Ringbindung bei `tagebuch-erzmarke`/`-kompass` (für künftige Tagebuchbilder steht jetzt „genähter Lederrücken“ im Prompt).
 
+
+## Nachbesserung und Ringzeichen (lokale Sitzung, 14.10.2026)
+
+| Bild | Seed | Was gemacht wurde |
+|---|---|---|
+| `figur-tickwort` | 1 | Neu nach nachgeschärftem Prompt: jetzt drei Beine, ein Auge, Zangen |
+| `szene-goblin-werkstatt` | 8 (zweite Runde) | Runde 1 mit drei Referenzen: Tickwort verschmolz mit einem Goblin. Runde 2 nur mit Tickwort als Referenz (`-MaxRef 1`). Jetzt getrennt: Maschine hinten links, Tickwort auf der Kiste. Schwäche: hinter der Kiste lugt ein dritter Goblin hervor |
+| `entdeckung-ausrufer-ratshalle` | 1 | Kein Kreuz mehr (Wetterfahne), Waage auf den Brustplatten. Die Kreide am Pfeiler zeigte vier Ringe **in einer Reihe** (verboten, wirkt wie Audi) – mit `tools/zeichen-einsetzen.py` übermalt und das Ringzeichen klein als Kreide eingesetzt |
+| `szene-nordkai-kisten` | 4 | Optional neu: drei Söldner, Waage auf der Brust erkennbar |
+| `szene-fremder-im-regen` (R3) | 1 | Neu mit `fremder-einzel.png` (Ringschließe) und `ringsiegel.png`: Siegel und Schließe zeigen die vier Ringe. Gesicht sichtbar wie beim Einzelbild |
+| `szene-klippen-leuchtturm` (R4) | 1 | Neu: die Spirale im Sand ist weg, Tickwort hat drei Beine. Prompt verbietet Zeichen im Sand |
+| `szene-zwirbelgasse` (R4) | – | Am Türbalken war ein herzförmiger Knoten (keine Spirale, aber kein Ringzeichen). Übermalt und das Ringzeichen klein eingeschnitzt eingesetzt |
+
+`requisiten/dampfkarren` (optional): auch die dritte Runde (6 Seeds) hat vier Räder. Bleibt wie es ist, Schwäche steht in `requisiten/README.md`.
+
+**R5 – übrige Bilder durchgesehen (14.10.2026):** alle Bilder in `figuren/`, `orte/`, `requisiten/` und `szenen/perle-1/` (einschließlich Tagebuchseiten) über die Übersichten und Ausschnitte geprüft. Weitere Spiralen oder spiralartige Zeichen gefunden: keine. Übersichten `uebersicht-1.png` und `-2.png` neu gebaut.

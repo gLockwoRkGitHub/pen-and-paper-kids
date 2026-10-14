@@ -7,13 +7,15 @@
       "name": "Meridel",
       "breite": 1280, "hoehe": 1040,
       "grundkarte": "karten/meridel-grund.png",
-      "grundvorlage": "karten/meridel-grundvorlage.png"
+      "grundvorlage": "karten/meridel-grundvorlage.png",
+      "eingemessen": "14.10.2026"
     },
     "lysmara": {
       "name": "Lysmara",
       "breite": 1200, "hoehe": 900,
       "grundkarte": "karten/lysmara-grund.png",
-      "grundvorlage": "karten/lysmara-grundvorlage.png"
+      "grundvorlage": "karten/lysmara-grundvorlage.png",
+      "eingemessen": "14.10.2026"
     }
   },
 

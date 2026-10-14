@@ -60,3 +60,11 @@ Die Koordinaten in `karten.json` stammen aus der Lagevorlage. Die gemalte Grundk
 - Jeder `# karte: …`-Schlüssel der Story steht unter `tags` in `karten.json`. `npm test` meldet Schlüssel, die fehlen.
 - Neue Orte: zuerst in `docs/worldbuilding/karte-meridel.md`, dann Eintrag in `karten.json` (Ort, Tag, ggf. Bereich/Weg) und eine Prompt-Datei in `skizzen/`.
 - Die früheren ganzen Kartenbilder je Perle (`karte-meridel-perle-1`, `karte-meridel-perle-4`) **entfallen**. Tagebuchbilder mit Kartenmotiv (z. B. `tagebuch/perle-1`, „Die erste Seite“) bleiben, sie sind Bilder im Tagebuch, nicht die Karte.
+
+## Grundkarten (lokale Sitzung, 14.10.2026)
+| Datei | Seed | Bemerkung |
+|---|---|---|
+| `meridel-grund.png` | 1 | Folgt der Grundvorlage genau (Prüfbild `pruefung-meridel.png`). Schwäche: ein zusätzlicher kleiner Bach kommt oben aus dem Kamm in den Orin; die Bergdreiecke der Vorlage sind noch als Umriss zu sehen |
+| `lysmara-grund.png` | 8 (zweite Runde) | Runde 1: Fluss lief rechts aus dem Bild statt unten entlang ins Meer; Prompt nachgeschärft. Prüfbild `pruefung-lysmara.png` deckt sich mit der Lagevorlage |
+
+**Einmessen (K2):** Beide Grundkarten wurden mit der Vorlage als Bildreferenz erzeugt und liegen deckungsgleich auf der Lagevorlage (siehe Prüfbilder). Die Koordinaten in `karten.json` mussten deshalb nicht verschoben werden; `"eingemessen": "14.10.2026"` ist eingetragen. Claude im Chat sollte die Prüfbilder noch einmal ansehen.

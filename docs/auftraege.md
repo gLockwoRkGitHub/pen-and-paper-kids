@@ -32,12 +32,12 @@ Die Story-Texte und alle Prompts sind schon umgestellt. Die alten Dateien `spira
 
 **Prüfliste für jedes Bild mit dem Zeichen:** genau vier Ringe · im Kreis, nicht in einer Reihe (Audi) und nicht 3 + 2 versetzt (Olympia) · keine Drehform, kein Windrad, keine Haken · Mitte frei. Wenn das Modell es nicht sauber schafft: Zeichen weglassen und in Krita von Hand aus `requisiten/ringzeichen.png` einsetzen.
 
-- [ ] **R1 Ringsiegel:** `docs/art/requisiten/ringsiegel.png` mit `requisiten/ringsiegel.prompt.txt` und `--referenz docs/art/requisiten/ringsiegel-vorlage.png`, 1024×1024, 6 Seeds, bestes wählen. Eintrag in `requisiten/README.md` ergänzen (Seed).
-- [ ] **R2 Der Fremde – Schließe:** In `figuren/fremder-einzel.png` und `figuren/fremder-referenzblatt.png` ist die Schließe eine Spirale. **Das Gesicht ist abgenommen und soll bleiben.** Deshalb bevorzugt nur die Schließe in Krita ersetzen (Inpainting oder von Hand übermalen: kleine runde Bronzeschließe aus vier verschlungenen Ringen, Vorlage `requisiten/ringzeichen.png`). Nur wenn das nicht gut aussieht: neu erzeugen mit `fremder-einzel-neu.prompt.txt` bzw. `fremder-blatt.prompt.txt` und das Ergebnis Pasco zur Abnahme zeigen.
-- [ ] **R3 `szene-fremder-im-regen.png` (Perle 1):** Siegel auf dem Brief und Schließe zeigen die Spirale. Neu erzeugen mit dem aktualisierten Prompt (Referenzen: neues `fremder-einzel.png` aus R2, `requisiten/ringsiegel.png` aus R1) – oder Siegel und Schließe in Krita ersetzen, wenn das Bild sonst gut ist.
-- [ ] **R4 Suchspiel Perle 1 prüfen:** `szene-zwirbelgasse.png` (Türbalken), `entdeckung-ausrufer-ratshalle.png` (Kreide am Pfeiler), `szene-klippen-leuchtturm.png` (Felsen; **im Sand ist eine Spirale, die muss auf jeden Fall weg**). Jede Spirale entfernen oder durch das Ringzeichen ersetzen (Krita reicht). Zur Sicherheit auch `figur-tickwort.png` und `uebersicht-*.png` ansehen und die Übersicht neu bauen.
-- [ ] **R5 Alle übrigen fertigen Bilder durchsehen:** in `docs/art/` nach sichtbaren Spiralen suchen, die als Zeichen gemeint sein könnten (z. B. Tagebuch-Seiten, Ortsbilder). Fundstellen wie in R4 behandeln.
-- [ ] **R6 Abschluss:** committen, pushen, in diesem Abschnitt abhaken (mit Datum und Datei).
+- [x] **R1 Ringsiegel:** `docs/art/requisiten/ringsiegel.png` mit `requisiten/ringsiegel.prompt.txt` und `--referenz docs/art/requisiten/ringsiegel-vorlage.png`, 1024×1024, 6 Seeds, bestes wählen. Eintrag in `requisiten/README.md` ergänzen (Seed). → **14.10.2026:** `docs/art/requisiten/ringsiegel.png` (Seed 5).
+- [x] **R2 Der Fremde – Schließe:** In `figuren/fremder-einzel.png` und `figuren/fremder-referenzblatt.png` ist die Schließe eine Spirale. **Das Gesicht ist abgenommen und soll bleiben.** Deshalb bevorzugt nur die Schließe in Krita ersetzen (Inpainting oder von Hand übermalen: kleine runde Bronzeschließe aus vier verschlungenen Ringen, Vorlage `requisiten/ringzeichen.png`). Nur wenn das nicht gut aussieht: neu erzeugen mit `fremder-einzel-neu.prompt.txt` bzw. `fremder-blatt.prompt.txt` und das Ergebnis Pasco zur Abnahme zeigen. → **14.10.2026:** Nur die Schließe ersetzt (Ausschnitt aus einer Bearbeitungsfassung ins Original eingesetzt, Gesicht unverändert): `figuren/fremder-einzel.png`, `figuren/fremder-referenzblatt.png`. Beschreibung in `figuren/README.md`.
+- [x] **R3 `szene-fremder-im-regen.png` (Perle 1):** Siegel auf dem Brief und Schließe zeigen die Spirale. Neu erzeugen mit dem aktualisierten Prompt (Referenzen: neues `fremder-einzel.png` aus R2, `requisiten/ringsiegel.png` aus R1) – oder Siegel und Schließe in Krita ersetzen, wenn das Bild sonst gut ist. → **14.10.2026:** `szenen/perle-1/szene-fremder-im-regen.png` neu (Seed 1).
+- [x] **R4 Suchspiel Perle 1 prüfen:** `szene-zwirbelgasse.png` (Türbalken), `entdeckung-ausrufer-ratshalle.png` (Kreide am Pfeiler), `szene-klippen-leuchtturm.png` (Felsen; **im Sand ist eine Spirale, die muss auf jeden Fall weg**). Jede Spirale entfernen oder durch das Ringzeichen ersetzen (Krita reicht). Zur Sicherheit auch `figur-tickwort.png` und `uebersicht-*.png` ansehen und die Übersicht neu bauen. → **14.10.2026:** Klippen neu (Spirale weg), Zwirbelgasse und Ratshalle mit `tools/zeichen-einsetzen.py` bereinigt, Übersichten neu.
+- [x] **R5 Alle übrigen fertigen Bilder durchsehen:** in `docs/art/` nach sichtbaren Spiralen suchen, die als Zeichen gemeint sein könnten (z. B. Tagebuch-Seiten, Ortsbilder). Fundstellen wie in R4 behandeln. → **14.10.2026:** Keine weiteren Fundstellen, siehe `szenen/perle-1/README.md`.
+- [x] **R6 Abschluss:** committen, pushen, in diesem Abschnitt abhaken (mit Datum und Datei). → **14.10.2026:** Commit „R3–R6, Nachbesserung Perle 1, Grundkarten“.
 
 Noch nicht erzeugte Bilder (Perle 3 `szene-raum-der-vier`, Perle 4 `szene-fremder-am-grauen`, Perle 5/7 Herz des Berges, Perle 7 Fährfrau und Steg, Tagebuch-Skizzen) brauchen nichts Extra: Ihre Prompts nennen schon die Ringe und `ringzeichen.png`/`ringsiegel.png` als Referenz. Nur die Prüfliste oben gilt dort auch.
 
@@ -109,8 +109,8 @@ node tools/erzeuge-bild.js docs/art/szenen/perle-1/szene-hafen-kran.prompt.txt d
 
 ### Nachbesserung Perle 1 (Prüfung Claude, 14.10.2026)
 Gründe und Änderungen: `docs/art/szenen/perle-1/README.md`, Abschnitt „Prüfung durch Claude“. Prompts sind schon angepasst.
-- [ ] Neu: `figur-tickwort` (drei Beine!) · `szene-goblin-werkstatt` (Tickwort und Maschine getrennt) · `entdeckung-ausrufer-ratshalle` (kein Kreuz, Waage-Zeichen)
-- [ ] Optional: `szene-nordkai-kisten` · `requisiten/dampfkarren`
+- [x] Neu: `figur-tickwort` (drei Beine!) · `szene-goblin-werkstatt` (Tickwort und Maschine getrennt) · `entdeckung-ausrufer-ratshalle` (kein Kreuz, Waage-Zeichen) → **14.10.2026:** Alle drei neu, siehe Abschnitt „Nachbesserung“ in `szenen/perle-1/README.md`.
+- [x] Optional: `szene-nordkai-kisten` · `requisiten/dampfkarren` → **14.10.2026:** Nordkai neu (Seed 4); Dampfkarren auch in Runde 3 mit vier Rädern, bleibt.
 
 ## Perle 2 – Szenenbilder (Auftrag vom 13.10.2026, nachgeholt)
 
@@ -239,11 +239,11 @@ Neues Verfahren, von Pasco entschieden: **Grundkarte und Orte getrennt**. Alles 
 Alle Kartenbilder auf **reinweißem Hintergrund**, ohne Papierstruktur und ohne Schrift.
 
 ### Schritt K1 – Grundkarten
-- [ ] `docs/art/karten/meridel-grund` (1536×1248, Referenz `meridel-grundvorlage.png`) – nur Küste, Meer, Fluss, Gebirge
-- [ ] `docs/art/karten/lysmara-grund` (1536×1152, Referenz `lysmara-grundvorlage.png`) – Stadtgrundriss ohne Wahrzeichen
+- [x] `docs/art/karten/meridel-grund` (1536×1248, Referenz `meridel-grundvorlage.png`) – nur Küste, Meer, Fluss, Gebirge → **14.10.2026:** `karten/meridel-grund.png` (Seed 1).
+- [x] `docs/art/karten/lysmara-grund` (1536×1152, Referenz `lysmara-grundvorlage.png`) – Stadtgrundriss ohne Wahrzeichen → **14.10.2026:** `karten/lysmara-grund.png` (Seed 8, zweite Runde).
 
 ### Schritt K2 – Einmessen
-- [ ] Prüfbilder `pruefung-meridel.png` und `pruefung-lysmara.png` (Grundkarte + Lagevorlage mit 50 % Deckkraft), danach `x`/`y`, Wege und Bereiche in `karten.json` an die gemalte Karte anpassen und `"eingemessen"` eintragen. Pasco Bescheid geben, Claude prüft im Chat.
+- [x] Prüfbilder `pruefung-meridel.png` und `pruefung-lysmara.png` (Grundkarte + Lagevorlage mit 50 % Deckkraft), danach `x`/`y`, Wege und Bereiche in `karten.json` an die gemalte Karte anpassen und `"eingemessen"` eintragen. Pasco Bescheid geben, Claude prüft im Chat. → **14.10.2026:** Prüfbilder angelegt, deckungsgleich, `eingemessen` in `karten.json` eingetragen. **Claude im Chat kann prüfen.**
 
 ### Schritt K3 – Ortsskizzen (`docs/art/karten/skizzen/`, je 4 Seeds)
 - [ ] Meridel: `lysmara`, `klippen-von-ahrn`, `weiden`, `wollmark`, `ginsterhof`, `das-graue`, `gnollenlager`
