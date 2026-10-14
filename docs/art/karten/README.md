@@ -68,3 +68,9 @@ Die Koordinaten in `karten.json` stammen aus der Lagevorlage. Die gemalte Grundk
 | `lysmara-grund.png` | 8 (zweite Runde) | Runde 1: Fluss lief rechts aus dem Bild statt unten entlang ins Meer; Prompt nachgeschärft. Prüfbild `pruefung-lysmara.png` deckt sich mit der Lagevorlage |
 
 **Einmessen (K2):** Beide Grundkarten wurden mit der Vorlage als Bildreferenz erzeugt und liegen deckungsgleich auf der Lagevorlage (siehe Prüfbilder). Die Koordinaten in `karten.json` mussten deshalb nicht verschoben werden; `"eingemessen": "14.10.2026"` ist eingetragen. Claude im Chat sollte die Prüfbilder noch einmal ansehen.
+
+## Ortsskizzen und Zusammenbau (K3, lokale Sitzung, 14.10.2026)
+- Alle 28 Skizzen mit 4 Seeds **ohne** Referenzbild erzeugt (die Ortsbilder als Referenz hätten den Bildaufbau übernommen). Alle Seeds waren brauchbar (kleines Symbol auf Weiß); gewählt wurde jeweils Seed 2, weil er am durchgängigsten zum Stil der anderen passt.
+- `tools/karte-zusammenbau.py` baut `pruefung-meridel-komplett.png` und `pruefung-lysmara-komplett.png`: Grundkarte, Skizzen (Weißrand abgeschnitten, Breite = `breite`, Mitte = `x`,`y`, mit „Multiplizieren“ eingesetzt) und Wege.
+- **Eingemessen:** Auf der gemalten Lysmara-Karte liegt die Kaimauer weiter östlich als in der Vorlage; `hafen` deshalb von `x` 285 auf 345 verschoben. Alle anderen Positionen passen.
+- **Bekannte Schwächen:** `lysmara-grund.png` hat unten im Meer einen grauen Balken und lässt den Fluss als doppelte Tuschelinie ins Meer laufen; `meridel-grund.png` zeigt die Bergdreiecke der Vorlage. Die Skizzen von Wollmark und Lysmara sind recht groß im Verhältnis. Claude im Chat sollte die beiden Zusammenbau-Bilder prüfen.

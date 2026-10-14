@@ -52,7 +52,7 @@
     "schwarzwasserbucht": { "karte": "meridel", "name": "Schwarzwasserbucht", "x": 120, "y": 826, "breite": 70, "skizze": "skizzen/schwarzwasserbucht.png" },
     "dornfurt":         { "karte": "meridel", "name": "Dornfurt",         "x": 1238, "y": 560, "breite": 60,  "skizze": "skizzen/dornfurt.png" },
 
-    "hafen":            { "karte": "lysmara", "name": "Hafen",            "x": 285,  "y": 380, "breite": 130, "skizze": "skizzen/stadt-hafen.png" },
+    "hafen":            { "karte": "lysmara", "name": "Hafen",            "x": 345,  "y": 380, "breite": 130, "skizze": "skizzen/stadt-hafen.png" },
     "phiole":           { "karte": "lysmara", "name": "Glühende Phiole",  "x": 535,  "y": 470, "breite": 55,  "skizze": "skizzen/stadt-phiole.png" },
     "markt":            { "karte": "lysmara", "name": "Markt",            "x": 590,  "y": 540, "breite": 85,  "skizze": "skizzen/stadt-markt.png" },
     "marktplatz":       { "karte": "lysmara", "name": "Marktplatz",       "x": 680,  "y": 415, "breite": 150, "skizze": "skizzen/stadt-marktplatz.png" },

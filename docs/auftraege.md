@@ -246,11 +246,11 @@ Alle Kartenbilder auf **reinweißem Hintergrund**, ohne Papierstruktur und ohne 
 - [x] Prüfbilder `pruefung-meridel.png` und `pruefung-lysmara.png` (Grundkarte + Lagevorlage mit 50 % Deckkraft), danach `x`/`y`, Wege und Bereiche in `karten.json` an die gemalte Karte anpassen und `"eingemessen"` eintragen. Pasco Bescheid geben, Claude prüft im Chat. → **14.10.2026:** Prüfbilder angelegt, deckungsgleich, `eingemessen` in `karten.json` eingetragen. **Claude im Chat kann prüfen.**
 
 ### Schritt K3 – Ortsskizzen (`docs/art/karten/skizzen/`, je 4 Seeds)
-- [ ] Meridel: `lysmara`, `klippen-von-ahrn`, `weiden`, `wollmark`, `ginsterhof`, `das-graue`, `gnollenlager`
-- [ ] Meridel: `kobold-minen`, `tiefe-stiege`, `glimmhalde`, `herz-des-berges`, `vardholm`, `schwarzwasserbucht`, `dornfurt`
-- [ ] Lysmara: `stadt-hafen`, `stadt-phiole`, `stadt-markt`, `stadt-marktplatz`, `stadt-gewoelbe`, `stadt-wachhaus`, `stadt-oberstadt`
-- [ ] Lysmara: `stadt-weite-feder`, `stadt-raederviertel`, `stadt-grosse-schmiede`, `stadt-tuchhalle`, `stadt-erzlaende`, `stadt-steinmetzhof`, `stadt-orinbruecke`
-- [ ] Zusammenbau-Bilder `pruefung-meridel-komplett.png` und `pruefung-lysmara-komplett.png`, dann Pasco Bescheid geben.
+- [x] Meridel: `lysmara`, `klippen-von-ahrn`, `weiden`, `wollmark`, `ginsterhof`, `das-graue`, `gnollenlager` → **14.10.2026:** erledigt (`karten/skizzen/*.png`, Zusammenbau-Bilder `pruefung-*-komplett.png`). **Claude im Chat kann prüfen.**
+- [x] Meridel: `kobold-minen`, `tiefe-stiege`, `glimmhalde`, `herz-des-berges`, `vardholm`, `schwarzwasserbucht`, `dornfurt` → **14.10.2026:** erledigt (`karten/skizzen/*.png`, Zusammenbau-Bilder `pruefung-*-komplett.png`). **Claude im Chat kann prüfen.**
+- [x] Lysmara: `stadt-hafen`, `stadt-phiole`, `stadt-markt`, `stadt-marktplatz`, `stadt-gewoelbe`, `stadt-wachhaus`, `stadt-oberstadt` → **14.10.2026:** erledigt (`karten/skizzen/*.png`, Zusammenbau-Bilder `pruefung-*-komplett.png`). **Claude im Chat kann prüfen.**
+- [x] Lysmara: `stadt-weite-feder`, `stadt-raederviertel`, `stadt-grosse-schmiede`, `stadt-tuchhalle`, `stadt-erzlaende`, `stadt-steinmetzhof`, `stadt-orinbruecke` → **14.10.2026:** erledigt (`karten/skizzen/*.png`, Zusammenbau-Bilder `pruefung-*-komplett.png`). **Claude im Chat kann prüfen.**
+- [x] Zusammenbau-Bilder `pruefung-meridel-komplett.png` und `pruefung-lysmara-komplett.png`, dann Pasco Bescheid geben. → **14.10.2026:** erledigt (`karten/skizzen/*.png`, Zusammenbau-Bilder `pruefung-*-komplett.png`). **Claude im Chat kann prüfen.**
 
 ## Tagebuch-Skizzen – Taschen und Menschen (Auftrag vom 14.10.2026)
 
