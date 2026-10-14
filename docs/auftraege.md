@@ -8,11 +8,11 @@ Regeln:
 - Wer einen Auftrag erledigt, hakt ihn ab, committet und pusht. Lieber oft kleine Commits (z. B. je Abschnitt) als einen riesigen.
 - Rückfragen nicht raten, sondern Pasco fragen. Bei reinen Auswahlfragen (welcher Seed?) selbst nach der Prüfliste entscheiden und weiterarbeiten.
 
-## Gesamtauftrag: alle Bilder des ersten Abenteuers (Stand 13.10.2026)
+## Gesamtauftrag: alle Bilder des ersten Abenteuers (Stand 14.10.2026)
 
 Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
 0. **Zuerst:** Abschnitt „Zeichen des Kreises der Vier“ (R1–R6), weil spätere Bilder `ringsiegel.png` als Referenz brauchen
-1. **Perle 1:** Schritte A–F
+1. **Perle 1:** Schritte A–F sind erledigt; offen ist nur der Abschnitt „Nachbesserung Perle 1“ (Tickwort, Goblin-Werkstatt, Ratshalle)
 2. **Perle 2:** Schritte V–W
 3. **Perle 3:** Schritte G–I
 4. **Perle 4:** Schritte J–L
