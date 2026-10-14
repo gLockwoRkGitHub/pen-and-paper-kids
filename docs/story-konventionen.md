@@ -15,7 +15,7 @@ Kennzeichnung: **Festgeschrieben** = so steht es schon in der Story und gilt. **
 
 - **Ink rechnet, der Player zeigt.** Würfel, Magie, Level-Up und Weltgedächtnis laufen vollständig in Ink (`story/funktionen.ink`). Der Player würfelt **nicht selbst**, er stellt nur dar, was Ink gewürfelt hat.
 - Darum gibt es **keine `EXTERNAL`-Funktionen**. Die Story bleibt in Inky vollständig spielbar, und `npm test` prüft alles.
-- Der Player liest nur **Text, Entscheidungen, Tags und Variablen**.
+- Der Player liest **Text, Entscheidungen, Tags und Variablen** und ruft für Taschen und Menschen **reine Ink-Funktionen** auf (Abschnitt 7a).
 
 ## 2. Ablauf im Player (festgeschrieben)
 
@@ -108,7 +108,7 @@ Dafür zwei Tags, beide **am Ende einer Textzeile** (inline), damit eindeutig is
 
 Eingebaut am 14.10.2026 in alle 17 Einträge. Dabei verschoben: „Die erste Seite“ beginnt jetzt bei „Du schlägst die erste Seite auf.“, „Grisk und die Erzmarke“ am Anfang des Erfolgs-Zweigs (vorher hing der Tag an der nächsten Szene), „Das Erwachen“ beim Erwachen der Magie selbst (vorher erst bei Yrsas Hinweis auf den Mentor). „Grisk und die Erzmarke“ gibt es weiterhin nur bei vollem Erfolg, weil nur dann die Erzmarke verschenkt wird.
 
-## 7a. Taschen und Menschen (Vorschlag Story-Chat, 14.10.2026)
+## 7a. Taschen und Menschen (Vorschlag Story-Chat, vom Technologie-Chat bestätigt 14.10.2026)
 
 Die Daten für die Laschen **Taschen** und **Menschen** stehen als Ink-Funktionen in `story/tagebuch.ink`. Damit bleiben alle Texte in der Story (Deutsch, mit `{freund()}`, `{bp()}` usw.) und ändern sich mit dem Weltgedächtnis.
 
@@ -121,7 +121,23 @@ Die Daten für die Laschen **Taschen** und **Menschen** stehen als Ink-Funktione
 
 Der Player ruft die Funktionen auf, wenn die Lasche geöffnet wird. Sie verändern den Spielstand nicht. Skizzen dazu (später): `bilder/taschen/<id>.webp`, `bilder/menschen/<id>.webp`; bis dahin kann das Einzelbild der Figur bzw. das Requisit dienen. `npm test` prüft mit `tools/teste-tagebuch.js`, dass jeder vorhandene Gegenstand und jeder bekannte Mensch Name und Text hat.
 
-**Abweichung von Abschnitt 1:** Bisher liest der Player nur Text, Entscheidungen, Tags und Variablen. `EvaluateFunction` ist neu – bitte im Technologie-Chat bestätigen oder eine andere Form vorschlagen.
+**Bestätigt (Technologie-Chat, 14.10.2026):** `EvaluateFunction` ist der richtige Weg – die Texte bleiben in der Story, ändern sich mit dem Weltgedächtnis und laufen durch denselben Test. Geprüft: In 25 kompletten Durchläufen mit Aufrufen an jeder Entscheidung und mitten im Text bleiben Text, Variablen und Besuchszähler genau gleich wie ohne Aufrufe. Dafür gelten zwei Regeln:
+- **Die Funktionen sind rein:** keine Zuweisungen an Variablen (außer `temp`), kein `RANDOM`, keine Umleitungen (`->`) und keine Entscheidungen. `npm test` (`tools/teste-tagebuch.js`) prüft das; ein Aufruf darf keine Variable verändern.
+- **Der Player ruft sie nur auf, wenn die Geschichte steht** – an einer Entscheidung oder zwischen zwei `Continue()`, nie während `ContinueAsync` läuft. Das ist ohnehin der Fall, weil man die Lasche nur öffnen kann, während man liest.
+
+## 7b. Die Laschen im Player (festgelegt 14.10.2026)
+
+Die Namen müssen zu Tickworts Erklärung in Perle 1 (`story/perle-1/tickwort.ink`, Stitch `buch`) passen. Reihenfolge von oben nach unten:
+
+| Lasche | Inhalt | sichtbar ab |
+|---|---|---|
+| **Ich** | Charakterbogen | Tickwort schenkt das Buch (`# tutorial: tagebuch`) |
+| **Erlebtes** | Tagebuchseiten und Erinnerungen (Abschnitt 7) | dito |
+| **Karte** | Meridel und Lysmara (Abschnitt 6) | dito |
+| **Taschen** | `taschen_liste()` … (Abschnitt 7a) | dito |
+| **Menschen** | `menschen_liste()` … (Abschnitt 7a) | dito |
+
+Die **Geschichte** selbst ist keine Lasche – sie steht nicht im Buch. Zurück zur Geschichte geht es über das **Lesebändchen** oben am Buch (oder das Buch schließen). Vor dem Geschenk gibt es kein Buch: Der Player zeigt nur die Geschichte.
 
 ## 8. Entscheidungen und Charakterbogen
 
