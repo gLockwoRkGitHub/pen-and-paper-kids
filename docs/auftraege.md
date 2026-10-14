@@ -222,16 +222,16 @@ Neu in der Prüfliste: **Geschenke** sehen aus wie in `requisiten/abschiedsgesch
 - [x] `orte/dornfurt` (1536×1024) · `requisiten/abschiedsgeschenke` (1536×1024) → **14.10.2026:** beide. Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt T – Szenenbilder Teil 1 (`docs/art/szenen/perle-7/`, 1536×1024)
-- [ ] 1 `szene-abschied-vardholm-kommt-<liora|cassian>` · `szene-abschied-vardholm-bleibt-<liora|cassian>` · 2 `szene-heimkehr-lysmara`
-- [ ] 3 `szene-abschied-borrik`, `-nerelle`, `-yrsa`, `-vael` · 4 `szene-abschied-tickwort` · 5 `szene-abschied-grumak`
-- [ ] 6 `szene-vier-wege` · 7 `szene-tor-offen` · 8 `entdeckung-aufstieg-suedarm` · 9 `szene-wolfspfad`
-- [ ] 10 `szene-ziegenstiege-fackeln` · 11 `szene-am-grat` · 12 `szene-herz-wiedersehen` · 13 `szene-zwergentor-ost`
+- [x] 1 `szene-abschied-vardholm-kommt-<liora|cassian>` · `szene-abschied-vardholm-bleibt-<liora|cassian>` · 2 `szene-heimkehr-lysmara` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
+- [x] 3 `szene-abschied-borrik`, `-nerelle`, `-yrsa`, `-vael` · 4 `szene-abschied-tickwort` · 5 `szene-abschied-grumak` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
+- [x] 6 `szene-vier-wege` · 7 `szene-tor-offen` · 8 `entdeckung-aufstieg-suedarm` · 9 `szene-wolfspfad` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
+- [x] 10 `szene-ziegenstiege-fackeln` · 11 `szene-am-grat` · 12 `szene-herz-wiedersehen` · 13 `szene-zwergentor-ost` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
 
 ### Schritt U – Szenenbilder Teil 2
-- [ ] 14 `szene-schwarzwasserbucht` · 15 `szene-sturm-am-kap` · 16 `entdeckung-jenseits-der-berge` · 17 `szene-leeres-dorf`
-- [ ] 18 `entdeckung-dornfurt` · 19 `szene-zum-halben-hauer` · 20 `szene-silbermark-stube` · 21 `szene-faehrfrau`
-- [ ] 22 `szene-fremder-am-steg` · 23 `tagebuch-perle-7`
-- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-7/uebersicht-*.png`) und Liste der Schwächen im README.
+- [x] 14 `szene-schwarzwasserbucht` · 15 `szene-sturm-am-kap` · 16 `entdeckung-jenseits-der-berge` · 17 `szene-leeres-dorf` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
+- [x] 18 `entdeckung-dornfurt` · 19 `szene-zum-halben-hauer` · 20 `szene-silbermark-stube` · 21 `szene-faehrfrau` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
+- [x] 22 `szene-fremder-am-steg` · 23 `tagebuch-perle-7` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
+- [x] **Übersicht für Pasco** (`docs/art/szenen/perle-7/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-7/README.md`.
 
 ## Karten – Grundkarten und Ortsskizzen (Auftrag vom 13.10.2026)
 

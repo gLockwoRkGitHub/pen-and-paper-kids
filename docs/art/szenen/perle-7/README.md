@@ -130,3 +130,26 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 ## Ohne eigenes Bild
 - `karte: meridel-ganz` ist die vollständige Karte für die Tagebuch-Karte des Players, kein Szenenbild.
 - Haldor hat ein Einzelbild, aber kein eigenes Szenenbild (in der Bucht nur als Silhouette).
+
+## Erzeugte Bilder (lokale Sitzung, 14.10.2026)
+Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `uebersicht-1.png`.
+
+| Bild | Seed | Bekannte Schwächen |
+|---|---|---|
+| `entdeckung-aufstieg-suedarm` | 3 | – |
+| `entdeckung-dornfurt` / `entdeckung-jenseits-der-berge` | 4 / 2 | Braun-golden wie gefordert |
+| `szene-abschied-borrik` / `-nerelle` / `-yrsa` / `-tickwort` / `-grumak` | 3 / 3 / 2 / 3 / 3 | Nerelles Haar silbergrau |
+| `szene-abschied-vael` | 3 | In anderen Seeds war Vael doppelt |
+| `szene-abschied-vardholm-kommt-*` / `-bleibt-*` | je 3 | Bei „bleibt“ trägt das Kind eine schwarze statt grüne Jacke |
+| `szene-heimkehr-lysmara` | 4 | – |
+| `szene-vier-wege` | 4 | Karte im Buch mit kleiner Pseudo-Schrift (alle Seeds) |
+| `szene-tor-offen` / `szene-wolfspfad` / `szene-ziegenstiege-fackeln` / `szene-am-grat` | 2 / 4 / 2 / 3 | – |
+| `szene-herz-wiedersehen` | 3 | Vier Ringe im Boden, vier Lichter |
+| `szene-zwergentor-ost` | 6 | – |
+| `szene-schwarzwasserbucht` | 1 | Sehr dunkel (Nacht); Kapitän nur Silhouette. Seed 6 hatte einen spiralförmigen Lichtstrahl (verworfen) |
+| `szene-sturm-am-kap` / `szene-leeres-dorf` | 2 / 2 | – |
+| `szene-zum-halben-hauer` | 3 | – |
+| `szene-silbermark-stube` | 3 | Hinter dem Pult sitzt ein junger Schreiber im grauen Anzug; wirkt modern |
+| `szene-faehrfrau` | 2 | Ringsiegel auf Brief und Ruder |
+| `szene-fremder-am-steg` | 3 | Gesicht sichtbar wie gewählt |
+| `tagebuch-perle-7` | 4 | Buch auf Tisch mit Kerzen |
