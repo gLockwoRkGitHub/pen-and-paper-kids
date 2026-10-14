@@ -254,7 +254,7 @@ Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf 
 
 ## Auf Abruf (kein fester Auftrag)
 Diese Prompts liegen bereit und werden nur erzeugt, wenn Pasco danach fragt.
-- [ ] **Beispielfiguren der fünf Völker** (Kinder um die zwölf, je Junge und Mädchen): `docs/art/figuren/volk-<mensch|zwerg|gnom|ork|troll>-<m|w>-einzel.prompt.txt`, 832×1216, nur aus Text; danach `voelker-vergleich.prompt.txt` (1536×1024) mit drei Einzelbildern als Referenz. Prüfen: Zwergenkinder ohne Bart, Trolle schlaksig und nicht massig, Orks freundlich.
+- (auf Abruf) **Beispielfiguren der fünf Völker** (Kinder um die zwölf, je Junge und Mädchen): `docs/art/figuren/volk-<mensch|zwerg|gnom|ork|troll>-<m|w>-einzel.prompt.txt`, 832×1216, nur aus Text; danach `voelker-vergleich.prompt.txt` (1536×1024) mit drei Einzelbildern als Referenz. Prüfen: Zwergenkinder ohne Bart, Trolle schlaksig und nicht massig, Orks freundlich.
 
 ## Erledigt
 - [x] **Grumak neu erzeugen** (Einzelbild + Referenzblatt). Er ist „groß wie ein Schrank“: deutlich größer und massiger als ein Mensch, breite Schultern, deutliche untere Hauer, graue Strähnen, goldene Ringe in beiden Ohren – Gesicht und Kleidung wie bisher (freundlich, müde, Händlertunika). Verbindlich: `docs/worldbuilding/figuren-aussehen.md`. Am besten mit dem bisherigen Einzelbild als Referenz und Änderungs-Prompt („gleiche Figur, Kleidung und Gesicht, aber viel größer und massiger …“). Ohne Nüsse in der Hand (Requisit gehört in die Szene). → 13.10.2026: `docs/art/figuren/grumak-einzel-neu.png`, `grumak-referenzblatt-neu.png` (lokal, warten auf Abnahme).
