@@ -187,11 +187,11 @@ Neu in der Prüfliste: **Unter der Erde trotzdem warm und lesbar**, keine schwar
 - [x] `orte/minentor`, `orte/glimmhalde`, `orte/tiefe-stiege`, `orte/herz-des-berges` → **14.10.2026:** alle vier (Minentor Runde 3, Glimmhalde und Herz Runde 2). Seeds und Schwächen in den READMEs von `figuren/`, `orte/`, `requisiten/`.
 
 ### Schritt O – Szenenbilder (`docs/art/szenen/perle-5/`, 1536×1024)
-- [ ] 1 `szene-brief-in-wollmark` · 2 `entdeckung-orin-treidelpfad` · 3 `entdeckung-minentor` · 4 `entdeckung-glimmhalde`
-- [ ] 5 `szene-neumond-glimmhalde` · 6 `szene-tiefe-stiege` · 7 `szene-talin` · 8 `szene-der-schlund`
-- [ ] 9 `szene-vermisste-kobolde` · 10 `szene-wiedersehen-<hintergrund>` (sechs Varianten)
-- [ ] 11 `szene-herz-des-berges` · 12 `szene-flucht-tiefe-stiege` · 13 `szene-glimmhalde-fest` · 14 `tagebuch-perle-5`
-- [ ] **Übersicht für Pasco** (`docs/art/szenen/perle-5/uebersicht-*.png`) und Liste der Schwächen im README.
+- [x] 1 `szene-brief-in-wollmark` · 2 `entdeckung-orin-treidelpfad` · 3 `entdeckung-minentor` · 4 `entdeckung-glimmhalde` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-5/README.md`.
+- [x] 5 `szene-neumond-glimmhalde` · 6 `szene-tiefe-stiege` · 7 `szene-talin` · 8 `szene-der-schlund` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-5/README.md`.
+- [x] 9 `szene-vermisste-kobolde` · 10 `szene-wiedersehen-<hintergrund>` (sechs Varianten) → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-5/README.md`.
+- [x] 11 `szene-herz-des-berges` · 12 `szene-flucht-tiefe-stiege` · 13 `szene-glimmhalde-fest` · 14 `tagebuch-perle-5` → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-5/README.md`.
+- [x] **Übersicht für Pasco** (`docs/art/szenen/perle-5/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, siehe `docs/art/szenen/perle-5/README.md`.
 
 ## Perle 6 – Figuren und Szenenbilder (Auftrag vom 13.10.2026)
 

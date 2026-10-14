@@ -110,3 +110,23 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 | `requisiten/stimmerz.png` | Dunkle Erzbrocken mit winzigen glitzernden Adern, leicht vibrierende Linien drumherum |
 | `requisiten/herzsplitter.png` | Handlanger Kristallsplitter, in dem vier winzige Lichter kreisen (braun, blau, rot, weiß) |
 | `requisiten/singlampe.png` | Alte, verbeulte Grubenlampe aus Messing, im Glas ein kleiner dunkler summender Splitter, warmes Licht |
+
+## Erzeugte Bilder (lokale Sitzung, 14.10.2026)
+Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `uebersicht-1.png`.
+
+| Bild | Seed | Bekannte Schwächen |
+|---|---|---|
+| `szene-brief-in-wollmark` | 4 | Fink hält zusätzlich einen Apfel |
+| `entdeckung-orin-treidelpfad` | 5 | – |
+| `entdeckung-minentor` | 6 | – |
+| `entdeckung-glimmhalde` | 3 | Der See in der Mitte ist fast schwarz (alle Seeds) |
+| `szene-neumond-glimmhalde` | 2 | Insgesamt dunkel (Nachtszene) |
+| `szene-tiefe-stiege` | 1 | Hinten dunkel |
+| `szene-talin` | 3 | – |
+| `szene-der-schlund` | 4 | Schwarzer Schacht hinten |
+| `szene-vermisste-kobolde` | 2 | – |
+| `szene-herz-des-berges` | 3 | Vier Ringe im Boden als Kleeblatt, vier Lichter |
+| `szene-flucht-tiefe-stiege` | 2 | – |
+| `szene-glimmhalde-fest` | 4 | – |
+| `szene-wiedersehen-<hintergrund>` | je 2 | Brustbilder vor der Treppe; alle gleich aufgebaut |
+| `tagebuch-perle-5` | 5 | Buch auf Tisch |
