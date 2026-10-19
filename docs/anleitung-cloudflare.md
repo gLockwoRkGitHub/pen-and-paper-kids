@@ -67,17 +67,21 @@ Nach etwa 5 Minuten ist der Lauf grün. Damit ist das Projekt **der-weg-hinaus**
 3. Den Tarif **Free** (0 $, bis 50 Personen) wählen. Fragt Cloudflare nach einer Zahlungsart, kannst du sie angeben. Im Free-Tarif wird nichts abgebucht.
 
 ### b) Den Schutz für das Spiel anlegen
-1. Zurück ins normale Cloudflare-Menü: **Workers & Pages** → Projekt **der-weg-hinaus** → **Settings**.
-2. Bei **Access policy** (Zugriffsrichtlinie) auf **Enable access policy** klicken. Das schützt zunächst nur die Vorschau-Adressen.
-3. Daneben auf **Manage** klicken. Du landest in Zero Trust bei dieser Anwendung → **Configure** (oder **Edit**).
-4. Unter **Public hostname** steht vor der Adresse ein Sternchen `*` als Subdomain. **Das Sternchen löschen**, sodass nur `der-weg-hinaus.pages.dev` übrig bleibt.
-5. Gibt es eine Fehlermeldung zum Namen: den **Application name** ändern, z. B. in `Der Weg hinaus`. Dann **Save**.
-6. Zurück zu **Workers & Pages** → **der-weg-hinaus** → **Settings** und noch einmal **Enable access policy** klicken. So sind auch die Vorschau-Adressen wieder geschützt.
-7. In **Zero Trust → Access → Applications** stehen jetzt **zwei** Einträge für das Spiel. Genau so soll es sein.
+*(an die Cloudflare-Oberfläche vom Oktober 2026 angepasst)*
+
+1. Zurück ins normale Cloudflare-Menü: **Workers & Pages** → Projekt **der-weg-hinaus** → **Settings**, ganz unten bei **General**.
+2. In der Zeile **Preview access** auf **Restrict previews** klicken. Das schützt zunächst nur die Vorschau-Adressen und legt in Zero Trust eine Anwendung an.
+3. In **Zero Trust** → **Access** → **Applications** die neue Anwendung für **der-weg-hinaus** öffnen (**Edit** / **Configure**).
+4. Bei den Adressen (**Public hostnames** bzw. **Application domain**) steht schon `*.der-weg-hinaus.pages.dev`. Mit **Add public hostname** (oder **+ Add domain**) eine **zweite** Adresse hinzufügen:
+   - **Subdomain:** leer lassen
+   - **Domain:** `der-weg-hinaus.pages.dev` (eintippen, falls sie nicht in der Liste steht)
+5. Den **Application name** z. B. in `Der Weg hinaus` ändern und **Save**.
+
+Damit schützt diese eine Anwendung die echte Adresse **und** die Vorschau-Adressen.
 
 ### c) Festlegen, wer hinein darf
-Bei **beiden** Einträgen jeweils:
-1. Den Eintrag öffnen (**Edit** / **Configure**) → Bereich **Policies** → die vorhandene Regel öffnen.
+In derselben Anwendung:
+1. Die Anwendung öffnen (**Edit** / **Configure**) → Bereich **Policies** → die vorhandene Regel öffnen.
 2. Bei **Include** den Typ **Emails** wählen und die erlaubten Adressen eintragen, z. B. deine private Adresse und die deiner Frau.
 3. Gibt es dort eine Regel „Everyone“ oder ähnlich: **entfernen**.
 4. **Session duration** (bei der Anwendung, nicht der Regel) auf **1 month** stellen. Dann muss man sich nur einmal im Monat neu anmelden.
@@ -120,7 +124,7 @@ Die Codes kommen an die eingetragene Adresse. Dein Sohn braucht keine eigene E-M
 - **Neue Versionen kommen von allein**, jede Nacht. Soll eine Änderung sofort aufs iPad: GitHub → **Actions** → **Spiel veröffentlichen** → **Run workflow**, nach etwa 5 Minuten ist sie online. Unter **Actions** siehst du, ob ein Lauf grün (fertig) oder rot (Fehler) ist.
 - **Warum nicht nach jeder Änderung?** Story-Chat und Heim-PC speichern sehr oft. Das würde die kostenlosen GitHub-Minuten aufbrauchen.
 - **Spielstand:** Er liegt auf dem iPad. Hat sich die Geschichte geändert, beginnt die aktuelle Perle eventuell von vorn. Das sagt das Spiel dann auch.
-- **Jemand Neues soll mitspielen:** in Zero Trust bei beiden Einträgen die E-Mail-Adresse ergänzen.
+- **Jemand Neues soll mitspielen:** in Zero Trust bei der Anwendung „Der Weg hinaus“ die E-Mail-Adresse ergänzen.
 - **Alles abschalten:** In GitHub die Variable `FREIGABE` löschen und in Cloudflare das Projekt löschen (**Settings → Delete project**).
 
 ## Wenn etwas nicht klappt
