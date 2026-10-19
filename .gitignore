@@ -2,3 +2,7 @@ node_modules/
 *.ink.json
 .env
 Krita/
+player/dist/
+player/src/generated/
+player/public/bilder/
+test-results/

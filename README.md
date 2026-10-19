@@ -14,7 +14,7 @@ Ein storygetriebenes Pen-&-Paper-Abenteuer für Kinder ab 10 Jahren – zum Lese
 ## Stand
 
 Konzeptphase. Die erste Version ist ein Beta-Spiel für den eigenen Sohn; wenn es ankommt, wird es veröffentlicht.
-Ob native App (Android/iOS) oder für Tablets und Handys optimierte Webseite, ist noch offen.
+Es wird eine für Tablets und Handys optimierte Webseite (Browser-Player in `player/`, Start im Heim-WLAN mit `spielen.cmd`).
 
 ## Aufbau des Repos
 
@@ -32,4 +32,5 @@ Ob native App (Android/iOS) oder für Tablets und Handys optimierte Webseite, is
 | `docs/worldbuild-ideas.md` | World-Building-Ideen für später |
 | `docs/art/` | Art-Style, Stilvorschläge, Bildliste, Werkzeuge |
 | `story/` | Die Kapitel des Abenteuers (Ink) |
-| `tools/` | Test-Skript für die Story (`npm test`) |
+| `player/` | Browser-Player (Vite, Svelte, inkjs) – siehe `player/README.md` |
+| `tools/` | Tests (`npm test`, `npm run player:pruefen`) und Bau-Skripte für Story, Bilder und Karten |

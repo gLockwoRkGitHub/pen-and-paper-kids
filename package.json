@@ -3,9 +3,26 @@
   "private": true,
   "description": "Der Weg hinaus – storybasiertes Pen-&-Paper-Abenteuer für Kinder",
   "scripts": {
-    "test": "node tools/teste-story.js && node tools/teste-tagebuch.js"
+    "test": "node tools/teste-story.js && node tools/teste-tagebuch.js",
+    "player:vorbereiten": "node tools/baue-story.js && node tools/baue-bilder.js",
+    "player": "npm run player:vorbereiten && vite --config player/vite.config.mjs",
+    "player:bauen": "npm run player:vorbereiten && vite build --config player/vite.config.mjs",
+    "spielen": "npm run player:bauen && node tools/spielen.js",
+    "player:pruefen": "svelte-check --tsconfig player/tsconfig.json && node tools/teste-player.js"
   },
   "devDependencies": {
-    "inkjs": "^2.3.2"
+    "@fontsource/alegreya": "^5.3.0",
+    "@fontsource/alegreya-sans": "^5.3.0",
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/kalam": "^5.3.0",
+    "@playwright/test": "^1.64.1",
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
+    "idb-keyval": "^6.3.0",
+    "inkjs": "^2.3.2",
+    "sharp": "^0.35.5",
+    "svelte": "^5.57.2",
+    "svelte-check": "^4.7.7",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.4"
   }
 }

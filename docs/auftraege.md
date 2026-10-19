@@ -25,6 +25,14 @@ Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
 
 Je Perle erst Figuren, Requisiten und Ortsbilder, dann die Szenen (sie brauchen die anderen als Referenz). Nach jeder Perle committen, pushen und die Übersicht bauen. `npm test` meldet Bild-Tags ohne Prompt-Datei; dort steht derzeit nichts mehr.
 
+## Browser-Player: erster Start im Heim-WLAN (Auftrag vom 19.10.2026)
+
+Der Player (Ausbaustufe 1) liegt in `player/`. Anleitung: `player/README.md`. Nichts davon braucht die GPU.
+
+- [ ] **P1 Starten:** `git pull`, `npm install`, dann `npm run spielen` (oder Doppelklick auf `spielen.cmd`). Beim ersten Mal wandelt `tools/baue-bilder.js` alle Bilder in WebP um (etwa eine Minute). Fragt Windows nach der Firewall: **Private Netzwerke** erlauben. Die Adresse „Auf dem Tablet“ an Pasco melden.
+- [ ] **P2 Prüfen:** `npm run player:pruefen` ausführen (Typprüfung + Durchlauf im Browser, Fotos in `test-results/player/`). Falls Playwright unter Windows kein Chromium findet: `npx playwright install chromium`. Ergebnis kurz in diesem Abschnitt notieren; die Fotos **nicht** committen.
+- [ ] **P3 Abschluss:** abhaken, committen, pushen. Fehler nicht selbst im Player beheben, sondern hier beschreiben – der Player wird im Technologie-Chat gebaut.
+
 ## Zeichen des Kreises der Vier: Ringe statt Spirale (Auftrag vom 14.10.2026) – ZUERST
 
 **Warum:** Die alte „Spirale aus vier Linien“ erinnert an ein Hakenkreuz. Pasco hat sie abgeschafft. Das Zeichen sind jetzt **vier ineinander verschlungene Ringe**: geschlossener Kreis wie ein Kleeblatt, jeder Ring nur mit seinen beiden Nachbarn verschlungen, Mitte frei. Details: `docs/worldbuilding/der-fremde.md` („Das Ringsiegel“), Regel: `docs/art/art-style.md` („Verbotene Formen“).

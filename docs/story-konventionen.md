@@ -2,7 +2,7 @@
 
 Stand: 13.10.2026 · erster Entwurf
 
-Diese Datei ist die Absprache zwischen der **Story** (Ink, `story/`) und dem **Browser-Player** (inkjs, noch nicht gebaut).
+Diese Datei ist die Absprache zwischen der **Story** (Ink, `story/`) und dem **Browser-Player** (inkjs, `player/`, Ausbaustufe 1 seit 19.10.2026).
 Beide Seiten halten sich daran. Neues kommt zuerst hierher, dann in die Story bzw. den Player.
 
 Die Ink-Seite (Bausteine, Variablennamen) steht in `story/format.md`. Diese Datei beschreibt, **was der Player damit macht**.
@@ -36,6 +36,7 @@ Kennzeichnung: **Festgeschrieben** = so steht es schon in der Story und gilt. **
 - Entscheidungen der Form `Kraft (1)` erkennt er als Werte-Wahl und zeigt sie mit dem Plus aus der Frage.
 - Links wächst ein **Steckbrief** mit, der neue Edelstein leuchtet golden.
 - **Zurück ist erlaubt**, aber nur hier: Der Player speichert vor jeder Wahl den Ink-Zustand und stellt ihn bei „Zurück“ wieder her. Ab `# werte_fertig` gibt es kein Zurück mehr.
+- **Im Player (19.10.2026):** Solange Ink hier nichts ausgibt, zeigt der Player eigene Sätze (z. B. „Zwerge sind stark wie der Fels: +1 Kraft.“). Gibt `charakter.ink` eine Zeile aus, nimmt er diese.
 - **Vorschlag an den Story-Chat:** Beim Volksbonus für Zwerg, Gnom, Ork und Troll gibt Ink bisher keinen Text aus; der Player kann den Bonus dann nicht erklären. Je eine Zeile in `charakter.ink` würde reichen, z. B. „Zwerge sind stark wie der Fels: +1 Kraft.“ Außerdem: In `charakter.ink` steht „Torwärter“, in der Story „Torwächter“; und für Mädchen heißt der Hintergrund weiterhin „Schiffsjunge“ – Absicht?
 
 ## 3. Tags
@@ -76,6 +77,8 @@ In Inky erscheint weiter die normale Textzeile. Getestet: Tags aus einer Funktio
 
 **Festgeschrieben:** `# bild: <art>/<name>` mit den Arten `szene`, `entdeckung`, `figur`, `tagebuch`.
 Der Player lädt `bilder/<art>/<name>.webp`. Fehlt das Bild, zeigt er nichts (kein Fehler, kein Platzhalter).
+
+**Umgesetzt 19.10.2026:** `tools/baue-bilder.js` erzeugt diese WebP-Dateien beim Bauen aus `docs/art/szenen/perle-<n>/<art>-<name>.png`; für `figur/` notfalls aus `docs/art/figuren/<name>-einzel.png`. Im Querformat steht das zuletzt gezeigte Bild links, hochkant und auf dem Handy erscheint es im Text.
 
 **Bildvarianten – festgeschrieben 13.10.2026:** Gibt es ein Bild in mehreren Varianten (je Freund, Hintergrund oder Element), schreibt die Story die Variante **direkt in den Tag**. Ink setzt Variablen in Tags ein:
 
