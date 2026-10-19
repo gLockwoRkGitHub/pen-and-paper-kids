@@ -159,3 +159,5 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `szene-faehrfrau` | 2 | Ringsiegel auf Brief und Ruder |
 | `szene-fremder-am-steg` | 3 | Gesicht sichtbar wie gewählt |
 | `tagebuch-perle-7` | 4 | Buch auf Tisch mit Kerzen |
+
+| `szene-orinbruecke-kontrolle` | 4 (19.10.2026, B1) | Steckbrief nur als leere Rückseite, zwei Söldner (einer von hinten, Waage nur beim vorderen sichtbar), Gänse und Kohlkarren, Steinbrücke. Ein Wasserrad im Bild statt nur am Rand |

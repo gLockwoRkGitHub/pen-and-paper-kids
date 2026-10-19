@@ -293,8 +293,8 @@ Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf 
 
 Neue Szene in Perle 7 (Kontrolle an der Orinbrücke für Gesuchte), Beschreibung in `docs/art/szenen/perle-7/README.md`, Abschnitt 21.
 
-- [ ] **B1 Orinbrücke:** `docs/art/szenen/perle-7/szene-orinbruecke-kontrolle.png` mit `szene-orinbruecke-kontrolle.prompt.txt` (Referenzen stehen in der ersten Zeile), 1536×1024, 6 Seeds, bestes wählen. **Prüfliste:** Steckbrief zeigt nur die leere Rückseite (kein Gesicht, keine Schrift) · zwei Söldner im Stil von `soeldner-waage-einzel` · Gänse und Karren im Vordergrund · keine Hände oder Füße des Betrachters · Brücke aus Stein über einen Fluss. Klappt es nach zwei Runden nicht: bestes Bild nehmen und die Schwäche im README notieren (nicht nachfragen).
-- [ ] **B2 Abschluss:** Übersicht Perle 7 neu bauen, Seed im README eintragen, hier abhaken, committen, pushen.
+- [x] **B1 Orinbrücke:** `docs/art/szenen/perle-7/szene-orinbruecke-kontrolle.png` mit `szene-orinbruecke-kontrolle.prompt.txt` (Referenzen stehen in der ersten Zeile), 1536×1024, 6 Seeds, bestes wählen. **Prüfliste:** Steckbrief zeigt nur die leere Rückseite (kein Gesicht, keine Schrift) · zwei Söldner im Stil von `soeldner-waage-einzel` · Gänse und Karren im Vordergrund · keine Hände oder Füße des Betrachters · Brücke aus Stein über einen Fluss. Klappt es nach zwei Runden nicht: bestes Bild nehmen und die Schwäche im README notieren (nicht nachfragen). → **19.10.2026:** `szene-orinbruecke-kontrolle.png`, Seed 4 (erste Runde).
+- [x] **B2 Abschluss:** Übersicht Perle 7 neu bauen, Seed im README eintragen, hier abhaken, committen, pushen. → **19.10.2026:** Übersicht Perle 7 neu, README ergänzt.
 
 ## Auf Abruf (kein fester Auftrag)
 Diese Prompts liegen bereit und werden nur erzeugt, wenn Pasco danach fragt.
