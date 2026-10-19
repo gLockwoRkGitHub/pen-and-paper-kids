@@ -149,7 +149,7 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `szene-schwarzwasserbucht` | 1 | Sehr dunkel (Nacht); Kapitän nur Silhouette. Seed 6 hatte einen spiralförmigen Lichtstrahl (verworfen) |
 | `szene-sturm-am-kap` / `szene-leeres-dorf` | 2 / 2 | – |
 | `szene-zum-halben-hauer` | 3 | – |
-| `szene-silbermark-stube` | 3 | Hinter dem Pult sitzt ein junger Schreiber im grauen Anzug; wirkt modern |
+| `szene-silbermark-stube` | 9 (N6, 19.10.2026) | Neu mit nachgeschärftem Prompt: keine Schrift, Bücher zu, Zettel gefaltet, Kiesel im Päckchen gut sichtbar. Schreiber wirkt weiter jung und etwas modern |
 | `szene-faehrfrau` | 2 | Ringsiegel auf Brief und Ruder |
 | `szene-fremder-am-steg` | 3 | Gesicht sichtbar wie gewählt |
 | `tagebuch-perle-7` | 4 | Buch auf Tisch mit Kerzen |
