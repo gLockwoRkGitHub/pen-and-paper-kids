@@ -255,3 +255,5 @@ Beide Übersichten angesehen. **Insgesamt sehr gelungen:** Stil einheitlich, Ich
 **R5 – übrige Bilder durchgesehen (14.10.2026):** alle Bilder in `figuren/`, `orte/`, `requisiten/` und `szenen/perle-1/` (einschließlich Tagebuchseiten) über die Übersichten und Ausschnitte geprüft. Weitere Spiralen oder spiralartige Zeichen gefunden: keine. Übersichten `uebersicht-1.png` und `-2.png` neu gebaut.
 
 **Zeichen der Leisen Hand (19.10.2026):** In `szene-markt.png` sah der Aufnäher auf Finks Mütze wie ein Mittelfinger aus; mit `tools/zeichen-einsetzen.py` durch die Vorlage `requisiten/leise-hand-zeichen.png` ersetzt.
+
+**Überarbeitet (19.10.2026, Pasco):** Der eingesetzte Aufnäher wirkte wie per Copy & Paste aufgeklebt. Neu: Das Modell malt den Aufnäher selbst im Bildstil (`figuren/fink-abzeichen.prompt.txt`, Referenzen: Originalbild + `requisiten/leise-hand-zeichen.png`); weil es dabei teils auch Fink veränderte, wurde mit `tools/bereich-mischen.py` nur die Mützenpartie ins Original übernommen. `tools/zeichen-einsetzen.py` ist für Aufnäher nicht mehr zu verwenden (nur für flache Zeichen wie Kreide oder Schnitzerei).

@@ -132,3 +132,5 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `tagebuch-perle-5` | 5 | Buch auf Tisch |
 
 **Zeichen der Leisen Hand (19.10.2026):** In `szene-brief-in-wollmark.png` sah der Aufnäher auf Finks Mütze wie ein Mittelfinger aus; mit `tools/zeichen-einsetzen.py` durch die Vorlage `requisiten/leise-hand-zeichen.png` ersetzt.
+
+**`szene-brief-in-wollmark` neu (19.10.2026, Pasco):** In der alten Fassung stand Fink im Brunnen und hatte drei Hände. Prompt nachgeschärft (sitzt auf dem Rand, genau zwei Hände), Seed 9: zwei Hände (Apfel und Brief), Aufnäher mit Psst-Zeichen direkt mitgemalt.

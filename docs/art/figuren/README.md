@@ -153,3 +153,5 @@ Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, 6 Seeds, nur aus Text. Refere
 
 ## Zeichen der Leisen Hand (19.10.2026)
 Auf Finks Mütze sah das Zeichen in `fink-einzel.png` und `fink-referenzblatt.png` wie ein ausgestreckter Mittelfinger aus. Ersetzt mit `tools/zeichen-einsetzen.py --zeichen docs/art/requisiten/leise-hand-zeichen.png --grund <Farbe>` (neuer Aufnäher mit Gesicht und Zeigefinger über den Lippen). Auf dem Referenzblatt in Seiten- und Dreiviertelansicht übermalt (dort nur von der Seite zu sehen). Die Prompts beschreiben das Zeichen jetzt genauer.
+
+**Überarbeitet (19.10.2026, Pasco):** Der eingesetzte Aufnäher wirkte wie per Copy & Paste aufgeklebt. Neu: Das Modell malt den Aufnäher selbst im Bildstil (`figuren/fink-abzeichen.prompt.txt`, Referenzen: Originalbild + `requisiten/leise-hand-zeichen.png`); weil es dabei teils auch Fink veränderte, wurde mit `tools/bereich-mischen.py` nur die Mützenpartie ins Original übernommen. `tools/zeichen-einsetzen.py` ist für Aufnäher nicht mehr zu verwenden (nur für flache Zeichen wie Kreide oder Schnitzerei).

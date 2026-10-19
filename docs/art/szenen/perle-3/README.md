@@ -181,3 +181,5 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `
 | `tagebuch-perle-3` | 6 | Buch auf Tisch; Ringzeichen in der Ecke nur angedeutet (zwei Ringe) |
 
 **Zeichen der Leisen Hand (19.10.2026):** In `szene-beitritt-hand.png` sah der Aufnäher auf Finks Mütze wie ein Mittelfinger aus; mit `tools/zeichen-einsetzen.py` durch die Vorlage `requisiten/leise-hand-zeichen.png` ersetzt. Finks echte Psst-Geste mit der Hand im Bild ist richtig.
+
+**Überarbeitet (19.10.2026, Pasco):** Der eingesetzte Aufnäher wirkte wie per Copy & Paste aufgeklebt. Neu: Das Modell malt den Aufnäher selbst im Bildstil (`figuren/fink-abzeichen.prompt.txt`, Referenzen: Originalbild + `requisiten/leise-hand-zeichen.png`); weil es dabei teils auch Fink veränderte, wurde mit `tools/bereich-mischen.py` nur die Mützenpartie ins Original übernommen. `tools/zeichen-einsetzen.py` ist für Aufnäher nicht mehr zu verwenden (nur für flache Zeichen wie Kreide oder Schnitzerei).
