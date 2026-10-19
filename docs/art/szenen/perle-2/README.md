@@ -8,7 +8,7 @@ Ausgearbeitet von Claude am 13.10.2026 (nachgeholt). Die lokale Sitzung arbeitet
 - **Das Räderviertel** ist der Schauplatz fast aller Bilder: Wasserräder so hoch wie Häuser, Schmieden, bunter Färberdampf, die Große Schmiede und daneben der schmale hölzerne **Färberturm** am **Mühlgraben**. Damit alle Bilder zusammenpassen, gibt es ein Ortsbild `orte/raederviertel.png` als Referenz.
 - **Liora/Cassian** ist **verkleidet**: viel zu große braune Arbeiterjacke mit hochgekrempelten Ärmeln, Mütze, darunter blitzt die grüne Samtjacke hervor, dazu die feinen Schuhe mit Silberschnallen (wie in Perle 4).
 - **Das Erwachen der Magie** ist der Höhepunkt der Perle. Vier Varianten je Element, jeweils mit Liora oder Cassian, also **acht Bilder**. Die Magie geht vom Betrachter aus, ohne Hände. Überwältigend, schön, ein bisschen beängstigend.
-- Die **Mentoren-Bilder** (`figur/borrik`, `figur/nerelle`, `figur/yrsa`, `figur/vael`) sind die Einzelbilder aus `docs/art/figuren/` und brauchen hier kein eigenes Szenenbild. `figur/freund-<liora|cassian>` kommt aus Perle 1.
+- Die **Mentoren-Bilder** (`figur/borrik`, `figur/nerelle`, `figur/yrsa`, `figur/vael`) sind die Einzelbilder aus `docs/art/figuren/` und brauchen hier kein eigenes Szenenbild. `figur/freund-verkleidet-<liora|cassian>` kommt aus Perle 4 (dieselbe Verkleidung; das Bild aus Perle 1 zeigt die Apfelkiste und passt hier nicht – korrigiert 19.10.2026).
 
 ---
 
