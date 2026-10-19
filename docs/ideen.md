@@ -43,6 +43,26 @@ Das Tagebuch steht dem Spieler nicht von Beginn an zur Verfügung. Es wird in de
 - **Entwurf des ganzen Tagebuchs:** `docs/tagebuch.md` (14.10.2026).
 - **Entschieden 13.10.2026:** Zeitpunkt bleibt wie er ist. Die Erklärung der Bereiche wird umgesetzt, aber erst nach der Ausarbeitung des Tagebuchs (siehe `entscheidungen.md`, `stand.md` Punkt 4b).
 
+## Vorschläge aus dem Lektorat (Claude, 19.10.2026) – zur Entscheidung durch Pasco
+Alles hier ist **Vorschlag**, nicht umgesetzt, weil es eine neue Szene oder einen anderen Ablauf des Finales bräuchte.
+
+1. **Ithren: „mitkommen oder heimkehren“ als echte Wahl.** Laut Entwurf darf die Spielfigur am Ende wählen; im Spiel sagt Ithren den Satz nur, und das Kapitel endet. Vorschlag: zwei Wahlen am Steg (z. B. `ithren_folgen = true/false`), danach je ein kurzer Ausklang und ein angepasster Schluss im Tagebuch („Ich weiß noch nicht, wohin ich gehe“ passt dann nicht mehr). Das ändert das Ende des ersten Abenteuers und ist die Brücke ins zweite – deshalb erst mit Pasco klären.
+
+2. **Feuer-Rufer mit Yrsa in Vardholm: eigener Abschied in Lysmara.** Jetzt bekommen sie die Quelle unterwegs auf Yrsas Karren (umgesetzt), aber in Lysmara fehlt ihnen der Mentorbesuch als einer der zwei Abschiede. Vorschlag: eine eigene Besuchswahl „Zu Yrsa in die Große Schmiede“, in der sie die Körbe einschmilzt. Das wäre eine neue Szenenvariante in `besuche`.
+
+3. **Weg „kalt“ mit befreiten Funken: Die Waage sucht die Figur, aber in Perle 7 jagt sie niemand.** Seraphine droht („ein Dieb / eine Diebin“), danach gibt es nur den Steckbrief (bei Auslöser „flucht“) und einen Söldnerblick. Vorschlag: eine kurze Verfolgungs- oder Kontrollszene auf dem Weg (z. B. Söldner an der Orinbrücke) nur für `gesucht && not (waage_gestuerzt || seraphine_einsicht)`. Braucht eine neue Szene.
+
+4. **Strell auf den Wegen „tiefe“ und „meer“.** `strell_gerettet` wirkt jetzt am Spaltweg und an der Ziegenstiege; auf den anderen beiden Wegen bleibt die Rettung folgenlos. Ein Auftritt dort (z. B. Strell lässt die Küstentürme wegschauen) würde eine neue Szene oder einen neuen Zweig in `kueste` brauchen.
+
+5. **Pip und die Kobolde auf allen Wegen.** Pips Bitte (Himmel beschreiben) kommt jetzt nur auf dem Weg „tiefe“ mit Mirk vor; Grisk grüßt auf den anderen Wegen in der Gasse. Wer Pip vom Himmel erzählt hat, könnte im Finale (Tagebuch oder Ithren-Szene) einen Brief „an Pip“ beginnen – das wäre eine neue kleine Szene/Erinnerung.
+
+6. **Zweiter Satz für Brina im Tagebuch und in „Menschen“.** Brinas drei Wahlen haben jetzt unterschiedliche Folgen in Perle 6/7. Ein eigener Eintrag „Brina“ als Erinnerung (Tag `# tagebuch:`) wäre ein neuer Tagebucheintrag – gehört zum Technologie-Chat.
+
+### Für den Technologie-Chat (`story/tagebuch.ink`, vom Story-Chat nicht geändert)
+- **Seil:** `tagebuch.ink:213` fragt `p7_erschoepft` ab („Es hat mich gehalten“). Neu gibt es `seil_gehalten` (gesetzt am Grat bei JA_ABER, im Schlund bei Misserfolg, am Kap bei Misserfolg). Vorschlag: dort `seil_gehalten` statt `p7_erschoepft` verwenden.
+- **Goldknopf aus Wollmark:** Wer den Knopf in Perle 4 von Liora/Cassian bekam (`freund_heimgeholt`), aber nicht im Zelt fand, bekommt in Perle 7 keinen zweiten mehr und hat `goldknopf_gefunden = false`. Taschen-Funktionen (`tasche_status("goldknopf")`, Text) sollten `goldknopf_gefunden || freund_heimgeholt` prüfen.
+- **Neue Variablen, die für Taschen/Menschen nützlich sein könnten:** `brina_wahl` ("brot", "spiegel", "schweigen"), `jaro_kugeln`, `grenzstein_wahl` (bei "kiesel" evtl. neue Tasche „Kiesel aus Meridel“), `lager_antwort`, `ithren_getragen`, `ziege_folgt` (Ziege als Begleiterin?).
+
 ## Später / nach der Beta
 - **Weitere Hintergründe:** Bettelmönch (Orden ohne Götter), Schankwirtskind, Schmiedelehrling, Bauernkind, Kräutersammler, Tüftlerlehrling, Minenhelfer.
 - **Addons / Folgeabenteuer:** Die Figur wird wieder stärker (z. B. höhere Obergrenze) oder verbessert sich in anderen Bereichen.
