@@ -25,7 +25,9 @@ Alle Beschreibungen und Prompts für Perle 1–7 sind fertig. **Reihenfolge:**
 
 Je Perle erst Figuren, Requisiten und Ortsbilder, dann die Szenen (sie brauchen die anderen als Referenz). Nach jeder Perle committen, pushen und die Übersicht bauen. `npm test` meldet Bild-Tags ohne Prompt-Datei; dort steht derzeit nichts mehr.
 
-## Browser-Player: erster Start im Heim-WLAN (Auftrag vom 19.10.2026)
+## Browser-Player: erster Start im Heim-WLAN (Auftrag vom 19.10.2026) – ENTFÄLLT
+
+**Entfällt (19.10.2026):** Das Spiel wird über Cloudflare bereitgestellt (`docs/anleitung-cloudflare.md`), das richtet Pasco selbst ein. P1–P3 nur noch ausführen, wenn Pasco ausdrücklich darum bittet.
 
 Der Player (Ausbaustufe 1) liegt in `player/`. Technik: `player/README.md`. **Anleitung für Pasco (PC im LAN, iPad im WLAN): `docs/anleitung-tablet.md`** – bei Rückfragen auf diese Anleitung verweisen und Schritt für Schritt helfen. Nichts davon braucht die GPU.
 

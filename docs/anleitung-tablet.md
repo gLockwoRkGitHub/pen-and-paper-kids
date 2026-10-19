@@ -1,4 +1,6 @@
-# Anleitung: Das Spiel auf dem iPad spielen
+# Anleitung: Das Spiel auf dem iPad spielen (Heimnetz, Notlösung)
+
+> **Ersetzt am 19.10.2026:** Das Spiel wird jetzt über Cloudflare im Internet bereitgestellt, geschützt durch eine Anmeldung. Anleitung: `docs/anleitung-cloudflare.md`. Diese Anleitung hier gilt nur noch als Notlösung, falls Cloudflare einmal nicht geht.
 
 Stand: 19.10.2026 · für Pascos PC (Windows) und das iPad zu Hause
 

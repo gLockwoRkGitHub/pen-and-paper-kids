@@ -6,7 +6,7 @@ Was der Player aus der Story liest, regelt `docs/story-konventionen.md`.
 
 ## Starten
 
-**Schritt-für-Schritt-Anleitung für das iPad zu Hause:** `docs/anleitung-tablet.md`.
+**Bereitstellung:** Cloudflare Pages mit Zugangsschutz (Cloudflare Access), gebaut von GitHub Actions – Einrichtung `docs/anleitung-cloudflare.md`. Notlösung im Heimnetz: `docs/anleitung-tablet.md`.
 
 | Wo | Befehl | Wofür |
 |---|---|---|

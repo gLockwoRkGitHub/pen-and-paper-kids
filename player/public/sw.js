@@ -1,6 +1,6 @@
 // Einfacher Offline-Speicher: Seite zuerst aus dem Netz (damit Updates ankommen),
 // Bilder, Schriften und Programmteile aus dem Speicher, sobald sie einmal geladen wurden.
-const SPEICHER = 'weg-hinaus-1';
+const SPEICHER = 'weg-hinaus-2';
 
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
@@ -14,17 +14,21 @@ self.addEventListener('fetch', (e) => {
       if (istSeite) {
         try {
           const antwort = await fetch(anfrage);
-          speicher.put(anfrage, antwort.clone());
+          // Nur echte Seiten merken – keine Weiterleitung zur Anmeldung (Cloudflare Access)
+          if (antwort.ok && antwort.type === 'basic') speicher.put(anfrage, antwort.clone());
           return antwort;
         } catch {
           return (await speicher.match(anfrage)) || Response.error();
         }
       }
+      // Gemerktes sofort zeigen und im Hintergrund auffrischen (z. B. nachgebesserte Bilder)
       const vorhanden = await speicher.match(anfrage);
-      if (vorhanden) return vorhanden;
-      const antwort = await fetch(anfrage);
-      if (antwort.ok) speicher.put(anfrage, antwort.clone());
-      return antwort;
+      const neu = fetch(anfrage).then((antwort) => {
+        if (antwort.ok && antwort.type === 'basic') speicher.put(anfrage, antwort.clone());
+        return antwort;
+      });
+      if (vorhanden) { neu.catch(() => {}); return vorhanden; }
+      return neu;
     })
   );
 });
