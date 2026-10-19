@@ -270,6 +270,15 @@ Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf 
 - [x] Nebenfiguren ohne Einzelbild (nur aus Text): `ole`, `pip`, `jaro`, `brina` → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
 - [x] **Übersicht für Pasco** (`docs/art/tagebuch/uebersicht-*.png`) und Liste der Schwächen im README. → **14.10.2026:** erledigt, siehe `docs/art/tagebuch/README.md`.
 
+## Nachbesserung nach der Bildprüfung (Auftrag vom 19.10.2026)
+
+**Grundlage:** Durchsicht aller Übersichten im Story-Chat am 19.10.2026. Die vier Punkte aus `docs/offene-entscheidungen.md` sind schon erledigt; hier stehen nur die **zusätzlichen** Funde. Selbstständig abarbeiten. Klappt ein Punkt nach der genannten Runde nicht: **das bisherige Bild behalten**, im README notieren und weitermachen.
+
+- [ ] **N6 Keine lesbare Schrift – Silbermark:** `szenen/perle-7/szene-silbermark-stube.png` neu mit dem nachgeschärften Prompt (Zettel gefaltet, Bücher zu), 6 Seeds. **Prüfliste:** keine Buchstaben oder Schein-Schrift im Bild; der Kiesel im Päckchen ist zu sehen. Alternative: Schrift auf dem bisherigen Bild in Krita übermalen.
+- [ ] **N7 Gildenzeichen Leise Hand:** `tagebuch/taschen/gildenzeichen-leise_hand.png` neu mit dem geänderten Prompt (nur ein Stoffflicken mit gesticktem Zeichen), 4 Seeds. **Prüfliste:** keine echte Hand, kein Arm, keine Finger, die etwas halten (sonst wirkt es wie die Hand der Spielfigur).
+- [ ] **N8 Jaro ohne Rand:** `tagebuch/menschen/jaro.png` neu (gleicher Prompt, andere Seeds, z. B. ab Seed 11), 4 Seeds. **Prüfliste:** heller Papierrand wie bei allen anderen Skizzen, kein dunkler Rahmen.
+- [ ] **N9 Abschluss:** Übersichten Perle 7 und Tagebuch neu bauen, Ergebnisse in den READMEs eintragen, hier abhaken, committen, pushen.
+
 ## Auf Abruf (kein fester Auftrag)
 Diese Prompts liegen bereit und werden nur erzeugt, wenn Pasco danach fragt.
 - (auf Abruf) **Beispielfiguren der fünf Völker** (Kinder um die zwölf, je Junge und Mädchen): `docs/art/figuren/volk-<mensch|zwerg|gnom|ork|troll>-<m|w>-einzel.prompt.txt`, 832×1216, nur aus Text; danach `voelker-vergleich.prompt.txt` (1536×1024) mit drei Einzelbildern als Referenz. Prüfen: Zwergenkinder ohne Bart, Trolle schlaksig und nicht massig, Orks freundlich.
