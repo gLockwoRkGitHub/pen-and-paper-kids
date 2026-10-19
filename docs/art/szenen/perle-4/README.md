@@ -171,7 +171,7 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `
 | `szene-fremder-am-grauen` | 1 | Gesicht sichtbar wie gewählt; Ringzeichen auf einem Pfosten, vier Ringe im Kreis |
 | `szene-gnollenlager` | 3 | – |
 | `figur-ashka` | 8 (Runde 2) | Runde 1: Ashka in allen Seeds doppelt. Runde 2 mit nur einer Referenz und „nur eine“ im Prompt |
-| `szene-nacht-das-schweigen` | 5 | Graue Schwaden am Himmel, die wie Nebel wirken (alle Seeds) |
+| `szene-nacht-das-schweigen` | 8 (Runde 2, 19.10.2026) | Runde 1 wirkte das Grau wie Nebel; Prompt ohne „fog“, Grau als unbemalter Bildteil. Jetzt klar, kein Nebel; der Unterschied grau/farbig ist dafür schwach |
 | `szene-ruf-erde` / `-wasser` / `-feuer` / `-wind` | 3 / 3 / 2 / 4 | Ashka nicht deutlich erkennbar |
 | `szene-morgen-danach` | 2 | – |
 | `tagebuch-perle-4` | 4 | Buch auf Tisch |

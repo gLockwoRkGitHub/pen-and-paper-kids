@@ -1,15 +1,14 @@
 # Offene Entscheidungen
 
-## Zusammenfassung (14.10.2026, lokale Sitzung)
-Der Gesamtauftrag aus `docs/auftraege.md` ist abgearbeitet; es ist **kein** Auftrag zurückgestellt worden. Offen sind **4 Punkte**, alle zu Bildern, bei denen eine Vorgabe nicht ganz getroffen ist. Keiner blockiert etwas anderes.
+## Zusammenfassung (19.10.2026)
+Alle vier Punkte sind von Pasco entschieden und umgesetzt. **Keine offenen Entscheidungen.**
 
-Reihenfolge zum Bearbeiten:
-1. **Punkt 1 – Prüflisten-Verstöße mit nur einer Runde** (am wichtigsten: Goldknopf in Perle 6, „Schweigen ohne Nebel“). Entscheiden, ob nachgebessert wird.
-2. **Punkt 2 – Dampfkarren mit vier Rädern** (Story sagt drei).
-3. **Punkt 3 – Kettrichs Brille in Szenen.**
-4. **Punkt 4 – Strell verbeugt sich nicht.**
-
-Alle Übersichten: `docs/art/szenen/perle-<n>/uebersicht-*.png`, `docs/art/tagebuch/uebersicht-*.png`, `docs/art/karten/pruefung-*-komplett.png`.
+| Punkt | Entscheidung (Pasco, 19.10.2026) | Umgesetzt |
+|---|---|---|
+| 1. Prüfliste nicht erfüllt | b) lokal nachbessern | Beide „Schweigen“-Bilder neu (kein Nebel mehr), Goldknopf in der Vorführung per Bildbearbeitung sichtbar |
+| 2. Dampfkarren vier Räder | a) hinnehmen | – |
+| 3. Kettrichs Brille | b) Skizze nachbessern, a) Szenen lassen | Tagebuch-Skizze nachbearbeitet |
+| 4. Strell verbeugt sich nicht | so lassen | – |
 
 ---
 
