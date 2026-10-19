@@ -19,7 +19,7 @@ Ihr steigt hinab. Hundert Stufen. Fünfhundert. Irgendwann hörst du auf zu zäh
 
 = talin
 # bild: szene/talin
-Am zweiten Schacht siehst du Licht. Eine einzelne Lampe. Und davor ein Junge, vielleicht fünfzehn, dünn, mit einer Messingplakette um den Hals. Er steht vor der Felswand, die Hände flach auf dem Stein, und der Stein weicht vor ihm zurück, Fingerbreit um Fingerbreit, wie Butter vor einem warmen Messer.
+Ein Stück unterhalb des Schachts siehst du Licht. Eine einzelne Lampe. Und davor ein Junge, vielleicht fünfzehn, dünn, mit einer Messingplakette um den Hals. Er steht vor der Felswand, die Hände flach auf dem Stein, und der Stein weicht vor ihm zurück, Fingerbreit um Fingerbreit, wie Butter vor einem warmen Messer.
 
 Er hört dich und fährt herum. Sein Gesicht ist grau vor Staub und Müdigkeit.
 ~ talin_getroffen = true
@@ -67,7 +67,7 @@ Vor dir klafft ein Abgrund, zwanzig Schritte breit. Unten rauscht Wasser in der 
         Du findest viele Zeichen, aber nicht das richtige. Ihr müsst klettern.
         -> schlund_ergebnis(JA_ABER)
     - else:
-        Da, links an der Wand, ein Strich unter einem Bogen. Dahinter, eine Handbreit unter der Kante, ein alter Steg, den die Zwerge in den Fels gehauen haben. Ihr geht hinüber, als wäre es nichts. Mirk hätte gelacht.
+        Da, links an der Wand, ein Strich unter einem Bogen. Dahinter, eine Handbreit unter der Kante, ein alter Steg, den die Zwerge in den Fels gehauen haben. Ihr geht hinüber, als wäre es nichts. {grisk_begleitet:Mirk hätte gelacht.|Mirk lacht leise. „Kluges Kind.“}
         -> weiter
     }
 * [Am Fels entlangklettern, wo eine schmale Kante bis hinüber führt (Geschick)]
@@ -116,7 +116,7 @@ Vor dir klafft ein Abgrund, zwanzig Schritte breit. Unten rauscht Wasser in der 
     - else:
         Du rufst das Wasser aus der Tiefe. Es steigt auf, als silberner Nebel, und als er die Mitte des Abgrunds erreicht, gefriert er. Knisternd, klirrend, ein Bogen aus Eis, glatt wie Glas.
         { z == JA_ABER:
-            Sie hält. Aber sie ist so glatt, dass ihr auf allen vieren hinüberkriechen müsst. Und hinter euch schmilzt sie schon.
+            Er hält. Aber er ist so glatt, dass ihr auf allen vieren hinüberkriechen müsst. Und hinter euch schmilzt er schon.
         }
     }
 - "wind":
@@ -148,7 +148,7 @@ Vor dir klafft ein Abgrund, zwanzig Schritte breit. Unten rauscht Wasser in der 
     Ihr kommt hinüber. Aber unterwegs rutscht dir die Tasche von der Schulter und ein Teil des Proviants verschwindet rauschend in der Tiefe.
 - else:
     Auf halbem Weg rutschst du ab. Einen schrecklichen Augenblick lang hängst du nur an den Fingern über dem Rauschen. Dann packt dich eine kleine, kräftige Hand am Kragen. {grisk_begleitet:Grisk|Mirk} zieht dich hinauf, mit einer Kraft, die man einem Kobold nicht zutraut.
-    „Großer Mensch“, keucht {grisk_begleitet:Grisk|Mirk}. „Schwer.“
+    „{grosse_figur(false)}“, keucht {grisk_begleitet:Grisk|Mirk}. „Schwer.“
 }
 -> weiter
 
@@ -228,7 +228,7 @@ Du kennst das. Von den Weiden. Sie schlafen im Stehen. Und gleich gehen sie weit
     ~ vermisste_gerettet = true
     Du rufst, du ziehst, du rüttelst. Und dabei wirst du selbst so müde, so unendlich müde. Du setzt dich hin. Nur kurz.
     Dann spürst du kleine Hände. Viele kleine Hände. Die Kobolde, die du schon geweckt hast, packen dich und schleppen dich zurück auf die Treppe, Stufe um Stufe, bis die Farben zurückkommen.
-    „Großer Mensch hat uns geweckt“, sagt einer. „Jetzt wecken wir großen Menschen.“
+    „{grosse_figur(false)} hat uns geweckt“, sagt einer. „Jetzt wecken wir {grosse_figur(true)}.“
 }
 { bp_gefunden:
     -> bp_wach

@@ -27,7 +27,7 @@ PS: Hast du den Knopf noch?“
 * [Den Knopf aus der Tasche holen und ihn eine Weile ansehen]
     ~ aendern(beziehung_freund, 1)
     Du hältst den kleinen goldenen Knopf in der Sonne. Er ist warm geworden in deiner Tasche. Du steckst ihn wieder weg, ganz vorsichtig.
-* [Fink oder dem Botenjungen eine Antwort mitgeben]
+* [{ruf_leise_hand >= 0:Fink|Dem Botenjungen} eine Antwort mitgeben]
     ~ aendern(beziehung_freund, 1)
     Du reißt eine Seite aus deinem Tagebuch und schreibst: „Ich gehe unter den Berg. Da kommt es her. Ich hab den Knopf noch. Pass du auch auf dich auf.“ Du faltest den Zettel klein zusammen.
     { ruf_leise_hand >= 0:
@@ -47,22 +47,22 @@ Von Wollmark aus gehst du nach Norden, quer über die Weiden, bis du den Orin er
 
 Auf dem Pfad ziehen Maultiere flache Kähne gegen die Strömung. Leere Erzkähne, auf dem Rückweg zu den Minen. Auf jedem Kahn sitzen Kobolde mit Grubenlampen auf den Helmen und lassen die Beine baumeln.
 { kompass:
-    Du klappst Tickworts Kompass auf. Die Nadel zeigt genau den Fluss hinauf.
+    Du klappst Tickworts Kompass auf. {ausloeser == "verschwunden":Die Nadel zeigt genau den Fluss hinauf. Zu den Minen.|Die Nadel zeigt nach Westen, nach Lysmara. Nach Hause. Du klappst ihn zu. Noch nicht.}
 }
 * [Einen Kobold fragen, ob du mitfahren darfst (Ausstrahlung)]
     ~ temp e = probe(ausstrahlung + MAX(0, ruf_kobolde))
     ~ probe_zeile("Ausstrahlung", e)
     { e == MISSERFOLG:
-        Der Kobold sieht dich lange an. „Großer Mensch ist schwer“, sagt er. „Maultier ist müde.“ Dann zeigt er auf das letzte Boot. „Da. Aber du ziehst mit.“ Den halben Tag gehst du neben dem Maultier her und ziehst am Seil.
+        Der Kobold sieht dich lange an. „{grosse_figur(false)} ist schwer“, sagt er. „Maultier ist müde.“ Dann zeigt er auf das letzte Boot. „Da. Aber du ziehst mit.“ Den halben Tag gehst du neben dem Maultier her und ziehst am Seil.
     - else:
         Der Kobold rückt zur Seite. „Steig ein. Kostet nichts. Kostet eine Geschichte.“
-        Du erzählst die Geschichte von Grumak, von den leeren Dörfern und vom Grauen auf den Weiden. Am Ende ist es auf dem Kahn sehr still.
+        Du erzählst vom Grauen auf den Weiden{grumak_gewarnt: und von Grumaks leeren Dörfern}. Am Ende ist es auf dem Kahn sehr still.
     }
 * {erzmarke} [Grisks Erzmarke zeigen]
     ~ aendern(ruf_kobolde, 1)
     Der Kobold auf dem ersten Kahn sieht die Marke und reißt die gelben Augen auf. „Freund von Grisk!“, ruft er nach hinten. Die anderen Kobolde stehen auf. Einer macht dir Platz auf dem besten Sack. Einer gibt dir getrockneten Pilz zu essen. Er schmeckt nach Keller. Du isst ihn trotzdem.
 * [Allein auf dem Treidelpfad gehen]
-    Du gehst allein, den ganzen Tag, neben dem rauschenden Fluss. Abends sind deine Füße wund und dein Kopf ganz klar.
+    Du gehst zu Fuß neben den Kähnen her, den ganzen Tag, neben dem rauschenden Fluss. Am Nachmittag sind deine Füße wund und dein Kopf ganz klar.
 - Unterwegs erzählen die Kobolde. In der Tiefe ist es nicht mehr sicher. Sieben Kobolde sind vor vier Tagen in den dritten Schacht gestiegen. Keiner ist zurückgekommen. Und in zwei Nächten ist Neumond.
 
 „Neumond“, sagt ein alter Kobold und spuckt in den Fluss. „Dann holt die Waage ihre Funken. Hat sie überall angeschlagen. Auch bei uns.“
@@ -73,7 +73,7 @@ Am Nachmittag, kurz vor den Bergen, wird der Fluss eng und schnell. Weißes Wass
 * {hintergrund == "reisender"} [(Reisender) Das Maultier beruhigen und wieder ins Geschirr bringen, wie Maren es dir gezeigt hat]
     ~ aendern(ruf_kobolde, 1)
     Du läufst nicht zum Seil, sondern zum Maultier. Es zittert und rollt mit den Augen. Du legst ihm die Hand auf die Nase, redest leise, so wie Maren mit ihrem Packpferd redet, wenn es donnert. Das Maultier hört auf zu zappeln. Du hakst das Seil wieder ins Geschirr, und das Tier stemmt sich mit dir gegen die Strömung, Schritt für Schritt, bis der Kahn am Ufer liegt.
-    „Großer Mensch spricht Maultier“, sagt ein Kobold ehrfürchtig.
+    „{grosse_figur(false)} spricht Maultier“, sagt ein Kobold ehrfürchtig.
 * [Das Seil packen und den Kahn festhalten (Kraft)]
     ~ temp e = probe(kraft)
     ~ probe_zeile("Kraft", e)

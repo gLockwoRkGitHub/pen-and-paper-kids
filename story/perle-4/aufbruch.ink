@@ -10,11 +10,11 @@ Am Morgen nach dem Gildentag stehst du am Landtor. Hinter dir liegt Lysmara, lau
 Du warst noch nie so weit draußen. Nicht allein.
 {
 - erster_auftrag == "wollmark":
-    In deiner Tasche steckt Kettrichs Brief an die Wollhändler von Wollmark. Am Revers glänzt das Abzeichen mit dem Webschiffchen.
+    In deiner Tasche steckt Kettrichs Brief an die Wollhändler von Wollmark. An der Jacke glänzt das Abzeichen mit dem Webschiffchen.
 - erster_auftrag == "weiden_karte":
     In deiner Tasche stecken Orwins alte Karte der Weiden, ein neues Zeichenheft und drei gespitzte Kohlestifte. Die silberne Feder am Kragen fängt die Morgensonne.
 - erster_auftrag == "mondklee":
-    Über deiner Schulter hängt ein leerer Korb für den Mondklee, und in deiner Tasche gluckert ein Fläschchen Leuchttrank. Um den Hals trägst du das winzige Fläschchen der Phiole.
+    Über deiner Schulter hängt ein leerer Korb für den Mondklee, und in deiner Tasche gluckert eine kleine Flasche Leuchttrank. Um den Hals trägst du das winzige Fläschchen der Phiole.
 - erster_auftrag == "ginsterhof":
     Unter deiner Jacke, eng am Futter mit dem eingenähten Zeichen, steckt Finks Päckchen für Ginsterhof.
 - erster_auftrag == "waage_wollmark":
@@ -33,7 +33,7 @@ Am Tor wartet ein schwerer Planwagen mit vier Pferden. Auf der Plane prangt die 
 
 = freund_am_tor
 { waagen_wagen:
-    Gerade als der Wagen anrollt, rennt jemand hinter dem Tor hervor, in einer viel zu großen Arbeiterjacke, eine Mütze tief im Gesicht, und springt mit einem Satz hinten auf die Deichsel des Wagens. Die Söldner dösen. Niemand merkt etwas.
+    Gerade als der Wagen anrollt, rennt jemand hinter dem Tor hervor. Viel zu große Arbeiterjacke, Mütze tief im Gesicht. Mit einem Satz springt die Gestalt hinten auf das Trittbrett. Die Söldner dösen. Niemand merkt etwas.
     Erst hinter der ersten Kurve klettert die Gestalt über die Plane nach vorn und lässt sich neben dich auf den Bock fallen. Der Fuhrmann zieht nur die Augenbrauen hoch und pafft weiter.
 - else:
     Gerade als du losgehen willst, ruft jemand hinter dir deinen Namen.
@@ -146,12 +146,12 @@ Mittags kommt ihr an eine Steinbrücke über einen Bach. Mitten auf der Brücke 
     {freund()} sieht dich mit großen Augen an. „Woher weißt du so was?“
     „Maren sagt: Jede Straße hat eine kleine Schwester, die keiner kennt.“
 * [Warten, bis die Söldner Wachwechsel haben]
-    Ihr wartet hinter der Mauer. Eine Stunde. Zwei. Endlich kommt die Ablösung, und im Durcheinander schlüpft ihr vorbei. Aber die Sonne steht schon tief, als ihr weitergeht.
+    Ihr wartet hinter der Mauer. Eine Stunde. Zwei. Endlich kommt die Ablösung, und im Durcheinander schlüpft ihr vorbei. Aber es ist schon Nachmittag, als ihr weitergeht.
 - -> lamm
 
 = lamm
 # bild: szene/lamm-auf-der-strasse-{freund_kurz()}
-Am Nachmittag steht ein Lamm mitten auf der Straße.
+Bald darauf steht ein Lamm mitten auf der Straße.
 
 Es blökt nicht. Es frisst nicht. Es steht nur da und starrt nach Süden, zu den Hügeln am Fuß der Berge, als würde dort jemand nach ihm rufen. Seine Wolle ist an einer Seite merkwürdig grau, wie mit Asche bestäubt.
 { waagen_wagen:

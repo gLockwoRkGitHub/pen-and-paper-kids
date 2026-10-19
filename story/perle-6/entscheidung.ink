@@ -50,6 +50,17 @@ Und dann erzählst du. Vom Herz des Berges. Vom Riss. Vom Stollen der Waage und 
 { mit_kettrich:
     Am Tisch der Gilden steht Meister Kettrich auf. Er nimmt die Brille ab. „Meine Gilde hat gegraben“, sagt er langsam. „Im Auftrag der Waage. Ich habe die Rechnungen gesehen und nicht gefragt.“ Er sieht Seraphine an. „Ich frage jetzt.“
 }
+{
+- auftrag_p4 == 2 && erster_auftrag == "weiden_karte":
+    ~ rat_bonus += 1
+    Meister Orwin steht auf und rollt deine Karte der Weiden auf dem Tisch aus, mit dem leeren Loch am Fuß der Berge. „Wir zeichnen, was ist“, sagt er. „Das hier ist.“
+- auftrag_p4 == 2 && erster_auftrag == "mondklee":
+    ~ rat_bonus += 1
+    Meisterin Ambra legt den grauen Mondklee aus deinem Tuch neben ihren Teller. Er zerfällt, als sie ihn berührt. Sie sagt nichts. Aber sie sieht Seraphine an.
+- auftrag_p4 == 2 && erster_auftrag == "wollmark":
+    ~ rat_bonus += 1
+    „Die Wolle aus Wollmark kommt wieder“, sagt Kettrich leise. „Weil {geschlecht == "w":sie|er} die Schafe aus dem Grauen geholt hat.“
+}
 
 Seraphine lächelt. Sanft, wie immer. „Ein Kind mit einer Geschichte“, sagt sie. „Wie rührend.“
 ~ temp rat_e = probe(ausstrahlung + rat_bonus)

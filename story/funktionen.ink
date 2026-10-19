@@ -183,6 +183,24 @@ Worin bist du besser geworden?
 }
 ~ return "Wanderer"
 
+// --- Wie die Kobolde die Spielfigur nennen: „Großer Mensch“, „Große Zwergin“ …
+// akk = true: Akkusativ, klein („großen Menschen“, „große Zwergin“)
+=== function grosse_figur(akk)
+~ temp wort = volk_wort()
+{ geschlecht == "w" && volk != "mensch" && volk != "":
+    { akk:
+        ~ return "große {wort}"
+    }
+    ~ return "Große {wort}"
+}
+{ akk:
+    { volk == "mensch":
+        ~ return "großen Menschen"
+    }
+    ~ return "großen {wort}"
+}
+~ return "Großer {wort}"
+
 // --- Freund bzw. Freundin: Spielt man einen Jungen, ist es Liora, sonst Cassian ---
 === function freund()
 { geschlecht == "w":

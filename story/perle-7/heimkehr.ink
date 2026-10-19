@@ -66,6 +66,9 @@ Am Abend des zweiten Tages siehst du die Lichter von Lysmara. Und dahinter, rot 
 # bild: szene/heimkehr-lysmara
 Durch das Landtor, über die Orinbrücke, durch die Gassen. Alles ist, wie es war. Die Wasserräder drehen sich. Am Markt rufen die Händler. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
 -> p7_marktplatz ->
+{ auftrag_p4 == 1:
+    Vor der Tuchhalle steht Meister Kettrich und zählt Wollballen, die Dreifachbrille auf der Nase. Als er dich sieht, nickt er knapp. „Halber Auftrag. Halbe Wolle“, sagt er. „Aber ich weiß jetzt, warum. Das zählt auch.“
+}
 { freund_kommt_mit:
     An der Apfelgasse bleibt {freund()} stehen. „Ich schlaf heute oben“, sagt {fr_er()} und nickt zur Oberstadt hinauf. „Ein letztes Mal im eigenen Bett. Morgen früh steh ich vor deiner Tür. Wehe, du bist schon weg.“
 }

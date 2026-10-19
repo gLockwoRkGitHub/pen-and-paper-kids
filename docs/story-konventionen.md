@@ -51,7 +51,7 @@ Format immer `# name` oder `# name: wert`. Kleinschreibung, keine Umlaute im Nam
 | `bild` | `# bild: szene/hafen-kran` | Bild über dem folgenden Text zeigen (Abschnitt 5) | festgeschrieben |
 | `karte` | `# karte: hafen` | Ort als „besucht“ auf der Karte markieren und als aktuellen Ort setzen (Abschnitt 6) | festgeschrieben |
 | `tagebuch` | `# tagebuch: Tickworts Kompass` | Neuer Tagebucheintrag mit diesem Titel (Abschnitt 7) | festgeschrieben |
-| `tutorial` | `# tutorial: probe` | Hinweis-Symbol zur Regel einblenden; Werte: `werte`, `probe`, `tagebuch`, `magie`, `rasten` | festgeschrieben |
+| `tutorial` | `# tutorial: probe` | Hinweis-Symbol zur Regel einblenden; Werte: `werte`, `probe`, `tagebuch`, `magie`, `rasten`, `elementstufe` (Perle 4: Elementstufe steigt) | festgeschrieben |
 | `charaktererstellung` | | Charaktererstellung beginnt: eigener Bildschirmstil | festgeschrieben |
 | `werte_fertig` | | Charakterbogen erstmals anzeigen | festgeschrieben |
 | `level_up` | | Level-Up-Darstellung, danach Charakterbogen aktualisieren | festgeschrieben |

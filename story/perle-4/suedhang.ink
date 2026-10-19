@@ -105,7 +105,7 @@ Und es ist still. So still, dass du dein eigenes Herz hörst. Kein Vogel, kein I
 
     Nichts.
 
-    Zum ersten Mal, seit es in dir erwacht ist, antwortet {element_artikel(element)} nicht. Es ist nicht fort. Es ist nur … still. Als hätte ihm jemand die Hand auf den Mund gelegt.
+    Zum ersten Mal, seit es in dir erwacht ist, antwortet {element_artikel(element)} nicht. Deine Kraft ist nicht fort. Sie ist nur … still. Als hätte ihr jemand die Hand auf den Mund gelegt.
 }
 -> schafe
 
@@ -160,20 +160,23 @@ Mitten im Grauen, weiter drinnen als alle Schafe, steht noch etwas. Klein. Mit r
     -> fremder(4)
 
 = hinein(mit_kraft)
+{ not mit_kraft:
+    Jorrit knotet dir einen Ziegenstrick um den Bauch. „Wenn du stehen bleibst, zieh ich“, sagt er.
+}
 Du gehst hinein.
 
 Mit jedem Schritt wird es leiser. Dann wird es leer. Nicht nur um dich herum, auch in dir. Du vergisst, warum du hier bist. Du vergisst {freund()}. Du vergisst {bp()}. Du willst dich nur hinlegen. Ins graue Gras. Ganz kurz.
 { mit_kraft:
     ~ temp e = probe(kraft)
     ~ probe_zeile("Kraft", e)
-    -> drinnen(e)
+    -> drinnen(e, true)
 - else:
     ~ temp e2 = probe(verstand + 1)
     ~ probe_zeile("Verstand +1", e2)
-    -> drinnen(e2)
+    -> drinnen(e2, false)
 }
 
-= drinnen(e)
+= drinnen(e, mit_kraft)
 { e:
 - ERFOLG:
     ~ wuk_gerettet = true
@@ -187,6 +190,9 @@ Mit jedem Schritt wird es leiser. Dann wird es leer. Nicht nur um dich herum, au
     -> fremder(2)
 - else:
     Du kommst bis auf drei Schritte an das Junge heran. Dann setzt du dich hin. Einfach so. Das Gras ist weich und grau, und alles ist egal.
+    { not mit_kraft:
+        Der Strick spannt sich, aber Jorrit ist alt, und das Grau ist schwer.
+    }
     Eine Hand legt sich auf deine Schulter. Eine Hand in einem grauen Lederhandschuh.
     -> fremder(3)
 }
@@ -199,7 +205,7 @@ Mit jedem Schritt wird es leiser. Dann wird es leer. Nicht nur um dich herum, au
 }
 Der Fremde.
 
-Er steht am Rand des Grauen, groß und schlank, im grauen Reisemantel, die Kapuze tief im Gesicht. Unter der Kapuze schimmern die Augen wie Mondlicht auf Wasser. Am Hals glänzt die Bronzeschließe: vier verschlungene Ringe.
+Er steht {fall == 2 || fall == 3:neben dir im Grauen|am Rand des Grauen}, groß und schlank, im grauen Reisemantel. Unter der Kapuze siehst du ein schmales, blasses Gesicht, und die Augen schimmern wie Mondlicht auf Wasser. Am Hals glänzt die Bronzeschließe: vier verschlungene Ringe.
 {
 - fall == 2:
     Er führt dich mit dem Jungen im Arm die letzten Schritte hinaus ins Grüne, eine Hand auf deiner Schulter. Seine Hand ist ganz leicht. Und mit jedem Schritt kommen die Farben zurück.
@@ -225,7 +231,9 @@ Jorrit hat die Pfeife fallen lassen.
 = fragen
 * [„Was ist das? Das Graue?“]
     „Die Alten haben es das Schweigen genannt“, sagt der Fremde. „Es nimmt den Elementen die Stimme. Und den Lebenden den Wunsch zu bleiben. Sie gehen einfach fort. Mit offenen Augen.“
-    Du denkst an Grumak. An die leeren Dörfer hinter den Bergen. Die Türen offen, das Essen auf dem Tisch.
+    { grumak_gewarnt:
+        Du denkst an Grumak. An die leeren Dörfer hinter den Bergen. Die Türen offen, das Essen auf dem Tisch.
+    }
     -> fragen
 * [„Wer bist du?“]
     Unter der Kapuze siehst du ein schmales Lächeln. „Jemand, der zuhört“, sagt er. „Allen vier.“

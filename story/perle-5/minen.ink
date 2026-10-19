@@ -18,7 +18,7 @@ Vor dem Tor steht ein Holzhaus mit dem Zeichen von Webstuhl und Amboss: dem Webs
     -> mit_plakette
 - kobold_gerettet || erzmarke:
     -> mit_grisk
-- ruf_kobolde > 0:
+- ruf_kobolde > 0 && p2_erzlaende:
     -> mit_mirk
 - else:
     -> ohne
@@ -41,7 +41,7 @@ Dorn verzieht das Gesicht, sagt aber nichts.
 ~ grisk_wiedergesehen = true
 Bevor Dorn noch etwas sagen kann, springt hinter einer Lore ein kleiner grauschuppiger Kobold hervor. Die Grubenlampe auf seinem Helm wackelt.
 
-„FREUND VON GRISK!“, kreischt er und rennt auf dich zu. „Der hat Grisk aus dem Netz geholt! Der darf rein! Grisk bürgt!“
+„FREUND VON GRISK!“, kreischt er und rennt auf dich zu. „{geschlecht == "w":Die|Der} hat Grisk aus dem Netz geholt! {geschlecht == "w":Die|Der} darf rein! Grisk bürgt!“
 
 Dorn seufzt tief. „Grisk bürgt“, wiederholt er. „Natürlich.“ Er macht einen Haken. „Aber nicht unter den zweiten Schacht.“
 -> drinnen
@@ -111,7 +111,7 @@ Es ist wunderschön. Und es ist zu leise. Viel zu leise für eine Stadt.
     Hinter dir sagt der Söldner, der dich hereingebracht hat: „Morgen früh gehst du mit dem Vorarbeiter runter. Dunkles Erz. Wir brauchen jedes Stück.“ Dann geht er zurück zum Tor. In Glimmhalde will kein Söldner länger bleiben als nötig.
 }
 
-Mirk empfängt dich in ihrem Haus, das an einer Felswand hängt. Sie wirkt älter als an der Erzlände, die Brille ist inzwischen zweimal gesprungen.
+Mirk empfängt dich in ihrem Haus, das an einer Felswand hängt. {p2_erzlaende:Sie wirkt älter als an der Erzlände, die Brille ist inzwischen zweimal gesprungen.|Ihre Brille ist gesprungen, gleich zweimal.}
 { grisk_wiedergesehen || kobold_gerettet:
     Grisk sitzt neben ihr und schnitzt an einem Stück Holz. Als er dich sieht, springt er auf.
 }
@@ -120,10 +120,10 @@ Mirk empfängt dich in ihrem Haus, das an einer Felswand hängt. Sie wirkt älte
 
 „Und die Sieben?“
 
-„Nicht zurückgekommen. Wer runtergeht, um sie zu holen, kommt auch nicht zurück. Zwei schon.“ Sie setzt die Brille wieder auf. „Unten ist es grau, sagen die, die bis zur Treppe gekommen sind. Grau und still.“
+„Nicht zurückgekommen. Wer runtergeht, um sie zu holen, kehrt an der Treppe um.“ Sie setzt die Brille wieder auf. „Unten ist es grau, sagen die, die bis zur Treppe gekommen sind. Grau und still.“
 { ausloeser == "verschwunden":
     „Und {bp_ist_m():der Mann|die Frau} mit dem Seil?“, fragst du. Deine Stimme zittert.
-    Mirk sieht dich lange an. „Auch runter“, sagt sie. „Vor fünf Tagen. Die Tiefe Stiege hinunter, über den dritten Schacht. Wollte auf die andere Seite.“
+    Mirk sieht dich lange an. „Auch runter“, sagt sie. „Schon vor dem Gildentag. Die Tiefe Stiege hinunter, über den dritten Schacht. Wollte auf die andere Seite.“
 }
 
 „Ich gehe runter“, sagst du.
@@ -166,7 +166,7 @@ Einen Tag lang bereitet ihr den Abstieg vor. Seile, Lampen, Proviant, Kreide, um
 * [Den Koboldkindern im Pilzgarten auf dem See helfen]
     ~ aendern(ruf_kobolde, 1)
     Die Pilzgärten treiben auf Flößen über den schwarzen See. Ein Dutzend Koboldkinder zeigt dir, wie man Glimmpilze erntet, ohne dass sie aufhören zu leuchten: ganz langsam, mit zwei Fingern, und dabei summen. Am Ende bist du nass bis zu den Knien und hast elf neue Freunde, die alle gleichzeitig reden.
-* [Dich allein ans Ufer des schwarzen Sees setzen und {element_artikel(element)} üben]
+* [Dich allein ans Ufer des schwarzen Sees setzen und mit {element_dativ(element)} üben]
     ~ mentor_tipp = true
     Du setzt dich ans Ufer. Es ist still hier unten, aber nicht die graue Stille. Eine gute Stille. Du übst, was {element == "erde":Borrik}{element == "wasser":Nerelle}{element == "feuer":Yrsa}{element == "wind":Vael} dir gezeigt hat, ganz leise, immer wieder, bis {element_artikel(element)} dir antwortet wie ein alter Freund.
 - In der zweiten Nacht in Glimmhalde ist Neumond.

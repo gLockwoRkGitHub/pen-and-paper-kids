@@ -13,9 +13,9 @@
 }
 Du gehst weiter. {grisk_begleitet:Grisk|Mirk} geht neben dir, ganz dicht.
 
-Der Gang öffnet sich zu einer Höhle, die so groß ist, dass deine Lampe ihre Wände nicht erreicht. Der Boden ist glatt wie poliert. In ihn eingelassen, aus Linien aus hellem Stein, so groß wie der ganze Marktplatz von Lysmara: vier Ringe, ineinander verschlungen.
+Der Gang öffnet sich zu einer Höhle, die so groß ist, dass deine Lampe ihre Wände nicht erreicht. Der Boden ist glatt wie poliert. In den Boden sind Linien aus hellem Stein eingelassen, so groß wie der ganze Marktplatz von Lysmara: vier Ringe, ineinander verschlungen.
 
-Und in der Mitte, dort, wo die vier Ringe einander berühren, schwebt etwas.
+Und in der freien Mitte zwischen den vier Ringen schwebt etwas.
 
 Eine Kugel aus Kristall, so groß wie ein Haus. In ihr kreisen vier Lichter, langsam, umeinander, wie Fische in einem Teich. Ein braunes, ein blaues, ein rotes, ein weißes. Erde, Wasser, Feuer, Wind. Das Brummen kommt aus ihr. Es ist ein Lied, merkst du plötzlich. Ein uraltes Lied mit vier Stimmen.
 ~ herz_gesehen = true
@@ -30,7 +30,7 @@ Und für einen Augenblick, einen einzigen Herzschlag lang, hörst du nicht nur {
 
 Dann siehst du den Riss.
 
-Er zieht sich von der Seite durch den Kristall, eine dunkle, gezackte Linie. Und wo er ist, sind die Lichter blass. Aus dem Riss sickert etwas heraus, langsam wie Rauch, aber ohne Farbe. Es sinkt zu Boden, und wo es den Boden berührt, wird der helle Stein der Ringe grau.
+Er zieht sich von der Seite durch den Kristall, eine dunkle, gezackte Linie. Und wo er ist, sind die Lichter blass. Von seinem Ende aus wird der helle Stein der Ringe grau, Stück für Stück, als würde jemand die Farbe aus dem Boden trinken.
 
 Das Schweigen. Es kommt von hier.
 -> stollen
@@ -38,7 +38,7 @@ Das Schweigen. Es kommt von hier.
 = stollen
 Du folgst dem Riss mit den Augen bis zur Höhlenwand. Dort ist ein Loch in der Wand. Kein alter Gang wie die Tiefe Stiege. Ein frischer, roher Stollen, mit Spitzhacken gehauen, die Spuren noch hell im Stein. Er führt geradewegs auf den Kristall zu. Der Riss beginnt genau dort, wo der Stollen auf die Höhle trifft.
 
-Im Stollen stehen Kisten. Auf jeder Kiste ist mit Kreide ein Zeichen gemalt: eine Waage. Darin liegen dunkle Brocken, die leise summen, wenn du die Hand darüberhältst. Stimmerz.
+Im Stollen stehen Kisten. Auf jeder Kiste ist mit Kreide ein Zeichen gemalt: eine Waage. In den Kisten liegen dunkle Brocken, die leise summen, wenn du die Hand darüberhältst. Stimmerz.
 ~ waage_stollen_gesehen = true
 
 „Hier haben wir gegraben“, flüstert {grisk_begleitet:Grisk|Mirk}. „Für die Waage. Tiefer und tiefer. Weil hier das beste Stimmerz liegt.“ Die Stimme bricht. „Wir haben den Berg kaputt gemacht. Und es nicht gewusst.“
@@ -47,10 +47,10 @@ Du verstehst. Die Waage wollte Stimmerz für ihre Kugeln. Die Kobolde haben gegr
 
 Und die Waage sammelt Kraft in Kugeln, um sich vor dem Grauen zu schützen. Vor dem Grauen, das sie selbst geweckt hat. Ohne es zu wissen.
 { freund_mutter_angst:
-    Wenn es über die Berge kommt, brauchen wir jede Kugel. Seraphine Arvelle weiß nicht, dass es nicht über die Berge kommt. Es kommt aus ihrem eigenen Stollen.
+    Wenn es über die Berge kommt, brauchen wir jede Kugel. {freund()}s Mutter glaubt, es kommt über die Berge. Aber es kommt aus dem Berg. Aus dem Stollen der Waage.
 }
 
-Da wird das Brummen lauter. Aus dem Riss quillt mehr Graues, schneller jetzt, als hätte der Kristall gespürt, dass jemand da ist.
+Da wird das Brummen lauter. Der graue Fleck unter dem Riss wächst, schneller jetzt, als hätte der Kristall gespürt, dass jemand da ist.
 
 „Es wird mehr!“, ruft {grisk_begleitet:Grisk|Mirk}. „Wir müssen weg! Gleich!“
 
@@ -100,13 +100,13 @@ Du hast Zeit für eine Sache. Nur eine.
 { e:
 - ERFOLG:
     Ein Balken kippt. Dann der nächste. Dann kommt die Decke herunter, mit einem Donnern, das durch den ganzen Berg rollt. Staub wallt auf. Als er sich legt, ist der Stollen fort. Nur noch Geröll, bis an die Decke.
-    Das Brummen wird leiser. Nicht still. Aber leiser. Der Riss im Kristall ist noch da. Aber das Graue, das aus ihm sickert, wird weniger, als hätte das Herz aufgehört, sich zu wehren.
+    Das Brummen wird leiser. Nicht still. Aber leiser. Der Riss im Kristall ist noch da. Aber der graue Fleck darunter wächst nicht mehr, als hätte das Herz aufgehört, sich zu wehren.
 - JA_ABER:
     Die Decke kommt herunter. Aber schneller als gedacht. Ein Brocken streift deine Schulter, du stolperst, {grisk_begleitet:Grisk|Mirk} reißt dich zur Seite. Der Stollen ist zu. Deine Schulter wird morgen blau sein.
     Das Brummen wird leiser.
 - else:
     Die Decke kommt herunter, viel zu früh. Staub, Lärm, Dunkelheit. Du weißt nicht, wie lange du am Boden liegst. Dann zieht dich {grisk_begleitet:Grisk|Mirk} am Ärmel, hustend, grau vor Staub.
-    „Zu“, keucht {grisk_begleitet:Grisk|Mirk}. „Stollen ist zu. Großer Mensch ist ganz. Fast.“
+    „Zu“, keucht {grisk_begleitet:Grisk|Mirk}. „Stollen ist zu. {grosse_figur(false)} ist ganz. Fast.“
     Das Brummen wird leiser.
 }
 ->->
@@ -132,9 +132,9 @@ Am Fuß des Kristalls liegen Splitter, die abgebrochen sind, als der Riss entsta
 - ERFOLG:
     Du hebst einen Splitter auf, so lang wie deine Hand. Er ist warm und summt leise, und in ihm kreisen winzige Lichter, braun, blau, rot, weiß. {grisk_begleitet:Grisk|Mirk} schleppt die Kiste mit dem Kreidezeichen der Waage heraus. Darauf steht in einer Schreiberhand: „Stimmerz. Für Vardholm. Dritter Schacht, tiefste Sohle.“
 - JA_ABER:
-    Du bekommst einen Splitter zu fassen. Als du ihn aufhebst, schießt ein Faden Graues aus dem Riss auf deine Hand zu, und für einen Moment wird dein Arm taub bis zur Schulter. Dann ist es vorbei. Die Kiste schleppt {grisk_begleitet:Grisk|Mirk}.
+    Du bekommst einen Splitter zu fassen. Als du ihn aufhebst, kriecht das Grau über den Boden bis an deine Finger, und für einen Moment wird dein Arm farblos und taub bis zur Schulter. Dann ist es vorbei. Die Kiste schleppt {grisk_begleitet:Grisk|Mirk}.
 - else:
-    Du greifst nach einem Splitter, aber das Graue ist schneller. Es wallt über den Boden, und die Splitter darin werden stumpf und farblos. Im letzten Moment erwischst du einen kleinen, kaum größer als ein Daumen. Er glimmt nur noch schwach. Die Kiste müsst ihr zurücklassen.
+    Du greifst nach einem Splitter, aber das Grau ist schneller. Es frisst sich über den Boden, und die Splitter werden stumpf und farblos. Im letzten Moment erwischst du einen kleinen, kaum größer als ein Daumen. Er glimmt nur noch schwach. Die Kiste müsst ihr zurücklassen.
 }
 ->->
 
@@ -195,7 +195,7 @@ Dann zieht dich jemand weiter.
 = oben(e)
 { e:
 - MISSERFOLG:
-    Auf den letzten Stufen geben deine Beine nach. Du willst dich nur kurz hinsetzen. Aber kleine Hände packen dich, und große, {bp_gefunden:und {bp()}s Arme,} und tragen dich die letzten Stufen hinauf, bis zum dritten Schacht, bis die Farben zurückkommen.
+    Auf den letzten Stufen geben deine Beine nach. Du willst dich nur kurz hinsetzen. Aber kleine Hände packen dich{bp_gefunden:, dazu {bp()}s Arme}, und tragen dich die letzten Stufen hinauf, bis zum dritten Schacht, bis die Farben zurückkommen.
 - else:
     Ihr erreicht den dritten Schacht. Hinter euch bleibt das Graue zurück, unten in der Tiefe, wo es hergekommen ist. Ihr lehnt euch an die Wand und keucht und lacht, alle gleichzeitig, Kobolde und Menschen, weil ihr noch da seid.
 }
@@ -210,7 +210,7 @@ In Glimmhalde leuchten in dieser Nacht alle Lampen. Alle. Die Kobolde haben die 
 { vermisste_gerettet:
     Ein kleiner Kobold rennt über die Brücke auf dich zu, den viel zu großen Helm in der Hand. Pip. Hinter Pip kommt ein Kobold mit grauen Flecken auf den Schuppen, noch etwas wacklig auf den Beinen: der Onkel.
     { pip_himmel:
-        „Er hat gesagt, es gibt da oben wirklich keine Decke!“, ruft Pip. „Ich hab's ihm erzählt, und er hat gesagt, das stimmt! Wenn ich groß bin, geh ich nach oben und guck mir die tausend Lampen an.“
+        „Er hat gesagt, oben ist alles wahr, was du erzählt hast!“, ruft Pip. „Wenn ich groß bin, geh ich nach oben und guck es mir an.“
     - else:
         „Du hast ihn zurückgebracht“, sagt Pip und hält dir eine winzige, krumme Grubenlampe hin. „Die achte Lampe. Die hab ich für dich angezündet. Sie ist ein bisschen schief.“
     }
@@ -248,7 +248,7 @@ Die Waage wird kein Stimmerz mehr bekommen. Keine neuen Kugeln. Nur die, die sie
 = nach_beweis
 Den Splitter wickelst du in ein Tuch und steckst ihn ganz unten in deine Tasche. Er summt leise, wie eine Biene, die man in der Hand hält.
 { grisk_begleitet:
-    Am Tor durchsuchen die Söldner jeden, der herauskommt. Grisk grinst. Er versteckt den Splitter und das Kreidezeichen der Kiste in einer Lore voller gewöhnlichem Erz und schiebt sie selbst hinaus. Niemand schaut in eine Lore, die ein Kobold schiebt.
+    Am Tor durchsuchen die Söldner jeden, der herauskommt. Grisk grinst. Er lässt sich den Splitter geben, versteckt ihn in einer Lore voller gewöhnlichem Erz und schiebt sie selbst hinaus. Niemand schaut in eine Lore, die ein Kobold schiebt.
 - else:
     Am Tor durchsuchen die Söldner jeden, der herauskommt. Mirk zieht dich zu einem Luftschacht. „Kobolde gehen nie durch das Tor, wenn sie etwas tragen“, sagt sie.
 }
@@ -264,7 +264,7 @@ Unten im Berg graben sie weiter, die Waage hat ihren Stollen noch. Aber du hast 
 { talin_hilft:
     Talin geht mit euch aus dem Berg. Am Tor hält er die Messingplakette in der Hand und sieht sie lange an. „Sie schicken alle Eingeschriebenen nach Vardholm“, sagt er. „In ein paar Tagen. Für das Werk, sagen sie.“ Er steckt die Plakette weg. „Vielleicht sehen wir uns da.“
 }
-Du ziehst den Brief von {freund()} aus der Tasche. Meine Mutter reist in vier Tagen nach Vardholm. Zwei davon sind vorbei.
+Du ziehst den Brief von {freund()} aus der Tasche. Meine Mutter reist in vier Tagen nach Vardholm. Drei davon sind vorbei.
 
 Das Herz des Berges hat einen Riss. Die Waage sammelt Kraft gegen etwas, das sie selbst geweckt hat. Und {freund()} wird dabei sein, wenn sie zeigt, was sie in Vardholm baut.
 
@@ -283,7 +283,7 @@ Du zeichnest Glimmhalde mit den Häusern wie Schwalbennester. Die Tiefe Stiege, 
 
 Darunter schreibst du: # handschrift
 
-„Heute habe ich das Herz des Berges gesehen.
+„Ich habe das Herz des Berges gesehen.
 Darin wohnen alle vier Elemente. Einen Herzschlag lang habe ich alle vier gehört.
 Es hat einen Riss. Durch den Riss kommt das Schweigen.
 Der Riss kommt von einem Stollen. Die Kobolde haben ihn gegraben. Für die Waage. Für Stimmerz. Für die Kugeln.

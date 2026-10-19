@@ -110,6 +110,9 @@ Sie hebt die Hand zum Turm. „Das ist das Werk. Ein Wall aus der Kraft der Elem
 
 Dann legt sie {freund()} eine Hand auf die Schulter. „Und ich möchte Ihnen jemanden vorstellen, der eines Tages die Waage führen wird. {fr_ist_m():Mein Sohn|Meine Tochter}. {freund()} Arvelle.“
 ~ wahrheit_freund = true
+{ mutter_nach_vardholm:
+    Meine Mutter reist in vier Tagen nach Vardholm, hat {freund()} geschrieben. Jetzt weißt du, wer gemeint war.
+}
 
 Applaus.
 

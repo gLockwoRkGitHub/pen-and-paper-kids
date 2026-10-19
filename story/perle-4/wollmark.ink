@@ -75,7 +75,7 @@ Aus dem größten Zelt tritt ein Mann. Er ist hager und aufrecht, mit kurz gesch
 
 = gasthaus
 # bild: szene/gasthaus-krummer-stab-{freund_kurz()}
-Ihr übernachtet im Gasthaus Zum Krummen Stab. Die Wirtin gibt euch eine Kammer unter dem Dach und zwei Schüsseln Hammeleintopf, die so dick ist, dass der Löffel darin stehen bleibt.
+Ihr übernachtet im Gasthaus Zum Krummen Stab. Die Wirtin gibt euch eine Kammer unter dem Dach und zwei Schüsseln Hammeleintopf, der so dick ist, dass der Löffel darin stehen bleibt.
 ~ rasten()
 
 Später in der Nacht sitzt ihr am offenen Fenster. Im Süden, an den dunklen Hängen unter den Bergen, glimmen drei kleine Feuer.
@@ -98,7 +98,7 @@ Und noch etwas fällt dir auf. Es ist still. Nicht die gute Stille einer Sommern
 
 „Ich weiß es nicht. Ich hab mich nicht getraut zu fragen.“ {freund()} sieht nach Süden, zu den Feuern. „Was, wenn die Gnolle gar nicht das Schlimmste sind? Was, wenn sie wegrennen? Vor dem, wovor meine Mutter Angst hat?“
 { register_geheimnis || kugeln_auf_wagen || kugeln_verstanden:
-    Du denkst an die Glaskugeln. An die Funken, die die Waage jeden Neumond einsammeln will. Vielleicht ist es nicht nur Gier. Vielleicht ist es Angst. Das macht es nicht besser. Aber anders.
+    Du denkst an die Glaskugeln.{register_geheimnis: An die Funken, die die Waage jeden Neumond einsammeln will.} Vielleicht ist es nicht nur Gier. Vielleicht ist es Angst. Das macht es nicht besser. Aber anders.
 }
 * [{freund()} in den Arm nehmen]
     ~ aendern(beziehung_freund, 1)
@@ -168,5 +168,5 @@ Ein kleiner runder Knopf aus Gold.
 
 „Pass auf dich auf“, ruft {freund()}. „Und find heraus, wovor sie wegrennen!“
 
-Dann reiten die beiden Söldner mit {fr_ihm()} davon, eine Staubwolke auf der Spaltstraße, Richtung Lysmara. Strell sieht ihnen nach. Dann sieht er dich an und geht zurück in sein Zelt.
+Dann reiten die beiden Söldner mit {fr_ihm()} davon, eine Staubwolke auf der Spaltstraße, Richtung Lysmara. Strell blickt ihnen nach. Dann mustert er dich kurz und geht zurück in sein Zelt.
 ->->

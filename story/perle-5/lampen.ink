@@ -25,8 +25,8 @@ Neben dir steht ein Koboldkind, kaum größer als dein Knie, mit einem Helm, der
     „Oben gibt es einen See“, sagst du, „der ist so groß, dass man das andere Ufer nicht sieht. Und er ist nie still. Er rauscht und schäumt und wirft Wellen, höher als ein Haus.“
     Pip sieht auf den schwarzen, spiegelglatten See vor sich. Dann wieder zu dir. „Das glaube ich dir nicht“, sagt Pip. „Aber erzähl weiter.“
 * [Pip versprechen, den Onkel zurückzubringen]
-    „Ich gehe morgen runter“, sagst du. „Ich bringe deinen Onkel zurück.“
-    Pip sieht dich lange an. Dann nickt Pip ernst, so wie Erwachsene nicken, wenn sie einen Vertrag unterschreiben. „Gut“, sagt Pip. „Dann zünde ich morgen eine achte Lampe an. Für dich.“
+    „Ich gehe bald runter“, sagst du. „Ich bringe deinen Onkel zurück.“
+    Pip sieht dich lange an. Dann nickt Pip ernst, so wie Erwachsene nicken, wenn sie einen Vertrag unterschreiben. „Gut“, sagt Pip. „Dann zünde ich eine achte Lampe an. Für dich.“
 -
 Das Summen am Ufer wird leiser und hört auf. Die sieben Lampen bleiben brennen, die ganze Nacht.
 ->->

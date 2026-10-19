@@ -44,7 +44,9 @@ Ashka starrt ins Feuer.
 
 „Die Gnolle nennen es Hrrsh. Das Schweigen. Es nimmt den Dingen die Stimme. Und wer darin schläft, steht auf und geht. Hinein. Mit offenen Augen.“ Sie schweigt. „Unsere Alten sind gegangen. Meine Schwester ist gegangen. Die Dörfer der Menschen an der Straße: alle gegangen.“
 
-Du denkst an Grumak. An die leeren Dörfer. Die Türen offen, das Essen auf dem Tisch.
+{ grumak_gewarnt:
+    Du denkst an die offenen Türen, von denen Grumak erzählt hat. Jetzt weißt du, wohin die Leute gegangen sind.
+}
 
 „Und jetzt ist es auch hier“, sagt Ashka. „Es ist uns gefolgt. Über die Berge. Oder …“ Ihre Ohren legen sich flach an den Kopf.
 
@@ -52,7 +54,7 @@ Du denkst an Grumak. An die leeren Dörfer. Die Türen offen, das Essen auf dem 
 
 „Bevor das Graue kam“, sagt Ashka langsam, „hat der Berg gebrummt. Tief unten. Wie ein Bienenstock.“ Sie sieht zu den Gipfeln hinauf, schwarz vor dem Abendhimmel. „Ich glaube, das Graue kommt nicht über die Berge. Ich glaube, es kommt aus ihnen.“
 { berg_brummt:
-    Der Berg brummt. Das haben die Kobolde gesagt. Das hat Borrik gesagt. Dir läuft ein Schauer über den Rücken.
+    Der Berg brummt. Das hast du schon einmal gehört. Dir läuft ein Schauer über den Rücken.
 }
 { ausloeser == "verschwunden" && bp_nachricht:
     Und {bp()} ist in die Tiefe Stiege gegangen. Unter den Berg. Allein.
@@ -105,7 +107,7 @@ Ashka denkt lange nach. Dann nickt sie. „Hol sie.“
 
 Du rennst. Den ganzen Weg nach Wollmark, als die Sonne untergeht. Merla steht am Pferch und zählt Schafe.
 { schafe_gefunden:
-    Und zum ersten Mal seit einem Monat kommen ihre Zahlen auf. Die Schafe vom grauen Rand sind von selbst heimgelaufen.
+    Und zum ersten Mal seit einem Monat stimmt ihre Zählung wieder. Die Schafe vom grauen Rand sind von selbst heimgelaufen.
 }
 Du erzählst ihr alles. Vom Grauen, von Wuk, von Ashka.{ruf_hirten > 0: Merla kennt dich inzwischen. Das hilft.}
 ~ temp e = probe(ausstrahlung + MAX(0, MIN(ruf_hirten, 2)))
@@ -118,15 +120,15 @@ Du erzählst ihr alles. Vom Grauen, von Wuk, von Ashka.{ruf_hirten > 0: Merla ke
     ~ gnolle_vermittelt = true
     ~ aendern(ruf_hirten, 1)
     ~ aendern(ruf_gnolle, 1)
-    Merla hört zu, ohne dich zu unterbrechen. Dann nimmt sie ihren Stab und ruft drei ihrer Hirten. „Wenn das gelogen ist“, sagt sie, „dann kriegst du den Stab zu spüren. Wenn nicht …“ Sie zögert. „Dann haben wir ein größeres Problem als Gnolle.“
+    Merla hört zu, ohne dich zu unterbrechen. Dann nimmt sie ihren Stab und ruft drei ihrer Hirten. „Wenn das gelogen ist“, sagt sie, „dann jag ich dich mit dem Stab vom Hof. Wenn nicht …“ Sie zögert. „Dann haben wir ein größeres Problem als Gnolle.“
     Im letzten Licht sitzen sie sich in der Schlucht gegenüber: Merla mit ihrem Stab, Ashka mit ihrem. Zwei alte Frauen, die beide ihre Herde verloren haben. Es dauert lange. Am Ende reichen sie sich die Hand. Die Hand und die Pfote.
     „Gnolle riechen das Graue“, sagt Ashka. „Wir warnen eure Schafe.“
     „Und wir geben euch Brot“, sagt Merla. „Und schweigen, wenn der Hauptmann fragt.“
 - JA_ABER:
     ~ gnolle_vermittelt = true
     ~ aendern(ruf_gnolle, 1)
-    Merla glaubt dir nicht. Nicht ganz. Aber sie kommt mit, allein, mit ihrem Stab. In der Schlucht sieht sie die Gnollenkinder, mager und müde, und ihr Gesicht verändert sich.
-    „Ich verspreche nichts“, sagt sie zu Ashka. „Aber ich sage dem Hauptmann heute nichts. Heute nicht.“
+    Merla glaubt dir nicht. Nicht ganz. Aber sie kommt mit, mit zwei Hirten und ihrem Stab. In der Schlucht sieht sie die Gnollenkinder, mager und müde, und ihr Gesicht verändert sich.
+    „Ich verspreche nichts“, sagt sie zu Ashka. Dann reicht sie ihr doch die Hand. Kurz.
 - else:
     ~ gnolle_geholfen = true
     Merla schüttelt den Kopf. „Gnolle“, sagt sie. „Du warst zu lange in der Sonne, Kind.“ Sie geht ins Haus.

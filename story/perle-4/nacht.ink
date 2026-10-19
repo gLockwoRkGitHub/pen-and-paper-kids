@@ -10,12 +10,12 @@
     Du kannst nicht schlafen. Strells Patrouille lagert am Hang unter der Schlucht. In einem Pferch aus Seilen und Pfählen sitzen die Gnolle, die sie gefangen haben, eng aneinandergedrängt. Ashka sitzt ganz vorn. Wuk liegt in ihrem Arm. Keiner von beiden sieht dich an.
     Die Söldner schlafen um ein Feuer. Strell sitzt wach daneben und schärft nichts, liest nichts, tut nichts. Er schaut nur in die Flammen.
 - gnolle_vermittelt:
-    In der Schlucht brennen zwei Feuer: eines der Gnolle, eines der Hirten. Merla und Ashka sitzen dazwischen und reden leise. Hirtenkinder und Gnollenjunge sind zusammen eingeschlafen, auf einem Haufen, wie junge Hunde.
+    In der Schlucht brennen zwei Feuer: eines der Gnolle, eines der Hirten. Merla und Ashka sitzen dazwischen und reden leise. Hirten und Gnollenjunge schlafen am selben Feuer, die Jungen auf einem Haufen, wie junge Hunde.
 - else:
     In Jorrits Versteck unter dem Wolfspfad, einer alten Schäferhütte aus Feldsteinen, schlafen die Gnolle dicht an dicht. Jorrit raucht vor der Tür. Wuk hat sich an dich gekuschelt und schnarcht leise.
 }
 
-Mitten in der Nacht wachst du auf, weil etwas fehlt.
+{gnolle_verraten:Irgendwann nickst du doch ein. }Mitten in der Nacht wachst du auf, weil etwas fehlt.
 
 Das Feuer brennt noch. Aber es knistert nicht mehr. Der Bach fließt noch. Aber er rauscht nicht mehr. Der Wind, der eben noch über den Hang gestrichen ist, steht still. Und vom Berg herunter kriecht etwas auf euch zu. Man sieht es nicht selbst, man sieht nur, was es tut: Es wäscht die Farbe aus der Welt. Wo es hinkommt, wird das Gras grau.
 
@@ -83,7 +83,7 @@ Nicht leise, nicht bittend, nicht einladend. Du schreist. Mit allem, was in dir 
     Das Feuer antwortet. Alle erloschenen Feuer am Hang flammen gleichzeitig wieder auf, höher als vorher, und aus jeder Flamme springen Funken, Tausende, ein Schwarm aus Licht, der dem Grauen entgegenfliegt. Wo die Funken hinfallen, knistert das Gras wieder. Und das Graue weicht zurück.
 - else:
     # bild: szene/ruf-wind
-    Der Wind antwortet. Von den Gipfeln herab stürzt ein Sturm, kalt und laut und wild, er heult mit den Gnollen um die Wette, er reißt an deinen Haaren und an deinem Mantel und fegt über den Hang. Er bläst das Graue vor sich her wie Rauch. Und das Graue weicht zurück.
+    Der Wind antwortet. Ein Sturm stürzt von den Gipfeln, kalt und laut und wild. Er heult mit den Gnollen um die Wette und reißt an deiner Jacke. Wo er über den Hang fegt, kehrt die Farbe ins Gras zurück. Und das Graue weicht zurück.
 }
 ~ schweigen_zurueck = true
 ~ kraftfunken = 0
@@ -93,12 +93,12 @@ Nicht leise, nicht bittend, nicht einladend. Du schreist. Mit allem, was in dir 
 { e:
 - ERFOLG:
     Es weicht zurück bis an den Fuß der Berge, dorthin, woher es gekommen ist. Die Schlafwandler bleiben stehen, blinzeln, sehen sich verwirrt um.
-    Wuk steht drei Schritte vor der grauen Grenze. Er dreht sich um, sieht dich, und rennt dir in die Arme.
+    Wuk steht drei Schritte vor der grauen Grenze. Er dreht sich um, sieht dich und rennt dir in die Arme.
     -> wer_gerettet(true)
 - JA_ABER:
     Es weicht zurück. Langsam, widerwillig, Schritt für Schritt. Die Schlafwandler bleiben stehen, blinzeln.
-    Aber nicht alle rechtzeitig. Drei von Jorrits Ziegen und ein paar Schafe sind schon zu weit gelaufen. Als das Graue sich zurückzieht, nimmt es sie mit. Sie werden grau, dann blasser und blasser, bis man sie nicht mehr vom Hang unterscheiden kann. Sie tauchen nicht wieder auf.
-    Wuk steht zwei Schritte vor der grauen Grenze. Er dreht sich um, sieht dich, und rennt dir in die Arme.
+    Aber nicht alle rechtzeitig. {gnolle_verraten || gnolle_vermittelt:Ein paar Schafe|Drei von Jorrits Ziegen und ein paar Schafe} sind schon zu weit gelaufen. Als das Graue sich zurückzieht, nimmt es sie mit. Sie werden grau, dann blasser und blasser, bis man sie nicht mehr vom Hang unterscheiden kann. Sie tauchen nicht wieder auf.
+    Wuk steht zwei Schritte vor der grauen Grenze. Er dreht sich um, sieht dich und rennt dir in die Arme.
     -> wer_gerettet(true)
 - else:
     Es weicht zurück. Du spürst es weichen, Stück für Stück, und du hältst den Ruf, so lange du kannst. Länger, als du kannst.
@@ -129,7 +129,7 @@ Und tief in dir glüht etwas, das vorher nicht da war. Größer als ein Funke. W
 { gnolle_verraten:
     Als du aufwachst, liegst du auf einer Decke in Strells Zelt. Die Sonne scheint durch den Eingang. Ein Söldner reicht dir einen Becher Wasser, ohne etwas zu sagen. Draußen hörst du, wie jemand sagt: „Das Kind hat gerufen. Und das Graue ist zurückgekrochen. Wegen dem Kind.“
 - else:
-    Als du aufwachst, liegst du auf einer Decke in Jorrits Hütte. Die Sonne scheint durch die Tür. Wuk schläft auf deinen Füßen.
+    Als du aufwachst, liegst du auf einer Decke {gnolle_vermittelt:am Feuer in der Schlucht. Die Sonne scheint dir ins Gesicht.|in Jorrits Hütte. Die Sonne scheint durch die Tür.} Wuk schläft auf deinen Füßen.
     „Du warst weg“, sagt Jorrit. „Die ganze Nacht. Aber du hast geatmet.“ Er reicht dir eine Schale mit Ziegenmilch. „Das Graue ist zurück an den Berg gekrochen. Wegen dir.“
 }
 
@@ -141,7 +141,7 @@ Tief in dir glüht etwas, das vorher nicht da war. Größer als ein Funke. Wie e
 # bild: szene/morgen-danach
 Am Morgen siehst du es von oben: Das Graue ist geschrumpft. Es liegt jetzt nur noch als schmaler Streifen am Fuß der Berge, wie Asche am Rand eines erloschenen Feuers. Aber es ist noch da.
 ~ rasten()
-Als du nach {element_dativ(element)} greifst, ist es sofort da. Näher als je zuvor. Stärker. Du spürst, dass du jetzt mehr rufen kannst als früher, öfter, weiter.
+Als du nach {element_dativ(element)} greifst, antwortet {element_artikel(element)} sofort. Näher als je zuvor. Stärker. Du spürst, dass du jetzt mehr rufen kannst als früher, öfter, weiter.
 # tutorial: elementstufe
 (Deine Elementstufe ist auf zwei gestiegen. Du hast jetzt {zahl(kraftfunken)} Kraftfunken.)
 {
@@ -195,7 +195,7 @@ Ashka hat sich nicht von dir verabschiedet. Aber als die Gnolle in der Nacht dav
     Jorrit begleitet dich bis zum Rand seiner Weide. „Wenn du hinauswillst“, sagt er, „gibt es den Wolfspfad. Ich bring dich hoch, wenn es so weit ist.“ Er kaut auf seiner Pfeife. „Aber wenn du wissen willst, woher das Graue kommt, frag nicht mich. Frag die Kobolde. Die graben da, wo es brummt.“
 }
 { kompass:
-    Du klappst Tickworts Kompass auf. Die Nadel zittert. Dann zeigt sie nach Nordosten. Dorthin, wo der Orin aus den Bergen kommt. Zu den Minen.
+    Du klappst Tickworts Kompass auf. {ausloeser == "verschwunden":Die Nadel zittert. Dann zeigt sie nach Nordosten. Dorthin, wo der Orin aus den Bergen kommt. Zu den Minen.|Die Nadel zeigt nach Westen, nach Lysmara. Nach Hause. Du klappst ihn zu. Noch nicht.}
 }
 { ausloeser == "verschwunden":
     Zu den Minen. Zur Tiefen Stiege. Dorthin, wo {bp()} ist.
@@ -218,7 +218,7 @@ Du zeichnest die Weiden, die Steinmauern, die Schafe. Ein krummes Haus mit fünf
 
 Darunter schreibst du: # handschrift
 
-„Heute habe ich das Schweigen gesehen.
+„Ich habe das Schweigen gesehen.
 Es nimmt den Elementen die Stimme. Wer darin schläft, geht fort.
 { wuk_gerettet:
     Ich bin hineingegangen und habe Wuk herausgeholt.
