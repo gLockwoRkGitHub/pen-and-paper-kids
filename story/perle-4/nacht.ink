@@ -17,7 +17,7 @@
 
 Mitten in der Nacht wachst du auf, weil etwas fehlt.
 
-Das Feuer brennt noch. Aber es knistert nicht mehr. Der Bach fließt noch. Aber er rauscht nicht mehr. Der Wind, der eben noch über den Hang gestrichen ist, steht still. Und vom Berg herunter kriecht etwas auf euch zu, langsam wie Nebel, aber ohne Farbe. Wo es hinkommt, wird das Gras grau.
+Das Feuer brennt noch. Aber es knistert nicht mehr. Der Bach fließt noch. Aber er rauscht nicht mehr. Der Wind, der eben noch über den Hang gestrichen ist, steht still. Und vom Berg herunter kriecht etwas auf euch zu. Man sieht es nicht selbst, man sieht nur, was es tut: Es wäscht die Farbe aus der Welt. Wo es hinkommt, wird das Gras grau.
 
 Das Schweigen.
 
@@ -97,7 +97,7 @@ Nicht leise, nicht bittend, nicht einladend. Du schreist. Mit allem, was in dir 
     -> wer_gerettet(true)
 - JA_ABER:
     Es weicht zurück. Langsam, widerwillig, Schritt für Schritt. Die Schlafwandler bleiben stehen, blinzeln.
-    Aber nicht alle rechtzeitig. Drei von Jorrits Ziegen und ein paar Schafe sind schon zu weit gelaufen. Als das Graue sich zurückzieht, nimmt es sie mit. Sie verschwinden darin wie in einem Nebel und tauchen nicht wieder auf.
+    Aber nicht alle rechtzeitig. Drei von Jorrits Ziegen und ein paar Schafe sind schon zu weit gelaufen. Als das Graue sich zurückzieht, nimmt es sie mit. Sie werden grau, dann blasser und blasser, bis man sie nicht mehr vom Hang unterscheiden kann. Sie tauchen nicht wieder auf.
     Wuk steht zwei Schritte vor der grauen Grenze. Er dreht sich um, sieht dich, und rennt dir in die Arme.
     -> wer_gerettet(true)
 - else:
