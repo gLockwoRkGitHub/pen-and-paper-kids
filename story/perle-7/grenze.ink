@@ -217,11 +217,34 @@ Du spürst, wie dir kalt wird. Nicht vom Fluss.
 
 Ithren steht auf. „Ich gehe morgen nach Osten“, sagt er. „Du kannst mitkommen. Oder du gehst nach Hause, zu den Menschen, die auf dich warten. Beides ist richtig. Das ist das Schwierige daran.“
 
-Er geht den Steg entlang, an dir vorbei, in die Fackeln, in die Dunkelheit, in den Lärm der Stadt. Als du dich umdrehst, ist er fort.
+Er geht nicht. Er wartet. Der Fluss gluckst unter den Brettern, und die Trommel schlägt, und Ithren steht einfach da und sieht dich an, als hätte er alle Zeit der Welt.
+
+Du denkst an {bp()}. An dein Zuhause. An die leeren Dörfer hinter den Bergen und an ein Herz, das schon still ist.
+
+* [„Ich komme mit.“]
+    ~ ithren_weg = "mit"
+    Ithren sagt nichts. Er nickt nur, einmal, langsam, als hätte er eine schwere Kiste abgestellt, die er lange getragen hat.
+    „Bei Sonnenaufgang“, sagt er. „Am Osttor. Iss vorher etwas. Der Weg ist lang, und unterwegs kocht niemand für dich.“
+    { freund_kommt_mit:
+        {freund()} steht auf. „Dann ich auch“, sagt {fr_er()}. Es ist keine Frage.
+    }
+* [„Ich gehe nach Hause.“]
+    ~ ithren_weg = "heim"
+    Ithren nickt. Er sieht nicht enttäuscht aus. Eher so, als hätte er genau das erwartet und sich trotzdem gefragt.
+    „Nach Hause zu gehen ist kein kleinerer Mut“, sagt er. „Es ist nur ein anderer. Dort wird man auch gebraucht.“ Er tippt mit dem Stab auf deine Tasche, genau dort, wo dein Tagebuch steckt. „Wenn das Herz ruft, finde ich dich. Und dann weißt du mehr als heute.“
+    { freund_kommt_mit:
+        {freund()} lehnt sich an deine Schulter. „Zusammen hin, zusammen zurück“, sagt {fr_er()} leise. „So war es abgemacht.“
+    }
+-
+Dann geht Ithren den Steg entlang, an dir vorbei, in die Fackeln, in die Dunkelheit, in den Lärm der Stadt. Als du dich umdrehst, ist er fort.
 
 Nur auf den nassen Brettern, wo er gesessen hat, ist ein Zeichen. Mit dem Stab ins Holz gedrückt. Vier verschlungene Ringe.
 
-Und daneben, ganz frisch: ein Pfeil. Nach Osten.
+{ ithren_weg == "mit":
+    Und daneben, ganz frisch: eine halbe Sonne, die über einem Strich aufgeht. Bei Sonnenaufgang.
+- else:
+    Und daneben, ganz frisch: ein Pfeil. Nach Osten. Für später.
+}
 ->->
 
 
@@ -278,10 +301,17 @@ Darunter schreibst du: # handschrift
 }
 Hinter den Bergen sind die Dörfer leer. Die Städte, die noch stehen, sind laut. Das Schweigen kommt aus den Bergen. Aus Herzen aus Kristall. Und es gibt mehr als eins.
 Der Fremde heißt Ithren.
-Morgen geht er nach Osten.
-Der Kompass zeigt nach Westen. Nach Hause.
-Ich weiß noch nicht, wohin ich gehe.
-Aber ich weiß jetzt, dass ich es kann.“ # tagebuch_ende
+{ ithren_weg == "mit":
+    Morgen gehe ich mit ihm nach Osten.{freund_kommt_mit: {freund()} auch.}
+    Der Kompass zeigt nach Westen. Nach Hause. Ich habe ihn zugeklappt. Vorher schreibe ich {bp()} einen Brief, damit {bp_er()} weiß: Ich komme wieder. Aber erst will ich sehen, was hinter den Bergen ist.
+- else:
+    Morgen geht er allein nach Osten. Ich gehe nach Westen, dorthin, wo der Kompass zeigt. Nach Hause.{freund_kommt_mit: {freund()} kommt mit.}
+    Wenn das Herz ruft, findet Ithren mich. Dann bin ich bereit.
+}
+{ pip_himmel:
+    Ich muss Pip schreiben, wie der Himmel hier draußen aussieht.
+}
+Ich weiß jetzt, dass ich es kann.“ # tagebuch_ende
 
 {
 - kraftfunken == 0: Du spürst keinen Funken mehr in dir. Nach einer Rast kommen sie wieder.

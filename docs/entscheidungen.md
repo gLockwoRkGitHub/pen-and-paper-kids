@@ -180,5 +180,13 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
   - **Playwright** für automatische Tests mit Bildschirmfotos in Tablet- und Handygröße.
 - **Wo er läuft:** ~~in der Testphase nur im Heim-WLAN~~ – **geändert 19.10.2026 (Pasco):** **Cloudflare Pages** (kostenlos), geschützt durch **Cloudflare Access** (Anmeldung per E-Mail-Code, nur eingetragene Adressen; die Bilder bleiben privat). GitHub baut und veröffentlicht jede Nacht bzw. auf Knopfdruck (`.github/workflows/veroeffentlichen.yml`). Einrichtung: `docs/anleitung-cloudflare.md`. Am Heimnetz wird nichts verändert.
 
+### Ende des ersten Abenteuers und Lektorats-Vorschläge (19.10.2026, Pasco)
+- **Ithrens Wahl ist eine echte Wahl:** Am Steg entscheidet die Spielfigur „Ich komme mit“ oder „Ich gehe nach Hause“ (`ithren_weg` = "mit" / "heim"). Die Wahl **prägt den Anfang von Abenteuer 2**: „mit“ beginnt unterwegs mit Ithren im Osten, „heim“ beginnt zu Hause, Ithren meldet sich später („Wenn das Herz ruft, finde ich dich“). Danach läuft dieselbe Geschichte weiter.
+- **Liora/Cassian folgt der Wahl der Spielfigur**, wenn sie/er mit hinausgekommen ist.
+- **Feuer-Rufer, die mit Yrsa heimfahren,** bekommen einen eigenen Abschied in der Großen Schmiede (Yrsa schmilzt die Kugelkörbe ein).
+- **Gesuchte Spielfiguren** (Waage nicht gestürzt) geraten an der Orinbrücke in eine kurze Kontrolle mit Probe; Misserfolg kostet Zeit, nie Gefangenschaft.
+- **Pip:** ein Satz im letzten Tagebucheintrag, wenn man ihr vom Himmel erzählt hat.
+- **Nicht umgesetzt:** Strell auf den Wegen „Tiefe“ und „Meer“ (er gehört an Straßen und Tore der Waage); eigene Tagebuch-Erinnerung „Brina“ (steht schon unter „Menschen“).
+
 ## Offen
 - Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).

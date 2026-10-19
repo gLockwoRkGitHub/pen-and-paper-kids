@@ -43,7 +43,9 @@ Das Tagebuch steht dem Spieler nicht von Beginn an zur Verfügung. Es wird in de
 - **Entwurf des ganzen Tagebuchs:** `docs/tagebuch.md` (14.10.2026).
 - **Entschieden 13.10.2026:** Zeitpunkt bleibt wie er ist. Die Erklärung der Bereiche wird umgesetzt, aber erst nach der Ausarbeitung des Tagebuchs (siehe `entscheidungen.md`, `stand.md` Punkt 4b).
 
-## Vorschläge aus dem Lektorat (Claude, 19.10.2026) – zur Entscheidung durch Pasco
+## Vorschläge aus dem Lektorat (Claude, 19.10.2026)
+**Am 19.10.2026 von Pasco entschieden** – Ergebnis in `docs/entscheidungen.md` („Ende des ersten Abenteuers und Lektorats-Vorschläge“). Umgesetzt: 1, 2, 3, 5. Abgelehnt: 4, 6. Der Abschnitt für den Technologie-Chat gilt weiter.
+
 Alles hier ist **Vorschlag**, nicht umgesetzt, weil es eine neue Szene oder einen anderen Ablauf des Finales bräuchte.
 
 1. **Ithren: „mitkommen oder heimkehren“ als echte Wahl.** Laut Entwurf darf die Spielfigur am Ende wählen; im Spiel sagt Ithren den Satz nur, und das Kapitel endet. Vorschlag: zwei Wahlen am Steg (z. B. `ithren_folgen = true/false`), danach je ein kurzer Ausklang und ein angepasster Schluss im Tagebuch („Ich weiß noch nicht, wohin ich gehe“ passt dann nicht mehr). Das ändert das Ende des ersten Abenteuers und ist die Brücke ins zweite – deshalb erst mit Pasco klären.
@@ -59,6 +61,7 @@ Alles hier ist **Vorschlag**, nicht umgesetzt, weil es eine neue Szene oder eine
 6. **Zweiter Satz für Brina im Tagebuch und in „Menschen“.** Brinas drei Wahlen haben jetzt unterschiedliche Folgen in Perle 6/7. Ein eigener Eintrag „Brina“ als Erinnerung (Tag `# tagebuch:`) wäre ein neuer Tagebucheintrag – gehört zum Technologie-Chat.
 
 ### Für den Technologie-Chat (`story/tagebuch.ink`, vom Story-Chat nicht geändert)
+- **Neu (19.10.2026):** `ithren_weg` ("mit" / "heim") ist die Wahl am Ende des ersten Abenteuers. Der Spielstand muss sie für Abenteuer 2 behalten; der Endbildschirm (`# ende: erstes-abenteuer`) kann sie zeigen.
 - **Seil:** `tagebuch.ink:213` fragt `p7_erschoepft` ab („Es hat mich gehalten“). Neu gibt es `seil_gehalten` (gesetzt am Grat bei JA_ABER, im Schlund bei Misserfolg, am Kap bei Misserfolg). Vorschlag: dort `seil_gehalten` statt `p7_erschoepft` verwenden.
 - **Goldknopf aus Wollmark:** Wer den Knopf in Perle 4 von Liora/Cassian bekam (`freund_heimgeholt`), aber nicht im Zelt fand, bekommt in Perle 7 keinen zweiten mehr und hat `goldknopf_gefunden = false`. Taschen-Funktionen (`tasche_status("goldknopf")`, Text) sollten `goldknopf_gefunden || freund_heimgeholt` prüfen.
 - **Neue Variablen, die für Taschen/Menschen nützlich sein könnten:** `brina_wahl` ("brot", "spiegel", "schweigen"), `jaro_kugeln`, `grenzstein_wahl` (bei "kiesel" evtl. neue Tasche „Kiesel aus Meridel“), `lager_antwort`, `ithren_getragen`, `ziege_folgt` (Ziege als Begleiterin?).

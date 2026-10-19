@@ -217,6 +217,7 @@ VAR ruf_vardholm = 0              // großer Ruf: 2 Schweigen weit zurück, 1 zu
 // Perle 7 – Der Weg hinaus
 VAR p7_route = ""                 // "spalt", "gipfel", "tiefe", "meer"
 VAR p7_besuche = 0                // Abschiedsbesuche am letzten Abend in Lysmara
+VAR bruecke_kontrolle = ""        // Kontrolle der Waage an der Orinbrücke (nur wenn gesucht): "unbemerkt", "nachgesehen" (ein Söldner hat der Figur nachgesehen), "versteckt" (bis spät unter der Brücke – nur Zeit für einen Abschied)
 VAR fesk_auftrag = false          // Fesks Päckchen für das Silbermark-Kontor jenseits der Berge angenommen
 VAR herz_beruhigt = false         // den Herzsplitter zurück an das Herz gegeben
 VAR brief_uebergeben = false      // den Brief mit dem Ringsiegel jenseits der Berge übergeben
@@ -231,4 +232,5 @@ VAR seil_gehalten = false         // das Seil der Bezugsperson hat die Spielfigu
 VAR grenzstein_wahl = ""          // am Grenzstein: "gruss" (Auf Wiedersehen gesagt), "zeichnung", "kiesel" (Kiesel aus Meridel mitgenommen)
 VAR lager_antwort = ""            // Antwort im Nachtlager auf „Hast du manchmal Angst?“: "angst", "mut", "holz" (Holz nachgelegt, geschwiegen)
 VAR ithren_getragen = false       // Ithren hat die Spielfigur im Nyrrspalt aus dem Grauen getragen
+VAR ithren_weg = ""              // Wahl am Ende des ersten Abenteuers: "mit" (mit Ithren nach Osten) oder "heim" – bestimmt den Anfang von Abenteuer 2 (Pasco, 19.10.2026)
 
