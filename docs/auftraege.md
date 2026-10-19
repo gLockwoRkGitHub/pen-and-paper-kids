@@ -27,7 +27,7 @@ Je Perle erst Figuren, Requisiten und Ortsbilder, dann die Szenen (sie brauchen 
 
 ## Browser-Player: erster Start im Heim-WLAN (Auftrag vom 19.10.2026)
 
-Der Player (Ausbaustufe 1) liegt in `player/`. Anleitung: `player/README.md`. Nichts davon braucht die GPU.
+Der Player (Ausbaustufe 1) liegt in `player/`. Technik: `player/README.md`. **Anleitung für Pasco (PC im LAN, iPad im WLAN): `docs/anleitung-tablet.md`** – bei Rückfragen auf diese Anleitung verweisen und Schritt für Schritt helfen. Nichts davon braucht die GPU.
 
 - [ ] **P1 Starten:** `git pull`, `npm install`, dann `npm run spielen` (oder Doppelklick auf `spielen.cmd`). Beim ersten Mal wandelt `tools/baue-bilder.js` alle Bilder in WebP um (etwa eine Minute). Fragt Windows nach der Firewall: **Private Netzwerke** erlauben. Die Adresse „Auf dem Tablet“ an Pasco melden.
 - [ ] **P2 Prüfen:** `npm run player:pruefen` ausführen (Typprüfung + Durchlauf im Browser, Fotos in `test-results/player/`). Falls Playwright unter Windows kein Chromium findet: `npx playwright install chromium`. Ergebnis kurz in diesem Abschnitt notieren; die Fotos **nicht** committen.

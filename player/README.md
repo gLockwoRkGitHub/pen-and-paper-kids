@@ -6,6 +6,8 @@ Was der Player aus der Story liest, regelt `docs/story-konventionen.md`.
 
 ## Starten
 
+**Schritt-für-Schritt-Anleitung für das iPad zu Hause:** `docs/anleitung-tablet.md`.
+
 | Wo | Befehl | Wofür |
 |---|---|---|
 | Pascos PC, Heim-WLAN | Doppelklick auf `spielen.cmd` (oder `npm run spielen`) | Baut alles und startet den Server. Die Adresse „Auf dem Tablet“ im Browser des Tablets öffnen. Fenster offen lassen. |

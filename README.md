@@ -14,7 +14,7 @@ Ein storygetriebenes Pen-&-Paper-Abenteuer für Kinder ab 10 Jahren – zum Lese
 ## Stand
 
 Konzeptphase. Die erste Version ist ein Beta-Spiel für den eigenen Sohn; wenn es ankommt, wird es veröffentlicht.
-Es wird eine für Tablets und Handys optimierte Webseite (Browser-Player in `player/`, Start im Heim-WLAN mit `spielen.cmd`).
+Es wird eine für Tablets und Handys optimierte Webseite (Browser-Player in `player/`, Start im Heim-WLAN mit `spielen.cmd`, Anleitung: `docs/anleitung-tablet.md`).
 
 ## Aufbau des Repos
 
