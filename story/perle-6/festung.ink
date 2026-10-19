@@ -95,14 +95,14 @@ Du stehst lange vor dem Modell. Dann schleichst du zurück in den Hof und liegst
 # bild: entdeckung/vorfuehrung-{freund_kurz()}
 Am Abend des nächsten Tages ist der Hof von Vardholm voller Fackeln.
 
-Auf einer Tribüne vor dem Turm sitzen die Mächtigen von Lysmara. Ratsherren mit Pelzkragen. Kettrich mit seiner Dreifachbrille. Meister Orwin, der wie immer etwas zeichnet. Meisterin Ambra, die aussieht, als hätte sie den Zirkel nur widerwillig verlassen. Hauptmann Strell steht an der Treppe, die Hände hinter dem Rücken.
+Auf einer Tribüne vor dem Turm sitzen die Mächtigen von Lysmara. Ratsherren mit Pelzkragen. Kettrich mit seiner Dreifachbrille. Meister Orwin, der wie immer etwas zeichnet. {p3_phiole:Meisterin Ambra, die aussieht|Eine Frau mit kurzem weißem Haar und ohne Augenbrauen, Meisterin Ambra von der Glühenden Phiole, die aussieht}, als hätte sie den Zirkel nur widerwillig verlassen. Hauptmann Strell steht an der Treppe, die Hände hinter dem Rücken.
 
 Vor der Tribüne, in langen Reihen, stehen die Eingeschriebenen. Vor jedem von ihnen ragt eine Bronzeplatte aus dem Boden, und von jeder Platte führt ein dünnes Rohr zum Turm.
 { magie_registriert == "waage":
     Auch vor dir. Ein Söldner schiebt dich an deinen Platz.
 }
 
-Dann steigt eine große Frau in Schwarz auf die Tribüne. Die goldene Kette mit der kleinen Waage glänzt im Fackellicht. Neben ihr der Mann mit den grauen Schläfen. Und hinter ihnen, in einer dunkelgrünen Samtjacke mit Goldknöpfen, an der einer fehlt: {freund()}.
+Dann steigt eine große Frau in Schwarz auf die Tribüne. Die goldene Kette mit der kleinen Waage glänzt im Fackellicht. Neben ihr der Mann mit den grauen Schläfen. Und hinter ihnen, in einer dunkelgrünen Samtjacke mit Goldknöpfen, an der {freund_heimgeholt:zwei fehlen|einer fehlt}: {freund()}.
 
 „Freunde“, sagt Seraphine Arvelle, und ihre sanfte Stimme trägt über den ganzen Hof. „Etwas kommt über die Berge. Die Dörfer jenseits des Kamms sind leer. Die Gnolle fliehen. Und wir werden nicht warten, bis es an unsere Türen klopft.“
 
@@ -134,7 +134,7 @@ Der Spiegel auf dem Turm beginnt zu leuchten. Er dreht sich, langsam, und dann b
 
 Die Ratsherren springen auf und klatschen. Kettrich nimmt die Brille ab. Ambra murmelt etwas, das wie ein Fluch klingt.
 
-Und in den Reihen der Eingeschriebenen sinken Menschen auf die Knie. Brina kippt zur Seite. {talin_hilft:Talin fängt sie auf, bevor sie auf das Pflaster schlägt. Er selbst ist grau im Gesicht.|Du springst hin und fängst sie auf, bevor sie auf das Pflaster schlägt. Sie ist so leicht. Ein Söldner sieht zu dir herüber, dann wieder weg.}
+Und in den Reihen der Eingeschriebenen sinken Menschen auf die Knie. Brina kippt zur Seite. {talin_hilft:Talin fängt sie auf, bevor sie auf das Pflaster schlägt. Er selbst ist grau im Gesicht.|{magie_registriert == "waage":Du kriechst zu ihr, so schnell deine zitternden Beine es zulassen, und fängst ihren Kopf auf, bevor er auf das Pflaster schlägt.|Du springst hin und fängst sie auf, bevor sie auf das Pflaster schlägt.} Sie ist so leicht. Ein Söldner sieht zu dir herüber, dann wieder weg.}
 
 Die Kuppel hält vier Atemzüge lang. Dann verblasst sie.
 
@@ -153,9 +153,12 @@ Später, als die Mächtigen zum Festmahl in die große Halle gehen, zieht dich j
 * [„Du hast mich die ganze Zeit angelogen.“]
     ~ aendern(beziehung_freund, -1)
     {freund()} zuckt zusammen, als hättest du {fr_ihn()} geschlagen. „Ja“, sagt {fr_er()} leise. „Hab ich.“ {Fr_er()} wischt sich über die Augen. „Nicht über alles. Nicht darüber, dass ich dich gern hab. Nur über das.“
-* [„Ich hab es mir gedacht. Seit dem Goldknopf.“]
+* {goldknopf_gefunden || freund_heimgeholt} [„Ich hab es mir gedacht. Seit dem Goldknopf.“]
     ~ aendern(beziehung_freund, 1)
     {freund()} lacht, halb erstickt. „Natürlich hast du das“, sagt {fr_er()}. „Du hast gute Augen. Hat dir mal jemand gesagt, oder?“
+* {not (goldknopf_gefunden || freund_heimgeholt)} [„Ich hab gespürt, dass du etwas verschweigst.“]
+    ~ aendern(beziehung_freund, 1)
+    {freund()} lacht, halb erstickt. „Natürlich hast du das“, sagt {fr_er()}. „Dir kann man nichts vormachen. Hat dir mal jemand gesagt, oder?“
 * [Nichts sagen. Einfach zuhören.]
     {freund()} redet. Von einem Haus mit hundert Zimmern, in denen nie jemand lacht. Von einer Mutter, die immer recht hat. Von einem Vater, der Zahlen mehr liebt als Menschen. „Und dann bist du aus dem Nichts gekommen“, sagt {fr_er()}, „und ich bin vom Baum gefallen. Und das war der beste Tag meines Lebens.“
 - -> wahrheit_berg
@@ -163,7 +166,7 @@ Später, als die Mächtigen zum Festmahl in die große Halle gehen, zieht dich j
 = wahrheit_berg
 Dann erzählst du {fr_ihm()} vom Berg.
 
-Vom Herz aus Kristall mit den vier Lichtern. Vom Riss. Vom Stollen, mit Spitzhacken gehauen, und den Kisten mit dem Kreidezeichen der Waage. Vom Grauen, das aus dem Riss sickert.
+Vom Herzen aus Kristall mit den vier Lichtern. Vom Riss. Vom Stollen, mit Spitzhacken gehauen, und den Kisten mit dem Kreidezeichen der Waage. Vom Grauen, das aus dem Riss sickert.
 { herzsplitter:
     Du holst den Splitter aus der Tasche und wickelst ihn aus dem Tuch. Er summt. In ihm kreisen vier winzige Lichter. {freund()} starrt darauf.
 }

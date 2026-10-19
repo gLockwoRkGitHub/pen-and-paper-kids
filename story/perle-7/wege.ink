@@ -65,11 +65,12 @@ Und da liegt es.
     -> durch_den_pass(e_spalt)
 
 = durch_den_pass(e)
+~ temp zu_zweit = freund_kommt_mit || strell_gerettet
 { e:
 - ERFOLG:
-    Ihr geht hinein, und ihr seid laut. {element == "erde":Die Felsen dröhnen mit.}{element == "wasser":Der Bach rauscht auf, als hätte er nur gewartet.}{element == "feuer":Funken tanzen über die Steine.}{element == "wind":Der Wind heult durch den Pass.} {tickwort_pfeife:Tickworts Pfeife klingt wie zehn Ziegen, genau wie versprochen.} Das Grau weicht vor euch zurück wie Wasser vor einem Stein, und ihr geht trocken hindurch.
+    {zu_zweit:Ihr geht hinein, und ihr seid laut.|Du gehst hinein, und du bist laut.} {element == "erde":Die Felsen dröhnen mit.}{element == "wasser":Der Bach rauscht auf, als hätte er nur gewartet.}{element == "feuer":Funken tanzen über die Steine.}{element == "wind":Der Wind heult durch den Pass.} {tickwort_pfeife:Tickworts Pfeife klingt wie zehn Ziegen, genau wie versprochen.} Das Graue weicht vor {zu_zweit:euch|dir} zurück wie Wasser vor einem Stein, und {zu_zweit:ihr geht|du gehst} trocken hindurch.
 - JA_ABER:
-    Ihr geht hinein. In der Mitte wird es plötzlich so still, dass du vergisst, warum du hier bist. Du bleibst stehen. Dein Kopf ist leer und grau.
+    {zu_zweit:Ihr geht|Du gehst} hinein. In der Mitte wird es plötzlich so still, dass du vergisst, warum du hier bist. Du bleibst stehen. Dein Kopf ist leer und grau.
     { freund_kommt_mit:
         Dann packt dich {freund()} an der Hand und zieht. „Weiter! Nicht stehen bleiben!“
     - else:
@@ -81,7 +82,7 @@ Und da liegt es.
     }
     Du läufst. Auf der anderen Seite rauscht der Bach wieder, und du atmest, als wärst du getaucht.
 - else:
-    Ihr geht hinein. Es ist zu viel Grau und zu wenig Lärm. Deine Stimme wird leiser, deine Schritte langsamer, und irgendwann setzt du dich einfach hin. Nur kurz. Nur einen Augenblick.
+    {zu_zweit:Ihr geht|Du gehst} hinein. Es ist zu viel Grau und zu wenig Lärm. Deine Stimme wird leiser, deine Schritte langsamer, und irgendwann setzt du dich einfach hin. Nur kurz. Nur einen Augenblick.
     ~ p7_erschoepft = true
     Als du aufwachst, liegst du im Gras, auf der anderen Seite des Passes. Die Sonne steht tief.
     { freund_kommt_mit:
@@ -90,6 +91,7 @@ Und da liegt es.
         { strell_gerettet:
             Strell sitzt neben dir. „Jetzt sind wir quitt“, sagt er. Dann, nach einer Weile: „Nein. Sind wir nicht. Aber fast.“
         - else:
+            ~ ithren_getragen = true
             Niemand ist da. Aber neben dir im Staub ist eine Spur: Stiefelabdrücke, voller grauem Bergstaub, und daneben das runde Loch eines Wanderstabs. Jemand hat dich hierhergetragen. Und ist gegangen, bevor du aufgewacht bist.
         }
     }
@@ -108,7 +110,7 @@ Und dann stehst du oben und siehst nach Osten.
 # bild: entdeckung/aufstieg-suedarm
 Einen Tag lang wanderst du nach Süden, quer über die Weiden, bis die Berge vor dir hochwachsen wie eine Mauer. In Ginsterhof bellen die Hunde.
 { jorrit_getroffen:
-    Jorrit sitzt vor seiner Hütte und flickt einen Ziegenstrick. Er sieht dich kommen und grinst mit seinen drei Zähnen. „Wusst ich's doch“, sagt er. „Wer einmal den Wolfspfad kennt, der will ihn auch gehen.“
+    Jorrit sitzt vor seiner Hütte und flickt einen Ziegenstrick. Er sieht dich kommen und grinst mit seinen drei Zähnen. {wolfspfad_bekannt:„Wusst ich's doch“, sagt er. „Wer einmal den Wolfspfad kennt, der will ihn auch gehen.“|„Den Wolfspfad zeig ich dir nicht“, sagt er. „Nimm die Stiege. Und pass auf die Fackeln auf.“}
 }
 { wolfspfad_bekannt:
     -> wolfspfad
@@ -135,7 +137,7 @@ Auf halber Höhe stehen sie plötzlich zwischen den Felsen. Gnolle, fünf, sechs
 
 Ashka.
 { gnollstein:
-    Du ziehst den Stein aus der Tasche, den sie dir geschenkt hat. Ashka sieht ihn an und lacht, ein heiseres, bellendes Lachen. „Freund“, sagt sie. „Das hab ich dir doch gesagt.“
+    Du ziehst den Stein an seiner Schnur unter dem Hemd hervor, den Stein, den sie dir geschenkt hat. Ashka sieht ihn an und lacht, ein heiseres, bellendes Lachen. „Freund“, sagt sie. „Das hab ich dir doch gesagt.“
 }
 { wuk_gerettet:
     Etwas Kleines, Fleckiges schießt zwischen den Beinen der Großen hervor und rennt dich fast um. Wuk. Er ist gewachsen. Er schnüffelt an deinen Händen und quietscht.
@@ -147,13 +149,13 @@ Und dann singen sie trotzdem, den ganzen Weg hinauf. Es klingt furchtbar. Es ist
 = gnolle_wuetend
 Auf halber Höhe stehen sie zwischen den Felsen und versperren den Pfad. Gnolle, fünf, sechs, mit gesenkten Speeren. In der Mitte Ashka. Ihre gelben Augen sind kalt.
 
-„Du“, sagt sie. „Du hast uns an die Waage verraten. Wegen dir haben die Söldner drei von uns in Käfige gesteckt. Ohne Himmel.“ Sie spuckt auf den Stein. „Was willst du hier?“
+„Du“, sagt sie. „Du hast uns an die Waage verraten. Wegen dir saßen wir im Pferch der Waage. Hinter Seilen. Wie Schafe.“ Sie spuckt auf den Stein. „Was willst du hier?“
 * [„Es tut mir leid. Ich hatte Angst, und ich hab falsch entschieden.“ (Ausstrahlung)]
     ~ temp e_gnoll = probe(ausstrahlung)
     ~ probe_zeile("Ausstrahlung", e_gnoll)
     { e_gnoll:
     - ERFOLG:
-        Ashka sieht dich lange an. Dann tritt sie zur Seite. „Ein Mensch, der sagt, dass er falsch war“, murmelt sie. „Das hab ich in diesem Land noch nicht gehört. Geh.“
+        Ashka sieht dich lange an. Dann tritt sie zur Seite. „{geschlecht == "w" && volk != "mensch":Eine|Ein} {volk_wort()}, {geschlecht == "w" && volk != "mensch":die|der} zugibt, falsch gewesen zu sein“, murmelt sie. „Das hab ich in diesem Land noch nicht gehört. Geh.“
     - JA_ABER:
         Ashka schnaubt. „Worte“, sagt sie. Aber sie tritt zur Seite. Die anderen Gnolle knurren, als du vorbeigehst. Du spürst ihre Blicke im Rücken, bis zum Grat.
     - else:
@@ -180,6 +182,10 @@ Die Ziegenstiege windet sich in engen Kehren den Berg hinauf. Alle hundert Schri
     -> grat(0)
 }
 Und an der dritten Kehre steht eine Wachhütte, aus deren Schornstein Rauch steigt. Zwei Söldner sitzen davor und würfeln.
+{ strell_gerettet:
+    Einer von ihnen steht auf, sieht dich und setzt sich wieder. „Der Hauptmann sagt, wir haben dich nie gesehen“, brummt er und würfelt weiter. Du gehst an der Hütte vorbei, und niemand ruft dir nach.
+    -> grat(0)
+}
 * {hintergrund == "reisender"} [(Reisender) Einen Ziegenpfad um die Wachhütte herum suchen]
     Wo Fackeln an einem Weg stehen, gibt es immer einen zweiten Weg ohne Fackeln. Das hat Maren dir beigebracht. Du suchst nicht lange: Ein schmaler Ziegenpfad zweigt zwei Kehren tiefer ab, zieht sich hinter einem Felsrücken entlang und kommt oberhalb der Hütte wieder heraus.
     -> stiege_ergebnis(ERFOLG)
@@ -200,7 +206,7 @@ Und an der dritten Kehre steht eine Wachhütte, aus deren Schornstein Rauch stei
 - JA_ABER:
     Du kommst vorbei. Aber einer der Söldner sieht noch einen Schatten und ruft: „Halt!“ Du rennst. Steine poltern hinter dir. Sie folgen dir nicht weit, aber du musst einen steileren Weg nehmen als geplant.
 - else:
-    „Halt!“ Die Söldner springen auf. Du rennst, quer über den Hang, über Geröll, durch Ginster, bis du keine Luft mehr bekommst. Dein Bündel bleibt an einem Dornbusch hängen. Den Käse, das Brot, alles Essen ist weg. Aber du bist entkommen.
+    „Halt!“ Die Söldner springen auf. Du rennst, quer über den Hang, über Geröll, durch Ginster, bis du keine Luft mehr bekommst. Dein Bündel bleibt an einem Dornbusch hängen. {ruf_hirten >= 1:Der Käse aus Wollmark, das Brot, alles Essen ist weg.|Das Brot, alles Essen ist weg.} Aber du bist entkommen.
     ~ p7_erschoepft = true
 }
 -> grat(0)
@@ -220,6 +226,7 @@ Oben am Grat ist der Sommer vorbei. Schnee in den Rinnen, Eis auf den Steinen, u
     Schritt um Schritt kämpfst du dich hinauf, bis du oben stehst, auf dem höchsten Punkt, mit dem Wind im Rücken.
 - JA_ABER:
     Kurz vor dem Grat rutschst du auf dem Eis aus. Du schlitterst, greifst ins Leere, und dann hält dich etwas. Das Seil. {bp()}s Seil, das du dir um den Bauch gebunden hast. {freund_kommt_mit:Am anderen Ende hängt {freund()} mit {fr_sein()}em ganzen Gewicht.|Am anderen Ende ist es um einen Felszacken geschlungen.} „Ein Seil braucht man immer“, hörst du {bp()} sagen. Und du kletterst weiter.
+    ~ seil_gehalten = true
 - else:
     Der Sturm wird so stark, dass du dich hinter einen Felsen kauern musst. Du verbringst die Nacht dort, zitternd, {freund_kommt_mit:eng an {freund()} gedrückt, unter beiden Mänteln,|eingerollt wie eine Katze,} und erst am Morgen legt sich der Wind.
     ~ p7_erschoepft = true
@@ -245,6 +252,9 @@ Mirk wartet schon. Die Nachricht ist schneller den Fluss hinaufgekommen als du. 
     Neben ihr steht Grisk, mit Helm und frisch geputzter Lampe. „Grisk geht mit“, sagt er. „Grisk vergisst nicht.“
 }
 „Bis zum Herz“, sagt Mirk. „Dann musst du allein weiter. Kobolde gehen nicht nach draußen. Draußen ist zu viel Himmel.“
+{ pip_himmel:
+    Hinter Mirk drängelt sich Pip nach vorn, den Helm schief auf dem Kopf. „Wenn du wiederkommst, erzählst du mir, wie der Himmel auf der anderen Seite ist“, sagt er. „Versprochen?“
+}
 -> schlund(1)
 
 = ohne_mirk
@@ -272,18 +282,19 @@ Der Abgrund. Die zwei rostigen Ketten. Gegenüber geht die Treppe weiter.
 - else:
     Der Steg bricht unter dir weg. Du fällst, einen schrecklichen Augenblick lang, und dann reißt es dich hart am Bauch. Das Seil. {bp()}s Seil, das du dir umgebunden und an die Kette geknotet hast. Es dauert lange, bis du dich hinaufgezogen hast. Sehr lange.
     ~ p7_erschoepft = true
+    ~ seil_gehalten = true
 }
 -> herz_vorbei
 
 = herz_vorbei
 # bild: szene/herz-wiedersehen
-Weiter unten zweigt der alte Gang nach Osten ab. Aber vorher, nur ein paar Schritte entfernt, liegt die Höhle mit dem Herz.
+Weiter unten zweigt der alte Gang nach Osten ab. Aber vorher, nur ein paar Schritte entfernt, liegt die Höhle mit dem Herzen.
 
 Du siehst es von der Schwelle aus. Der Kristall, groß wie ein Haus, die vier Lichter darin. Der Riss.
 { stollen_versiegelt:
-    Das Grau sickert nicht mehr. Der Riss ist noch da, aber er ist dunkel und still, wie eine Narbe.
+    Das Graue sickert nicht mehr. Der Riss ist noch da, aber er ist dunkel und still, wie eine Narbe.
 - else:
-    Aus dem Riss sickert immer noch das Grau. Mehr als beim letzten Mal.
+    Aus dem Riss sickert immer noch das Graue. Mehr als beim letzten Mal.
 }
 { herzsplitter:
     -> splitter_wahl
@@ -307,7 +318,7 @@ In deiner Tasche summt der Splitter. Lauter als sonst. Als würde er nach Hause 
 { ruf_kobolde >= 1 || vermisste_gerettet:
     Mirk drückt dir die Hand. Sie ist kalt und rau. „Mirk wird eine Lampe für dich anzünden“, sagt sie. „Jeden Abend. Bis du wiederkommst.“ {grisk_begleitet || kobold_gerettet:Grisk sagt nichts. Er nimmt nur seine Lampe vom Helm und hängt sie dir um den Hals.}
 }
-Der alte Gang ist schnurgerade, lang wie ein Fernrohr. Ganz hinten ist der Punkt aus Licht. Er sieht nicht näher aus als beim letzten Mal.
+Der alte Gang ist schnurgerade und so lang, dass das Ende nur ein Punkt aus Licht ist. Er sieht nicht näher aus als beim letzten Mal.
 ~ temp gang_hilfe = 0
 { runen_gelernt:
     ~ gang_hilfe += 1
@@ -319,11 +330,11 @@ Der alte Gang ist schnurgerade, lang wie ein Fernrohr. Ganz hinten ist der Punkt
 ~ probe_zeile("Verstand", e_gang)
 { e_gang:
 - ERFOLG:
-    Du zählst die Zwergenzeichen an der Wand. Alle hundert Schritte eins. Du gehst, und zählst, und singst, wenn das Grau zu nah kommt, und irgendwann wird der Punkt größer. Und größer.
+    Du zählst die Zwergenzeichen an der Wand. Alle hundert Schritte eins. Du gehst, und zählst, und singst, wenn das Graue zu nah kommt, und irgendwann wird der Punkt größer. Und größer.
 - JA_ABER:
     Irgendwann teilt sich der Gang, und du nimmst den falschen Weg. Eine Stunde lang, vielleicht zwei. Dann findest du zurück, an einem Zeichen, das du schon kennst. {freund_kommt_mit:„Wir sind im Kreis gegangen“, sagt {freund()}. „Ich hab's gemerkt. Ich wollte nur nichts sagen.“}
 - else:
-    Das Grau kriecht von hinten heran, und die Dunkelheit wird so dick, dass du die Wand nicht mehr siehst. Du gehst und gehst, und weißt irgendwann nicht mehr, wie lange schon. Einen Tag? Zwei? Als du endlich das Licht erreichst, bist du so müde, dass du dich einfach ins Gras fallen lässt.
+    Das Graue kriecht von hinten heran, und die Dunkelheit wird so dick, dass du die Wand nicht mehr siehst. Du gehst und gehst, und weißt irgendwann nicht mehr, wie lange schon. Einen Tag? Zwei? Als du endlich das Licht erreichst, bist du so müde, dass du dich einfach ins Gras fallen lässt.
     ~ p7_erschoepft = true
 }
 # bild: szene/zwergentor-ost
@@ -346,7 +357,7 @@ Du trittst hinaus, blinzelnd, und siehst nach Osten.
 = mit_rhea
 Kapitänin Rhea hat nicht lange gefragt. „Die Seemöwe ist ein Handelsschiff“, sagt sie. „Und der Handel liegt still, seit die Waage die Küste bewacht. Ich habe also nichts Besseres zu tun.“ Ein seltenes Lächeln. „Außerdem habe ich dir das Segeln beigebracht. Ich lasse dich nicht mit irgendwem fahren.“
 
-In der Nacht liegt die Seemöwe in der Schwarzwasserbucht, ohne Laterne, die Segel gerefft. Rhea steht am Ruder.
+In der Nacht liegt die Seemöwe in der Schwarzwasserbucht, ohne Laterne, die Segel eingeholt. Rhea steht am Ruder.
 -> kueste
 
 = mit_haldor
@@ -413,14 +424,15 @@ Am Kap, wo der Südarm des Kamms ins Meer stürzt, wird das Wasser wild. Wellen,
 - ERFOLG:
     Du hältst das Tau. Die ganze Nacht. Deine Hände brennen, deine Arme zittern, aber du hältst es. Und als die Sonne aufgeht, ist das Kap hinter euch, und das Meer ist auf einmal ganz ruhig, als hätte es nur geprüft, ob du es ernst meinst.
 - JA_ABER:
-    Eine Welle reißt dir das Tau aus den Händen. Der Mast kracht. Aber {freund_kommt_mit:{freund()} fängt das Tau, und zusammen haltet ihr es|du fängst das Tau wieder, und hältst es}, bis der Sturm vorbei ist. Das Boot humpelt um das Kap, mit einem gebrochenen Mast. Aber es schwimmt.
+    Eine Welle reißt dir das Tau aus den Händen. Der Mast kracht. Aber {freund_kommt_mit:{freund()} fängt das Tau, und zusammen haltet ihr es|du fängst das Tau wieder und hältst es}, bis der Sturm vorbei ist. Das Boot humpelt um das Kap, mit einem gebrochenen Mast. Aber es schwimmt.
 - else:
     Eine Welle hebt dich vom Deck. Einen Augenblick lang ist nur Wasser um dich, kalt und schwarz und laut. Dann reißt es dich am Bauch. {bp()}s Seil. Du hast es dir umgebunden und an den Mast geknotet. {hintergrund == "schiffsjunge":Rhea|Haldor} zieht dich zurück an Bord, und du liegst auf den Planken und spuckst Meer.
     ~ p7_erschoepft = true
+    ~ seil_gehalten = true
 }
 Am Morgen setzt das Boot dich an einem Strand ab, auf der anderen Seite der Berge. Ein kleines Fischerdorf liegt dort, mit Booten im Sand.
 { hintergrund == "schiffsjunge":
-    Rhea umarmt dich. Das hat sie noch nie getan. „Ich warte hier drei Tage“, sagt sie. „Dann fahre ich zurück. Und dann sage ich allen, dass du es geschafft hast.“
+    Rhea umarmt dich, zum zweiten Mal in wenigen Tagen. „Gewöhn dich bloß nicht dran“, brummt sie. „Ich warte hier drei Tage“, sagt sie. „Dann fahre ich zurück. Und dann sage ich allen, dass du es geschafft hast.“
 - else:
     Haldor tippt sich an die Stirn. „Viel Glück“, sagt er. „Das Meer hat dich gemocht. Das tut es nicht mit jedem.“
 }

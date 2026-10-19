@@ -40,7 +40,7 @@ Die große Halle ist warm und hell. Lange Tische, weiße Tücher, Braten, Wein i
     Du gehst allein hinein. {freund()} bleibt an der Tür stehen, halb im Schatten. Die Gespräche verstummen, eins nach dem anderen, als du vor der Tafel stehen bleibst.
 }
 
-Und dann erzählst du. Vom Herz des Berges. Vom Riss. Vom Stollen der Waage und vom Grauen, das daraus sickert. Von der Glocke aus Glas über der Oberstadt.
+Und dann erzählst du. Vom Herzen des Berges. Vom Riss. Vom Stollen der Waage und vom Grauen, das daraus sickert. Von der Glocke aus Glas über der Oberstadt.
 { herzsplitter:
     Du legst den Splitter auf das weiße Tuch. Er summt. Die Gläser auf dem Tisch beginnen leise zu klirren, alle zugleich, und in dem Splitter kreisen vier winzige Lichter.
 }
@@ -75,7 +75,7 @@ Seraphine lächelt. Sanft, wie immer. „Ein Kind mit einer Geschichte“, sagt 
 - JA_ABER:
     Ein Murmeln geht durch die Halle. Ambra flüstert mit Kettrich. Der älteste Ratsherr runzelt die Stirn. „Das Werk wird angehalten“, sagt er schließlich. „Bis der Rat es geprüft hat.“
     ~ waage_gestuerzt = true
-    „Selbstverständlich“, sagt Seraphine. Sie steht auf. „Und bis dahin bleibt das Kind in Gewahrsam. Zu seiner eigenen Sicherheit.“
+    „Selbstverständlich“, sagt Seraphine. Sie steht auf. „Und bis dahin bleibt das Kind unter Bewachung. Zu seiner eigenen Sicherheit.“
     Zwei Söldner bringen dich in eine kleine Kammer unter dem Westturm. Der Schlüssel dreht sich zweimal im Schloss. Durch das Fenster siehst du den Spiegel auf dem Turm. Er dreht sich nicht mehr.
     ~ gefangen_p6 = true
 - else:
@@ -109,7 +109,7 @@ Seraphine lächelt. Sanft, wie immer. „Ein Kind mit einer Geschichte“, sagt 
     Du wickelst den Splitter aus und legst ihn {fr_ihm()} in die Hand. „Zeig ihn ihr.“ {freund()} schließt die Finger darum. Er summt zwischen {fr_sein()}en Fingern.
 }
 
-Das Arbeitszimmer liegt oben im Hauptturm. Seraphine ist gerade vom Festmahl gekommen. {freund()} klopft und geht hinein. Die Tür fällt zu.
+Seraphines Zimmer liegt oben im Hauptturm. Seraphine ist gerade vom Festmahl gekommen. {freund()} klopft und geht hinein. Die Tür fällt zu.
 
 Du wartest. Erst hörst du nur Murmeln. Dann wird {freund()}s Stimme lauter. Dann die von Seraphine. Dann ist es lange still.
 { mut >= 2:
@@ -123,7 +123,7 @@ Die Tür geht auf. Seraphine steht darin. Ohne die goldene Kette. Sie sieht dich
 
 „Komm herein“, sagt sie.
 
-Du erzählst alles noch einmal. Diesmal unterbricht sie dich nicht. {herzsplitter:Der Splitter liegt auf ihrem Schreibtisch, neben dem Modell mit der Glasglocke, und summt.} {freund()} steht neben dir, so dicht, dass eure Schultern sich berühren.
+Du erzählst alles noch einmal. Diesmal unterbricht sie dich nicht. {herzsplitter:Der Splitter liegt auf ihrem Schreibtisch und summt.} {freund()} steht neben dir, so dicht, dass eure Schultern sich berühren.
 
 Als du fertig bist, sagt Seraphine lange nichts.
 
@@ -160,13 +160,19 @@ Du legst dich ins Stroh. Oben im Hauptturm brennt ein einziges Fenster. Dahinter
     {freund()} sieht dich lange an. „Ich kann das nicht“, sagt {fr_er()}. „Sie ist meine Mutter.“ Dann zieht {fr_er()} etwas aus der Tasche und drückt es dir in die Hand. Einen schweren eisernen Schlüssel. „Aber ich hab ihn verloren. Heute Abend. Irgendwo hinter dem Stall.“
 }
 
-Kurz nach Mitternacht steht ihr in der Halle. Die Kugeln flackern in ihren eisernen Körben, braun, blau, rot, weiß. Tausende. Jeder Korb ist mit einem kleinen Riegel verschlossen.
+Kurz nach Mitternacht {freund_steht_zu_dir:steht ihr|stehst du allein} in der Halle. Die Kugeln flackern in ihren eisernen Körben, braun, blau, rot, weiß. Tausende. Jeder Korb ist mit einem kleinen Riegel verschlossen.
 
 ~ temp funken_e = MISSERFOLG
+~ temp mit_yrsa = false
+~ temp brina_tipp = 0
+{ brina_wahl == "spiegel":
+    ~ brina_tipp = 1
+}
 „Wie sollen wir die alle aufmachen?“, flüsterst du. „Das dauert bis nächste Woche.“
 * {yrsa_in_vardholm} [Yrsa holen. Sie hat die Körbe geschmiedet.]
+    ~ mit_yrsa = true
     Yrsa schläft auf ihrem Karren im Hof. Als du sie weckst, ist sie sofort wach.
-    In der Halle sieht sie sich lange um. „Fünfzig Jahre“, murmelt sie. Dann nimmt sie den Hammer vom Gürtel. „Jeder Korb hat denselben Riegel. Ich hab ihn so gemacht, weil es schneller geht. Ein Schlag auf die linke Seite, und er springt.“
+    In der Halle sieht sie sich lange um. „Tausende“, murmelt sie. Dann nimmt sie den Hammer vom Gürtel. „Jeder Korb hat denselben Riegel. Ich hab ihn so gemacht, weil es schneller geht. Ein Schlag auf die linke Seite, und er springt.“
     Sie schlägt gegen das erste Regal. Ein heller Ton, und zwanzig Riegel springen auf einmal auf. Dann das nächste Regal. Und das nächste.
     ~ funken_e = ERFOLG
 * {kann_zaubern(0)} [Mit {element_dativ(element)} alle Riegel auf einmal sprengen]
@@ -175,12 +181,15 @@ Kurz nach Mitternacht steht ihr in der Halle. Die Kugeln flackern in ihren eiser
     ~ probe_zeile("Zauber", funken_e)
 * [Die Riegel untersuchen. Vielleicht haben sie einen Trick (Verstand).]
     Du nimmst einen Korb aus dem Regal und drehst ihn im Licht. Der Riegel ist einfach. Fast zu einfach. Als hätte ihn jemand gemacht, der wollte, dass er schnell aufgeht.
-    ~ funken_e = probe(verstand)
+    { brina_tipp > 0:
+        Du denkst an Brina: Wenn man genau hinhört, kann man einzelne Stimmen erkennen. Du legst das Ohr an das Regal. Hinter dem Summen klickt es leise, bei jedem Riegel an derselben Stelle.
+    }
+    ~ funken_e = probe(verstand + brina_tipp)
     ~ probe_zeile("Verstand", funken_e)
 - (funken_auf)
 { funken_e:
 - ERFOLG:
-    Riegel um Riegel springt auf. Ganz leise. Niemand hört euch.
+    Riegel um Riegel springt auf. Ganz leise. Niemand hört {freund_steht_zu_dir || mit_yrsa:euch|dich}.
 - JA_ABER:
     Die Riegel springen auf. Aber einer der Körbe fällt aus dem Regal und zerspringt auf dem Stein, und oben im Gang ruft jemand: „Wer ist da?“
     ~ gesucht = true
@@ -226,7 +235,7 @@ Das Schweigen.
 
 Es kommt von Osten, durch den Nyrrspalt, wie ein Schatten, der über den Boden kriecht. Kein Nebel, kein Rauch. Nur Farbe, die verschwindet. Wo es das Gras berührt, wird das Gras grau. Wo es eine Fackel berührt, geht die Fackel aus.
 { p6_weg == "funken":
-    Und plötzlich verstehst du. Tausend Kugeln haben wochenlang in dieser Halle gesummt. Die lauteste Stimme im ganzen Land. Und eben habt ihr sie alle auf einmal in den Himmel geworfen.
+    Und plötzlich verstehst du. Tausend Kugeln haben wochenlang in dieser Halle gesummt. Die lauteste Stimme im ganzen Land. Und eben {freund_steht_zu_dir:habt ihr|hast du} sie alle auf einmal in den Himmel geworfen.
 - else:
     Und plötzlich verstehst du. Tausend Kugeln summen seit Wochen in der Halle unter dem Turm. Die lauteste Stimme im ganzen Land. Und alles, was eine Stimme hat, zieht das Schweigen an.
 }
@@ -239,13 +248,13 @@ Es kommt von Osten, durch den Nyrrspalt, wie ein Schatten, der über den Boden k
 -> im_hof
 
 = befreit
-Deine Kerze geht aus. Kein Luftzug, nichts. Sie geht einfach aus.
+Durch das Fenster siehst du die Fackeln auf der Mauer ausgehen. Eine nach der anderen. Ohne Luftzug.
 
 Dann dreht sich ein Schlüssel im Schloss.
 { freund_steht_zu_dir:
-    Es ist {freund()}. Barfuß, im Nachthemd, mit dem Schlüsselbund {fr_sein()}er Mutter in der Hand. „Ich hab gesagt, ich hab dich gern“, flüstert {fr_er()}. „Das war ernst gemeint.“
+    Es ist {freund()}. Barfuß, im Nachthemd, mit dem Schlüsselbund {fr_sein()}er Mutter in der Hand. „Ich lass dich hier nicht sitzen“, flüstert {fr_er()}. „Nicht nach allem.“
 - else:
-    Es ist Magister Pell, im Schlafrock, mit einer Kerze, die nicht brennt. „Ich habe dich nicht gesehen“, sagt er. „Das ist inzwischen eine Gewohnheit.“ Dann, leiser: „Da draußen ist etwas. Und ich glaube, du bist der Einzige hier, der weiß, was es ist.“
+    Es ist Magister Pell, im Schlafrock, mit einer Kerze, die nicht brennt. „Ich habe dich nicht gesehen“, sagt er. „Das ist inzwischen eine Gewohnheit.“ Dann, leiser: „Da draußen ist etwas. Und ich glaube, du bist {geschlecht == "w":die Einzige hier, die|der Einzige hier, der} weiß, was es ist.“
 }
 -> im_hof
 
@@ -265,30 +274,30 @@ Pell sieht dich an. Dann gibt er dir den Schlüssel. „Rechenstunde“, murmelt
 = im_hof
 Im Hof herrscht ein seltsames Durcheinander, ganz ohne Lärm. Söldner rennen mit offenem Mund, aber ihre Rufe sind nur noch ein Hauch. Einige von ihnen gehen langsam auf das Osttor zu, mit offenen Augen, als würde sie jemand rufen. Ins Graue hinein.
 { jaro_gesprochen:
-    Einer der jungen Söldner geht nicht ins Grau. Jaro. Er hat seinen Speer weggeworfen und zerrt einen Kameraden nach dem anderen am Mantel zurück, und dabei schreit er ein Seemannslied aus dem Hafenviertel, so laut er kann.
+    Einer der jungen Söldner geht nicht ins Graue. Jaro. Er hat seinen Speer weggeworfen und zerrt einen Kameraden nach dem anderen am Mantel zurück, und dabei schreit er ein Seemannslied aus dem Hafenviertel, so laut er kann.
 }
 { strell_getroffen:
-    Am Osttor steht Hauptmann Strell. Er hält als Einziger noch eine Fackel, die brennt, und stellt sich seinen eigenen Leuten in den Weg, einem nach dem anderen. Das Grau reicht ihm schon bis an die Knie.
+    Am Osttor steht Hauptmann Strell. Er hält als Einziger noch eine Fackel, die brennt, und stellt sich seinen eigenen Leuten in den Weg, einem nach dem anderen. Das Graue reicht ihm schon bis an die Knie.
 }
 
 Auf dem Turm steht Seraphine Arvelle, im Mantel über dem Nachthemd, die Hände auf dem Spiegel.
 { funken_frei:
     „Hebt den Wall!“, ruft sie hinunter. Aber die Halle unter ihr ist leer. Der Spiegel bleibt dunkel.
 - else:
-    „Hebt den Wall!“, ruft sie. Und der Spiegel leuchtet auf, mit der Kraft aus tausend Kugeln. Die Kuppel aus Licht wölbt sich über die Festung. Das Grau drückt dagegen. Die Kuppel flackert. Tief unten in der Halle schreien die Kugeln.
-    Dann ein Knall wie Eis auf einem See. Ein Riss läuft quer über den Spiegel. Genau wie der Riss im Herz des Berges.
+    „Hebt den Wall!“, ruft sie. Und der Spiegel leuchtet auf, mit der Kraft aus tausend Kugeln. Die Kuppel aus Licht wölbt sich über die Festung. Das Graue drückt dagegen. Die Kuppel flackert. Tief unten in der Halle schreien die Kugeln.
+    Dann ein Knall wie Eis auf einem See. Ein Riss läuft quer über den Spiegel. Genau wie der Riss im Herzen des Berges.
     Die Kuppel erlischt.
 }
 
-Das Grau kriecht über die Mauer.
+Das Graue kriecht über die Mauer.
 * [Zum Turm. Seraphine steht noch oben am Spiegel.]
     ~ seraphine_gerettet = true
-    Du rennst die Treppe hinauf, immer zwei Stufen auf einmal. Oben ist das Grau schon da. Es liegt um Seraphines Füße wie Wasser. Sie starrt auf den Spiegel und bewegt sich nicht mehr.
-    Du packst sie am Arm und ziehst. Sie ist schwer und kalt, als wäre sie aus Stein. Du ziehst noch einmal, und dann stolpert sie dir hinterher, die Treppe hinunter, aus dem Grau hinaus. Unten blinzelt sie, als würde sie gerade aufwachen.
+    Du rennst die Treppe hinauf, immer zwei Stufen auf einmal. Oben ist das Graue schon da. Es liegt um Seraphines Füße wie Wasser. Sie starrt auf den Spiegel und bewegt sich nicht mehr.
+    Du packst sie am Arm und ziehst. Sie ist schwer und kalt, als wäre sie aus Stein. Du ziehst noch einmal, und dann stolpert sie dir hinterher, die Treppe hinunter, aus dem Grauen hinaus. Unten blinzelt sie, als würde sie gerade aufwachen.
     „Du“, sagt sie heiser. „Ausgerechnet du.“
 * {strell_getroffen} [Zum Tor. Strell hält allein die Stellung.]
     ~ strell_gerettet = true
-    Du rennst zum Osttor. Strell steht bis zur Hüfte im Grau. Seine Fackel ist ausgegangen. Er hält sie trotzdem hoch.
+    Du rennst zum Osttor. Strell steht bis zur Hüfte im Grauen. Seine Fackel ist ausgegangen. Er hält sie trotzdem hoch.
     Du packst ihn am Gürtel und ziehst. Er wankt, dreht sich um, sieht dich, als wüsste er nicht, wer du bist. Dann weiß er es wieder. Zusammen stolpert ihr zurück in den Hof.
     „Du schon wieder“, keucht er.
 * [Keine Zeit. Jetzt rufen, hier, mitten im Hof.]
@@ -300,7 +309,7 @@ Das Grau kriecht über die Mauer.
 ~ temp helfer = 0
 { not seraphine_gerettet:
     { freund_steht_zu_dir:
-        Oben auf dem Turm sinkt Seraphine auf die Knie. Da rennt {freund()} an dir vorbei, die Treppe hinauf, und zieht {fr_sein()}e Mutter aus dem Grau.
+        Oben auf dem Turm sinkt Seraphine auf die Knie. Da rennt {freund()} an dir vorbei, die Treppe hinauf, und zieht {fr_sein()}e Mutter aus dem Grauen.
     - else:
         Oben auf dem Turm sinkt Seraphine auf die Knie. Magister Pell holt sie herunter, keuchend, Stufe um Stufe. Sie sieht durch ihn hindurch, als wäre er Luft.
     }
@@ -339,7 +348,7 @@ Du stellst dich in die Mitte des Hofs. „Rufer!“, schreist du, und deine Stim
 }
 { singlampe:
     ~ helfer += 1
-    Mirks Lampe in deiner Tasche fängt an zu singen. Hell und dünn, mitten im Grau.
+    Mirks Lampe in deiner Tasche fängt an zu singen. Hell und dünn, mitten im Grauen.
 }
 { p6_frueh_gerufen:
     ~ helfer += 1
@@ -358,10 +367,10 @@ Etwas in dir bricht auf wie ein Damm.
 { element:
 - "erde":
     # bild: szene/ruf-gross-erde
-    Der Berg antwortet. Die Wände der Schlucht beginnen zu brummen, tief und gewaltig, so wie damals im Herz. Steine knirschen gegeneinander, Felsen dröhnen, der ganze Nyrrspalt singt wie eine riesige steinerne Glocke.
+    Der Berg antwortet. Die Wände der Schlucht beginnen zu brummen, tief und gewaltig, so wie damals im Herzen. Steine knirschen gegeneinander, Felsen dröhnen, der ganze Nyrrspalt singt wie eine riesige steinerne Glocke.
 - "wasser":
     # bild: szene/ruf-gross-wasser
-    Das Wasser antwortet. Der Bach in der Schlucht bäumt sich auf, wird zu einer Welle, zu einem Sturzbach, und rauscht und donnert die Schlucht hinauf, gegen das Grau, so laut wie ein Wasserfall.
+    Das Wasser antwortet. Der Bach in der Schlucht bäumt sich auf, wird zu einer Welle, zu einem Sturzbach, und rauscht und donnert die Schlucht hinauf, gegen das Graue, so laut wie ein Wasserfall.
 - "feuer":
     # bild: szene/ruf-gross-feuer
     Das Feuer antwortet. Jede erloschene Fackel auf der Mauer flammt auf einmal wieder auf, und aus deinen Händen steigt eine Säule aus Flammen, hoch wie der Turm, und sie knistert und brüllt und faucht.
@@ -374,16 +383,16 @@ Und rings um dich rufen die anderen mit. Braun, blau, rot, weiß. Hunderte Stimm
 { ruf_e:
 - ERFOLG:
     ~ ruf_vardholm = 2
-    Das Grau weicht zurück. Erst zögernd, dann immer schneller. Es zieht sich über die Mauer zurück, aus dem Hof, die Schlucht hinauf, nach Osten, bis hinter den Pass. Wo es war, ist das Gras wieder grün. Der Bach rauscht.
+    Das Graue weicht zurück. Erst zögernd, dann immer schneller. Es zieht sich über die Mauer zurück, aus dem Hof, die Schlucht hinauf, nach Osten, bis hinter den Pass. Wo es war, ist das Gras wieder grün. Der Bach rauscht.
     Du stehst in der Mitte des Hofs, zitternd, und um dich herum jubeln Menschen. Und diesmal hörst du jeden Ton.
 - JA_ABER:
     ~ ruf_vardholm = 1
-    Das Grau weicht zurück. Langsam, Schritt um Schritt, über die Mauer, die Schlucht hinauf, bis es nur noch ein grauer Schimmer ganz hinten im Pass ist.
+    Das Graue weicht zurück. Langsam, Schritt um Schritt, über die Mauer, die Schlucht hinauf, bis es nur noch ein grauer Schimmer ganz hinten im Pass ist.
     Dann geben deine Knie nach. Das Letzte, was du hörst, bevor alles schwarz wird, ist der Jubel. Laut. Wunderbar laut.
 - else:
     ~ ruf_vardholm = 0
-    Einen Augenblick lang ist es zu wenig. Das Grau kriecht weiter, über dein Knie, über deine Brust, und deine eigene Stimme verschwindet. Du hörst nichts mehr. Du fühlst nichts mehr.
-    Dann spürst du eine Hand auf deiner Schulter. Und noch eine. Und noch eine. Die anderen rufen für dich mit, lauter und lauter, bis das Grau dich loslässt und sich zurückzieht, bis an das Ende der Schlucht. Dort bleibt es liegen. Und wartet.
+    Einen Augenblick lang ist es zu wenig. Das Graue kriecht weiter, über dein Knie, über deine Brust, und deine eigene Stimme verschwindet. Du hörst nichts mehr. Du fühlst nichts mehr.
+    Dann spürst du eine Hand auf deiner Schulter. Und noch eine. Und noch eine. Die anderen rufen für dich mit, lauter und lauter, bis das Graue dich loslässt und sich zurückzieht, bis an das Ende der Schlucht. Dort bleibt es liegen. Und wartet.
     Dann wird alles schwarz.
 }
 { freund_steht_zu_dir || seraphine_gerettet:
@@ -402,7 +411,7 @@ Und rings um dich rufen die anderen mit. Braun, blau, rot, weiß. Hunderte Stimm
     Du wachst in einem richtigen Bett auf, unter drei Decken. Die Sonne steht schon über dem Pass. Jemand hat dir die Stiefel ausgezogen.
 }
 
-Die Festung sieht aus wie nach einem Gewitter. Der Spiegel auf dem Turm hat einen Riss von oben bis unten. Söldner sitzen an der Mauer und starren vor sich hin. Die Eingeschriebenen kochen Suppe über offenen Feuern, und die Feuer knistern.
+Die Festung sieht aus wie nach einem Gewitter. {p6_weg == "funken":Der Spiegel auf dem Turm ist dunkel und blind. Ohne die Kugeln ist er nur noch Glas.|Der Spiegel auf dem Turm hat einen Riss von oben bis unten.} Söldner sitzen an der Mauer und starren vor sich hin. Die Eingeschriebenen kochen Suppe über offenen Feuern, und die Feuer knistern.
 { ruf_vardholm == 0:
     Ganz hinten in der Schlucht, wo der Pass beginnt, liegt ein grauer Streifen über den Felsen. Er bewegt sich nicht. Aber er ist da.
 - else:
@@ -428,7 +437,7 @@ Seraphine Arvelle kommt allein über den Hof. Ohne Kette. Ohne Söldner. Sie set
     Sie sieht dich an. „Und du hast mich da oben herausgezogen. Mich. Nach allem.“
 }
 { not funken_frei:
-    „Die Kugeln gebe ich zurück“, sagt sie. „Heute noch. Jeden einzelnen Funken.“
+    „Die Funken gebe ich zurück“, sagt sie. „Heute noch. Jeden einzelnen.“
     Am Mittag öffnet sie selbst die Halle. Die Funken steigen in den hellen Himmel und fliegen nach Westen, nach Hause.
     ~ funken_frei = true
     { neumond_funke:
@@ -441,7 +450,8 @@ Seraphine Arvelle kommt allein über den Hof. Ohne Kette. Ohne Söldner. Sie set
 -> weiter
 
 = gestuerzt
-Am Vormittag tritt der Rat im Hof zusammen. Meisterin Ambra spricht, dann Meister Kettrich, dann der älteste Ratsherr. Die Waage verliert ihre Festung. Die Söldner bekommen ihren Lohn und werden nach Hause geschickt. Die Halle wird geöffnet, die Plaketten gelten nicht mehr.
+Am Vormittag tritt der Rat im Hof zusammen. Meisterin Ambra spricht, dann Meister Kettrich, dann der älteste Ratsherr. Die Waage verliert ihre Festung. Die Söldner bekommen ihren Lohn und werden nach Hause geschickt. Die Halle wird geöffnet, die Plaketten gelten nicht mehr.{gesucht: Niemand sucht mehr nach dir.}
+~ gesucht = false
 { not funken_frei:
     Am Mittag steigen die Funken aus der Halle in den Himmel. Tausende. Die Eingeschriebenen stehen im Hof und strecken die Hände danach aus.
     ~ funken_frei = true
@@ -459,9 +469,9 @@ Der älteste Ratsherr gibt dir ein gefaltetes Papier mit dem Siegel der Stadt. �
 = kalt
 Seraphine Arvelle steht auf der Treppe des Hauptturms, die goldene Kette um den Hals. Sie sieht müde aus. Aber nicht weich.
 
-„Du warst nützlich heute Nacht“, sagt sie. „Das will ich nicht bestreiten.“ Sie kommt die Stufen herunter, bis sie vor dir steht. „Aber das Werk geht weiter. Mit einem neuen Spiegel. Es muss weitergehen.“
+„Du warst nützlich heute Nacht“, sagt sie. „Das will ich nicht bestreiten.“ Sie kommt die Stufen herunter, bis sie vor dir steht. „Aber das Werk geht weiter. {p6_weg == "funken":Mit neuen Kugeln|Mit einem neuen Spiegel}. Es muss weitergehen.“
 { funken_frei:
-    Ihre Stimme wird leiser und kälter. „Und was in der Halle geschehen ist, vergesse ich nicht. Geh nach Hause. Und wenn ich dich noch einmal in meiner Festung sehe, bist du kein Kind mehr für mich, sondern ein Dieb.“
+    Ihre Stimme wird leiser und kälter. „Und was in der Halle geschehen ist, vergesse ich nicht. Geh nach Hause. Und wenn ich dich noch einmal in meiner Festung sehe, bist du kein Kind mehr für mich, sondern {geschlecht == "w":eine Diebin|ein Dieb}.“
     ~ gesucht = true
 - else:
     „Geh nach Hause“, sagt sie. „Das Tor bleibt zu. Für alle.“
@@ -475,15 +485,21 @@ Seraphine Arvelle steht auf der Treppe des Hauptturms, die goldene Kette um den 
 }
 { brina_freundin:
     Brina sitzt an der Mauer in der Sonne, eine Decke über den Knien. {funken_frei:Als sie dich sieht, hebt sie einen Finger, und ein Wassertropfen steigt aus ihrem Becher, dreht sich einmal in der Luft und landet auf deiner Nase. Sie lacht wie ein junges Mädchen.|Sie sieht müde aus. Aber sie lächelt, als sie dich sieht.} „Ich gehe nach Hause“, sagt sie. „Zu meinem Enkel. Er wird nicht glauben, was ich erzähle.“
+    { brina_wahl:
+    - "brot":
+        Dann drückt sie dir ein Stück Brot in die Hand, noch warm vom Feuer. „Jetzt sind wir quitt.“
+    - "schweigen":
+        Dann sagt sie nichts mehr, und du auch nicht. Ihr sitzt einfach in der Sonne. Zusammen nicht reden. Sie hatte recht, das ist etwas anderes.
+    }
 }
 { talin_hilft:
     Talin kommt mit zwei Schalen Suppe über den Hof. {funken_frei:„Ich hab meinen Funken wieder“, sagt er und strahlt. „Und ich geh nach Hause. Zu Fuß. Ohne Plakette.“|„Ich bleib noch“, sagt er. „Einer muss auf die anderen aufpassen.“}
 }
 { yrsa_in_vardholm:
-    Yrsa steht unten am Turm und sieht zu dem gesprungenen Spiegel hinauf. „Fünfzig Jahre schmiede ich Dinge, ohne zu wissen, wofür“, sagt sie. „Jetzt weiß ich es. Und jetzt schmelze ich sie wieder ein.“
+    Yrsa steht unten am Turm und sieht zu dem {p6_weg == "funken":dunklen|gesprungenen} Spiegel hinauf. „Jetzt weiß ich, wofür ich geschmiedet habe“, sagt sie. „Und jetzt schmelze ich es wieder ein.“
 }
 { strell_gerettet:
-    Hauptmann Strell kommt zu dir, die Mütze in der Hand. „Letztes Mal hab ich gesagt, ich weiß nicht, wie man das zurückzahlt“, sagt er. „Jetzt schulde ich dir zwei Mal.“ Er verbeugt sich. Vor dir. Nicht vor {freund()}.
+    Hauptmann Strell kommt zu dir, die Mütze in der Hand. {strell_schuldet:„Letztes Mal hab ich gesagt, ich weiß nicht, wie man das zurückzahlt“, sagt er. „Jetzt schulde ich dir zwei Mal.“|„Ich weiß nicht, wie man so etwas zurückzahlt“, sagt er. „Aber ich finde es heraus.“} Er verbeugt sich. Vor dir. Nicht vor {freund()}.
     ~ strell_schuldet = true
 - else:
     { strell_getroffen:
@@ -497,7 +513,7 @@ Am Nachmittag findet dich {freund()} auf der Mauer. Ihr sitzt nebeneinander und 
     „Das Herz im Berg“, sagt {freund()}. „Solange es Risse hat, kommt das Schweigen wieder. Hier kann es keiner heilen. Aber irgendwo da draußen, hinter den Bergen, muss es jemanden geben, der weiß, wie.“
     {Fr_er()} sieht dich an. „Du gehst da raus. Das weiß ich. Und ich komme mit.“
 - else:
-    „Ich bleibe bei ihr“, sagt {freund()} leise und nickt zum Turm hinüber. „Einer muss auf sie aufpassen. Auch wenn sie es nicht will.“ {Fr_er()} stupst dich mit der Schulter an. „Aber du gehst da raus. Das seh ich dir an.“
+    „Ich bleibe bei ihr“, sagt {freund()} leise{waage_gestuerzt && not seraphine_einsicht:. „Morgen fahr ich ihr nach. Sie hat jetzt niemanden mehr.“| und nickt zum Turm hinüber.} „Einer muss auf sie aufpassen. Auch wenn sie es nicht will.“ {Fr_er()} stupst dich mit der Schulter an. „Aber du gehst da raus. Das seh ich dir an.“
 }
 
 Du schaust nach Osten. Hinter dem Pass ist das Schweigen. Und irgendwo dahinter vielleicht eine Antwort.
@@ -529,7 +545,7 @@ Wege hinaus kennst du inzwischen einige.
 # karte: vardholm
 Abends schlägst du dein Buch auf.
 
-Du zeichnest Vardholm, quer in seiner Schlucht. Den Turm mit dem Spiegel und einen Riss quer hindurch. Und kleine Punkte, die in den Himmel fliegen, braun, blau, rot, weiß.
+Du zeichnest Vardholm, quer in seiner Schlucht. Den Turm mit dem Spiegel{p6_weg == "funken":, dunkel und leer.| und einen Riss quer hindurch.} Und kleine Punkte, die in den Himmel fliegen, braun, blau, rot, weiß.
 
 Darunter schreibst du: # handschrift
 
@@ -551,7 +567,7 @@ Darunter schreibst du: # handschrift
 { waage_gestuerzt:
     Die Waage hat ihre Festung verloren.
 }
-In der Nacht kam das Schweigen durch die Schlucht. Der Wall hat nicht gehalten. Wir haben zusammen gerufen, alle, und es ist zurückgewichen.
+In der Nacht kam das Schweigen durch die Schlucht. {p6_weg == "funken":Der Wall ist dunkel geblieben.|Der Wall hat nicht gehalten.} Wir haben zusammen gerufen, alle, und es ist zurückgewichen.
 Mein Ruf ist jetzt ein Sturm.
 { seraphine_einsicht:
     Seraphine hat gesagt, sie hat Mauern gebaut, weil sie Angst hatte. Das Tor ist offen.

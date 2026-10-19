@@ -192,6 +192,8 @@ VAR talin_hilft = false          // Talin hat aufgehört zu graben und geht mit 
 // Perle 6 – Die Festung am Pass
 VAR jaro_gesprochen = false      // mit Jaro, dem jungen Söldner, am Straßenlager vor Vardholm geredet
 VAR brina_freundin = false       // mit Brina, der alten Wasser-Ruferin, im Hof von Vardholm gesprochen
+VAR brina_wahl = ""             // was man Brina am Abend im Hof gegeben hat: "brot", "spiegel" (nach dem Spiegel gefragt), "schweigen"
+VAR jaro_kugeln = false          // Jaro erzählt, was in den Glaskugeln steckt (nicht nur über Vardholm gefragt)
 VAR vardholm_zugang = ""          // "gerufen", "yrsa", "strell", "talin", "mauer"
 VAR yrsa_in_vardholm = false      // Yrsa fährt ihren Lieferkarren selbst nach Vardholm
 VAR kugelhalle_gesehen = false    // die Halle mit den tausenden Kugeln gesehen
@@ -225,4 +227,8 @@ VAR ziege_folgt = false           // die geweckte Ziege aus dem leeren Dorf läu
 VAR gnomfamilie_geholfen = false  // der Gnomenfamilie mit dem Dampfkarren geholfen (Perle 7)
 VAR seil = false                  // Seil der Bezugsperson (Perle 7) – für die Taschen-Seite des Tagebuchs
 VAR p7_erschoepft = false         // unterwegs gestürzt oder ohnmächtig, kommt erschöpft an
+VAR seil_gehalten = false         // das Seil der Bezugsperson hat die Spielfigur gehalten (Grat, Schlund oder Kap)
+VAR grenzstein_wahl = ""          // am Grenzstein: "gruss" (Auf Wiedersehen gesagt), "zeichnung", "kiesel" (Kiesel aus Meridel mitgenommen)
+VAR lager_antwort = ""            // Antwort im Nachtlager auf „Hast du manchmal Angst?“: "angst", "mut", "holz" (Holz nachgelegt, geschwiegen)
+VAR ithren_getragen = false       // Ithren hat die Spielfigur im Nyrrspalt aus dem Grauen getragen
 

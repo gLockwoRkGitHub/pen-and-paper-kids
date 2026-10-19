@@ -10,10 +10,13 @@ Neben dem Weg steht ein alter Grenzstein, halb im Gras versunken, mit Moos auf d
 
 Du drehst dich ein letztes Mal um. Der Kamm. Dahinter die Weiden, die Stadt, das Meer. Alles, was du kennst.
 * [Laut „Auf Wiedersehen“ sagen]
-    „Auf Wiedersehen“, sagst du. Es klingt lächerlich, so allein auf einem Hügel. Aber es tut gut. {freund_kommt_mit:{freund()} sagt es auch, leiser, und dann nehmt ihr euch kurz an der Hand.}
+    ~ grenzstein_wahl = "gruss"
+    „Auf Wiedersehen“, sagst du. Es klingt lächerlich, {freund_kommt_mit:so mitten im Nirgendwo|so allein auf einem Hügel}. Aber es tut gut. {freund_kommt_mit:{freund()} sagt es auch, leiser, und dann nehmt ihr euch kurz an der Hand.}
 * [Den Grenzstein in dein Buch zeichnen]
+    ~ grenzstein_wahl = "zeichnung"
     Du setzt dich ins Gras und zeichnest den Stein, die Muschel, die Perle. Und auf die leere Seite malst du einen kleinen Pfeil. Nach Osten.
 * [Einen Kiesel aufheben und mitnehmen]
+    ~ grenzstein_wahl = "kiesel"
     Du hebst einen Kiesel vom Weg auf, einen von der Westseite des Steins, und steckst ihn in die Tasche. Ein Stück Meridel. Für unterwegs.
 -
 Dann gehst du weiter. Der Stein bleibt hinter dir zurück, und mit ihm die Muschel und die Perle.
@@ -38,8 +41,7 @@ Auf den Feldern hinter dem Dorf liegen graue Flecken im Gras, wie verschüttete 
 Am Brunnen steht eine Ziege. Sie ist an einer Seite grau und starrt nach Osten, ohne zu blinzeln.
 * [Die Ziege wecken]
     ~ ziege_folgt = true
-    Du klatschst in die Hände, pfeifst, rufst. {element == "erde":Du lässt den Boden unter ihren Hufen summen.}{element == "wasser":Du spritzt ihr eine Handvoll Brunnenwasser ins Gesicht.}{element == "feuer":Du lässt einen Funken vor ihrer Nase tanzen.}{element == "wind":Du bläst ihr einen Windstoß ins Ohr.} Die Ziege zuckt zusammen, blökt empört und sieht dich an, als wärst du schuld an allem. Dann trottet sie dir hinterher. Den ganzen Weg.
-    ~ aendern(ruf_hirten, 1)
+    Du klatschst in die Hände, pfeifst, rufst. {element == "erde":Du lässt den Boden unter ihren Hufen summen.}{element == "wasser":Du spritzt ihr eine Handvoll Brunnenwasser ins Gesicht.}{element == "feuer":Du lässt einen Funken vor ihrer Nase tanzen.}{element == "wind":Du bläst ihr einen Windstoß ins Ohr.} Die Ziege zuckt zusammen, meckert empört und sieht dich an, als wärst du schuld an allem. Dann trottet sie dir hinterher. Den ganzen Weg.
 * [Weitergehen. Du kannst nicht jede Ziege retten.]
     Du gehst weiter. Als du dich nach einer Weile umdrehst, steht die Ziege immer noch da. Grau. Still.
 -
@@ -54,6 +56,12 @@ Dornfurt liegt an einer Furt im Fluss, hinter einem Zaun aus angespitzten Pfähl
 Glocken läuten, nicht nur zur vollen Stunde, sondern ständig, mal hier, mal dort. Auf dem Marktplatz schlägt jemand eine große Trommel, langsam und gleichmäßig wie ein Herz. Hunde bellen, Händler schreien, Kinder rennen mit Rasseln durch die Gassen.
 
 „Hier ist es nie still“, sagt eine Frau am Tor, als sie dein Gesicht sieht. „Nie. Nicht bei Tag und nicht bei Nacht. Das ist Absicht.“
+{ ziege_folgt:
+    Die Ziege trottet hinter dir durchs Tor. Die Frau sieht sie an. „Laut?“, fragt sie. „Sehr“, sagst du. „Dann darf sie rein.“
+}
+{ p7_erschoepft:
+    Du bist so müde, dass du am Tor fast im Stehen einschläfst.
+}
 
 In den Gassen drängen sich Menschen, die nicht von hier sind. Leute aus den leeren Dörfern, mit Karren und Bündeln. Orks aus dem Osten. Ein paar Zwerge. Und am Fluss, in einem eigenen Lager, eine Gruppe Gnolle, die niemand verjagt.
 -> p7_markt ->
@@ -81,9 +89,16 @@ Beim Essen erzählt Durgash. Die Dörfer sind leer, den ganzen Weg nach Osten, b
     # bild: szene/silbermark-stube
     Am nächsten Morgen suchst du die Stube des Silbermark-Kontors. Ein schmales Haus mit einem silbernen Schild. Ein dünner Schreiber nimmt das Päckchen, prüft das Siegel und schneidet die Schnur auf.
     Darin liegt ein Stein. Ein ganz gewöhnlicher Flusskiesel. Und ein Zettel.
-    Der Schreiber liest ihn, zieht die Augenbrauen hoch und liest ihn dir vor: „Wer diesen Stein über einen geschlossenen Pass trägt, ohne nachzusehen, was darin ist, der zahlt seine Schulden. Schuld erlassen. – F.“
+    Der Schreiber liest ihn, zieht die Augenbrauen hoch und liest ihn dir vor: „Wer diesen Stein über die Berge trägt und nicht hineinschaut, hat seine Schuld bezahlt. Schuld erlassen. – F.“
     Der Schreiber stempelt ein Papier und gibt es dir. „Quittiert“, sagt er. „Das hab ich auch noch nie gesehen.“
     Du stehst lange vor dem Haus und weißt nicht, ob du lachen oder dich ärgern sollst. Am Ende lachst du.
+    { grenzstein_wahl == "kiesel":
+        Dann fühlst du nach dem Kiesel vom Grenzstein in deiner Tasche. Deiner ist schöner.
+    }
+- else:
+    { ausloeser == "schulden":
+        Am nächsten Morgen kommst du an einem schmalen Haus mit einem silbernen Schild vorbei. Die Stube des Silbermark-Kontors. Du gehst weiter, ohne anzuhalten, und denkst an {bp()}. Stück für Stück, hat {bp_er()} gesagt.
+    }
 }
 -> p7_gnolllager ->
 { brief_erhalten:
@@ -97,7 +112,7 @@ Am Fluss liegt eine Fähre, ein breites Floß an einem Seil, und darauf steht ei
 
 Du willst schon weitergehen, als du es siehst. In das Holz der Stange, ganz oben, ist ein Zeichen geschnitzt. Vier verschlungene Ringe.
 
-Gib ihn dem Ersten, der dir dasselbe Zeichen zeigt. Auf der anderen Seite der Berge.
+Du hörst wieder die Stimme des Fremden, damals im Regen: „Gib ihn dem Ersten, der dir dasselbe Zeichen zeigt.“
 
 Du ziehst den Brief aus dem Bündel. Wochen hast du ihn getragen. Das Siegel ist noch ganz.
 
@@ -173,6 +188,9 @@ Du setzt dich neben ihn. Die Bretter sind kalt.
     ~ ithren_name = true
     Nach einer Weile sagt er, ohne dass du gefragt hast: „Ithren. So heiße ich. Falls du mich einmal rufen musst.“
 }
+{ ithren_getragen:
+    „Im Pass hast du dich ins Graue gesetzt“, sagt er. „Ich habe dich hinübergetragen. Verzeih, dass ich nicht gewartet habe, bis du aufwachst.“
+}
 { herz_beruhigt:
     „Du hast den Splitter zurückgegeben“, sagt Ithren. „Das Herz hat es gespürt. Ich auch. Den ganzen Weg bis hierher.“
 }
@@ -187,6 +205,14 @@ Ithren sieht lange auf den Fluss hinaus. Hinter euch schlägt die Trommel.
 Du spürst, wie dir kalt wird. Nicht vom Fluss.
 { freund_kommt_mit:
     Hinter dir knarren die Bretter. {freund()} steht am Anfang des Stegs, den viel zu großen Hut in der Hand. {Fr_er()} hat alles gehört. Und {fr_er()} läuft nicht weg.
+    { lager_antwort:
+    - "angst":
+        {Fr_er()} setzt sich neben dich und nimmt deine Hand. „Ständig“, flüstert {fr_er()}. „Aber wir gehen trotzdem.“
+    - "mut":
+        {Fr_er()} setzt sich neben dich. „Deine Knie zittern schon wieder“, flüstert {fr_er()}. „Meine auch.“
+    - "holz":
+        {Fr_er()} setzt sich wortlos neben dich und sieht mit dir aufs Wasser.
+    }
 }
 
 Ithren steht auf. „Ich gehe morgen nach Osten“, sagt er. „Du kannst mitkommen. Oder du gehst nach Hause, zu den Menschen, die auf dich warten. Beides ist richtig. Das ist das Schwierige daran.“
@@ -206,9 +232,9 @@ Und daneben, ganz frisch: ein Pfeil. Nach Osten.
 # bild: tagebuch/perle-7
 # tagebuch: Der Weg hinaus
 # karte: meridel-ganz
-Im Gasthaus, beim Licht einer einzelnen Kerze, schlägst du dein Buch ein letztes Mal für dieses Abenteuer auf.
+{grumak_ring:Im Halben Hauer|Unter dem Dach der Markthalle}, beim Licht einer einzelnen Kerze, schlägst du dein Buch ein letztes Mal für dieses Abenteuer auf.
 
-Du zeichnest die ganze Karte von Meridel. Lysmara am Meer, die Weiden, den Orin, die Minen, Vardholm in seiner Schlucht. Und dann, zum ersten Mal, malst du über den Rand des Kamms hinaus. Einen Fluss. Eine Stadt mit Pfählen. Einen Pfeil nach Osten.
+Du zeichnest die ganze Karte von Meridel. Lysmara am Meer, die Weiden, den Orin, die Minen, Vardholm in seiner Schlucht. Und dann, zum ersten Mal, malst du über den Rand des Kamms hinaus. Einen Fluss. Eine Stadt mit Pfählen. Einen Pfeil nach Osten.{grenzstein_wahl == "zeichnung": Und an den Rand den alten Grenzstein mit der Muschel und der Perle.}
 
 Darunter schreibst du: # handschrift
 
@@ -219,18 +245,28 @@ Darunter schreibst du: # handschrift
 - "gipfel":
     Ich bin über die Gipfel gegangen. Oben war der Wind.
 - "tiefe":
-    Ich bin unter dem Berg hindurchgegangen, am Herz vorbei.
+    Ich bin unter dem Berg hindurchgegangen, am Herzen vorbei.
 - "meer":
     Ich bin übers Meer gefahren, nachts, ohne Laterne.
 }
 { herz_beruhigt:
-    Ich habe dem Herz seinen Splitter zurückgegeben.
+    Ich habe dem Herzen seinen Splitter zurückgegeben.
 }
 { brief_uebergeben:
     Ich habe den Brief übergeben. Endlich.
 }
 { fesk_auftrag:
     Meine Schulden sind bezahlt. Mit einem Stein.
+- else:
+    { ausloeser == "schulden":
+        Fesks Päckchen habe ich nicht genommen. {bp()} zahlt es ab. Stück für Stück.
+    }
+}
+{ grenzstein_wahl == "gruss":
+    Am Grenzstein habe ich „Auf Wiedersehen“ gesagt. Nicht „Lebwohl“.
+}
+{ grenzstein_wahl == "kiesel":
+    In meiner Tasche liegt ein Kiesel aus Meridel.
 }
 { ausloeser == "flucht":
     Hier sucht mich niemand.
@@ -238,7 +274,7 @@ Darunter schreibst du: # handschrift
 { freund_kommt_mit:
     {freund()} ist bei mir.
 - else:
-    {freund()} ist zu Hause geblieben. Ich habe {goldknopf_gefunden:{fr_sein()}en Goldknopf|eine Erinnerung} in der Tasche.
+    {freund()} ist zu Hause geblieben. Ich habe {goldknopf_gefunden || freund_heimgeholt:{fr_sein()}en Goldknopf|eine Erinnerung} in der Tasche.
 }
 Hinter den Bergen sind die Dörfer leer. Die Städte, die noch stehen, sind laut. Das Schweigen kommt aus den Bergen. Aus Herzen aus Kristall. Und es gibt mehr als eins.
 Der Fremde heißt Ithren.

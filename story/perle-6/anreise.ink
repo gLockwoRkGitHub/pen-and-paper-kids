@@ -16,7 +16,7 @@ Die Eingeschriebenen. Gerufen nach Vardholm. Für das Werk.
     In der Reihe entdeckst du ein dünnes Gesicht mit strubbeligen schwarzen Haaren. Talin. Er sieht dich und hebt kaum merklich die Hand.
 }
 { magie_registriert == "waage":
-    Ein Söldner reitet auf dich zu und sieht auf deine Plakette. „Da ist ja noch einer“, sagt er. „In die Reihe, Rufer. Du wirst erwartet.“
+    Ein Söldner reitet auf dich zu und sieht auf deine Plakette. „Da ist ja noch {geschlecht == "w":eine|einer}“, sagt er. „In die Reihe, {geschlecht == "w":Ruferin|Rufer}. Du wirst erwartet.“
 }
 ->->
 
@@ -30,7 +30,7 @@ Am Tor stehen zwanzig Söldner. Niemand kommt hinein, der nicht eingeschrieben i
 Wie kommst du in die Festung?
 * {strell_schuldet} [Nach Hauptmann Strell fragen. Er schuldet dir etwas.]
     -> strell
-* {talin_hilft} [Dich als Talins Gehilfe in die Reihe der Eingeschriebenen stellen]
+* {talin_hilft} [Dich als Talins {geschlecht == "w":Gehilfin|Gehilfe} in die Reihe der Eingeschriebenen stellen]
     -> talin
 * {vardholm_hinweis || yrsa_getroffen} [Nach Yrsas Lieferkarren Ausschau halten]
     -> yrsa
@@ -59,7 +59,7 @@ Im Hof bleibt er stehen. „Was immer du hier willst“, sagt er leise, „tu es
 ~ vardholm_zugang = "talin"
 Du stellst dich neben Talin in die Reihe. Am Tor hält der Schreiber dich auf. „Plakette?“
 
-„Mein Gehilfe“, sagt Talin schnell. „Trägt mein Werkzeug. Ich bin Erd-Rufer, ich brauche Werkzeug.“
+„{geschlecht == "w":Meine Gehilfin|Mein Gehilfe}“, sagt Talin schnell. „Trägt mein Werkzeug. Ich bin Erd-Rufer, ich brauche Werkzeug.“
 
 Der Schreiber sieht euch beide an, dann die lange Reihe hinter euch, dann seufzt er und winkt. „Weiter.“
 ->->
@@ -90,8 +90,8 @@ Du wartest, bis es dunkel ist. Dort, wo die Mauer an den Fels der Schlucht stö�
     Du kommst hinauf. Beim Hinunterklettern rutschst du ab und landest in einem Wassertrog. Ein Pferd sieht dich vorwurfsvoll an. Aber niemand sonst.
 - else:
     Auf halber Höhe brechen dir zwei Steine unter den Fingern weg. Du klammerst dich fest, hängst, schwitzt. Oben hörst du Schritte. Ein Söldner beugt sich über die Mauer, sieht dich und starrt.
-    Dann zieht er dich hoch. „Noch einer, der zum Werk will?“, sagt er und lacht. „Komm, Kind. Rufer gehören in den Hof. Die Waagmeisterin will alle sehen.“
-    Er hält dich für einen Eingeschriebenen. Du widersprichst nicht.
-    ~ gesucht = true
+    Dann zieht er dich hoch. „Noch {geschlecht == "w":eine, die|einer, der} zum Werk will?“, sagt er und lacht. „Komm, Kind. Rufer gehören in den Hof. Die Waagmeisterin will alle sehen.“
+    Er hält dich für {geschlecht == "w":eine Eingeschriebene|einen Eingeschriebenen}. Du widersprichst nicht. Aber unten im Hof schreibt ein Schreiber dein Gesicht in sein Buch: „Ohne Plakette. Melden.“
+    ~ von_waage_notiert = true
 }
 ->->

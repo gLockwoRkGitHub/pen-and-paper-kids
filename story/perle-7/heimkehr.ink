@@ -3,7 +3,7 @@
 // =====================================================================
 
 === p7_aufbruch
-Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein Bündel, dein Buch, {kompass:Tickworts Kompass,} {singlampe:Mirks Lampe,} {herzsplitter:der Splitter in seinem Tuch,} und alles, was du in den letzten Wochen gelernt hast. Das wiegt am meisten und trägt sich am leichtesten.
+Am nächsten Morgen packst du deine Sachen. Viel ist es nicht. Ein Bündel, dein Buch, {kompass:Tickworts Kompass,} {singlampe:Mirks Lampe,} {herzsplitter:der Splitter in seinem Tuch,} und alles, was du in den letzten Wochen gelernt hast. Das wiegt am meisten und trägt sich am leichtesten.
 { freund_kommt_mit:
     -> freund_packt
 }
@@ -18,7 +18,7 @@ Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein B�
     Sie umarmt {freund()} lange. Dann sieht sie dich an. „Bring {fr_ihn()} mir wieder.“
     „Versprochen“, sagst du.
 - else:
-    „Ich hab ihr einen Brief geschrieben“, sagt {freund()} und sieht dabei auf die Stiefel. „Drei Seiten. Sagen konnte ich es ihr nicht. Sie hätte mich eingesperrt. Schon wieder.“
+    „Ich hab ihr einen Brief geschrieben“, sagt {freund()} und sieht dabei auf die Stiefel. „Drei Seiten. Sagen konnte ich es ihr nicht. Sie hätte mich eingesperrt.{freund_eingesperrt: Schon wieder.}“
     {Fr_er()} schluckt. Dann hebt {fr_er()} das Kinn. „Komm. Bevor ich es mir anders überlege.“
 }
 -> heimweg
@@ -31,8 +31,8 @@ Am Morgen nach dem großen Ruf packst du deine Sachen. Viel ist es nicht. Ein B�
 - else:
     „Ich bleib bei ihr“, sagt {freund()}. „Wenigstens eine Weile. Jemand muss ihr beibringen, wie man zuhört.“
 }
-{ goldknopf_gefunden:
-    Du ziehst den Goldknopf aus der Tasche. Den, den du im Zelt der Waage gefunden hast. Du hältst ihn {fr_ihm()} hin.
+{ goldknopf_gefunden || freund_heimgeholt:
+    Du ziehst den Goldknopf aus der Tasche. {goldknopf_gefunden:Den, den du im Zelt der Waage gefunden hast.|Den, den {fr_er()} dir in Wollmark geschenkt hat.} Du hältst ihn {fr_ihm()} hin.
     {freund()} schüttelt den Kopf und schließt deine Finger darum. „Behalt ihn. Dann hast du was von mir dabei. Und ich hab einen Grund, warum du zurückkommen musst. Meine Jacke ist ohne ihn nämlich nicht vollständig.“
 - else:
     {freund()} reißt einen Goldknopf von {fr_sein()}em Ärmel und drückt ihn dir in die Hand. „Damit du was von mir dabeihast. Und damit du zurückkommen musst. Meine Jacke ist ohne ihn nämlich nicht vollständig.“
@@ -44,16 +44,26 @@ Dann umarmt {fr_er()} dich, so fest, dass dir die Luft wegbleibt, und rennt zur�
 = heimweg
 { yrsa_in_vardholm:
     Auf der Straße hält ein Karren neben {freund_kommt_mit:euch|dir}. Yrsa sitzt auf dem Bock. „Die Körbe schmelze ich zu Hause ein“, sagt sie. „In der eigenen Esse. Steig auf.“
-    Den ganzen Tag rumpelt ihr die Spaltstraße hinunter. Yrsa redet kaum. Einmal, kurz vor Wollmark, sagt sie: „Fünfzig Jahre lang wollte ich nicht wissen, wofür ich schmiede. Jetzt weiß ich es. Das ist besser. Auch wenn es wehtut.“
+    Den ganzen Tag rumpelt ihr die Spaltstraße hinunter. Yrsa redet kaum. Einmal, kurz vor Wollmark, sagt sie: „Wissen tut weh. Nichtwissen tut später weh. Das ist schlimmer.“
+    { element == "feuer":
+        Am letzten Abend füllt sie dir die Glutlaterne mit frischer Kohle. „Stufe drei“, sagt sie. „Der Brand. Jetzt musst du das Wort ‚genug‘ noch besser lernen als vorher.“{beziehung_mentor >= 2: Dann, ganz leise: „Ich bin stolz auf dich.“}
+        ~ quelle = true
+    }
 - else:
     { funken_frei:
         Du gehst die Spaltstraße hinunter, zusammen mit den Eingeschriebenen, die nach Hause wollen. Es ist dieselbe lange Reihe wie auf dem Hinweg. Aber diesmal ist sie nicht still. Jemand singt. Jemand lacht. Ein kleines Mädchen lässt einen Wassertropfen über ihren Fingern tanzen, und ihre Mutter weint vor Freude.
     - else:
-        Du gehst die Spaltstraße hinunter, allein mit deinen Gedanken. Hinter dir wird der Kamm kleiner. Vor dir werden die Weiden grüner.
+        Du gehst die Spaltstraße hinunter{freund_kommt_mit:, {freund()} neben dir, und lange redet keiner von euch.|, allein mit deinen Gedanken.} Hinter dir wird der Kamm kleiner. Vor dir werden die Weiden grüner.
     }
+}
+{ talin_hilft && funken_frei:
+    Kurz hinter Vardholm, wo ein Feldweg von der Straße abzweigt, wartet Talin. „Da lang geht's zu meiner Mutter“, sagt er. Er stampft einmal auf, und ein Kiesel hüpft vor dir in die Luft. Dann grinst er und biegt ab.
 }
 { ruf_hirten >= 1:
     In Wollmark stehen die Hirten am Brunnen und winken. Einer läuft neben dir her und drückt dir einen ganzen Laib Schafskäse in die Hand. „Für die Reise“, sagt er. „Wir haben gehört, was in Vardholm war.“ Neuigkeiten laufen in den Weiden schneller als Schafe.
+}
+{ brina_freundin:
+    Hinter Wollmark, in einem kleinen Dorf an der Straße, sitzt eine alte Frau vor ihrem Haus in der Sonne, einen Jungen neben sich. Brina. Sie zeigt auf dich und flüstert dem Jungen etwas zu, und der Junge starrt dich an, mit offenem Mund.
 }
 Am Abend des zweiten Tages siehst du die Lichter von Lysmara. Und dahinter, rot und golden, versinkt die Sonne im Meer.
 ->->
@@ -66,8 +76,21 @@ Am Abend des zweiten Tages siehst du die Lichter von Lysmara. Und dahinter, rot 
 # bild: szene/heimkehr-lysmara
 Durch das Landtor, über die Orinbrücke, durch die Gassen. Alles ist, wie es war. Die Wasserräder drehen sich. Am Markt rufen die Händler. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
 -> p7_marktplatz ->
+{ jaro_gesprochen:
+    Unten an der Hafenmauer schleppt ein junger Mann mit Sommersprossen eine Kiste voller Fische. Jaro. {jaro_kugeln:„Ich hab's allen im Hafenviertel erzählt, das mit den Kugeln“, ruft er. „Meine Mutter hat die halbe Gasse zusammengetrommelt.“|„Fische sind wirklich leise“, ruft er. „Aber ich sing ihnen was vor.“}
+}
 { auftrag_p4 == 1:
     Vor der Tuchhalle steht Meister Kettrich und zählt Wollballen, die Dreifachbrille auf der Nase. Als er dich sieht, nickt er knapp. „Halber Auftrag. Halbe Wolle“, sagt er. „Aber ich weiß jetzt, warum. Das zählt auch.“
+}
+{ gilde:
+- "webstuhl_amboss":
+    {auftrag_p4 == 1:Dann kommt er herüber|Vor der Tuchhalle steht Meister Kettrich. Als er dich sieht, kommt er herüber} und drückt dir die Hand. „Regel zweiundvierzig: Mitglieder kommen zurück“, sagt er. „Die habe ich mir gerade ausgedacht. Sie gilt trotzdem.“
+- "weite_feder":
+    Am Haus der Weiten Feder lehnt Meister Orwin im Fenster, eine Brille auf der Nase, eine auf der Stirn. „Zeichne alles da draußen“, ruft er dir nach. „Besonders das, was keiner glaubt. Wir zeichnen, was ist.“
+- "phiole":
+    Über dem Hafen steigt violetter Rauch aus dem Schornstein der Phiole. Meisterin Ambra steht in der Tür und winkt mit einem rußigen Handschuh. „Schreib uns, was da draußen wächst“, ruft sie. „Und wenn es explodiert, erst recht.“
+- "leise_hand":
+    Im Gedränge am Markt stößt jemand gegen dich. Als du dich umdrehst, ist niemand da. Aber in deiner Tasche steckt ein Zettel, in winziger Schrift: „Die Hand vergisst niemanden.“ Darunter eine kleine Hand, die einen Finger an die Lippen legt.
 }
 { freund_kommt_mit:
     An der Apfelgasse bleibt {freund()} stehen. „Ich schlaf heute oben“, sagt {fr_er()} und nickt zur Oberstadt hinauf. „Ein letztes Mal im eigenen Bett. Morgen früh steh ich vor deiner Tür. Wehe, du bist schon weg.“
@@ -97,7 +120,7 @@ Du nickst. Über die Berge. Herausfinden, was das Schweigen ist. Und ob das Herz
         Am Markt hast du es vorhin gesehen: Neben dem Wachhaus hängt ein Zettel mit dem Zeichen der Waage, und darauf eine Zeichnung. Sie sieht dir nicht besonders ähnlich. Aber ähnlich genug.
         Du bist immer noch auf der Flucht. Und morgen musst du hier weg.
     - else:
-        Am Markt hast du vorhin nach Söldnern der Waage Ausschau gehalten. Es gibt keine mehr. Niemand sucht dich. Zum ersten Mal seit Wochen musst du nicht über die Schulter sehen.
+        Am Markt hast du vorhin nach Söldnern der Waage Ausschau gehalten. {funken_frei:Es gibt keine mehr.|Zwei stehen am Brunnen, aber sie sehen dich nicht einmal an.} Niemand sucht dich. Zum ersten Mal seit Wochen musst du nicht über die Schulter sehen.
         Und trotzdem willst du hinaus. Nicht mehr, um wegzulaufen. Sondern um anzukommen.
     }
 - "brief":
@@ -108,13 +131,21 @@ Du nickst. Über die Berge. Herausfinden, was das Schweigen ist. Und ob das Herz
 
 = fesk
 Vor der Tür steht ein Mann in einem grauen Mantel mit silbernen Knöpfen. Fesk. Er lüftet den Hut.
+{
+- vor_fesk_geflohen:
+    „Heute läufst du nicht weg, wie ich sehe“, sagt er. „Das ist ein Fortschritt.“
+- fesk_getaeuscht:
+    „Und heute bitte keine Geschichten“, sagt er. „Die letzte war gut. Zu gut.“
+- schulden_versprochen:
+    „Du hast mir versprochen zu zahlen“, sagt er. „Das Kontor erinnert sich an Versprechen.“
+}
 
 „Die vierzig Silberlinge“, sagt er freundlich. „Wir hatten Neumond gesagt.{fesk_aufschub: Dann zwei Wochen extra, weil du in einer Gilde bist. Auch die sind vorbei.} Neumond war vor einer Weile.“ Er zieht ein kleines, schweres Päckchen aus dem Mantel, verschnürt und mit silbernem Siegel. „Aber das Kontor ist großzügig. Ich höre, du gehst über die Berge. In Dornfurt, am ersten Fluss hinter dem Kamm, hat das Silbermark-Kontor eine Stube. Bring das dorthin, und die Schuld ist bezahlt. Für {pfand()}. Für immer.“
 * [Das Päckchen annehmen]
     ~ fesk_auftrag = true
     Du nimmst das Päckchen. Es ist schwerer, als es aussieht.
     „Nicht öffnen“, sagt Fesk. „Das ist keine Bitte.“ Er lüftet den Hut ein zweites Mal und geht.
-* [„Ich bin nicht Ihr Bote.“]
+* [„Ich bin nicht {geschlecht == "w":Ihre Botin|Ihr Bote}.“]
     Fesk zuckt mit den Schultern. „Wie du willst. Das Kontor hat Geduld. Und ein sehr gutes Gedächtnis.“ Er geht.
     {bp()} legt dir die Hand auf die Schulter. „Lass gut sein“, sagt {bp_er()}. „Wir zahlen es ab. Stück für Stück. Das ist nicht deine Last.“
 - -> besuche
@@ -195,7 +226,7 @@ Du zeigst ihm den Kompass. Die Nadel zeigt auf dich selbst, irgendwie, oder auf 
 = besuch_grumak
 ~ p7_besuche += 1
 # bild: szene/abschied-grumak
-Grumak sitzt am Marktbrunnen hinter seinen Säcken. Sie sind voller als beim letzten Mal. Seit der Rat in Vardholm aufgeräumt hat, kommen wieder Waren in die Stadt, sagt er.
+Grumak sitzt am Marktbrunnen hinter seinen Säcken. {waage_gestuerzt:Sie sind voller als beim letzten Mal. Seit der Rat in Vardholm aufgeräumt hat, kommen wieder Waren in die Stadt, sagt er.|{seraphine_einsicht:Sie sind voller als beim letzten Mal. Seit das Tor in Vardholm offen ist, kommen wieder Waren, sagt er.|Sie sind leerer als beim letzten Mal. „Das Tor bleibt zu“, brummt er. „Und mein Pfeffer bleibt draußen.“}}
 
 „Du gehst nach Osten“, sagt er, als du es ihm erzählst. „Natürlich gehst du nach Osten.“ Er wirft eine Nuss in die Glut. „Dann hör zu. Hinter dem Kamm, am ersten großen Fluss, liegt Dornfurt. Da wohnt mein Bruder Durgash. Er hat ein Gasthaus, Zum Halben Hauer. Das Essen ist schlecht, die Betten sind gut.“
 
@@ -230,7 +261,7 @@ Am Morgen sitzt du auf der Treppe vor dem Haus, das Buch auf den Knien, und schl
 - "schausteller":
     „Ein guter Abgang“, sagt Bonifaz und wischt sich die Augen, „ist die halbe Vorstellung. Geh so, dass sie dir nachwinken. Nicht so, dass sie dir nachrennen.“
 - "strassenkind":
-    „Ich kenne nur die Gassen hier“, sagt Mutter Kessel. „Aber eins weiß ich: Wer Freunde unterwegs hat, kommt immer irgendwo an. Wer keine hat, kommt nur an.“
+    „Ich kenne nur die Gassen hier“, sagt Mutter Kessel. „Aber eins weiß ich: Wer unterwegs Freunde findet, ist überall ein bisschen zu Hause. Wer keine findet, ist nur irgendwo.“
 - "botenlaeufer":
     „Ein Bote“, sagt Meister Holm, „nimmt den Weg, auf dem die Nachricht ankommt. Nicht den, auf dem er am schnellsten ist. Denk daran, was du trägst.“
 - "kartografenlehrling":
@@ -241,7 +272,7 @@ Am Morgen sitzt du auf der Treppe vor dem Haus, das Buch auf den Knien, und schl
 
 Meridel ist ein Kessel. Im Westen das Meer, an allen anderen Seiten der Kamm. Und es gibt nur eine Handvoll Wege hinaus.
 { spalt_offen:
-    Der Nyrrspalt. Das Tor von Vardholm ist für dich offen. Aber im Pass liegt noch das Grau.
+    Der Nyrrspalt. Das Tor von Vardholm ist für dich offen. Aber im Pass liegt noch das Graue.
 - else:
     Der Nyrrspalt. Das Tor von Vardholm bleibt für dich zu.
 }
@@ -266,13 +297,16 @@ Du legst den Finger auf die Karte.
     „Über die Berge“, sagst du. „Oben ist der Wind.“
 * {tiefe_stiege_weg} [Unter dem Berg]
     ~ p7_route = "tiefe"
-    „Unter dem Berg“, sagst du. „Am Herz vorbei.“
+    „Unter dem Berg“, sagst du. „Am Herzen vorbei.“
 * {seeweg_da} [Übers Meer]
     ~ p7_route = "meer"
     „Übers Meer“, sagst du. „Wo {freund_kommt_mit:uns|mich} keiner sucht.“
 -
 { freund_kommt_mit:
     {freund()} nickt. „Dann los.“
+}
+{ (kobold_gerettet || grisk_begleitet) && p7_route != "tiefe":
+    Am Ende der Gasse sitzt ein Kobold mit Grubenlampe auf einem Fass. Grisk. „Grisk hat gehört, dass du gehst“, sagt er und hebt die Lampe. „Grisk vergisst nicht.“
 }
 Der Kompass in deiner Tasche zittert. Die Nadel zeigt zurück, auf das Haus hinter dir. Nach Hause.
 
