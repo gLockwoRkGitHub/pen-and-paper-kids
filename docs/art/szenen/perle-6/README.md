@@ -142,7 +142,7 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `szene-hinter-dem-stall-liora` / `-cassian` | 3 / 3 | Kind ohne Jacke im weißen Hemd |
 | `szene-festmahl-vardholm` | 3 | – |
 | `szene-funken-frei` | 3 | Die freigelassenen Funken sind kaum zu sehen |
-| `szene-schweigen-im-spalt` | 10 (Runde 2, 19.10.2026) | Runde 1 wirkte wie Nebel; jetzt klar und farblos. Kein Spiegel mit Riss erkennbar |
+| `szene-schweigen-im-spalt` | 11 (Runde 2, 19.10.2026) | Runde 1 wirkte wie Nebel; jetzt klar und farblos. Seed 10 hatte rechts ein halbes Pferd (von Pasco bemerkt) und wurde durch Seed 11 ersetzt: ein ganzes graues Pferd. Kein Spiegel mit Riss erkennbar |
 | `szene-ruf-gross-erde` / `-feuer` / `-wasser` / `-wind` | 3 / 2 / 3 / 3 | – |
 | `entdeckung-vardholm-morgen` | 2 | – |
 | `tagebuch-perle-6` | 5 | Buch auf Tisch; unleserliche Notizen |
