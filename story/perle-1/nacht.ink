@@ -124,7 +124,7 @@ Hinter dir rumpelt ein Karren über das Pflaster. Du drehst dich um. Als du wied
 
 = eintreiber
 # bild: szene/eintreiber-fesk
-Als du durchnässt zurückkommst, wartet jemand vor der Tür.
+Als du durchnässt zurückkommst, wartet jemand {hintergrund == "schiffsjunge":unten an der Laufplanke|vor der Tür}.
 
 Ein dürrer Mann in einem silbergrauen Mantel, mit einem dicken Buch unter dem Arm und einer Nase, die aussieht, als könnte sie Münzen riechen. Auf seinem Kragen glänzt eine kleine Silbermünze: das Zeichen des Silbermark-Kontors.
 
@@ -132,7 +132,7 @@ Ein dürrer Mann in einem silbergrauen Mantel, mit einem dicken Buch unter dem A
 
 „Nicht da.“
 
-„Wie bedauerlich.“ Fesk schlägt sein Buch auf. „Vierzig Silbermark. Geliehen vor einem Jahr, fällig seit gestern. Ist das Geld bis zum nächsten Neumond nicht da, nimmt das Kontor {pfand()}.“
+„Wie bedauerlich.“ Fesk schlägt sein Buch auf. „Vierzig Silberlinge. Geliehen vor einem Jahr, fällig seit gestern. Ist das Geld bis zum nächsten Neumond nicht da, nimmt das Kontor {pfand()}.“
 
 Er klappt das Buch zu und mustert dich. „Und weil {bp()} nicht da ist, rede ich eben mit dir.“
 * [„Ich werde bezahlen. Irgendwie.“]
@@ -145,7 +145,7 @@ Er klappt das Buch zu und mustert dich. „Und weil {bp()} nicht da ist, rede ic
     -> fesk_hinhalten(0)
 * {hintergrund == "schausteller"} [(Schausteller) Eine kleine Vorstellung geben, bis er die Fassung verliert (Ausstrahlung +1)]
     -> fesk_hinhalten(1)
-* [Durch die Hintertür verschwinden]
+* [{hintergrund == "schiffsjunge":Über die Bordwand verschwinden|{hintergrund == "schausteller":Hinten aus dem Wagen springen und verschwinden|Durch die Hintertür verschwinden}}]
     ~ pkt_flucht += 1
     ~ vor_fesk_geflohen = true
     ~ aendern(ruf_silbermark, -1)
@@ -292,13 +292,22 @@ Du wachst auf, weil draußen eine Möwe kreischt, als ginge es um ihr Leben.
 - "schulden":
     # ausloeser: schulden
     An der Tür klebt ein Zettel mit einem silbernen Stempel.
-    „MAHNUNG. Vierzig Silbermark bis Neumond. Andernfalls Pfändung: {pfand()}.“
+    „MAHNUNG. Vierzig Silberlinge bis Neumond. Andernfalls Pfändung: {pfand()}.“
     Darunter steht kleiner: „Alternativ: Lieferauftrag jenseits des Nyrrspalts. Auskunft im Kontor.“
-    Vierzig Silbermark. So viel Geld hast du noch nie auf einem Haufen gesehen. Aber eine Lieferung von jenseits der Berge … das ist eine Möglichkeit. Vielleicht die einzige.
+    Vierzig Silberlinge. So viel Geld hast du noch nie auf einem Haufen gesehen. Aber eine Lieferung von jenseits der Berge … das ist eine Möglichkeit. Vielleicht die einzige.
 - "flucht":
     # ausloeser: flucht
-    Stiefelschritte vor dem Haus. Viele. Du schiebst den Vorhang einen Spalt zur Seite.
-    Söldner der Goldenen Waage gehen von Tür zu Tür.
+    { hintergrund:
+    - "schiffsjunge":
+        Stiefelschritte auf dem Kai. Viele. Du spähst über die Reling.
+        Söldner der Goldenen Waage gehen von Schiff zu Schiff.
+    - "schausteller":
+        Stiefelschritte vor dem Wagen. Viele. Du schiebst den Vorhang einen Spalt zur Seite.
+        Söldner der Goldenen Waage gehen von Wagen zu Wagen.
+    - else:
+        Stiefelschritte vor dem Haus. Viele. Du schiebst den Vorhang einen Spalt zur Seite.
+        Söldner der Goldenen Waage gehen von Tür zu Tür.
+    }
     { gesehen_worden:
         „Wir suchen jemanden, der letzte Nacht am Nordkai war“, hörst du einen sagen. „Jung. Schnell. Nass bis auf die Knochen.“
     - else:

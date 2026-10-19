@@ -90,8 +90,8 @@ Am Kai lachen ein paar Hafenarbeiter. „Lass den Wurm doch baden!“
     ~ aendern(ruf_kobolde, 1)
     Du greifst zu, verlierst den Halt und fällst kopfüber ins Hafenbecken.
     Das Wasser ist kalt und grün und dunkel. Und doch: Für einen Moment fühlt es sich nicht feindlich an. Es trägt dich, als würde es dich kennen.
-    Dann klatscht das Netz neben dir ins Wasser. Grisk zappelt heraus, packt dich am Kragen und zieht dich mit erstaunlicher Kraft zur Kaitreppe.
-    „Großer Held“, keucht er, als ihr beide tropfend auf den Stufen sitzt. „Kann nicht retten. Kann nicht schwimmen. Aber hat es versucht.“ Er grinst mit spitzen Zähnen. „Grisk mag das trotzdem.“
+    Dann klatscht das Netz neben dir ins Wasser. Grisk zappelt heraus, packt dich am Kragen und zieht dich am Seil des Netzes zur Kaitreppe.
+    „{geschlecht == "w":Große Heldin|Großer Held}“, keucht er, als ihr beide tropfend auf den Stufen sitzt. „Kann nicht retten. Kann nicht schwimmen. Aber hat es versucht.“ Er grinst mit spitzen Zähnen. „Grisk mag das trotzdem.“
 }
 -> arbeit
 
@@ -277,7 +277,7 @@ Auf halbem Weg zum Brunnen versperren zwei Stadtwachen die Gasse. „Kontrolle! 
     ~ temp e_b = probe(geschick)
     ~ probe_zeile("Geschick", e_b)
     -> kontrolle_ergebnis(e_b)
-* {hintergrund == "strassenkind" || hintergrund == "botenlaeufer"} [(Ortskenntnis) Kehrtmachen und durch die Hinterhöfe abkürzen]
+* {hintergrund == "strassenkind" || hintergrund == "botenlaeufer"} [({hintergrund == "strassenkind":Straßenkind|Botenläufer}) Kehrtmachen und durch die Hinterhöfe abkürzen]
     Du drehst um, bevor die Wachen dich richtig bemerken. Durch eine Hoftür, über eine Mauer, unter einer Wäscheleine voller Laken hindurch, und eine Minute später stehst du hinter dem Brunnen.
     Tickwort keucht. Das heißt, er pfeift sehr schnell.
     -> grumak
@@ -328,6 +328,10 @@ Grumak dreht das Päckchen in seinen riesigen Händen. Dann sieht er die Schnur.
     - ERFOLG:
         „Fink hatte es eilig“, sagst du. „Der Knoten ging unterwegs auf, ich habe ihn neu gebunden.“
         Grumak sieht dich lange an. Dann zuckt er die Schultern. „Kann passieren.“
+    - JA_ABER:
+        ~ aendern(ruf_leise_hand, -1)
+        „Fink hatte es eilig“, sagst du. „Der Knoten ging unterwegs auf.“
+        Grumak brummt. „Vielleicht.“ Er dreht das Päckchen noch einmal hin und her. „Aber Fink wird trotzdem fragen, wer seinen Knoten neu gebunden hat.“
     - else:
         ~ aendern(ruf_leise_hand, -2)
         Grumak lacht, tief und dröhnend. „Netter Versuch.“ Dann wird er ernst. „Fink wird davon hören.“
@@ -375,13 +379,13 @@ Mit dünner Tinte ist ein Pfad eingezeichnet, der sich vom Rand der Weiden hinau
 ~ aendern(ruf_leise_hand, -2)
 ~ silber += 2
 
-Sie schiebt dir zwei Silberlinge hin. „Finderlohn.“ Dann senkt sie die Stimme. „Und ein Rat: Halte dich von der Goldenen Waage fern. Seit ein paar Tagen gehen ihre Leute im Rathaus ein und aus, als gehöre es ihnen. Vielleicht tut es das bald.“
+Sie schiebt dir zwei Silberlinge hin. „Finderlohn.“ Dann senkt sie die Stimme. „Und ein Rat: Halte dich von der Goldenen Waage fern. Seit ein paar Tagen gehen ihre Leute in der Ratshalle ein und aus, als gehöre es ihnen. Vielleicht tut es das bald.“
 
 Draußen vor dem Fenster siehst du Fink. Er sieht dich auch. Dann ist er in der Menge verschwunden.
 
 Auf dem Rückweg kommst du am Brunnen vorbei. Dort streitet ein riesiger Ork mit grauen Strähnen lautstark mit einer Kundin.
 ~ grumak_gewarnt = true
-„Leer, sag ich dir! Alle Dörfer hinter den Bergen! Und die Gnolle rennen nach Süden, als wäre ihnen etwas auf den Fersen!“ Er wirft die Hände in die Luft. „Und der Rat will den Spalt dichtmachen. Wegen der Gnolle! Pah!“
+„Leer, sag ich dir! Alle Dörfer hinter den Bergen! Und die Gnolle rennen nach Süden, als wäre ihnen etwas auf den Fersen!“ Er wirft die Hände in die Luft. „Und jetzt heißt es, die Waage will den Spalt dichtmachen. Wegen der Gnolle! Pah!“
 ~ auftraege += 1
 -> p1_stadt
 
@@ -478,6 +482,11 @@ Hinter euch klackt es. Der Obstkarren des Gnoms ist ein Dampfkarren mit einem kl
         ~ aendern(beziehung_tickwort, 1)
         Du hörst nur den ersten Satz, und der reicht. Roter Griff, zweimal ziehen. Der Karren stößt einen langen, beleidigten Pfiff aus und bleibt stehen.
         „… und das hätte ich dann noch erklärt“, sagt Tickwort zufrieden.
+    - JA_ABER:
+        ~ obstkarren_gestoppt = true
+        Roter Griff, das hast du gehört. Dann ziehst du den Bremshebel. Einmal.
+        Der Karren bleibt so plötzlich stehen, dass alle Äpfel auf einmal nach vorn fliegen, über das Pflaster und mitten in einen Stand mit frisch gewaschener Wäsche.
+        „… denn einmal bedeutet: Vollbremsung“, beendet Tickwort seinen Satz.
     - else:
         Bis Tickwort beim vierten Unterpunkt angekommen ist, ist der Karren schon im Marktbrunnen gelandet. Mit einem gewaltigen Platschen.
         „… und dann hätte man ihn angehalten“, beendet Tickwort leise seinen Satz.
@@ -503,7 +512,7 @@ Später sitzt ihr auf einer Treppe am Rand der Oberstadt. {freund()} pflückt si
 
 „Ist im Handel.“ {freund()} verdreht die Augen. „Furchtbar langweilig. Zahlen, Zahlen, Zahlen. Sie wollen, dass ich lerne, wie man Silber zählt. Ich will lernen, wie man über Berge klettert.“
 
-Dann entdeckt {fr_er()} Tickwort, und die Augen von {freund()} werden riesig. „Ist das ein Erklärautomat? Ein echter? Dritte Baureihe?“
+Dann sieht {fr_er()} Tickwort zum ersten Mal richtig an, und die Augen von {freund()} werden riesig. „Ist das ein Erklärautomat? Ein echter? Dritte Baureihe?“
 
 Tickworts Messingbacken laufen rötlich an. Das sollte bei Messing eigentlich gar nicht gehen.
 
@@ -522,8 +531,7 @@ Dann leuchten die Augen von {freund()} wieder auf. „Aber wenn du gehst … nim
     ~ freund_will_mit = true
     ~ aendern(beziehung_freund, 1)
     {freund()} strahlt so sehr, dass du blinzeln musst.
-* [„Das ist gefährlich. Du solltest zu Hause bleiben.“]
-    ~ freund_will_mit = true
+* (gefaehrlich) [„Das ist gefährlich. Du solltest zu Hause bleiben.“]
     „Gefährlich?“ {freund()} grinst. „Endlich.“
 * [„Ich kenne dich doch gar nicht.“]
     „Noch nicht“, sagt {freund()}. „Aber das ändert sich gerade.“

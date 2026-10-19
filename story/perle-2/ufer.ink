@@ -21,14 +21,23 @@ Und auf einem Poller am Ufer sitzt jemand, der hier ganz und gar nicht hingehör
 # bild: figur/freund-{freund_kurz()}
 {freund()} trägt eine viel zu große Arbeiterjacke, eine Mütze, unter der {fr_sein()}e Haare hervorquellen, und Schuhe aus feinstem Leder mit silbernen Schnallen. Als {fr_er()} dich sieht, springt {fr_er()} auf.
 
-„Da bist du ja! Ich warte schon seit Sonnenaufgang. Na ja, seit kurz nach Sonnenaufgang. Magister Pell schläft lange.“ {Fr_er()} zupft an der Jacke. „Ich bin verkleidet. Merkt man gar nicht, oder?“
+„Da bist du ja! Ich warte schon seit Sonnenaufgang. Na ja, seit kurz nach Sonnenaufgang. Magister Pell schläft lange.“
+{
+- freund_will_mit:
+    „Du hast gesagt, zu zweit ist es weniger langweilig“, sagt {freund()}. „Also bin ich da.“
+- p1_freund.kennenlernen.gefaehrlich:
+    „Du hast gesagt, es ist gefährlich“, sagt {freund()}. „Darum bin ich ja hier.“
+- else:
+    „Du hast gesagt, du kennst mich nicht“, sagt {freund()}. „Heute kennst du mich ein bisschen mehr.“
+}
+{Fr_er()} zupft an der Jacke. „Ich bin verkleidet. Merkt man gar nicht, oder?“
 * [„Gar nicht. Bis auf die Schuhe.“]
     ~ aendern(beziehung_freund, 1)
     {freund()} sieht an sich herunter und seufzt. „Die Schuhe. Immer die Schuhe.“ Dann grinst {fr_er()}. „Egal. Was machen wir?“
 * [„Du solltest nicht hier sein. Nach gestern …“]
     „Gerade nach gestern!“, sagt {freund()}. „Der Spalt ist zu. Du suchst einen anderen Weg. Und ich will dabei sein, wenn du ihn findest.“
 * [„Wie hast du mich gefunden?“]
-    „Du hast gesagt, du gehst zum Fluss.“ {freund()} zuckt mit den Schultern. „Und hier ist nur ein Fluss.“
+    „Ich bin dir gestern Abend nachgeschlichen. Bis zur Goblin-Werkstatt. Und Tickwort redet sehr laut.“ {freund()} zuckt mit den Schultern.
 - Du erzählst, was Tickwort gestern gesagt hat: Wer Erz aus den Bergen holt, kennt die Berge. Wenn jemand einen anderen Weg hinaus kennt, dann hier.
 
 * [Dich ans Ufer hocken und die Hand ins kalte Flusswasser halten]
@@ -66,7 +75,7 @@ Und auf einem Poller am Ufer sitzt jemand, der hier ganz und gar nicht hingehör
 === p2_erzlaende
 # karte: erzlaende
 # bild: szene/erzlaende
-An der Erzlände legen flache Kähne an, schwer beladen mit dunklem Gestein. Sie kommen den Orin herunter, direkt aus den Bergen. Kobolde mit Grubenlampen auf den Helmen schaufeln das Erz in die Karren der Gilde.
+An der Erzlände legen flache Kähne an, schwer beladen mit grauem Gestein. Sie kommen den Orin herunter, direkt aus den Bergen. Kobolde mit Grubenlampen auf den Helmen schaufeln das Erz in die Karren der Gilde.
 {
 - kobold_gerettet:
     -> grisk_freund
@@ -97,7 +106,7 @@ Die anderen Kobolde zischen leise.
         ~ grisk_wiedergesehen = true
         ~ aendern(ruf_kobolde, 1)
         „Ich hätte dir helfen sollen“, sagst du. „Es tut mir leid.“
-        Grisk hält inne. Lange. Dann dreht er sich um. „Großer Mensch sagt Entschuldigung“, murmelt er. „Selten.“ Er wirft die Schaufel weg. „Gut. Grisk redet. Ein bisschen.“
+        Grisk hält inne. Lange. Dann dreht er sich um. „{volk_wort()} sagt Entschuldigung“, murmelt er. „Selten.“ Er wirft die Schaufel weg. „Gut. Grisk redet. Ein bisschen.“
         -> stollen
     - JA_ABER:
         Grisk hört dir zu. „Worte sind leicht“, sagt er. „Grisk merkt sich Taten.“ Mehr sagt er nicht. Aber als du gehst, ruft er dir nach: „Nicht tief in den Berg gehen! Der Berg brummt!“
@@ -112,6 +121,9 @@ Die anderen Kobolde zischen leise.
     -> erz_ende
 
 = mirk
+{ p1_hafen:
+    Hinter den Kähnen winkt ein grauschuppiger Kobold. Grisk. „{geschlecht == "w":Große Heldin|Großer Held}, {geschlecht == "w":die|der} nicht schwimmt!“, ruft er. „Mirk, das ist Freund.“
+}
 Eine alte Koboldin mit einer gesprungenen Brille auf der Nase brüllt Befehle. Sie heißt Mirk, das steht in Kreide auf ihrem Helm. Als du sie ansprechen willst, winkt sie ab. „Keine Zeit! Erz muss raus!“
 * [Mit anpacken und einen Erzsack schleppen (Kraft)]
     ~ temp e = probe(kraft)
@@ -136,6 +148,10 @@ Eine alte Koboldin mit einer gesprungenen Brille auf der Nase brüllt Befehle. S
         „Warum kommt nur noch Erz aus den oberen Stollen?“, fragst du. „Das hier ist alles grau. Das dunkle Erz von tief unten fehlt.“
         Mirk erstarrt. Dann legt sie die Schaufel weg. „Kluges Kind“, sagt sie leise. „Komm.“
         -> stollen
+    - JA_ABER:
+        „Warum ist das Erz hier so grau?“, fragst du.
+        Mirk kneift die Augen zusammen. „Kluges Kind. Aber Mirk hat nur kurz Zeit.“ Sie lässt die Schaufel nicht los, während sie redet, und schaut immer wieder zu den Kähnen.
+        -> stollen
     - else:
         Mirk sieht dich an, als hättest du gefragt, ob Steine schwimmen können. „Keine Zeit für Fragen“, sagt sie und wendet sich ab.
         -> erz_ende
@@ -155,7 +171,7 @@ Eine alte Koboldin mit einer gesprungenen Brille auf der Nase brüllt Befehle. S
 „Außerdem gehören die Minen der Gilde“, fährt {grisk_wiedergesehen:Grisk|Mirk} fort. „Webstuhl und Amboss. Wer in die Minen will, braucht ein Gildenzeichen.“{grisk_wiedergesehen: Grisk grinst. „Oder Grisk.“}
 { ausloeser == "verschwunden":
     ~ bp_spur = true
-    Dann fällt {grisk_wiedergesehen:Grisk|Mirk} noch etwas ein. „Du bist nicht die Erste, die fragt. Vor zwei Tagen kam {bp_ist_m():ein Mann|eine Frau}. Mit einem Seil über der Schulter. Wollte alles über die alten Stollen wissen.“
+    Dann fällt {grisk_wiedergesehen:Grisk|Mirk} noch etwas ein. „Du bist nicht {geschlecht == "w":die Erste|der Erste}, {geschlecht == "w":die|der} fragt. Vor zwei Tagen kam {bp_ist_m():ein Mann|eine Frau}. Mit einem Seil über der Schulter. Wollte alles über die alten Stollen wissen.“
     Dein Herz schlägt schneller. {bp()}.
 }
 -> erz_ende
@@ -163,7 +179,7 @@ Eine alte Koboldin mit einer gesprungenen Brille auf der Nase brüllt Befehle. S
 = erz_ende
 * [Die Hand auf einen der Erzbrocken legen]
     ~ neigung_erde += 1
-    Du legst die Hand auf einen der dunklen Brocken. Er ist kühl, und als du die Augen schließt, meinst du ganz tief darin etwas zu spüren. Ein leises Summen. Wie ein Lied, das jemand hinter einer dicken Mauer singt.
+    Du legst die Hand auf einen der grauen Brocken. Ganz unten im Haufen liegt ein einziger dunkler. Er ist kühl, und als du die Augen schließt, meinst du ganz tief darin etwas zu spüren. Ein leises Summen. Wie ein Lied, das jemand hinter einer dicken Mauer singt.
 * [Weitergehen]
     Ihr verlasst die Erzlände.
 - ~ spuren += 1
@@ -176,12 +192,12 @@ Eine alte Koboldin mit einer gesprungenen Brille auf der Nase brüllt Befehle. S
 === p2_tuchhalle
 # karte: tuchhalle
 # bild: szene/tuchhalle
-Die Tuchhalle ist so groß wie ein Kirchenschiff. Hunderte Webstühle klappern im Takt der Wasserräder, und von der Decke hängen Stoffbahnen in allen Farben: Rot wie Mohn, Blau wie Tinte, Gelb wie Senf. {freund()} bleibt mit offenem Mund stehen.
+Die Tuchhalle ist so groß wie drei Scheunen hintereinander. Hunderte Webstühle klappern im Takt der Wasserräder, und von der Decke hängen Stoffbahnen in allen Farben: Rot wie Mohn, Blau wie Tinte, Gelb wie Senf. {freund()} bleibt mit offenem Mund stehen.
 
 In der Mitte der Halle steht ein Gnom auf einem Podest und schaut durch ein Fernrohr auf die Webstühle. Auf seiner Weste glänzt ein Abzeichen: ein Webschiffchen, gekreuzt mit einem Hammer.
 
 „Meister Kettrich“, flüstert eine Weberin dir zu. „Hallenmeister. Hat für alles eine Regel. Für wirklich alles.“
-{ ausloeser == "schulden" || schulden_versprochen || fesk_getaeuscht:
+{ ausloeser == "schulden" || schulden_versprochen || fesk_getaeuscht || vor_fesk_geflohen:
     -> fesk
 }
 { gesehen_worden:
@@ -194,6 +210,9 @@ In der Mitte der Halle steht ein Gnom auf einem Podest und schaut durch ein Fern
 Neben dem Podest steht ein dürrer Mann in einem silbergrauen Mantel und blättert in einem dicken Buch. Fesk.
 
 Er sieht dich, bevor du dich verstecken kannst. „Ah“, sagt er und lächelt sein dünnes Lächeln. „Mein Lieblingsschuldner. Der Neumond kommt näher, weißt du. Jeden Tag ein Stückchen.“
+{ vor_fesk_geflohen:
+    Er tippt auf sein Buch. „Hier gibt es keine Hintertür, nicht wahr? Ich sagte ja: Davonlaufen ist eine teure Antwort.“ Er schreibt etwas hinein und unterstreicht es.
+}
 
 Dann wendet er sich wieder Kettrich zu. „Wie gesagt, Meister Kettrich: Das Kontor gibt Ihnen gern noch einen Kredit. Jetzt, wo die Goldene Waage den Spalt geschlossen hat und Ihre Zwergenkunden jenseits der Berge nicht mehr kaufen können …“
 
@@ -239,8 +258,8 @@ Kettrich klettert von seinem Podest und mustert euch durch eine Brille mit drei 
         „Regel vierzehn“, sagt Kettrich. „Keine Auskünfte an Unbekannte.“ Er klettert zurück auf sein Podest. Aber eine Weberin flüstert dir im Hinausgehen zu, was alle in der Halle wissen.
         -> kettrich_geruecht
     }
-* {hintergrund == "kartografenlehrling" || hintergrund == "botenlaeufer"} [(Kontakte) Erwähnen, für wen du schon gearbeitet hast]
-    Du erzählst, für wen du schon gearbeitet hast. Kettrich zieht die Augenbrauen hoch. „Ein Mensch mit Referenzen. Wie erfrischend.“
+* {hintergrund == "kartografenlehrling" || hintergrund == "botenlaeufer"} [({hintergrund == "kartografenlehrling":Kartografenlehrling|Botenläufer}) Erwähnen, für wen du schon gearbeitet hast]
+    Du erzählst, für wen du schon gearbeitet hast. Kettrich zieht die Augenbrauen hoch. „Jemand mit Empfehlungen. Wie erfrischend.“
     ~ aendern(ruf_webstuhl_amboss, 1)
     -> kettrich_redet
 * [{freund()} reden lassen]
@@ -275,7 +294,7 @@ Dann mustert er dich noch einmal. „Einen anderen Weg hinaus? Die Minen gehöre
 === p2_schmiede
 # karte: grosse-schmiede
 # bild: szene/grosse-schmiede
-Die Große Schmiede hat eine Esse, so groß wie ein Zimmer. Das Feuer darin brüllt, angefacht von Blasebälgen, die das größte Wasserrad des Viertels antreibt. Funken stieben bis unter das Dach.
+Die Große Schmiede hat eine Esse, so groß wie ein Zimmer. Das Feuer darin brüllt. Das größte Wasserrad des Viertels treibt die Blasebälge an. Funken stieben bis unter das Dach.
 
 Und dort, mitten in der Hitze, steht sie: die alte Frau vom Marktplatz. Lederschürze, rußige Hände, graues Haar unter einem Tuch. Sie schmiedet ein Hufeisen, und jeder ihrer Schläge sitzt genau.
 ~ yrsa_getroffen = true

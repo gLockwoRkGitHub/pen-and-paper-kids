@@ -20,7 +20,7 @@ Bis heute Nacht.
     Diesmal seid ihr länger in Lysmara geblieben als sonst. Maren sagt, sie warte auf eine Nachricht. Mehr sagt sie nicht.
 - "schausteller":
     Die Wagen der Funkelnden Narren stehen auf dem Hafenplatz, bunt bemalt und ein wenig schief. Seit du denken kannst, gehörst du zur Truppe. Du jonglierst, du schminkst dich, du sammelst die Münzen ein.
-    Und Bonifaz, der Prinzipal, mit seinem Bauch wie ein Fass und seiner Stimme wie eine Trompete, hat dir beigebracht, dass man jedes Publikum fesseln kann. Man muss nur wissen, wo es kitzelt.
+    Und Bonifaz, der Chef der Truppe, mit seinem Bauch wie ein Fass und seiner Stimme wie eine Trompete, hat dir beigebracht, dass man jedes Publikum fesseln kann. Man muss nur wissen, wo es kitzelt.
 - "strassenkind":
     Du hast kein Zuhause, aber du hast die Gassen. Du kennst jede Abkürzung zwischen Hafen und Markt, jeden lockeren Stein, jedes Dach, über das man rennen kann.
     Und du hast Mutter Kessel. Die alte Frau betreibt eine Garküche am Fischmarkt, und an ihrem Herd ist immer ein Platz für dich. Und eine Schüssel Suppe, die viel zu heiß ist.

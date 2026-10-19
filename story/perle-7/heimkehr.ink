@@ -106,7 +106,7 @@ Du nickst. Über die Berge. Herausfinden, was das Schweigen ist. Und ob das Herz
 = fesk
 Vor der Tür steht ein Mann in einem grauen Mantel mit silbernen Knöpfen. Fesk. Er lüftet den Hut.
 
-„Die vierzig Silbermark“, sagt er freundlich. „Wir hatten Neumond gesagt. Neumond war vor einer Weile.“ Er zieht ein kleines, schweres Päckchen aus dem Mantel, verschnürt und mit silbernem Siegel. „Aber das Kontor ist großzügig. Ich höre, du gehst über die Berge. In Dornfurt, am ersten Fluss hinter dem Kamm, hat das Silbermark-Kontor eine Stube. Bring das dorthin, und die Schuld ist bezahlt. Für {pfand()}. Für immer.“
+„Die vierzig Silberlinge“, sagt er freundlich. „Wir hatten Neumond gesagt. Neumond war vor einer Weile.“ Er zieht ein kleines, schweres Päckchen aus dem Mantel, verschnürt und mit silbernem Siegel. „Aber das Kontor ist großzügig. Ich höre, du gehst über die Berge. In Dornfurt, am ersten Fluss hinter dem Kamm, hat das Silbermark-Kontor eine Stube. Bring das dorthin, und die Schuld ist bezahlt. Für {pfand()}. Für immer.“
 * [Das Päckchen annehmen]
     ~ fesk_auftrag = true
     Du nimmst das Päckchen. Es ist schwerer, als es aussieht.

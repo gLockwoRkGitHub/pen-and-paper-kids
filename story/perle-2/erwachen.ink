@@ -5,7 +5,7 @@
 
 === p2_turm
 # bild: szene/faerberturm-feuer
-Am frühen Nachmittag merkst du plötzlich, dass {freund()} nicht mehr neben dir ist.
+Kurz nach Mittag merkst du plötzlich, dass {freund()} nicht mehr neben dir ist.
 
 Du drehst dich einmal um dich selbst. Dann siehst du {fr_ihn()}. Hoch oben.
 
@@ -55,7 +55,7 @@ Oben auf der Plattform hört {freund()} auf zu winken.
 = erwachen
 „{freund()}!“, schreist du.
 
-Oben auf der Plattform steht {freund()} am Geländer. Das Gesicht ist weiß. Unter {fr_ihm()} brennt die letzte Stoffbahn, und die Flammen lecken schon an den Planken.
+Oben auf der Plattform steht {freund()} am Geländer. {Fr_sein()} Gesicht ist weiß. Unter {fr_ihm()} brennt die letzte Stoffbahn, und die Flammen lecken schon an den Planken.
 
 # tagebuch: Das Erwachen
 Und in diesem Moment passiert etwas in dir.
@@ -85,7 +85,7 @@ Es fühlt sich an, als würde sich eine Tür öffnen, von der du nicht wusstest,
 - else:
     # bild: szene/erwachen-erde-{freund_kurz()}
     Du presst die Hände auf den Boden. Und der Boden antwortet.
-    Das Pflaster bricht auf. Aus der Erde schieben sich Steine, einer über dem anderen, eine Treppe aus Fels, die neben dem brennenden Turm in die Höhe wächst, Stufe um Stufe, bis hinauf zur Plattform. Gleichzeitig hebt sich der Boden am Fuß des Turms wie eine Welle und begräbt die brennenden Kohlen und das Stroh unter sich.
+    Das Pflaster bricht auf. Aus der Erde schieben sich Steine, einer über dem anderen. Eine Treppe aus Fels wächst neben dem brennenden Turm in die Höhe, Stufe um Stufe, bis hinauf zur Plattform. Gleichzeitig hebt sich der Boden am Fuß des Turms wie eine Welle und begräbt die brennenden Kohlen und das Stroh unter sich.
     {freund()} klettert die Felsentreppe herunter, zitternd, rußig. Und am Leben. # tagebuch_ende
 }
 
@@ -155,8 +155,8 @@ Sie beugt sich vor. „Und jetzt hör gut zu, denn das ist das Wichtigste: Die S
 
 „Schließ die Augen. Hör in dich hinein. Welches Element ruft dich?“
 
-Du schließt die Augen. Und tatsächlich: Wenn du ganz still bist, hörst du sie alle vier. Ganz leise. Das Rauschen des Flusses über dir. Das Knistern der Esse. Das Summen der Steine in den Kellerwänden. Und, ganz fern, durch ein Lüftungsloch, das Pfeifen des Windes.
-+ [{element_wort(element_erkannt)}. Es hat dich gerettet, und es fühlt sich richtig an.]
+Du schließt die Augen. Und tatsächlich: Wenn du ganz still bist, hörst du sie alle vier. Ganz leise. Das Rauschen des Flusses hinter der Kellerwand. Das Knistern der Esse. Das Summen der Steine in den Kellerwänden. Und, ganz fern, durch ein Lüftungsloch, das Pfeifen des Windes.
++ [{element_wort(element_erkannt)}. Es hat {freund()} gerettet, und es fühlt sich richtig an.]
     ~ element_waehlen(element_erkannt)
     Du öffnest die Augen. „{element_wort(element_erkannt)}“, sagst du.
     Yrsa nickt langsam. „Das dachte ich mir.“

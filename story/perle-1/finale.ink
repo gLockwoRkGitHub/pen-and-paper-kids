@@ -7,7 +7,7 @@
 # bild: entdeckung/ausrufer-ratshalle
 Am späten Nachmittag läuten alle Glocken der Stadt gleichzeitig. Das passiert nur, wenn der Rat etwas zu verkünden hat.
 
-Auf dem Marktplatz drängen sich die Leute. Auf den Stufen der Ratshalle steht ein Herold in rotem Mantel, und um ihn herum, in einem Halbkreis, Söldner in schwarzen Mänteln mit der goldenen Waage auf der Brust.
+Auf dem Marktplatz drängen sich die Leute. Auf den Stufen der Ratshalle steht ein Herold in rotem Mantel. Um ihn herum stehen Söldner im Halbkreis, in schwarzen Mänteln mit der goldenen Waage auf der Brust.
 { gesehen_worden:
     Du ziehst den Kopf ein und drückst dich hinter einen breiten Fischhändler.
 }
@@ -16,7 +16,7 @@ Der Herold entrollt ein Pergament. „Bürger von Lysmara! Auf Beschluss des Rat
 
 Ein Raunen geht durch die Menge.
 
-„Wegen zunehmender Überfälle durch Gnolle kann die Sicherheit der Reisenden nicht länger gewährleistet werden. Den Schutz des Passes übernimmt der Bund der Goldenen Waage. Niemand passiert ohne ihr Siegel.“
+„Wegen zunehmender Überfälle durch Gnolle kann die Sicherheit der Reisenden nicht länger gewährleistet werden. Das heißt: Der Weg ist zu gefährlich. Den Schutz des Passes übernimmt der Bund der Goldenen Waage. Niemand passiert ohne ihr Siegel.“
 
 „Und wie bekommt man das Siegel?“, ruft jemand.
 
@@ -39,10 +39,10 @@ Du drehst dich zu ihr um. Sie sieht dich an, einen Moment zu lang, als würde si
 
 „Das“, sagt Tickwort langsam, „ist das erste Mal, dass ich etwas nicht erklären kann.“
 { freund_getroffen:
-    Am Rand des Platzes entdeckst du {freund()} neben einem dünnen Mann mit Brille. Magister Pell hat {fr_ihn()} also gefunden. {freund()} starrt zu den Söldnern hinüber, und das Gesicht ist weiß wie Kreide. Als {fr_er()} dich bemerkt, schaut {fr_er()} schnell weg.
+    Am Rand des Platzes entdeckst du {freund()} neben einem dünnen Mann mit Brille. Magister Pell hat {fr_ihn()} also gefunden. {freund()} starrt zu den Söldnern hinüber, und {fr_sein()} Gesicht ist weiß wie Kreide. Als {fr_er()} dich bemerkt, schaut {fr_er()} schnell weg.
 }
 { fremder_getroffen:
-    Und auf der anderen Seite des Platzes, im Schatten eines Torbogens, steht eine Gestalt in einem grauen Mantel.{brief_erhalten: Sie hebt die Hand an die Brust, genau dorthin, wo du den Brief trägst.} Als die Menge sich bewegt, ist sie fort.
+    Und auf der anderen Seite des Platzes, im Schatten eines Torbogens, steht eine Gestalt in einem grauen Mantel.{brief_erhalten: Sie hebt die Hand an die Brust, genau dorthin, wo du den Brief trägst.}{fremder_ausgefragt: Die Kapuze neigt sich ein kleines Stück in deine Richtung. Als hätte der Fremde deine Fragen von letzter Nacht nicht vergessen.} Als die Menge sich bewegt, ist sie fort.
 }
 
 { ausloeser:
@@ -51,7 +51,7 @@ Du drehst dich zu ihr um. Sie sieht dich an, einen Moment zu lang, als würde si
 - "brief":
     Du legst die Hand auf den Brief. Er muss auf die andere Seite. Jetzt erst recht.
 - "schulden":
-    Eine Lieferung von jenseits der Berge, hat Fesk gesagt. Durch einen geschlossenen Pass. Bis zum Neumond. Er hat es gewusst. Ganz bestimmt hat er es gewusst.
+    Eine Lieferung von jenseits der Berge, {schulden_versprochen:hat Fesk gesagt|stand auf der Mahnung}. Durch einen geschlossenen Pass. Bis zum Neumond. Er hat es gewusst. Ganz bestimmt hat er es gewusst.
 - "flucht":
     {kisten_gesehen:Bis zum Neumond muss alles in Vardholm sein, und dann wird der Spalt dichtgemacht. Das haben die Söldner gesagt. Es war kein Gerücht. Es war ein Plan.} Und jetzt sitzt du in Lysmara fest. Zusammen mit der Waage.
 }
@@ -133,7 +133,7 @@ Du klappst den Kompass auf. Die Nadel zittert, dreht sich einmal im Kreis und bl
     „Interessant“, sagt Tickwort. „Sehr interessant. Das würde ich gern erklären. Aber ich glaube, das musst du selbst herausfinden.“ # tagebuch_ende
 }
 
-Die Goblins bieten dir einen Schlafplatz an. „Neben der Esse ist es warm!“, ruft Brakka. „Meistens explodiert da nachts nichts!“
+Die Goblins bieten dir einen Schlafplatz an. „Neben der Esse, dem großen Schmiedefeuer, ist es warm!“, ruft Brakka. „Meistens explodiert da nachts nichts!“
 * [Neben der Esse schlafen]
     ~ neigung_feuer += 1
     Du rollst dich neben der Esse zusammen. Die Glut knistert leise, und ihre Wärme fühlt sich an wie eine Decke. Bevor du einschläfst, könntest du schwören, dass die Glut im Takt deines Atems heller und dunkler wird.
@@ -159,7 +159,7 @@ Darunter schreibst du: # handschrift
 - "brief":
     Der Brief muss trotzdem auf die andere Seite. Ich habe es versprochen. Fast.
 - "schulden":
-    Bis zum Neumond brauche ich vierzig Silbermark oder eine Lieferung von jenseits der Berge. Sonst ist {pfand()} weg.
+    Bis zum Neumond brauche ich vierzig Silberlinge oder eine Lieferung von jenseits der Berge. Sonst ist {pfand()} weg.
 - "flucht":
     Die Goldene Waage sucht mich. Ich muss hier weg.
 }

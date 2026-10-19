@@ -10,9 +10,9 @@
 Am Brunnen fragst du nach Fink. Ein Wasserträger zeigt wortlos auf eine Hofeinfahrt. Dort, im Schatten, wartet er.
 
 { ruf_leise_hand > 0:
-    „Wusste ich doch, dass du kommst“, sagt Fink.
+    „Wusste ich doch, dass du kommst“, sagt Fink.{paeckchen_geliefert: „Wer für Grumak liefert, ohne zu quatschen, liefert auch für uns.“}
 - else:
-    „Mutig“, sagt Fink. „Oder dumm. Nach dem, was du getan hast.“ Er zuckt mit den Schultern. „Egal. Die Hand rechnet. Wenn du das hier schaffst, sind wir quitt.“
+    {paeckchen_zur_wache:„Mutig“, sagt Fink. „Nach der Sache mit der Wache.“|„Mutig“, sagt Fink. „Oder dumm.“} Er zuckt mit den Schultern. „Egal. Die Hand rechnet. Wenn du das hier schaffst, sind wir quitt.“
 }
 
 Er zieht dich tiefer in die Einfahrt. „Die Prüfung der Hand ist einfach. Das Zelt der Waage neben der Ratshalle. Da drin liegt ein Stapel Verträge. Jeder Rufer, der sich einschreibt, muss so einen unterschreiben.“ Er senkt die Stimme. „Die Hand will wissen, was draufsteht. Alles. Auch das, was sehr klein geschrieben ist. Hol uns einen.“

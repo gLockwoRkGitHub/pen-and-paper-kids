@@ -48,7 +48,7 @@ Sein Glasauge surrt, während er dich mustert.
     - "brief":
         Von dem Fremden mit den Mondlicht-Augen, dem Brief und dem Ringsiegel.
     - "schulden":
-        Von Fesk, den vierzig Silbermark und davon, dass das Kontor {pfand()} nehmen will.
+        Von Fesk, den vierzig Silberlingen und davon, dass das Kontor {pfand()} nehmen will.
     - "flucht":
         Von den Kisten am Nordkai, der Glaskugel mit dem gefangenen Blitz und den Söldnern, die jetzt von Tür zu Tür gehen.
     }
@@ -71,11 +71,11 @@ Kraft {kraft} · Geschick {geschick} · Verstand {verstand} · Ausstrahlung {aus
 
 = probe_ueben
 # tutorial: probe
-„Zweitens: Wenn du etwas Schwieriges versuchst, würfelst du mit zwei Würfeln und zählst den passenden Wert dazu.“ Er hebt einen dünnen Finger. „Zehn oder mehr: Es klappt.“
+„Zweitens: Wenn du etwas Schwieriges versuchst, würfelst du mit zwei Würfeln und zählst den passenden Wert dazu.“ Er hebt eine dünne Zange. „Zehn oder mehr: Es klappt.“
 
-Er hebt einen zweiten Finger. „Sieben bis neun: Es klappt, aber … Es gibt immer ein Aber.“
+Er klappt die Zange einmal auf und zu. „Sieben bis neun: Es klappt, aber … Es gibt immer ein Aber.“
 
-Ein dritter Finger. „Sechs oder weniger: Es klappt nicht. Aber die Welt geht davon nicht unter. Meistens.“
+Ein drittes Klacken. „Sechs oder weniger: Es klappt nicht. Aber die Welt geht davon nicht unter. Meistens.“
 
 „Probieren wir es aus. Siehst du die Münze da im Rinnstein?“
 

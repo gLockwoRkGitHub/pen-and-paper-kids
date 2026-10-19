@@ -25,7 +25,7 @@ Da rempelt dich jemand an, ein Junge mit einer tief ins Gesicht gezogenen Mütze
 
 Erst Augenblicke später merkst du, dass dein Geldbeutel leichter ist. Viel leichter. Darin steckt jetzt ein Zettel. Darauf ist eine Hand gemalt, die einen Finger an die Lippen legt.
 
-„Die Hand vergisst nicht.“
+{paeckchen_zur_wache:„Für die Wachstube. Die Hand vergisst nicht.“|„Die Hand vergisst nicht.“}
 -> gespraech
 
 = fink_warnt
@@ -114,13 +114,13 @@ Du schlägst dein Buch auf. Du zeichnest den Orin, die Wasserräder, die Große 
 - "wasser":
     Und am Hafen ein altes Schiff mit grauen Segeln.
 - "wind":
-    Und ganz oben auf den Klippen den Leuchtturm, diesmal mit einem offenen Fenster.
+    Und ganz oben auf den Klippen den Leuchtturm, {p1_feder:diesmal }mit einem offenen Fenster.
 }
 # karte: orin
 
 Darunter schreibst du: # handschrift
 
-„Heute hat mir {element_artikel(element)} geantwortet.
+„Heute {element_gewechselt:habe ich zum ersten Mal ein Element gerufen|hat mir {element_artikel(element)} geantwortet}.
 { element_gewechselt:
     Zuerst hat {element_artikel(element_erkannt)} geantwortet. Aber ich habe {element_artikel(element)} gewählt.
 }
@@ -147,5 +147,5 @@ Die Waage will, dass sich alle Magier bei einer Gilde einschreiben.
 }
 In drei Tagen ist Gildentag.“ # tagebuch_ende
 
-Kraftfunken: {kraftfunken}
+{kraftfunken == 1:Du spürst einen kleinen Funken in dir.|Du spürst {zahl(kraftfunken)} kleine Funken in dir.}
 ->->

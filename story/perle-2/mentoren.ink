@@ -7,7 +7,7 @@
 // =====================================================================
 
 === p2_mentor
-„Ich warte draußen“, sagt {freund()}, als ihr ankommt. „Ich glaube, das ist etwas, das man allein machen muss.“
+„Ich warte an der Orinbrücke auf dich“, sagt {freund()}. „Ich glaube, das ist etwas, das man allein machen muss.“
 { element:
 - "erde":
     -> p2_borrik
@@ -30,7 +30,7 @@ Das Zwergenviertel liegt am Hang über dem Fluss. Die Häuser sind niedrig und a
 
 Am Steinmetzhof sitzt ein uralter Zwerg auf einem Felsblock. Sein weißer Bart ist so lang, dass er ihn in den Gürtel gesteckt hat. Seine Augen sind milchig weiß. Er ist blind. Trotzdem dreht er den Kopf genau in deine Richtung, bevor du ein Wort gesagt hast.
 { volk == "zwerg":
-    „Steinfest, Kind des Berges“, brummt er. „Lange keinen jungen Zwerg mehr hier gehabt, der so leise schleicht.“
+    „Steinfest, Kind des Berges“, brummt er. „Lange {geschlecht == "w":keine junge Zwergin|keinen jungen Zwerg} mehr hier gehabt, {geschlecht == "w":die|der} so leise schleicht.“
 - else:
     „Du trittst auf wie jemand, der etwas will“, brummt er. „Also. Was willst du?“
 }
@@ -74,7 +74,7 @@ Er führt dich in seine Werkstatt. Der Boden ist aus dicken Holzdielen. „Hier 
     - ERFOLG:
         Eine Handvoll Erde rieselt aus dem Säckchen, formt sich zu einer kleinen braunen Hand, greift den Becher und schiebt ihn Borrik zu. Dann zerfällt sie zu Staub.
     - JA_ABER:
-        Die Erde formt eine Hand und greift den Becher. Sie reicht ihn Borrik. Dann kippt sie ihn ihm über die Hose.
+        Die Erde formt eine Hand und greift den Becher. Sie reicht ihn Borrik. Dann kippt sie ihm den Becher über die Hose.
         „Humor“, brummt Borrik. „Ich sagte es ja.“
     - KEINE_KRAFT:
         Nichts passiert. Gar nichts.
@@ -177,7 +177,7 @@ Als du nach einem Weg hinaus fragst, blickt Nerelle aufs Meer.
 
 „Es gibt Kapitäne, die nachts ohne Laternen fahren“, sagt sie. „Um die Klippen herum, an der Küste entlang, bis jenseits der Berge. Das Meer kennt Wege, die keine Karte kennt.“
 { kuestenmauer_gesehen:
-    „Ich weiß“, sagst du. „Aber die Waage baut Türme an der Küste. Ich habe sie gesehen.“
+    „Aber die Waage baut an der Küste“, sagst du. „Ich habe eine neue Mauer gesehen. Und einen Wachturm.“
     Nerelle sieht dich überrascht an. „Dann weißt du mehr als die meisten. Ja. Die Waage will auch das Meer verschließen. Bald wird es auch auf dem Wasser keinen Weg mehr geben.“
 - else:
     „Aber die Waage baut neue Türme an der Küste. Bald wird es auch auf dem Wasser keinen Weg mehr geben.“
@@ -267,9 +267,9 @@ Als du nach einem Weg hinaus fragst, sieht Yrsa in die Esse.
 === p2_vael
 # karte: klippen-von-ahrn
 # bild: figur/vael
-Der Weg zu den Klippen von Ahrn kommt dir heute kürzer vor. Vielleicht, weil der Wind dich die ganze Zeit von hinten schiebt.
+{p1_feder:Der Weg zu den Klippen von Ahrn kommt dir heute kürzer vor.|Der Weg führt aus der Stadt hinaus, über Schafweiden und steil bergauf zu den Klippen von Ahrn. Trotzdem kommt er dir kurz vor.} Vielleicht, weil der Wind dich die ganze Zeit von hinten schiebt.
 
-Vor dem Leuchtturm hängt noch immer das Schild: „KEIN ZUTRITT. KEIN INTERESSE. KEINE AUSNAHMEN.“
+Vor dem Leuchtturm hängt {p1_feder:noch immer }ein Schild: „KEIN ZUTRITT. KEIN INTERESSE. KEINE AUSNAHMEN.“
 { leuchtturm_geklopft:
     Bevor du klopfen kannst, rasselt die Kette von selbst zu Boden, und die Tür schwingt auf. Von oben ruft eine heisere Stimme: „Du schon wieder. Der Klopfer. Komm hoch.“
 - else:
