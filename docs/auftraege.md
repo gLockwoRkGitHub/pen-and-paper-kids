@@ -299,6 +299,27 @@ Neue Szene in Perle 7 (Kontrolle an der Orinbrücke für Gesuchte), Beschreibung
 - [ ] **B5 Talin neu (Perle 5):** `docs/art/szenen/perle-5/szene-talin.png` – Talin hat **drei Arme** (zwei Hände an der Wand, ein dritter Arm hängt herab). Neu mit dem geänderten `szene-talin.prompt.txt` (eine Hand an der Wand, die andere am Korb), bis zu zwei Runden à 6 Seeds. **Prüfliste:** genau zwei Arme und zwei Hände · Gesicht wie `talin-einzel` · Plakette mit Waage am Hals · keine Hände des Betrachters.
 - [ ] **B4 Abschluss:** Übersichten Perle 3 und 5 neu bauen, Seed im README eintragen, hier abhaken, committen, pushen.
 
+## Bildprüfung in voller Größe (Auftrag vom 19.10.2026)
+
+**Grundlage:** `docs/art/bildpruefung-2026-10-19.md` – alle Szenenbilder und Figuren-Einzelbilder in voller Größe geprüft, je Fund mit Fehlerbeschreibung und englischem Prompt-Vorschlag. Die Punkte B3 (Tuchhalle) und B5 (Talin) oben gehören dazu und kommen zuerst.
+
+**Arbeitsweise für jedes Bild (selbstständig, ohne Nachfragen):**
+1. Den Prompt-Vorschlag aus dem Bericht in die `*.prompt.txt` einarbeiten (die bisherige Beschreibung bleibt, der Vorschlag präzisiert sie). Die Regeln oben im Bericht („Vorrang“) gelten vor dem Vorschlag.
+2. Ist nur **ein kleines Detail** falsch (Mütze, Zeichen, Schrift, ein Gegenstand): lieber **Bildbearbeitung** (fertiges Bild als einzige Referenz, Änderungs-Prompt „Keep the image exactly the same … change only …“, 4 Seeds) oder Krita. Ist die Anatomie oder der Bildaufbau falsch: **neu erzeugen**, bis zu zwei Runden à 6 Seeds.
+3. **Nur ersetzen, wenn das neue Bild den Fehler sicher nicht mehr hat und keinen neuen hat** (Arme, Hände, Gesichter in voller Größe ansehen, nicht nur in der Übersicht!). Sonst altes Bild behalten und im README der Perle notieren.
+4. Nach jeder Perle: Übersicht neu bauen, README (Seed, was geändert) ergänzen, committen, pushen.
+
+- [ ] **V1 Muss neu (22 Bilder), Perle für Perle:**
+  - Perle 1: `szene-freund-faellt-cassian`, `szene-goblin-werkstatt`
+  - Perle 3: `szene-morgen-mentor-erde`, `entdeckung-magiergesetz-liora` / `-cassian`, `tagebuch-perle-3`
+  - Perle 4: `figur-ashka`, `szene-ruf-wind`, `szene-ruf-erde`, `szene-landtor-morgen`, `szene-fremder-am-grauen`
+  - Perle 5: `szene-herz-des-berges`, `szene-der-schlund`, `entdeckung-orin-treidelpfad`
+  - Perle 6: `entdeckung-spaltstrasse-vardholm`, `szene-funken-frei`, `szene-modell-des-walls`, `szene-ruf-gross-erde`
+  - Perle 7: `szene-abschied-tickwort`, `szene-zum-halben-hauer`, `szene-vier-wege`, `tagebuch-perle-7`
+- [ ] **V2 Sollte neu:** alle Szenenbilder mit Schwere „mittel“ im Bericht (Perle 1–7), gleiche Arbeitsweise. Kettrichs Brille in `perle-2/szene-tuchhalle` und `perle-3/szene-beitritt-webstuhl` per Bildbearbeitung mit `perle-3/szene-tuchhalle-pruefung-brille.prompt.txt`. **Ausnahme:** `perle-1/szene-weite-feder` erst nach V3 (braucht das neue Orwin-Bild).
+- [ ] **V3 Figuren-Einzelbilder – nur als Vorschlag, nichts ersetzen:** `kettrich` (hoch: Augen in den Gläsern), `durgash`, `orwin`, `strell`, `merla`, `fink`, `gnoll`, `ashka`, `ysolde`, `pell`, `mirk`, `faehrfrau` (mittel/leicht). Je Figur per Bildbearbeitung des bisherigen Einzelbilds (Gesicht soll bleiben!) einen Kandidaten als `docs/art/figuren/<name>-einzel-neu.png` erzeugen. **Nicht** das Original überschreiben – Einzelbilder sind von Pasco abgenommen. Die Kandidaten in `docs/offene-entscheidungen.md` zur Abnahme auflisten (mit Übersicht `docs/art/figuren/uebersicht-kandidaten.png`: alt links, neu rechts).
+- [ ] **V4 Abschluss:** alle betroffenen Übersichten neu bauen, in `docs/art/bildpruefung-2026-10-19.md` je Fund „erledigt (Seed …)“ oder „behalten, weil …“ ergänzen, hier abhaken, `docs/stand.md` aktualisieren, committen, pushen.
+
 ## Auf Abruf (kein fester Auftrag)
 Diese Prompts liegen bereit und werden nur erzeugt, wenn Pasco danach fragt.
 - (auf Abruf) **Beispielfiguren der fünf Völker** (Kinder um die zwölf, je Junge und Mädchen): `docs/art/figuren/volk-<mensch|zwerg|gnom|ork|troll>-<m|w>-einzel.prompt.txt`, 832×1216, nur aus Text; danach `voelker-vergleich.prompt.txt` (1536×1024) mit drei Einzelbildern als Referenz. Prüfen: Zwergenkinder ohne Bart, Trolle schlaksig und nicht massig, Orks freundlich.
