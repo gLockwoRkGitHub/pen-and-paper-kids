@@ -57,7 +57,7 @@ Das Zelt der Waage ist groß und schwarz, mit goldenen Fransen an jeder Kante. V
     -> zauber_hinein
 * {kann_zaubern(-1) && element == "wasser"} [Mit Wasser aus deinem Schlauch die Teekanne der Wachen umkippen lassen (Zauber, Quelle)]
     -> zauber_hinein
-* {kann_zaubern(-1) && element == "feuer"} [Mit Glut aus deiner Laterne die Laterne am Eingang ausgehen lassen (Zauber, Quelle)]
+* {kann_zaubern(-1) && element == "feuer"} [Mit deiner Glut die Lampe am Eingang ausgehen lassen (Zauber, Quelle)]
     -> zauber_hinein
 
 = zauber_hinein
@@ -120,7 +120,7 @@ Du kennst diesen Knopf. Genau solche Knöpfe hat {freund()} an der dunkelgrünen
 - -> vertrag(e)
 
 = vertrag(e)
-Auf dem Schreibtisch liegt der Stapel mit den Verträgen. Oben drauf sitzt ein Schreiber mit dem Rücken zu dir und spitzt eine Feder.
+Auf dem Schreibtisch liegt der Stapel mit den Verträgen. Daneben sitzt ein Schreiber mit dem Rücken zu dir, den Ellbogen auf dem Stapel, und spitzt eine Feder.
 { e == MISSERFOLG:
     -> erwischt
 }

@@ -209,7 +209,7 @@ In der Mitte der Halle steht ein Gnom auf einem Podest und schaut durch ein Fern
 ~ fesk_wiedergesehen = true
 Neben dem Podest steht ein dürrer Mann in einem silbergrauen Mantel und blättert in einem dicken Buch. Fesk.
 
-Er sieht dich, bevor du dich verstecken kannst. „Ah“, sagt er und lächelt sein dünnes Lächeln. „Mein Lieblingsschuldner. Der Neumond kommt näher, weißt du. Jeden Tag ein Stückchen.“
+Er sieht dich, bevor du dich verstecken kannst. „Ah“, sagt er und lächelt sein dünnes Lächeln. „{geschlecht == "w":Meine Lieblingsschuldnerin|Mein Lieblingsschuldner}. Der Neumond kommt näher, weißt du. Jeden Tag ein Stückchen.“
 { vor_fesk_geflohen:
     Er tippt auf sein Buch. „Hier gibt es keine Hintertür, nicht wahr? Ich sagte ja: Davonlaufen ist eine teure Antwort.“ Er schreibt etwas hinein und unterstreicht es.
 }

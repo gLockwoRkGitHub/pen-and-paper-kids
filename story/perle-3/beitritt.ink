@@ -30,7 +30,7 @@ Er hält dir eine Karte hin. „Probejahr bei Webstuhl und Amboss. Erst arbeiten
 
 Eine Weile sagt keiner von euch etwas.
 
-„Du wolltest mir etwas erklären“, sagst du schließlich.
+{freund_hat_gedeckt:„Du wolltest mir etwas erklären“|„Ich hab dich heute auf der Tribüne gesehen“}, sagst du schließlich.
 -> fragen
 
 = fragen
@@ -50,7 +50,7 @@ Eine Weile sagt keiner von euch etwas.
     -> fragen
 * {goldknopf_gefunden} [Einen goldenen Knopf erwähnen, der im Zelt der Waage lag]
     { freund_hat_gedeckt:
-        {freund()} sieht auf {fr_sein()}en Ärmel, wo ein Knopf fehlt. „Ja“, sagt {fr_er()}. „Der ist mir abgerissen. Als ich da drin warten musste. Den ganzen Nachmittag. Im Zelt.“ {Fr_er()} lacht, aber es klingt nicht fröhlich. „Sehr spannend, so ein Zelt.“
+        {freund()} sieht auf {fr_sein()}en Ärmel, wo ein Knopf fehlt. „Ja“, sagt {fr_er()}. „Der ist mir abgerissen. Als ich da drin warten musste. Den halben Tag. Im Zelt.“ {Fr_er()} lacht, aber es klingt nicht fröhlich. „Sehr spannend, so ein Zelt.“
     - else:
         {freund()} sieht schnell auf {fr_sein()}en Ärmel. Dann zieht {fr_er()} ihn über das Handgelenk. „Goldknöpfe gibt es in der Oberstadt wie Sand am Meer“, sagt {fr_er()}. Etwas zu schnell.
     }
@@ -69,7 +69,7 @@ Eine Weile sagt keiner von euch etwas.
 = antwort
 {freund()} atmet tief durch.
 
-„Ich hab Angst gehabt, dass du mich nicht mehr magst“, sagt {fr_er()}. „Wenn du weißt, wer meine Familie ist. Die Waage hat den Spalt zugemacht. Die Waage will das Gesetz. Und du bist …“ {Fr_er()} macht eine kleine Bewegung mit der Hand. Ein Rufer. „Und ich hab dich gern. Du bist {geschlecht == "w":meine erste richtige Freundin|mein erster richtiger Freund}.“
+„Ich hab Angst gehabt, dass du mich nicht mehr magst“, sagt {fr_er()}. „Wenn du weißt, wer meine Familie ist. Die Waage hat den Spalt zugemacht. Die Waage will das Gesetz. Und du bist …“ {Fr_er()} macht eine kleine Bewegung mit der Hand. {geschlecht == "w":Eine Ruferin|Ein Rufer}. „Und ich hab dich gern. Du bist {geschlecht == "w":meine erste richtige Freundin|mein erster richtiger Freund}.“
 * [„Es ist mir egal, wer deine Eltern sind.“]
     ~ aendern(beziehung_freund, 1)
     {freund()} sieht dich an, als hättest du gerade die Sonne zurück an den Himmel gehängt. „Wirklich?“
@@ -116,9 +116,9 @@ In der Tuchhalle stehen die Webstühle still, aber die Lampen brennen. Kettrich 
 
 „Erst arbeiten, dann gehören“, sagst du.
 
-„Und jetzt gehörst du.“ Er steckt dir ein Abzeichen an die Jacke: ein Webschiffchen, gekreuzt mit einem Hammer. „Damit kommst du in die Minen. Und in die Kantine.“ Er räuspert sich. „Und dein Ruf steht in unserem Buch. Unser Buch, nicht das der Waage. Die Waage bekommt einen Namen und ein Siegel. Sonst nichts. Regel einunddreißig.“
+„Und jetzt gehörst du.“ Er steckt dir ein Abzeichen an die Jacke: ein Webschiffchen, gekreuzt mit einem Hammer. „Damit kommst du in die Minen. Und in die Kantine.“ Er räuspert sich. „Und dein Name steht in unserem Buch. Unser Buch, nicht das der Waage. Die Waage bekommt einen Namen und ein Siegel. Sonst nichts. Regel einunddreißig.“
 
-Dann reicht er dir einen Brief. „Dein erster Auftrag. Die Wollhändler in Wollmark, draußen an der Spaltstraße, haben seit zwei Wochen nicht geliefert. Sie sagen, Gnolle schleichen um ihre Weiden. Geh hin. Finde heraus, was los ist.“ # tagebuch_ende
+Dann reicht er dir einen Brief. „Dein erster Auftrag. Die Wollhändler in Wollmark, draußen an der Spaltstraße, haben seit ein paar Tagen nicht geliefert. Sie sagen, Gnolle schleichen um ihre Weiden. Geh hin. Finde heraus, was los ist.“ # tagebuch_ende
 ->->
 
 = feder
@@ -134,7 +134,7 @@ Ganz oben im Haus der Weiten Feder, unter den Fernrohren, wartet Meister Orwin. 
 
 „Wir zeichnen, was ist“, sagst du.
 
-Er steckt dir eine kleine silberne Feder an den Kragen. „Damit darfst du jedes Archiv der Gesellschaft betreten. Auch das, in dem die alten Karten liegen.“ Er zwinkert über beide Brillen hinweg. „Auch die ganz alten. Und dein Name steht in unserem Buch. Wer zaubert, steht darin wie jeder andere. Mit Tinte, die nicht verrät, wofür.“
+Er steckt dir eine kleine silberne Feder an den Kragen. „Damit darfst du jedes Archiv der Gesellschaft betreten. Auch das, in dem die alten Karten liegen.“ Er zwinkert über beide Brillen hinweg. „Auch die ganz alten. Und dein Name steht in unserem Buch. Wer zaubert, steht darin wie jeder andere. Ohne ein Zeichen dahinter.“
 
 Dann rollt er eine Karte auf dem Tisch aus. Die Weiden, bis an den Fuß des Kharvan-Kamms. Sie ist voller Lücken. „Dein erster Auftrag. Unsere Karte der Weiden ist zwanzig Jahre alt. Die Hirten erzählen von Feuern in den Hügeln, wo keine sein sollten. Geh hinaus. Zeichne, was ist.“ # tagebuch_ende
 ->->
@@ -172,9 +172,9 @@ Dann nimmt er deine Jacke, dreht sie um und näht mit drei schnellen Stichen ein
 
 „Und das Gesetz?“, fragst du. „Ich muss in einer Gilde sein. In einer, die es gibt.“
 
-Fink grinst. „Die Hand hat Freunde in jeder Gilde. Morgen stehst du im Buch der Kartografen. Als Kartenträger. Auf dem Papier.“ Er zuckt die Schultern. „Papier ist geduldig.“
+Fink grinst. „Die Hand hat Freunde in jeder Gilde. Morgen stehst du im Buch der Kartografen. Als {geschlecht == "w":Kartenträgerin|Kartenträger}. Auf dem Papier.“ Er zuckt die Schultern. „Papier ist geduldig.“
 
-„Dein erster Auftrag: ein Päckchen. Nach Ginsterhof, am Fuß der Ziegenstiege. Jemand dort wartet darauf.“ Er hält inne. „Diesmal darfst du reinschauen. Es ist eine Landkarte. Und ein Name.“ # tagebuch_ende
+„Dein erster Auftrag: ein Päckchen. Nach Ginsterhof, am Fuß der Ziegenstiege. Jemand dort wartet darauf.“ Er hält inne. „{paeckchen_geliefert:Diesmal darfst du reinschauen.|Du darfst reinschauen.} Es ist eine Landkarte. Und ein Name.“ # tagebuch_ende
 ->->
 
 = waage
@@ -250,11 +250,11 @@ An der nächsten Ecke stehen zwei schwarze Mäntel. Einer hat ein großes Buch u
 „Name? Gilde? Rufst du ein Element?“
 {
 - magie_registriert == "waage":
-    Du zeigst die Messingplakette. Der Söldner hält die Laterne daran, liest die Nummer und nickt. „Eingeschrieben. Gut. Bis Neumond, Rufer.“
-    Er sagt Rufer, wie man Fass sagt.
+    Du zeigst die Messingplakette. Der Söldner hält die Laterne daran, liest die Nummer und nickt. „Eingeschrieben. Gut. Bis Neumond, {geschlecht == "w":Ruferin|Rufer}.“
+    Er sagt „{geschlecht == "w":Ruferin|Rufer}“, wie man {angebot_hand:„Fass“|„Kuh“} sagt.
     -> zuhause_an
 - gilde == "leise_hand":
-    „Kartografen“, sagst du. „Kartenträger. Morgen im Buch.“ Du hältst den Atem an.
+    „Kartografen“, sagst du. „{geschlecht == "w":Kartenträgerin|Kartenträger}. Morgen im Buch.“ Du hältst den Atem an.
     Der Mann blättert. Er findet nichts. Aber es ist spät, und morgen ist morgen. „Morgen im Buch“, wiederholt er. „Sonst übermorgen in Gewahrsam.“
     -> zuhause_an
 - gilde != "":
@@ -301,7 +301,7 @@ An der nächsten Ecke stehen zwei schwarze Mäntel. Einer hat ein großes Buch u
     Die Kreide ist noch frisch. Jemand weiß, wo du wohnst. Und will, dass du es weißt.
     Du wischst das Zeichen weg, bevor es jemand anderes sieht.
 }
-{ ausloeser == "schulden" || schulden_versprochen:
+{ ausloeser == "schulden" || schulden_versprochen || fesk_getaeuscht:
     { gilde != "":
         ~ fesk_aufschub = true
         Unter der Tür steckt ein Zettel mit silbernem Stempel. „Glückwunsch zum Gildenbeitritt. Das Kontor gewährt Gildenmitgliedern zwei Wochen Aufschub. Hochachtungsvoll, Fesk.“ Darunter, kleiner: „Wir werden uns trotzdem wiedersehen.“
@@ -325,7 +325,6 @@ Du schlägst dein Buch auf. Du zeichnest den Marktplatz mit der schwarz-goldenen
 { spirale_im_gewoelbe:
     Und in eine Ecke, ganz klein: vier Gestalten im Kreis. Stein, Welle, Flamme, Feder.
 }
-# karte: gewoelbe
 
 Darunter schreibst du: # handschrift
 
@@ -349,7 +348,7 @@ Wer zaubert, muss sich einschreiben. Das ist jetzt Gesetz.
     Wer sich bei der Waage einschreibt, muss jeden Neumond einen Funken abgeben. Für die Glaskugeln. Das steht ganz unten im Vertrag, ganz klein.
 }
 { sabotage_entdeckt:
-    Das Silbermark-Kontor hat das große Rad der Tuchhalle sabotiert. Das Kontor und die Waage. Als hätten sie sich abgesprochen, hat Kettrich gesagt.
+    Das Silbermark-Kontor hat das große Rad der Tuchhalle sabotiert. {p2_tuchhalle.kettrich_redet:Das Kontor und die Waage. Als hätten sie sich abgesprochen, hat Kettrich gesagt.|Damit die Tuchhalle Geld vom Kontor leihen muss.}
 }
 { freund_ausrede:
     {freund()}s Eltern sind wichtig in der Waage. Sagt {fr_er()}.

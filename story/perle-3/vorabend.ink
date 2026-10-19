@@ -72,10 +72,10 @@ Am dritten Morgen löscht Yrsa jede Lampe im Keller der Schmiede. Es ist so dunk
     - ERFOLG:
         ~ aendern(beziehung_mentor, 1)
         Über deiner Handfläche glimmt ein Licht auf, klein wie eine Kirsche und ruhig wie ein Stern. Es wärmt nicht. Es leuchtet nur.
-        Yrsa hält einen Finger hinein. Nichts passiert. „Gut“, sagt sie. „Ein Licht, das genug weiß. Das ist das halbe Handwerk.“
+        Yrsa hält einen Finger hinein. Nichts passiert. „Gut“, sagt sie. „Ein Licht, das weiß, wann es genug ist. Das ist das halbe Handwerk.“
     - JA_ABER:
         Das Licht ist da. Es ist nur ein bisschen sehr hell. Für einen Moment ist der ganze Keller weiß, und ihr seht beide noch eine Weile lang grüne Punkte.
-        „Genug“, seufzt Yrsa. „Wir üben das Wort.“
+        „Genug“, seufzt Yrsa. „Wir üben das Wort ‚genug‘.“
     - else:
         Ein Funke springt aus deiner Hand, landet auf Yrsas Schürze und brennt ein kleines, rundes Loch hinein. Sie schaut lange darauf.
         „Das ist das vierzigste Loch“, sagt sie. „Die anderen neununddreißig waren von mir.“
@@ -131,7 +131,7 @@ Am Abend vor dem Gildentag hast du noch ein paar Stunden Zeit.
 * {tickwort_bei_goblins} [Tickwort bei Knallfunke & Söhne besuchen]
     ~ p3_besuch = "tickwort"
     -> tickwort
-* [Bei Grumak am Brunnen vorbeischauen]
+* {grumak_gewarnt} [Bei Grumak am Brunnen vorbeischauen]
     ~ p3_besuch = "grumak"
     -> grumak
 * [Noch einmal zu {element == "erde":Borrik}{element == "wasser":Nerelle}{element == "feuer":Yrsa}{element == "wind":Vael} gehen und weiterüben]
@@ -154,13 +154,13 @@ Er senkt die Stimme. „Und viertens, das steht in keiner Regel: Der Zirkel der 
 
 „Und die Leise Hand“, fügt er hinzu, noch leiser, „prüft auch. Aber nur, wen sie selbst fragt.“
 
-Zum Abschied drückt er dir die Zange. „Morgen bin ich am Stand von Knallfunke, direkt neben der Phiole. Falls du einen Erklärautomaten brauchst. Rein zufällig.“
+Zum Abschied drückt er dir mit seiner Zange die Hand. „Morgen bin ich am Stand von Knallfunke, direkt neben der Phiole. Falls du einen Erklärautomaten brauchst. Rein zufällig.“
 ->->
 
 = grumak
 ~ gnolle_gesichtet = true
 # bild: figur/grumak
-Grumak sitzt hinter seinen halbleeren Säcken und starrt in die Kohlenpfanne. Als er dich sieht, hellt sich sein Gesicht ein wenig auf. „Ah. Der Bote. Komm, setz dich. Nüsse?“
+Grumak sitzt hinter seinen halbleeren Säcken und starrt in die Kohlenpfanne. Als er dich sieht, hellt sich sein Gesicht ein wenig auf. {paeckchen_geliefert:„Ah. {geschlecht == "w":Die Botin|Der Bote}. Komm, setz dich. Nüsse?“|„Du warst doch neulich am Brunnen, als ich mich mit der Kundin gestritten hab. Komm, setz dich. Nüsse?“}
 
 Du setzt dich. Eine Weile sagt keiner etwas.
 

@@ -170,6 +170,13 @@ Einen Tag lang bereitet ihr den Abstieg vor. Seile, Lampen, Proviant, Kreide, um
     ~ mentor_tipp = true
     Du setzt dich ans Ufer. Es ist still hier unten, aber nicht die graue Stille. Eine gute Stille. Du übst, was {element == "erde":Borrik}{element == "wasser":Nerelle}{element == "feuer":Yrsa}{element == "wind":Vael} dir gezeigt hat, ganz leise, immer wieder, bis {element_artikel(element)} dir antwortet wie ein alter Freund.
 - In der zweiten Nacht in Glimmhalde ist Neumond.
+{ ausloeser == "schulden" || schulden_versprochen || fesk_getaeuscht:
+    { fesk_aufschub:
+        Heute Nacht wäre Fesks Frist abgelaufen. Deine Gilde hat dir zwei Wochen mehr verschafft. Zwei Wochen sind nicht viel.
+    - else:
+        Heute Nacht ist Fesks Frist abgelaufen. Irgendwo in Lysmara schreibt jemand {pfand()} in ein dickes Buch.
+    }
+}
 
 Du liegst auf einer Strohmatte in Mirks Haus und kannst nicht schlafen. Durch einen Luftschacht hoch oben siehst du ein kleines Stück Himmel. Kein Mond. Nur Sterne.
 

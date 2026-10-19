@@ -18,7 +18,7 @@ Am Fuß der Treppe steht Meister Orwin mit seinen zwei Brillen und einer Sanduhr
     „Ysoldes Lehrling“, sagt er. „Dann zeig mal, was sie dir beigebracht hat.“
 }
 
-„Die Prüfung“, sagt Orwin zu den sechs Bewerbern, „ist einfach und unmöglich zugleich. Jeder bekommt eine Laterne, ein Stück Kreide und ein Blatt. In einer Stunde will ich eine Karte dieser Gewölbe sehen.“ Er dreht die Sanduhr um. „Und noch etwas. Auf einer uralten Karte der Gesellschaft ist hier unten ein Raum eingezeichnet, den seitdem niemand gefunden hat. Wer ihn findet, hat bestanden. Wer ihn nicht findet, aber eine gute Karte zeichnet, auch.“
+„Die Prüfung“, sagt Orwin zu den sechs Bewerbern, „ist einfach und unmöglich zugleich. Jeder bekommt eine Laterne, ein Stück Kreide, einen Kohlestift und ein Blatt. In einer Stunde will ich eine Karte dieser Gewölbe sehen.“ Er dreht die Sanduhr um. „Und noch etwas. Auf einer uralten Karte der Gesellschaft ist hier unten ein Raum eingezeichnet, den seit Hunderten von Jahren niemand gefunden hat. Wer ihn findet, hat bestanden. Wer ihn nicht findet, aber eine gute Karte zeichnet, auch.“
 
 Er lächelt. „Wir zeichnen, was ist. Nicht, was wir uns wünschen. Los.“
 -> zeichnen
@@ -47,7 +47,7 @@ Die Gewölbe sind ein Labyrinth. Gänge, Treppen, Nischen, Bögen, Kammern volle
 = karte(guete)
 { guete:
 - ERFOLG:
-    Nach einer halben Stunde hast du eine Karte, auf die Ysolde stolz wäre: jeder Gang, jede Treppe, jede Nische. Und weil du so genau gezeichnet hast, fällt dir etwas auf.
+    Nach einer halben Stunde hast du eine Karte, auf die {hintergrund == "kartografenlehrling":Ysolde|sogar Meister Orwin} stolz wäre: jeder Gang, jede Treppe, jede Nische. Und weil du so genau gezeichnet hast, fällt dir etwas auf.
     Im Nordosten, genau unter der Ratshalle, ist eine Lücke. Drei Gänge führen darauf zu, und alle drei enden an einer Wand. Als würde sich dort etwas verstecken.
 - JA_ABER:
     Die Karte wird brauchbar. Ein paar Gänge sind schief, eine Treppe ist zweimal eingezeichnet. Aber im Nordosten, unter der Ratshalle, fällt dir eine seltsame Lücke auf.
@@ -73,7 +73,7 @@ Du stehst vor der Wand. Alter, grauer Stein, mit Moos in den Fugen. Und doch: Ir
         Tock, tock, tock. Alles klingt gleich. Die Sanduhr in deinem Kopf rinnt.
         -> zurueck(guete)
     }
-* [Die Laterne hochhalten und beobachten, wohin die Flamme sich neigt]
+* [Die Laterne hochhalten und beobachten, wohin die Flamme sich neigt (Geschick)]
     ~ neigung_wind += 1
     Du hältst die Laterne still. Die Flamme zittert. Dann neigt sie sich, ganz leicht, zur Wand hin. Da zieht es. Irgendwo hinter diesen Steinen ist Luft.
     ~ temp e2 = probe(geschick)

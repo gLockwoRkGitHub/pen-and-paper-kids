@@ -13,7 +13,7 @@ Am Morgen des Gildentags ist Lysmara nicht wiederzuerkennen.
 
 Auf dem Marktplatz, direkt vor der Ratshalle, haben Zimmerleute über Nacht eine Tribüne gebaut. Sie ist mit schwarzem und goldenem Tuch bespannt. Die Stühle darauf sind noch leer.
 { gildentag_regeln:
-    Du weißt, wie es läuft. Tickwort hat es dir erklärt, in vier Punkten und einem geheimen fünften. Zwei Prüfungen. Bis Mitternacht.
+    Du weißt, wie es läuft. Tickwort hat es dir erklärt, in drei Punkten und zwei geheimen. Zwei Prüfungen. Bis Mitternacht.
 - else:
     Ein Ausrufer erklärt die Regeln, so laut, dass die Tauben auffliegen: Jede Gilde stellt eine Prüfung. Jeder darf an zwei teilnehmen. Wer besteht, bekommt ein Angebot. Bis Mitternacht.
 }
@@ -57,21 +57,21 @@ Dann zieht Pell {fr_ihn()} in die Menge, Richtung Ratshalle.
     Am Stand von Webstuhl und Amboss stehen ein paar Kobolde in sauberen Westen. Ein ganz junger Kobold löst sich aus der Gruppe, als er dich sieht, und drückt dir einen zerknitterten Zettel in die Hand.
     „Von {bp_ist_m():dem Mann|der Frau} mit dem Seil“, flüstert er. „Hat {bp_er()} mir gegeben. Vor fünf Tagen. Ich sollte warten. Bis Gildentag.“ Dann ist er wieder zwischen den anderen verschwunden.
     Du erkennst die Schrift sofort. {bp()}.
-    „Bin in der Tiefe Stiege. Es ist schlimmer, als ich dachte. Folge mir nicht.“
-    Dir wird kalt, mitten in der Sonne. Die Tiefe Stiege. Unter dem Berg. Dort, wo der Berg brummt.
+    „Bin in der Tiefen Stiege. Es ist schlimmer, als ich dachte. Folge mir nicht.“
+    Dir wird kalt, mitten in der Sonne. {tiefe_stiege_bekannt:Die Tiefe Stiege. Unter dem Berg. Dort, wo der Berg brummt.|Die Tiefe Stiege. Du hast den Namen noch nie gehört. Aber er klingt nach Dunkelheit.}
 }
 { ausloeser == "verschwunden" && bp_spur:
     ~ bp_nachricht = true
-    Am Stand von Webstuhl und Amboss stehen ein paar Kobolde in sauberen Westen und sehen sehr unglücklich darüber aus. Einer von ihnen ist {kobold_gerettet:Grisk|Mirk, die alte Koboldin mit der gesprungenen Brille}. Als {kobold_gerettet:er|sie} dich sieht, winkt {kobold_gerettet:er|sie} dich heran.
+    Am Stand von Webstuhl und Amboss stehen ein paar Kobolde in frisch gewaschenen Westen, die ihnen sichtlich unbequem sind. Einer von ihnen ist {kobold_gerettet:Grisk|Mirk, die alte Koboldin mit der gesprungenen Brille}. Als {kobold_gerettet:er|sie} dich sieht, winkt {kobold_gerettet:er|sie} dich heran.
     „{bp_ist_m():Der Mann|Die Frau} mit dem Seil“, flüstert {kobold_gerettet:Grisk|Mirk}. „{bp_ist_m():Er|Sie} ist in die Tiefe Stiege gegangen. Vor fünf Tagen. Allein. Ein Kobold hat {bp_ihn()} gesehen, unten am dritten Schacht.“ Eine Pause. „Nicht zurückgekommen.“
     Dir wird kalt, mitten in der Sonne.
     „Wenn du in die Minen willst“, sagt {kobold_gerettet:Grisk|Mirk}, „dann brauchst du das Zeichen der Gilde. Oder viel Glück. Lieber das Zeichen.“
 }
 { ausloeser == "schulden" || schulden_versprochen || fesk_getaeuscht:
     Zwischen den Ständen steht ein kleines, sehr ordentliches Zelt mit silbernen Wimpeln. Silbermark-Kontor. Davor sitzt Fesk an einem Klapptisch und blättert in seinem Buch.
-    Er sieht dich und hebt grüßend den Federkiel. „Ah. Mein Lieblingsschuldner auf dem Gildentag. Wie passend.“ Sein dünnes Lächeln wird ein wenig breiter. „Kleiner Hinweis, kostenlos, was bei mir selten ist: Ein Gildenmitglied ist kreditwürdig. Ein Niemand nicht. Denk darüber nach, bevor der Neumond kommt.“
+    Er sieht dich und hebt grüßend den Federkiel. „Ah. {geschlecht == "w":Meine Lieblingsschuldnerin|Mein Lieblingsschuldner} auf dem Gildentag. Wie passend.“ Sein dünnes Lächeln wird ein wenig breiter. „Kleiner Hinweis, kostenlos, was bei mir selten ist: Einem Gildenmitglied leiht man gern Geld. Einem Niemand nicht. Denk darüber nach, bevor der Neumond kommt.“
 }
-{ ruf_leise_hand > -2:
+{ p1_markt && ruf_leise_hand > -2:
     -> fink
 }
 ->->
@@ -79,10 +79,13 @@ Dann zieht Pell {fr_ihn()} in die Menge, Richtung Ratshalle.
 = fink
 Am Brunnen lehnt jemand mit tief ins Gesicht gezogener Mütze. Fink. Er tut so, als würde er dich nicht sehen. Dann geht er dicht an dir vorbei.
 
-{ ruf_leise_hand > 0:
+{
+- ruf_leise_hand > 0:
     „Die Hand prüft auch“, sagt er, ohne den Kopf zu drehen. „Nicht in einer Halle. Wenn du willst, frag am Brunnen nach mir.“
-- else:
+- paeckchen_geoeffnet || ruf_leise_hand < 0:
     „Die Hand hat nicht vergessen, was du getan hast“, sagt er, ohne den Kopf zu drehen. „Aber die Hand rechnet. Heute kannst du deine Schuld abarbeiten. Wenn du willst, frag am Brunnen nach mir.“
+- else:
+    „Die Hand prüft heute auch“, sagt er, ohne den Kopf zu drehen. „Nicht in einer Halle. Frag am Brunnen nach mir.“
 }
 
 Dann ist er weg.
@@ -104,7 +107,7 @@ Dann ist er weg.
     -> p3_feder
 + {not p3_phiole} [Zum Hafen: der Zirkel der Glühenden Phiole]
     -> p3_phiole
-+ {not p3_hand && ruf_leise_hand > -2} [Zum Brunnen: Fink und die Leise Hand]
++ {not p3_hand && p1_markt && ruf_leise_hand > -2} [Zum Brunnen: Fink und die Leise Hand]
     -> p3_hand
 
 
@@ -127,18 +130,16 @@ Du blinzelst. Aber {fr_er()} ist es. Ganz sicher.
 * [{freund()} zuwinken]
     Du hebst die Hand. {freund()} sieht dich. Einen Herzschlag lang leuchtet {fr_sein()} Gesicht auf. Dann schüttelt {fr_er()} ganz leicht den Kopf, kaum sichtbar, und schaut auf {fr_sein()}e blanken Schuhe.
 * [Die Leute neben dir fragen, wer die Frau mit der goldenen Kette ist]
-    „Das?“ Ein Fischhändler sieht dich an, als kämst du vom Mond. „Das ist die Waagmeisterin. Seraphine Arvelle. Ihrer Familie gehört die halbe Oberstadt und die andere Hälfte schuldet ihr Geld.“
-    Arvelle. Du denkst an Magister Pell. {fr_ist_m():Junker|Fräulein} Arv…
-    Nein. Das kann Zufall sein. Viele Namen fangen so an.
+    „Das?“ Ein Fischhändler sieht dich an, als kämst du vom Mond. „Das ist die Waagmeisterin. Ihrer Familie gehört die halbe Oberstadt und die andere Hälfte schuldet ihr Geld.“
 * [Nur zusehen]
     Du siehst zu. {freund()} steht hinter der Frau in Schwarz, als hätte {fr_er()} dort schon tausendmal gestanden. Und als hätte {fr_er()} es jedes Mal gehasst.
 - Der Herold tritt vor. Derselbe wie vor vier Tagen, im selben roten Mantel. Er entrollt ein Pergament.
 
-„Bürger von Lysmara! Der Rat hat beschlossen: Ab dem kommenden Neumond muss jeder, der ein Element ruft, Mitglied einer Gilde sein. Die Gilde bürgt für ihn und verzeichnet ihn.“
+„Bürger von Lysmara! Der Rat hat beschlossen: Ab dem kommenden Neumond muss jeder, der ein Element ruft, Mitglied einer Gilde sein. Die Gilde bürgt für ihn und schreibt ihn in ihr Buch.“
 
 Ein Raunen.
 
-„Wer keiner Gilde angehört, schreibt sich beim Bund der Goldenen Waage ein. Die Waage bietet allen Elementrufern Schutz und Obhut.“ Der Herold hebt die Stimme. „Wer sich weder bei einer Gilde noch bei der Waage einschreibt, gilt ab dem Neumond als ungeprüft und wird von der Stadtwache in Gewahrsam genommen.“
+„Wer keiner Gilde angehört, schreibt sich beim Bund der Goldenen Waage ein. Die Waage bietet allen Elementrufern Schutz und Obhut.“ Der Herold hebt die Stimme. „Wer sich weder bei einer Gilde noch bei der Waage einschreibt, gilt ab dem Neumond als ungeprüft und wird von der Stadtwache eingesperrt.“
 
 Diesmal wird es nicht still. Diesmal brüllt der Platz. Manche jubeln. Andere pfeifen. Irgendwo ruft jemand: „Endlich! Mein Nachbar hat letzten Winter mein Fass gefrieren lassen!“ Und jemand anderes: „Schämt euch!“
 
@@ -156,7 +157,7 @@ Neben dir sagt eine raue Stimme leise: „Schutz und Obhut.“
 
 Yrsa. Sie hat das Tuch tief in die Stirn gezogen. Ihre Hände sind zu Fäusten geballt, so fest, dass der Ruß in den Falten weiß aussieht.
 
-„Fünfzig Jahre habe ich geschwiegen“, sagt sie, ohne dich anzusehen. „Fünfzig Jahre habe ich für die Gilde geschmiedet und nie gesagt, was ich bin. Und jetzt soll ich mich einschreiben wie ein Sack Mehl.“ Sie spuckt aus. „Ich schreibe mich nirgends ein.“
+„Fünfzig Jahre habe ich geschwiegen“, sagt sie, ohne dich anzusehen. „Fünfzig Jahre habe ich für die Gilde geschmiedet und nie gesagt, was ich bin. Und jetzt soll ich mich einschreiben wie ein Sack Mehl.“ Sie schnaubt. „Ich schreibe mich nirgends ein.“
 
 „Und was passiert dann?“
 

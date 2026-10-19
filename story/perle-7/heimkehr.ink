@@ -106,7 +106,7 @@ Du nickst. Über die Berge. Herausfinden, was das Schweigen ist. Und ob das Herz
 = fesk
 Vor der Tür steht ein Mann in einem grauen Mantel mit silbernen Knöpfen. Fesk. Er lüftet den Hut.
 
-„Die vierzig Silberlinge“, sagt er freundlich. „Wir hatten Neumond gesagt. Neumond war vor einer Weile.“ Er zieht ein kleines, schweres Päckchen aus dem Mantel, verschnürt und mit silbernem Siegel. „Aber das Kontor ist großzügig. Ich höre, du gehst über die Berge. In Dornfurt, am ersten Fluss hinter dem Kamm, hat das Silbermark-Kontor eine Stube. Bring das dorthin, und die Schuld ist bezahlt. Für {pfand()}. Für immer.“
+„Die vierzig Silberlinge“, sagt er freundlich. „Wir hatten Neumond gesagt.{fesk_aufschub: Dann zwei Wochen extra, weil du in einer Gilde bist. Auch die sind vorbei.} Neumond war vor einer Weile.“ Er zieht ein kleines, schweres Päckchen aus dem Mantel, verschnürt und mit silbernem Siegel. „Aber das Kontor ist großzügig. Ich höre, du gehst über die Berge. In Dornfurt, am ersten Fluss hinter dem Kamm, hat das Silbermark-Kontor eine Stube. Bring das dorthin, und die Schuld ist bezahlt. Für {pfand()}. Für immer.“
 * [Das Päckchen annehmen]
     ~ fesk_auftrag = true
     Du nimmst das Päckchen. Es ist schwerer, als es aussieht.
@@ -170,6 +170,11 @@ Vor der Tür steht ein Mann in einem grauen Mantel mit silbernen Knöpfen. Fesk.
 In der Werkstatt von Knallfunke & Söhne riecht es nach Öl und angebranntem Zucker. Tickwort steht an einer Werkbank und erklärt drei Goblins etwas über Zahnräder. Die Goblins hören zu. Wirklich.
 
 Als er dich sieht, stößt sein Schornstein eine ganze Kette Dampfringe aus. „Du gehst“, sagt er. „Das sehe ich an deinem Bündel, an deinen Stiefeln und an der Art, wie du in der Tür stehst. Drei Beweise. Drei ist eine sehr gute Zahl.“
+{ tickwort_wiedergesehen:
+    „Seit dem Gildentag habe ich weitergeschrieben“, sagt er. „Hundertsieben Anleitungen. Brakka hat von allen die erste Seite gelesen. Das ist ein Rekord.“
+- else:
+    „Du warst lange nicht hier“, sagt er. Es klingt nicht wie ein Vorwurf. Eher wie eine Zahl, die er sich genau gemerkt hat.
+}
 
 Du zeigst ihm den Kompass. Die Nadel zeigt auf dich selbst, irgendwie, oder auf den Boden unter dir. Nach Hause.
 

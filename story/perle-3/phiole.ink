@@ -8,7 +8,7 @@
 ~ pruefungen += 1
 # karte: phiole
 # bild: szene/phiole-pruefung
-Das Haus der Glühenden Phiole steht am Hafen, gleich neben Knallfunke & Söhne, und es ist leicht zu finden: Es ist das einzige Haus, aus dessen Schornstein violetter Rauch steigt.
+Das Haus der Glühenden Phiole steht am Hafen, gleich neben Knallfunke & Söhne. Es ist leicht zu finden: Aus seinem Schornstein steigt als einzigem violetter Rauch.
 
 Im Hof stehen acht kleine Kupferkessel auf acht kleinen Feuerstellen. Drumherum drängen sich Zuschauer, denn die Prüfung der Phiole ist jedes Jahr die lauteste des Gildentags. Manche haben sich vorsichtshalber Watte in die Ohren gesteckt.
 
@@ -39,7 +39,7 @@ Vor dir stehen vier Schälchen: grünes Glühmoos, weißes Mondsalz, rote Funken
     ~ probe_zeile("Verstand", e)
     { e:
     - ERFOLG:
-        Unter der angekokelten Ecke kannst du gerade noch zwei Buchstaben lesen. Und da steht „Salz“ am Ende einer Zeile. Erst das Wasser, dann das Moos, dann die Beeren, dann das Salz. Du bist dir sicher.
+        Unter der angekokelten Ecke kannst du gerade noch ein Wort lesen: „Salz“, ganz am Ende der letzten Zeile. Erst das Wasser, dann das Moos, dann die Beeren, dann das Salz. Du bist dir sicher.
         -> feuer_klein(1)
     - JA_ABER:
         Du rätst. Klug, aber du rätst. Wasser, Moos, Salz, Beeren? Oder Beeren, dann Salz? Du entscheidest dich. Vielleicht richtig.
@@ -58,7 +58,7 @@ Vor dir stehen vier Schälchen: grünes Glühmoos, weißes Mondsalz, rote Funken
 „Und jetzt“, ruft Meisterin Ambra, „die Flamme. Klein wie ein Fingernagel. Zählt bis hundert. Wird sie größer, kocht der Trank über. Wird sie kleiner, wird er nie leuchten.“
 
 Unter deinem Kessel flackert ein kleines Feuer. Die Zuschauer drängen näher. Ganz vorn steht ein Mann in einem schwarzen Mantel mit einem Notizbuch. Er schaut nicht auf die Kessel. Er schaut auf die Bewerber.
-* [Das Feuer mit dem Ventil am Kessel ruhig halten (Geschick)]
+* [Das Feuer mit der Luftklappe der Feuerstelle ruhig halten (Geschick)]
     ~ temp e = probe(geschick + vorteil)
     ~ probe_zeile("Geschick", e)
     -> trank(e)
@@ -109,7 +109,7 @@ Unter deinem Kessel flackert ein kleines Feuer. Die Zuschauer drängen näher. G
     Die Zuschauer klatschen. Meisterin Ambra beugt sich über deinen Kessel und nickt. „Ruhige Hände“, sagt sie. „Die braucht man bei uns mehr als Mut.“ Sie füllt den Trank in ein kleines Fläschchen und gibt es dir. „Deiner. Er leuchtet eine Nacht lang. Und ein Angebot. Bis Mitternacht.“
 - JA_ABER:
     ~ angebot_phiole = true
-    Bei hundert nimmst du den Kessel vom Feuer. Der Trank leuchtet. Er leuchtet sehr. Er leuchtet so sehr, dass alle die Augen zukneifen müssen, und dann macht es leise Plopp, und aus dem Kessel steigt eine Wolke aus grünem Glitzer, die sich auf alles legt. Auf dich. Auf die Zuschauer. Auf Meisterin Ambra.
+    Bei hundert nimmst du den Kessel vom Feuer. Der Trank leuchtet. Er leuchtet sehr. Er leuchtet so sehr, dass alle die Augen zukneifen müssen. Dann macht es leise Plopp. Aus dem Kessel steigt eine Wolke aus grünem Glitzer und legt sich auf alles. Auf dich. Auf die Zuschauer. Auf Meisterin Ambra.
     Meisterin Ambra wischt sich Glitzer von der Nase. „Zu viel“, sagt sie. „Aber es leuchtet. Ein Angebot. Bis Mitternacht.“ Sie grinst. „Du wirst noch drei Tage glitzern. Das gehört dazu.“
 - else:
     Bei siebenundvierzig kocht der Trank über. Bei achtundvierzig wird er violett. Bei neunundvierzig macht es BUMM, und eine Wolke aus dickem, grünem Schaum hüllt dich ein. Er riecht nach Pfefferminz und verbrannten Socken.

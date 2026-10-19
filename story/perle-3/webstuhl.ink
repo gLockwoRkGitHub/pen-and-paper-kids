@@ -8,7 +8,7 @@
 ~ pruefungen += 1
 # karte: tuchhalle
 # bild: szene/tuchhalle-pruefung
-In der Tuchhalle warten schon ein Dutzend Bewerber: Weberkinder, ein Schmiedelehrling mit Brandnarben an den Fingern, eine junge Zwergin mit zwei dicken Zöpfen, die sich als Hulda vorstellt, und ein Gnomenjunge, der unablässig an seiner Schutzbrille putzt.
+In der Tuchhalle warten schon ein Dutzend Bewerber. Weberkinder, ein Schmiedelehrling mit Brandnarben an den Fingern und ein Gnomenjunge, der unablässig seine Schutzbrille putzt. Dazu eine junge Zwergin mit zwei dicken Zöpfen. Sie stellt sich als Hulda vor.
 
 Meister Kettrich steht auf seinem Podest und mustert euch durch seine drei Brillengläser.
 { ruf_webstuhl_amboss > 0:
@@ -156,7 +156,7 @@ Der Stamm sitzt fest. Das Wasser drückt ihn immer tiefer zwischen die Schaufeln
     - "feuer":
         Ein Funke springt aus der offenen Tür der Schmiede, so klein, dass ihn niemand bemerkt. Er landet auf dem Tau und frisst sich hindurch, Faser um Faser. Das Tau reißt. Die Kette rasselt in den Graben, und der Stamm dreht sich frei.
     - else:
-        Du flüsterst in den Wind: „Schütz schließen!“ Und weit oben am Graben hört der Wärter eine Stimme an seinem Ohr, obwohl niemand neben ihm steht. Er erschrickt, aber er kurbelt. Das Wasser sinkt. Der Stamm lockert sich. Hulda und du ziehen ihn mit einem Haken heraus.
+        Du flüsterst in den Wind: „Schütz schließen!“ Und weit oben am Graben hört der Wärter eine Stimme an seinem Ohr, obwohl niemand neben ihm steht. Er erschrickt, aber er kurbelt. Das Wasser sinkt. Der Stamm lockert sich. Hulda und du, ihr zieht ihn mit einem Haken heraus.
     }
     { z2 == JA_ABER:
         Leider hat es jemand gesehen: Der Gnomenjunge starrt dich mit offenem Mund an. Aber bevor er etwas sagen kann, steht Kettrich neben ihm. „Regel einunddreißig“, sagt der Hallenmeister ruhig. „Was in der Halle passiert, bleibt in der Halle. Verstanden?“ Der Junge nickt sehr schnell.
@@ -209,6 +209,6 @@ Kettrich kommt zu euch heraus.
         Leise fügt er hinzu: „Und ja. Mitglieder kommen in die Minen.“
     }
 - else:
-    Kettrich schüttelt dir die Hand. „Du hast dich angestrengt. Das sehe ich. Aber Regel siebzehn ist Regel siebzehn.“ Hulda bekommt die Karte mit dem Angebot. Sie zwinkert dir zu. „Nächstes Jahr“, sagt sie. „Dann gegeneinander.“
+    Kettrich schüttelt dir die Hand. „Du hast dich angestrengt. Das sehe ich. Aber Regel siebzehn ist Regel siebzehn.“ Hulda bekommt die Karte mit dem Angebot. Sie zwinkert dir zu. „Nächstes Jahr“, sagt sie. „Dann schaffst du es.“
 }
 ->->

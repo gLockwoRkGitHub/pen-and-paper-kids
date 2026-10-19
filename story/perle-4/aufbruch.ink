@@ -20,7 +20,7 @@ Du warst noch nie so weit draußen. Nicht allein.
 - erster_auftrag == "waage_wollmark":
     -> waagen_wagen_start
 - else:
-    Du hast keinen Auftrag, keine Gilde und keinen Plan. Nur eine Frage: Wenn die Gnolle hereingekommen sind, gibt es einen Weg hinaus.
+    Du hast keinen Auftrag, keine Gilde und keinen Plan. {gnolle_gesichtet:Nur eine Frage: Wenn die Gnolle hereingekommen sind, gibt es einen Weg hinaus.|Nur eine Frage: Gibt es da draußen einen Weg hinaus?}
 }
 -> freund_am_tor
 
