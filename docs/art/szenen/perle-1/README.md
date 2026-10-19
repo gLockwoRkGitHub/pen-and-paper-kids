@@ -253,3 +253,5 @@ Beide Übersichten angesehen. **Insgesamt sehr gelungen:** Stil einheitlich, Ich
 `requisiten/dampfkarren` (optional): auch die dritte Runde (6 Seeds) hat vier Räder. Bleibt wie es ist, Schwäche steht in `requisiten/README.md`.
 
 **R5 – übrige Bilder durchgesehen (14.10.2026):** alle Bilder in `figuren/`, `orte/`, `requisiten/` und `szenen/perle-1/` (einschließlich Tagebuchseiten) über die Übersichten und Ausschnitte geprüft. Weitere Spiralen oder spiralartige Zeichen gefunden: keine. Übersichten `uebersicht-1.png` und `-2.png` neu gebaut.
+
+**Zeichen der Leisen Hand (19.10.2026):** In `szene-markt.png` sah der Aufnäher auf Finks Mütze wie ein Mittelfinger aus; mit `tools/zeichen-einsetzen.py` durch die Vorlage `requisiten/leise-hand-zeichen.png` ersetzt.

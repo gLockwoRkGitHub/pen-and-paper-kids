@@ -130,3 +130,5 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `szene-glimmhalde-fest` | 4 | – |
 | `szene-wiedersehen-<hintergrund>` | je 2 | Brustbilder vor der Treppe; alle gleich aufgebaut |
 | `tagebuch-perle-5` | 5 | Buch auf Tisch |
+
+**Zeichen der Leisen Hand (19.10.2026):** In `szene-brief-in-wollmark.png` sah der Aufnäher auf Finks Mütze wie ein Mittelfinger aus; mit `tools/zeichen-einsetzen.py` durch die Vorlage `requisiten/leise-hand-zeichen.png` ersetzt.

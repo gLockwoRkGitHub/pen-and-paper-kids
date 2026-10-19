@@ -17,3 +17,4 @@ Erzeugt mit `tools/erzeuge-bild.js` (FLUX.2 klein 4B), je 6 Seeds, das beste gew
 | `kugel-im-korb.png` | `kugel-im-korb.prompt.txt` | 10 (Runde 2) | 1536×1024 | – | Runde 1 meist nur drei Kugeln; Prompt nachgeschärft, jetzt vier (braun, blau, rot, weiß) |
 | `gildenzeichen.png` | `gildenzeichen.prompt.txt` | 3 | 1536×1024 | – | – |
 | `abschiedsgeschenke.png` | `abschiedsgeschenke.prompt.txt` | 4 | 1536×1024 | – | Pfeife eher ein Fernrohr-artiges Röhrchen |
+| `leise-hand-vorlage.png` / `leise-hand-zeichen.png` | – (gezeichnet mit `tools/leise-hand-vorlage.py`) | – | 1024×1024 / 512×512 | – | Exakte Vorlage für das Zeichen der Leisen Hand (19.10.2026); `-zeichen` ist der zugeschnittene Ausschnitt zum Einsetzen |

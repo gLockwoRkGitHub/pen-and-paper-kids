@@ -150,3 +150,6 @@ Einzelbild: `<name>-einzel.prompt.txt`, 832×1216, 6 Seeds, nur aus Text. Refere
 | `durgash` | 3 | 1 | Nur in diesem Seed ist ein Hauer sichtbar abgebrochen |
 | `haldor` | 3 | 3 | – |
 | `faehrfrau` | 4 | 3 | Auf dem Ruderblatt vier Ringe im Kreis, nicht ganz sauber verschlungen (Mitte nicht ganz frei) |
+
+## Zeichen der Leisen Hand (19.10.2026)
+Auf Finks Mütze sah das Zeichen in `fink-einzel.png` und `fink-referenzblatt.png` wie ein ausgestreckter Mittelfinger aus. Ersetzt mit `tools/zeichen-einsetzen.py --zeichen docs/art/requisiten/leise-hand-zeichen.png --grund <Farbe>` (neuer Aufnäher mit Gesicht und Zeigefinger über den Lippen). Auf dem Referenzblatt in Seiten- und Dreiviertelansicht übermalt (dort nur von der Seite zu sehen). Die Prompts beschreiben das Zeichen jetzt genauer.

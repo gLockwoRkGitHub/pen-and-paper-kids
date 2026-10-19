@@ -69,7 +69,7 @@ Diese Details stehen nicht in der Story; sie stammen aus den Entwürfen in `docs
 | **Grumak** (Ork) | groß wie ein Schrank, graue Strähnen im Haar, kleine goldene Ringe in beiden Ohren, Gewürzhändler | Story |
 | **Fesk** (Eintreiber) | dürr, silbergrauer Mantel, dickes Buch unter dem Arm, auffällige Nase, kleine Silbermünze am Kragen | Story |
 | **Der Fremde** | siehe `der-fremde.md` | Claude |
-| **Fink** (Leise Hand) | Junge, tief ins Gesicht gezogene Mütze mit aufgenähtem Zeichen (Hand, Finger an den Lippen) | Story |
+| **Fink** (Leise Hand) | Junge, tief ins Gesicht gezogene Mütze mit aufgenähtem Zeichen (Hand, Finger an den Lippen; Bildvorlage `docs/art/requisiten/leise-hand-zeichen.png`) | Story |
 | **Meister Orwin** (Kartograf) | alt, tintenblaue Finger, eine Brille auf der Nase, eine zweite auf der Stirn | Story |
 | **Hauptfrau Hallward** (Stadtwache) | kräftig, kurz geschorenes Haar | Story |
 | **Hafenmeister Brann** | so breit wie eine Tür | Story |

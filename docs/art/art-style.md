@@ -17,6 +17,7 @@ Referenz: `stil-vorschlaege/1-gemaltes-abenteuerbuch.jpg`
 ## Verbotene Formen (festgelegt 14.10.2026, Pasco)
 - **Nichts, was an ein Hakenkreuz oder andere belastete Zeichen erinnert.** Keine Zeichen mit vier (oder drei) gleichen, abgeknickten oder gebogenen Armen, die sich um einen Mittelpunkt drehen – auch nicht als Wappen, Siegel, Ornament, Kritzelei oder Muster. Ebenso keine Runen, die als Sig- oder Odalrune gelesen werden können.
 - Gilt für Bilder, Prompts, Player-Gestaltung und Symbole in der Story. Im Zweifel ein anderes Motiv wählen.
+- **Keine Gesten, die als unhöflich gelesen werden können** (19.10.2026): Das Zeichen der Leisen Hand wurde vom Modell mehrfach wie ein ausgestreckter Mittelfinger gemalt. Handzeichen deshalb nur mit gezeichneter Vorlage (`docs/art/requisiten/leise-hand-zeichen.png`) und immer vergrößert prüfen.
 - Anlass: Ein Wappen-Entwurf für den Startbildschirm (vier gebogene Arme) erinnerte daran; er wurde sofort ersetzt.
 
 ## Hinweise für die Bilderzeugung

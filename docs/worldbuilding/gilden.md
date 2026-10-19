@@ -16,7 +16,7 @@ Stand 09.10.2026 – Antworten aus Runde 2.
 | Bankiers (alt) | **Bund der Goldenen Waage** | Alteingesessen, vornehm, sitzt in den Menschenstädten und zieht dort die Fäden im Stadtrat. |
 | Bankiers (Rivale) | **Silbermark-Kontor** | Jung, aggressiv, verleiht auch an Leute, denen sonst keiner etwas gibt – zu hohen Preisen. |
 | Alchemisten | **Zirkel der Glühenden Phiole** | Tränke, Sprengpulver, Heilmittel. Arbeitet gern mit den Goblins zusammen, was die Gnome misstrauisch macht. |
-| Diebe | **Die Leise Hand** | Betreibt den Schwarzmarkt. Offiziell gibt es sie nicht, jeder kennt sie trotzdem. |
+| Diebe | **Die Leise Hand** | Betreibt den Schwarzmarkt. Offiziell gibt es sie nicht, jeder kennt sie trotzdem. Zeichen: Gesicht mit Zeigefinger über den Lippen („Psst“), Bildvorlage `docs/art/requisiten/leise-hand-zeichen.png` (19.10.2026). |
 | Kartografen | **Gesellschaft der Weiten Feder** | Vermisst die Welt, kauft Wissen über unbekannte Orte. Passt perfekt zur selbst gemalten Karte des Spielers. |
 | Stoff und Erz (eine Gilde, bestätigt) | **Bund von Webstuhl und Amboss** | Kontrolliert Handel mit Tuch und Erzen. Braucht die Kobold-Minen – und die Zwerge als Abnehmer. |
 
