@@ -147,5 +147,9 @@ Die Waage will, dass sich alle Magier bei einer Gilde einschreiben.
 }
 In drei Tagen ist Gildentag.“ # tagebuch_ende
 
-{kraftfunken == 1:Du spürst einen kleinen Funken in dir.|Du spürst {zahl(kraftfunken)} kleine Funken in dir.}
+{
+- kraftfunken == 0: Du spürst keinen Funken mehr in dir. Nach einer Rast kommen sie wieder.
+- kraftfunken == 1: Du spürst einen kleinen Funken in dir.
+- else: Du spürst {zahl(kraftfunken)} kleine Funken in dir.
+}
 ->->

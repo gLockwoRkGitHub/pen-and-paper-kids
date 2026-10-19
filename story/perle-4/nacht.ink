@@ -248,5 +248,9 @@ Ashka sagt: Das Graue kommt nicht über die Berge. Es kommt aus ihnen.
 Der Berg brummt.
 Ich gehe zu den Minen.“ # tagebuch_ende
 
-Kraftfunken: {kraftfunken}
+{
+- kraftfunken == 0: Du spürst keinen Funken mehr in dir. Nach einer Rast kommen sie wieder.
+- kraftfunken == 1: Du spürst einen kleinen Funken in dir.
+- else: Du spürst {zahl(kraftfunken)} kleine Funken in dir.
+}
 ->->

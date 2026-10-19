@@ -566,5 +566,9 @@ Mein Ruf ist jetzt ein Sturm.
 }
 Das Herz im Berg hat einen Riss. Irgendwo da draußen weiß jemand, wie man ihn heilt.“ # tagebuch_ende
 
-Kraftfunken: {kraftfunken}
+{
+- kraftfunken == 0: Du spürst keinen Funken mehr in dir. Nach einer Rast kommen sie wieder.
+- kraftfunken == 1: Du spürst einen kleinen Funken in dir.
+- else: Du spürst {zahl(kraftfunken)} kleine Funken in dir.
+}
 ->->
