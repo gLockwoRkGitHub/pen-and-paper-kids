@@ -78,7 +78,7 @@ Am Abend des zweiten Tages siehst du die Lichter von Lysmara. Und dahinter, rot 
 { element == "wasser":
     ~ umg_bruecke = 1
 }
-# bild: szene/heimkehr-lysmara
+# bild: szene/orinbruecke-kontrolle
 Am Landtor stockt der Verkehr. Karren, Handwagen, eine schnatternde Gänseherde, alles staut sich vor der Orinbrücke.{yrsa_in_vardholm: Yrsa zieht an den Zügeln, und der Karren reiht sich ein.} Dann siehst du, warum.
 Am Brückenkopf stehen zwei Söldner der Waage. Der eine hält ein Blatt in der Hand und sieht jedem ins Gesicht, der hinüberwill. Der andere gähnt.
 {yrsa_in_vardholm || freund_kommt_mit:Als ihr näher rückt|Als du näher rückst}, erkennst du das Zeichen der Waage auf dem Blatt. Darunter eine Zeichnung, ein Kindergesicht. Sie sieht dir nicht besonders ähnlich. Aber ähnlich genug.
@@ -156,6 +156,7 @@ Am Brückenkopf stehen zwei Söldner der Waage. Der eine hält ein Blatt in der 
 { bruecke_kontrolle == "versteckt":
     Dann endlich durch die Gassen. Die Wasserräder drehen sich im Dunkeln. Am Markt packen die letzten Händler ihre Stände zusammen. Alles ist, wie es war. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
 - else:
+    # bild: szene/heimkehr-lysmara
     Dann durch die Gassen. Die Wasserräder drehen sich. Am Markt rufen die Händler. Alles ist, wie es war. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
 }
 ->->

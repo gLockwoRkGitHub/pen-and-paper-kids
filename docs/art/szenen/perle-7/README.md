@@ -114,6 +114,12 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 ## 23. `tagebuch/perle-7` – Die ganze Karte
 **Ebene:** Tagebuch · Über beide Seiten die vollständige Karte von Meridel, und zum ersten Mal **über den Rand des Kamms hinaus**: Fluss, Stadt mit Palisade, dicker Pfeil nach Osten. Daneben Kompass, Goldknopf, Seil. Keine Schrift.
 
+## 21. `szene/orinbruecke-kontrolle` – Kontrolle an der Orinbrücke (neu, 19.10.2026)
+**Moment:** Nur wer von der Waage noch gesucht wird. Am Landtor staut sich der Verkehr; zwei Söldner der Waage prüfen am Brückenkopf jedes Gesicht mit einem Steckbrief.
+**Blick:** aus Kinderaugenhöhe zwischen Heuwagen, Kohlkarren und einer Gänseherde auf die steinerne Bogenbrücke über den Orin; dahinter Wasserräder und Färbertücher wie im Räderviertel.
+**Wichtig:** Der Steckbrief zeigt dem Betrachter nur die **leere Rückseite** mit kleinem Siegel – sonst wäre das Gesicht der Spielfigur zu sehen. Ein Söldner hält ihn hoch, der andere gähnt. Gespannt, nicht bedrohlich.
+**Referenzen:** `figuren/soeldner-waage-einzel.png`, `orte/raederviertel.png`.
+
 ## Neue Figuren
 | Datei | Figur |
 |---|---|

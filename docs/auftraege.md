@@ -289,6 +289,13 @@ Neu in der Prüfliste: **kein Buch, kein Tisch, kein Rand**, nur die Skizze auf 
 - [x] **N8 Jaro ohne Rand:** `tagebuch/menschen/jaro.png` neu (gleicher Prompt, andere Seeds, z. B. ab Seed 11), 4 Seeds. **Prüfliste:** heller Papierrand wie bei allen anderen Skizzen, kein dunkler Rahmen. → **19.10.2026:** `jaro.png` Seed 12.
 - [x] **N9 Abschluss:** Übersichten Perle 7 und Tagebuch neu bauen, Ergebnisse in den READMEs eintragen, hier abhaken, committen, pushen. → **19.10.2026:** Übersichten Perle 7 und Tagebuch neu gebaut, READMEs ergänzt.
 
+## Perle 7 – neues Szenenbild Orinbrücke (Auftrag vom 19.10.2026)
+
+Neue Szene in Perle 7 (Kontrolle an der Orinbrücke für Gesuchte), Beschreibung in `docs/art/szenen/perle-7/README.md`, Abschnitt 21.
+
+- [ ] **B1 Orinbrücke:** `docs/art/szenen/perle-7/szene-orinbruecke-kontrolle.png` mit `szene-orinbruecke-kontrolle.prompt.txt` (Referenzen stehen in der ersten Zeile), 1536×1024, 6 Seeds, bestes wählen. **Prüfliste:** Steckbrief zeigt nur die leere Rückseite (kein Gesicht, keine Schrift) · zwei Söldner im Stil von `soeldner-waage-einzel` · Gänse und Karren im Vordergrund · keine Hände oder Füße des Betrachters · Brücke aus Stein über einen Fluss. Klappt es nach zwei Runden nicht: bestes Bild nehmen und die Schwäche im README notieren (nicht nachfragen).
+- [ ] **B2 Abschluss:** Übersicht Perle 7 neu bauen, Seed im README eintragen, hier abhaken, committen, pushen.
+
 ## Auf Abruf (kein fester Auftrag)
 Diese Prompts liegen bereit und werden nur erzeugt, wenn Pasco danach fragt.
 - (auf Abruf) **Beispielfiguren der fünf Völker** (Kinder um die zwölf, je Junge und Mädchen): `docs/art/figuren/volk-<mensch|zwerg|gnom|ork|troll>-<m|w>-einzel.prompt.txt`, 832×1216, nur aus Text; danach `voelker-vergleich.prompt.txt` (1536×1024) mit drei Einzelbildern als Referenz. Prüfen: Zwergenkinder ohne Bart, Trolle schlaksig und nicht massig, Orks freundlich.
