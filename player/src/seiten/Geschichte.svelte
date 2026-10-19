@@ -26,7 +26,12 @@
 
   // Das Bild links ist das zuletzt sichtbare
   const bild = $derived([...sichtbar].reverse().find((b) => b.typ === 'bild') as Extract<Block, { typ: 'bild' }> | undefined);
-  const hochkant = (pfad: string) => pfad.startsWith('figur/');
+  // Seitenverhältnis erst nach dem Laden bekannt: Bilder werden immer ganz gezeigt (nie beschnitten)
+  function geladen(e: Event) {
+    const img = e.currentTarget as HTMLImageElement;
+    img.style.aspectRatio = `${img.naturalWidth} / ${img.naturalHeight}`;
+    img.classList.toggle('hochkant', img.naturalHeight > img.naturalWidth);
+  }
   const src = (pfad: string) => `./bilder/${pfad}.webp`;
 
   // Lesefluss (story-konventionen.md, Abschnitt 2): die gewählte Zeile rückt nach oben, nie ans Ende springen.
@@ -86,10 +91,9 @@
     <div class="bildseite" aria-hidden={!bild}>
       {#if bild}
         {#key bild.pfad}
-          <img class:hochkant={hochkant(bild.pfad)} src={src(bild.pfad)} alt="" in:fade={{ duration: 500 }} onerror={(e) => ((e.currentTarget as HTMLImageElement).style.visibility = 'hidden')} />
+          <img src={src(bild.pfad)} alt="" in:fade={{ duration: 500 }} onload={geladen} onerror={(e) => ((e.currentTarget as HTMLImageElement).style.visibility = 'hidden')} />
         {/key}
       {/if}
-      <svg class="kante" viewBox="0 0 26 790" preserveAspectRatio="none" aria-hidden="true"><path d="M26 0 L12 0 L18 40 L8 90 L16 140 L6 200 L15 260 L9 320 L18 380 L7 440 L14 500 L5 560 L16 620 L8 680 L15 740 L10 790 L26 790 Z" fill="#F4EBD6" /></svg>
     </div>
 
     <section class="textseite" aria-label="Geschichte">
@@ -111,7 +115,7 @@
                 </div>
               {:else if b.typ === 'bild'}
                 <figure class="bild-im-text">
-                  <img class:hochkant={hochkant(b.pfad)} src={src(b.pfad)} alt="" onerror={(e) => ((e.currentTarget as HTMLElement).closest('figure')!.style.display = 'none')} />
+                  <img src={src(b.pfad)} alt="" onload={geladen} onerror={(e) => ((e.currentTarget as HTMLElement).closest('figure')!.style.display = 'none')} />
                 </figure>
               {:else if b.typ === 'text'}
                 <p class:hand={b.handschrift}>
@@ -196,10 +200,11 @@
   .tisch { height: 100%; padding: 22px; background: var(--tisch); display: flex; }
   .buch { position: relative; flex: 1; display: flex; border-radius: 8px; overflow: hidden; box-shadow: 0 14px 34px rgba(0, 0, 0, 0.6); max-width: 1500px; margin: 0 auto; }
 
-  .bildseite { position: relative; width: 42%; max-width: 620px; flex-shrink: 0; overflow: hidden; background: #E8D9B8; }
-  .bildseite img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-  .bildseite img.hochkant { object-fit: contain; padding: 24px 30px 24px 18px; }
-  .kante { position: absolute; top: 0; right: -1px; height: 100%; width: 26px; }
+  /* Linke Buchseite: das Bild ganz, wie in das Buch gedruckt (multiply lässt helle Ränder ins Pergament übergehen) */
+  .bildseite { position: relative; width: 50%; max-width: 760px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; padding: 34px 34px 34px 30px; box-shadow: inset -26px 0 26px -20px rgba(60, 40, 20, 0.4); }
+  .bildseite img { display: block; max-width: 100%; max-height: 100%; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; mix-blend-mode: multiply; border-radius: 3px; }
+  .bildseite :global(img.hochkant) { width: auto; height: 100%; }
+  .textseite { box-shadow: inset 26px 0 26px -20px rgba(60, 40, 20, 0.4); }
 
   .textseite { flex: 1; min-width: 0; display: flex; flex-direction: column; padding: 26px 34px 0 26px; }
   header { display: flex; align-items: center; gap: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--linie-hell); min-height: 44px; }
@@ -216,8 +221,8 @@
   .kapitel-perle { font-family: var(--schrift-titel); font-size: 13px; font-weight: 700; letter-spacing: 0.24em; color: var(--tinte-blass); text-transform: uppercase; }
   .kapitel h2 { margin: 0; font-family: var(--schrift-titel); font-size: 30px; font-weight: 900; color: #5A2A1C; }
   .bild-im-text { display: none; margin: 4px 0; }
-  .bild-im-text img { width: 100%; aspect-ratio: 3 / 2; height: auto; max-height: 60vh; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 8px rgba(60, 40, 20, 0.3); display: block; }
-  .bild-im-text img.hochkant { aspect-ratio: 832 / 1216; width: auto; max-width: 100%; margin: 0 auto; object-fit: contain; box-shadow: none; max-height: 50vh; }
+  .bild-im-text img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; max-height: 65vh; object-fit: contain; mix-blend-mode: multiply; border-radius: 3px; margin: 0 auto; }
+  .bild-im-text :global(img.hochkant) { width: auto; max-width: 100%; max-height: 55vh; }
 
   .wahlen { display: flex; flex-direction: column; gap: 10px; margin-top: 8px; }
   .wahl-text { flex: 1; min-width: 0; }
@@ -255,7 +260,7 @@
     .buch { border-radius: 0; }
     .bildseite { display: none; }
     .bild-im-text { display: block; }
-    .textseite { padding: max(10px, env(safe-area-inset-top)) 18px 0 18px; }
+    .textseite { padding: max(10px, env(safe-area-inset-top)) 18px 0 18px; box-shadow: none; }
     .fluss { font-size: 19px; max-width: none; margin: 0 auto; }
     .ecke { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); }
     .zu { transform: scale(0.75); transform-origin: bottom right; }
