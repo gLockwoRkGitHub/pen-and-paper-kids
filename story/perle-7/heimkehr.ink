@@ -70,11 +70,110 @@ Am Abend des zweiten Tages siehst du die Lichter von Lysmara. Und dahinter, rot 
 
 
 // ---------------------------------------------------------------------
+// Kontrolle an der Orinbrücke – nur wenn die Waage die Figur noch sucht
+// (Pasco, 19.10.2026)
+// ---------------------------------------------------------------------
+=== p7_orinbruecke
+~ temp umg_bruecke = 0
+{ element == "wasser":
+    ~ umg_bruecke = 1
+}
+# bild: szene/heimkehr-lysmara
+Am Landtor stockt der Verkehr. Karren, Handwagen, eine schnatternde Gänseherde, alles staut sich vor der Orinbrücke.{yrsa_in_vardholm: Yrsa zieht an den Zügeln, und der Karren reiht sich ein.} Dann siehst du, warum.
+Am Brückenkopf stehen zwei Söldner der Waage. Der eine hält ein Blatt in der Hand und sieht jedem ins Gesicht, der hinüberwill. Der andere gähnt.
+{yrsa_in_vardholm || freund_kommt_mit:Als ihr näher rückt|Als du näher rückst}, erkennst du das Zeichen der Waage auf dem Blatt. Darunter eine Zeichnung, ein Kindergesicht. Sie sieht dir nicht besonders ähnlich. Aber ähnlich genug.
+{ freund_kommt_mit:
+    {freund()} hat es auch gesehen. {Fr_er()} greift nach deinem Ärmel.
+}
+* [Dich hinter einem Heuwagen über die Brücke schieben (Geschick)]
+    ~ temp g_bruecke = probe(geschick)
+    ~ probe_zeile("Geschick", g_bruecke)
+    Du {yrsa_in_vardholm:gleitest vom Karren, }duckst dich hinter einen Heuwagen und schiebst dich Schritt für Schritt mit ihm voran, immer auf der Seite, die die Söldner nicht sehen.
+    -> bruecke_folge(g_bruecke)
+* [Dich zu den Gänsen stellen und so tun, als gehörten sie dir (Verstand)]
+    ~ temp v_bruecke = probe(verstand)
+    ~ probe_zeile("Verstand", v_bruecke)
+    Du {yrsa_in_vardholm:gleitest vom Karren, }brichst eine Weidenrute vom Wegrand, stellst dich hinter die Gänse und treibst sie an, als hättest du dein Leben lang nichts anderes getan. „Ich helf dir, Großmutter“, sagst du laut zu der alten Frau, der sie gehören. Sie sieht dich verdutzt an. Dann versteht sie und nickt.
+    -> bruecke_folge(v_bruecke)
+* {kann_zaubern(umg_bruecke)} [Mit {element_dativ(element)} für Ablenkung sorgen (Zauber)]
+    ~ temp z_bruecke = zauber(umg_bruecke)
+    ~ probe_zeile("Zauber", z_bruecke)
+    { element:
+    - "wasser":
+        Du rufst den Orin. Unter der Brücke steigt Nebel auf, erst ein Hauch, dann eine weiße Wand, die über das Geländer quillt.
+    - "erde":
+        Du bittest die Pflastersteine am Brückenkopf, sich ein kleines bisschen zu heben. Ein Kohlkarren bleibt hängen, kippt, und Kohlköpfe rollen den Söldnern vor die Füße.
+    - "feuer":
+        Am Brückenkopf glüht ein Kohlebecken, an dem sich die Söldner die Hände wärmen. Du rufst die Glut darin. Sie faucht auf und spuckt eine dicke Wolke Rauch.
+    - else:
+        Du rufst einen Windstoß den Fluss herauf. Er reißt dem Söldner das Blatt aus der Hand und wirbelt es über das Geländer.
+    }
+    -> bruecke_folge(z_bruecke)
+* {hintergrund == "strassenkind" || hintergrund == "botenlaeufer"} [({hintergrund == "strassenkind":Straßenkind|Botenläufer}) Du kennst einen anderen Weg über den Orin]
+    ~ bruecke_kontrolle = "unbemerkt"
+    { hintergrund == "strassenkind":
+        Jedes Straßenkind in Lysmara kennt die Orinbrücke von unten. Unter dem dritten Bogen läuft ein schmaler Sims an den Pfeilern entlang, glitschig und dunkel, gerade breit genug für Kinderfüße. Früher habt ihr ihn genommen, wenn die Stadtwache Ärger gemacht hat.
+    - else:
+        Botenläufer nehmen nie die Brücke, wenn es eilt. Unten am Ufer liegt der alte Fährmann Ott in seinem Kahn, und Boten setzt er umsonst über. Er erkennt dich, grinst und fragt nichts.
+    }
+    Kurz darauf stehst du auf der anderen Seite{freund_kommt_mit:, {freund()} dicht hinter dir}. Die Söldner haben nicht einmal in deine Richtung geblinzelt.
+    -> bruecke_drueben
+* {freund_kommt_mit && wahrheit_freund} [{freund()} etwas versuchen lassen]
+    ~ bruecke_kontrolle = "unbemerkt"
+    „Lass mich mal“, flüstert {freund()} und zieht die Kapuze vom Kopf. Bevor du {fr_ihn()} aufhalten kannst, geht {fr_er()} geradewegs auf die Söldner zu.
+    Du siehst, wie sie {fr_ihn()} erkennen. Wie sie die Rücken gerade machen. Das Kind der Waagmeisterin. Beide starren nur noch auf {fr_ihn()}, und du gehst mitten im Gedränge an ihnen vorbei.
+    Hinter der Brücke holt {freund()} dich ein. {Fr_er()} ist blass. „Sie haben gefragt, ob meine Mutter weiß, wo ich bin“, sagt {fr_er()}. „Ich hab gesagt: Bald.“
+    -> bruecke_drueben
+* {yrsa_in_vardholm} [Unter Yrsas Plane kriechen, zwischen die Körbe]
+    ~ bruecke_kontrolle = "unbemerkt"
+    „Wie in Vardholm“, brummt Yrsa, als du unter die Plane kriechst.{freund_kommt_mit: {freund()} quetscht sich neben dich.} Die Körbe klappern. Der Karren rollt an und hält, und dicht neben dir sagt eine Stimme: „Was hast du da, Alte?“
+    „Altes Eisen“, sagt Yrsa. „Willst du's tragen?“
+    Er will nicht. Der Karren rollt weiter. Auf der anderen Seite klopft Yrsa zweimal auf das Brett. Du kannst herauskommen.
+    -> bruecke_drueben
+
+= bruecke_folge(e)
+{ e:
+- ERFOLG:
+    ~ bruecke_kontrolle = "unbemerkt"
+    Niemand hält dich an. Niemand ruft. Erst auf der anderen Seite merkst du, dass du die ganze Zeit die Luft angehalten hast.
+- JA_ABER:
+    ~ bruecke_kontrolle = "nachgesehen"
+    Du kommst hinüber. Aber am Ende der Brücke drehst du dich doch um, nur ganz kurz. Der Söldner, der eben noch gegähnt hat, gähnt nicht mehr. Er sieht dir nach, lange, mit schmalen Augen.
+    Er ruft nicht. Er läuft dir nicht nach. Aber du weißt, dass er sich dein Gesicht merken wird. Und du dir seins.
+- else:
+    ~ bruecke_kontrolle = "versteckt"
+    Einer der Söldner hebt den Kopf, genau in deine Richtung. „He! Du da!“
+    Du rennst. Nicht über die Brücke, sondern daneben die Uferböschung hinunter{freund_kommt_mit:, {freund()} hinter dir her}. Unter der Brücke ist es dunkel und nass und riecht nach Algen. Du drückst dich hinter einen Pfeiler, bis zu den Knöcheln im kalten Wasser. Über dir poltern Stiefel. Stimmen. Dann wird es still.
+    Du wartest trotzdem. Über dem Fluss gehen die Lichter an, eins nach dem anderen. Die Glocke der Ratshalle schlägt, und noch einmal. Erst als die Wache wechselt und die neuen Söldner nur noch in ihre Laternen gähnen, kletterst du die Böschung hinauf.{yrsa_in_vardholm: Yrsas Karren ist längst fort, zur Großen Schmiede.}
+    Es ist spät geworden. Für alles, was du heute Abend noch vorhattest, bleibt jetzt weniger Zeit.
+}
+-> bruecke_drueben
+
+= bruecke_drueben
+{ yrsa_in_vardholm && bruecke_kontrolle != "versteckt":
+    Hinter der Brücke trennen sich eure Wege. „Ich bin in der Schmiede“, sagt Yrsa. Mehr nicht. Dann rumpelt ihr Karren davon.
+}
+{ bruecke_kontrolle == "versteckt":
+    Dann endlich durch die Gassen. Die Wasserräder drehen sich im Dunkeln. Am Markt packen die letzten Händler ihre Stände zusammen. Alles ist, wie es war. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
+- else:
+    Dann durch die Gassen. Die Wasserräder drehen sich. Am Markt rufen die Händler. Alles ist, wie es war. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
+}
+->->
+
+
+// ---------------------------------------------------------------------
 // Der letzte Abend in Lysmara
 // ---------------------------------------------------------------------
 === p7_lysmara
-# bild: szene/heimkehr-lysmara
-Durch das Landtor, über die Orinbrücke, durch die Gassen. Alles ist, wie es war. Die Wasserräder drehen sich. Am Markt rufen die Händler. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
+{ gesucht && not (waage_gestuerzt || seraphine_einsicht):
+    -> p7_orinbruecke ->
+- else:
+    # bild: szene/heimkehr-lysmara
+    Durch das Landtor, über die Orinbrücke, durch die Gassen. Alles ist, wie es war. Die Wasserräder drehen sich. Am Markt rufen die Händler. Und doch kommt dir alles kleiner vor als vor ein paar Wochen.
+    { yrsa_in_vardholm:
+        Hinter der Brücke hat Yrsa {freund_kommt_mit:euch|dich} absteigen lassen. „Ich bin in der Schmiede“, hat sie gesagt. Mehr nicht.
+    }
+}
 -> p7_marktplatz ->
 { jaro_gesprochen:
     Unten an der Hafenmauer schleppt ein junger Mann mit Sommersprossen eine Kiste voller Fische. Jaro. {jaro_kugeln:„Ich hab's allen im Hafenviertel erzählt, das mit den Kugeln“, ruft er. „Meine Mutter hat die halbe Gasse zusammengetrommelt.“|„Fische sind wirklich leise“, ruft er. „Aber ich sing ihnen was vor.“}
@@ -117,7 +216,11 @@ Du nickst. Über die Berge. Herausfinden, was das Schweigen ist. Und ob das Herz
     -> fesk
 - "flucht":
     { gesucht:
-        Am Markt hast du es vorhin gesehen: Neben dem Wachhaus hängt ein Zettel mit dem Zeichen der Waage, und darauf eine Zeichnung. Sie sieht dir nicht besonders ähnlich. Aber ähnlich genug.
+        { bruecke_kontrolle != "":
+            Am Markt hast du es vorhin noch einmal gesehen: Neben dem Wachhaus hängt derselbe Zettel wie an der Brücke. Dieselbe Zeichnung.{bruecke_kontrolle == "nachgesehen": Du musst an den Söldner denken, der dir nachgesehen hat.}
+        - else:
+            Am Markt hast du es vorhin gesehen: Neben dem Wachhaus hängt ein Zettel mit dem Zeichen der Waage, und darauf eine Zeichnung. Sie sieht dir nicht besonders ähnlich. Aber ähnlich genug.
+        }
         Du bist immer noch auf der Flucht. Und morgen musst du hier weg.
     - else:
         Am Markt hast du vorhin nach Söldnern der Waage Ausschau gehalten. {funken_frei:Es gibt keine mehr.|Zwei stehen am Brunnen, aber sie sehen dich nicht einmal an.} Niemand sucht dich. Zum ersten Mal seit Wochen musst du nicht über die Schulter sehen.
@@ -152,16 +255,26 @@ Vor der Tür steht ein Mann in einem grauen Mantel mit silbernen Knöpfen. Fesk.
 
 = besuche
 ~ temp mentor_da = not (element == "feuer" && yrsa_in_vardholm)
-{ p7_besuche >= 2:
+// Wer sich unter der Orinbrücke verstecken musste, hat nur Zeit für einen Abschied.
+~ temp besuche_max = 2
+{ bruecke_kontrolle == "versteckt":
+    ~ besuche_max = 1
+}
+{ p7_besuche >= besuche_max:
     -> abend_zuhause
 }
-{ p7_besuche == 0:
+{
+- p7_besuche == 0 && besuche_max == 1:
+    Es ist schon fast Nacht. Für einen Abschied reicht die Zeit noch. Für mehr nicht.
+- p7_besuche == 0:
     Es ist noch nicht ganz dunkel. Für einen Abschied reicht die Zeit, vielleicht für zwei.
 - else:
     Für einen Abschied ist noch Zeit.
 }
 * {mentor_da} [Zu {mentorname()}]
     -> besuch_mentor
+* {not mentor_da} [Zu Yrsa in die Große Schmiede]
+    -> besuch_yrsa
 * [Zu Tickwort, in die Werkstatt von Knallfunke & Söhne]
     -> besuch_tickwort
 * [Zu Grumak an den Marktbrunnen]
@@ -196,6 +309,24 @@ Vor der Tür steht ein Mann in einem grauen Mantel mit silbernen Knöpfen. Fesk.
 { beziehung_mentor >= 2:
     Zum Abschied sagt {mentorname()} etwas, das {mentorname_ist_m():er|sie} noch nie gesagt hat: „Ich bin stolz auf dich.“
 }
+-> besuche
+
+// Feuer-Rufer, die mit Yrsa von Vardholm heimgefahren sind (Pasco, 19.10.2026).
+// Stufe drei, Glutlaterne und „stolz“ hat sie schon auf der Heimfahrt gesagt (heimweg).
+= besuch_yrsa
+~ p7_besuche += 1
+# bild: szene/abschied-yrsa
+In der Großen Schmiede glüht die Esse heller als sonst. Daneben steht Yrsas Karren, die Plane zurückgeschlagen. Yrsa nimmt einen eisernen Korb nach dem anderen und legt ihn in den Tiegel. Die Körbe werden rot, dann weich, dann sind sie nichts mehr.
+Sie sieht nicht auf. „Hilf mir“, sagt sie und nickt zur Esse.
+Du rufst die Glut, ganz leicht. Sie faucht auf, weiß und heiß, und das Eisen im Tiegel fängt an zu fließen.
+„Genug“, sagt Yrsa. Du hörst sofort auf. Sie nickt. Bei Yrsa ist ein Nicken viel.
+Eine Weile arbeitet ihr so, ohne ein Wort. Du nimmst einen Korb vom Karren. Er ist leicht. Du denkst an die Kugel, die darin gesessen hat, und an das Licht, das hinauswollte. Dann legst du ihn in die Glut.
+Als der Karren leer ist, legt Yrsa die Zange weg und wischt sich die Hände an der Schürze ab.
+„Was man geschmiedet hat, kann man wieder einschmelzen“, sagt sie. „Das gilt nicht nur für Eisen. Denk daran, wenn du da draußen einen Fehler machst.“
+Dann holt sie mit der Zange ein Stück Kohle aus der Esse, aus genau dem Feuer, in dem die Körbe geschmolzen sind, und legt es in deine Glutlaterne. Sie hält sie dir hin.
+„Jetzt brennt da drin etwas Gutes“, sagt sie. „Pass drauf auf.“
+~ quelle = true
+Als du gehst, hörst du hinter dir schon wieder den Hammer. Ein Schlag. Noch einer.
 -> besuche
 
 = besuch_tickwort
@@ -235,7 +366,12 @@ Er zieht einen schweren eisernen Ring vom Finger und drückt ihn dir in die Hand
 -> besuche
 
 = abend_zuhause
-{ p7_besuche < 2:
+{
+- p7_besuche == 0 && bruecke_kontrolle == "versteckt":
+    Für Abschiede bist du heute zu müde.
+- p7_besuche == 0:
+    Du gehst früh nach Hause.
+- p7_besuche == 1 && bruecke_kontrolle != "versteckt":
     Du gehst früh nach Hause.
 }
 Zum letzten Mal legst du dich zu Hause schlafen. Draußen rauscht das Meer. Du liegst lange wach und hörst zu.
