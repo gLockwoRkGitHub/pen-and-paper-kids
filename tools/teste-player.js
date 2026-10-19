@@ -98,7 +98,11 @@ function chromePfad() {
     }
     if (lesefluss) probleme.push(`${g.name}: ${lesefluss}× stand die gewählte Zeile nicht oben`);
     await foto('10-nach-schritten');
-    const zustand = await seite.evaluate(() => ({ buch: window.spiel.buch.da, eintraege: window.spiel.buch.eintraege.length, perle: window.spiel.perle }));
+    const zustand = await seite.evaluate(() => ({ buch: window.spiel.buch.da, eintraege: window.spiel.buch.eintraege.length, perle: window.spiel.perle,
+      tipps: window.spiel.bloecke.filter((b) => b.typ === 'tipp').length + document.querySelectorAll('.tipp').length,
+      levelup: window.spiel.bloecke.some((b) => b.typ === 'levelup') }));
+    if (!zustand.tipps) probleme.push(`${g.name}: keine Regel-Hinweise (# tutorial) gezeigt`);
+    if (zustand.perle >= 2 && !zustand.levelup) probleme.push(`${g.name}: Perle ${zustand.perle} erreicht, aber kein Level-Up gezeigt`);
 
     // Speichern und Weiterlesen
     const textVorher = await seite.locator('.wahlen').innerText();
@@ -116,7 +120,26 @@ function chromePfad() {
       await seite.getByRole('button', { name: /Tagebuch öffnen/ }).click();
       await pause(300);
       await foto('13-tagebuch');
-      await seite.getByText('Zurück zur Geschichte').click();
+      // Alle Laschen durchgehen
+      const nav = seite.locator('nav.laschen');
+      for (const [n, l] of [['13a', 'Ich'], ['13b', 'Erlebtes'], ['13c', 'Karte'], ['13d', 'Taschen'], ['13e', 'Menschen']]) {
+        await nav.getByRole('button', { name: new RegExp(`^${l}`) }).click();
+        await pause(500);
+        await foto(`${n}-${l.toLowerCase()}`);
+      }
+      // Erlebtes: einen Eintrag öffnen (auf dem Handy zuerst die Liste)
+      await nav.getByRole('button', { name: /^Erlebtes/ }).click();
+      const eintrag = seite.locator('.gruppe .listen-knopf').first();
+      if (await eintrag.count()) { await eintrag.click(); await pause(400); await foto('13f-eintrag'); }
+      else probleme.push(`${g.name}: Erlebtes ohne Einträge`);
+      // Karte: Ort antippen
+      await nav.getByRole('button', { name: /^Karte/ }).click();
+      await pause(400);
+      const ort = seite.locator('g.ort').first();
+      if (await ort.count()) { await ort.click(); await pause(300); await foto('13g-karte-ort'); }
+      else probleme.push(`${g.name}: Karte ohne Orte`);
+      if (!(await seite.locator('.kartenseite image').count())) probleme.push(`${g.name}: Karte ohne Bilder`);
+      await seite.getByRole('button', { name: 'Zurück zur Geschichte' }).click();
     }
     // Diese Perle von vorn beginnen
     await seite.getByRole('button', { name: 'Zum Einband' }).first().click();

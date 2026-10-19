@@ -20,7 +20,14 @@ export type Block =
   | { id: number; typ: 'text'; text: string; initiale: boolean; handschrift: boolean }
   | { id: number; typ: 'probe'; probe: Probe; salz: number; tipp: boolean }
   | { id: number; typ: 'gewaehlt'; text: string }
+  | { id: number; typ: 'tipp'; art: string }
+  | { id: number; typ: 'levelup'; level: number; perle: number; titel: string }
   | { id: number; typ: 'ende' };
+
+export type Lasche = 'ich' | 'erlebtes' | 'karte' | 'taschen' | 'menschen';
+
+export interface Tasche { id: string; status: number; name: string; text: string; bild: string }
+export interface Mensch { id: string; name: string; text: string; bild: string }
 
 type OhneId<T> = T extends unknown ? Omit<T, 'id'> : never;
 
@@ -42,6 +49,8 @@ export interface Buch {
   taschen: Record<string, number>;     // tasche_status(id)
   menschen: string[];                  // bekannte Menschen
   neu: number;                         // ungesehene Neuigkeiten (rotes Siegel)
+  neuIn: Lasche[];                     // Laschen mit Ungesehenem (Punkt an der Lasche)
+  perlen: Record<number, string>;      // Titel je Perle (aus # kapitel)
 }
 
 interface Speicherpunkt {
@@ -105,7 +114,7 @@ const K = karten as unknown as {
 };
 
 function leeresBuch(): Buch {
-  return { da: false, eintraege: [], aufgedeckt: [], aktuell: '', taschen: {}, menschen: [], neu: 0 };
+  return { da: false, eintraege: [], aufgedeckt: [], aktuell: '', taschen: {}, menschen: [], neu: 0, neuIn: [], perlen: {} };
 }
 
 const kopie = <T>(x: T): T => JSON.parse(JSON.stringify(x));
@@ -153,7 +162,8 @@ export class Spiel {
   private naechsteInitiale = false;
   private schritte: ErstellungsSchritt[] = [];
   private wartendeZeile: { text: string; tags: string[] } | null = null;
-  private neuigkeiten: string[] = [];
+  private spaeterTipp = '';
+  private neuigkeiten: { text: string; lasche: Lasche }[] = [];
 
   constructor() {
     this.story = new Story(storyJson);
@@ -368,6 +378,7 @@ export class Spiel {
         case 'perle': this.perle = parseInt(w, 10) || this.perle; break;
         case 'kapitel':
           this.kapitel = w;
+          if (this.perle) this.buch.perlen[this.perle] = w;
           this.block({ typ: 'kapitel', perle: this.perle, titel: w });
           this.naechsteInitiale = true;
           break;
@@ -381,6 +392,16 @@ export class Spiel {
         case 'tutorial':
           if (w === 'probe') this.tippsUebrig = 3;
           if (w === 'tagebuch') this.buch.da = true;
+          if (w && w !== 'probe') this.spaeterTipp = w;
+          break;
+        case 'level_up': {
+          const level = Number(this.wert('level')) || 1;
+          this.block({ typ: 'levelup', level, perle: this.perle, titel: this.kapitel });
+          this.neuigkeiten.push({ text: `Level ${level} erreicht`, lasche: 'ich' });
+          break;
+        }
+        case 'erwachen':
+          this.neuigkeiten.push({ text: 'Neu bei „Ich“: deine Magie', lasche: 'ich' });
           break;
         case 'tagebuch': {
           const seite = this.zeilenSeitBild <= 1 && !!this.letztesTagebuchBild;
@@ -388,7 +409,7 @@ export class Spiel {
           this.buch.eintraege.push(this.offenerEintrag);
           this.offenerEintrag = this.buch.eintraege[this.buch.eintraege.length - 1];  // die reaktive Fassung weiter bearbeiten
           this.handschriftAb = false;
-          this.neuigkeiten.push(seite ? `Neue Tagebuchseite: ${w}` : `Neue Erinnerung: ${w}`);
+          this.neuigkeiten.push({ text: seite ? `Neue Tagebuchseite: ${w}` : `Neue Erinnerung: ${w}`, lasche: 'erlebtes' });
           break;
         }
         case 'ende': this.ende = true; break;
@@ -422,6 +443,11 @@ export class Spiel {
       this.offenerEintrag = null;
       this.handschriftAb = false;
     }
+    // Hinweis zur Regel (# tutorial) erst nach der Zeile, zu der er gehört
+    if (this.spaeterTipp && text) {
+      this.block({ typ: 'tipp', art: this.spaeterTipp });
+      this.spaeterTipp = '';
+    }
     if (hat('ende')) this.block({ typ: 'ende' });
   }
 
@@ -433,7 +459,7 @@ export class Spiel {
       this.buch.aufgedeckt.push(z);
       const [art, id] = z.split(':');
       const name = art === 'ort' ? K.orte[id]?.name : art === 'bereich' ? K.bereiche[id]?.name : undefined;
-      if (name) this.neuigkeiten.push(`Neuer Ort auf der Karte: ${name}`);
+      if (name) this.neuigkeiten.push({ text: `Neuer Ort auf der Karte: ${name}`, lasche: 'karte' });
     }
     if (tag.aktuell) this.buch.aktuell = tag.aktuell;
   }
@@ -448,7 +474,7 @@ export class Spiel {
         const alt = this.buch.taschen[id] ?? 0;
         if (status === 1 && alt !== 1 && !nurMerken) {
           const name = (s.EvaluateFunction('tasche_name', [id], true) as { output: string }).output.trim();
-          this.neuigkeiten.push(`Neu in deinen Taschen: ${name}`);
+          this.neuigkeiten.push({ text: `Neu in deinen Taschen: ${name}`, lasche: 'taschen' });
         }
         this.buch.taschen[id] = status;
       }
@@ -459,7 +485,7 @@ export class Spiel {
           this.buch.menschen.push(id);
           if (!nurMerken) {
             const name = (s.EvaluateFunction('mensch_name', [id], true) as { output: string }).output.trim();
-            this.neuigkeiten.push(`Neu bei den Menschen: ${name}`);
+            this.neuigkeiten.push({ text: `Neu bei den Menschen: ${name}`, lasche: 'menschen' });
           }
         }
       }
@@ -473,7 +499,8 @@ export class Spiel {
     // Vor Tickworts Geschenk gibt es noch kein Buch: dann nichts anzeigen und nichts zählen.
     if (this.buch.da) {
       this.buch.neu += this.neuigkeiten.length;
-      this.zettel = { nr: this.zettel.nr + 1, zeilen: [...this.neuigkeiten] };
+      for (const n of this.neuigkeiten) if (!this.buch.neuIn.includes(n.lasche)) this.buch.neuIn.push(n.lasche);
+      this.zettel = { nr: this.zettel.nr + 1, zeilen: this.neuigkeiten.map((n) => n.text) };
     }
     this.neuigkeiten = [];
   }
@@ -482,6 +509,41 @@ export class Spiel {
   buchGesehen() {
     this.buch.neu = 0;
     void this.speichere();
+  }
+
+  /** Eine Lasche wurde angesehen: ihr Punkt verschwindet. */
+  lascheGesehen(l: Lasche) {
+    const i = this.buch.neuIn.indexOf(l);
+    if (i >= 0) { this.buch.neuIn.splice(i, 1); void this.speichere(); }
+  }
+
+  // ------------------------------------------------------------ Taschen und Menschen (Abschnitt 7a)
+
+  private textAus(fn: string, id: string): string {
+    try {
+      return ((this.story.EvaluateFunction(fn, [id], true) as { output: string }).output ?? '').trim();
+    } catch { return ''; }
+  }
+
+  private liste(fn: string): string[] {
+    try {
+      return String(this.story.EvaluateFunction(fn, [])).split(',').map((x) => x.trim()).filter(Boolean);
+    } catch { return []; }
+  }
+
+  /** Alles, was man dabeihat oder abgegeben hat, in Buchreihenfolge. */
+  taschenListe(): Tasche[] {
+    return this.liste('taschen_liste')
+      .map((id) => ({ id, status: Number(this.story.EvaluateFunction('tasche_status', [id])) }))
+      .filter((t) => t.status > 0)
+      .map((t) => ({ ...t, name: this.textAus('tasche_name', t.id), text: this.textAus('tasche_text', t.id), bild: String(this.story.EvaluateFunction('tasche_bild', [t.id])) }));
+  }
+
+  /** Alle bekannten Menschen, in Buchreihenfolge. */
+  menschenListe(): Mensch[] {
+    return this.liste('menschen_liste')
+      .filter((id) => !!this.story.EvaluateFunction('mensch_bekannt', [id]))
+      .map((id) => ({ id, name: this.textAus('mensch_name', id), text: this.textAus('mensch_text', id), bild: String(this.story.EvaluateFunction('mensch_bild', [id])) }));
   }
 
   // ------------------------------------------------------------ Speichern und Laden
@@ -545,7 +607,7 @@ export class Spiel {
       return;
     }
     this.uebernehme(s);
-    this.buch = kopie(sp.buch);
+    this.buch = { ...leeresBuch(), ...kopie(sp.buch) };
     this.speicherpunkt = sp;
     this.bloecke = [];
     this.naechsteId = sp.bloeckeId;
@@ -559,7 +621,7 @@ export class Spiel {
     this.perle = s.perle;
     this.kapitel = s.kapitel;
     this.bild = s.bild;
-    this.buch = s.buch;
+    this.buch = { ...leeresBuch(), ...s.buch };
     this.naechsteId = s.naechsteId;
     this.tippsUebrig = s.tippsUebrig;
     this.ende = s.ende;

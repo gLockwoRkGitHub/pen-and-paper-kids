@@ -6,6 +6,8 @@
   import type { Spiel, Block } from '../lib/spiel.svelte';
   import { roemisch } from '../lib/text';
   import Wuerfel from './Wuerfel.svelte';
+  import Tagebuch from './Tagebuch.svelte';
+  import { TIPP } from '../lib/texte';
 
   let { spiel }: { spiel: Spiel } = $props();
 
@@ -125,6 +127,20 @@
                 <p class="gewaehlt">{b.text}</p>
               {:else if b.typ === 'probe'}
                 <Wuerfel probe={b.probe} salz={b.salz} tipp={b.tipp} fertig={fertigeProben.has(b.id)} onfertig={() => fertigeProben.add(b.id)} />
+              {:else if b.typ === 'tipp' && TIPP[b.art]}
+                <aside class="tipp" aria-label={TIPP[b.art].wer}>
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B4E2E" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="13" r="7" /><circle cx="12" cy="13" r="2.5" /><path d="M12 6V3M10 3h4M19 13h2M3 13h2" /></svg>
+                  <span><strong>{TIPP[b.art].wer}:</strong> {TIPP[b.art].text}</span>
+                </aside>
+              {:else if b.typ === 'levelup'}
+                <div class="levelup">
+                  {#if b.perle}<span class="lu-perle">ENDE VON PERLE {roemisch(b.perle)}{b.titel ? ` · ${b.titel.toUpperCase()}` : ''}</span>{/if}
+                  <div class="lu-siegel" role="img" aria-label="Level {b.level}">
+                    <svg width="120" height="120" viewBox="0 0 96 96" aria-hidden="true"><circle cx="48" cy="48" r="40" fill="#8E2F23" stroke="#8E2F23" stroke-width="9" stroke-dasharray="5 4" stroke-linecap="round" /><circle cx="48" cy="48" r="31" fill="none" stroke="#6A1F17" stroke-width="2.5" /></svg>
+                    <span aria-hidden="true"><small>LEVEL</small>{b.level}</span>
+                  </div>
+                  <span class="lu-titel">Level-Up</span>
+                </div>
               {:else if b.typ === 'ende'}
                 <div class="ende">
                   <span class="ende-zier" aria-hidden="true">✦ ✦ ✦</span>
@@ -185,14 +201,7 @@
   </div>
 
   {#if buchOffen}
-    <div class="ueberlagerung" role="dialog" aria-modal="true" aria-label="Tagebuch" transition:fade={{ duration: 200 }}>
-      <div class="offenes-buch pergament">
-        <button type="button" class="lesebaendchen" onclick={() => (buchOffen = false)}>Zurück zur Geschichte</button>
-        <h2>Dein Tagebuch</h2>
-        <p>Die Seiten Ich, Erlebtes, Karte, Taschen und Menschen kommen im nächsten Ausbauschritt.</p>
-        <p class="klein">Bisher eingetragen: {spiel.buch.eintraege.length} Einträge · {spiel.buch.aufgedeckt.length} Orte und Wege auf der Karte · {Object.values(spiel.buch.taschen).filter((s) => s === 1).length} Dinge in den Taschen · {spiel.buch.menschen.length} Menschen</p>
-      </div>
-    </div>
+    <Tagebuch {spiel} schliessen={() => (buchOffen = false)} />
   {/if}
 </main>
 
@@ -230,6 +239,15 @@
   .abzeichen.zauber { color: #2C5A7A; border-color: #9DB7C6; background: #EEF3F2; }
   .platz { height: 70vh; flex-shrink: 0; }
 
+  .tipp { display: flex; gap: 12px; align-items: flex-start; padding: 10px 12px; border: 1px dashed #B39766; border-radius: 8px; background: rgba(255, 255, 255, 0.35); font-family: var(--schrift-hand); font-size: 17px; line-height: 1.4; color: #4E3D28; }
+  .tipp svg { flex-shrink: 0; }
+  .levelup { display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 14px 0 4px; text-align: center; }
+  .lu-perle { font-family: var(--schrift-titel); font-size: 13px; font-weight: 700; letter-spacing: 0.16em; color: var(--tinte-blass); }
+  .lu-siegel { position: relative; width: 120px; height: 120px; animation: siegel 900ms cubic-bezier(.2,1.4,.4,1) both; }
+  .lu-siegel span { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--rot-papier); font-family: var(--schrift-ui); font-size: 44px; font-weight: 700; line-height: 1; }
+  .lu-siegel small { font-family: var(--schrift-titel); font-size: 13px; letter-spacing: 0.16em; }
+  .lu-titel { font-family: var(--schrift-titel); font-size: 28px; font-weight: 900; color: #5A2A1C; }
+  @keyframes siegel { from { transform: scale(2.2) rotate(-25deg); opacity: 0; } }
   .ende { display: flex; flex-direction: column; align-items: center; gap: 12px; margin: 20px 0; text-align: center; }
   .ende-zier { color: var(--gold); letter-spacing: 0.4em; }
 
@@ -248,11 +266,6 @@
   .aufschrift { left: 14px; top: 34px; width: 98px; text-align: center; font-family: var(--schrift-titel); font-size: 14px; font-weight: 900; letter-spacing: 0.06em; color: var(--gold-hell); }
   .siegel { right: 2px; top: -10px; width: 30px; height: 30px; border-radius: 50%; background: var(--rot); box-shadow: 0 0 0 2px var(--rot-dunkel), 0 2px 4px rgba(0, 0, 0, 0.35); color: var(--rot-papier); font-family: var(--schrift-ui); font-size: 15px; font-weight: 700; display: flex !important; align-items: center; justify-content: center; }
 
-  .ueberlagerung { position: fixed; inset: 0; background: rgba(20, 12, 6, 0.7); display: grid; place-items: center; padding: 16px; z-index: 10; }
-  .offenes-buch { position: relative; width: min(560px, 100%); padding: 56px 28px 28px; border-radius: 8px; box-shadow: 0 14px 34px rgba(0, 0, 0, 0.6); font-family: var(--schrift-text); font-size: 19px; line-height: 1.5; }
-  .offenes-buch h2 { margin: 0 0 8px; font-family: var(--schrift-titel); color: #5A2A1C; }
-  .offenes-buch .klein { font-size: 15px; color: var(--tinte-weich); }
-  .lesebaendchen { position: absolute; top: 0; right: 28px; min-height: 48px; padding: 6px 14px 14px; border: none; background: var(--rot); color: var(--rot-papier); font-family: var(--schrift-ui); font-size: 15px; font-weight: 700; clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%); }
 
   /* Handy und Tablet hochkant: Bilder im Text, kein Rand um das Buch */
   @media (max-width: 860px), (orientation: portrait) and (max-width: 1100px) {

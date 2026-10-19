@@ -51,7 +51,7 @@ Format immer `# name` oder `# name: wert`. Kleinschreibung, keine Umlaute im Nam
 | `bild` | `# bild: szene/hafen-kran` | Bild über dem folgenden Text zeigen (Abschnitt 5) | festgeschrieben |
 | `karte` | `# karte: hafen` | Ort als „besucht“ auf der Karte markieren und als aktuellen Ort setzen (Abschnitt 6) | festgeschrieben |
 | `tagebuch` | `# tagebuch: Tickworts Kompass` | Neuer Tagebucheintrag mit diesem Titel (Abschnitt 7) | festgeschrieben |
-| `tutorial` | `# tutorial: probe` | Hinweis-Symbol zur Regel einblenden; Werte: `werte`, `probe`, `tagebuch`, `magie`, `rasten`, `elementstufe` (Perle 4: Elementstufe steigt) | festgeschrieben |
+| `tutorial` | `# tutorial: probe` | Hinweis-Symbol zur Regel einblenden; Werte: `werte`, `probe`, `tagebuch`, `magie`, `rasten`, `elementstufe` (Perle 4: Elementstufe steigt) **Player (20.10.2026):** Kasten „Tickwort sagt“ bzw. „Gut zu wissen“ nach der Zeile, bei `probe` am Würfel. | festgeschrieben |
 | `charaktererstellung` | | Charaktererstellung beginnt: eigener Bildschirmstil | festgeschrieben |
 | `werte_fertig` | | Charakterbogen erstmals anzeigen | festgeschrieben |
 | `level_up` | | Level-Up-Darstellung, danach Charakterbogen aktualisieren | festgeschrieben |
@@ -154,6 +154,8 @@ Die Namen müssen zu Tickworts Erklärung in Perle 1 (`story/perle-1/tickwort.in
 | **Karte** | Meridel und Lysmara (Abschnitt 6) | dito |
 | **Taschen** | `taschen_liste()` … (Abschnitt 7a) | dito |
 | **Menschen** | `menschen_liste()` … (Abschnitt 7a) | dito |
+
+**Umgesetzt im Player (20.10.2026):** alle fünf Laschen. Beim Öffnen zeigt das Buch die Lasche mit Neuem, Laschen mit Ungesehenem tragen einen roten Punkt. Die Karte deckt zusätzlich alles auf, was `karten.json` unter `start` und `variablen` nennt.
 
 Die **Geschichte** selbst ist keine Lasche – sie steht nicht im Buch. Zurück zur Geschichte geht es über das **Lesebändchen** oben am Buch (oder das Buch schließen). Vor dem Geschenk gibt es kein Buch: Der Player zeigt nur die Geschichte.
 

@@ -44,16 +44,29 @@ for (const k of Object.values(kartenJson.karten)) kartenBilder.add(k.grundkarte.
 for (const o of Object.values(kartenJson.orte)) if (o.skizze) kartenBilder.add(o.skizze);
 for (const b of kartenBilder) {
   const quelle = path.join(karten, b);
-  if (fs.existsSync(quelle)) auftraege.push([quelle, path.join(ziel, 'karten', b.replace(/\.png$/, '.webp')), 2048]);
+  // Ortsskizzen: Weißraum abschneiden, damit „breite“ in karten.json die Breite des Symbols ist (wie tools/karte-zusammenbau.py)
+  if (fs.existsSync(quelle)) auftraege.push([quelle, path.join(ziel, 'karten', b.replace(/\.png$/, '.webp')), b.startsWith('skizzen/') ? 512 : 2048, b.startsWith('skizzen/')]);
 }
 
 (async () => {
   let neu = 0;
-  for (const [quelle, datei, breite] of auftraege) {
+  for (const [quelle, datei, breite, zuschneiden] of auftraege) {
     if (fs.existsSync(datei) && fs.statSync(datei).mtimeMs >= fs.statSync(quelle).mtimeMs) continue;
     fs.mkdirSync(path.dirname(datei), { recursive: true });
-    await sharp(quelle).resize({ width: breite, withoutEnlargement: true }).webp({ quality: 80 }).toFile(datei);
+    let bild = sharp(quelle);
+    if (zuschneiden) bild = sharp(await bild.trim({ background: '#ffffff', threshold: 25 }).toBuffer());
+    await bild.resize({ width: breite, withoutEnlargement: true }).webp({ quality: 80 }).toFile(datei);
     neu++;
   }
+  // Seitenverhältnisse der Ortsskizzen für die Karte im Player
+  const masse = {};
+  for (const [, datei, , zuschneiden] of auftraege) {
+    if (!zuschneiden) continue;
+    const m = await sharp(datei).metadata();
+    masse[path.relative(ziel, datei).split(path.sep).join('/')] = Math.round((m.height / m.width) * 1000) / 1000;
+  }
+  const gen = path.join(__dirname, '..', 'player', 'src', 'generated');
+  fs.mkdirSync(gen, { recursive: true });
+  fs.writeFileSync(path.join(gen, 'skizzen.json'), JSON.stringify(masse, null, 1) + '\n');
   console.log(`Bilder: ${auftraege.length} insgesamt, ${neu} neu umgewandelt.`);
 })().catch((e) => { console.error(e); process.exit(1); });

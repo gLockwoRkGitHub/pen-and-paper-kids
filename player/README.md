@@ -34,13 +34,19 @@ Diese drei Ordner werden **nicht** committet (`.gitignore`), sie entstehen bei j
 | `src/seiten/Erstellung.svelte` | Charaktererstellung mit Steckbrief und Zurück |
 | `src/seiten/Geschichte.svelte` | Leseseite: Bild links/Text rechts (quer) bzw. Bilder im Text (hochkant, Handy), Entscheidungen, Lesefluss, „Neu im Tagebuch“, zugeklapptes Buch |
 | `src/seiten/Wuerfel.svelte` | Würfelanimation zur Probe, Tickworts Tipp |
+| `src/seiten/Tagebuch.svelte` | Das aufgeschlagene Buch: Ledereinband, Laschen (Tablet rechts, Handy unten), Lesebändchen zurück zur Geschichte |
+| `src/seiten/buch/*.svelte` | Die Laschen Ich, Erlebtes, Karte, Taschen, Menschen (`Sammlung.svelte` = gemeinsamer Aufbau von Taschen/Menschen) |
+| `src/lib/texte.ts` | Feste Buchtexte: „Was ich gut kann“, Gilden-, Volks- und Hintergrundnamen, Elemente, Hinweise zu `# tutorial` |
 
 ## Ausbaustufen
-1. **Fertig (19.10.2026):** Start, Charaktererstellung, Geschichte mit Bildern und Würfeln, Speichern/Weiterlesen, Perle von vorn, Daten fürs Tagebuch werden schon gesammelt.
-2. **Als Nächstes:** das aufgeschlagene Tagebuch mit den Laschen Ich, Erlebtes, Karte, Taschen, Menschen; Level-Up-Darstellung; Hinweis-Symbole zu `# tutorial`.
-3. Danach: Feinschliff mit Rückmeldung von Pasco und Sohn, Offline/https.
+1. **Fertig (19.10.2026):** Start, Charaktererstellung, Geschichte mit Bildern und Würfeln, Speichern/Weiterlesen, Perle von vorn.
+2. **Fertig (20.10.2026):** das aufgeschlagene Tagebuch mit den Laschen **Ich** (Charakterbogen mit Level-Siegel, „Was ich gut kann“, Gilde, Werte, Magie mit Kraftfunken und Quelle), **Erlebtes** (Tagebuchseiten mit Skizze und Handschrift, Erinnerungen, Blättern, „auf der Karte“), **Karte** (Grundkarte nur in aufgedeckten Bereichen, Ortsskizzen, Wege, Namen, „hier bin ich“, Siegel je Ort mit Einträgen, Meridel/Lysmara, Zoom), **Taschen** und **Menschen** (Skizzen und Texte aus `story/tagebuch.ink`); Punkt an Laschen mit Neuem; Level-Up-Siegel in der Geschichte; Hinweise zu `# tutorial`.
+3. Danach: Feinschliff mit Rückmeldung von Pasco und Sohn.
 
-## Bekannte Grenzen (Stufe 1)
+## Bekannte Grenzen
 - Ein Spielstand passt nur zu seiner Story-Version. Ändert sich die Story, beginnt beim Weiterlesen die aktuelle Perle neu (Speicherpunkt bei `# perle`).
 - Der Volksbonus-Text (Zwerg, Gnom, Ork, Troll) steht vorerst im Player, weil `charakter.ink` dazu nichts ausgibt. Gibt Ink dort eine Zeile aus, nimmt der Player diese.
 - Ink würfelt nur die Summe (2W6); die Aufteilung auf zwei Würfel ist reine Anzeige.
+- Der „Was ich gut kann“-Text, Gilden-, Volks- und Hintergrundnamen stehen im Player (`src/lib/texte.ts`, Quelle `docs/tagebuch.md`). Ändert der Story-Chat sie, hier nachziehen.
+- Karte: In dichten Gegenden (Lysmara-Ost) überlappen sich Ortsnamen etwas. Bei Bedarf in `karten.json` die Lage feinjustieren.
+- Hinweise zu `# tutorial: werte` und `tagebuch` sagen „Tickwort sagt“, die späteren „Gut zu wissen“ (Tickwort ist ab Perle 2 nicht mehr dabei).
