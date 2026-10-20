@@ -60,7 +60,8 @@ Alles hier ist **Vorschlag**, nicht umgesetzt, weil es eine neue Szene oder eine
 
 6. **Zweiter Satz für Brina im Tagebuch und in „Menschen“.** Brinas drei Wahlen haben jetzt unterschiedliche Folgen in Perle 6/7. Ein eigener Eintrag „Brina“ als Erinnerung (Tag `# tagebuch:`) wäre ein neuer Tagebucheintrag – gehört zum Technologie-Chat.
 
-### Für den Technologie-Chat (`story/tagebuch.ink`, vom Story-Chat nicht geändert)
+### Für den Technologie-Chat (`story/tagebuch.ink`)
+**Erledigt 20.10.2026 (Story-Chat, auf Pascos Wunsch):** Seil fragt `seil_gehalten`, Goldknopf zählt auch mit `freund_heimgeholt`, Ithren in „Menschen“ zeigt `ithren_weg`. Der Spielstand speichert alle Ink-Variablen ohnehin mit.
 - **Neu (19.10.2026):** `ithren_weg` ("mit" / "heim") ist die Wahl am Ende des ersten Abenteuers. Der Spielstand muss sie für Abenteuer 2 behalten; der Endbildschirm (`# ende: erstes-abenteuer`) kann sie zeigen.
 - **Seil:** `tagebuch.ink:213` fragt `p7_erschoepft` ab („Es hat mich gehalten“). Neu gibt es `seil_gehalten` (gesetzt am Grat bei JA_ABER, im Schlund bei Misserfolg, am Kap bei Misserfolg). Vorschlag: dort `seil_gehalten` statt `p7_erschoepft` verwenden.
 - **Goldknopf aus Wollmark:** Wer den Knopf in Perle 4 von Liora/Cassian bekam (`freund_heimgeholt`), aber nicht im Zelt fand, bekommt in Perle 7 keinen zweiten mehr und hat `goldknopf_gefunden = false`. Taschen-Funktionen (`tasche_status("goldknopf")`, Text) sollten `goldknopf_gefunden || freund_heimgeholt` prüfen.

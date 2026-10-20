@@ -66,7 +66,7 @@
         ~ return 1
     }
 - "goldknopf":
-    { goldknopf_gefunden:
+    { goldknopf_gefunden || freund_heimgeholt:
         ~ return 1
     }
 - "seil":
@@ -208,9 +208,9 @@
 - "singlampe":
     Von Mirk. Sie brennt eine Weile auch im Grauen. Und sie singt.
 - "goldknopf":
-    Von {freund()}s grüner Samtjacke. {freund_kommt_mit:Die Jacke ist trotzdem mitgekommen.|Damit ich zurückkommen muss.}
+    Von {freund()}s grüner Samtjacke. {freund_kommt_mit:Die Jacke ist trotzdem mitgekommen.|{freund_heimgeholt:Damit ich {fr_ihn()} nicht vergesse.|Damit ich zurückkommen muss.}}
 - "seil":
-    Ein Seil braucht man immer. {p7_erschoepft:Es hat mich gehalten.|Hat {bp()} gesagt.}
+    Ein Seil braucht man immer. {seil_gehalten:Es hat mich gehalten.|Hat {bp()} gesagt.}
 - "pfeife":
     So laut wie zehn Ziegen. Tickwort hat es gemessen. Mit Ziegen.
 - "ring":
@@ -416,7 +416,7 @@
     }
 - "fremder":
     { ithren_name:
-        Hat mir am Fluss seinen Namen gesagt. Geht nach Osten. Lügt nie.
+        Hat mir am Fluss seinen Namen gesagt. Lügt nie. {ithren_weg == "mit":Ich gehe mit ihm nach Osten.|}{ithren_weg == "heim":Er geht allein nach Osten. Wenn das Herz ruft, findet er mich.|}{ithren_weg == "":Geht nach Osten.|}
     - else:
         Grauer Mantel, Augen wie Mondlicht. Taucht auf, wenn sich etwas entscheidet.
     }
