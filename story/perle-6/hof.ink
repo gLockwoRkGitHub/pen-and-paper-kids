@@ -3,6 +3,7 @@
 // =====================================================================
 
 === p6_brina
+# bild: szene/brina-im-hof
 Die alte Frau mit dem Becher sieht zu dir herüber. Sie hat ein Gesicht wie ein Apfel, der zu lange im Keller lag, und sehr helle, sehr wache Augen. Um ihren Hals hängt eine Messingplakette.
 
 „Du bist zu jung für so einen Ort“, sagt sie. „Setz dich. Hier zieht es weniger.“
@@ -49,6 +50,7 @@ Bis Vardholm ist es noch eine Stunde, aber die Sonne ist schon hinter den Weiden
     Du suchst dir einen Platz etwas abseits, hinter einem Felsen, nah genug, um die Feuer zu sehen.
 }
 
+# bild: szene/jaro-am-feuer
 Ein junger Söldner setzt sich mit seinem Napf ganz in deine Nähe. Er ist kaum älter als siebzehn, hat Sommersprossen und eine Brustplatte, die ihm eine Nummer zu groß ist. Er isst, ohne aufzusehen. Dann bemerkt er dich.
 
 „Du bist doch {geschlecht == "w":keine Eingeschriebene|kein Eingeschriebener}“, sagt er{magie_registriert == "waage":. Dann sieht er deine Plakette. „Oh. Doch.“ Er verzieht das Gesicht. „Tut mir leid.“|. Dann zuckt er mit den Schultern. „Ist mir egal. Ich hab Feierabend.“}

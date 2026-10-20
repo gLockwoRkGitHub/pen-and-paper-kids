@@ -46,6 +46,7 @@ Du ziehst {kompass:Tickworts Kompass|dein Buch} aus der Tasche. {kompass:Die Nad
 -> wache
 
 = wache
+# bild: szene/scheune-nacht
 Das Feuer brennt herunter. Draußen ist es still. Zu still?
 * [Wach bleiben und das Feuer hüten]
     Du bleibst wach. Die Stunden kriechen. Irgendwann, kurz nach Mitternacht, siehst du es: Am Waldrand verliert das Gras seine Farbe. Ein grauer Streifen, der langsam über die Wiese auf die Scheune zukriecht.
@@ -76,6 +77,7 @@ Das Feuer brennt herunter. Draußen ist es still. Zu still?
 === p7_strasse
 Danach folgst du einem Weg nach Osten, zum Fluss. Gegen Mittag hörst du ein Geräusch, das hier draußen nicht hergehört. Ein Weinen.
 
+# bild: szene/gnomenfamilie-karren
 Auf dem Weg steht ein Dampfkarren, schief, mit einem Rad im Graben. Davor sitzt eine Gnomenfamilie: ein Vater mit verrußter Schutzbrille, eine Mutter mit einem Säugling im Tuch, und ein Mädchen, vielleicht sieben, das sich die Augen reibt. Der Kessel des Karrens ist kalt. Kein Zischen, kein Pfeifen, nichts.
 
 „Er ist ausgegangen“, sagt der Vater. Seine Stimme zittert. „Mitten auf dem Weg. Und ohne den Kessel ist es so still. Wir hatten ihn nur, damit es laut ist, verstehst du? Seit dem Grauen fahren alle mit lauten Karren.“
@@ -160,6 +162,7 @@ Der junge Troll winkt dir müde mit seinem Verband zu.
 -> laermwache
 
 = laermwache
+# bild: szene/laermwache
 Als die Sonne untergeht, passiert etwas Merkwürdiges. Überall in der Stadt kommen Kinder aus den Häusern, mit Töpfen, Löffeln, Rasseln und Trillerpfeifen. Sie laufen zum Zaun aus Pfählen und stellen sich in einer langen Reihe auf.
 
 „Die Lärmwache“, erklärt dir ein Junge mit einem Kochtopf auf dem Kopf. „Jeden Abend, eine Stunde lang. Damit es weiß, dass wir hier sind. Machst du mit?“
@@ -209,6 +212,7 @@ Auf dem Marktplatz bleibst du stehen. Etwas ist anders.
 // Dornfurt: Das Lager der Gnolle (am zweiten Tag)
 // ---------------------------------------------------------------------
 === p7_gnolllager
+# bild: szene/gnolllager-fluss
 Am Mittag gehst du hinunter zum Fluss, wo die Gnolle ihr Lager haben. Zelte aus Fell, ein Feuer, Kinder, die im seichten Wasser nach Fischen schnappen. Die Leute von Dornfurt lassen sie in Ruhe. Hier draußen hat jeder etwas verloren.
 {
 - gnollstein:

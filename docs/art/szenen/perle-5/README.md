@@ -104,6 +104,14 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 **Ebene:** Tagebuch · **Inhalt:** Kohleskizze der Höhlenstadt mit Schwalbennest-Häusern, eine Treppe, die nach unten im Schwarz verschwindet, und groß in der Mitte eine **Kugel mit vier kleinen Kreisen darin** (mit Wasserfarbe braun, blau, rot, weiß) und einem gezackten Riss quer hindurch. Am Rand eine kleine Grubenlampe und ein Kobold-Helm. Keine Schrift.
 **Referenzen:** keine.
 
+## 15. `szene/lampenlied-pip` – Sieben Lampen über dem See (neu, 20.10.2026)
+**Moment:** Szene `p5_lampenlied` (`story/perle-5/lampen.ink`). Am ersten Abend in Glimmhalde sind alle Lampen gelöscht, nur sieben hängen an einer Kette über dem schwarzen See. Neben der Spielfigur steht Pip und schiebt den viel zu großen Helm hoch: „Ist es wahr, dass es da oben keine Decke gibt?“
+**Aussage:** Trauer um die Sieben und kindliche Neugier im selben Bild.
+**Blick:** leicht von oben auf Pip (kniehoch), der zum Betrachter **hinaufschaut**; rechte Hand schiebt den Helm hoch, linke hängt locker. Dahinter der spiegelglatte See mit **genau sieben** Lampen und ihren Spiegelungen, am Ufer weit weg eine Reihe Kobolde als Silhouetten.
+**Licht:** nur die sieben goldenen Lampen; warmes, lesbares Dunkel, kein Schwarz.
+**Wichtig:** Pip zupft im Text am Ärmel, im Bild nicht (sonst wäre der Ärmel der Spielfigur zu sehen).
+**Referenzen:** `figuren/koboldkind-einzel.png` (Schuppen aber graugrün), `tagebuch/menschen/pip.png`, `orte/glimmhalde.png`.
+
 ## Requisiten
 | Datei | Inhalt |
 |---|---|

@@ -57,6 +57,13 @@ Jede Variante zweimal: mit **Liora** und mit **Cassian** (verkleidet). Weber, Sc
 ## 9. `tagebuch/perle-2` – Die Tagebuchseite „Am Fluss der Räder“
 **Ebene:** Tagebuch · **Inhalt:** Fluss mit Wasserrädern, die Schmiede, der verkohlte Färberturm; am Rand Kobold-Helm und Hammer. Keine Schrift.
 
+## 10. `szene/lehrling-ole` – Ole tritt in den Weg (neu, 20.10.2026)
+**Moment:** Szene `p2_lehrling` (`story/perle-2/lehrling.ink`). Auf dem Rückweg am verkohlten Färberturm tritt der Schmiedelehrling der Spielfigur in den Weg: „Du warst das. Ich hab dich gesehen.“
+**Aussage:** Die gute Tat hat einen Zeugen, und der ist dankbar, nicht gefährlich. Ein bisschen Schuld, ein bisschen Erleichterung.
+**Blick:** in einer engen Gasse des Räderviertels. Ole steht zwei Schritte entfernt, die **verbundene rechte Hand an der Brust**, die linke am Schürzenriemen, und sieht den Betrachter verlegen und fast weinend an. Hinten der **schwarze, schiefe Färberturm**, nass, ohne Flammen; davor klein zwei Leute, die leise reden (von hinten).
+**Licht:** tiefe Nachmittagssonne, warm von der Seite, nasses verbranntes Holz.
+**Referenzen:** `tagebuch/menschen/ole.png`, `orte/raederviertel.png` (bewusst nicht `szene-faerberturm-feuer`, sonst brennt der Turm wieder).
+
 ## Ortsbild
 | Datei | Inhalt |
 |---|---|

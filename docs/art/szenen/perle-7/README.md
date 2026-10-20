@@ -120,6 +120,39 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 **Wichtig:** Der Steckbrief zeigt dem Betrachter nur die **leere Rückseite** mit kleinem Siegel – sonst wäre das Gesicht der Spielfigur zu sehen. Ein Söldner hält ihn hoch, der andere gähnt. Gespannt, nicht bedrohlich.
 **Referenzen:** `figuren/soeldner-waage-einzel.png`, `orte/raederviertel.png`.
 
+
+## 24. `szene/scheune-nacht` – Zu still (neu, 20.10.2026)
+**Moment:** Szene `p7_lager` (`story/perle-7/unterwegs.ink`), Abschnitt `wache`. Das Feuer in der kaputten Scheune brennt herunter, draußen ist es zu still. In allen Zweigen kriecht danach ein grauer Streifen vom Waldrand über die Wiese.
+**Aussage:** Das Schweigen kommt bis vor die Tür, und nur ein kleines Feuer hält dagegen.
+**Blick:** aus der Scheune über die heruntergebrannte Glut (Steinring auf dem Lehmboden, kein Rauch) durch das offene Tor auf die mondhelle Wiese und den Birkenwald. Am Waldrand ein **farblos-grauer Streifen mit klarer Kante**, kein Nebel. Sterne durch die Löcher im Dach.
+**Wichtig:** keine Figuren, auch nicht Liora/Cassian oder die Ziege, damit das Bild für alle Wege passt (keine Variante nötig).
+**Licht:** warme Glut innen, kaltes Silberblau draußen.
+**Referenzen:** `szenen/perle-7/entdeckung-jenseits-der-berge.png` (Landschaft).
+
+## 25. `szene/gnomenfamilie-karren` – Der stille Kessel (neu, 20.10.2026)
+**Moment:** Szene `p7_strasse`. Der Dampfkarren der Gnomenfamilie steckt mit einem Rad im Graben, der Kessel ist kalt. Das Mädchen fragt: „Kannst du ihn wieder laut machen?“
+**Aussage:** Jenseits der Berge ist Stille gefährlich, und eine Familie ist hilflos, weil ihr Karren schweigt.
+**Blick:** auf einem Feldweg zwischen braunen Hügeln und goldenen Birken. Vor dem schiefen Karren (Kisten, Decken, Töpfe statt Äpfeln) sitzen **genau drei Gnome mit Abstand**: links der Vater (verrußte Schutzbrille auf der Stirn, Hände auf den Knien), in der Mitte die Mutter mit dem Säugling im Tuch (beide Arme um das Kind), rechts vorn das Mädchen um die sieben, **eine Hand reibt das Auge**, die andere hält den Rocksaum; sie schaut den Betrachter bittend an. Kein Dampf.
+**Licht:** heller, leicht dunstiger Herbstmittag.
+**Referenzen:** `requisiten/dampfkarren.png`, `figuren/gnom-obsthaendler-einzel.png` (Gnomenart), `szenen/perle-7/entdeckung-jenseits-der-berge.png`.
+
+## 26. `szene/laermwache` – „Machst du mit?“ (neu, 20.10.2026)
+**Moment:** Szene `p7_markt`, Abschnitt `laermwache`. Bei Sonnenuntergang stellen sich die Kinder von Dornfurt mit Töpfen und Rasseln am Pfahlzaun auf. Ein Junge mit einem Kochtopf auf dem Kopf fragt die Spielfigur, ob sie mitmacht.
+**Aussage:** Hier ist Lärm Schutz und Magie ein Geschenk. Einladung statt Verbot.
+**Blick:** an der Innenseite der Palisade. Vorn, deutlich getrennt, der Junge um die neun mit **Kochtopf als Helm**, rechts ein Holzlöffel, links ein Topfdeckel vor der Brust, freches Zahnlückengrinsen. Dahinter in mittlerer Entfernung die Reihe Kinder **von hinten**, Töpfe und Rasseln auf Brusthöhe. Fackeln am Zaun, Glockentürmchen.
+**Wichtig:** keine Menge im Vordergrund, keine erhobenen Fäuste, keine Hände am unteren Bildrand.
+**Licht:** Sonnenuntergang, orange und violett, Fackelschein.
+**Referenzen:** `orte/dornfurt.png`, `szenen/perle-7/entdeckung-dornfurt.png`.
+**Hinweis:** Der erste Teil von `p7_markt` (Karawane aus Kar Duun, Orks, Trolle) braucht kein eigenes Bild: `entdeckung/dornfurt` wird direkt davor gezeigt und zeigt Markt, Orks und Trommel.
+
+## 27. `szene/gnolllager-fluss` – Das Lager am Fluss (neu, 20.10.2026)
+**Moment:** Szene `p7_gnolllager`. Am zweiten Tag mittags unten am Fluss: Fellzelte, ein Feuer, Gnollkinder schnappen im seichten Wasser nach Fischen.
+**Aussage:** Auch die Gnolle sind Flüchtlinge vor dem Grauen, und Dornfurt lässt sie in Ruhe.
+**Blick:** vom Kiesufer auf das kleine Lager; hinter dem Fluss klein die Palisade von Dornfurt. Neben dem Feuer eine erwachsene Gnollin **seitlich**, die mit beiden Pfoten ein Netz im Schoß flickt; im Wasser zwei Gnollkinder mit Abstand, Schnauzen gesenkt. **Niemand schaut den Betrachter an**, damit das Bild zu allen Zweigen passt (Ashkas Bruder, Knurren, Fischsuppe, alte Gnollin).
+**Wichtig:** Hyänenköpfe, runde Ohren, gefleckt (nicht Wolf/Fuchs); genau drei Gnolle, klar getrennt.
+**Licht:** klares Herbstlicht, glitzerndes Wasser.
+**Referenzen:** `szenen/perle-4/szene-gnollenlager.png`, `figuren/wuk-einzel.png`, `orte/dornfurt.png` (`gnoll-einzel` bewusst nicht: dort Wolfsohren).
+
 ## Neue Figuren
 | Datei | Figur |
 |---|---|
@@ -136,6 +169,8 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 ## Ohne eigenes Bild
 - `karte: meridel-ganz` ist die vollständige Karte für die Tagebuch-Karte des Players, kein Szenenbild.
 - Haldor hat ein Einzelbild, aber kein eigenes Szenenbild (in der Bucht nur als Silhouette).
+- `p7_marktplatz` (Lysmara zeigt die Folgen, 20.10.2026 geprüft): kein neues Bild. Direkt davor steht `szene/heimkehr-lysmara` (bzw. im versteckten Weg `szene/orinbruecke-kontrolle`), und der Inhalt hängt stark vom Durchlauf ab (`funken_frei`, `waage_gestuerzt`, `seraphine_einsicht`); ein Bild bräuchte mehrere Varianten.
+- `p7_markt`, erster Teil (Karawane aus Kar Duun): kein neues Bild, `entdeckung/dornfurt` wird direkt davor gezeigt. Nur die Lärmwache hat ein eigenes Bild (Nr. 26).
 
 ## Erzeugte Bilder (lokale Sitzung, 14.10.2026)
 Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `uebersicht-1.png`.

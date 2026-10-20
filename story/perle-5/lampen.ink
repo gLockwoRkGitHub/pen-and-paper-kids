@@ -9,6 +9,7 @@ Dann zünden sie sieben wieder an. Nur sieben. Sie hängen sie an eine Kette üb
 
 „Für die Sieben“, flüstert Mirk. „Damit sie den Weg nach Hause finden. Wenn sie ihn noch suchen.“
 
+# bild: szene/lampenlied-pip
 Neben dir steht ein Koboldkind, kaum größer als dein Knie, mit einem Helm, der ihm bis über die Augen rutscht. Es summt nicht mit. Es zupft an deinem Ärmel.
 
 „Du kommst von oben“, sagt es. „Von draußen. Ich bin Pip. Mein Onkel ist einer von den Sieben.“ Pip schiebt den Helm hoch. „Ist es wahr, dass es da oben keine Decke gibt?“

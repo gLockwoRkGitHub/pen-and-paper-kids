@@ -9,6 +9,7 @@ Auf dem Rückweg führt dich die Gasse am Färberturm vorbei. Er steht noch, sch
 
 „Die Waage sucht schon. Die haben den ganzen Nachmittag Fragen gestellt.“
 
+# bild: szene/lehrling-ole
 Du ziehst den Kopf ein und gehst schneller. Da tritt dir jemand in den Weg. Ein Junge, vielleicht fünfzehn, mit Ruß im Gesicht und einer verbundenen Hand. Der Schmiedelehrling. Der mit dem Kohlenkarren.
 
 „Du warst das“, sagt er leise. „Ich hab dich gesehen. Ich …“ Er schluckt. „Das Rad ist gebrochen. Ich hab's nicht gemerkt. Wenn du nicht gewesen wärst …“ Er kann nicht weiterreden.

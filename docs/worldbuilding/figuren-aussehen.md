@@ -163,11 +163,26 @@ Für Kinder um die zwölf, als Vorlage für Bilder der Spielfigur-Auswahl. Die S
 - Prompts: `docs/art/figuren/volk-<volk>-<m|w>-einzel.prompt.txt` (10 Stück) und `voelker-vergleich.prompt.txt` (Größenvergleich).
 
 ### Neue Nebenfiguren aus der Verlängerung (Vorschlag von Claude, 14.10.2026)
-- **Ole (Perle 2):** Schmiedelehrling um die fünfzehn, kurze braune Haare, Ruß im Gesicht, Lederschürze, verbundene Hand.
-- **Pip (Perle 5):** Koboldkind, graugrüne Schuppen, riesige gelbe Augen, viel zu großer verbeulter Grubenhelm.
-- **Jaro (Perle 6):** junger Söldner der Waage, etwa siebzehn, rote Haare, Sommersprossen, Brustplatte eine Nummer zu groß.
-- **Brina (Perle 6):** sehr alte Wasser-Ruferin aus einem Dorf bei Wollmark, Gesicht wie ein runzliger Apfel, sehr helle wache Augen, graues Haar im lockeren Knoten, Schultertuch, Messingplakette.
-- **Die Gnomenfamilie (Perle 7):** Vater mit verrußter Schutzbrille, Mutter mit Säugling im Tuch, Tochter um die sieben; Dampfkarren mit Kessel (kein eigenes Bild).
+Die Kurzbeschreibungen vom 14.10.2026 sind unten ausgeschrieben und nach Grundaussehen und Szenenzuständen getrennt (**Vorschlag, 20.10.2026**, für die neuen Szenenbilder; passend zu Story und Tagebuch-Skizzen in `docs/art/tagebuch/menschen/`).
+
+- **Ole (Perle 2, Schmiedelehrling):**
+  - **Grundaussehen:** Mensch, Junge um die fünfzehn, schlaksig, kurze, ungekämmte braune Haare, ehrliches rundes Gesicht; graues Leinenhemd mit hochgekrempelten Ärmeln, schwere braune Lederschürze des Schmieds, braune Hose, abgetragene Stiefel. Verlegen, dankbar, nicht feige. (Story: fünfzehn, Lederschürze / Vorschlag 20.10.2026)
+  - **Szenenzustände:** Perle 2 nach dem Feuer: **Ruß im Gesicht**, **rechte Hand in weißem Leinenverband** (Story).
+- **Pip (Perle 5, Koboldkind):**
+  - **Grundaussehen:** sehr kleiner Kobold, **kaum größer als ein Knie** (Story), **graugrüne Schuppen**, schmales Echsengesicht, **riesige runde gelbe Augen**, kurzer Schwanz, winzige Lederschürze, barfuß mit kleinen Krallen; **viel zu großer, verbeulter Grubenhelm**, der ihm über die Augen rutscht (Story). Neugierig, ernst wie ein Erwachsener, wenn es um Versprechen geht. Im Text ohne Er/Sie, deshalb auch im Bild weder deutlich Junge noch Mädchen. (Vorschlag 20.10.2026)
+  - **Szenenzustände:** –
+- **Jaro (Perle 6, junger Söldner der Waage):**
+  - **Grundaussehen:** Mensch, etwa **siebzehn**, schmales Jungengesicht, **viele Sommersprossen**, strubbelige **kupferrote Haare**, ohne Helm/Kappe; langer schwarzer Mantel der Waage, dunkle Brustplatte mit goldener Waage, die **eine Nummer zu groß** ist und schief sitzt (Story); Kurzschwert in der Scheide (nie gezogen). Müde, freundlich, kein Kämpfer. (Vorschlag 20.10.2026)
+  - **Szenenzustände:** Perle 6 an der Straße: Blechnapf mit Eintopf und Holzlöffel. Perle 7 in Lysmara (wenn `jaro_gesprochen`): ohne Mantel und Rüstung in Hemd und Schürze, schleppt eine Kiste Fische.
+- **Brina (Perle 6, alte Wasser-Ruferin):**
+  - **Grundaussehen:** sehr alte, kleine, zierliche Menschenfrau aus einem Dorf bei Wollmark; **Gesicht wie ein Apfel, der zu lange im Keller lag** (Story), **sehr helle, wache Augen** (Story), graues Haar im **lockeren Knoten** mit losen Strähnen; verblichenes blaues Wollschultertuch über einem schlichten braunen Kleid; **kleine quadratische Messingplakette** mit Waage an einer Schnur um den Hals (Story). Freundlich, klug, sehr müde. (Vorschlag 20.10.2026)
+  - **Szenenzustände:** Perle 6 im Hof: Tonbecher mit Tee in beiden Händen, sitzt auf einem Strohsack.
+- **Die Gnomenfamilie (Perle 7):** Gnome, etwa halb so groß wie ein Mensch, große Nasen. (Story: Vater mit verrußter Schutzbrille, Mutter mit Säugling im Tuch, Mädchen um die sieben)
+  - **Grundaussehen Vater:** kurzer brauner Bart, Messing-Schutzbrille auf der Stirn, braune Lederweste über einem Hemd mit hochgekrempelten Ärmeln, Werkzeug am Gürtel. (Vorschlag 20.10.2026)
+  - **Grundaussehen Mutter:** kastanienbraunes Haar im Knoten, grünes Reisekleid, Säugling im Tragetuch vor der Brust. (Vorschlag 20.10.2026)
+  - **Grundaussehen Tochter:** Gnomenmädchen um die sieben, zwei kurze braune Zöpfe, rostrotes Kleid. Erklärt gern jedes Ventil. (Vorschlag 20.10.2026)
+  - **Dampfkarren:** wie der Karren des Obsthändlers (`requisiten/dampfkarren.png`: kleiner Messingkessel, Schornstein, roter Ventilgriff), aber beladen mit Kisten, Decken und Kochtöpfen.
+  - **Szenenzustände:** Perle 7 auf der Straße: Schutzbrille des Vaters **verrußt**, das Mädchen hat verweinte Augen, ein Rad im Graben, Kessel kalt (kein Dampf). In Dornfurt (wenn geholfen): Kessel pfeift und dampft, das Mädchen sitzt oben auf dem Kessel.
 
 ## Bezugspersonen (je nach Hintergrund)
 

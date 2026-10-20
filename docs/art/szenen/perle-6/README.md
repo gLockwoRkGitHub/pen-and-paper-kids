@@ -104,6 +104,21 @@ Ausgearbeitet von Claude am 13.10.2026. Die lokale Sitzung arbeitet die Bilder i
 **Ebene:** Tagebuch · **Inhalt:** Kohleskizze der Festung in der Schlucht, Turm mit gesprungenem Spiegel, kleine Punkte, die in den Himmel fliegen (Wasserfarbe in vier Farben). Am Rand eine Plakette und eine kleine Glaskugel. Keine Schrift.
 **Referenzen:** keine.
 
+## 15. `szene/brina-im-hof` – „Setz dich. Hier zieht es weniger.“ (neu, 20.10.2026)
+**Moment:** Szene `p6_brina` (`story/perle-6/hof.ink`). Im Hof von Vardholm lädt die alte Wasser-Ruferin Brina die Spielfigur ein, sich neben sie zu setzen.
+**Aussage:** Mitten zwischen erschöpften Eingeschriebenen ein Mensch, der freundlich ist. Was die Waage nimmt, sieht man an ihr.
+**Blick:** Brina sitzt auf einem Strohsack an der Hofmauer, dem Betrachter zugewandt, neben ihr ein **freier Platz**. **Beide Hände um einen Tonbecher** im Schoß, Messingplakette mit kleiner Waage am Hals. Hinten klein andere Eingeschriebene, darüber der Turm mit dem runden Spiegel vor den ersten Sternen.
+**Licht:** blaue Dämmerung, eine Laterne über ihr.
+**Hinweis:** `entdeckung/vardholm-hof` steht kurz davor (Übersicht des Hofs); dieses Bild ist die Nahaufnahme.
+**Referenzen:** `tagebuch/menschen/brina.png`, `orte/vardholm-hof.png`, `requisiten/plakette-waage.png`.
+
+## 16. `szene/jaro-am-feuer` – Ein Söldner mit Feierabend (neu, 20.10.2026)
+**Moment:** Szene `p6_strassenlager` (`story/perle-6/hof.ink`). Rast an der Straße eine Stunde vor Vardholm. Ein junger Söldner setzt sich mit seinem Napf neben die Spielfigur und bemerkt sie erst jetzt.
+**Aussage:** Auch bei der Waage gibt es Menschen, die einfach nur Geld für ihre Familie brauchen.
+**Blick:** Jaro sitzt eine Armlänge entfernt auf einem flachen Stein, **Napf in der linken Hand auf dem Knie, Löffel in der rechten** auf halbem Weg zum Mund, und schaut überrascht auf. Brustplatte sichtlich zu groß und schief, kein Helm, rote Haare, Sommersprossen. Hinten klein Feuer am Straßenrand mit Eingeschriebenen in Decken, in der Ferne die Schlucht.
+**Licht:** Dämmerung, orangefarbenes Feuer im Gesicht, erste Sterne.
+**Referenzen:** `tagebuch/menschen/jaro.png`, `figuren/soeldner-waage-einzel.png`.
+
 ## Neue Figuren
 | Datei | Figur |
 |---|---|
