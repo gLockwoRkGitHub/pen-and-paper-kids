@@ -38,11 +38,11 @@ Was hast du bisher getan?
     ~ hintergrund = "schausteller"
 + [Straßenkind – du kennst jede Gasse und jeden Trick]
     ~ hintergrund = "strassenkind"
-+ [{geschlecht == "w":Botenläuferin|Botenläufer} – du bist schnell und kennst jeden Torwärter]
++ [{geschlecht == "w":Botenläuferin|Botenläufer} – du bist schnell und kennst jeden Torwächter]
     ~ hintergrund = "botenlaeufer"
 + [Kartografenlehrling – du zeichnest, was andere übersehen]
     ~ hintergrund = "kartografenlehrling"
-+ [Schiffsjunge – du kennst Taue, Takelage und Luftschiffe]
++ [{geschlecht == "w":Schiffsmädchen|Schiffsjunge} – du kennst Taue, Takelage und Luftschiffe]
     ~ hintergrund = "schiffsjunge"
 - -> werte_verteilen
 
@@ -62,12 +62,16 @@ Und noch eine Sache? (+1)
     Als Mensch passt du dich an. Worin wirst du noch besser? (+1)
     -> wert_waehlen(1) ->
 - "zwerg":
+    Zwerge sind stark wie der Fels: +1 Kraft.
     ~ steigern(kraft)
 - "gnom":
+    Gnome stecken voller Ideen: +1 Verstand.
     ~ steigern(verstand)
 - "ork":
+    Orks sind laut und stolz, und man hört ihnen zu: +1 Ausstrahlung.
     ~ steigern(ausstrahlung)
 - "troll":
+    Trolle sind geschmeidig und flink: +1 Geschick.
     ~ steigern(geschick)
 }
 # werte_fertig

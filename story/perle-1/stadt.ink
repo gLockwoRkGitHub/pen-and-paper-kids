@@ -54,7 +54,7 @@ Am Kai lachen ein paar Hafenarbeiter. „Lass den Wurm doch baden!“
     ~ temp e_b = probe(geschick)
     ~ probe_zeile("Geschick", e_b)
     -> rettung(e_b)
-* {hintergrund == "schiffsjunge"} [(Schiffsjunge) Ein Tau über den Ausleger werfen und mit einem Seemannsknoten sichern]
+* {hintergrund == "schiffsjunge"} [({geschlecht == "w":Schiffsmädchen|Schiffsjunge}) Ein Tau über den Ausleger werfen und mit einem Seemannsknoten sichern]
     Du schnappst dir ein Tau, wirfst es über den Ausleger und schlingst einen Knoten, den Kapitänin Rhea dir hundertmal gezeigt hat. Dann ziehst du. Langsam, gleichmäßig, wie beim Segelsetzen.
     -> rettung(ERFOLG)
 * [Nichts tun. Kobolde können doch schwimmen. Oder?]

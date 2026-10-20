@@ -188,5 +188,9 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Pip:** ein Satz im letzten Tagebucheintrag, wenn man ihr vom Himmel erzählt hat.
 - **Nicht umgesetzt:** Strell auf den Wegen „Tiefe“ und „Meer“ (er gehört an Straßen und Tore der Waage); eigene Tagebuch-Erinnerung „Brina“ (steht schon unter „Menschen“).
 
+## Stand 20.10.2026
+- **Hintergrund Schiffsjunge:** für Mädchen „Schiffsmädchen“.
+- **Volksbonus** wird in der Charaktererstellung mit einem Satz erklärt.
+
 ## Offen
-- Namen von Orten und Figuren (Vorschläge in `docs/worldbuilding/`).
+- ~~Namen von Orten und Figuren~~ – **bestätigt (Pasco, 20.10.2026):** alle Namen, wie sie in Story und `docs/worldbuilding/` stehen, gelten.

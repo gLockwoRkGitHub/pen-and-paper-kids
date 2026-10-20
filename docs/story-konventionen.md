@@ -37,7 +37,7 @@ Kennzeichnung: **Festgeschrieben** = so steht es schon in der Story und gilt. **
 - Links wächst ein **Steckbrief** mit, der neue Edelstein leuchtet golden.
 - **Zurück ist erlaubt**, aber nur hier: Der Player speichert vor jeder Wahl den Ink-Zustand und stellt ihn bei „Zurück“ wieder her. Ab `# werte_fertig` gibt es kein Zurück mehr.
 - **Im Player (19.10.2026):** Solange Ink hier nichts ausgibt, zeigt der Player eigene Sätze (z. B. „Zwerge sind stark wie der Fels: +1 Kraft.“). Gibt `charakter.ink` eine Zeile aus, nimmt er diese.
-- **Vorschlag an den Story-Chat:** Beim Volksbonus für Zwerg, Gnom, Ork und Troll gibt Ink bisher keinen Text aus; der Player kann den Bonus dann nicht erklären. Je eine Zeile in `charakter.ink` würde reichen, z. B. „Zwerge sind stark wie der Fels: +1 Kraft.“ Außerdem: In `charakter.ink` steht „Torwärter“, in der Story „Torwächter“; und für Mädchen heißt der Hintergrund weiterhin „Schiffsjunge“ – Absicht?
+- **Entschieden (Pasco, 20.10.2026, umgesetzt in der lokalen Sitzung):** `charakter.ink` gibt beim Volksbonus von Zwerg, Gnom, Ork und Troll jetzt je einen Satz aus (z. B. „Zwerge sind stark wie der Fels: +1 Kraft.“). „Torwärter“ ist zu „Torwächter“ korrigiert. Für Mädchen heißt der Hintergrund jetzt **„Schiffsmädchen“** (Auswahl in `charakter.ink` und Vorteils-Label in `perle-1/stadt.ink`; die ID bleibt `schiffsjunge`). **Für den Technologie-Chat:** In `player/src/lib/texte.ts` und `player/src/seiten/Erstellung.svelte` steht für die weibliche Form noch „Schiffsjunge“ – bitte auf „Schiffsmädchen“ ändern.
 
 ## 3. Tags
 
@@ -58,7 +58,7 @@ Format immer `# name` oder `# name: wert`. Kleinschreibung, keine Umlaute im Nam
 | `erwachen` | | Magie-Bereich im Charakterbogen freischalten | festgeschrieben |
 | `ausloeser` | `# ausloeser: brief` | Nur Information; der Wert steht auch in der Variable `ausloeser` | festgeschrieben |
 | `probe` | `# probe` | Würfelanimation zur folgenden Probenzeile (Abschnitt 4) | festgeschrieben 13.10.2026 |
-| `ende` | `# ende: erstes-abenteuer` | Abenteuer ist zu Ende: Abschlussbildschirm, Spielstand als „abgeschlossen“ markieren (steht am Schluss von Perle 7) | **Vorschlag** |
+| `ende` | `# ende: erstes-abenteuer` | Abenteuer ist zu Ende: Abschlussbildschirm, Spielstand als „abgeschlossen“ markieren (steht am Schluss von Perle 7) | festgeschrieben 20.10.2026 |
 
 Unbekannte Tags ignoriert der Player still. So kann die Story neue Tags einführen, bevor der Player sie kennt.
 
