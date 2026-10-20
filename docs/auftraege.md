@@ -31,9 +31,9 @@ Je Perle erst Figuren, Requisiten und Ortsbilder, dann die Szenen (sie brauchen 
 
 Der Player (Ausbaustufe 1) liegt in `player/`. Technik: `player/README.md`. **Anleitung für Pasco (PC im LAN, iPad im WLAN): `docs/anleitung-tablet.md`** – bei Rückfragen auf diese Anleitung verweisen und Schritt für Schritt helfen. Nichts davon braucht die GPU.
 
-- [ ] **P1 Starten:** `git pull`, `npm install`, dann `npm run spielen` (oder Doppelklick auf `spielen.cmd`). Beim ersten Mal wandelt `tools/baue-bilder.js` alle Bilder in WebP um (etwa eine Minute). Fragt Windows nach der Firewall: **Private Netzwerke** erlauben. Die Adresse „Auf dem Tablet“ an Pasco melden.
-- [ ] **P2 Prüfen:** `npm run player:pruefen` ausführen (Typprüfung + Durchlauf im Browser, Fotos in `test-results/player/`). Falls Playwright unter Windows kein Chromium findet: `npx playwright install chromium`. Ergebnis kurz in diesem Abschnitt notieren; die Fotos **nicht** committen.
-- [ ] **P3 Abschluss:** abhaken, committen, pushen. Fehler nicht selbst im Player beheben, sondern hier beschreiben – der Player wird im Technologie-Chat gebaut.
+- [x] **P1 Starten:** `git pull`, `npm install`, dann `npm run spielen` (oder Doppelklick auf `spielen.cmd`). Beim ersten Mal wandelt `tools/baue-bilder.js` alle Bilder in WebP um (etwa eine Minute). Fragt Windows nach der Firewall: **Private Netzwerke** erlauben. Die Adresse „Auf dem Tablet“ an Pasco melden.
+- [x] **P2 Prüfen:** `npm run player:pruefen` ausführen (Typprüfung + Durchlauf im Browser, Fotos in `test-results/player/`). Falls Playwright unter Windows kein Chromium findet: `npx playwright install chromium`. Ergebnis kurz in diesem Abschnitt notieren; die Fotos **nicht** committen.
+- [x] **P3 Abschluss:** abhaken, committen, pushen. Fehler nicht selbst im Player beheben, sondern hier beschreiben – der Player wird im Technologie-Chat gebaut. → **20.10.2026 (Story-Chat, auf Pascos Wunsch abgeschlossen):** P1 entfällt, das Spiel läuft über Cloudflare. P2 in der Cloud ausgeführt: `svelte-check` 0 Fehler (14 Warnungen „state_referenced_locally“, nur Hinweise), Browser-Durchlauf „Player: in Ordnung“ auf Tablet quer (45 Entscheidungen bis Perle 3), Tablet hochkant und Handy, keine Konsolenfehler. Hinweis: `teste-player.js` braucht vorher `npm run player:bauen`, sonst findet der Vorschau-Server nichts.
 
 ## Zeichen des Kreises der Vier: Ringe statt Spirale (Auftrag vom 14.10.2026) – ZUERST
 
