@@ -85,3 +85,12 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds, Referenzen aus 
 | Bild | Ergebnis |
 |---|---|
 | `szene-tuchhalle` | behalten: Brillen-Bearbeitung setzte in allen Seeds Linsentürme auf Nase oder Stirn |
+
+| `szene-erwachen-erde-cassian` | neu, Seed 5: Steintreppe wächst am Turm empor, der Junge steigt herab |
+| `szene-erwachen-erde-liora` | neu, Seed 5: Steintreppe am Turm, das Mädchen steigt herab |
+| `szene-erwachen-feuer-cassian` | behalten: alle 6 Seeds zeigen den Jungen groß statt klein oben, zwei Seeds mit Händen des Betrachters |
+| `szene-erwachen-wasser-cassian` | neu, Seed 3: Junge klein oben auf dem Turm, gewölbte Welle über dem Feuer |
+| `szene-erwachen-wasser-liora` | neu, Seed 3: Mädchen klein oben auf dem Turm, gewölbte Welle, kein Strahl unter ihr |
+| `szene-faerberturm-feuer` | neu, Seed 5: der Turm brennt unten, das Kind oben nur als kleine Silhouette |
+| `szene-grosse-schmiede` | neu, Seed 4: geschlossene Halle, kein Boot, kein Wasserrad |
+| `szene-schmiedekeller` | neu, Seed 3: Eisenstangen liegen am Boden, keine Gitter |
