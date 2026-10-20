@@ -214,3 +214,12 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `szene-fremder-am-steg` | neu, Seed 4: Ringzeichen mit Pfeil nach rechts auf den Planken. Der Fremde wirkt weiter jung (wie das gewählte Einzelbild) |
 | `szene-leeres-dorf` | neu, Seed 5: braun-weiße Ziege mit grauem Hinterteil, im Profil |
 | `entdeckung-aufstieg-suedarm` | neu, Seed 5: alter Hirte vor der Hütte, Fackelpfosten am Zickzackweg, eine zweite kleine Hütte |
+
+### Erzeugte Bilder – neue Szenen (lokale Sitzung, 20.10.2026, Auftrag S1–S8)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-scheune-nacht` | Runde 2, Seed 11: keine Figuren, grauer Wiesenstreifen mit Kante. Schwäche: im Steinring brennen kleine Flammen statt nur Glut (alle 12 Seeds) |
+| `szene-gnomenfamilie-karren` | Seed 4: drei Gnome plus Säugling, Vater mit Schutzbrille und Händen auf den Knien, Mädchen reibt sich das Auge und schaut her. Schwäche: Karren hat einen Messingkessel (kein Dampf), kein Rad im Graben |
+| `szene-laermwache` | Seed 2: Junge mit Kochtopf, Löffel rechts, Deckel links, Kinder klein im Hintergrund. Schwäche: ein Teil der Kinder schaut seitlich statt von hinten |
+| `szene-gnolllager-fluss` | Runde 1, Seed 1: genau drei Gnolle (Gnollin mit Netz, zwei Junge im Wasser), niemand schaut her. Schwäche: spitze Wolfsohren statt runder Hyänenohren (alle 12 Seeds), kleines Feuer neben der Gnollin |

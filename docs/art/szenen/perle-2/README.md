@@ -101,3 +101,9 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds, Referenzen aus 
 | `szene-faerberturm-feuer` | neu, Seed 5: der Turm brennt unten, das Kind oben nur als kleine Silhouette |
 | `szene-grosse-schmiede` | neu, Seed 4: geschlossene Halle, kein Boot, kein Wasserrad |
 | `szene-schmiedekeller` | neu, Seed 3: Eisenstangen liegen am Boden, keine Gitter |
+
+### Erzeugte Bilder – neue Szenen (lokale Sitzung, 20.10.2026, Auftrag S1–S8)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-lehrling-ole` | Seed 6: verbundene rechte Hand an der Brust, linke am Schürzenriemen, Turm schwarz ohne Flammen. Ole wirkt jünger als fünfzehn |

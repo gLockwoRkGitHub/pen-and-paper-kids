@@ -178,3 +178,10 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `entdeckung-vardholm-morgen` | neu, Seed 5: Feuer und Töpfe am Boden, Leute ohne Helm. Die Bronzeplatten sind weiter nicht leer |
 | `szene-festmahl-vardholm` | neu, Seed 5: alte Frau mit weißem Haar und Fläschchengürtel neben dem Gnom (Ambra) |
 | `szene-yrsas-karren` | neu, Seed 4: Yrsa auf dem Bock, Drahtkörbe, zwei Pferde angespannt |
+
+### Erzeugte Bilder – neue Szenen (lokale Sitzung, 20.10.2026, Auftrag S1–S8)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-brina-im-hof` | Seed 2: beide Hände am Becher, Plakette mit Waage, freier Platz, Turm mit Spiegel |
+| `szene-jaro-am-feuer` | Seed 5: Napf links, Löffel rechts, Schwert in der Scheide, Brustplatte mit Waage, Feuer nur am Boden |

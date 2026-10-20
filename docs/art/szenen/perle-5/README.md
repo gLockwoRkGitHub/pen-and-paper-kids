@@ -159,3 +159,9 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `szene-neumond-glimmhalde` | neu, Seed 3: Kobold klein am Rand, keine überzähligen Gliedmaßen. Statt eines senkrechten Schachts weiter eine Öffnung zum Sternenhimmel (alle Seeds) |
 | `szene-tiefe-stiege` | neu, Seed 3: Blick hinab, Kobold mit Rücken zum Betrachter, Lampe in der erhobenen Hand (dreht den Kopf kaum) |
 | `szene-vermisste-kobolde` | neu, Seed 3: sechs deutlich graue Kobolde (statt sieben) |
+
+### Erzeugte Bilder – neue Szenen (lokale Sitzung, 20.10.2026, Auftrag S1–S8)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-lampenlied-pip` | Runde 2, Seed 12: Pip schiebt den Helm hoch, andere Hand hängt, Kobolde als Silhouetten. Schwäche: etwa zehn statt sieben Lampen und sehr dunkel (in allen 12 Seeds) |
