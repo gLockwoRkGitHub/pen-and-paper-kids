@@ -2,6 +2,8 @@
 
 Anlass: Pasco hat im Player Kettrich und Talin mit drei Armen gefunden. Daraufhin hat Claude im Story-Chat alle Szenenbilder (Perle 1–7) und alle Figuren-Einzelbilder in voller Auflösung geprüft. Gemeldet sind nur echte Fehler (Anatomie, sichtbare Spielfigur, Schrift, grobe Abweichung von der Beschreibung). Jeder Fund hat einen englischen Prompt-Vorschlag. Auftrag dazu: `docs/auftraege.md`, Abschnitt „Bildprüfung in voller Größe“.
 
+**Umsetzung (20.10.2026, lokale Sitzung):** Je Fund steht das Ergebnis („neu, Seed …“ oder „behalten, weil …“) im README der jeweiligen Perle im Abschnitt „Bildprüfung 19.10.2026 – umgesetzt am 20.10.2026“; Figuren-Kandidaten in `docs/offene-entscheidungen.md` (Punkt 5).
+
 **Vorrang vor den Prompt-Vorschlägen:** Das Schweigen ist nie Rauch, Dampf oder Nebel – auch kein „thread of smoke“ über einem Lagerfeuer. Zeichen immer vier verschlungene Ringe (Vorlage `requisiten/ringzeichen.png`, notfalls `tools/zeichen-einsetzen.py`). Bei den Wiedersehen-Bildern in Perle 5 ist die halb graue Gesichtshälfte gewollt.
 
 ---
