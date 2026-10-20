@@ -136,3 +136,10 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 **`szene-brief-in-wollmark` neu (19.10.2026, Pasco):** In der alten Fassung stand Fink im Brunnen und hatte drei Hände. Prompt nachgeschärft (sitzt auf dem Rand, genau zwei Hände), Seed 9: zwei Hände (Apfel und Brief), Aufnäher mit Psst-Zeichen direkt mitgemalt.
 
 **Nachbesserung 20.10.2026 (B5):** `szene-talin` neu, Seed 2: genau zwei Arme (eine Hand an der Wand, eine am Korb), Plakette mit Waage am Hals.
+
+## Bildprüfung 19.10.2026 – umgesetzt am 20.10.2026 (lokale Sitzung)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-wiedersehen-botenlaeufer` | Bildbearbeitung Seed 3: linke Gesichtshälfte klar grau mit Kante |
+| `szene-wiedersehen-schausteller` | Bildbearbeitung Seed 3: linke Gesichtshälfte klar grau mit Kante |

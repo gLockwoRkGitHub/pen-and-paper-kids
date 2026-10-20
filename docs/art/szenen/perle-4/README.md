@@ -175,3 +175,12 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `
 | `szene-ruf-erde` / `-wasser` / `-feuer` / `-wind` | 3 / 3 / 2 / 4 | Ashka nicht deutlich erkennbar |
 | `szene-morgen-danach` | 2 | – |
 | `tagebuch-perle-4` | 4 | Buch auf Tisch |
+
+## Bildprüfung 19.10.2026 – umgesetzt am 20.10.2026 (lokale Sitzung)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-lamm-auf-der-strasse-cassian` | behalten: in keiner Bearbeitung ist die hintere Hälfte klar grau (nur das ganze Lamm leicht grauer) |
+| `szene-lamm-auf-der-strasse-liora` | behalten: wie Cassian |
+| `szene-freund-abgeholt-cassian` | Bildbearbeitung Seed 2: barhäuptig, eigene braune Mütze am Boden |
+| `szene-freund-abgeholt-liora` | Bildbearbeitung Seed 2: barhäuptig, eigene braune Mütze am Boden |

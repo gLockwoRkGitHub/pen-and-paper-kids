@@ -257,3 +257,21 @@ Beide Übersichten angesehen. **Insgesamt sehr gelungen:** Stil einheitlich, Ich
 **Zeichen der Leisen Hand (19.10.2026):** In `szene-markt.png` sah der Aufnäher auf Finks Mütze wie ein Mittelfinger aus; mit `tools/zeichen-einsetzen.py` durch die Vorlage `requisiten/leise-hand-zeichen.png` ersetzt.
 
 **Überarbeitet (19.10.2026, Pasco):** Der eingesetzte Aufnäher wirkte wie per Copy & Paste aufgeklebt. Neu: Das Modell malt den Aufnäher selbst im Bildstil (`figuren/fink-abzeichen.prompt.txt`, Referenzen: Originalbild + `requisiten/leise-hand-zeichen.png`); weil es dabei teils auch Fink veränderte, wurde mit `tools/bereich-mischen.py` nur die Mützenpartie ins Original übernommen. `tools/zeichen-einsetzen.py` ist für Aufnäher nicht mehr zu verwenden (nur für flache Zeichen wie Kreide oder Schnitzerei).
+
+## Bildprüfung 19.10.2026 – umgesetzt am 20.10.2026 (lokale Sitzung)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-bezugsperson-packt-botenlaeufer` | Bildbearbeitung Seed 1: Postsäcke ohne Schrift |
+| `szene-sonnenuntergang-hafen` | behalten: alle 4 Bearbeitungen machten die Segelschiffe durchscheinend/geisterhaft oder ließen Schrift am Kessel |
+| `szene-zwirbelgasse` | Bildbearbeitung Seed 3: Gnome mit Zahnrädern und Schraubenschlüsseln, keine Tablets |
+| `szene-bezugsperson-packt-reisender` | Bildbearbeitung Seed 1: Zimmer trocken, Regen nur draußen |
+| `tagebuch-kompass` | behalten: alle 4 Bearbeitungen behielten die Ringbindung und legten ein Lederband quer über die Zeichnung |
+| `tagebuch-erzmarke` | Bildbearbeitung Seed 2: aufgeschlagenes Buch mit Lederrücken, keine Ringbindung |
+| `szene-freund-faellt-cassian` | neu, Seed 5: genau zwei Hände, beide an Ästen, keine dritte Hand |
+| `szene-goblin-werkstatt` | neu, Seed 4 (genau zwei bekleidete Goblins, Tickwort auf der Kiste), danach Schwanz von Brakka per Bildbearbeitung entfernt (szene-goblin-werkstatt-schwanz.prompt.txt, Seed 1) |
+| `figur-grumak` | neu, Seed 5: Kohlebecken, Säcke brennen nicht |
+| `szene-klippen-leuchtturm` | neu, Seed 1: drei Beine, schiefer Turm; das Gras-Umklammern fehlt |
+| `szene-lysmara-abend` | neu, Seed 6: durchgehende Felswand mit einer Kerbe |
+| `tagebuch-perle-1` | neu, Seed 1: ein Brunnen, Apfel, Möwe und Tickwort getrennt |
+| `szene-eintreiber-fesk` | neu, Seed 4: Haustür in einer Gasse statt Häuschen; Fesk schaut weiter ins Buch (in allen 6 Seeds) |

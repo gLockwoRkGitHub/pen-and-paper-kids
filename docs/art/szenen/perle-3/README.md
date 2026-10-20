@@ -185,3 +185,10 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `
 **Überarbeitet (19.10.2026, Pasco):** Der eingesetzte Aufnäher wirkte wie per Copy & Paste aufgeklebt. Neu: Das Modell malt den Aufnäher selbst im Bildstil (`figuren/fink-abzeichen.prompt.txt`, Referenzen: Originalbild + `requisiten/leise-hand-zeichen.png`); weil es dabei teils auch Fink veränderte, wurde mit `tools/bereich-mischen.py` nur die Mützenpartie ins Original übernommen. `tools/zeichen-einsetzen.py` ist für Aufnäher nicht mehr zu verwenden (nur für flache Zeichen wie Kreide oder Schnitzerei).
 
 **Nachbesserung 20.10.2026 (B3):** `szene-tuchhalle-pruefung` neu, Seed 1 (Referenzen Kettrich, Hulda, Ortsbild): Kettrich mit zwei Armen auf dem Podest, Gnomenjunge mit kurzen Haaren und Schutzbrille, Hulda mit zwei Zöpfen. Die Brillen-Bearbeitung (4 Seeds) erzeugte zusätzliche Augen bzw. Linsentürme auf der Nase, deshalb normale Brille behalten.
+
+## Bildprüfung 19.10.2026 – umgesetzt am 20.10.2026 (lokale Sitzung)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-zelt-register` | Bildbearbeitung Seed 2: Kugeln leer, Blatt ohne Schrift |
+| `szene-beitritt-webstuhl` | behalten: Brillen-Bearbeitung setzte in allen Seeds Linsentürme auf die Nase |

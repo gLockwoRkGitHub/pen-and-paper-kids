@@ -79,3 +79,9 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds, Referenzen aus 
 | `szene-schmiedekeller` | 1 | – |
 | `szene-bruecke-abend-liora` / `-cassian` | 3 / 3 | Kein grüner Samt sichtbar (Verkleidung) |
 | `tagebuch-perle-2` | 4 | Buch liegt auf einem Tisch; Handschrift als unleserliche Kringel (wie im Prompt) |
+
+## Bildprüfung 19.10.2026 – umgesetzt am 20.10.2026 (lokale Sitzung)
+
+| Bild | Ergebnis |
+|---|---|
+| `szene-tuchhalle` | behalten: Brillen-Bearbeitung setzte in allen Seeds Linsentürme auf Nase oder Stirn |
