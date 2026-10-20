@@ -192,5 +192,12 @@ Festgelegte Grundsätze. Änderungen bitte mit Datum ergänzen.
 - **Hintergrund Schiffsjunge:** für Mädchen „Schiffsmädchen“.
 - **Volksbonus** wird in der Charaktererstellung mit einem Satz erklärt.
 
+### Browser-Player: offene Punkte geklärt (20.10.2026, Pasco)
+- **Spielstand bei Story-Änderungen:** kein Handlungsbedarf – der Sohn spielt erst, wenn alles fertig ist. Nächtliche Veröffentlichung bleibt.
+- **Test auf dem iPad** (Anmeldung über das Home-Bildschirm-Symbol, Offline): erledigt.
+- **Spielstand sichern/exportieren:** nicht nötig, ein Spielstand pro Gerät reicht.
+- **Kleinigkeiten** (Ortsnamen überlappen in Lysmara, Warnungen beim GitHub-Bau): so lassen.
+- **Vertonung und zweites Abenteuer:** weiter zurückgestellt.
+
 ## Offen
 - ~~Namen von Orten und Figuren~~ – **bestätigt (Pasco, 20.10.2026):** alle Namen, wie sie in Story und `docs/worldbuilding/` stehen, gelten.
