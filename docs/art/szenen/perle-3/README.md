@@ -192,3 +192,13 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `
 |---|---|
 | `szene-zelt-register` | Bildbearbeitung Seed 2: Kugeln leer, Blatt ohne Schrift |
 | `szene-beitritt-webstuhl` | behalten: Brillen-Bearbeitung setzte in allen Seeds Linsentürme auf die Nase |
+
+| `szene-morgen-mentor-erde` | neu, Seed 4: genau zwei Hände auf dem Felsen |
+| `entdeckung-magiergesetz-liora` | behalten: 12 Seeds in 2 Runden – entweder Fäuste in der Menge oder Liora fehlt bzw. der Herold wird zum Mädchen. Altes Bild hat weiter Fäuste und Doppelgängerinnen |
+| `entdeckung-magiergesetz-cassian` | neu (Runde 2), Seed 7: erwachsene Menge mit Hüten von hinten, Cassian zwischen den Eltern mit gesenktem Blick. Am linken Rand eine kleine erhobene Faust |
+| `tagebuch-perle-3` | neu, Seed 3: vier Ringe als Kleeblatt mit Figuren, vier Laternen blau/silber/gelb/rot (Gold eher gelb) |
+| `entdeckung-gildentag` | neu, Seed 3: schwarzes Banner mit goldener Waage. Die schwarz-goldene Tribüne fehlt weiterhin (in keinem Seed) |
+| `szene-brunnen-nacht-cassian` | neu, Seed 1: sitzt auf dem Rand, Beine außen |
+| `szene-brunnen-nacht-liora` | neu, Seed 1: sitzt auf dem Rand, Beine außen |
+| `szene-raum-der-vier` | behalten: alle 6 Seeds zeigen die Ringe in einer Reihe bzw. als Kette (verbotene Form); das alte Bild hat das korrekte Ringzeichen (nur zwei Figuren) |
+| `szene-tickwort-werkstatt` | neu, Seed 3: nur ein Goblin-Mädchen. Die Zettel tragen weiter Kritzel-Schrift (alle Seeds) |
