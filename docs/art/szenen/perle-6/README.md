@@ -146,3 +146,20 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | `szene-ruf-gross-erde` / `-feuer` / `-wasser` / `-wind` | 3 / 2 / 3 / 3 | – |
 | `entdeckung-vardholm-morgen` | 2 | – |
 | `tagebuch-perle-6` | 5 | Buch auf Tisch; unleserliche Notizen |
+
+## Bildprüfung 19.10.2026 – umgesetzt am 20.10.2026 (lokale Sitzung)
+
+| Bild | Ergebnis |
+|---|---|
+| `entdeckung-spaltstrasse-vardholm` | neu, Seed 2: Zug von hinten zur Festung, Söldner auf ganzen Pferden, nichts verschmolzen |
+| `szene-funken-frei` | behalten: in allen 6 Seeds liegen die Kugeln heil in den Körben, nur Funken am Boden |
+| `szene-modell-des-walls` | behalten: in allen 6 Seeds deckt die Glocke das ganze Modell, und die Zettel tragen Schein-Schrift |
+| `szene-ruf-gross-erde` | neu, Seed 4: Menge mit erhobenen Händen, schwebende Felsbrocken, braunes Licht. Weiter etwas Dunst im Hof |
+| `szene-ruf-gross-wasser` | neu, Seed 6: Menge mit Lichtern, Welle läuft die Schlucht hinauf |
+| `szene-ruf-gross-wind` | neu, Seed 4: Menge mit Plaketten, Wind als helle Linien (wirkt stellenweise noch schleierartig) |
+| `szene-ruf-gross-feuer` | neu, Seed 4: Menschen aller Altersgruppen, Plaketten mit Waage am Hals |
+| `szene-mauer-vardholm` | neu, Seed 2: steiler Blick die Mauer hinauf zur Zinne |
+| `szene-schweigen-im-spalt` | behalten (Seed 11 vom 19.10.): neue Seeds zeigen den Hof statt des Blicks die Schlucht entlang, Grenze ebenfalls unklar |
+| `entdeckung-vardholm-morgen` | neu, Seed 5: Feuer und Töpfe am Boden, Leute ohne Helm. Die Bronzeplatten sind weiter nicht leer |
+| `szene-festmahl-vardholm` | neu, Seed 5: alte Frau mit weißem Haar und Fläschchengürtel neben dem Gnom (Ambra) |
+| `szene-yrsas-karren` | neu, Seed 4: Yrsa auf dem Bock, Drahtkörbe, zwei Pferde angespannt |
