@@ -134,3 +134,5 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 **Zeichen der Leisen Hand (19.10.2026):** In `szene-brief-in-wollmark.png` sah der Aufnäher auf Finks Mütze wie ein Mittelfinger aus; mit `tools/zeichen-einsetzen.py` durch die Vorlage `requisiten/leise-hand-zeichen.png` ersetzt.
 
 **`szene-brief-in-wollmark` neu (19.10.2026, Pasco):** In der alten Fassung stand Fink im Brunnen und hatte drei Hände. Prompt nachgeschärft (sitzt auf dem Rand, genau zwei Hände), Seed 9: zwei Hände (Apfel und Brief), Aufnäher mit Psst-Zeichen direkt mitgemalt.
+
+**Nachbesserung 20.10.2026 (B5):** `szene-talin` neu, Seed 2: genau zwei Arme (eine Hand an der Wand, eine am Korb), Plakette mit Waage am Hals.
