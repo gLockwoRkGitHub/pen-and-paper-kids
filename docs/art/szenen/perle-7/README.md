@@ -167,3 +167,15 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 | Bild | Ergebnis |
 |---|---|
 | `szene-silbermark-stube` | Bildbearbeitung Seed 2: Schreiber als Mann um die vierzig mit Brille |
+
+| `szene-abschied-tickwort` | neu, Seed 4: zwei Arme, links Zange mit Pfeife, rechts leere Zange; die Goblins tragen jetzt Kleidung |
+| `szene-zum-halben-hauer` | behalten: alle 6 Seeds haben weiter offene Flammen auf den Tischen bzw. zwei heile Hauer, der Krug fällt nie |
+| `szene-vier-wege` | behalten: in allen 6 Seeds steht Schein-Schrift auf der Karte |
+| `tagebuch-perle-7` | neu, Seed 4 mit Nachbesserung: Ringzeichen unten rechts korrekt (vier Ringe im Kreis); ein zweites Zeichen oben rechts mit fünf Ringen wurde mit Papierfarbe übermalt |
+| `szene-abschied-nerelle` | neu, Seed 3: Wasserschlauch aus Robbenleder statt Eimer; der Betrachter steht weiter auf dem Deck |
+| `szene-abschied-vardholm-kommt-cassian` | neu, Seed 4: Tor offen, Schnallenschuhe hängen am Ranzen |
+| `szene-abschied-vardholm-kommt-liora` | neu, Seed 4: Tor offen, Schnallenschuhe hängen am Ranzen |
+| `szene-herz-wiedersehen` | behalten: in allen 6 Seeds zweimal Braun und kein Weiß, und aus dem Riss läuft Flüssigkeit |
+| `szene-fremder-am-steg` | neu, Seed 4: Ringzeichen mit Pfeil nach rechts auf den Planken. Der Fremde wirkt weiter jung (wie das gewählte Einzelbild) |
+| `szene-leeres-dorf` | neu, Seed 5: braun-weiße Ziege mit grauem Hinterteil, im Profil |
+| `entdeckung-aufstieg-suedarm` | neu, Seed 5: alter Hirte vor der Hütte, Fackelpfosten am Zickzackweg, eine zweite kleine Hütte |
