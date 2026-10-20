@@ -184,3 +184,15 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersichten: `
 | `szene-lamm-auf-der-strasse-liora` | behalten: wie Cassian |
 | `szene-freund-abgeholt-cassian` | Bildbearbeitung Seed 2: barhäuptig, eigene braune Mütze am Boden |
 | `szene-freund-abgeholt-liora` | Bildbearbeitung Seed 2: barhäuptig, eigene braune Mütze am Boden |
+
+| `figur-ashka` | neu, Seed 4: genau zwei Hände (Brust und Stab) |
+| `szene-ruf-wind` | neu, Seed 6: vier klar getrennte Gnolle; der Wind ist als weiße Wolkenbahn gemalt |
+| `szene-ruf-erde` | neu, Seed 1: getrennte Hyänen-Gnolle. Ein farbloser Hangstreifen ist in keinem Seed zu sehen |
+| `szene-landtor-morgen` | neu, Seed 5: kein Schatten des Betrachters, natürliche Berge; in der Kerbe steht in allen Seeds eine kleine Festung |
+| `szene-fremder-am-grauen` | neu, Seed 3: farbloses Feld hinter ihm mit klarer Kante, klarer Himmel, Ringzeichen als Kleeblatt |
+| `szene-ruf-wasser` | neu, Seed 3: Schäfer steht getrennt mit eigenen Beinen |
+| `szene-ruf-feuer` | neu, Seed 6: Gnolle mit Hyänenköpfen; ein grauer Schleier am Hang bleibt (in allen Seeds) |
+| `szene-nacht-das-schweigen` | neu, Seed 5: oberer Hang klar farblos mit Kante, genau ein Gnolljunges. Das Lagerfeuer brennt weiter hell (alle 6 Seeds) |
+| `szene-morgen-danach` | neu, Seed 2: Gnolljunges ohne Hörner zwischen getrennten Ziegen. Der graue Streifen fehlt |
+| `entdeckung-wollmark` | neu, Seed 3: Merla hält den Hirtenstab selbst, Pfosten mit leerem Blatt, schwarzes Zelt |
+| `szene-das-graue` | neu, Seed 4: Schafe am Rand, keine Nager, flache Wiese |
