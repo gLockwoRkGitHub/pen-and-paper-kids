@@ -275,3 +275,5 @@ Beide Übersichten angesehen. **Insgesamt sehr gelungen:** Stil einheitlich, Ich
 | `szene-lysmara-abend` | neu, Seed 6: durchgehende Felswand mit einer Kerbe |
 | `tagebuch-perle-1` | neu, Seed 1: ein Brunnen, Apfel, Möwe und Tickwort getrennt |
 | `szene-eintreiber-fesk` | neu, Seed 4: Haustür in einer Gasse statt Häuschen; Fesk schaut weiter ins Buch (in allen 6 Seeds) |
+
+| `szene-weite-feder` | neu, Seed 3 (20.10.2026) mit neuem Orwin-Einzelbild: zweite Brille auf der Stirn, Hände hautfarben, nur Fingerspitzen blau |

@@ -1,7 +1,7 @@
 # Offene Entscheidungen
 
 ## Zusammenfassung (20.10.2026)
-**1 Punkt offen:** Figuren-Kandidaten aus der Bildprüfung (V3). Alle anderen Punkte sind erledigt.
+Keine offenen Bild-Entscheidungen. Punkt 5 entschieden: Vorschläge übernommen, Strell bleibt (Pasco, 20.10.2026); Referenzblätter, Tagebuch-Skizzen und `szene-weite-feder` sind angepasst.
 
 ---
 

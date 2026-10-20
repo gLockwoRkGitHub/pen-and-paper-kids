@@ -24,3 +24,5 @@ Gewählt ist Seed 1, außer: `herzsplitter` 3 (einziger mit vier Farben), `quell
 **Fink (19.10.2026):** Aufnäher auf der Mütze in `menschen/fink.png` durch das Zeichen der Leisen Hand ersetzt (vorher Mittelfinger-artig).
 
 **Überarbeitet (19.10.2026, Pasco):** Der eingesetzte Aufnäher wirkte wie per Copy & Paste aufgeklebt. Neu: Das Modell malt den Aufnäher selbst im Bildstil (`figuren/fink-abzeichen.prompt.txt`, Referenzen: Originalbild + `requisiten/leise-hand-zeichen.png`); weil es dabei teils auch Fink veränderte, wurde mit `tools/bereich-mischen.py` nur die Mützenpartie ins Original übernommen. `tools/zeichen-einsetzen.py` ist für Aufnäher nicht mehr zu verwenden (nur für flache Zeichen wie Kreide oder Schnitzerei).
+
+**Neue Skizzen nach den übernommenen Figuren-Kandidaten (20.10.2026):** `menschen/` kettrich (Seed 3, Lupe seitlich, zwei Augen), durgash (2, Hauer), fink (2, Psst-Zeichen auf der Mütze), ashka (1, runde Ohren), ysolde (1; trägt in allen Seeds eine Brille), pell (2, ein Bleistift), mirk (3), faehrfrau (2, Stab mit Ringzeichen).
