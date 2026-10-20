@@ -143,3 +143,11 @@ Alle mit `tools/erzeuge-szene.ps1`, FLUX.2 klein 4B, je 6 Seeds. Übersicht: `ue
 |---|---|
 | `szene-wiedersehen-botenlaeufer` | Bildbearbeitung Seed 3: linke Gesichtshälfte klar grau mit Kante |
 | `szene-wiedersehen-schausteller` | Bildbearbeitung Seed 3: linke Gesichtshälfte klar grau mit Kante |
+
+| `szene-herz-des-berges` | neu, Seed 1: Ringe als Kleeblatt mit freier Mitte, Öllampe statt Glühbirne, runde Kugel. Im Kristall fünf statt vier Lichter (zweimal Braun) |
+| `szene-der-schlund` | neu, Seed 6: schwarzer Abgrund direkt vor dem Betrachter, Wasser tief unten |
+| `entdeckung-orin-treidelpfad` | neu, Seed 1: Maultiere ohne Helm laufen weg und ziehen, Kobolde nur in den Kähnen |
+| `szene-flucht-tiefe-stiege` | neu, Seed 3: Seitentunnel links, Kobold winkt besorgt. Das Grau auf den unteren Stufen fehlt |
+| `szene-neumond-glimmhalde` | neu, Seed 3: Kobold klein am Rand, keine überzähligen Gliedmaßen. Statt eines senkrechten Schachts weiter eine Öffnung zum Sternenhimmel (alle Seeds) |
+| `szene-tiefe-stiege` | neu, Seed 3: Blick hinab, Kobold mit Rücken zum Betrachter, Lampe in der erhobenen Hand (dreht den Kopf kaum) |
+| `szene-vermisste-kobolde` | neu, Seed 3: sechs deutlich graue Kobolde (statt sieben) |
