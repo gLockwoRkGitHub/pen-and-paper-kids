@@ -19,7 +19,7 @@
     strassenkind: ['Straßenkind', 'Straßenkind'],
     botenlaeufer: ['Botenläufer', 'Botenläuferin'],
     kartografenlehrling: ['Kartografenlehrling', 'Kartografenlehrling'],
-    schiffsjunge: ['Schiffsjunge', 'Schiffsjunge']
+    schiffsjunge: ['Schiffsjunge', 'Schiffsmädchen']
   };
 
   const istName = $derived(!spiel.bereit && spiel.auswahl.length === 0 && spiel.frage === 'Wie heißt du?');

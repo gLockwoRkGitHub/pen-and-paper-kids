@@ -45,7 +45,6 @@ Diese drei Ordner werden **nicht** committet (`.gitignore`), sie entstehen bei j
 
 ## Bekannte Grenzen
 - Ein Spielstand passt nur zu seiner Story-Version. Ändert sich die Story, beginnt beim Weiterlesen die aktuelle Perle neu (Speicherpunkt bei `# perle`).
-- Der Volksbonus-Text (Zwerg, Gnom, Ork, Troll) steht vorerst im Player, weil `charakter.ink` dazu nichts ausgibt. Gibt Ink dort eine Zeile aus, nimmt der Player diese.
 - Ink würfelt nur die Summe (2W6); die Aufteilung auf zwei Würfel ist reine Anzeige.
 - Der „Was ich gut kann“-Text, Gilden-, Volks- und Hintergrundnamen stehen im Player (`src/lib/texte.ts`, Quelle `docs/tagebuch.md`). Ändert der Story-Chat sie, hier nachziehen.
 - Karte: In dichten Gegenden (Lysmara-Ost) überlappen sich Ortsnamen etwas. Bei Bedarf in `karten.json` die Lage feinjustieren.

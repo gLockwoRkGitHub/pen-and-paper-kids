@@ -29,7 +29,7 @@ export const HINTERGRUND_NAME: Record<string, [string, string]> = {
   strassenkind: ['Straßenkind', 'Straßenkind'],
   botenlaeufer: ['Botenläufer', 'Botenläuferin'],
   kartografenlehrling: ['Kartografenlehrling', 'Kartografenlehrling'],
-  schiffsjunge: ['Schiffsjunge', 'Schiffsjunge']
+  schiffsjunge: ['Schiffsjunge', 'Schiffsmädchen']
 };
 
 /** Gilden, so wie sie in der Story heißen */
